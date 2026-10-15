@@ -1,31 +1,34 @@
-# Database e dati
-data/
-*.sqlite
-*.sqlite3
-*.sqlite3-wal
-*.sqlite3-shm
-*.db
-
-# Credenziali
 .env
-.env.*
-!.env.example
-*token*.json
-*secret*
-*.pem
-*.key
-
-# Ambiente Python
-.venv/
-venv/
+data/
 __pycache__/
 *.pyc
-
-# Runtime e backup
-.runtime/
-rollback-*/
-implementation-report/
-analysis-report/
-
-# Sistema operativo
 .DS_Store
+searxng/config/
+.venv/
+.runtime/
+.env.*
+!.env.example
+*.sqlite3
+*.sqlite3-*
+*.db
+*.serper-key
+*token*.json
+*credentials*.json
+implementation-report/rollback-*/
+/implementation-report/
+*.db-*
+*.sqlite
+*.sqlite-*
+analysis-report/
+implementation-report/*.log
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+*.p12
+*.pfx
+*.credentials
+credentials.json
+service-account*.json
+.DS_Store
+*.log
