@@ -1,0 +1,168 @@
+{
+  "started_at": "2026-10-13T22:46:02.022760+00:00",
+  "scope": "Piccolo campione diagnostico B2B Veneto. Identità/attività non equivalgono a opportunità. Nessun invio o nuovo contatto nel CRM reale.",
+  "provider": "SearXNG",
+  "query_offset": 0,
+  "excluded_report": null,
+  "paid_requests": 0,
+  "queries": [
+    {
+      "query": "impiantistica industriale Veneto azienda contatti -agenzia -software -lavoro",
+      "urls": [],
+      "new_urls": 0
+    },
+    {
+      "query": "ingegneria industriale Veneto azienda contatti -agenzia -software -lavoro",
+      "urls": [
+        "https://www.assindustriavenetocentro.it/confindustria/padova/vetrina.nsf/($schede)/DC564C42965C4E3EC125727A0041603B"
+      ],
+      "new_urls": 1
+    },
+    {
+      "query": "lavorazioni meccaniche Veneto azienda contatti -agenzia -software -lavoro",
+      "urls": [
+        "https://www.italmeccanicasrl.com/",
+        "https://www.torniturarigal.com/",
+        "https://www.stox.it/lavorazioni/lavorazioni-meccaniche/",
+        "https://www.stox.it/azienda/",
+        "https://www.mcmlavorazionimeccaniche.com/",
+        "https://www.meccanicanetwork.it/regione/veneto",
+        "https://www.meccanicanetwork.it/"
+      ],
+      "new_urls": 7
+    },
+    {
+      "query": "site:italmeccanicasrl.com novità nuovi servizi prodotti",
+      "urls": [
+        "https://italmeccanicasrl.com/index.html"
+      ],
+      "new_urls": 1
+    },
+    {
+      "query": "site:torniturarigal.com novità nuovi servizi prodotti",
+      "urls": [],
+      "new_urls": 0
+    }
+  ],
+  "companies": [
+    {
+      "url": "https://www.assindustriavenetocentro.it/confindustria/padova/vetrina.nsf/($schede)/DC564C42965C4E3EC125727A0041603B",
+      "state": "unverifiable",
+      "reason": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1028)"
+    },
+    {
+      "url": "https://www.italmeccanicasrl.com/",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "identity": {
+        "name": "ITALMECCANICA SRL",
+        "website": "https://www.italmeccanicasrl.com/",
+        "legal_id": "IT03190280275",
+        "region": "Veneto",
+        "identity_status": "verified"
+      },
+      "target_quote": "LAVORAZIONI MECCANICHE\nGRANDI E MEDIE DIMENSIONI\nLAVORAZIONI DI PRECISIONE\nCARPENTERIE SU COMMESSA\nPRODUZIONE\nCHIAVI IN MANO\nLAVORAZIONI MECCANICHE\nSTAMPI E PORTASTAMPI\nITALMECCANICA\nLAVORAZIONI MECCANICHE DI GRANDI E MEDI",
+      "limits": [],
+      "pages": [
+        "https://www.italmeccanicasrl.com/",
+        "https://www.italmeccanicasrl.com/chi-siamo.html",
+        "https://www.italmeccanicasrl.com/contatti.php"
+      ]
+    },
+    {
+      "url": "https://www.torniturarigal.com/",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "identity": {
+        "name": "TORNITURA RI.GAL. SRL",
+        "website": "https://www.torniturarigal.com/",
+        "legal_id": "IT03331570287",
+        "region": "Veneto",
+        "identity_status": "verified"
+      },
+      "target_quote": "Richiedi un Preventivo\nLavorazioni meccaniche Padova\nRichiedi un Preventivo\nLavorazioni meccaniche Padova\nRichiedi un Preventivo\nRichiedi un Preventivo\nOltre 20 anni di esperienza\nin fresatura, tornitura e foratura\nTORNITURA RI.GAL da oltre 20 a",
+      "limits": [],
+      "pages": [
+        "https://www.torniturarigal.com/",
+        "https://www.torniturarigal.com/lavorazioni-meccaniche-di-precisione-veneto/",
+        "https://www.torniturarigal.com/contatti/"
+      ]
+    },
+    {
+      "url": "https://www.stox.it/lavorazioni/lavorazioni-meccaniche/",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "identity": {
+        "name": "Stox - Lavorazioni e Assemblaggi meccanici",
+        "website": "https://www.stox.it/",
+        "legal_id": "IT03960210288",
+        "region": "Veneto",
+        "identity_status": "verified"
+      },
+      "target_quote": "LDATURA\nScopri le nostre lavorazioni di saldatura robotizzata e manuale nel dettaglio\nApprofondisci\nLAVORAZIONI MECCANICHE\nGuarda le numerose lavorazioni meccaniche di cui ci occupiamo.\nApprofondisci\nDEFORMAZIONE\nScopri le numerose applicazione della deformazione meccanica\nApprofondisci\nLINEE TAGLIO\nNaviga tra le differe",
+      "limits": [],
+      "pages": [
+        "https://www.stox.it/",
+        "https://www.stox.it/lavorazioni/lavorazioni-meccaniche/",
+        "https://www.stox.it/contatti/",
+        "https://www.stox.it/azienda/"
+      ]
+    },
+    {
+      "url": "https://www.mcmlavorazionimeccaniche.com/",
+      "state": "unverifiable",
+      "reason": "robots.txt non verificabile"
+    },
+    {
+      "url": "https://www.meccanicanetwork.it/regione/veneto",
+      "state": "needs_review",
+      "reason": "Fonte con aziende da identificare; non è un cliente né una prova di bisogno.",
+      "company_ready": false,
+      "identity": {
+        "name": null,
+        "website": null,
+        "legal_id": null,
+        "region": null,
+        "identity_status": null
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": []
+    }
+  ],
+  "investigations": [
+    {
+      "url": "https://www.italmeccanicasrl.com/servizi.html",
+      "state": "needs_review",
+      "reason": "Pagina aziendale letta: descrive l’attività o relazioni ordinarie, senza un evento o bisogno specifico da approfondire.",
+      "excerpts": []
+    },
+    {
+      "url": "https://italmeccanicasrl.com/index.html",
+      "state": "needs_review",
+      "reason": "Pagina aziendale letta: descrive l’attività o relazioni ordinarie, senza un evento o bisogno specifico da approfondire.",
+      "excerpts": []
+    },
+    {
+      "url": "https://www.torniturarigal.com/servizi/",
+      "state": "needs_review",
+      "reason": "Pagina aziendale letta: descrive l’attività o relazioni ordinarie, senza un evento o bisogno specifico da approfondire.",
+      "excerpts": []
+    }
+  ],
+  "assessments": [],
+  "limits": [
+    "Campione piccolo, settori e stadi diversi dai confronti Serper precedenti: nessuna comparazione di precisione o efficacia commerciale. Non misura risposte o clienti."
+  ],
+  "finished_at": "2026-10-13T22:46:32.766041+00:00",
+  "seconds": 30.7,
+  "summary": {
+    "pages_sampled": 6,
+    "businesses_identified": 3,
+    "deep_checks": 0,
+    "qualified": null
+  }
+}

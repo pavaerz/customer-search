@@ -1,0 +1,484 @@
+{
+  "started_at": "2026-10-14T10:54:36.438392+00:00",
+  "directory": "data/model-comparison/2026-10-14T10-54-36.414006+00-00",
+  "input_sha256": "79272c5efc4dda76a0d8ac8b9a326e60af791c46e1d7df772f7d6f804fc8786f",
+  "source_sha256": "81f387724e09b12afd1301be92074efbabb5bad51071724354b7cde0c1061a8e",
+  "search_requests": 0,
+  "web_requests": 0,
+  "results": [
+    {
+      "model": "qwen2.5:7b",
+      "options": {},
+      "case": "completed_site",
+      "split": "frozen original development case",
+      "passed": false,
+      "request_sha256": "1c500d8e884fcf587687964cac5553e52f564276a10164af72541c23fcd082ff",
+      "response": {
+        "claims": [
+          {
+            "unit_id": "444f77a66ca1ec29",
+            "kind": "event"
+          },
+          {
+            "unit_id": "44f62c6d15caf3d5",
+            "kind": "gap"
+          },
+          {
+            "unit_id": "fb02a4f4bfc1f755",
+            "kind": "process"
+          },
+          {
+            "unit_id": "ab8b89019454e819",
+            "kind": "scope"
+          }
+        ]
+      },
+      "proposed": [
+        {
+          "document_id": "c382570a3357b57e349efad8d6c7c0c776542af18353e0d33f5533f25b6101c0",
+          "kind": "event",
+          "quote": "Automazione Veneto Srl, realtà veneta nata nel 2000 e leader nelle manutenzioni industriali, impiantistica e carpenterie metalliche, presenta il suo nuovo sito web www.automazioneveneto.com, uno strumento moderno per connettersi con clienti in Italia e all’estero. Con oltre 25 anni di esperienza e un team di circa 100 specialisti, l’azienda ha affrontato sfide significative per realizzare questa piattaforma digitale, pensata per valorizzare servizi offerti ai propri clienti.​\nSfide Superate"
+        },
+        {
+          "document_id": "c382570a3357b57e349efad8d6c7c0c776542af18353e0d33f5533f25b6101c0",
+          "kind": "gap",
+          "quote": "La transizione digitale ha richiesto di superare ostacoli tecnici legati all’integrazione di contenuti complessi, come certificazioni (D.Lgs. 231/2001), privacy GDPR e descrizioni dettagliate di attività ad alto rischio, inclusi sabbiatura, verniciatura e demolizioni industriali. Operando in un settore tradizionale come l’industria metalmeccanica, con commesse recenti in Germania per Sener Bonatti, l’azienda ha dovuto bilanciare la rappresentazione di competenze specializzate (carpenterie"
+        },
+        {
+          "document_id": "c382570a3357b57e349efad8d6c7c0c776542af18353e0d33f5533f25b6101c0",
+          "kind": "process",
+          "quote": "dovuto bilanciare la rappresentazione di competenze specializzate (carpenterie pesanti/leggere, edilizia civile) con un design intuitivo e responsive, garantendo conformità normativa e accessibilità da mobile.​"
+        },
+        {
+          "document_id": "c382570a3357b57e349efad8d6c7c0c776542af18353e0d33f5533f25b6101c0",
+          "kind": "scope",
+          "quote": "Il nuovo sito internet, disponibile anche in lingua inglese, apre porte ad espansioni strategiche, come l’ampliamento del Consorzio CSB e progetti di internazionalizzazione in Europa. Il sito rafforza la visibilità online dell’azienda, attrae partner globali e supporta i decisori nella scelta di un partner ideale per le manutenzioni meccaniche industriali, progettazione installazione e manutenzione di impianti HVAC ed altri interessanti progetti. Visitalo ora per esplorare le referenze presenti"
+        }
+      ],
+      "signals": [
+        {
+          "id": "00cd0f7b1ebc6bb2b5a1",
+          "document_id": "c382570a3357b57e349efad8d6c7c0c776542af18353e0d33f5533f25b6101c0",
+          "kind": "event",
+          "quote": "Automazione Veneto Srl, realtà veneta nata nel 2000 e leader nelle manutenzioni industriali, impiantistica e carpenterie metalliche, presenta il suo nuovo sito web www.automazioneveneto.com, uno strumento moderno per connettersi con clienti in Italia e all’estero. Con oltre 25 anni di esperienza e un team di circa 100 specialisti, l’azienda ha affrontato sfide significative per realizzare questa piattaforma digitale, pensata per valorizzare servizi offerti ai propri clienti.​\nSfide Superate",
+          "url": "https://www.automazioneveneto.com/online-nuovo-sito-web-aziendale/",
+          "published_at": "2025-12-08",
+          "checked_at": "2026-10-14T10:06:05.216619+00:00",
+          "official": true,
+          "event_key": "7b58699435ba60accc8cb78deddfcd1fad8b5777ee47edb9a23323094cdebdc8"
+        },
+        {
+          "id": "cf1900353f5ce0ba7529",
+          "document_id": "c382570a3357b57e349efad8d6c7c0c776542af18353e0d33f5533f25b6101c0",
+          "kind": "business",
+          "quote": "La transizione digitale ha richiesto di superare ostacoli tecnici legati all’integrazione di contenuti complessi, come certificazioni (D.Lgs. 231/2001), privacy GDPR e descrizioni dettagliate di attività ad alto rischio, inclusi sabbiatura, verniciatura e demolizioni industriali. Operando in un settore tradizionale come l’industria metalmeccanica, con commesse recenti in Germania per Sener Bonatti, l’azienda ha dovuto bilanciare la rappresentazione di competenze specializzate (carpenterie",
+          "url": "https://www.automazioneveneto.com/online-nuovo-sito-web-aziendale/",
+          "published_at": "2025-12-08",
+          "checked_at": "2026-10-14T10:06:05.216619+00:00",
+          "official": true,
+          "event_key": "59c5eb747a2455d4ee218e4268ce855c33ddff880809a6104959231b5274b0be",
+          "model_kind": "gap",
+          "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+        },
+        {
+          "id": "c439c12b5f7f4e7df477",
+          "document_id": "c382570a3357b57e349efad8d6c7c0c776542af18353e0d33f5533f25b6101c0",
+          "kind": "business",
+          "quote": "dovuto bilanciare la rappresentazione di competenze specializzate (carpenterie pesanti/leggere, edilizia civile) con un design intuitivo e responsive, garantendo conformità normativa e accessibilità da mobile.​",
+          "url": "https://www.automazioneveneto.com/online-nuovo-sito-web-aziendale/",
+          "published_at": "2025-12-08",
+          "checked_at": "2026-10-14T10:06:05.216619+00:00",
+          "official": true,
+          "event_key": "b8bdf5efc5ebfc6979e0616bef41b4154dfcddf147f0d34b1462b0429d5c5303",
+          "model_kind": "process",
+          "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+        },
+        {
+          "id": "85a645acf6f47d27334d",
+          "document_id": "c382570a3357b57e349efad8d6c7c0c776542af18353e0d33f5533f25b6101c0",
+          "kind": "scope",
+          "quote": "Il nuovo sito internet, disponibile anche in lingua inglese, apre porte ad espansioni strategiche, come l’ampliamento del Consorzio CSB e progetti di internazionalizzazione in Europa. Il sito rafforza la visibilità online dell’azienda, attrae partner globali e supporta i decisori nella scelta di un partner ideale per le manutenzioni meccaniche industriali, progettazione installazione e manutenzione di impianti HVAC ed altri interessanti progetti. Visitalo ora per esplorare le referenze presenti",
+          "url": "https://www.automazioneveneto.com/online-nuovo-sito-web-aziendale/",
+          "published_at": "2025-12-08",
+          "checked_at": "2026-10-14T10:06:05.216619+00:00",
+          "official": true,
+          "event_key": "339371455e403610940c16e169e0d8df9fabdcddb9de8638d0882c5d2d01d2d7"
+        }
+      ],
+      "missing": [
+        "counterevidence"
+      ],
+      "forbidden": [
+        "gap"
+      ],
+      "errors": [],
+      "seconds": 13.28
+    },
+    {
+      "model": "qwen2.5:7b",
+      "options": {},
+      "case": "industrial_services",
+      "split": "frozen original development case",
+      "passed": true,
+      "request_sha256": "d6f78451df30062c0a0acd0222cd4f19472953019459ed0f9f0246d50ca89c62",
+      "response": {
+        "claims": [
+          {
+            "unit_id": "0ba09a02d13edb49",
+            "kind": "business"
+          },
+          {
+            "unit_id": "f696fabb83dc6511",
+            "kind": "process"
+          },
+          {
+            "unit_id": "88f3f4e08a5193b2",
+            "kind": "business"
+          },
+          {
+            "unit_id": "3c14842d4ea0ab81",
+            "kind": "process"
+          },
+          {
+            "unit_id": "b7487c7d960106b5",
+            "kind": "business"
+          },
+          {
+            "unit_id": "b11b2e13e42b997d",
+            "kind": "process"
+          },
+          {
+            "unit_id": "9f12ad7812392e7a",
+            "kind": "process"
+          },
+          {
+            "unit_id": "cebf618960635ea3",
+            "kind": "process"
+          }
+        ]
+      },
+      "proposed": [
+        {
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Automazione Veneto è conosciuta sul mercato per essere un’azienda specializzata nella progettazione e realizzazione di impianti servizi e impianti tecnologici per siti industriali."
+        },
+        {
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "process",
+          "quote": "Siamo in grado di progettare soluzioni efficaci, formulando offerte tecnico-commerciali adeguate a soddisfare ogni tipo di esigenza, occupandoci di tutte le fasi operative della commessa, dalla fornitura del materiale al trasporto, dal montaggio al collaudo, dal controllo qualità/sicurezza alla certificazione, attraverso la supervisione dei nostri Project Manager, Quality Manager e HSE, per una gestione completa della realizzazione dell’opera presso la sede del nostro cliente."
+        },
+        {
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Grazie alle relazioni commerciali instaurate con le case madri delle marche più conosciute disponiamo di condizioni di acquisto esclusive, a beneficio dei nostri clienti, sia per quanto riguarda le materie prime che i prodotti finiti e i ricambi. Siamo abilitati alla costruzione, all’installazione e alla manutenzione di impianti antincendio, elettrici ed elettronici, termici e di condizionamento, idrici e di distribuzione del gas."
+        },
+        {
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "process",
+          "quote": "Possiamo garantire una puntuale manutenzione ordinaria e straordinaria agli impianti industriali di ogni genere, anche grazie a maestranze qualificate in grado di operare in quota e in spazi confinati.\nSiamo strutturati per gestire le manutenzioni durante i periodi di fermo impianto, coordinando tutto il personale necessario ad eseguire gli interventi affidateci."
+        },
+        {
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Offriamo su richiesta un servizio di pronto intervento 24 ore su 24 per garantire la risoluzione tempestiva di eventuali fermi impianto.\nRichiedi informazioni\nIndustrial\nPlants\nElenco servizi\nScopri le nostre soluzioni\nManutenzione meccanica industriale\nImpianti tecnologici\nImpianti fotovoltaici\nVerifiche periodiche\nTrattamenti termici\nCarpenterie metalliche\nBeverages solutions\nImpianti elettrici\nImpianti antincendio\nHVAC – impianti trattamento aria\nPiping industriale certificato"
+        },
+        {
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "process",
+          "quote": "Punti di forza sono l’impiego regolare di risorse umane altamente qualificate, nonché l’utilizzo di attrezzature tecniche sempre all’avanguardia in grado di soddisfare le esigenze più specifiche ed i requisiti qualitativi più stringenti.\nProgettazione"
+        },
+        {
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "process",
+          "quote": "Automazione Veneto offre supporto tecnico e consulenziale per lo sviluppo o la revisione di progetti specifici. L’unità di ingegneria, equipaggiata con strumenti di modellazione 3D e competenze avanzate garantisce qualità e conformità in ogni fase della progettazione.\nPrefabbricazione"
+        },
+        {
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "process",
+          "quote": "Attrezzatura aggiornate, competenza e grande manualità unite a precisione, affidabilità e rigoroso controllo durante tutto il ciclo produttivo contribuiscono a realizzare il prodotto finale in conformità alle necessità del cliente.\nMontaggio\nAutomazione Veneto è un partner affidabile per le attività di montaggio in ogni tipologia di sito. La competenza e l’esperienza acquisite negli anni permettono alle nostre squadre di operare con estrema professionalità in realtà anche molto diverse tra loro."
+        }
+      ],
+      "signals": [
+        {
+          "id": "a2a743a144eae5602f92",
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Automazione Veneto è conosciuta sul mercato per essere un’azienda specializzata nella progettazione e realizzazione di impianti servizi e impianti tecnologici per siti industriali.",
+          "url": "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+          "published_at": null,
+          "checked_at": "2026-10-14T09:55:36.575924+00:00",
+          "official": true,
+          "event_key": "974bb725f7fc0d81b6768147c9b7d7940daedf5657ca039fc6b1048e197f7813"
+        },
+        {
+          "id": "c37ccca5bcd2e1fcd459",
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Siamo in grado di progettare soluzioni efficaci, formulando offerte tecnico-commerciali adeguate a soddisfare ogni tipo di esigenza, occupandoci di tutte le fasi operative della commessa, dalla fornitura del materiale al trasporto, dal montaggio al collaudo, dal controllo qualità/sicurezza alla certificazione, attraverso la supervisione dei nostri Project Manager, Quality Manager e HSE, per una gestione completa della realizzazione dell’opera presso la sede del nostro cliente.",
+          "url": "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+          "published_at": null,
+          "checked_at": "2026-10-14T09:55:36.575924+00:00",
+          "official": true,
+          "event_key": "41a85f101edaab84e2fbb27add96969f562dd8385964069cf3ae1233b02c4a85",
+          "model_kind": "process",
+          "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+        },
+        {
+          "id": "1d07de1efb536359efbd",
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Grazie alle relazioni commerciali instaurate con le case madri delle marche più conosciute disponiamo di condizioni di acquisto esclusive, a beneficio dei nostri clienti, sia per quanto riguarda le materie prime che i prodotti finiti e i ricambi. Siamo abilitati alla costruzione, all’installazione e alla manutenzione di impianti antincendio, elettrici ed elettronici, termici e di condizionamento, idrici e di distribuzione del gas.",
+          "url": "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+          "published_at": null,
+          "checked_at": "2026-10-14T09:55:36.575924+00:00",
+          "official": true,
+          "event_key": "179081efa5d382f7ac40c37402a96aa4fc9c23e61bdf80fbaaf453a03fb90ac1"
+        },
+        {
+          "id": "f243744e2cecac6519ea",
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Possiamo garantire una puntuale manutenzione ordinaria e straordinaria agli impianti industriali di ogni genere, anche grazie a maestranze qualificate in grado di operare in quota e in spazi confinati.\nSiamo strutturati per gestire le manutenzioni durante i periodi di fermo impianto, coordinando tutto il personale necessario ad eseguire gli interventi affidateci.",
+          "url": "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+          "published_at": null,
+          "checked_at": "2026-10-14T09:55:36.575924+00:00",
+          "official": true,
+          "event_key": "7dd4fbbee0f903bb4cdd4d16c58ff3ba2c55945735ccc2c21f05d9dc15c3ab22",
+          "model_kind": "process",
+          "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+        },
+        {
+          "id": "0369f34685ae27969fff",
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Offriamo su richiesta un servizio di pronto intervento 24 ore su 24 per garantire la risoluzione tempestiva di eventuali fermi impianto.\nRichiedi informazioni\nIndustrial\nPlants\nElenco servizi\nScopri le nostre soluzioni\nManutenzione meccanica industriale\nImpianti tecnologici\nImpianti fotovoltaici\nVerifiche periodiche\nTrattamenti termici\nCarpenterie metalliche\nBeverages solutions\nImpianti elettrici\nImpianti antincendio\nHVAC – impianti trattamento aria\nPiping industriale certificato",
+          "url": "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+          "published_at": null,
+          "checked_at": "2026-10-14T09:55:36.575924+00:00",
+          "official": true,
+          "event_key": "b33b546b83213579964b1a6265f992283dd8fe1b9c4c99cc29010246704f68b5"
+        },
+        {
+          "id": "36a23acec9fb7473a33c",
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Punti di forza sono l’impiego regolare di risorse umane altamente qualificate, nonché l’utilizzo di attrezzature tecniche sempre all’avanguardia in grado di soddisfare le esigenze più specifiche ed i requisiti qualitativi più stringenti.\nProgettazione",
+          "url": "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+          "published_at": null,
+          "checked_at": "2026-10-14T09:55:36.575924+00:00",
+          "official": true,
+          "event_key": "f2305d8d60d6f4adaa3eca051d90f21ac35c9141335111122f34d0362678b01e",
+          "model_kind": "process",
+          "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+        },
+        {
+          "id": "ac9aaadc0350690bddca",
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Automazione Veneto offre supporto tecnico e consulenziale per lo sviluppo o la revisione di progetti specifici. L’unità di ingegneria, equipaggiata con strumenti di modellazione 3D e competenze avanzate garantisce qualità e conformità in ogni fase della progettazione.\nPrefabbricazione",
+          "url": "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+          "published_at": null,
+          "checked_at": "2026-10-14T09:55:36.575924+00:00",
+          "official": true,
+          "event_key": "1753055e71429f137e75345a63b20dd02cd6706353f982a018a704126d4d8b86",
+          "model_kind": "process",
+          "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+        },
+        {
+          "id": "01df47fa222321b119b3",
+          "document_id": "e81a1b989429659d118413922c7c96b96b919c3a2b74133f7a3bf0af63abf242",
+          "kind": "business",
+          "quote": "Attrezzatura aggiornate, competenza e grande manualità unite a precisione, affidabilità e rigoroso controllo durante tutto il ciclo produttivo contribuiscono a realizzare il prodotto finale in conformità alle necessità del cliente.\nMontaggio\nAutomazione Veneto è un partner affidabile per le attività di montaggio in ogni tipologia di sito. La competenza e l’esperienza acquisite negli anni permettono alle nostre squadre di operare con estrema professionalità in realtà anche molto diverse tra loro.",
+          "url": "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+          "published_at": null,
+          "checked_at": "2026-10-14T09:55:36.575924+00:00",
+          "official": true,
+          "event_key": "d7aa23a7cbe54d3ec821e6f4930fcaf32f5a392c3c7d71e071db1100a3421690",
+          "model_kind": "process",
+          "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+        }
+      ],
+      "missing": [],
+      "forbidden": [],
+      "errors": [],
+      "seconds": 17.26
+    },
+    {
+      "model": "qwen2.5:7b",
+      "options": {},
+      "case": "explicit_request",
+      "split": "synthetic control, not a real company",
+      "passed": false,
+      "request_sha256": "54ce8900a54759f2e98217e3a7e8438060a7b298e1d39b740317feec072e0423",
+      "response": {
+        "claims": [
+          {
+            "unit_id": "3aa42cb4a6d63485",
+            "kind": "request"
+          }
+        ]
+      },
+      "proposed": [
+        {
+          "document_id": "explicit_request",
+          "kind": "request",
+          "quote": "Cerchiamo un fornitore per il rifacimento completo del sito aziendale. Il budget destinato a questo progetto è di 6000 euro."
+        }
+      ],
+      "signals": [
+        {
+          "id": "c071cfd6d6d544b13077",
+          "document_id": "explicit_request",
+          "kind": "request",
+          "quote": "Cerchiamo un fornitore per il rifacimento completo del sito aziendale. Il budget destinato a questo progetto è di 6000 euro.",
+          "url": "https://example.invalid/explicit_request",
+          "published_at": null,
+          "checked_at": "2026-10-14T10:54:36.388728+00:00",
+          "official": true,
+          "event_key": "4f16a322e4057908bf76e62315f6cb5dc32ac44332ec7b4c1d8d44958e09265a"
+        }
+      ],
+      "missing": [
+        "budget"
+      ],
+      "forbidden": [],
+      "errors": [],
+      "seconds": 1.92
+    },
+    {
+      "model": "qwen2.5:7b",
+      "options": {},
+      "case": "employee_not_project",
+      "split": "synthetic control, not a real company",
+      "passed": true,
+      "request_sha256": "e894557064c378503d261a93d3fed25ffb4bca7895bd0ea741ade0d8a3005607",
+      "response": {
+        "claims": [
+          {
+            "unit_id": "8071d90b4b1b337c",
+            "kind": "condition"
+          }
+        ]
+      },
+      "proposed": [
+        {
+          "document_id": "employee_not_project",
+          "kind": "condition",
+          "quote": "Assumiamo un responsabile marketing dipendente a tempo indeterminato. La retribuzione annua lorda è di 45000 euro."
+        }
+      ],
+      "signals": [
+        {
+          "id": "6df231ca3a9631888bd8",
+          "document_id": "employee_not_project",
+          "kind": "business",
+          "quote": "Assumiamo un responsabile marketing dipendente a tempo indeterminato. La retribuzione annua lorda è di 45000 euro.",
+          "url": "https://example.invalid/employee_not_project",
+          "published_at": null,
+          "checked_at": "2026-10-14T10:54:36.389025+00:00",
+          "official": true,
+          "event_key": "bfc9a67c68eca70692fb891ddb82e5180f5c232832809d01321e21b378d997d3",
+          "model_kind": "condition",
+          "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+        }
+      ],
+      "missing": [],
+      "forbidden": [],
+      "errors": [],
+      "seconds": 1.9
+    },
+    {
+      "model": "qwen2.5:7b",
+      "options": {},
+      "case": "email_not_inefficiency",
+      "split": "synthetic control, not a real company",
+      "passed": true,
+      "request_sha256": "213e77c85e3e64a7a4531ec2b397e0a70ac1d03aa24b65e766b9ebf1ec0730d8",
+      "response": {
+        "claims": [
+          {
+            "unit_id": "5334fba5c8d31b6d",
+            "kind": "process"
+          },
+          {
+            "unit_id": "5334fba5c8d31b6d",
+            "kind": "condition"
+          }
+        ]
+      },
+      "proposed": [
+        {
+          "document_id": "email_not_inefficiency",
+          "kind": "process",
+          "quote": "Gli ordini dei rivenditori vengono ricevuti tramite email. Il catalogo è riservato ai rivenditori autorizzati."
+        },
+        {
+          "document_id": "email_not_inefficiency",
+          "kind": "condition",
+          "quote": "Gli ordini dei rivenditori vengono ricevuti tramite email. Il catalogo è riservato ai rivenditori autorizzati."
+        }
+      ],
+      "signals": [
+        {
+          "id": "709758fe882d51b81791",
+          "document_id": "email_not_inefficiency",
+          "kind": "process",
+          "quote": "Gli ordini dei rivenditori vengono ricevuti tramite email. Il catalogo è riservato ai rivenditori autorizzati.",
+          "url": "https://example.invalid/email_not_inefficiency",
+          "published_at": null,
+          "checked_at": "2026-10-14T10:54:36.389027+00:00",
+          "official": true,
+          "event_key": "291869d66a63497c3f8cc9d5dfbb9a8457a9689ebac9405a898f91a04b280881"
+        }
+      ],
+      "missing": [],
+      "forbidden": [],
+      "errors": [],
+      "seconds": 2.95
+    },
+    {
+      "model": "qwen2.5:7b",
+      "options": {},
+      "case": "declared_gap",
+      "split": "synthetic control, not a real company",
+      "passed": true,
+      "request_sha256": "5b4aa8cb25dfe60b777752f646b5d25f3bd3038b55df2323d35c5600f10dc838",
+      "response": {
+        "claims": [
+          {
+            "unit_id": "2e371962fe70a316",
+            "kind": "gap"
+          }
+        ]
+      },
+      "proposed": [
+        {
+          "document_id": "declared_gap",
+          "kind": "gap",
+          "quote": "Il portale attuale non consente di gestire ordini multilistino. Gli ordini vengono ricopiati manualmente nel gestionale."
+        }
+      ],
+      "signals": [
+        {
+          "id": "4777427da0cf0fba9a66",
+          "document_id": "declared_gap",
+          "kind": "gap",
+          "quote": "Il portale attuale non consente di gestire ordini multilistino. Gli ordini vengono ricopiati manualmente nel gestionale.",
+          "url": "https://example.invalid/declared_gap",
+          "published_at": null,
+          "checked_at": "2026-10-14T10:54:36.389028+00:00",
+          "official": true,
+          "event_key": "e812ade68c8bb74e75a7b81f04395f8c4dafc39117fc5f1b77bf3d4a41126bef"
+        }
+      ],
+      "missing": [],
+      "forbidden": [],
+      "errors": [],
+      "seconds": 1.88
+    }
+  ],
+  "mode": "extractor",
+  "limitation": "Extraction development benchmark only: 2 frozen pages from one company + 4 synthetic controls. Not independent opportunity precision.",
+  "finished_at": "2026-10-14T10:55:15.636207+00:00"
+}

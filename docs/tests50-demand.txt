@@ -1,0 +1,7 @@
+/Users/diegopavanello/Desktop/Siti Diego/customerSearch/sales/db.py:50: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x102e49b70>
+  c.execute("INSERT OR IGNORE INTO config VALUES (?,?)",('provider',encode(DEFAULTS['provider'])))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+----------------------------------------------------------------------
+Ran 507 tests in 13.759s
+
+OK

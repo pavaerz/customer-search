@@ -1,0 +1,16 @@
+{
+  "directory": "data/pilot50/2026-10-14T07-24-23.518107+00-00",
+  "summary": {
+    "queries": 3,
+    "requests": 3,
+    "pages_captured": 7,
+    "sampled": 9,
+    "businesses_identified": 0,
+    "articles_resolved": 2,
+    "technical_errors": 5,
+    "qualified": null
+  },
+  "limits": [
+    "Small sample; triage only. Not a conversion benchmark."
+  ]
+}

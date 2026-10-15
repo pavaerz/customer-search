@@ -1,0 +1,16 @@
+test_analysis_reaches_correlation_for_event_plus_condition (test_commercial_inference.InferenceTests.test_analysis_reaches_correlation_for_event_plus_condition) ... ok
+test_condition_alone_or_email_catalogue_and_translation_are_insufficient (test_commercial_inference.InferenceTests.test_condition_alone_or_email_catalogue_and_translation_are_insufficient) ... ok
+test_coverage_contact_scope_and_feasibility_gates_still_apply (test_commercial_inference.InferenceTests.test_coverage_contact_scope_and_feasibility_gates_still_apply) ... ok
+test_event_with_existing_offer_is_evaluated_without_explicit_request (test_commercial_inference.InferenceTests.test_event_with_existing_offer_is_evaluated_without_explicit_request) ... ok
+test_forged_unscoped_or_republished_evidence_cannot_support_relation (test_commercial_inference.InferenceTests.test_forged_unscoped_or_republished_evidence_cannot_support_relation) ... ok
+test_google_query_excludes_only_unreadable_socials_and_preserves_lookup (test_commercial_inference.InferenceTests.test_google_query_excludes_only_unreadable_socials_and_preserves_lookup) ... ok
+test_inference_can_pass_without_request_or_declared_defect (test_commercial_inference.InferenceTests.test_inference_can_pass_without_request_or_declared_defect) ... ok
+test_missing_relation_or_alternative_check_never_qualifies (test_commercial_inference.InferenceTests.test_missing_relation_or_alternative_check_never_qualifies) ... ok
+test_privacy_authority_address_does_not_erase_owned_company_location (test_commercial_inference.InferenceTests.test_privacy_authority_address_does_not_erase_owned_company_location) ... ok
+test_province_before_postcode_remains_geographic_evidence (test_commercial_inference.InferenceTests.test_province_before_postcode_remains_geographic_evidence) ... ok
+test_stale_future_or_undated_event_not_promoted (test_commercial_inference.InferenceTests.test_stale_future_or_undated_event_not_promoted) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.014s
+
+OK

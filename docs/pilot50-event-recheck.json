@@ -1,0 +1,572 @@
+{
+  "scope": "Development replay on the same captured pages, not independent evaluation",
+  "checked_at": "2026-10-14T08:29:31.010670+00:00",
+  "company": "Remor S.R.L.",
+  "before_status": "unverifiable",
+  "after_status": "needs_review",
+  "limits": [],
+  "context_selection": {
+    "decision_evidence": 11,
+    "background_omitted": 11,
+    "method": "Prove decisionali conservate; descrizioni generiche dell’attività rappresentate da un estratto per documento. Tutte le citazioni restano nel dossier."
+  },
+  "assessment": {
+    "version": 4,
+    "status": "needs_review",
+    "score": 5,
+    "score_detail": {
+      "Qualità delle prove": {
+        "points": 0,
+        "evidence_ids": [],
+        "reason": "Elemento non documentato o controllo non superato."
+      },
+      "Concretezza del bisogno": {
+        "points": 0,
+        "evidence_ids": [],
+        "reason": "Elemento non documentato o controllo non superato."
+      },
+      "Tempestività": {
+        "points": 0,
+        "evidence_ids": [],
+        "reason": "Elemento non documentato o controllo non superato."
+      },
+      "Progetto completo": {
+        "points": 0,
+        "evidence_ids": [],
+        "reason": "Elemento non documentato o controllo non superato."
+      },
+      "Compatibilità economica documentata": {
+        "points": 0,
+        "evidence_ids": [],
+        "reason": "Budget non dichiarato: zero punti."
+      },
+      "Fattibilità tecnica": {
+        "points": 0,
+        "evidence_ids": [],
+        "reason": "Elemento non documentato o controllo non superato."
+      },
+      "Accessibilità del contatto": {
+        "points": 5,
+        "evidence_ids": [],
+        "reason": "Canale aziendale trovato in una pagina ufficiale."
+      },
+      "Riscontri indipendenti": {
+        "points": 0,
+        "evidence_ids": [],
+        "reason": "Elemento non documentato o controllo non superato."
+      }
+    },
+    "gates": [
+      {
+        "key": "identity",
+        "label": "Identità verificata",
+        "passed": true,
+        "reason": "Identità e dominio collegati a dati ufficiali, non al nome nel motore.",
+        "evidence_ids": []
+      },
+      {
+        "key": "geography",
+        "label": "Area geografica",
+        "passed": true,
+        "reason": "Sede aziendale in un’area ammessa; località sconosciuta non supera il controllo.",
+        "evidence_ids": []
+      },
+      {
+        "key": "target",
+        "label": "Target compatibile",
+        "passed": true,
+        "reason": "Nessuna esclusione identificata.",
+        "evidence_ids": []
+      },
+      {
+        "key": "timing",
+        "label": "Attualità",
+        "passed": false,
+        "reason": "Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+        "evidence_ids": []
+      },
+      {
+        "key": "need",
+        "label": "Bisogno concreto",
+        "passed": false,
+        "reason": "Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+        "evidence_ids": []
+      },
+      {
+        "key": "scope",
+        "label": "Progetto completo",
+        "passed": false,
+        "reason": "Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+        "evidence_ids": []
+      },
+      {
+        "key": "economics",
+        "label": "Compatibilità economica",
+        "passed": true,
+        "reason": "Budget non dichiarato: nessuna capacità di spesa attribuita.",
+        "evidence_ids": []
+      },
+      {
+        "key": "counterevidence",
+        "label": "Soluzioni e controprove",
+        "passed": false,
+        "reason": "Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+        "evidence_ids": []
+      },
+      {
+        "key": "feasibility",
+        "label": "Fattibilità",
+        "passed": false,
+        "reason": "Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+        "evidence_ids": []
+      },
+      {
+        "key": "contact",
+        "label": "Canale aziendale",
+        "passed": true,
+        "reason": "Contatto pubblico attribuito all’azienda; non equivale a consenso.",
+        "evidence_ids": []
+      },
+      {
+        "key": "validation",
+        "label": "Verifica approfondita",
+        "passed": false,
+        "reason": "Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+        "evidence_ids": []
+      }
+    ],
+    "project": "none",
+    "minimum_offer": null,
+    "budget": null,
+    "budget_evidence_id": null,
+    "confidence": "insufficiente",
+    "why": "Nessun bisogno di un progetto digitale completo documentato nelle fonti esaminate.",
+    "why_now": "Tempestività non dimostrata.",
+    "proposal": "Nessun progetto digitale completo giustificato dalle prove disponibili.",
+    "next_action": "Completare i controlli mancanti prima di proporre un progetto.",
+    "objections": [],
+    "missing": [
+      "Attualità: Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+      "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+      "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+      "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+      "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+      "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto."
+    ],
+    "reasons": [
+      "Attualità: Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+      "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+      "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+      "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+      "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+      "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto."
+    ],
+    "signals": [
+      {
+        "id": "6fdd306442d1c58b7cc8",
+        "document_id": "8163ade787d9efc3d160477fc6288d3d16e9fa18e5bf71515c96dc46f5d3ce29",
+        "kind": "business",
+        "quote": "Un’immagine vincente e una buona comunicazione da sole non bastano. Devono essere accompagnate da soluzioni tecniche adeguate.",
+        "url": "https://www.remor.it/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:33.990564+00:00",
+        "official": true,
+        "event_key": "74560466541494cb31d92b472c077eee03e1353f3f422f2a7ca82e8a4f71d02e",
+        "model_kind": "request",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "5a478f9113e4fef49198",
+        "document_id": "8163ade787d9efc3d160477fc6288d3d16e9fa18e5bf71515c96dc46f5d3ce29",
+        "kind": "business",
+        "quote": "Ti aiutiamo a compiere le scelte giuste per ottenere il risultato migliore e ottimizzare i costi di produzione e ci occupiamo anche di autorizzazioni e domande amministrative\nProgettazione\nIdeiamo soluzioni tecniche su misura per diffondere la tua immagine e la tua comunicazione, chiunque tu sia.\nProduzione\nSviluppiamo il prodotto nel rispetto del progetto e del budget condividendo con te ogni fase di avanzamento.\nSostenibilità",
+        "url": "https://www.remor.it/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:33.990564+00:00",
+        "official": true,
+        "event_key": "bb608b7104668bee64fd764b741fb5208474475499de4952b3d49ea78246acbe",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "2af924ee693c7a7de345",
+        "document_id": "8163ade787d9efc3d160477fc6288d3d16e9fa18e5bf71515c96dc46f5d3ce29",
+        "kind": "business",
+        "quote": "Pubblicità e Comunicazione Visiva, Decorazioni, Allestimenti, Segnaletica Parchi,\nNon solo stampa digitale\nVeicolare i messaggi sui supporti adatti è ciò che rende una comunicazione efficace. Per questo Remor offre in primis un servizio di consulenza mirato a capire le tue necessità e ottimizzare la visibilità della tua comunicazione.\n⸻ Soluzioni\nESPOSITORI\nINSEGNE PUBBLICITARIE\nINSEGNE LUMINOSE DA INTERNO\nINSEGNE LUMINOSE DA ESTERNO\nSEGNALETICA\nCARTELLONISTICA\nTOTEM PUBBLICITARI",
+        "url": "https://www.remor.it/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:33.990564+00:00",
+        "official": true,
+        "event_key": "b27303b789d32e974d0c3c6d472ba86740ff8d8ded9882799b4e528dbdbe733b",
+        "model_kind": "gap",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "e2e5859a65978a163d0c",
+        "document_id": "8163ade787d9efc3d160477fc6288d3d16e9fa18e5bf71515c96dc46f5d3ce29",
+        "kind": "counterevidence",
+        "quote": "Scopri come abbiamo contribuito all’umanizzazione degli spazi del nuovo Ospedale Pediatrico di Padova grazie alle decorazioni murali\nSettembre 5, 2025\nDIAMO FORMA AI TUOI PROGETTI\nIn Remor diamo colore ai tuoi progetti: scopri…\nLuglio 21, 2025\nCORNER ESPOSITIVI PERSONALIZZATI\nScopri come progettiamo e realizziamo corner espositivi personalizzati: dal concept alla produzione, con un servizio completo e su misura.\nMaggio 29, 2025\nGRUPPO HERA: ALLESTIMENTO NUOVO SPORTELLO TOP – PADOVA",
+        "url": "https://www.remor.it/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:33.990564+00:00",
+        "official": true,
+        "event_key": "91d67850b526c789ffcd26a4a1d4f8353eb8161d6be5cc072ded3da17fa5e5c9"
+      },
+      {
+        "id": "58598db0f4c79c0048c3",
+        "document_id": "1207408d8258c0779482ce9a86d49e0591d1789b4d2f99025fa772387979eee4",
+        "kind": "business",
+        "quote": "Il nostro lavoro è sempre stato questo: risolvere problemi complessi dove ogni singolo dettaglio conta.\nE proprio da qui — da questa esperienza fatta di cantieri, sopralluoghi e soprattutto dalle domande che ci avete fatto più spesso — è nato Remor Essentials.\nIl perché: non abbiamo inventato niente, abbiamo ascoltato e standardizzato ciò che sappiamo fare meglio",
+        "url": "https://www.remor.it/2026/09/24/remor-essentials-nuova-divisione-prodotti-standard/",
+        "published_at": "2026-09-24",
+        "checked_at": "2026-10-14T08:13:30.290520+00:00",
+        "official": true,
+        "event_key": "3591d09a82ed79d3bf80788b142573eec635732d986656f31f2b0463db3490fb",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "6652170cfc77979d499f",
+        "document_id": "1207408d8258c0779482ce9a86d49e0591d1789b4d2f99025fa772387979eee4",
+        "kind": "counterevidence",
+        "quote": "Quando si sente la parola “standard”, si pensa subito a qualcosa di freddo o impersonale. Per noi è esattamente il contrario.\nI prodotti Remor Essentials – dai leggii che guidano lungo i percorsi ai totem che orientano negli spazi pubblici, fino alle insegne che comunicano l’identità di un luogo – sono progettati con la stessa cura di sempre.",
+        "url": "https://www.remor.it/2026/09/24/remor-essentials-nuova-divisione-prodotti-standard/",
+        "published_at": "2026-09-24",
+        "checked_at": "2026-10-14T08:13:30.290520+00:00",
+        "official": true,
+        "event_key": "467bc9e6bd7dcaa2f8710659c3b892263798500e93100f85b9eae02dfd7df718"
+      },
+      {
+        "id": "c37529ccfe19cb0d78c4",
+        "document_id": "1207408d8258c0779482ce9a86d49e0591d1789b4d2f99025fa772387979eee4",
+        "kind": "counterevidence",
+        "quote": "Standard nei materiali e nelle forme: le lavorazioni sono già testate e ottimizzate in ogni misura e finitura, garantendo standard qualitativi elevatissimi.\nTuo nel design e nell’identità: il logo della tua azienda, i colori aziendali, il nome del tuo spazio o del tuo brand vengono applicati e riprodotti fedelmente.\nPronto all’installazione: i prodotti arrivano direttamente in cantiere già pronti per essere montati, azzerando le sorprese e azzerando i tempi morti.\nVuoi scoprire la nuova gamma?",
+        "url": "https://www.remor.it/2026/09/24/remor-essentials-nuova-divisione-prodotti-standard/",
+        "published_at": "2026-09-24",
+        "checked_at": "2026-10-14T08:13:30.290520+00:00",
+        "official": true,
+        "event_key": "c5ae82d5e65d436c1108fe617b4e7edb45590b69678bf827f108469d65dd41fe"
+      },
+      {
+        "id": "39b5ce9336f65a7c8db8",
+        "document_id": "1207408d8258c0779482ce9a86d49e0591d1789b4d2f99025fa772387979eee4",
+        "kind": "business",
+        "quote": "Visita la pagina dedicata Remor Essentials oppure scopri il catalogo completo per trovare la soluzione ideale per il tuo prossimo progetto.\nPICCHETTO SEGNALAZIONE\nPORTA MENÙ ALFIERE\nLEGGIO SENTINELLA\nTOTEM CICERONE\nLEGGIO FLASH\nTOTEM ASSO con targhe distanziate\nTOTEM ASSO con targhe click\nTOTEM ASSO_stampa diretta\nHai un progetto speciale?",
+        "url": "https://www.remor.it/2026/09/24/remor-essentials-nuova-divisione-prodotti-standard/",
+        "published_at": "2026-09-24",
+        "checked_at": "2026-10-14T08:13:30.290520+00:00",
+        "official": true,
+        "event_key": "d3c5f6ee50665c51f0e1d6e26091ee35be0001072eaa6b19a43d093f45a5c08c",
+        "model_kind": "gap",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "aaeff7d2d9e878ec8b04",
+        "document_id": "39edd65ee38ea8e4272156e082de7d868a1d4ae50920f268268cc50658d804f0",
+        "kind": "business",
+        "quote": "I prodotti essenziali che non possono mancare nella tua segnaletica e comunicazione. La divisione Remor di soluzioni standard ma personalizzabili, veloci e accessibili a tutti.",
+        "url": "https://www.remor.it/essentials/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:23.588465+00:00",
+        "official": true,
+        "event_key": "b562d67aa37c7841cf06ef4df4ff5645f9e28cd8e2020f9857426c075c27a31f",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "b0a852a06d2dd376fc33",
+        "document_id": "39edd65ee38ea8e4272156e082de7d868a1d4ae50920f268268cc50658d804f0",
+        "kind": "business",
+        "quote": "Un catalogo prodotti nato da quarant’anni di esperienza nel mondo della segnaletica e della comunicazione visiva. Abbiamo trasformato il nostro know-how nel su misura in soluzioni standard, veloci e accessibili a tutti. Scegli la struttura perfetta per te, la personalizzi con la tua grafica ed è pronta da installare non appena ti arriva.\nPrezzi chiari, risposta rapida e nessuna attesa infinita. WE MAKE IT REAL.\nMostra tutto\nLeggii\nTotem\nPALINA SEGNALETICA",
+        "url": "https://www.remor.it/essentials/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:23.588465+00:00",
+        "official": true,
+        "event_key": "c197e5b6f956517b1e10a802a8a94be0a134e5ea09974daaaba3a9603096e947",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "0d2df27dbed15d547b0e",
+        "document_id": "39edd65ee38ea8e4272156e082de7d868a1d4ae50920f268268cc50658d804f0",
+        "kind": "business",
+        "quote": "Discreto ma autorevole, il Leggio Sentinella racconta luoghi e storie all’aperto. Acciaio cor-ten, cinque formati, due sistemi di posa: una soluzione progettata per durare e per integrarsi in ogni contesto.\nScheda tecnica\nPERCHÈ ESSENTIALS\nFUNZIONALITÀ,\nSENZA ATTESE.\nOltre quarant’anni di segnaletica su misura, oggi anche in formato standard: stessa qualità, tempi più brevi.\nDAL DETTO AL FATTO",
+        "url": "https://www.remor.it/essentials/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:23.588465+00:00",
+        "official": true,
+        "event_key": "eb4a78bfd28578e25e28e51047b940de7509407e3158e275fae204b75516dae4",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "afb2f6af7f6f695be4c5",
+        "document_id": "39edd65ee38ea8e4272156e082de7d868a1d4ae50920f268268cc50658d804f0",
+        "kind": "process",
+        "quote": "Ogni prodotto è stato pensato fin dall’inizio per essere facilmente installato in autonomia seguendo le istruzioni fornite.\nCONTATTI\nRICHIEDI INFORMAZIONI,\nO UN PREVENTIVO.\nScegli dal modulo il prodotto che ti interessa e dicci cosa ti serve. Che si tratti di un chiarimento tecnico, di un dubbio sui tempi di consegna o della richiesta del prezzo per la tua personalizzazione, ti risponderemo con tutte le indicazioni chiare e trasparenti per procedere, senza farti attendere troppo.",
+        "url": "https://www.remor.it/essentials/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:23.588465+00:00",
+        "official": true,
+        "event_key": "e6d1f6277cc0aef8e8ecbf8ab83202579d7ef6e68d2d970389eef079d6ef72c7"
+      },
+      {
+        "id": "ac5e5c82106462d0ea5c",
+        "document_id": "c54aa8f797b5438e7ff79bade7dec47ad56aef5f159b03dacb2167ef8b0a3972",
+        "kind": "business",
+        "quote": "Contattaci per fare una chiacchierata e parlarci del tuo progetto, ti aiuteremo a trovare la giusta soluzione per la tua comunicazione.",
+        "url": "https://www.remor.it/contatti/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:24.124428+00:00",
+        "official": true,
+        "event_key": "4ec7a00e97c6f741f10ea32702946c50cd319951248936f5fe40331a2e4d2b2a",
+        "model_kind": "request",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "fcbdd437f610d34e68f0",
+        "document_id": "c54aa8f797b5438e7ff79bade7dec47ad56aef5f159b03dacb2167ef8b0a3972",
+        "kind": "process",
+        "quote": "Richiedi assistenza o un preventivo senza impegno per il tuo progetto, saremmo felici di aiutarti.\nCompila il form\nAccetto la (Privacy Policy)\nΔ\nSalva i nostri contatti\nTel: +39 041 448741\n[email protected]\nVia P. Mattarella, 13/a Z.I. 30037 Gardigiano di Scorzè (VE) Italy",
+        "url": "https://www.remor.it/contatti/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:24.124428+00:00",
+        "official": true,
+        "event_key": "20d730e2a8ca360cd155c2f8444a3ccae23906ac125bc2ea0b67092a0689d348"
+      },
+      {
+        "id": "987a07c590717375f2e1",
+        "document_id": "8ff134bc67795344716892a33a9e70df8618a564b02fc1778b80c5c45160faa7",
+        "kind": "business",
+        "quote": "Creiamo soluzioni per la comunicazione uniche ed originali per far emergere i nostri clienti.Uniamo creatività e artigianalità per seguire il cliente nella trasformazione di idee in prodotti.",
+        "url": "https://www.remor.it/azienda/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:34.850558+00:00",
+        "official": true,
+        "event_key": "b74641179bafa38a539ddd3087d9031b563fba981f45bd3a7e4cdae57b5e63c7",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "bb7d503c8a5d1cc6414f",
+        "document_id": "8ff134bc67795344716892a33a9e70df8618a564b02fc1778b80c5c45160faa7",
+        "kind": "business",
+        "quote": "Grazie all’esperienza più che trentennale e all’attitudine per una costante innovazione, Remor è poi ingrado di progettare la soluzione più adatta ai tuoi obiettivi, di produrla mantenendo coerenza con il progetto e con il budget e di consegnartela chiavi in mano, attraverso un servizio di montaggio in loco garantito da personale specializzato.\nSiamo tecnologia e innovazione.\nCon un servizio di produzione ottimizzata, sviluppiamo prodotti rispondenti alle tue aspettative.",
+        "url": "https://www.remor.it/azienda/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:34.850558+00:00",
+        "official": true,
+        "event_key": "040cca06a750a639223ff9fadff245d68bbfe0d52a4881957ed78e3dedffdc8e",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "40bda4620c0c000b5f43",
+        "document_id": "8ff134bc67795344716892a33a9e70df8618a564b02fc1778b80c5c45160faa7",
+        "kind": "business",
+        "quote": "Siamo prontezza e competenza.\nCon un servizio di montaggio completo, ti consegniamo il prodotto chiavi in mano.\nSiamo esperienza e conoscenza.\nCon un servizio di consulenza tecnica, da oltre 40 anni, garantiamo visibilità al tuo brand.\nSiamo ricerca e design.\nCon un servizio di progettazione su misura, ideiamo soluzioni per la tua comunicazione.\nEcco il tuo partner a 360°\nCome possiamo aiutarti?\nSei un imprenditore? Ecco il tuo partner a 360°\nConsulenza e progettazione grafica",
+        "url": "https://www.remor.it/azienda/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:34.850558+00:00",
+        "official": true,
+        "event_key": "140209a91269fe6784cfd74e6403e3309bd646d8ee0a16034e1d19dba41dc66c",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "00fc7a0e5312d1aa4ed4",
+        "document_id": "d78fb7616835cd289ea05037b40405d7d183172519f0a478ea2714f12bca05d4",
+        "kind": "business",
+        "quote": "L’essenziale per l’arredo urbano delle pubbliche amministrazioniChi lavora ogni giorno all'interno di una Pubblica Amministrazione – che si tratti dell'ufficio tecnico, del settore manutenzioni, del verde pubblico o della cultura – lo sa fin troppo bene. Gestire l'arredo urbano delle pubbliche…",
+        "url": "https://www.remor.it/category/azienda/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:24.692915+00:00",
+        "official": true,
+        "event_key": "9d4dcb93ceca968bc05932342fa384b03574d41383afa1a10f076987e48730f2",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "7e773a75e4232a35b829",
+        "document_id": "d78fb7616835cd289ea05037b40405d7d183172519f0a478ea2714f12bca05d4",
+        "kind": "business",
+        "quote": "REMOR ESSENTIALS: LA NUOVA DIVISIONE REMOR NATA DA 40 ANNI DI ESPERIENZA",
+        "url": "https://www.remor.it/category/azienda/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:24.692915+00:00",
+        "official": true,
+        "event_key": "d4aab35116a716f49e11c3e32eca872c45a1e1a9fa1cd220e0e444d8c78b434f",
+        "model_kind": "gap",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "4c43a57edcf05db7f118",
+        "document_id": "d78fb7616835cd289ea05037b40405d7d183172519f0a478ea2714f12bca05d4",
+        "kind": "business",
+        "quote": "Segnaletica d'ambiente e Arredo urbano per la pubblica amministrazione (PA)Quando si passeggia per le strade di una città, la segnaletica e l’arredo urbano sono delle guide silenziose che raccontano la storia e la personalità di quel luogo. Oltre a fornire indicazioni pratiche,…\nby Remor\nPROGETTAZIONE GRAFICA E COMUNICAZIONE VISIVA\nComunicazione visiva",
+        "url": "https://www.remor.it/category/azienda/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:24.692915+00:00",
+        "official": true,
+        "event_key": "08867b3f6f44ab5a3ed43f65679b1d5f990c447587f7a6296a70b52ee1299701",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "7117f875b91ca3d192ff",
+        "document_id": "d78fb7616835cd289ea05037b40405d7d183172519f0a478ea2714f12bca05d4",
+        "kind": "counterevidence",
+        "quote": "Nel 2023 ci siamo posti l’obiettivo di iniziare una transizione green, un percorso lungo ed impegnativo ma al tempo stesso doveroso nei confronti del nostro pianeta e di tutti i suoi abitanti. Ci impegniamo nel quotidiano per migliorare la nostra cultura e vita aziendale rendendoci più sensibili al tema della sostenibilità e compiendo azioni concrete…\nby Remor\nREMOR: I NOSTRI PRIMI 40 ANNI DI ESPERIENZA",
+        "url": "https://www.remor.it/category/azienda/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:24.692915+00:00",
+        "official": true,
+        "event_key": "ff6803ac7228ffd81fd229a3e53d112670fe5071f2c22ceab877089b47ad23b7"
+      },
+      {
+        "id": "6d5d08b803f177065c6f",
+        "document_id": "5f9eed5960f772d818ca198a7146375bee93ec468c65b0086e3c6f315ec6be91",
+        "kind": "business",
+        "quote": "come del piccolo committente. Che si tratti di personalizzare un aereo di linea o una moto, realizzare un impianto pubblicitario di grandi dimensioni o uno striscione, oppure collocare un’insegna in cima a un edificio o sulla vetrina di un punto vendita, il nostro approccio non cambia: studiamo la soluzione più adatta alla specificità della richiesta e la mettiamo in opera con prontezza.",
+        "url": "https://www.remor.it/servizi/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:26.552436+00:00",
+        "official": true,
+        "event_key": "30d2eea220b3f6e6883472f1e2faf42d8d2126ef2d853f4c99b56187a8055197",
+        "model_kind": "gap",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "45dd9edc44e45b53e81f",
+        "document_id": "5f9eed5960f772d818ca198a7146375bee93ec468c65b0086e3c6f315ec6be91",
+        "kind": "business",
+        "quote": "⸻ Sviluppo\n⸻ Creatività\nProgettazione grafica",
+        "url": "https://www.remor.it/servizi/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:26.552436+00:00",
+        "official": true,
+        "event_key": "0e1c346071bd3a78881df21e91d88022b85e6d4526ec7a7e458c9422d05d371d",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "82da26818110e9b8e145",
+        "document_id": "5f9eed5960f772d818ca198a7146375bee93ec468c65b0086e3c6f315ec6be91",
+        "kind": "business",
+        "quote": "tingue veramente Remor è l’impegno per l’innovazione: si sono dimostrati costantemente aggiornati sulle ultime tendenze del settore e si sono sempre mostrati pronti a presentare idee creative e soluzioni innovative per il marketing e la comunicazione.Chiara Milani | Industrial Design & Marketing Communication Manager CAREL INDUSTRIES s.p.a.",
+        "url": "https://www.remor.it/servizi/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:26.552436+00:00",
+        "official": true,
+        "event_key": "ecab18897a582e8188f7c1f49b737850be995ac7309621261fa1ea5caef48110",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "72646d5a79f69d230522",
+        "document_id": "5f9eed5960f772d818ca198a7146375bee93ec468c65b0086e3c6f315ec6be91",
+        "kind": "business",
+        "quote": "La mia testimonianza sulla storica collaborazione con Voi è iniziata almeno 20 anni fa. Vi ho sempre scelti per la particolare attenzione che prestate alle mie esigenze e consigliandomi la migliore soluzione.Alessandro Bortolato | CDA - Marketing e Sviluppo ABAGRIGLIATI S.r.l\nRemor, partner affidabile. In questi anni ha dimostrato etica, passione e competenza, accompagnata da una giusta dose di creatività.Paolo Colle | Direttore Marketing VENETA CUCINE s.p.a.",
+        "url": "https://www.remor.it/servizi/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:26.552436+00:00",
+        "official": true,
+        "event_key": "884226aaa411bebcf1b954ca3f031c6d4977ceeb1b4439d52de0deb84ddac119",
+        "model_kind": "gap",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "75debb623ee05eb0766a",
+        "document_id": "5f9eed5960f772d818ca198a7146375bee93ec468c65b0086e3c6f315ec6be91",
+        "kind": "business",
+        "quote": "L'unico modo di fare un gran bel lavoro è quello di amare il proprio lavoro; con l'esperienza della decorazione di circa 500 autobus con il sig. Tiziano ed i suoi bravissimi collaboratori, si percepisce tutta la passione che il titolare trasmette a tutti i suoi collaboratori.Mario Pesce | Area Manutenzione - Risk Manager - Ufficio Sinistri MOM - Mobilità di Marca",
+        "url": "https://www.remor.it/servizi/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:19:26.552436+00:00",
+        "official": true,
+        "event_key": "179811e8e18bcf9809731434cc1eb591883be69c9ba891e446429cc0dc7e6220",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "5622200d98109e4104d4",
+        "document_id": "cf764941999bab966d812eef036f296c6231d574df44c1751aef0c2e0271f9a1",
+        "kind": "business",
+        "quote": "Se state cercando soluzioni di segnaletica aziendale professionali e di alta qualità per la vostra azienda o attività commerciale, siete nel posto giusto. Da oltre 40 anni, offriamo servizi di progettazione e realizzazione di segnaletica aziendale per spazi esterni ed ambienti interni.",
+        "url": "https://www.remor.it/comunicazione-visiva/segnaletica-aziendale/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:38.319318+00:00",
+        "official": true,
+        "event_key": "5fa628862591f884995871c3dcd0134d9e0cc4805510d536aa59073807668eab",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "6e532d6a82c1209254a0",
+        "document_id": "cf764941999bab966d812eef036f296c6231d574df44c1751aef0c2e0271f9a1",
+        "kind": "business",
+        "quote": "Una delle nostre principali caratteristiche è l’approccio personalizzato: ogni progetto è unico. Collaboriamo strettamente con i nostri clienti per comprendere le esigenze specifiche e offrire soluzioni su misura che riflettano l’identità aziendale.\nCon anni di esperienza nel campo, comprendiamo le dinamiche e le esigenze specifiche dei vari settori, fornendo soluzioni mirate ed efficienti per la progettazione e realizzazione di:\nSegnaletica personalizzata per uffici",
+        "url": "https://www.remor.it/comunicazione-visiva/segnaletica-aziendale/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:38.319318+00:00",
+        "official": true,
+        "event_key": "917982b793766585d3e5555f1482a71116c51a62dfef3e4c92771907752c1b13",
+        "model_kind": "gap",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "52f8166d4e3079742e25",
+        "document_id": "cf764941999bab966d812eef036f296c6231d574df44c1751aef0c2e0271f9a1",
+        "kind": "business",
+        "quote": "Remor si occupa di progettare e realizzare la segnaletica aziendale interna, uno strumento molto utilizzato nelle realtà commerciali pubbliche e private per indirizzare i clienti dentro i locali e smistare i flussi d’utenza. Nel progettare le segnaletiche aziendali interne, teniamo sempre in considerazione l’importanza che essa ha per la gestione dei flussi e per indirizzare correttamente e facilmente i visitatori negli uffici ricercati. Infatti, le soluzioni di segnaletica interna progettate",
+        "url": "https://www.remor.it/comunicazione-visiva/segnaletica-aziendale/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:38.319318+00:00",
+        "official": true,
+        "event_key": "d7858ccf8dcfebae03f3915c62248f554a1f0322e2ef17aaec47b7daf4b479bb",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "1a905c8852b654724f13",
+        "document_id": "cf764941999bab966d812eef036f296c6231d574df44c1751aef0c2e0271f9a1",
+        "kind": "business",
+        "quote": "La segnaletica esterna è uno strumento importante per ogni attività commerciale. Essa consente di orientare e direzionare la clientela all’interno di percorsi e aree differenti d’interesse commerciale. Può essere impiegata per accompagnare l’utente nell’utilizzo di un servizio oppure per indicargli la direzione da seguire. La segnaletica esterna può essere realizzata utilizzando svariate tipologie di materiali, come l’acciaio inox, l’acciaio COR-TEN l’alluminio e il pvc e lavorazioni, come il",
+        "url": "https://www.remor.it/comunicazione-visiva/segnaletica-aziendale/",
+        "published_at": null,
+        "checked_at": "2026-10-14T08:16:38.319318+00:00",
+        "official": true,
+        "event_key": "1e90777c54bd24fdf9bfd5af914509f4d14b486b55187ba646bff43b599c5c40",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      }
+    ],
+    "document_ids": [
+      "8163ade787d9efc3d160477fc6288d3d16e9fa18e5bf71515c96dc46f5d3ce29",
+      "1207408d8258c0779482ce9a86d49e0591d1789b4d2f99025fa772387979eee4",
+      "39edd65ee38ea8e4272156e082de7d868a1d4ae50920f268268cc50658d804f0",
+      "c54aa8f797b5438e7ff79bade7dec47ad56aef5f159b03dacb2167ef8b0a3972",
+      "8ff134bc67795344716892a33a9e70df8618a564b02fc1778b80c5c45160faa7",
+      "d78fb7616835cd289ea05037b40405d7d183172519f0a478ea2714f12bca05d4",
+      "5f9eed5960f772d818ca198a7146375bee93ec468c65b0086e3c6f315ec6be91",
+      "cf764941999bab966d812eef036f296c6231d574df44c1751aef0c2e0271f9a1"
+    ],
+    "strategy": "companies",
+    "validated_at": "2026-10-14T08:29:31.010650+00:00",
+    "validation": {
+      "status": "insufficient",
+      "reason": "Nessun bisogno di un progetto digitale completo documentato nelle fonti esaminate.",
+      "support_ids": [],
+      "existing_solution_checked": false,
+      "small_fix_sufficient": false,
+      "context_selection": {
+        "decision_evidence": 11,
+        "background_omitted": 11,
+        "method": "Prove decisionali conservate; descrizioni generiche dell’attività rappresentate da un estratto per documento. Tutte le citazioni restano nel dossier."
+      }
+    },
+    "analysis_status": "completed"
+  },
+  "api_requests": 0,
+  "seconds": 153.74
+}

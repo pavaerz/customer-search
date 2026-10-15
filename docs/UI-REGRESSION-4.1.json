@@ -1,0 +1,266 @@
+{
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "screens": [
+    {
+      "width": 320,
+      "view": "overview",
+      "page_overflow": false
+    },
+    {
+      "width": 320,
+      "view": "agencies",
+      "page_overflow": false
+    },
+    {
+      "width": 320,
+      "view": "direct",
+      "page_overflow": false
+    },
+    {
+      "width": 320,
+      "view": "pipeline",
+      "page_overflow": false
+    },
+    {
+      "width": 320,
+      "view": "results",
+      "page_overflow": false
+    },
+    {
+      "width": 320,
+      "view": "legacy",
+      "page_overflow": false
+    },
+    {
+      "width": 320,
+      "view": "activity",
+      "page_overflow": false
+    },
+    {
+      "width": 320,
+      "view": "settings",
+      "page_overflow": false
+    },
+    {
+      "width": 390,
+      "view": "overview",
+      "page_overflow": false
+    },
+    {
+      "width": 390,
+      "view": "agencies",
+      "page_overflow": false
+    },
+    {
+      "width": 390,
+      "view": "direct",
+      "page_overflow": false
+    },
+    {
+      "width": 390,
+      "view": "pipeline",
+      "page_overflow": false
+    },
+    {
+      "width": 390,
+      "view": "results",
+      "page_overflow": false
+    },
+    {
+      "width": 390,
+      "view": "legacy",
+      "page_overflow": false
+    },
+    {
+      "width": 390,
+      "view": "activity",
+      "page_overflow": false
+    },
+    {
+      "width": 390,
+      "view": "settings",
+      "page_overflow": false
+    },
+    {
+      "width": 768,
+      "view": "overview",
+      "page_overflow": false
+    },
+    {
+      "width": 768,
+      "view": "agencies",
+      "page_overflow": false
+    },
+    {
+      "width": 768,
+      "view": "direct",
+      "page_overflow": false
+    },
+    {
+      "width": 768,
+      "view": "pipeline",
+      "page_overflow": false
+    },
+    {
+      "width": 768,
+      "view": "results",
+      "page_overflow": false
+    },
+    {
+      "width": 768,
+      "view": "legacy",
+      "page_overflow": false
+    },
+    {
+      "width": 768,
+      "view": "activity",
+      "page_overflow": false
+    },
+    {
+      "width": 768,
+      "view": "settings",
+      "page_overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "overview",
+      "page_overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "agencies",
+      "page_overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "direct",
+      "page_overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "pipeline",
+      "page_overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "results",
+      "page_overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "legacy",
+      "page_overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "activity",
+      "page_overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "settings",
+      "page_overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "overview",
+      "page_overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "agencies",
+      "page_overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "direct",
+      "page_overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "pipeline",
+      "page_overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "results",
+      "page_overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "legacy",
+      "page_overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "activity",
+      "page_overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "settings",
+      "page_overflow": false
+    },
+    {
+      "width": 1920,
+      "view": "overview",
+      "page_overflow": false
+    },
+    {
+      "width": 1920,
+      "view": "agencies",
+      "page_overflow": false
+    },
+    {
+      "width": 1920,
+      "view": "direct",
+      "page_overflow": false
+    },
+    {
+      "width": 1920,
+      "view": "pipeline",
+      "page_overflow": false
+    },
+    {
+      "width": 1920,
+      "view": "results",
+      "page_overflow": false
+    },
+    {
+      "width": 1920,
+      "view": "legacy",
+      "page_overflow": false
+    },
+    {
+      "width": 1920,
+      "view": "activity",
+      "page_overflow": false
+    },
+    {
+      "width": 1920,
+      "view": "settings",
+      "page_overflow": false
+    }
+  ],
+  "checks": [
+    "Six aligned filters, equal heights, three desktop columns",
+    "Polling preserves focused field, selection, preferences and open disclosure",
+    "Results pagination and filter reset",
+    "Recoverable results errors and visible connection loss/recovery",
+    "Research dossier confirms contact live, visible modal toast, deletion closes dossier",
+    "Five dossier tabs at desktop/mobile, unsaved notes survive polling, Escape restores focus",
+    "Pipeline horizontal navigation and bounded columns",
+    "Pipeline select and real touch drag persist the new stage",
+    "Unsaved settings preserved"
+  ],
+  "errors": [],
+  "external_requests": [],
+  "real_data_modified": false
+}

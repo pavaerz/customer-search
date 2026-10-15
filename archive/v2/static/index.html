@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f1">
+  <title>CustomerSearch — La tua prossima collaborazione</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+  <script src="/opportunities.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="CustomerSearch home"><span class="brand-icon">c<span>↗</span></span><span>customer<span class="brand-light">search</span><small>IL TUO PROSSIMO CLIENTE, QUI.</small></span></a>
+    <div class="workspace-label">IL TUO SPAZIO</div>
+    <nav aria-label="Navigazione principale">
+      <button class="nav-item active" data-view="draft"><span>▤</span> Aziende <span class="nav-count" id="nav-count">0</span></button>
+      <button class="nav-item" data-view="opportunities"><span>✳</span> Opportunità</button>
+      <button class="nav-item" data-view="sent"><span>↗</span> Email inviate</button>
+      <button class="nav-item" id="settings-open"><span>⚙</span> Impostazioni</button>
+    </nav>
+    <div class="profile"><span class="avatar">DP</span><div><strong>Diego Pavanello</strong><small>Designer di Montagna</small></div><span class="online-dot"></span></div>
+  </aside>
+  <main>
+    <header class="topbar"><span>Il tuo spazio <span class="breadcrumb">/</span> <strong id="breadcrumb">Aziende</strong></span><button class="connection-button" id="gmail-shortcut"><span class="status-dot" id="gmail-dot"></span><span id="gmail-status">Gmail da collegare</span><span>↗</span></button></header>
+    <section class="page-content" id="companies-page">
+      <div class="page-heading"><div><div class="eyebrow">MENO RICERCA, PIÙ PROGETTI</div><h1 id="page-title">Il prossimo cliente<br>parte da qui<span class="green">.</span></h1><p>Trova siti da migliorare. Inizia una conversazione fatta bene.</p></div><div class="search-controls"><button class="primary search-button" id="search"><span>✳</span> Avvia ricerca <span>↗</span></button><button class="secondary" id="stop-search" disabled>Stop ricerca</button></div></div>
+      <div class="stats"><article class="daily-quota"><span class="stat-label">Ricerche effettuate oggi <span>⌕</span></span><div><strong id="searches-today">—</strong><span class="stat-subtitle">ricerche totali</span></div>
+        <div class="quota-line"><span>SearXNG</span><span id="searxng-day-count">—</span></div><div class="quota-line"><span>Tavily</span><span id="tavily-day-count">— / 30</span></div><progress id="tavily-day-progress" value="0" max="30" aria-label="Ricerche Tavily utilizzate oggi"></progress>
+        <div class="quota-line"><span>Serper</span><span id="serper-day-count">— / 100</span></div><progress id="serper-day-progress" value="0" max="100" aria-label="Ricerche Serper utilizzate oggi"></progress>
+        <small id="searches-reserve"></small><small id="quota-day-note">Le barre mostrano le richieste utilizzate.</small></article><article><span class="stat-label">Da rivedere <span>▤</span></span><div><strong id="draft-count">0</strong><span class="stat-subtitle">email personalizzate</span></div><small>Il tuo tocco, prima di inviare</small></article><article><span class="stat-label">Invii registrati <span>↗</span></span><div><strong id="sent-count">0</strong><span class="stat-subtitle">email inviate</span></div><small>Ogni invio parte da te</small></article></div>
+      <p id="outcome-summary" class="field-note"></p><div class="workflow"><span class="workflow-icon">✧</span><div><strong>Una ricerca autonoma. L’ultima parola è tua.</strong><p>Cerchiamo aziende S.r.l., soprattutto in Veneto, Lombardia, Piemonte e Toscana. Selezioniamo i siti con punteggi Lighthouse sotto 90/100 e mostriamo risultati SEO e controlli GEO/AEO. Tu modifichi, elimini o invii.</p></div><span class="workflow-tag">Solo aziende · Enti pubblici esclusi</span></div>
+      <section class="list-section" aria-label="Lista email"><div class="list-heading"><div><h2 id="list-title">Aziende da contattare <span id="list-count">0</span></h2><p id="list-subtitle">Apri una scheda per leggere l’email e i punteggi e i risultati dei test.</p></div><label class="filter"><span>⌕</span><input type="search" id="filter" placeholder="Cerca sito o email…" aria-label="Cerca sito o email"></label></div>
+        <div class="list-toolbar"><span id="list-caption">BOZZE DA RIVEDERE</span><label id="outcome-filter-label" hidden>Esito <select id="outcome-filter"><option value="">Tutti</option value="awaiting">In attesa</option><option value="replied">Ha risposto</option><option value="interested">Interessato</option><option value="customer">Cliente</option><option value="declined">Non interessato</option><option value="do_not_contact">Non ricontattare</option></select></label><span>Prima le più recenti</span></div>
+        <p id="search-status" class="field-note" role="status"></p>
+        <div id="leads" aria-live="polite"><div class="empty-state"><span class="empty-icon">⌕</span><h3>Caricamento del tuo spazio…</h3></div></div>
+      </section>
+      <footer><span><span class="green">●</span> <span id="schedule-label">Ricerca manuale · Decidi tu quando iniziare</span></span><span>Designer di Montagna · CustomerSearch</span></footer>
+    </section>
+    <section class="page-content" id="opportunities-page" hidden>
+      <div class="page-heading"><div><div class="eyebrow">RICERCA SPERIMENTALE · DOMANDA ATTIVA</div><h1>Opportunità<span class="green">.</span></h1><p>Richieste di progetti, agenzie e collaborazioni freelance.</p></div><div class="search-controls"><button class="primary" id="opp-search">Cerca opportunità</button><button class="secondary" id="opp-stop" disabled>Stop</button></div></div>
+      <p id="opp-progress" role="status"></p><p id="opp-week" class="selection-panel"></p>
+      <details class="setup"><summary>Query, motore e fonti della ricerca</summary><p>Le ricerche usano le quote già configurate. Tavily basic: una richiesta per query, massimo 30 al giorno e 930 al mese condivise con la ricerca aziende. Nessun acquisto automatico. SearXNG richiede Docker.</p>
+      <form id="opp-config"><label>Motore <select name="provider"><option value="tavily">Tavily</option><option value="searxng">SearXNG locale</option></select></label><label>Periodo richiesto al motore <select name="time_range"><option value="month">Ultimo mese</option><option value="week">Ultima settimana</option><option value="">Qualsiasi data (anche collaborazioni permanenti)</option></select></label><label>Query per avvio <input name="batch_size" type="number" min="1" max="12" value="6"></label><label>Query (una per riga)<textarea name="queries" rows="10" required></textarea></label><button class="secondary" type="submit">Salva ricerca</button></form>
+      <p>Fonti: pagine pubbliche di agenzie e committenti trovate dai motori, con lettura della richiesta originale e rispetto di robots.txt. Nessuna autenticazione o aggiramento di protezioni. LinkedIn, Indeed, Upwork, Freelancer e AddLance non sono collegati in questa versione: richiedono accessi autorizzati o condizioni da concordare. I loro annunci non vengono importati.</p><p>Una pagina accessibile non prova che il posto sia ancora disponibile. Data assente = recenza sconosciuta, punteggio massimo 59. Il filtro temporale del motore non certifica la data dell’annuncio: conta la data nella fonte. Le query ruotano tra gli avvii; nessuna ricerca programmata.</p></details>
+      <div class="opp-filters">
+        <label>Categoria<select id="opp-category"><option value="">Tutte</option><option value="A">A · Progetti</option><option value="B">B · Agenzie</option><option value="C">C · Collaborazioni</option></select></label>
+        <label>Punteggio minimo<input id="opp-score" type="number" min="0" max="100" value="0"></label>
+        <label>Pubblicazione<select id="opp-date"><option value="">Tutte / senza data</option><option value="7">Ultimi 7 giorni</option><option value="30" selected>Ultimi 30 giorni</option><option value="90">Ultimi 90 giorni</option><option value="unknown">Pagine senza data · da verificare</option></select></label>
+        <label>Fonte<select id="opp-source"><option value="">Tutte</option></select></label>
+        <label>Stato<select id="opp-status"><option value="active">Da valutare e salvate</option><option value="saved">Salvate</option><option value="contacted">Contattate</option><option value="discarded">Scartate</option><option value="all">Tutte</option></select></label>
+        <label>Ordina<select id="opp-sort"><option value="score">Rilevanza</option><option value="date">Più recenti</option></select></label>
+      </div><p id="opp-count"></p><div id="opp-results"></div>
+      <details class="setup"><summary>Storico ricerche e motivi di esclusione</summary><div id="opp-history"></div></details>
+    </section>
+  </main>
+  <dialog id="settings-dialog"><form id="settings-form"><div class="dialog-heading"><div><div class="eyebrow">IL TUO SPAZIO</div><h2>Impostazioni</h2></div><button type="button" class="icon-button" id="settings-close" aria-label="Chiudi impostazioni">×</button></div><div class="dialog-body">
+    <h3>La tua presentazione</h3><label>Nome e cognome<input name="name" required maxlength="120" autocomplete="name"></label><label>Il tuo sito<input name="website" type="url" required placeholder="https://designerdimontagna.it"></label><label>Firma / qualifica<textarea name="signature" rows="2" maxlength="2000"></textarea></label><p class="field-note">Le modifiche si applicano alle nuove bozze. Puoi modificare singolarmente quelle già create.</p>
+    <p class="field-note">Ogni avvio cerca 20 nuovi siti con una bozza pronta, poi si ferma. Puoi avviare un altro gruppo nello stesso giorno. Con “Stop ricerca” conservi bozze e siti ancora da analizzare.</p>
+    <h3>Motori di ricerca</h3>
+    <label><input type="checkbox" name="allow_api_fallback"> Usa anche Tavily e Serper se SearXNG non risponde o non trova risultati</label>
+    <p class="field-note">Disattivato: solo SearXNG, senza consumo di crediti API. Docker deve essere aperto.</p>
+    <h3>Template delle email</h3>
+    <p class="field-note">Usa {sito} per il dominio dell’azienda, {nome}, {firma} e {mio_sito} per i tuoi dati. Nessun riavvio necessario.</p>
+    <label>Oggetto<input name="template_subject" required maxlength="250"></label>
+    <label>Testo<textarea name="template_body" rows="16" required maxlength="18000" spellcheck="true" lang="it"></textarea></label>
+    <details><summary>Anteprima per azienda-esempio.it</summary><strong id="template-preview-subject"></strong><pre id="template-preview-body" class="email-body"></pre></details>
+    <p class="field-note">“Salva impostazioni” cambia solo le nuove bozze. “Salva e applica alle bozze” sostituisce anche i testi modificati a mano nelle bozze ancora da aprire in Gmail. Le email inviate e quelle già aperte in Gmail restano invariate.</p>
+    <button type="submit" class="secondary" name="apply_template" value="yes">Salva e applica alle bozze</button>
+    <section class="integration"><div><h3>Gmail</h3><p>pavanello93@gmail.com</p></div><button type="button" class="secondary" id="gmail-connect">Collega Gmail ↗</button></section><p class="field-note" id="gmail-help">Accesso tramite Google. L’app richiede il permesso di invio, senza leggere la tua casella.</p>
+    <details class="setup"><summary>Configurazione iniziale dei servizi</summary><ol><li>Nel progetto, copia <code>.env.example</code> in <code>.env</code>.</li><li>Su <a href="https://app.tavily.com/" target="_blank" rel="noopener noreferrer">Tavily Search</a>, crea una chiave e inseriscila in <code>TAVILY_API_KEY</code>. Tavily: massimo 30 ricerche basic al giorno. Puoi aggiungere <code>SERPER_API_KEY</code> per usare Serper quando Tavily raggiunge il limite: massimo 100 richieste al giorno e 2.400 complessive. I crediti iniziali Serper non si rinnovano mensilmente.</li><li>Nella <a href="https://console.cloud.google.com/apis/library/gmail.googleapis.com" target="_blank" rel="noopener noreferrer">console Google Cloud</a>, abilita Gmail API, configura il consenso OAuth e aggiungi <strong>pavanello93@gmail.com</strong> come utente di test.</li><li>Crea un client OAuth di tipo <strong>Applicazione web</strong>. Registra il redirect <code>http://127.0.0.1:8765/auth/google/callback</code>.</li><li>Inserisci <code>GOOGLE_CLIENT_ID</code> e <code>GOOGLE_CLIENT_SECRET</code> nel file <code>.env</code>, riavvia il server e premi “Collega Gmail”. Non inserire la password Gmail.</li></ol><p id="config-status"></p></details>
+    <p class="legal-note">L’indirizzo pubblico serve a individuare il contatto: non equivale al consenso alle email commerciali. Valuta se puoi contattare il destinatario prima di inviare. <a href="https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/2542348" target="_blank" rel="noopener noreferrer">Indicazioni del Garante</a>.</p>
+  </div><div class="dialog-footer"><button type="submit" class="primary">Salva impostazioni</button></div></form></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

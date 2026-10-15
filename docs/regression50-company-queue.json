@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-10-14T10:07:37.027416+00:00",
+  "source": "data/cycle50/2026-10-14T09-55-19.001780+00-00",
+  "split": "regression replay, not independent precision",
+  "baseline_job_ids": [
+    964,
+    976
+  ],
+  "before_review_jobs": 2,
+  "after_review_jobs": 1,
+  "source_urls_retained": [
+    "https://www.automazioneveneto.com/notizie/",
+    "https://www.automazioneveneto.com/tp/servizi-per-impianti-produzione-energia/"
+  ],
+  "queries": 0,
+  "reads": [
+    {
+      "url": "https://www.automazioneveneto.com/notizie/",
+      "mode": "frozen",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/",
+      "mode": "frozen",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/contatti/",
+      "mode": "frozen",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/azienda/",
+      "mode": "frozen",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/c/azienda/",
+      "mode": "frozen",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/wp-content/uploads/2025/10/privacy-policy-atomazione-veneto.pdf",
+      "mode": "frozen",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/sv/beverages-solutions/",
+      "mode": "frozen",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+      "mode": "frozen",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/online-nuovo-sito-web-aziendale/",
+      "mode": "live protected read",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/festa_repubblica_due_giugno_2026/",
+      "mode": "frozen",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/tp/servizi-per-impianti-produzione-energia/",
+      "mode": "frozen",
+      "status": 200
+    },
+    {
+      "url": "https://www.automazioneveneto.com/clienti-italia-estero-europa/",
+      "mode": "live protected read",
+      "status": 200
+    }
+  ],
+  "seconds": 93.74,
+  "assessment_id": 1,
+  "document_urls": [
+    "https://www.automazioneveneto.com/",
+    "https://www.automazioneveneto.com/notizie/",
+    "https://www.automazioneveneto.com/contatti/",
+    "https://www.automazioneveneto.com/azienda/",
+    "https://www.automazioneveneto.com/c/azienda/",
+    "https://www.automazioneveneto.com/wp-content/uploads/2025/10/privacy-policy-atomazione-veneto.pdf",
+    "https://www.automazioneveneto.com/sv/beverages-solutions/",
+    "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+    "https://www.automazioneveneto.com/online-nuovo-sito-web-aziendale/",
+    "https://www.automazioneveneto.com/clienti-italia-estero-europa/",
+    "https://www.automazioneveneto.com/festa_repubblica_due_giugno_2026/",
+    "https://www.automazioneveneto.com/tp/servizi-per-impianti-produzione-energia/"
+  ],
+  "directory": "data/cycle50-replay/2026-10-14T10-06-02.558120+00-00",
+  "company": "Automazione Veneto srl",
+  "status": "rejected",
+  "why": "Nessun bisogno di un progetto digitale completo documentato nelle fonti esaminate.",
+  "unchanged_page_reused_assessment": 1
+}

@@ -1,0 +1,263 @@
+{
+  "recorded_at": "2026-10-13T16:36:49.945155+00:00",
+  "database": "data/pilot4/pilot.sqlite3",
+  "campaign": {
+    "id": 1,
+    "created_at": "2026-10-13T15:49:35.155689+00:00",
+    "updated_at": "2026-10-13T16:16:36.199656+00:00",
+    "status": "paused",
+    "target": 50,
+    "filters": {
+      "regions": [
+        "Veneto",
+        "Lombardia",
+        "Piemonte",
+        "Toscana"
+      ]
+    },
+    "examined": 20,
+    "qualified": 0,
+    "rejected": 9,
+    "needs_review": 0,
+    "unverifiable": 11,
+    "tasks": {
+      "blocked": 349,
+      "done": 87,
+      "failed": 4,
+      "pending": 8306
+    }
+  },
+  "metrics": {
+    "documents_saved": 102,
+    "query_parameters_recorded": 2,
+    "source_states": {
+      "unavailable": 1,
+      "available": 12
+    },
+    "assessment_history_rows": 21,
+    "model_cache_entries": 75
+  },
+  "stop_seconds": [
+    0.078,
+    0.098
+  ],
+  "deduplication_correction": "21 provisional counts became 20 unique entities; 1 provisional/verified alias merged, all assessment IDs retained.",
+  "review_method": "Separate assistant review of saved original pages, identities and failure traces; not a human expert review or a conversion study.",
+  "reviews": [
+    {
+      "assessment_id": 1,
+      "entity_id": 1,
+      "name": "Understack",
+      "url": "https://understack.it/",
+      "strategy": "explicit",
+      "status": "rejected",
+      "review_outcome": "not_supported",
+      "review_note": "Offerta di sviluppo white label rivolta alle agenzie; non è una richiesta di un progetto. Identità iniziale incompleta."
+    },
+    {
+      "assessment_id": 2,
+      "entity_id": 2,
+      "name": "ReMedia, Get Inspired!",
+      "url": "https://www.remediagroup.it/",
+      "strategy": "explicit",
+      "status": "rejected",
+      "review_outcome": "not_supported",
+      "review_note": "Sede legale a Roma, fuori dalle quattro regioni scelte per il pilota. Servizi digitali offerti, nessuna commessa verificata."
+    },
+    {
+      "assessment_id": 3,
+      "entity_id": 3,
+      "name": "Deluxe Dreaming Milano",
+      "url": "https://deluxedreamingmilano.it/",
+      "strategy": "change",
+      "status": "rejected",
+      "review_outcome": "not_supported",
+      "review_note": "Sede legale in Emilia-Romagna, fuori dal filtro del pilota. Un cambio sede e un catalogo non provano un nuovo progetto."
+    },
+    {
+      "assessment_id": 4,
+      "entity_id": 4,
+      "name": "Arredamenti su misura Battocchio Gianfranco",
+      "url": "https://www.battocchioarredamenti.it/",
+      "strategy": "change",
+      "status": "rejected",
+      "review_outcome": "classification_issue",
+      "review_note": "Indirizzo su righe separate non riconosciuto nel primo passaggio. Corretto e ricontrollato: identità verificata in Veneto. La produzione su misura non prova un bisogno software."
+    },
+    {
+      "assessment_id": 5,
+      "entity_id": 5,
+      "name": "AMBIENTI - Noleggio Allestimenti per Eventi e Matrimoni",
+      "url": "https://www.ambientinoleggio.it/",
+      "strategy": "change",
+      "status": "rejected",
+      "review_outcome": "classification_issue",
+      "review_note": "Indirizzo veneto su righe separate: correzione verificata. La lettura del catalogo PDF rimane incompleta; nessuna opportunità provata."
+    },
+    {
+      "assessment_id": 6,
+      "entity_id": 6,
+      "name": "https://www.assolombarda.it/le-imprese/le-imprese",
+      "url": "https://www.assolombarda.it/le-imprese/le-imprese",
+      "strategy": "change",
+      "status": "unverifiable",
+      "review_outcome": "not_assessable",
+      "review_note": "La risorsa di Assolombarda non è un documento HTML leggibile dal lettore. Non è una prova di bisogno né un cliente identificato."
+    },
+    {
+      "assessment_id": 7,
+      "entity_id": 7,
+      "name": "Business Matching Portal",
+      "url": "https://businessmatching.assolombarda.it/",
+      "strategy": "change",
+      "status": "unverifiable",
+      "review_outcome": "not_supported",
+      "review_note": "Portale di matching di Assolombarda con accesso riservato per candidarsi: intermediario, non committente verificato."
+    },
+    {
+      "assessment_id": 8,
+      "entity_id": 8,
+      "name": "Core42",
+      "url": "https://www.core42.ai/",
+      "strategy": "change",
+      "status": "unverifiable",
+      "review_outcome": "not_supported",
+      "review_note": "Il sito descrive infrastrutture cloud e AI su scala internazionale. Nessun bisogno di progetto compatibile o sede italiana qualificata verificato."
+    },
+    {
+      "assessment_id": 10,
+      "entity_id": 10,
+      "name": "Wholesale Helper",
+      "url": "https://wholesalehelper.io/",
+      "strategy": "gap",
+      "status": "unverifiable",
+      "review_outcome": "not_supported",
+      "review_note": "Fornitore di app Shopify: descrive soluzioni B2B già disponibili, non una richiesta a un freelance."
+    },
+    {
+      "assessment_id": 11,
+      "entity_id": 11,
+      "name": "https://appaltitelematici.regione.veneto.it/PortaleAppalti/it/ppgare_avvisi_lista.wp",
+      "url": "https://appaltitelematici.regione.veneto.it/PortaleAppalti/it/ppgare_avvisi_lista.wp",
+      "strategy": "gap",
+      "status": "unverifiable",
+      "review_outcome": "not_assessable",
+      "review_note": "Accesso escluso da robots.txt. Impossibile valutare eventuali commesse senza una fonte consultabile legittimamente."
+    },
+    {
+      "assessment_id": 12,
+      "entity_id": 12,
+      "name": "Comune di Venezia.",
+      "url": "https://www.comune.venezia.it/",
+      "strategy": "gap",
+      "status": "rejected",
+      "review_outcome": "classification_issue",
+      "review_note": "Fonte istituzionale, non impresa candidata. Il credito Sviluppo VENIS S.p.A. era attribuito erroneamente al titolare: regola corretta e routing editoriale ampliato."
+    },
+    {
+      "assessment_id": 13,
+      "entity_id": 13,
+      "name": "ArredissimA Service Soc. cons. A r.l.",
+      "url": "https://www.arredissima.com/",
+      "strategy": "gap",
+      "status": "rejected",
+      "review_outcome": "not_supported",
+      "review_note": "Retail strutturato con configuratore e servizi digitali presenti, sede legale fuori dal filtro del pilota. Il coupon da 5.000 euro non è un budget web."
+    },
+    {
+      "assessment_id": 14,
+      "entity_id": 14,
+      "name": "Villevenete",
+      "url": "https://www.villevenete.com/",
+      "strategy": "gap",
+      "status": "unverifiable",
+      "review_outcome": "not_assessable",
+      "review_note": "Identità e sede veneta verificabili; catalogo e canale export non bastano per un e-commerce. Primo modello incompleto; successivo controllo del formato riuscito, nessuna qualifica forzata."
+    },
+    {
+      "assessment_id": 15,
+      "entity_id": 15,
+      "name": "Tender",
+      "url": "https://tendersrl.it/",
+      "strategy": "gap",
+      "status": "rejected",
+      "review_outcome": "not_supported",
+      "review_note": "Articolo promozionale di un’agenzia che offre siti e software. Nessuna richiesta di fornitore per una commessa concreta."
+    },
+    {
+      "assessment_id": 16,
+      "entity_id": 16,
+      "name": "Arreda & Risparmia",
+      "url": "https://www.arredaerisparmia.it/",
+      "strategy": "gap",
+      "status": "unverifiable",
+      "review_outcome": "classification_issue",
+      "review_note": "Intermediario di offerte arredamento. La sigla provinciale VI, IT non era riconosciuta: verifica geografica corretta; nessun bisogno digitale dimostrato."
+    },
+    {
+      "assessment_id": 17,
+      "entity_id": 17,
+      "name": "Arredamont",
+      "url": "https://arredamont.it/",
+      "strategy": "gap",
+      "status": "unverifiable",
+      "review_outcome": "not_assessable",
+      "review_note": "Sito di una fiera, con biglietteria e catalogo espositori. PDF non letto e risposta del modello incompleta; non si può proporre un progetto completo."
+    },
+    {
+      "assessment_id": 18,
+      "entity_id": 18,
+      "name": "https://www.mandati-internazionali.eu/consulente-per-linternazionalizzazione-delle-pmi-italiane/consulenza-export-arredamento-italiano-e-contract-furniture-luca-gabella/",
+      "url": "https://www.mandati-internazionali.eu/consulente-per-linternazionalizzazione-delle-pmi-italiane/consulenza-export-arredamento-italiano-e-contract-furniture-luca-gabella/",
+      "strategy": "gap",
+      "status": "unverifiable",
+      "review_outcome": "not_assessable",
+      "review_note": "Fonte originale HTTP 404. Nessun fatto commerciale verificato; non è una prova di assenza di opportunità."
+    },
+    {
+      "assessment_id": 19,
+      "entity_id": 19,
+      "name": "vr.camcom.it",
+      "url": "https://www.vr.camcom.it/",
+      "strategy": "gap",
+      "status": "unverifiable",
+      "review_outcome": "not_supported",
+      "review_note": "Camera di Commercio: fonte istituzionale e servizi pubblici, non il committente di un progetto verificato."
+    },
+    {
+      "assessment_id": 20,
+      "entity_id": 20,
+      "name": "TecnoAndroid",
+      "url": "https://www.tecnoandroid.it/",
+      "strategy": "change",
+      "status": "rejected",
+      "review_outcome": "classification_issue",
+      "review_note": "Testata che pubblica una notizia su IKEA. La testata non è il soggetto dell’evento; aggiunta rilevazione tramite identità editoriale e footer, oltre ai nomi delle fonti note."
+    },
+    {
+      "assessment_id": 21,
+      "entity_id": 21,
+      "name": "web.assolombardaservizi.it",
+      "url": "https://web.assolombardaservizi.it/",
+      "strategy": "change",
+      "status": "unverifiable",
+      "review_outcome": "not_assessable",
+      "review_note": "Pagina di accesso dell’associazione e identità non verificata. Nessuna autenticazione effettuata; endpoint OAuth esclusi dalla raccolta successiva."
+    }
+  ],
+  "strategy_distribution": {
+    "explicit": 2,
+    "change": 8,
+    "gap": 10
+  },
+  "qualified_reviewed": 0,
+  "precision": null,
+  "quality_threshold_met": false,
+  "missed_opportunities": "Not estimable: access and interpretation gaps prevent complete ground truth. No specific missed full project was established.",
+  "limitations": [
+    "No qualified sample; the 90% / 20-qualified criterion cannot be evaluated.",
+    "Initial classification and duplicate issues recorded above; follow-up inspections are separate, not an independent precision benchmark.",
+    "SearXNG upstream CAPTCHA / rate limits; private access and robots restrictions respected.",
+    "PDF and oversized pages remain unverified."
+  ]
+}

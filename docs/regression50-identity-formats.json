@@ -1,0 +1,109 @@
+{
+  "checked_at": "2026-10-14T10:47:49.725410+00:00",
+  "source": "data/company-screening/2026-10-14T10-40-33.965496+00-00",
+  "split": "Development regression on original captured pages, not independent qualification precision.",
+  "search_requests": 0,
+  "web_requests": 0,
+  "model_requests": 0,
+  "sha256": {
+    "pages/d575f92579ac627f88a3afe3de9d05a7ab2c930f7ba12f5fbc414848d33b9dc0.json": "e9b77b9c1d3be403ec862bd0e2bc91f474c824849c5c5a56266535c9a8fc9914",
+    "pages/18564e75476e33238e7e99a4b99255bec410e6d5465a1d3e092bbbe54068b4ee.json": "0e9af8fe0e42661e9ab604fbd21f15c602218f6b9e2018f5dd74662236cdd0e9",
+    "pages/775fe42881e143335c7671a39b21f446e48d3633d3d1648f3a4a1c0f838688a3.json": "d85c660de4d9cd76d73934ba89e65ec3b3e7e2c077e9fb5a784f8b24279d6803",
+    "pages/ec2c907b9db1173b3ad9cb62e9185ab8815eab812e4f010ee865149ad956addc.json": "9bae3b28e1fb523d78fd91f40be721dbb9680436aa43b178c5d7a40f70def14c",
+    "pages/7459d2d768670345f00e048e23f29eb9feb68768f56efdeb001c7df464b15877.json": "ca0a06dd053eaaa0dd7ee1cc5aa4a80e2bb0a4fc36fdbdee4554c8f255d01625",
+    "pages/b2496c127dc72684debb3872ed8bb37572810abddd8bf58921ecb9a8ea9ab321.json": "a35fd68e5b4b3bc44ccfb0a8763e6bc436cade47cdfe65845a6dbd3f0e7fe48d",
+    "pages/b65d19b1cfee0f857dd5995fa2db0165a8907ecade341b7fa20c2660b44c94f1.json": "25f97abb84718f2368f341c549f540f4d6ac582809a35ed414f0d6f302ec9f8b",
+    "pages/5c0048d09af5758bed416d6c2dfb5f8a011352b0737d6e955e9383ebe27e79db.json": "7c500c3ed3b0d2a9099b8dac26d20d29889826344b9efa5d7cb99429c5e823fc",
+    "pages/d2c001c8104ac854b37ffc2fec2feb66180a8cd05d4770e2aec7e34d341f6d0b.json": "7ba1e11ddb5a9f01b9a91b89e57f3818d38783ee4c43eb8e8be779b6b617d6db",
+    "pages/129c094afb9ae66f265463bd232b469a19670cdbd1ed4a17720fd768810f71f4.json": "80ba35cdaf83e84ae1505568eea00615b3381593e0377ffd000ef2d8a9308abc"
+  },
+  "cases": [
+    {
+      "url": "https://radarsrl.it/contatti/",
+      "before": {
+        "state": "needs_review",
+        "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+        "company_ready": true,
+        "identity": {
+          "name": "RADAR IMPIANTI | Impianti elettrici - impianti idraulici - automazione industriale",
+          "location": "Viale della Navigazione Interna, 113 35027 Noventa Padovana (PD) Italy C.F. e Part. IVA IT 03369430289",
+          "region": "Veneto",
+          "legal_id": null,
+          "identity_status": "verified"
+        },
+        "limits": []
+      },
+      "after": {
+        "state": "needs_review",
+        "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+        "company_ready": true,
+        "identity": {
+          "name": "RADAR IMPIANTI | Impianti elettrici - impianti idraulici - automazione industriale",
+          "location": "Viale della Navigazione Interna, 113 35027 Noventa Padovana (PD) Italy C.F. e Part. IVA IT 03369430289",
+          "region": "Veneto",
+          "legal_id": "IT03369430289",
+          "identity_status": "verified"
+        },
+        "limits": []
+      }
+    },
+    {
+      "url": "https://www.fullserviceimpianti.com/",
+      "before": {
+        "state": "needs_review",
+        "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+        "company_ready": false,
+        "identity": {
+          "name": "Fullservice",
+          "location": "Via Vittorio Veneto 12/L 35020 – Legnaro – PD C.Fisc. P.iva e Reg.Imprese 04426930287",
+          "region": null,
+          "legal_id": null,
+          "identity_status": "verified"
+        },
+        "limits": []
+      },
+      "after": {
+        "state": "needs_review",
+        "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+        "company_ready": true,
+        "identity": {
+          "name": "Fullservice",
+          "location": "Via Vittorio Veneto 12/L 35020 – Legnaro – PD C.Fisc. P.iva e Reg.Imprese 04426930287",
+          "region": "Veneto",
+          "legal_id": null,
+          "identity_status": "verified"
+        },
+        "limits": []
+      }
+    },
+    {
+      "url": "https://www.bertolino.com/impianti-elettrici-industriali-e-terziario/",
+      "before": {
+        "state": "rejected",
+        "reason": "Ente o associazione: usare come fonte, non come cliente.",
+        "company_ready": false,
+        "identity": {
+          "name": "Bertolino Impianti - Impianti elettrici a Torino e in provincia",
+          "location": "Bertolino Impianti – dal 1952 di Lenta Giovanni – via Andezeno 55, 10023 – Chieri (TO) – p. i.v.a. 07679160015",
+          "region": "Piemonte",
+          "legal_id": null,
+          "identity_status": "unknown"
+        },
+        "limits": []
+      },
+      "after": {
+        "state": "needs_review",
+        "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+        "company_ready": true,
+        "identity": {
+          "name": "Bertolino Impianti - Impianti elettrici a Torino e in provincia",
+          "location": "Bertolino Impianti – dal 1952 di Lenta Giovanni – via Andezeno 55, 10023 – Chieri (TO) – p. i.v.a. 07679160015",
+          "region": "Piemonte",
+          "legal_id": "IT07679160015",
+          "identity_status": "verified"
+        },
+        "limits": []
+      }
+    }
+  ]
+}

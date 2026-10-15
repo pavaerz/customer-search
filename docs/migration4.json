@@ -1,0 +1,25 @@
+{
+  "backup": "data/backups/20261013T152552430651Z",
+  "database_integrity": "ok",
+  "migration_repeated": true,
+  "old_rows_unchanged": {
+    "config": 18,
+    "companies": 15,
+    "sources": 18,
+    "evidence": 69,
+    "prospects": 21,
+    "prospect_evidence": 92,
+    "interactions": 19,
+    "runs": 25,
+    "run_items": 395,
+    "api_usage": 6,
+    "cache": 212,
+    "legacy_records": 132,
+    "audits": 6,
+    "target_exclusions": 5,
+    "dismissed_companies": 1,
+    "contact_groups": 0
+  },
+  "restored_archive_hashes": true,
+  "restored_database_rows": true
+}

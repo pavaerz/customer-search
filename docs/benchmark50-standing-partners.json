@@ -1,0 +1,652 @@
+{
+  "checked_at": "2026-10-14T21:09:35.335935+00:00",
+  "split": "new-originals evaluation; new city queries selected before results",
+  "sample_size": 6,
+  "sample_sha256": "353cda7a4cdf2c6749b1e0776834289b0f9ef608a0e6622c71af25870fbd99e3",
+  "baseline": "data/backups/20261014T161155549946Z/project.zip",
+  "baseline_sha256": "54830610cefa20e64208e03e61d9619bf0fa764d1702d093cd6256b383c07d7b",
+  "api_requests": 0,
+  "project_override": "website",
+  "scope": "Original-page triage and contact routes, not full project qualification or sales conversion. Same frozen pages for both versions.",
+  "selection": "First 3 eligible unread domains per query in app visit order",
+  "versions": {
+    "before": [
+      {
+        "url": "https://www.doozy.it/lavora-con-noi/",
+        "state": "needs_review",
+        "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+        "identity": {
+          "name": "Doozy Service Srl",
+          "website": "https://www.doozy.it/",
+          "legal_id": "IT04747030288",
+          "location": "Via Niccolò Tommaseo 68, 35131, Padova, Veneto, IT",
+          "region": null,
+          "country": "IT",
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+390495206181",
+              "url": "https://www.doozy.it/",
+              "checked_at": "2026-10-14T16:48:06.735620+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "hello@doozy.it",
+              "url": "https://www.doozy.it/lavora-con-noi/",
+              "checked_at": "2026-10-14T16:48:05.239874+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "Emailhello@doozy.it",
+              "url": "https://www.doozy.it/contatti/",
+              "checked_at": "2026-10-14T16:48:11.655026+00:00",
+              "basis": "Indirizzo pubblicato nel testo del sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "form",
+              "value": "https://www.doozy.it/contatti/",
+              "url": "https://www.doozy.it/contatti/",
+              "checked_at": "2026-10-14T16:48:11.655026+00:00",
+              "basis": "Modulo aziendale pubblico, non inviato",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Costruiamo eCommerce, software, agenti AI e visibilità nelle nuove ricerche generative, con un metodo concreto, misurabile.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.doozy.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.dvwebmarketing.it/lavora-con-noi/",
+        "state": "rejected",
+        "reason": "Fornitore di servizi digitali: non è un committente per questa ricerca.",
+        "identity": {
+          "name": "DVwebmarketing di Denise Bedin",
+          "website": "https://www.dvwebmarketing.it/",
+          "legal_id": "IT05270100281",
+          "location": "P.zza Papa Giovanni XXIII, 3, 35010, Grantorto, PD, IT",
+          "region": "Veneto",
+          "country": "IT",
+          "contacts": [
+            {
+              "type": "email",
+              "value": "info@dvwebmarketing.it",
+              "url": "https://www.dvwebmarketing.it/",
+              "checked_at": "2026-10-14T14:51:24.046506+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "+393488298235",
+              "url": "https://www.dvwebmarketing.it/",
+              "checked_at": "2026-10-14T14:51:24.046506+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "emailinfo@dvwebmarketing.it",
+              "url": "https://www.dvwebmarketing.it/",
+              "checked_at": "2026-10-14T14:51:24.046506+00:00",
+              "basis": "Indirizzo pubblicato nel testo del sito; non implica consenso",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Agenzia di web marketing con sede a Grantorto (PD): siti web, SEO e AI Search, social, Google e Meta Ads e branding per aziende in Veneto e in tutta Italia.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "agencies",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.dvwebmarketing.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.nexweb.it/lavora-con-noi/",
+        "state": "needs_review",
+        "reason": "Assunzione di personale, non una commessa. L’eventuale bisogno digitale richiede prove indipendenti.",
+        "identity": {
+          "name": "NexWeb di Antonio Dilorenzo",
+          "website": "https://www.nexweb.it/",
+          "legal_id": "IT04496940711",
+          "location": null,
+          "region": null,
+          "country": null,
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+393482690684",
+              "url": "https://www.nexweb.it/lavora-con-noi/",
+              "checked_at": "2026-10-14T16:48:20.266497+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": null,
+          "description": "NexWeb cerca procacciatori d'affari e freelance in tutta Italia e Svizzera. Vendi siti web ed e-commerce su commissione o collabora come specialista web, SEO, grafica e digital marketing.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "unknown",
+          "basis": "Identità o collegamento al dominio non sufficientemente dimostrati.",
+          "source_url": "https://www.nexweb.it/lavora-con-noi/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://pdr-web.com/lavora-con-noi/",
+        "state": "rejected",
+        "reason": "Assunzione di personale, non una commessa. L’eventuale bisogno digitale richiede prove indipendenti.",
+        "identity": {
+          "name": "Pdr Srl",
+          "website": "https://pdr-web.com/",
+          "legal_id": "IT06532990964",
+          "location": "Sede Legale Viale Gran Sasso, 11 20131 Milano (MI)",
+          "region": "Lombardia",
+          "country": "IT",
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+390278623600",
+              "url": "https://pdr-web.com/lavora-con-noi/",
+              "checked_at": "2026-10-14T16:48:26.153416+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "info@pdr-web.com",
+              "url": "https://pdr-web.com/lavora-con-noi/",
+              "checked_at": "2026-10-14T16:48:26.153416+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Invia la tua candidatura Lavorare con noi significa non solo far parte di un’agenzia dinamica e in continua crescita ma anche condividere gli stessi valori: passione, dedizione e responsabilità.PDR...",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://pdr-web.com/lavora-con-noi/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.dsidesign.it/lavora-con-noi/",
+        "state": "needs_review",
+        "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+        "identity": {
+          "name": "DSI Design",
+          "website": "https://www.dsidesign.it/",
+          "legal_id": "IT12625750018",
+          "location": "Via Issiglio, 39, 10141, Torino, IT",
+          "region": null,
+          "country": "IT",
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+390113727526",
+              "url": "https://www.dsidesign.it/",
+              "checked_at": "2026-10-14T16:48:28.125145+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "+390280889015",
+              "url": "https://www.dsidesign.it/",
+              "checked_at": "2026-10-14T16:48:28.125145+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "info@dsidesign.it",
+              "url": "https://www.dsidesign.it/",
+              "checked_at": "2026-10-14T16:48:28.125145+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "form",
+              "value": "https://www.dsidesign.it/contatti/",
+              "url": "https://www.dsidesign.it/contatti/",
+              "checked_at": "2026-10-14T16:48:30.453104+00:00",
+              "basis": "Modulo aziendale pubblico, non inviato",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Agenzia web Torino dal 2009. Siti web, eCommerce, Google Ads e SEO. 280+ progetti, referente unico dedicato. Richiedi un Preventivo gratuito.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "agencies",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.dsidesign.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.nextadv.it/lavora-con-noi/",
+        "state": "needs_review",
+        "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+        "identity": {
+          "name": "Next Adv",
+          "website": "https://www.nextadv.it/",
+          "legal_id": "IT03261860658",
+          "location": null,
+          "region": null,
+          "country": null,
+          "contacts": [
+            {
+              "type": "email",
+              "value": "info@nextadv.it",
+              "url": "https://www.nextadv.it/",
+              "checked_at": "2026-10-14T16:48:33.769437+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "0640062033",
+              "url": "https://www.nextadv.it/",
+              "checked_at": "2026-10-14T16:48:33.769437+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "3755707576",
+              "url": "https://www.nextadv.it/",
+              "checked_at": "2026-10-14T16:48:33.769437+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Servizi professionali · inferito",
+          "description": "Digital Company Roma. Sviluppo App Web e Mobile, StartUp, Siti E-Commerce, Partner Facebook e Google, Leader nella Pubblicità Online dal 1997.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.nextadv.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      }
+    ],
+    "after": [
+      {
+        "url": "https://www.doozy.it/lavora-con-noi/",
+        "state": "rejected",
+        "reason": "Fornitore di servizi digitali: non è un committente per questa ricerca.",
+        "identity": {
+          "name": "Doozy Service Srl",
+          "website": "https://www.doozy.it/",
+          "legal_id": "IT04747030288",
+          "location": "Via Niccolò Tommaseo 68, 35131, Padova, Veneto, IT",
+          "region": null,
+          "country": "IT",
+          "regions": [],
+          "locations": [
+            "Via Niccolò Tommaseo 68, 35131, Padova, Veneto, IT"
+          ],
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+390495206181",
+              "url": "https://www.doozy.it/",
+              "checked_at": "2026-10-14T16:48:06.735620+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "hello@doozy.it",
+              "url": "https://www.doozy.it/lavora-con-noi/",
+              "checked_at": "2026-10-14T16:48:05.239874+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "form",
+              "value": "https://www.doozy.it/contatti/",
+              "url": "https://www.doozy.it/contatti/",
+              "checked_at": "2026-10-14T16:48:11.655026+00:00",
+              "basis": "Modulo aziendale pubblico, non inviato",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Costruiamo eCommerce, software, agenti AI e visibilità nelle nuove ricerche generative, con un metodo concreto, misurabile.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "agencies",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.doozy.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.dvwebmarketing.it/lavora-con-noi/",
+        "state": "promising",
+        "reason": "Agenzia disponibile a collaborazioni freelance web, dichiarate sul proprio sito. Partner da contattare; nessuna commessa aperta verificata.",
+        "identity": {
+          "name": "DVwebmarketing di Denise Bedin",
+          "website": "https://www.dvwebmarketing.it/",
+          "legal_id": "IT05270100281",
+          "location": "P.zza Papa Giovanni XXIII, 3, 35010, Grantorto, PD, IT",
+          "region": "Veneto",
+          "country": "IT",
+          "regions": [
+            "Veneto"
+          ],
+          "locations": [
+            "P.zza Papa Giovanni XXIII, 3, 35010, Grantorto, PD, IT"
+          ],
+          "contacts": [
+            {
+              "type": "email",
+              "value": "info@dvwebmarketing.it",
+              "url": "https://www.dvwebmarketing.it/",
+              "checked_at": "2026-10-14T14:51:24.046506+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "+393488298235",
+              "url": "https://www.dvwebmarketing.it/",
+              "checked_at": "2026-10-14T14:51:24.046506+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Agenzia di web marketing con sede a Grantorto (PD): siti web, SEO e AI Search, social, Google e Meta Ads e branding per aziende in Veneto e in tutta Italia.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "agencies",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.dvwebmarketing.it/"
+        },
+        "collaboration": {
+          "kind": "standing_invitation",
+          "quote": "DVwebmarketing raccoglie candidature spontanee per SEO Specialist, Social Media Manager, Content Creator e Video Maker, Performance Marketing Specialist, Web Developer WordPress, Graphic Designer, Copywriter, Account Manager, AI e Marketing Automation Specialist e per stage. Invia CV e portfolio a info@dvwebmarketing.it indicando la figura: valutiamo collaborazioni in sede a Grantorto (PD), freelance e tirocini.",
+          "role": "Web Developer",
+          "contract_quote": null,
+          "availability": "Disponibilità dichiarata; nessuna commessa aperta verificata",
+          "url": "https://www.dvwebmarketing.it/lavora-con-noi/",
+          "checked_at": "2026-10-14T14:51:21.750791+00:00",
+          "published_at": null,
+          "page_published_at": "2026-10-08",
+          "scope": "Da concordare",
+          "budget": null
+        },
+        "company_ready": true
+      },
+      {
+        "url": "https://www.nexweb.it/lavora-con-noi/",
+        "state": "needs_review",
+        "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+        "identity": {
+          "name": "Dilorenzo Antonio",
+          "website": "https://www.nexweb.it/",
+          "legal_id": "IT04496940711",
+          "location": "PRESSO WEB EMPIRE Piazza Maria Teresa di Calcutta 48, 71042, Cerignola, FG, IT",
+          "region": null,
+          "country": "IT",
+          "regions": [],
+          "locations": [
+            "PRESSO WEB EMPIRE Piazza Maria Teresa di Calcutta 48, 71042, Cerignola, FG, IT"
+          ],
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+393482690684",
+              "url": "https://www.nexweb.it/",
+              "checked_at": "2026-10-14T16:48:20.909808+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Sviluppo siti e APP a Cerignola Foggia BAT. NEXWEB.IT: realizzazione siti web veloce, APP, e-commerce, specialisti AI e posizionamento SEO per motori di ricerca. Professionisti al prezzo di cugini!",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.nexweb.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://pdr-web.com/lavora-con-noi/",
+        "state": "rejected",
+        "reason": "Assunzione di personale, non una commessa. L’eventuale bisogno digitale richiede prove indipendenti.",
+        "identity": {
+          "name": "Pdr Srl",
+          "website": "https://pdr-web.com/",
+          "legal_id": "IT06532990964",
+          "location": "Sede Legale Viale Gran Sasso, 11 20131 Milano (MI)",
+          "region": "Lombardia",
+          "country": "IT",
+          "regions": [
+            "Lombardia"
+          ],
+          "locations": [
+            "Sede Legale Viale Gran Sasso, 11 20131 Milano (MI)"
+          ],
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+390278623600",
+              "url": "https://pdr-web.com/lavora-con-noi/",
+              "checked_at": "2026-10-14T16:48:26.153416+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "info@pdr-web.com",
+              "url": "https://pdr-web.com/lavora-con-noi/",
+              "checked_at": "2026-10-14T16:48:26.153416+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Invia la tua candidatura Lavorare con noi significa non solo far parte di un’agenzia dinamica e in continua crescita ma anche condividere gli stessi valori: passione, dedizione e responsabilità.PDR...",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://pdr-web.com/lavora-con-noi/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.dsidesign.it/lavora-con-noi/",
+        "state": "rejected",
+        "reason": "Fornitore di servizi digitali: non è un committente per questa ricerca.",
+        "identity": {
+          "name": "DSI Design",
+          "website": "https://www.dsidesign.it/",
+          "legal_id": "IT12625750018",
+          "location": "Via Issiglio, 39, 10141, Torino, IT",
+          "region": null,
+          "country": "IT",
+          "regions": [],
+          "locations": [
+            "Via Issiglio, 39, 10141, Torino, IT"
+          ],
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+390113727526",
+              "url": "https://www.dsidesign.it/",
+              "checked_at": "2026-10-14T16:48:28.125145+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "+390280889015",
+              "url": "https://www.dsidesign.it/",
+              "checked_at": "2026-10-14T16:48:28.125145+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "info@dsidesign.it",
+              "url": "https://www.dsidesign.it/",
+              "checked_at": "2026-10-14T16:48:28.125145+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "form",
+              "value": "https://www.dsidesign.it/contatti/",
+              "url": "https://www.dsidesign.it/contatti/",
+              "checked_at": "2026-10-14T16:48:30.453104+00:00",
+              "basis": "Modulo aziendale pubblico, non inviato",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Agenzia web Torino dal 2009. Siti web, eCommerce, Google Ads e SEO. 280+ progetti, referente unico dedicato. Richiedi un Preventivo gratuito.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "agencies",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.dsidesign.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.nextadv.it/lavora-con-noi/",
+        "state": "needs_review",
+        "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+        "identity": {
+          "name": "Next Adv",
+          "website": "https://www.nextadv.it/",
+          "legal_id": "IT03261860658",
+          "location": null,
+          "region": null,
+          "country": null,
+          "regions": [
+            "Lazio",
+            "Lombardia"
+          ],
+          "locations": [
+            "Via dei Granai di Nerva, 48 00142, Roma Via Gaetana Agnesi, 12",
+            "Via Gaetana Agnesi, 12 20135, Milano Link Utili",
+            "Via dei Granai di Nerva, 48 00142 Roma (RM) Italia",
+            "Via Gaetana Agnesi, 12 20135, Milano Italia"
+          ],
+          "contacts": [
+            {
+              "type": "email",
+              "value": "info@nextadv.it",
+              "url": "https://www.nextadv.it/",
+              "checked_at": "2026-10-14T16:48:33.769437+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "0640062033",
+              "url": "https://www.nextadv.it/",
+              "checked_at": "2026-10-14T16:48:33.769437+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "3755707576",
+              "url": "https://www.nextadv.it/",
+              "checked_at": "2026-10-14T16:48:33.769437+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Servizi professionali · inferito",
+          "description": "Digital Company Roma. Sviluppo App Web e Mobile, StartUp, Siti E-Commerce, Partner Facebook e Google, Leader nella Pubblicità Online dal 1997.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.nextadv.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      }
+    ]
+  },
+  "metrics": {
+    "before": {
+      "examined": 6,
+      "identified": 5,
+      "promising": 0,
+      "documented_collaborations_with_contact": 0,
+      "unverifiable": 0,
+      "qualified": 0,
+      "model_calls": 0,
+      "replay_api_requests": 0,
+      "precision_at_10": null,
+      "precision_at_20": null
+    },
+    "after": {
+      "examined": 6,
+      "identified": 6,
+      "promising": 1,
+      "documented_collaborations_with_contact": 1,
+      "unverifiable": 0,
+      "qualified": 0,
+      "model_calls": 0,
+      "replay_api_requests": 0,
+      "precision_at_10": null,
+      "precision_at_20": null
+    }
+  },
+  "limits": [
+    "Small cohort, not proof of commercial efficacy.",
+    "No purchased budget inferred; original invitation can require availability confirmation.",
+    "Precision needs manual labels and adequate denominators; no score fabricated.",
+    "Baseline can request uncaptured pages; these remain explicit errors, never commercial rejections."
+  ]
+}

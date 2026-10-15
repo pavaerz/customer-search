@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-14T08:09:47.129294+00:00",
+  "unit_tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests",
+    "passed": 345,
+    "log": "docs/tests50-current.txt",
+    "sha256": "6def0610e1d0cd9888f61fe57f90a6c0b65cbf6f5ded7d67156b7676e0da3112",
+    "warnings": [
+      "ResourceWarning: unclosed SQLite connection during suite; no failing tests."
+    ]
+  },
+  "browser": {
+    "command": ".venv/bin/python scripts/check_research_ui.py",
+    "results": {
+      "company_preferences": true,
+      "desktop_mobile": true,
+      "filters_dossier_review": true,
+      "contact_green_delete": true,
+      "start_stop_resume": true,
+      "pipeline_drag_drop": true,
+      "settings_save": true,
+      "browser_errors": [],
+      "real_data_modified": false
+    }
+  },
+  "app": {
+    "url": "http://127.0.0.1:8765",
+    "state_http": 200,
+    "provider": "serper",
+    "campaign_started": false
+  },
+  "preservation": "docs/preservation50-current.json",
+  "goal_complete": false
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "Regression replay on development pilot; no API requests",
+  "url": "https://cnapadova.it/meccanica/",
+  "before_links": [
+    [
+      "Google Calendar",
+      "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fcnapadova.it%2F%3Fpost_type%3Dtribe_events%26tribe-bar-date%3D2026-10-14%26ical%3D1%26eventDisplay%3Dlist%26tribe_events_cat%3Dmeccanica%252Ctuttelecategorie"
+    ],
+    [
+      "Outlook 365",
+      "https://outlook.office.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url=webcal%253A%252F%252Fcnapadova.it%252F%253Fpost_type%253Dtribe_events%2526tribe-bar-date%253D2026-10-14%2526eventDisplay%253Dlist%2526tribe_events_cat%253Dmeccanica%25252Ctuttelecategorie%26ical%3D1&name=CNA+Padova+Meccanica+-+CNA+Padova"
+    ],
+    [
+      "Outlook Live",
+      "https://outlook.live.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url=webcal%253A%252F%252Fcnapadova.it%252F%253Fpost_type%253Dtribe_events%2526tribe-bar-date%253D2026-10-14%2526eventDisplay%253Dlist%2526tribe_events_cat%253Dmeccanica%25252Ctuttelecategorie%26ical%3D1&name=CNA+Padova+Meccanica+-+CNA+Padova"
+    ],
+    [
+      "Google Calendar",
+      "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fcnapadova.it%2F%3Fpost_type%3Dtribe_events%26tribe-bar-date%3D2026-10-14%26ical%3D1%26eventDisplay%3Dlist%26tribe_events_cat%3Dscadenze"
+    ],
+    [
+      "Outlook 365",
+      "https://outlook.office.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url=webcal%253A%252F%252Fcnapadova.it%252F%253Fpost_type%253Dtribe_events%2526tribe-bar-date%253D2026-10-14%2526eventDisplay%253Dlist%2526tribe_events_cat%253Dscadenze%26ical%3D1&name=CNA+Padova+Meccanica+-+CNA+Padova"
+    ],
+    [
+      "Outlook Live",
+      "https://outlook.live.com/owa?path=%2Fcalendar%2Faction%2Fcompose&rru=addsubscription&url=webcal%253A%252F%252Fcnapadova.it%252F%253Fpost_type%253Dtribe_events%2526tribe-bar-date%253D2026-10-14%2526eventDisplay%253Dlist%2526tribe_events_cat%253Dscadenze%26ical%3D1&name=CNA+Padova+Meccanica+-+CNA+Padova"
+    ]
+  ],
+  "after_links": [],
+  "after_queries": 0,
+  "reason": "Nessun collegamento pubblico utilizzabile verso un’impresa; elenco non risolto, nessun cliente dedotto."
+}

@@ -1,0 +1,8 @@
+{
+  "first_stop_seconds": 0.014,
+  "resumed_stop_seconds": 0.017,
+  "generation_changed": true,
+  "task_ids_preserved": true,
+  "database": "isolated temporary fixture",
+  "status": "paused"
+}

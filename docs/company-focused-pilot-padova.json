@@ -1,0 +1,663 @@
+{
+  "started_at": "2026-10-13T22:47:10.486871+00:00",
+  "scope": "Piccolo campione diagnostico B2B Veneto. Identità/attività non equivalgono a opportunità. Nessun invio o nuovo contatto nel CRM reale.",
+  "provider": "SearXNG",
+  "query_offset": 6,
+  "excluded_report": null,
+  "paid_requests": 0,
+  "queries": [
+    {
+      "query": "impiantistica industriale Padova azienda contatti -agenzia -software -lavoro",
+      "urls": [
+        "https://www.netsrl.eu/",
+        "https://www.picello.it/",
+        "https://www.munegatoimpianti.com/contatti",
+        "https://ai-servicesrl.it/",
+        "https://www.galloimpianti.it/",
+        "https://www.mdmimpianti.com/",
+        "https://montaggiimpiantimorosan.it/"
+      ],
+      "new_urls": 7
+    },
+    {
+      "query": "ingegneria industriale Padova azienda contatti -agenzia -software -lavoro",
+      "urls": [
+        "https://www.sgi-spa.it/contatti/",
+        "https://www.dii.unipd.it/dipartimento/sedi",
+        "https://ingegneriasf.com/",
+        "https://firmania.it/padova/dipartimento-di-ingegneria-industriale-3887123",
+        "https://localitybiz.it/21129610/dipartimento-di-ingegneria-industriale-sede-v-di-via-venezia-1-padova",
+        "https://www.unipd.it/contatti/enrico.bernardo"
+      ],
+      "new_urls": 6
+    },
+    {
+      "query": "lavorazioni meccaniche Padova azienda contatti -agenzia -software -lavoro",
+      "urls": [
+        "https://www.symec.it/",
+        "https://www.torniturarigal.com/",
+        "https://www.mimopd.it/it/azienda",
+        "https://favolmat.it/",
+        "https://www.officinalazzaretto.it/stabilimento-produttivo.php",
+        "https://tecnoturning.it/",
+        "https://www.mcmlavorazionimeccaniche.com/"
+      ],
+      "new_urls": 7
+    },
+    {
+      "query": "site:netsrl.eu novità nuovi servizi prodotti",
+      "urls": [],
+      "new_urls": 0
+    },
+    {
+      "query": "site:picello.it novità nuovi servizi prodotti",
+      "urls": [
+        "https://www.picello.it/termini-e-condizioni/"
+      ],
+      "new_urls": 1
+    }
+  ],
+  "companies": [
+    {
+      "url": "https://www.netsrl.eu/",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "identity": {
+        "name": "Net",
+        "website": "https://www.netsrl.eu/",
+        "legal_id": "IT01589950284",
+        "region": "Veneto",
+        "identity_status": "verified"
+      },
+      "target_quote": "Progettazione ed Installazione\nNew Electric Technology\nUn servizio completo\nImpiantistica civile ed industriale\nNet opera nell’ambito dell’impiantistica e fornisce servizi quali la progettazione, l’installazione e la manutenzione sia a livello industriale che civile.\nGrazie ad una squadra",
+      "limits": [],
+      "pages": [
+        "https://www.netsrl.eu/",
+        "https://www.netsrl.eu/contatti/"
+      ]
+    },
+    {
+      "url": "https://www.sgi-spa.it/contatti/",
+      "state": "rejected",
+      "reason": "Sede fuori dal territorio selezionato.",
+      "company_ready": false,
+      "identity": {
+        "name": "Studio Galli Ingegneria",
+        "website": "https://www.sgi-spa.it/",
+        "legal_id": null,
+        "region": "Lazio",
+        "identity_status": "verified"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": [
+        "https://www.sgi-spa.it/",
+        "https://www.sgi-spa.it/contatti/",
+        "https://www.sgi-spa.it/chi-siamo/"
+      ]
+    },
+    {
+      "url": "https://www.symec.it/",
+      "state": "unverifiable",
+      "reason": "robots.txt non verificabile"
+    },
+    {
+      "url": "https://www.picello.it/",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "identity": {
+        "name": "Picello srl",
+        "website": "https://www.picello.it/",
+        "legal_id": null,
+        "region": "Veneto",
+        "identity_status": "verified"
+      },
+      "target_quote": "loading\nprogettiamo e realizziamo\nAutomazione Industriale\nCostruzione e Manutenzione\nImpianti Distribuzione\nProgettazione e Costruzione\nQuadri di Automazione\nProgettazione e Costruzione\nQuadri di Distribuzione\nProgettazione e Costruzoine\nImpianti e Quadri ATEX\nVendita Noleggio e Assistenza\nGi",
+      "limits": [],
+      "pages": [
+        "https://www.picello.it/",
+        "https://www.picello.it/contatti/"
+      ]
+    },
+    {
+      "url": "https://www.dii.unipd.it/dipartimento/sedi",
+      "state": "rejected",
+      "reason": "Fonte enciclopedica o accademica, non una piccola impresa del segmento selezionato.",
+      "company_ready": false,
+      "identity": {
+        "name": "Sedi",
+        "website": "https://www.dii.unipd.it/",
+        "legal_id": null,
+        "region": "Veneto",
+        "identity_status": "unknown"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": []
+    },
+    {
+      "url": "https://www.torniturarigal.com/",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "identity": {
+        "name": "TORNITURA RI.GAL. SRL",
+        "website": "https://www.torniturarigal.com/",
+        "legal_id": "IT03331570287",
+        "region": "Veneto",
+        "identity_status": "verified"
+      },
+      "target_quote": "Richiedi un Preventivo\nLavorazioni meccaniche Padova\nRichiedi un Preventivo\nLavorazioni meccaniche Padova\nRichiedi un Preventivo\nRichiedi un Preventivo\nOltre 20 anni di esperienza\nin fresatura, tornitura e foratura\nTORNITURA RI.GAL da oltre 20 a",
+      "limits": [],
+      "pages": [
+        "https://www.torniturarigal.com/",
+        "https://www.torniturarigal.com/lavorazioni-meccaniche-di-precisione-veneto/",
+        "https://www.torniturarigal.com/contatti/"
+      ]
+    },
+    {
+      "url": "https://www.munegatoimpianti.com/contatti",
+      "state": "unverifiable",
+      "reason": "robots.txt non verificabile"
+    },
+    {
+      "url": "https://ingegneriasf.com/",
+      "state": "needs_review",
+      "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+      "company_ready": false,
+      "identity": {
+        "name": "ingegneriasf",
+        "website": "https://ingegneriasf.com/",
+        "legal_id": null,
+        "region": null,
+        "identity_status": "unknown"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": [
+        "https://ingegneriasf.com/"
+      ]
+    },
+    {
+      "url": "https://www.mimopd.it/it/azienda",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "identity": {
+        "name": "Mimo Srl",
+        "website": "https://www.mimopd.it/",
+        "legal_id": "IT03803110281",
+        "region": "Veneto",
+        "identity_status": "verified"
+      },
+      "target_quote": "﻿\nPer le lavorazioni meccaniche di precisione, affidati a Mimo S.r.l.\nDal 1984 sprigioniamo le forme nei metalli: dall’idea al progetto, Mimo realizza soluzioni di meccanica di precisione prevalentemente del settore dell’industria ",
+      "limits": [],
+      "pages": [
+        "https://www.mimopd.it/it/home",
+        "https://www.mimopd.it/it/azienda",
+        "https://www.mimopd.it/it/contatti"
+      ]
+    }
+  ],
+  "investigations": [
+    {
+      "url": "https://www.picello.it/prodotti/",
+      "state": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "excerpts": [
+        "con o senza operatore;\ndimostrazioni tecniche;\nformazione all’utilizzo;\ndocumentazione in italiano;\nconfigurazione iniziale;\nassistenza tecnica e post-vendita;\nricambi e materiali di consumo.\nIl nostro obiettivo è fornire una soluzione completa, accompagnando il cliente dalla scelta del prodotto fino al suo utilizzo operativo.\nConsulta le categorie disponibili oppure contattaci per indi"
+      ]
+    },
+    {
+      "url": "https://www.picello.it/revamping-impianto-biogas-biometano/",
+      "state": "needs_review",
+      "reason": "Pagina aziendale letta: descrive l’attività o relazioni ordinarie, senza un evento o bisogno specifico da approfondire.",
+      "excerpts": []
+    },
+    {
+      "url": "https://www.picello.it/progettazione/",
+      "state": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "excerpts": []
+    },
+    {
+      "url": "https://www.picello.it/termini-e-condizioni/",
+      "state": "needs_review",
+      "reason": "Pagina aziendale letta: descrive l’attività o relazioni ordinarie, senza un evento o bisogno specifico da approfondire.",
+      "excerpts": []
+    }
+  ],
+  "assessments": [
+    {
+      "url": "https://www.picello.it/prodotti/",
+      "identity": {
+        "name": "Picello srl",
+        "website": "https://www.picello.it/",
+        "legal_id": null,
+        "location": "Viale del Progresso 14/A 35026 Conselve PD",
+        "region": "Veneto",
+        "country": null,
+        "contacts": [
+          {
+            "type": "email",
+            "value": "info@picello.it",
+            "url": "https://www.picello.it/",
+            "checked_at": "2026-10-13T22:47:32.593363+00:00",
+            "basis": "Pubblicato sul sito; non implica consenso",
+            "role": "Referente non specificato"
+          },
+          {
+            "type": "phone",
+            "value": "+390499500206",
+            "url": "https://www.picello.it/",
+            "checked_at": "2026-10-13T22:47:32.593363+00:00",
+            "basis": "Contatto pubblico",
+            "role": "Referente non specificato"
+          },
+          {
+            "type": "phone",
+            "value": "1(800)7654322",
+            "url": "https://www.picello.it/contatti/",
+            "checked_at": "2026-10-13T22:47:34.490346+00:00",
+            "basis": "Contatto pubblico",
+            "role": "Referente non specificato"
+          },
+          {
+            "type": "form",
+            "value": "https://www.picello.it/contatti/",
+            "url": "https://www.picello.it/contatti/",
+            "checked_at": "2026-10-13T22:47:34.490346+00:00",
+            "basis": "Modulo aziendale pubblico, non inviato",
+            "role": "Referente non specificato"
+          }
+        ],
+        "identity_contacts": [],
+        "sector": "Industria / manifattura · inferito",
+        "description": "Picello Srl, con sede a Conselve (Padova), progetta e realizza automazioni, quadri elettrici, impianti industriali MT/BT e ATEX in Veneto.",
+        "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+        "group": "direct",
+        "identity_status": "verified",
+        "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+        "source_url": "https://www.picello.it/"
+      },
+      "assessment": {
+        "version": 4,
+        "status": "unverifiable",
+        "score": 5,
+        "score_detail": {
+          "Qualità delle prove": {
+            "points": 0,
+            "evidence_ids": [],
+            "reason": "Elemento non documentato o controllo non superato."
+          },
+          "Concretezza del bisogno": {
+            "points": 0,
+            "evidence_ids": [],
+            "reason": "Elemento non documentato o controllo non superato."
+          },
+          "Tempestività": {
+            "points": 0,
+            "evidence_ids": [],
+            "reason": "Elemento non documentato o controllo non superato."
+          },
+          "Progetto completo": {
+            "points": 0,
+            "evidence_ids": [],
+            "reason": "Elemento non documentato o controllo non superato."
+          },
+          "Compatibilità economica documentata": {
+            "points": 0,
+            "evidence_ids": [],
+            "reason": "Budget non dichiarato: zero punti."
+          },
+          "Fattibilità tecnica": {
+            "points": 0,
+            "evidence_ids": [],
+            "reason": "Elemento non documentato o controllo non superato."
+          },
+          "Accessibilità del contatto": {
+            "points": 5,
+            "evidence_ids": [],
+            "reason": "Canale aziendale trovato in una pagina ufficiale."
+          },
+          "Riscontri indipendenti": {
+            "points": 0,
+            "evidence_ids": [],
+            "reason": "Elemento non documentato o controllo non superato."
+          }
+        },
+        "gates": [
+          {
+            "key": "identity",
+            "label": "Identità verificata",
+            "passed": true,
+            "reason": "Identità e dominio collegati a dati ufficiali, non al nome nel motore.",
+            "evidence_ids": []
+          },
+          {
+            "key": "geography",
+            "label": "Area geografica",
+            "passed": true,
+            "reason": "Sede aziendale in un’area ammessa; località sconosciuta non supera il controllo.",
+            "evidence_ids": []
+          },
+          {
+            "key": "target",
+            "label": "Target compatibile",
+            "passed": true,
+            "reason": "Nessuna esclusione identificata.",
+            "evidence_ids": []
+          },
+          {
+            "key": "timing",
+            "label": "Attualità",
+            "passed": false,
+            "reason": "Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+            "evidence_ids": []
+          },
+          {
+            "key": "need",
+            "label": "Bisogno concreto",
+            "passed": false,
+            "reason": "Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+            "evidence_ids": []
+          },
+          {
+            "key": "scope",
+            "label": "Progetto completo",
+            "passed": false,
+            "reason": "Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+            "evidence_ids": []
+          },
+          {
+            "key": "economics",
+            "label": "Compatibilità economica",
+            "passed": true,
+            "reason": "Budget non dichiarato: nessuna capacità di spesa attribuita.",
+            "evidence_ids": []
+          },
+          {
+            "key": "counterevidence",
+            "label": "Soluzioni e controprove",
+            "passed": false,
+            "reason": "Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+            "evidence_ids": []
+          },
+          {
+            "key": "feasibility",
+            "label": "Fattibilità",
+            "passed": false,
+            "reason": "Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+            "evidence_ids": []
+          },
+          {
+            "key": "contact",
+            "label": "Canale aziendale",
+            "passed": true,
+            "reason": "Contatto pubblico attribuito all’azienda; non equivale a consenso.",
+            "evidence_ids": []
+          },
+          {
+            "key": "validation",
+            "label": "Verifica approfondita",
+            "passed": false,
+            "reason": "Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+            "evidence_ids": []
+          }
+        ],
+        "project": "none",
+        "minimum_offer": null,
+        "budget": null,
+        "budget_evidence_id": null,
+        "confidence": "insufficiente",
+        "why": "L'azienda si concentra principalmente su soluzioni elettriche e di automazione industriale, senza evidenti esigenze digitali specifiche.",
+        "why_now": "Il sito web non presenta problemi notevoli e l'azienda non menziona specifiche esigenze digitali.",
+        "proposal": "Nessun progetto digitale completo giustificato dalle prove disponibili.",
+        "next_action": "Completare i controlli mancanti prima di proporre un progetto.",
+        "objections": [
+          "Il sito web non evidenzia problemi digitali che richiederebbero un intervento."
+        ],
+        "missing": [
+          "Attualità: Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+          "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+          "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+          "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+          "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+          "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+          "Citazione non riscontrata nell’estratto presentato al modello",
+          "Manca una descrizione delle esigenze digitali specifiche dell'azienda.",
+          "Non ci sono indicazioni su come l'azienda utilizza i dati raccolti dai clienti."
+        ],
+        "reasons": [
+          "Attualità: Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+          "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+          "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+          "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+          "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+          "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+          "Citazione non riscontrata nell’estratto presentato al modello",
+          "Manca una descrizione delle esigenze digitali specifiche dell'azienda.",
+          "Non ci sono indicazioni su come l'azienda utilizza i dati raccolti dai clienti."
+        ],
+        "signals": [
+          {
+            "id": "16797a076ba2086e26df",
+            "document_id": "fbeaccc490b1912b49134585ea675b629dd2d5a06f8adabb06a2adda68a105cf",
+            "kind": "process",
+            "quote": "Realizziamo impianti elettrici industriali completi, efficienti e conformi alle normative vigenti. Ci occupiamo della progettazione, installazione e manutenzione, garantendo soluzioni su misura per ogni esigenza produttiva.",
+            "url": "https://www.picello.it/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:47:32.593363+00:00",
+            "official": true,
+            "event_key": "65c662070115a0cc09b28a10dca028288093353a20a68b1fe0760a862a65fd3b"
+          },
+          {
+            "id": "88e03bd2ab477ca2c630",
+            "document_id": "fbeaccc490b1912b49134585ea675b629dd2d5a06f8adabb06a2adda68a105cf",
+            "kind": "process",
+            "quote": "Progettiamo e realizziamo sistemi di automazione industriale per ottimizzare processi produttivi e migliorare l’efficienza operativa. Offriamo soluzioni personalizzate con tecnologie all’avanguardia e integrazione con impianti esistenti. Garantiamo affidabilità, sicurezza e supporto continuo.",
+            "url": "https://www.picello.it/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:47:32.593363+00:00",
+            "official": true,
+            "event_key": "6de95335aae78cdf2263e47c420393bbe0dda6d2254ef95572101ee29f761ef8"
+          },
+          {
+            "id": "e69685d459dc40e0276e",
+            "document_id": "fbeaccc490b1912b49134585ea675b629dd2d5a06f8adabb06a2adda68a105cf",
+            "kind": "process",
+            "quote": "Progettiamo e realizziamo quadri elettrici di distribuzione e automazione per garantire il controllo sicuro ed efficiente degli impianti industriali. Ogni quadro è costruito su misura, secondo le normative CEI e le specifiche del cliente. Offriamo soluzioni affidabili, scalabili e facilmente integrabili.",
+            "url": "https://www.picello.it/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:47:32.593363+00:00",
+            "official": true,
+            "event_key": "1860e52e698efd419b0072453ea04683a53a0da18ab615f47bd85c6df94e655d"
+          },
+          {
+            "id": "6c2210084fffcca6c774",
+            "document_id": "fbeaccc490b1912b49134585ea675b629dd2d5a06f8adabb06a2adda68a105cf",
+            "kind": "process",
+            "quote": "Effettuiamo verifiche elettriche, collaudi e messa a norma di impianti e macchine automatiche, con tecnici qualificati e strumentazione certificata.",
+            "url": "https://www.picello.it/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:47:32.593363+00:00",
+            "official": true,
+            "event_key": "d41ad6e48fbc553adafc5794cd1c8481fc33213704efa49d091f96ec0c5f7f17"
+          },
+          {
+            "id": "ff68595f217533c3220c",
+            "document_id": "2c5bec8cde3ed5f8c463142ed180634589e05d9fabc1064ec4561762465b7473",
+            "kind": "process",
+            "quote": "La nostra esperienza diretta sul campo ci permette di valutare i prodotti non soltanto in base alle caratteristiche dichiarate dal costruttore, ma soprattutto considerando semplicità di utilizzo, affidabilità, disponibilità dei ricambi e reale utilità durante il lavoro quotidiano.",
+            "url": "https://www.picello.it/prodotti/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:47:52.091168+00:00",
+            "official": true,
+            "event_key": "e670b2fa54703464cd44ac26b06445a7d47de818d26a0c9baa01fae675a95a67"
+          },
+          {
+            "id": "0aa40414318a727d1708",
+            "document_id": "2c5bec8cde3ed5f8c463142ed180634589e05d9fabc1064ec4561762465b7473",
+            "kind": "request",
+            "quote": "In base al prodotto e alle esigenze del cliente, Picello può offrire: vendita e consulenza nella scelta dell’attrezzatura; noleggio con o senza operatore; dimostrazioni tecniche; formazione all’utilizzo; documentazione in italiano; configurazione iniziale; assistenza tecnica e post-vendita; ricambi e materiali di consumo.",
+            "url": "https://www.picello.it/prodotti/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:47:52.091168+00:00",
+            "official": true,
+            "event_key": "e372313fbb5816adb0c50cbc2041dfec7cc7f3db64090cd6d75bfb7e7d323559"
+          },
+          {
+            "id": "0e9ead9b75d4a59abf4c",
+            "document_id": "2c5bec8cde3ed5f8c463142ed180634589e05d9fabc1064ec4561762465b7473",
+            "kind": "process",
+            "quote": "Il nostro obiettivo è fornire una soluzione completa, accompagnando il cliente dalla scelta del prodotto fino al suo utilizzo operativo.",
+            "url": "https://www.picello.it/prodotti/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:47:52.091168+00:00",
+            "official": true,
+            "event_key": "94749a271e786c4b7dd5fdca86863dc6a8badd5289aad7cf1371c3dcb3d12376"
+          },
+          {
+            "id": "d17b08944dcd99009812",
+            "document_id": "2c5bec8cde3ed5f8c463142ed180634589e05d9fabc1064ec4561762465b7473",
+            "kind": "counterevidence",
+            "quote": "La gamma comprende attrezzature per la lavorazione e il controllo della fibra ottica, accessori, materiali di consumo e altri prodotti professionali dedicati all’impiantistica elettrica e industriale.",
+            "url": "https://www.picello.it/prodotti/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:47:52.091168+00:00",
+            "official": true,
+            "event_key": "fdf4d77a2a0425b8ac585e4fba2c438d7d1adaa6f5b360e727246835f0ffc8ca"
+          },
+          {
+            "id": "3c5caad4ae3659f02fed",
+            "document_id": "4c81dbf947457010b9e327486bf5a9442ce34bcf9501cbaabe49ce48e5dda22d",
+            "kind": "request",
+            "quote": "Contattaci per richiedere una soluzione, un progetto o un preventivo per le tue necessità La nostra esperienza è al tuo servizio",
+            "url": "https://www.picello.it/contatti/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:47:34.490346+00:00",
+            "official": true,
+            "event_key": "ab41edd9bbd01a0e39d0e61fc587903e8bb4bc26607f908df6f5d6761448dd2b"
+          },
+          {
+            "id": "da348b7aa1da3a507cd2",
+            "document_id": "4c81dbf947457010b9e327486bf5a9442ce34bcf9501cbaabe49ce48e5dda22d",
+            "kind": "process",
+            "quote": "Lun-Ven 08:00 -12:00 / 13:30 - 17:30\nSab Dom : Emergency only",
+            "url": "https://www.picello.it/contatti/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:47:34.490346+00:00",
+            "official": true,
+            "event_key": "b0bb041a7a23d926946bede0f95d48ca319b8bcaa138a1f9e83029aac0f8bb87"
+          },
+          {
+            "id": "2eeb40c3da2c0bc4e574",
+            "document_id": "f46ec08c43b845d4bb68b9bade6c882ef2b1cda27aeb3972fd233f5852f3a7f6",
+            "kind": "process",
+            "quote": "Operiamo con un approccio rigoroso alla qualità e alla sicurezza, ponendo al centro le esigenze del cliente e assicurando interventi su misura, certificati e durevoli nel tempo.",
+            "url": "https://www.picello.it/about-us/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:48:03.058627+00:00",
+            "official": true,
+            "event_key": "714c017484d84da88aa663d1fb347f7fb28b390922004fb440b3f1177bdec2fc"
+          },
+          {
+            "id": "2879246e8468c3c7a72c",
+            "document_id": "f46ec08c43b845d4bb68b9bade6c882ef2b1cda27aeb3972fd233f5852f3a7f6",
+            "kind": "counterevidence",
+            "quote": "Affidarsi a noi significa scegliere un partner serio, aggiornato e capace di trasformare ogni esigenza elettrica in un impianto sicuro, innovativo e performante.",
+            "url": "https://www.picello.it/about-us/",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:48:03.058627+00:00",
+            "official": true,
+            "event_key": "fc280e31becfa1c71bfe080d1c1ecf6937a73042353a9a26fcda579e8bf0874a"
+          },
+          {
+            "id": "cf0bf19fd8a83f5325bc",
+            "document_id": "8d52d30941bc03cb79c47b7976fb27d52a9a6a170753c574b37e2b9685ce80e4",
+            "kind": "process",
+            "quote": "Possiamo raccogliere o ricevere informazioni personali per una serie di scopi legati alle nostre operazioni commerciali che possono includere quanto segue: (clicca per espandere)",
+            "url": "https://www.picello.it/dichiarazione-sulla-privacy-ue/?cmplz_region_redirect=true",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:48:03.756628+00:00",
+            "official": true,
+            "event_key": "68cd6f8de6b0de5d3f9f9c5ea398899949f7adf662f3d4dfc8afda28bb5c4ff3"
+          },
+          {
+            "id": "4da74ca964c4a28eb60c",
+            "document_id": "8d52d30941bc03cb79c47b7976fb27d52a9a6a170753c574b37e2b9685ce80e4",
+            "kind": "counterevidence",
+            "quote": "Se il nostro sito Web o organizzazione viene rilevato, venduto o coinvolto in una fusione o acquisizione, i tuoi dati potrebbero essere divulgati ai nostri consulenti e a eventuali potenziali acquirenti e saranno trasmessi ai nuovi proprietari.",
+            "url": "https://www.picello.it/dichiarazione-sulla-privacy-ue/?cmplz_region_redirect=true",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:48:03.756628+00:00",
+            "official": true,
+            "event_key": "f5dbb5426d0abb5c8cad1b1917793fd4bbfc992946ef1acc6daee18718a4ed01"
+          },
+          {
+            "id": "f82514e87cdc9ff1c8ce",
+            "document_id": "8d52d30941bc03cb79c47b7976fb27d52a9a6a170753c574b37e2b9685ce80e4",
+            "kind": "gap",
+            "quote": "Hai il diritto di sapere quando i tuoi dati personali sono necessari, cosa succede ad essi, quanto a lungo verranno mantenuti.",
+            "url": "https://www.picello.it/dichiarazione-sulla-privacy-ue/?cmplz_region_redirect=true",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:48:03.756628+00:00",
+            "official": true,
+            "event_key": "eb7c68c546e69231012496f094d05111d4bdb6edba8bba632b7a869b53081163"
+          },
+          {
+            "id": "9bce05260f116726e867",
+            "document_id": "8d52d30941bc03cb79c47b7976fb27d52a9a6a170753c574b37e2b9685ce80e4",
+            "kind": "request",
+            "quote": "Se hai domande o vuoi sapere esattamente quali tuoi dati sono in nostro possesso, contattaci.",
+            "url": "https://www.picello.it/dichiarazione-sulla-privacy-ue/?cmplz_region_redirect=true",
+            "published_at": null,
+            "checked_at": "2026-10-13T22:48:03.756628+00:00",
+            "official": true,
+            "event_key": "0e36342bf61eac1df649fba5e773710f2ef3252ff6ee35c11b0a86231c7c5de4"
+          }
+        ],
+        "document_ids": [
+          "fbeaccc490b1912b49134585ea675b629dd2d5a06f8adabb06a2adda68a105cf",
+          "2c5bec8cde3ed5f8c463142ed180634589e05d9fabc1064ec4561762465b7473",
+          "4c81dbf947457010b9e327486bf5a9442ce34bcf9501cbaabe49ce48e5dda22d",
+          "f46ec08c43b845d4bb68b9bade6c882ef2b1cda27aeb3972fd233f5852f3a7f6",
+          "8d52d30941bc03cb79c47b7976fb27d52a9a6a170753c574b37e2b9685ce80e4"
+        ],
+        "strategy": "change",
+        "validated_at": "2026-10-13T22:51:06.284523+00:00",
+        "validation": {
+          "status": "insufficient",
+          "support_ids": [],
+          "existing_solution_checked": true,
+          "small_fix_sufficient": true,
+          "reason": "L'azienda non evidenzia specifiche esigenze digitali e il sito web non presenta problemi notevoli che richiederebbero un intervento più complesso."
+        },
+        "analysis_status": "incomplete",
+        "coverage": {
+          "identity": true,
+          "offer": true,
+          "contact": true,
+          "solutions": true
+        },
+        "solution_urls": [],
+        "correlated": true,
+        "origin_strategy": "change"
+      },
+      "publisher": false
+    }
+  ],
+  "limits": [
+    "Campione piccolo, settori e stadi diversi dai confronti Serper precedenti: nessuna comparazione di precisione o efficacia commerciale. Non misura risposte o clienti."
+  ],
+  "finished_at": "2026-10-13T22:51:06.285409+00:00",
+  "seconds": 235.8,
+  "summary": {
+    "pages_sampled": 9,
+    "businesses_identified": 4,
+    "deep_checks": 1,
+    "qualified": 0
+  }
+}

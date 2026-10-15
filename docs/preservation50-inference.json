@@ -1,0 +1,241 @@
+{
+  "checked_at": "2026-10-14T09:09:04.833684+00:00",
+  "backup": "data/backups/20261014T084739450038Z/sales.sqlite3",
+  "tables": {
+    "config": {
+      "unchanged": true,
+      "rows_before": 18,
+      "rows_after": 18
+    },
+    "companies": {
+      "unchanged": true,
+      "rows_before": 105,
+      "rows_after": 105
+    },
+    "sources": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "evidence": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "prospects": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "prospect_evidence": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "interactions": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "runs": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "run_items": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "legacy_records": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "audits": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "target_exclusions": {
+      "unchanged": true,
+      "rows_before": 5,
+      "rows_after": 5
+    },
+    "dismissed_companies": {
+      "unchanged": true,
+      "rows_before": 1,
+      "rows_after": 1
+    },
+    "contact_groups": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "research_schema": {
+      "unchanged": true,
+      "rows_before": 6,
+      "rows_after": 6
+    },
+    "campaigns": {
+      "unchanged": true,
+      "rows_before": 3,
+      "rows_after": 3
+    },
+    "research_tasks": {
+      "unchanged": true,
+      "rows_before": 929,
+      "rows_after": 929
+    },
+    "research_entities": {
+      "unchanged": true,
+      "rows_before": 37,
+      "rows_after": 37
+    },
+    "research_domains": {
+      "unchanged": true,
+      "rows_before": 27,
+      "rows_after": 27
+    },
+    "research_documents": {
+      "unchanged": true,
+      "rows_before": 196,
+      "rows_after": 196
+    },
+    "research_assessments": {
+      "unchanged": true,
+      "rows_before": 64,
+      "rows_after": 64
+    },
+    "research_signals": {
+      "unchanged": true,
+      "rows_before": 374,
+      "rows_after": 374
+    },
+    "research_events": {
+      "unchanged": true,
+      "rows_before": 432,
+      "rows_after": 432
+    },
+    "research_reviews": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "research_sources": {
+      "unchanged": true,
+      "rows_before": 49,
+      "rows_after": 49
+    },
+    "research_query_memory": {
+      "unchanged": true,
+      "rows_before": 44,
+      "rows_after": 44
+    },
+    "research_visited": {
+      "unchanged": true,
+      "rows_before": 201,
+      "rows_after": 201
+    },
+    "workspace_resets": {
+      "unchanged": true,
+      "rows_before": 1,
+      "rows_after": 1
+    },
+    "workspace_archive": {
+      "unchanged": true,
+      "rows_before": 1600,
+      "rows_after": 1600
+    },
+    "discovery_frontier": {
+      "unchanged": true,
+      "rows_before": 991,
+      "rows_after": 991
+    },
+    "discovery_candidates": {
+      "unchanged": true,
+      "rows_before": 471,
+      "rows_after": 471
+    },
+    "discovery_transitions": {
+      "unchanged": true,
+      "rows_before": 1207,
+      "rows_after": 1207
+    },
+    "commercial_outcomes": {
+      "unchanged": true,
+      "rows_before": 0,
+      "rows_after": 0
+    },
+    "discovery_operations": {
+      "unchanged": true,
+      "rows_before": 753,
+      "rows_after": 753
+    },
+    "discovery_branches": {
+      "unchanged": true,
+      "rows_before": 19,
+      "rows_after": 19
+    },
+    "discovery_queries": {
+      "unchanged": true,
+      "rows_before": 133,
+      "rows_after": 133
+    },
+    "discovery_source_profiles": {
+      "unchanged": true,
+      "rows_before": 44,
+      "rows_after": 44
+    },
+    "grant_profile": {
+      "unchanged": true,
+      "rows_before": 1,
+      "rows_after": 1
+    },
+    "grant_runs": {
+      "unchanged": true,
+      "rows_before": 2,
+      "rows_after": 2
+    },
+    "grant_tasks": {
+      "unchanged": true,
+      "rows_before": 39,
+      "rows_after": 39
+    },
+    "grant_items": {
+      "unchanged": true,
+      "rows_before": 15,
+      "rows_after": 15
+    },
+    "search_trials": {
+      "unchanged": true,
+      "rows_before": 3,
+      "rows_after": 3
+    },
+    "search_trial_requests": {
+      "unchanged": true,
+      "rows_before": 18,
+      "rows_after": 18
+    },
+    "search_trial_reviews": {
+      "unchanged": true,
+      "rows_before": 40,
+      "rows_after": 40
+    }
+  },
+  "excluded_tables": [
+    "cache",
+    "api_usage",
+    "discovery_provider_health"
+  ],
+  "serper_requests_delta": 10,
+  "integrity": "ok",
+  "operational_changes": {
+    "discovery_provider_health": {
+      "unchanged": false,
+      "rows_before": 2,
+      "rows_after": 2,
+      "reason": "Stato Serper aggiornato dalle richieste reali del pilota; tabella operativa, non storico commerciale."
+    }
+  }
+}

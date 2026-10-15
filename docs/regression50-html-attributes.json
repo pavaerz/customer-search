@@ -1,0 +1,8 @@
+{
+  "source": "data/cycle50/2026-10-14T10-15-46.907683+00-00/pages/6ff641923bb29b030348eb9136435365b0ee658b0adea4adbc0f5bc6522af26c.json",
+  "before": "AttributeError: NoneType has no attribute split",
+  "after": "Original page parsed",
+  "research_chars": 3129,
+  "body_scope": null,
+  "qualified": false
+}

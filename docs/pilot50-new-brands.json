@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-14T11:06:05.462574+00:00",
+  "source": "data/event-search/2026-10-14T10-52-53.691453+00-00",
+  "requests": 3,
+  "qualified": 0,
+  "method": "Manual source review of the two potentially relevant non-social results; other search snippets were used only to decide what to read.",
+  "cases": [
+    {
+      "url": "https://www.motocrossmarketing.com/news/nuovo-marchio-distribuito-twinair/",
+      "event": "Ingresso a catalogo di TwinAir, pubblicato l’8 maggio 2026.",
+      "observed": "La homepage acquisita espone prodotti, prezzi e IVA. L’annuncio non dichiara un problema del canale o una richiesta di rifacimento.",
+      "decision": "Non promuovere. Catalogo digitale osservabile; acquisto, adeguatezza e identità commerciale completa non verificati in questo piccolo campione.",
+      "classification": "Company-source evidence; no documented full project"
+    },
+    {
+      "url": "https://www.ilnordest.it/economia/imprese/v2k-group-nuovo-polo-industriale-del-territorio-gujpueyy",
+      "event": "Debutto di V2K Group, articolo del 16 febbraio 2026.",
+      "observed": "Articolo riferito a un gruppo di realtà già consolidate; contiene fatturato e personale ma non budget di un progetto web. Evento oltre la finestra di 180 giorni.",
+      "decision": "Non promuovere: evento non attuale secondo i criteri e nessun bisogno digitale documentato.",
+      "classification": "Publisher source, not the customer"
+    }
+  ],
+  "finding": "La richiesta della parola srl nella query ha favorito footer di editori e guide giuridiche; non stabilisce la forma legale dell’impresa protagonista. Non aggiunta come filtro obbligatorio al planner.",
+  "limitation": "Development sample of three queries, not commercial precision or independent opportunity validation."
+}

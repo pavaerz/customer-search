@@ -1,0 +1,897 @@
+{
+  "campaign": 4,
+  "method": "Replay offline di risultati Serper e pagine già salvati; nessuna ricerca nuova.",
+  "queries": 48,
+  "cached_queries": 42,
+  "missing_cached_queries": 6,
+  "search_results": 239,
+  "before_accepted": 236,
+  "after_accepted": 145,
+  "newly_filtered": [
+    {
+      "query": "\"MIMIT\" sito ufficiale Veneto",
+      "url": "https://www.mimit.gov.it/it/",
+      "title": "Mimit",
+      "subject": "MIMIT",
+      "before": null,
+      "after": "Ente pubblico citato, non impresa committente."
+    },
+    {
+      "query": "\"MIMIT\" sito ufficiale Veneto",
+      "url": "https://www.mimit.gov.it/it/ministero",
+      "title": "Ministero delle Imprese e del Made in Italy",
+      "subject": "MIMIT",
+      "before": null,
+      "after": "Ente pubblico citato, non impresa committente."
+    },
+    {
+      "query": "\"MIMIT\" sito ufficiale Veneto",
+      "url": "https://www.mimit.gov.it/it/component/organigram/?view=structure&id=725",
+      "title": "Divisione VI. Ispettorato territoriale (Casa del made in Italy) ...",
+      "subject": "MIMIT",
+      "before": null,
+      "after": "Ente pubblico citato, non impresa committente."
+    },
+    {
+      "query": "\"MIMIT\" sito ufficiale Veneto",
+      "url": "https://www.mimit.gov.it/programmi_televisivi/veneto.html",
+      "title": "Veneto - Ministero delle Imprese e del Made in Italy",
+      "subject": "MIMIT",
+      "before": null,
+      "after": "Ente pubblico citato, non impresa committente."
+    },
+    {
+      "query": "\"MIMIT\" sito ufficiale Veneto",
+      "url": "https://www.mimit.gov.it/it/notizie-stampa/mimit-inaugurata-a-venezia-la-casa-del-made-in-italy",
+      "title": "Mimit, inaugurata a Venezia la Casa del Made in Italy",
+      "subject": "MIMIT",
+      "before": null,
+      "after": "Ente pubblico citato, non impresa committente."
+    },
+    {
+      "query": "\"MIMIT\" sito ufficiale Veneto",
+      "url": "https://mimit.tuttogare.it/index.php",
+      "title": "MIMIT - Ministero delle Imprese e del Made in Italy ...",
+      "subject": "MIMIT",
+      "before": null,
+      "after": "Ente pubblico citato, non impresa committente."
+    },
+    {
+      "query": "\"MIMIT\" sito ufficiale Veneto",
+      "url": "https://www.facebook.com/mimit/?locale=it_IT",
+      "title": "Ministero delle Imprese e del Made in Italy | Rome",
+      "subject": "MIMIT",
+      "before": null,
+      "after": "Ente pubblico citato, non impresa committente."
+    },
+    {
+      "query": "\"MIMIT\" sito ufficiale Veneto",
+      "url": "https://it.linkedin.com/company/ministero-sviluppo-economico",
+      "title": "Ministero delle Imprese e del Made in Italy",
+      "subject": "MIMIT",
+      "before": null,
+      "after": "Ente pubblico citato, non impresa committente."
+    },
+    {
+      "query": "\"MIMIT\" sito ufficiale Veneto",
+      "url": "https://www.mimit.gov.it/index.php/it/component/content/article?id=2003534:dove-siamo",
+      "title": "Dove siamo",
+      "subject": "MIMIT",
+      "before": null,
+      "after": "Ente pubblico citato, non impresa committente."
+    },
+    {
+      "query": "Sigit Veneto azienda contatti",
+      "url": "https://www.dgt.mef.gov.it/gt/contatti-per-l-assistenza-tecnica-alla-difesa-del-contribuente",
+      "title": "Contatti per l'abilitazione alla difesa del contribuente",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Risultato non riferibile al nome aziendale cercato; nessun download per omonimie o corrispondenze generiche."
+    },
+    {
+      "query": "Sigit Veneto azienda contatti",
+      "url": "https://www.dgt.mef.gov.it/gt/assistenza",
+      "title": "Assistenza - Dipartimento della Giustizia Tributaria - MEF",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Omonimia con un servizio tributario, non l’impresa cercata."
+    },
+    {
+      "query": "Sigit Veneto azienda contatti",
+      "url": "https://www.dgt.mef.gov.it/gt/motore-di-ricerca-per-le-sedi-delle-cc.tt.",
+      "title": "Sedi delle Corti di giustizia tributaria - MEF",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Omonimia con un servizio tributario, non l’impresa cercata."
+    },
+    {
+      "query": "Sigit Veneto azienda contatti",
+      "url": "https://www.dgt.mef.gov.it/gt/processo-tributario-telematico-ptt-sigit",
+      "title": "Processo Tributario Telematico (PTT) - SIGIT",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Omonimia con un servizio tributario, non l’impresa cercata."
+    },
+    {
+      "query": "Sigit Veneto azienda contatti",
+      "url": "https://assistenza.dgt.mef.gov.it/GiustiziaTributaria/s/",
+      "title": "Assistenza ai servizi online del Dipartimento della Giustizia ...",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Risultato non riferibile al nome aziendale cercato; nessun download per omonimie o corrispondenze generiche."
+    },
+    {
+      "query": "Sigit Veneto azienda contatti",
+      "url": "https://www1.giustiziatributaria.gov.it/cup_gt_new/prenotazionionline.htm?wizard_step=1&CUP_mem_country_id=21&CUP_mem_search_type=1&delSesoffice=1",
+      "title": "Prenotazione degli appuntamenti tramite internet",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Risultato non riferibile al nome aziendale cercato; nessun download per omonimie o corrispondenze generiche."
+    },
+    {
+      "query": "Sigit Veneto azienda contatti",
+      "url": "http://www.giustizia-tributaria.it/corti-di-giustizia-tributaria/cerca-corte/nord-orientale/veneto",
+      "title": "Veneto",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Risultato non riferibile al nome aziendale cercato; nessun download per omonimie o corrispondenze generiche."
+    },
+    {
+      "query": "Dongfeng Veneto azienda contatti",
+      "url": "https://www.campellomotors.it/brand/dongfeng/",
+      "title": "Concessionaria Dongfeng Padova, Venezia e Rovigo ...",
+      "subject": "Dongfeng",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "Dongfeng Veneto azienda contatti",
+      "url": "https://www.gruppocatone.it/dongfeng/",
+      "title": "Dongfeng",
+      "subject": "Dongfeng",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "Dongfeng Veneto azienda contatti",
+      "url": "https://www.pasquarelliauto.it/sedi/concessionaria-dongfeng-voyah-e-mhero-a-sambuceto/",
+      "title": "Concessionaria Dongfeng, Voyah e MHERO a Sambuceto",
+      "subject": "Dongfeng",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "Dongfeng Veneto azienda contatti",
+      "url": "https://www.iperauto.it/dongfeng",
+      "title": "Dongfeng Presso Iperauto Concessionaria Ufficiale ...",
+      "subject": "Dongfeng",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "Stellantis Veneto azienda contatti",
+      "url": "https://www.stellantis.com/it",
+      "title": "Sito Ufficiale | Stellantis",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "Stellantis Veneto azienda contatti",
+      "url": "https://www.stellantis-financial-services.it/contatti",
+      "title": "Contatti - Stellantis Financial Services",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "Stellantis Veneto azienda contatti",
+      "url": "https://www.stellantisandyou.com/it/i-nostri-concessionari",
+      "title": "Trova le concessionarie Stellantis &You più vicine a te",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "Stellantis Veneto azienda contatti",
+      "url": "https://www.stellantis.com/it/contatti",
+      "title": "Contatti",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "Stellantis Veneto azienda contatti",
+      "url": "https://www.campellomotors-stellantis.it/concessionario/alfa-romeo/contatti/news-ed-eventi",
+      "title": "Le news del mondo automotive di Stellantis - campello motors",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "Stellantis Veneto azienda contatti",
+      "url": "https://www.gruppoceccato-stellantis.it/concessionario/fiat-professional/contatti/sedi",
+      "title": "Concessionaria Fiat Professional CECCATO AUTOMOBILI ...",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "Stellantis Veneto azienda contatti",
+      "url": "https://iicuae.com/en/fiat-chrysler-automobiles-fca/",
+      "title": "Stellantis",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "Stellantis Veneto azienda contatti",
+      "url": "https://www.gruppoghedini.it/sedi/",
+      "title": "Sedi - Concessionaria Ufficiale Stellantis e DR a Bologna e ...",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "Stellantis Veneto azienda contatti",
+      "url": "https://www.stellantis-financial-services.it/sites/default/files/documents/2025-11/SFS_Scheda_Contatti_07.10.pdf",
+      "title": "PER OGNI EVENTUALE DUBBIO O RICHIESTA DI ...",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "PDF di policy, contatti o documentazione estranea al progetto: download evitato."
+    },
+    {
+      "query": "Stellantis Veneto azienda contatti",
+      "url": "https://www.grupporosati-stellantis.it/concessionario",
+      "title": "Gruppo Rosati: Concessionaria Stellantis",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "\"Stellantis\" sito ufficiale Veneto",
+      "url": "https://www.stellantis.com/it",
+      "title": "Sito Ufficiale | Stellantis",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "\"Stellantis\" sito ufficiale Veneto",
+      "url": "https://www.gruppoceccato-stellantis.it/concessionario",
+      "title": "Concessionaria Stellantis | CECCATO AUTOMOBILI S.P.A.",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "\"Stellantis\" sito ufficiale Veneto",
+      "url": "https://www.stellantisandyou.com/it",
+      "title": "Stellantis &You",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "\"Stellantis\" sito ufficiale Veneto",
+      "url": "https://www.sina-stellantis.it/concessionario",
+      "title": "Concessionaria Stellantis | SINA S.P.A.SOCIETA' IND ...",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "\"Stellantis\" sito ufficiale Veneto",
+      "url": "https://www.sarlogroup.com/elementor-27891/",
+      "title": "Leapmotor e Stellantis: Espansione a Treviso",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "\"Stellantis\" sito ufficiale Veneto",
+      "url": "https://www.stellantis.com/it/contatti",
+      "title": "Contatti",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "\"Stellantis\" sito ufficiale Veneto",
+      "url": "https://network.cdo.org/convenzione-stellantis/",
+      "title": "Stellantis | Convenzione per Acquisto auto e veicoli ...",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "\"Stellantis\" sito ufficiale Veneto",
+      "url": "https://confartigianatomarcatrevigiana.it/confartigianato-e-il-gruppo-stellantis-condizioni-esclusive-per-lacquisto-di-autoveicoli-nuovi/",
+      "title": "CONFARTIGIANATO E IL GRUPPO STELLANTIS. ...",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "\"Stellantis\" sito ufficiale Veneto",
+      "url": "https://www.youtube.com/watch?v=vdpXRdFD8OA",
+      "title": "Stellantis ad Artigiano in Fiera con le versatili proposte Fiat ...",
+      "subject": "Stellantis",
+      "before": null,
+      "after": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "url": "https://www.regione.veneto.it/article-detail?articleId=14371215",
+      "title": "Speedline di Santa Maria di Sala (Venezia), assessore ...",
+      "subject": "SIGIT S.p.A.",
+      "before": null,
+      "after": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "url": "https://www.aziendabanca.it/notizie/legal/sigit-acquisice-speeline-banca-finint-tra-gli-advisor",
+      "title": "Sigit acquisice Speeline: Banca Finint tra gli advisor",
+      "subject": "SIGIT S.p.A.",
+      "before": null,
+      "after": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "url": "https://www.veneto24.it/news/3255962",
+      "title": "avviato il nuovo percorso per il rilancio dello stabilimento di ...",
+      "subject": "SIGIT S.p.A.",
+      "before": null,
+      "after": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "url": "https://www.ilnordest.it/economia/imprese/speedline-sigit-nuova-proprieta-piano-rilancio-cosa-prevede-qaukmmjx",
+      "title": "Speedline, la proprietà a Sigit. Via al percorso di rilancio",
+      "subject": "SIGIT S.p.A.",
+      "before": null,
+      "after": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "url": "https://www.facebook.com/sigitspa/videos/merry-christmas-and-happy-202-from-sigit-team/811716912622187/",
+      "title": "Gli auguri dal nostro team di R&D, industrializzazione e sviluppo ...",
+      "subject": "SIGIT S.p.A.",
+      "before": null,
+      "after": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "url": "https://it.linkedin.com/in/mauda-manoni-b2772536",
+      "title": "MAUDA MANONI - SIGIT Group",
+      "subject": "SIGIT S.p.A.",
+      "before": null,
+      "after": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "url": "https://www.corrieredelleconomia.it/2026/05/20/speedline-passa-a-sigit-ufficializzata-la-cessione-dal-mimit/",
+      "title": "Speedline passa a SIGIT, ufficializzata la cessione dal MIMIT",
+      "subject": "SIGIT S.p.A.",
+      "before": null,
+      "after": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "url": "https://www.ultimaoralive.it/2026/economia/speedline-ufficializzata-la-cessione/",
+      "title": "Speedline, ufficializzata la cessione",
+      "subject": "SIGIT S.p.A.",
+      "before": null,
+      "after": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "url": "https://rovigo365.it/speedline-ufficiale-il-passaggio-a-sigit-al-via-il-rilancio-della-storica-azienda-di-santa-maria-di-sala/",
+      "title": "Speedline, ufficiale il subentro di SIGIT per il rilancio - Rovigo365",
+      "subject": "SIGIT S.p.A.",
+      "before": null,
+      "after": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "url": "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio?dataPubblicazioneGazzetta=1995-05-31&numeroGazzetta=125",
+      "title": "Sommario",
+      "subject": "SIGIT S.p.A.",
+      "before": null,
+      "after": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "query": "\"Dongfeng\" sito ufficiale Veneto",
+      "url": "https://www.campellomotors.it/brand/dongfeng/",
+      "title": "Concessionaria Dongfeng Padova, Venezia e Rovigo ...",
+      "subject": "Dongfeng",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "\"Dongfeng\" sito ufficiale Veneto",
+      "url": "https://www.campellomotors.it/veicoli/auto/dongfeng/",
+      "title": "Auto DONGFENG in Offerta",
+      "subject": "Dongfeng",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "\"Dongfeng\" sito ufficiale Veneto",
+      "url": "https://autosupermarket.it/auto-usate/veneto/dongfeng?srsltid=AU7gw4V746U8jSn_lQ6guBPKT3wvmvvQajEiLd_8iEo-sJxrdBCLJtI2",
+      "title": "Dongfeng usate in vendita in Veneto",
+      "subject": "Dongfeng",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "\"Sigit\" sito ufficiale Veneto",
+      "url": "https://www.dgt.mef.gov.it/gt/motore-di-ricerca-per-le-sedi-delle-cc.tt.",
+      "title": "Sedi delle Corti di giustizia tributaria - MEF",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Omonimia con un servizio tributario, non l’impresa cercata."
+    },
+    {
+      "query": "\"Sigit\" sito ufficiale Veneto",
+      "url": "https://www.dgt.mef.gov.it/gt/normativa-ptt",
+      "title": "Normativa PTT - Dipartimento della Giustizia Tributaria - MEF",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Omonimia con un servizio tributario, non l’impresa cercata."
+    },
+    {
+      "query": "\"Sigit\" sito ufficiale Veneto",
+      "url": "https://www1.giustiziatributaria.gov.it/cup_gt_new/prenotazionionline.htm?wizard_step=1&CUP_mem_country_id=21&CUP_mem_search_type=1&delSesoffice=1",
+      "title": "Prenotazione degli appuntamenti tramite internet",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Omonimia con un servizio tributario, non l’impresa cercata."
+    },
+    {
+      "query": "\"Sigit\" sito ufficiale Veneto",
+      "url": "https://www.iltributo.it/wp-content/uploads/PROCESSO-TRIBUTARIO-NUOVE-PROCEDURE-TELEMATICHE.pdf",
+      "title": "Processo tributario: le nuove procedure telematiche",
+      "subject": "Sigit",
+      "before": null,
+      "after": "PDF di policy, contatti o documentazione estranea al progetto: download evitato."
+    },
+    {
+      "query": "\"Sigit\" sito ufficiale Veneto",
+      "url": "https://www.icontenzioso.com/guide/processo-tributario-telematico-come-funziona-sigit/",
+      "title": "Processo Tributario Telematico: cos'è il SIGIT e come ...",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Omonimia con un servizio tributario, non l’impresa cercata."
+    },
+    {
+      "query": "\"Sigit\" sito ufficiale Veneto",
+      "url": "https://www.dgt.mef.gov.it/gt/accesso-deposito-telematico",
+      "title": "Accesso - Deposito telematico - Giustizia Tributaria - MEF",
+      "subject": "Sigit",
+      "before": null,
+      "after": "Omonimia con un servizio tributario, non l’impresa cercata."
+    },
+    {
+      "query": "Leapmotor Veneto azienda contatti",
+      "url": "https://www.campellomotors.it/brand/leapmotor/",
+      "title": "Concessionaria Leapmotor a Mestre e Venezia",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "Leapmotor Veneto azienda contatti",
+      "url": "https://www.armandogroup.it/leapmotor/",
+      "title": "Leapmotor Concessionaria Ufficiale per la provincia di ...",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "Leapmotor Veneto azienda contatti",
+      "url": "https://www.facebook.com/ceccato.automobili/videos/scopri-leapmotor-da-vicino-in-concessionaria-nel-video-raccontiamo-perch%C3%A9-questo/27950354737886567/",
+      "title": "Scopri Leapmotor da vicino in concessionaria  Nel video ...",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "Leapmotor Veneto azienda contatti",
+      "url": "https://intergeanordest.it/sedi/leapmotor-verona",
+      "title": "Concessionario Leapmotor a Verona | Autoteam 9",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "Leapmotor Veneto azienda contatti",
+      "url": "https://www.barchetti.it/sedi/leapmotor-ora/",
+      "title": "Concessionaria Ufficiale LEAPMOTOR Barchetti Group",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "Leapmotor Veneto azienda contatti",
+      "url": "https://www.ceccatoautomobili.it/auto/nuove/leapmotor/",
+      "title": "Configura la tua nuova Leapmotor",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "Aquaopti Veneto azienda contatti",
+      "url": "https://mediaveneto.it/contatti/",
+      "title": "Contatti -",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "Aquaopti Veneto azienda contatti",
+      "url": "https://www.azero.veneto.it/",
+      "title": "Azienda Zero: Welcome",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "Aquaopti Veneto azienda contatti",
+      "url": "https://www.aqua.it/contatti",
+      "title": "Contatti AQUA | Assistenza Clienti e Informazioni",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "Aquaopti Veneto azienda contatti",
+      "url": "https://www.acquevenete.it/contatti",
+      "title": "Contatti",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "Aquaopti Veneto azienda contatti",
+      "url": "https://venetoacque.portaletrasparenza.net/it/trasparenza/organizzazione/articolazione-degli-uffici/contatti.html",
+      "title": "Contatti - Veneto Acque S.B.p.A. - Trasparenza",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "Aquaopti Veneto azienda contatti",
+      "url": "https://www.ferroli.com/it",
+      "title": "Ferroli | Riscaldamento, Raffrescamento e ACS",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "Aquaopti Veneto azienda contatti",
+      "url": "https://www.aqua-deltadelpo.com/contatti.html",
+      "title": "Contatti - Aqua Delta Po",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "Aquaopti Veneto azienda contatti",
+      "url": "https://www.parcodeltapo.org/Gcentri-visita-dettaglio.php?id=1136",
+      "title": "InfoPoint Società Aqua | Parco del Delta del Po Veneto",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "Aquaopti Veneto azienda contatti",
+      "url": "https://www.aquafortesrl.com/contatti/",
+      "title": "CONTATTI - Aquaforte",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "Aquaopti Veneto azienda contatti",
+      "url": "https://www.industriaitaliana.it/ferroli-brand-aquaopti-gamma-scaldacqua-pompa-di-calore/",
+      "title": "Ferroli evolve il brand e amplia l'offerta con Aquaopti, la ...",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "\"Aquaopti\" sito ufficiale Veneto",
+      "url": "https://merkandi.in/products/aqua-optima-evolve-filter-cartridge-3-pcs-for-brita-maxtra-dafi-unimax-aquaphor/1584274",
+      "title": "Aqua Optima Evolve filter cartridge, 3 pcs, for Brita Maxtra, Dafi ...",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "\"Aquaopti\" sito ufficiale Veneto",
+      "url": "https://www.corriere.it/piccoli-elettrodomestici/23_gennaio_27/filtri-per-depurare-acqua-rubinetto-acquisti-1749.shtml",
+      "title": "Filtri per depurare l'acqua: come scegliere i migliori ...",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "\"Aquaopti\" sito ufficiale Veneto",
+      "url": "https://neoart.hu/Watercolour-paper-Aqua-Optima-300g-40x50cm-25-sheets",
+      "title": "Watercolour paper Aqua Optima 300g 40x50cm, 25 sheets - NEOA",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "\"Aquaopti\" sito ufficiale Veneto",
+      "url": "https://it.linkedin.com/in/enrico-barbero-71532b52",
+      "title": "Enrico Barbero - Technical Manager presso LAICA S.P.A.",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "\"Aquaopti\" sito ufficiale Veneto",
+      "url": "https://archive.org/stream/ArchivioVeneto35/Archivio_veneto_35_djvu.txt",
+      "title": "Full text of \"Archivio veneto\"",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Archivio storico o biblioteca digitale: incompatibile con la ricerca commerciale corrente."
+    },
+    {
+      "query": "\"Aquaopti\" sito ufficiale Veneto",
+      "url": "https://www.youtube.com/watch?v=b87QaSCnXYA",
+      "title": "Migliori caraffe filtranti Qualità Prezzo 2023",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "\"Aquaopti\" sito ufficiale Veneto",
+      "url": "http://asa.archiviostudiadriatici.it/islandora/object/libria:37336/datastream/PDF/content/libria_37336.pdf",
+      "title": "il mappamondo - di fra mauro",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Archivio storico o biblioteca digitale: incompatibile con la ricerca commerciale corrente."
+    },
+    {
+      "query": "\"Aquaopti\" sito ufficiale Veneto",
+      "url": "https://www.ebay.com/itm/407270928149",
+      "title": "Aqua Optima EVOLVE+ White Jug Filters 3 Pack EPS322 ...",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "\"Aquaopti\" sito ufficiale Veneto",
+      "url": "https://www.scribd.com/document/893799730/Catalog-186",
+      "title": "Kitchen Appliances Sale Catalog - Oven",
+      "subject": "Aquaopti",
+      "before": null,
+      "after": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "query": "\"Leapmotor\" sito ufficiale Veneto",
+      "url": "https://www.ceccatoautomobili.it/auto/nuove/leapmotor/",
+      "title": "Configura la tua nuova Leapmotor",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "\"Leapmotor\" sito ufficiale Veneto",
+      "url": "https://www.campellomotors.it/brand/leapmotor/",
+      "title": "Concessionaria Leapmotor a Mestre e Venezia",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "\"Leapmotor\" sito ufficiale Veneto",
+      "url": "https://www.rentago.it/noleggio-a-lungo-termine/veicolo/815/leapmotor/b10?p0=veneto",
+      "title": "Leapmotor B10 Noleggio a lungo termine Veneto",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "\"Leapmotor\" sito ufficiale Veneto",
+      "url": "https://www.facebook.com/ceccato.automobili/videos/scopri-leapmotor-da-vicino-in-concessionaria-nel-video-raccontiamo-perch%C3%A9-questo/27950354737886567/",
+      "title": "Scopri Leapmotor da vicino in concessionaria  Nel video ...",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "\"Leapmotor\" sito ufficiale Veneto",
+      "url": "https://www.ghiraldo-autoin.it/auto/nuove/leapmotor/",
+      "title": "Configura la tua nuova Leapmotor",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "\"Leapmotor\" sito ufficiale Veneto",
+      "url": "https://www.autonordfioretto.it/veicolo/107221/leapmotor-t03",
+      "title": "Leapmotor T03 37,3kwh DISPONIBILE IN DIVERSI COLORI",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "\"Leapmotor\" sito ufficiale Veneto",
+      "url": "https://www.debona.it/auto/tutte-tipologie/tutte-citta/leapmotor/",
+      "title": "Tutti i veicoli Leapmotor in vendita presso De Bona",
+      "subject": "Leapmotor",
+      "before": null,
+      "after": "Rivenditore o pagina di una rete commerciale: non è il dominio del soggetto cercato."
+    },
+    {
+      "query": "site:radarsrl.it settori mercati progetti",
+      "url": "https://radarsrl.it/wp-content/uploads/2024/03/2024.01.23-Politica-UNIPdR-125.2022-Parit%C3%A0-di-genere.pdf",
+      "title": "politica aziendale per la parità di genere",
+      "subject": "RADAR IMPIANTI | Impianti elettrici - impianti idraulici - automazione industriale",
+      "before": null,
+      "after": "PDF di policy, contatti o documentazione estranea al progetto: download evitato."
+    }
+  ],
+  "newly_allowed": [],
+  "errors_before": {
+    "other": 8,
+    "robots_unverifiable": 18,
+    "timeout": 3,
+    "tls_certificate": 2
+  },
+  "errors_unique_urls": 29,
+  "candidate_states": {
+    "discovered": 1,
+    "needs_review": 87,
+    "rejected": 61,
+    "unverifiable": 44
+  },
+  "historically_promising": 20,
+  "timings": [
+    {
+      "kind": "candidate",
+      "operations": 202,
+      "seconds": 491.2
+    },
+    {
+      "kind": "search",
+      "operations": 42,
+      "seconds": 61.0
+    },
+    {
+      "kind": "source",
+      "operations": 1,
+      "seconds": 1.2
+    },
+    {
+      "kind": "verify",
+      "operations": 42,
+      "seconds": 2378.4
+    }
+  ],
+  "subject_resolution": [
+    {
+      "subject": "MIMIT",
+      "query": "\"MIMIT\" sito ufficiale Veneto",
+      "excluded_reason": "Ente pubblico citato, non impresa committente."
+    },
+    {
+      "subject": "Sigit",
+      "query": "Sigit Veneto azienda contatti",
+      "excluded_reason": null
+    },
+    {
+      "subject": "Dongfeng",
+      "query": "Dongfeng Veneto azienda contatti",
+      "excluded_reason": null
+    },
+    {
+      "subject": "Oman Investment Authority",
+      "query": "\"Oman Investment Authority\" sito ufficiale Veneto",
+      "excluded_reason": null
+    },
+    {
+      "subject": "Stellantis",
+      "query": "Stellantis Veneto azienda contatti",
+      "excluded_reason": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "subject": "Stellantis",
+      "query": "\"Stellantis\" sito ufficiale Veneto",
+      "excluded_reason": "Fonte riferita a un grande gruppo; fuori dal segmento di piccole imprese."
+    },
+    {
+      "subject": "SIGIT S.p.A.",
+      "query": "\"SIGIT S.p.A.\" sito ufficiale Veneto",
+      "excluded_reason": "Soggetto dichiarato S.p.A.: escluso dal segmento commerciale."
+    },
+    {
+      "subject": "Dongfeng",
+      "query": "\"Dongfeng\" sito ufficiale Veneto",
+      "excluded_reason": null
+    },
+    {
+      "subject": "Sigit",
+      "query": "\"Sigit\" sito ufficiale Veneto",
+      "excluded_reason": null
+    },
+    {
+      "subject": "Speedline",
+      "query": "Speedline Veneto azienda contatti",
+      "excluded_reason": null
+    },
+    {
+      "subject": "Leapmotor",
+      "query": "Leapmotor Veneto azienda contatti",
+      "excluded_reason": null
+    },
+    {
+      "subject": "Speedline di Santa Maria di Sala (Venezia)",
+      "query": "\"Speedline di Santa Maria di Sala (Venezia)\" sito ufficiale Veneto",
+      "excluded_reason": null
+    },
+    {
+      "subject": "Speedline",
+      "query": "\"Speedline\" sito ufficiale Veneto",
+      "excluded_reason": null
+    },
+    {
+      "subject": "Aquaopti",
+      "query": "Aquaopti Veneto azienda contatti",
+      "excluded_reason": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "subject": "Aquaopti",
+      "query": "\"Aquaopti\" sito ufficiale Veneto",
+      "excluded_reason": "Nome di una gamma/prodotto: identificare il produttore, non cercare il prodotto come impresa."
+    },
+    {
+      "subject": "Leapmotor",
+      "query": "\"Leapmotor\" sito ufficiale Veneto",
+      "excluded_reason": null
+    }
+  ],
+  "article_scoping": [
+    {
+      "url": "https://www.regione.veneto.it/article-detail?articleId=14371215",
+      "before_scope": null,
+      "after_scope": null,
+      "before_chars": 1717,
+      "after_chars": 1717
+    },
+    {
+      "url": "https://www.veneziatoday.it/economia/sigit-nuova-proprietaria-speedline-via-rilancio.html",
+      "before_scope": null,
+      "after_scope": null,
+      "before_chars": 4800,
+      "after_chars": 4800
+    },
+    {
+      "url": "https://www.corriere.it/economia/aziende/26_maggio_21/stellantis-60-miliardi-nel-nuovo-piano-al-2030-con-60-nuovi-modelli-per-far-salire-la-produzione-48897b61-f527-42fc-81bc-69e82a3c0xlk.shtml",
+      "before_scope": null,
+      "after_scope": "Corpo articolo esplicito nel markup; testo integrale conservato separatamente.",
+      "before_chars": 15524,
+      "after_chars": 11473
+    },
+    {
+      "url": "https://www.mimit.gov.it/it/notizie-stampa/speedline-sigit-presenta-al-mimit-piano-per-rilancio-sito-santa-maria-di-sala",
+      "before_scope": "Corpo articolo esplicito nel markup; testo integrale conservato separatamente.",
+      "after_scope": "Corpo articolo esplicito nel markup; testo integrale conservato separatamente.",
+      "before_chars": 2273,
+      "after_chars": 2273
+    },
+    {
+      "url": "https://www.industriaitaliana.it/ferroli-brand-aquaopti-gamma-scaldacqua-pompa-di-calore/",
+      "before_scope": null,
+      "after_scope": "Corpo articolo esplicito nel markup; testo integrale conservato separatamente.",
+      "before_chars": 13256,
+      "after_chars": 6185
+    }
+  ],
+  "limits": "Il replay verifica instradamento e letture evitabili, non misura nuovi clienti, disponibilità attuale delle fonti o accelerazione di una campagna completa."
+}

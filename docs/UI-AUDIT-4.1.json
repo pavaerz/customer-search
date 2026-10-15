@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "390px: phases, counters, pagination, feedback, focus, strategy metrics, no overflow",
+    "1440px: phases, counters, pagination, feedback, focus, strategy metrics, no overflow"
+  ],
+  "javascript_errors": []
+}

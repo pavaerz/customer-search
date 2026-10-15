@@ -1,0 +1,33 @@
+{
+  "real_source_case": {
+    "status": "excluded",
+    "reason": "Il tuo dato: Ditta individuale. Requisito: Le ditte individuali sono escluse",
+    "checked_at": "2026-10-13T20:12:44.689726+00:00",
+    "documents": 8,
+    "exclusions": [
+      {
+        "label": "Le ditte individuali sono escluse",
+        "result": "fail",
+        "detail": "Il tuo dato: Ditta individuale. Requisito: Le ditte individuali sono escluse",
+        "quote": "Sono escluse le ditte individuali, le Società semplici, le Società di fatto.",
+        "url": "https://www.invitalia.it/incentivi-e-strumenti/nuove-imprese-tasso-zero/faq/requisiti-richiesti",
+        "document_id": "b104266b0105b06f14fdd84b5d3833823c0fda771bfedf0a53a4e76beea4b843"
+      }
+    ],
+    "limitations": [
+      "Allegato su dominio non abilitato: https://www.gazzettaufficiale.it/do/gazzetta/unione_europea/3/pdfPaginato?dataPubblicazioneGazzetta=20240215&edizione=0&elenco30giorni=false&numPagina=5&numeroGazzetta=13&numeroSupplemento=0&progressivo=0&tipoSerie=S2&tipoSupplemento=GU",
+      "Allegato su dominio non abilitato: https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX%3A32023R1315"
+    ]
+  },
+  "model_fixture": {
+    "status": "source_incomplete",
+    "rules": [],
+    "complete": false,
+    "limitations": [
+      "Una condizione estratta non ha una citazione o un confronto valido.",
+      "Le condizioni estratte non hanno superato il confronto con il testo originale.",
+      "La regola per la regione della sede è corretta, ma la regola per il bando attivo non è corretta poiché il testo specifica che il bando è attivo, ma non fornisce informazioni sull'area geografica di applicazione.",
+      "La regola per la completa definizione dei requisiti è corretta, ma manca la regola per specificare che le ditte individuali sono le uniche ammesse."
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "scope": "Support for originally assigned need/request/digital-process type, not need for a full project.",
+  "sampling": "First 20 unique quotations by SHA256(grounding-holdout-v1 + quotation hash); Almas, Picello and Stox excluded before sampling.",
+  "sample_sha256": "330f4fd91200d5fa4bbd4e2381484d79929d55472f60c5efb4bca819fb780008",
+  "size": 20,
+  "reviewer": "Development assistant, not an independent human reviewer",
+  "rows": [
+    {
+      "url": "https://www.panozzonline.it/tornitura/bassano-del-grappa/",
+      "quote": "Da oltre trent’anni ci occupiamo di lavorazioni CNC ad alta precisione, mettendo a disposizione un parco macchine all’avanguardia e un team tecnico specializzato.",
+      "original_type": "process",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://imp-ind.com/",
+      "quote": "Realizzazione su misura di impianti e tubazioni in officina. Acciai A106, 304, 316, 321, P11, P22. Rispetto rigoroso di isometrici e disegni di progetto.",
+      "original_type": "process",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.bpm-eng.it/",
+      "quote": "Se stai cercando una consulenza\ntecnica per un impianto esistente o\nvuoi avviare un nuovo progetto,\ncontattaci per vederci in azione.",
+      "original_type": "request",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://mitohitech.it/tecnologia-al-servizio-dellambiente/",
+      "quote": "Le nostre lavorazioni meccaniche più recenti\nUna difficoltà, un’idea, la soluzione e il lieto fine. Spesso i progetti in cui siamo coinvolti si sviluppano così.",
+      "original_type": "process",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.itsmeccatronico.it/bandi-e-servizi-per-giovani-imprenditori-e-il-momento-di-crescere/",
+      "quote": "Districarsi tra finanziamenti, bandi e agevolazioni è spesso scoraggiante. Restare aggiornati sulle opportunità in corso, capire quale incentivo è migliore per la propria idea di impresa e, soprattutto, riuscire a partecipare con successo ai bandi, ottenendo importanti agevolazioni economiche, è materia complicata.",
+      "original_type": "gap",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.tecnovavicenza.com/impianti/",
+      "quote": "Dal 1984 nell'impiantistica industriale\nTecnova di Vicenza si occupa da molti anni di impianti industriali, fornendo servizi completi, a 360°: dalla produzione al commercio.",
+      "original_type": "process",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.cbsstrutture.it/",
+      "quote": "La consolidata esperienza ed il continuo investimento nella formazione di personale specializzato e qualificato ci hanno permesso di collaborare con i più importanti studi di ingegneria e architettura nell’elaborazione di soluzioni personalizzate ed originali.",
+      "original_type": "process",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://cnaveneto.it/cambiamenti-imprese-nord-est/",
+      "quote": "Come broker assicurativo, semplifica le decisioni previdenziali o",
+      "original_type": "request",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.ipaziaspace.com/",
+      "quote": "Moreover, the rideshare model imposes significant limitations: timing is dictated by primary payloads, trajectories are not optimized for secondary users, and payload retrieval is rarely feasible. These constraints create a critical bottleneck for manufacturers, academic teams, and technology developers seeking to certify components, validate new designs, or collect mission-specific data.",
+      "original_type": "gap",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://venetosviluppo.portaletrasparenza.net/",
+      "quote": "In questo portale saranno pubblicati, raggruppati secondo le indicazioni di legge, documenti, informazioni e dati concernenti l'organizzazione dell'amministrazione, le sue attività e le relative modalità di realizzazione.",
+      "original_type": "process",
+      "after_type": "process",
+      "original_type_supported": true,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://mitohitech.it/riconosciuti-e-apprezzati-anche-nei-mercati-esteri/",
+      "quote": "Abbiamo rapporti forti e duraturi con primarie aziende in importanti mercati e continuiamo a studiare strategie e iniziative commerciali per andare incontro alle peculiari esigenze di ogni operatore.",
+      "original_type": "process",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.bpm-eng.it/",
+      "quote": "Il vantaggio che\nsiamo uno.\nAver riunito sotto lo stesso tetto le\ncompetenze ingegneristiche di\nprogettazione e i servizi tecnici di\nconsulenza, direzione lavori e\nassistenza ci permette di essere\nl’unico fornitore con cui dovrai\nconfrontarti lungo tutto il percorso.",
+      "original_type": "process",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.ipaziaspace.com/",
+      "quote": "In today’s rapidly evolving aerospace sector, the demand for in-flight testing is growing, yet traditional orbital launch services are often prohibitively expensive, overbooked, and inflexible—especially for early-stage or sub-scale payloads.",
+      "original_type": "gap",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://italferpd.it/",
+      "quote": "L’obiettivo è quello di guidare il cliente attraverso dei sistemi di configurazione digitale del prodotto di cui si abbisogna in modo da poter trasferire le informazioni direttamente lungo la catena di produzione.",
+      "original_type": "gap",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.panozzonline.it/tornitura/bassano-del-grappa/",
+      "quote": "Perché scegliere Panozzo\nScegliere Panozzo significa affidarsi a un’officina meccanica di precisione con un’esperienza trentennale e una struttura organizzata per garantire:",
+      "original_type": "request",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.dfgingegneria.com/",
+      "quote": "Di seguito alcuni dei nostri lavori.",
+      "original_type": "process",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.tecnovavicenza.com/azienda/",
+      "quote": "Servizi completi, a 360°: dallo studio, progettazione, costruzione e fornitura finale, fino al ripristino ed aggiornamento di impianti esistenti",
+      "original_type": "process",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.itsmeccatronico.it/notizie/",
+      "quote": "Da emergenza a opportunità. Il 51,5% delle aziende fatica a trovare profili tecnici. E se alle imprese mancano tecnici, l’ITS risponde con formazione avanzata, prototipi e inserimento diretto nel tessuto produttivo.",
+      "original_type": "gap",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://www.itsmeccatronico.it/notizie/",
+      "quote": "MOBILITÀ ERASMUS+: SI TORNA A PARTIRE!",
+      "original_type": "gap",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    },
+    {
+      "url": "https://nidacarpenteria.it/",
+      "quote": "Nida Srl utilizza tecnologie avanzate per realizzare piegature accurate e ripetibili, adatte a una vasta gamma di applicazioni industriali. Che si tratti di piccoli lotti o produzioni su larga scala, assicuriamo sempre la massima qualità.",
+      "original_type": "process",
+      "after_type": "business",
+      "original_type_supported": false,
+      "literal_in_original": true
+    }
+  ],
+  "results": {
+    "before": {
+      "retained": 20,
+      "unsupported_retained": 19,
+      "supported_retained": 1,
+      "supported_discarded": 0
+    },
+    "after": {
+      "retained": 1,
+      "unsupported_retained": 0,
+      "supported_retained": 1,
+      "supported_discarded": 0
+    }
+  },
+  "limits": [
+    "19 negative examples, only one supported process label: insufficient positive recall sample.",
+    "Publication procedure in a portal does not imply inefficiency or that the named entity owns it.",
+    "The evidence and entity linkage are not re-qualified by this classifier.",
+    "No new API requests or model calls; no claim of acquisition effectiveness."
+  ]
+}

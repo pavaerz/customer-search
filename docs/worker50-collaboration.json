@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-14T17:05:44.568591+00:00",
+  "sample_size": 1,
+  "scope": "Selected positive integration regression, not an unbiased quality sample.",
+  "originals_sha256": "3c3d6be814d9063bb6050c7374c9721a8eae4e5ea69b1bbdc8ccd95df448c74a",
+  "searches_sha256": "9a9bc6cb22f21c3281b3184e0a249b1049f94323b218c80ae977f6689ffbf817",
+  "source": "https://www.adriasonline.it/lavora-con-noi/",
+  "promising": 1,
+  "qualified": 0,
+  "public_email": "info@adriasonline.it",
+  "category": "agencies",
+  "checks": [
+    "search lineage retained",
+    "late promotion refused after Stop",
+    "resume without repeated search",
+    "one persisted company",
+    "public contact and literal request retained",
+    "no heavy verification scheduled",
+    "unknown budget preserved",
+    "survives database reopen"
+  ],
+  "api_requests": 0,
+  "model_calls": 0,
+  "production_data_modified": false,
+  "frozen_page_reads": 8
+}

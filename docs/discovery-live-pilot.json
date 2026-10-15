@@ -1,0 +1,618 @@
+{
+  "started_at": "2026-10-13T19:13:32.750300+00:00",
+  "database": "data/discovery-pilots/2026-10-13T19-13-32.725073+00-00/pilot.sqlite3",
+  "queries": [
+    {
+      "query": "\"nuova linea\" \"prodotti\" Veneto",
+      "error": "SearXNG: nessun motore disponibile: [[\"bing\", \"HTTP connection error\"]]"
+    },
+    {
+      "query": "\"cerchiamo\" \"nuovo sito\" Veneto",
+      "error": "SearXNG in pausa tecnica fino a 2026-10-13T19:14:33.896234+00:00"
+    },
+    {
+      "query": "aziende Veneto configuratore preventivi",
+      "error": "SearXNG in pausa tecnica fino a 2026-10-13T19:14:33.896234+00:00"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.confartigianatovicenza.it/feed/",
+      "status": "read"
+    },
+    {
+      "url": "https://cnaveneto.it/feed/",
+      "status": "read"
+    },
+    {
+      "url": "https://www.venetoeconomia.it/feed/",
+      "status": "read"
+    },
+    {
+      "url": "https://cnaveneto.it/startup/",
+      "status": "read"
+    },
+    {
+      "url": "https://www.confindustriavenest.it/stampa-e-media/comunicati-stampa",
+      "error": "Pagina oltre 1,5 MB: controllo non completato"
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.confartigianatovicenza.it/gustarti/",
+      "state": "needs_review",
+      "reason": "Possibile partner: complementarità da verificare, nessun progetto commissionato dimostrato.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "Passa al contenuto principale\nUna provincia da GustArti\nCesti natalizi con prodotti alimentari vicentini.\nDa qualche anno Confartigianato Imprese Vicenza, in collaborazione con la Cooperativa Verlata di Villaverla, dà l’opportunità alle aziende socie di commercializzare i propri prodotti, in occasione delle Festività natalizie, attraverso l’iniziativa “Una provincia da GustArti”: cesti natalizi composti da prodotti artigiani del territorio.\nVISITA IL SITO\nIniziative Alimentazione Iniziative Panificatori Iniziative Pasticceri e Gelatieri Iniziative Prodotti Alimentari Vari\nAltre Iniziative\nSettimana della Pasta 2026\nDEGUSTAZIONI, EVENTI, SCONTI. I pastai artigiani vicentini dedicano una settimana alla regina della dieta mediterranea. Dal 25 al 31 ottobre 2026, 20% di sconto nei punti vendita aderenti…\nLeggi tutto\nDistillerie Aperte 2026\nUna giornata dedicata alla grappa, prodotto simbolo dell’enogastronomia vicentina, tra visite guidate e degustazioni negli storici impianti della provincia.\nOttenuti attraverso un processo che pe…\nLeggi tutto\nLe Settimane del Pane Integrale 2026\nGli Artigiani del Pane Vicentini e la Lega Italiana Lotta ai Tumori promuovono la sana alimentazione. Da tempo Confartigianato Imprese Vicenza collabora con&nbsp…\nLeggi tutto\nI pani moderni: innovazione, tecnica e creatività in panificazione\nConfartigianato Imprese Vicenza, in collaborazione con il Centro di Formazione CESAR, propone un corso di una giornata dal titolo:\nI PANI MODERNI: innovazione, tecnica e creatività in panificazio…\nLeggi tutto\nVEDI TUTTE",
+      "seconds": 1.55
+    },
+    {
+      "url": "https://www.confartigianatovicenza.it/distacchi-trasferte-internazionali/",
+      "state": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "Passa al contenuto principale\n9 Ottobre 2026\nDistacchi e trasferte transnazionali\nIl 14 ottobre un incontro gratuito sulle regole per lavorare nei cantieri esteri, con gli esperti di C.L.S. Srl.\nQuandoMercoledì 14 ottobre, ore 16.30\nDoveDigital Innovation Hub, via Fermi 134, Vicenza\nLavorare in cantieri all’estero oppure affidare parte delle attività a imprese straniere comporta obblighi, formalità e controlli specifici. Si tratta di aspetti che interessano anche le imprese artigiane e di piccole dimensioni, sempre più spesso coinvolte in lavori e collaborazioni oltreconfine, soprattutto in Europa.\nPer accompagnare le aziende nella gestione di queste attività, Confartigianato Imprese Vicenza ha attivato un percorso di supporto dedicato ai distacchi e alle trasferte transnazionali, che sarà presentato durante l’incontro in programma mercoledì 14 ottobre.\nL’appuntamento offrirà un approfondimento sulle regole da rispettare e sulla documentazione necessaria sia quando un’impresa italiana opera in cantieri esteri, sia quando si avvale di ditte straniere per completare i lavori.\nGli esperti di C.L.S. Srl\nOmar SelviAmministratore Delegato\nHanela CimbanicProject Manager Distacchi Transnazionali\nAndrea BiasiniRep. Distacchi Transnazionali\nPartecipazione gratuita, previa iscrizione. L’incontro si terrà in presenza al Digital Innovation Hub di Confartigianato Vicenza e sarà trasmesso anche in streaming. Il link per seguire l’evento online verrà inviato nella mattinata del 14 ottobre agli iscritti che non parteciperanno in presenza.\nInformazioni e iscrizioni\nConfartigianato Estero\nUlt",
+      "seconds": 1.53
+    },
+    {
+      "url": "https://cnaveneto.it/limpresa-della-bellezza-2026-cultura-territorio-e-impresa-a-vigonza/",
+      "state": "needs_review",
+      "reason": "Possibile partner: complementarità da verificare, nessun progetto commissionato dimostrato.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "ArtigianatoMade in Italy\n·Ottobre 7, 2026·2 min lettura\nL’Impresa della Bellezza 2026: cultura, territorio e impresa a Vigonza\nDal 13 al 18 ottobre, cultura e saper fare si incontrano a Vigonza.\nDopo il successo della prima edizione, torna a Vigonza L’Impresa della Bellezza, il festival che mette in dialogo letteratura, arte, paesaggio, creatività e impresa, valorizzando il “saper fare” e l’identità del Made in Italy.\nIdeato e diretto artisticamente da Matteo Strukul e Silvia Gorgi, il festival è realizzato dall’Associazione Culturale Sugarpulp in collaborazione con il Comune di Vigonza e propone quattro giornate di incontri al Teatro Quirino De Giorgio, dal 13 al 18 ottobre 2026.\nQuando bellezza e impresa si incontrano\nL’idea alla base dell’iniziativa è quella di superare la tradizionale separazione tra cultura e impresa.\nLa storia del Veneto dimostra infatti quanto arte, creatività, artigianato e capacità imprenditoriale siano legati tra loro. Figure come Andrea Palladio rappresentano perfettamente questa contaminazione tra progettazione, mestiere e capacità di fare.\nOggi quel patrimonio continua a vivere nelle imprese, nei mestieri e nelle competenze del territorio. È proprio questo rapporto tra bellezza, cultura e saper fare che L’Impresa della Bellezza vuole raccontare.\nIl programma 2026\nIl calendario riunisce scrittori, artisti, divulgatori e protagonisti della cultura italiana.\nMartedì 13 ottobre – ore 21.00\nMarianna e Mauro Corona\nUn dialogo dedicato a montagna, natura, ambiente e paesaggio, moderato da Matteo Strukul.\nPrenota gratuitamente\nVenerdì 16 ottobre – ore ",
+      "seconds": 0.79
+    },
+    {
+      "url": "https://www.venetoeconomia.it/2026/10/torri-eur-roma-carron/",
+      "state": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "Torri dell'Eur di Roma, la rigenerazione porta la firma della trevigiana Carron\n13.10.2026\n|\nPmi e Imprese | Treviso\nUn’impresa veneta protagonista dell’inaugurazione delle Torri dell’Eur di Roma, il complesso direzionale progettato da Cesare Ligini nei primi anni Sessanta e restituito alla città dopo un intervento di rigenerazione urbana promosso dal Gruppo CDP, proprietario attraverso CDP Real Asset SGR. A realizzare i lavori è stata infatti Carron S.p.A. Società Benefit di San Zenone degli Ezzelini (Treviso), in qualità di general contractor. Le torri ospiteranno gli uffici centrali dell’Agenzia delle Entrate.\nAl taglio del nastro del complesso rigenerato, il 12 ottobre, sono intervenuti tra gli altri il Viceministro dell’Economia e delle Finanze Maurizio Leo, il Sindaco di Roma Roberto Gualtieri, l’Amministratore Delegato di CDP Dario Scannapieco. Per il gruppo di San Zenone è intervenuto il Presidente Diego Carron che ha dichiarato «Le Torri dell’Eur sono un cantiere complesso restituito alla città, e per noi un traguardo di grande orgoglio. Dopo anni di abbandono, il complesso torna a essere un punto di riferimento nel cuore dell’EUR e migliora l’area che lo circonda. Ringrazio CDP per la fiducia, Roma Capitale e le istituzioni per il sostegno, e le donne e gli uomini di Carron, che per oltre tre anni hanno lavorato con dedizione a questo progetto».\nAll’evento inaugurale hanno preso parte l’Amministratore Delegato di CDP Real Asset SGR, Antonino Turicchi, dell’Assessore all’Urbanistica di Roma Capitale, Maurizio Veloccia, e il Direttore dell’Agenzia delle Entrate, Vin",
+      "seconds": 0.52
+    },
+    {
+      "url": "https://cnaveneto.it/premio-cambiamenti-nord-est-finale/",
+      "state": "needs_review",
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "GiovaniStartup\n·Aprile 8, 2026·2 min lettura\nPremio Cambiamenti, 2 imprese del Nord-Est in finale\nIn onda il 22 e 23 aprile a Roma!\nPremio Cambiamenti, 2 imprese del Nord-Est in finale. Si è concluso il tour nazionale del Premio Cambiamenti 2026, il percorso promosso da CNA che ha attraversato l’intero Paese, tappa dopo tappa, per valorizzare e premiare le migliori realtà imprenditoriali emergenti a livello regionale. Un viaggio che ha messo al centro innovazione, coraggio e capacità di fare impresa, accompagnando le aziende partecipanti fino a questa fase di qualificazione. A conclusione delle selezioni territoriali prima e regionali, poi, sono state individuate le 20 imprese finaliste che si contenderanno il titolo nazionale nella finale in programma il prossimo 23 aprile a Roma.\nDue le imprese selezionate nel Nord-Est che concorreranno nella finale nazionale del Premio Cambiamenti:\nAsteasier sviluppa biomassa algale ad alto valore funzionale per i settori della mangimistica e della nutraceutica tramite piattaforme proprietarie. Offre ingredienti naturali e sicuri che garantiscono benefici biologici superiori e un minor impatto ambientale rispetto alle alternative sintetiche.\nBaolfly Società Benefit progetta sistemi modulari e automatizzati di vertical farming per l’allevamento della mosca soldato nera. La tecnologia trasforma scarti organici in proteine per mangimi e fertilizzanti, creando un modello di economia circolare in cui la startup riacquista e commercializza il prodotto finale.\nUn appuntamento di rilievo che si terrà il giorno successivo all’evento nazionale dei",
+      "seconds": 0.65
+    },
+    {
+      "url": "https://cnaveneto.it/cambiamenti-imprese-nord-est/",
+      "state": "needs_review",
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "InnovazioneStartup\n·Marzo 12, 2026·5 min lettura\nPremio Cambiamenti, le imprese della qualificazione Nord-Est\nPartecipa all'evento a Verona il 20 marzo!\nCambiamenti imprese Nord-Est. Sono 23 le nuove imprese innovative provenienti da Veneto, FVG e TAA che si sfideranno alla Qualificazione Nord-Est del Premio Cambiamenti di CNA, che andrà in onda il 20 marzo a Verona, presso NAD – Nuova Accademia del Design, via Santa Teresa 2.\nPartecipa anche tu, iscriviti all’evento qui: premiocambiamenti.it/qualificazione-nord-est/\nLe startup del Nord-Est finaliste\nAsteasier Sviluppa biomassa algale ad alto valore funzionale per i settori della mangimistica e della nutraceutica tramite piattaforme proprietarie. Offre ingredienti naturali e sicuri che garantiscono benefici biologici superiori e un minor impatto ambientale rispetto alle alternative sintetiche.\nBaolfly Società Benefit progetta sistemi modulari e automatizzati di vertical farming per l’allevamento della mosca soldato nera. La tecnologia trasforma scarti organici in proteine per mangimi e fertilizzanti, creando un modello di economia circolare in cui la startup riacquista e commercializza il prodotto finale.\nBehavix Società Benefit offre una piattaforma SaaS basata su algoritmi di Intelligenza Artificiale per combattere lo spreco alimentare nella ristorazione collettiva. Il sistema combina la business intelligence con l’economia comportamentale, coinvolgendo attivamente i consumatori tramite feedback e gamification per ottimizzare i menu e ridurre i costi operativi.\nBrightMol Biotech accelera la drug discovery attraverso la pi",
+      "seconds": 0.72
+    },
+    {
+      "url": "https://cnaveneto.it/startup-veneto-nuovo-bando/",
+      "state": "needs_review",
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "GiovaniStartup\n·Febbraio 11, 2026·1 min lettura\nStartup in Veneto, nuovo bando da 3 milioni\nRivolgiti a CNA per presentare la domanda\nStartup Veneto bando. La Regione Veneto ha stanziato 3 milioni di euro per sostenere le startup già costituite che si trovano nella fase di passaggio dal prototipo al mercato (dall’Early Stage all’Early Growth). L’obiettivo è trasformare l’innovazione in valore economico reale e occupazione qualificata. Ad annunciare la nuova misura dedicata ai Giovani Imprenditori ed Imprenditrici è il presidente della Regione Veneto, Alberto Stefani e l’assessore allo sviluppo economico, Massimo Bitonci. Presenta la domanda con CNA!\nCaratteristiche e obiettivi del bando\nIl bando non premia solo l’idea, ma la solidità e la visione industriale. I punti chiave includono:\nTarget, micro e piccole imprese innovative ad alta intensità di conoscenza;\nsostegno alla crescita: finanziamento di progetti che rafforzano la ricerca e la competitività;\nfocus sulle competenze: forti premialità per chi assume ricercatori, personale qualificato o ospita tirocinanti universitari;\ncoerenza con la Smart Specialization Strategy (Agrifood, Manufacturing, Health, Cultura, Living, Destinazione Intelligente).\nContributi a fondo perduto\nIl contributo è a fondo perduto. Una novità importante riguarda l’apertura a capitali esterni. Intensità standard: 50% delle spese ammissibili. Premialità investitori: l’intensità sale al 60% se un investitore esterno apporta capitali pari ad almeno il 20% delle spese del progetto.\nPerché presentare la domanda con CNA?\nPresentare domanda per un bando d",
+      "seconds": 0.7
+    },
+    {
+      "url": "https://cnaveneto.it/premio-cambiamenti-ultimi-giorni-per-iscriversi/",
+      "state": "needs_review",
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "ArtigianatoGiovaniStartup\n·Dicembre 30, 2025·1 min lettura\nPremio Cambiamenti: ultimi giorni per iscriversi\nLe candidature resteranno aperte fino al 18 gennaio 2026\nPremio Cambiamenti: ultimi giorni per iscriversi. Manca sempre meno alla chiusura delle iscrizioni al Premio Cambiamenti CNA, l’iniziativa nazionale dedicata alle nuove imprese italiane che stanno innovando l’economia e i territori.\nIl termine ultimo per candidarsi è il 18 gennaio 2026.\nLa IX Edizione del Premio Cambiamenti, promossa da CNA, porta il titolo “Nuove Rotte” e invita le imprese emergenti a orientare con coraggio il proprio percorso di crescita, contribuendo alla trasformazione del sistema produttivo italiano.\nA chi è rivolto il Premio Cambiamenti\nIl Premio è rivolto alle imprese nate dopo il 1° gennaio 2021 e rappresenta uno dei più importanti riconoscimenti nazionali per innovazione, creatività e impatto economico e sociale.\nI numeri delle scorse edizioni confermano il valore dell’iniziativa:\noltre 7.000 imprese partecipanti\npiù di 1.000 candidature ogni anno\ndecine di eventi territoriali organizzati dal Sistema CNA in tutta Italia\nScadenza iscrizioni: 18 gennaio 2026\nCon la scadenza ormai alle porte, le imprese interessate sono chiamate ad agire ora.\nDopo la chiusura delle candidature, il Premio entrerà nella fase di selezione territoriale, regionale e di area, fino alla Finale nazionale, prevista per la fine di aprile 2026.\nPartner e opportunità per le imprese\nAnche per questa edizione è confermata la partecipazione di Unioncamere, a testimonianza del ruolo strategico del Premio Cambiamenti. CNA ",
+      "seconds": 0.71
+    },
+    {
+      "url": "https://cnaveneto.it/premio-cambiamenti-2026/",
+      "state": "needs_review",
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "InnovazioneStartup\n·Novembre 25, 2025·1 min lettura\nAl via la IX edizione del Premio Cambiamenti\nIscrizioni aperte fino al 18 gennaio 2026\nPrende ufficialmente il via oggi la IX Edizione del Premio Cambiamenti, l’iniziativa nazionale promossa da CNA e dedicata alle nuove imprese italiane che stanno ridisegnando il futuro dell’economia e dei territori.\nIl titolo scelto per questa edizione è “Nuove Rotte”, un invito rivolto alle nuove imprese a orientare con coraggio il proprio cammino, a costruire mappe nuove e a contribuire alla trasformazione del Paese.\nIl Premio è rivolto alle imprese nate dopo il 1° gennaio 2021 e si conferma uno dei più importanti riconoscimenti italiani per l’innovazione diffusa, la creatività e la capacità delle micro e piccole imprese di generare impatto economico e sociale. Nelle scorse edizioni hanno partecipato oltre 7mila imprese, con picchi di oltre mille candidature all’anno e decine di eventi territoriali organizzati dal Sistema CNA in tutta Italia.\nLe candidature resteranno aperte fino al 18 gennaio 2026. Seguiranno le fasi di selezione territoriali, regionali e di area nei primi mesi dell’anno, fino ad arrivare alla Finale nazionale, prevista per la fine di aprile.\n“Il Premio Cambiamenti è ormai un appuntamento atteso dall’intero ecosistema dell’innovazione”, sottolinea CNA. “Con questa edizione vogliamo valorizzare le imprese che non solo innovano, ma che tracciano nuove rotte, immaginano nuovi scenari e contribuiscono a rendere più competitivo e sostenibile il nostro sistema produttivo”.\nAnche per questa edizione viene confermata la partec",
+      "seconds": 0.78
+    },
+    {
+      "url": "https://cnaveneto.it/premio-cambiamenti-di-cna-i-vincitori-della-semifinale-nord-est/",
+      "state": "needs_review",
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "GiovaniStartup\n·Dicembre 3, 2024·2 min lettura\nPremio Cambiamenti di CNA: i vincitori della semifinale NORD-EST\nPrima classificata Plantvoice del settore agroalimentare\nPremio Cambiamenti, vincitori NORD-EST. Venerdì 29 novembre, presso il Complesso Universitario di Viale Margherita a Vicenza è andata in scena la Qualificazione NORD-EST del Premio Cambiamenti di CNA, il grande concorso che scopre, premia e sostiene le migliori imprese e startup italiane nate negli ultimi anni che abbiano saputo riscoprire le tradizioni, promuovere il proprio territorio e la comunità, innovare prodotti e processi e costruire il futuro.\nIl podio\nPlantvoice (Bolzano): è un biosensore brevettato che rileva stress nelle piante, migliorando la produttività agricola e ottimizzando l’uso dell’acqua, riducendo gli sprechi di risorse naturali.\nLe Pietre di Venezia (Venezia): Realizza disegni ispirati all’architettura veneziana, trasformandoli in tessuti di pregio come foulard, celebrando la bellezza e la storia della città.\nRehub (Venezia): Trasforma scarti di vetro non riciclabili in prodotti sostenibili per architettura e design, con un processo innovativo basato sull’economia circolare.\nLe menzioni speciali\nOltre ai vincitori principali, sono state attribuite tre menzioni speciali a imprese che hanno dimostrato eccellenza in ambiti specifici:\nTop Innovation Company\nQuesta categoria premia l’azienda che ha mostrato il maggiore impatto tecnologico e di sviluppo innovativo.\nEtrash (Treviso): Fornisce soluzioni smart per la gestione dei rifiuti, con cestini automatizzati e una piattaforma di monitorag",
+      "seconds": 0.63
+    },
+    {
+      "url": "https://cnaveneto.it/cambiamenti-nord/",
+      "state": "needs_review",
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "GiovaniInnovazioneStartup\n·Marzo 23, 2026·3 min lettura\nPremio Cambiamenti Nord-Est, vince l’innovazione\nCNA si conferma la casa delle Giovani Imprenditrici e Artigiani\nPremio Cambiamenti Nord-Est. La veronese Asteasier è stata proclamata vincitrice della semifinale Nordest del Premio Cambiamenti, conquistando l’unico pass disponibile per accedere alla finalissima nazionale del 22-23 aprile a Roma. L’evento, che ha riunito 23 startup da Veneto, Friuli Venezia Giulia e Trentino Alto Adige, ha avuto luogo presso gli spazi della NAD-Nuova Accademia del Design di Verona (ex magazzini generali), di fronte a una platea di oltre 80 imprenditori, professionisti e giovani, accorsi per celebrare il talento innovativo del territorio.\nIl Premio Cambiamenti, promosso da CNA e giunto alla nona edizione, sostiene ogni anno il coraggio e la visione delle neo-imprese italiane che valorizzano il made in Italy e l’innovazione. L’edizione 2026, intitolata Nuove Rotte, ha visto la partecipazione di oltre 1.100 startup in tutta Italia.\nDopo il benvenuto del fondatore di NAD Nicola Pighi e della Fashion Design Director di NAD Yasmin Naqvi, e i saluti del consigliere comunale della città di Verona Fabio Segattini, le startup si sono presentate con uno speech di 2 minuti ciascuna. Al termine della presentazione la scelta del vincitore è passata alla giuria tecnica, composta da rappresentanti del sistema CNA, nonché esperti di rilievo nei settori dell’impresa e dell’innovazione:\nMichele Battistella, presidente Giovani Imprenditori CNA Veneto;\nLuca Busolini, presidente Giovani Imprenditori CNA Trenti",
+      "seconds": 0.78
+    },
+    {
+      "url": "https://cnaveneto.it/startup-venete-cambiamenti/",
+      "state": "needs_review",
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "identity": {
+        "name": null,
+        "region": null,
+        "identity_status": null
+      },
+      "publisher": true,
+      "excerpt": "GiovaniStartup\n·Marzo 3, 2026·3 min lettura\nStartup venete finaliste Premio Cambiamenti\nPartecipa alla Qualificazione Nord-Est il 20 marzo a Verona\nStartup venete finaliste Cambiamenti. Sono 14 le nuove imprese innovative provenienti dal Veneto che si sfideranno alla Qualificazione Nord-Est del Premio Cambiamenti di CNA, che andrà in onda il 20 marzo a Verona, presso NAD – Nuova Accademia del Design, via Santa Teresa 2.\nPartecipa anche tu, iscriviti all’evento qui: premiocambiamenti.it/qualificazione-nord-est/\nLe startup venete finaliste Premio Cambiamenti\nAsteasier Sviluppa biomassa algale ad alto valore funzionale per i settori della mangimistica e della nutraceutica tramite piattaforme proprietarie. Offre ingredienti naturali e sicuri che garantiscono benefici biologici superiori e un minor impatto ambientale rispetto alle alternative sintetiche.\nCiao Elsa È la prima piattaforma “Pension-Tech” in Italia che permette di comparare e sottoscrivere oltre cento fondi pensione tramite un algoritmo proprietario e una consulenza personalizzata. Come broker assicurativo, semplifica le decisioni previdenziali offrendo strumenti digitali intuitivi.\nDICEtech Sviluppa un software che si integra con gli scanner di risonanza magnetica già presenti nelle strutture sanitarie, consentendo analisi microstrutturali avanzate, senza mezzo di contrasto. Il sistema riduce i tempi di calcolo e supporta le decisioni per neuro e prostata, limitando le biopsie non necessarie.\nETIES Gestisce CMD, una piattaforma software per la governance proattiva di sistemi complessi tramite monitoraggio attivo, a",
+      "seconds": 0.7
+    }
+  ],
+  "scope": "Live discovery and preliminary original-page checks only; no deep qualification or outreach.",
+  "diagnostics": {
+    "providers": [
+      {
+        "name": "public:cnaveneto.it",
+        "queries": 0,
+        "pages": 11,
+        "cached_pages": 0,
+        "unique_urls": 13,
+        "errors": 0,
+        "seconds": 8.04,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      },
+      {
+        "name": "public:confartigianatovicenza.it",
+        "queries": 0,
+        "pages": 3,
+        "cached_pages": 0,
+        "unique_urls": 2,
+        "errors": 0,
+        "seconds": 4.29,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      },
+      {
+        "name": "public:confindustriavenest.it",
+        "queries": 0,
+        "pages": 0,
+        "cached_pages": 0,
+        "unique_urls": 0,
+        "errors": 1,
+        "seconds": 1.47,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      },
+      {
+        "name": "public:venetoeconomia.it",
+        "queries": 0,
+        "pages": 2,
+        "cached_pages": 0,
+        "unique_urls": 1,
+        "errors": 0,
+        "seconds": 1.36,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      },
+      {
+        "name": "searxng",
+        "queries": 1,
+        "pages": 0,
+        "cached_pages": 0,
+        "unique_urls": 0,
+        "errors": 1,
+        "seconds": 4.09,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      }
+    ],
+    "strategies": [
+      {
+        "name": "partner",
+        "queries": 0,
+        "pages": 2,
+        "cached_pages": 0,
+        "unique_urls": 0,
+        "errors": 0,
+        "seconds": 2.32,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      },
+      {
+        "name": "sources",
+        "queries": 0,
+        "pages": 4,
+        "cached_pages": 0,
+        "unique_urls": 16,
+        "errors": 1,
+        "seconds": 5.19,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      },
+      {
+        "name": "startup",
+        "queries": 0,
+        "pages": 8,
+        "cached_pages": 0,
+        "unique_urls": 0,
+        "errors": 0,
+        "seconds": 5.62,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      },
+      {
+        "name": "change",
+        "queries": 1,
+        "pages": 1,
+        "cached_pages": 0,
+        "unique_urls": 0,
+        "errors": 1,
+        "seconds": 2.67,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      },
+      {
+        "name": "local",
+        "queries": 0,
+        "pages": 1,
+        "cached_pages": 0,
+        "unique_urls": 0,
+        "errors": 0,
+        "seconds": 0.51,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      },
+      {
+        "name": "explicit",
+        "queries": 0,
+        "pages": 0,
+        "cached_pages": 0,
+        "unique_urls": 0,
+        "errors": 0,
+        "seconds": 0.95,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      },
+      {
+        "name": "process",
+        "queries": 0,
+        "pages": 0,
+        "cached_pages": 0,
+        "unique_urls": 0,
+        "errors": 0,
+        "seconds": 1.99,
+        "companies": 0,
+        "promising": 0,
+        "qualified": 0,
+        "unverifiable": 0,
+        "rejections": {},
+        "engines": [],
+        "engine_errors": [],
+        "credits": 0,
+        "cost_eur": 0,
+        "seconds_per_promising": null
+      }
+    ],
+    "branches": [],
+    "queries": {
+      "measured": 3,
+      "empty": 0,
+      "unproductive": 0,
+      "awaiting_verification": 0
+    },
+    "health": {
+      "provider": "searxng",
+      "failures": 1,
+      "retry_at": "2026-10-13T19:14:33.896234+00:00",
+      "error": "SearXNG: nessun motore disponibile: [[\"bing\", \"HTTP connection error\"]]",
+      "checked_at": "2026-10-13T19:13:33.896345+00:00",
+      "last_success": null
+    },
+    "sources": [
+      {
+        "url": "https://www.confindustriavenest.it/stampa-e-media/comunicati-stampa",
+        "region": "Veneto",
+        "kind": "html",
+        "state": "unavailable",
+        "reason": "Pagina oltre 1,5 MB: controllo non completato",
+        "last_success": null,
+        "checked_at": "2026-10-13T19:13:42.045583+00:00",
+        "policy_url": null,
+        "sector": null,
+        "topics": null,
+        "reliability": null,
+        "refresh_hours": null,
+        "discovered_from": null
+      },
+      {
+        "url": "https://venetoup.com/",
+        "region": "Veneto",
+        "kind": "html",
+        "state": "pending",
+        "reason": "Da verificare",
+        "last_success": null,
+        "checked_at": null,
+        "policy_url": null,
+        "sector": null,
+        "topics": null,
+        "reliability": null,
+        "refresh_hours": null,
+        "discovered_from": null
+      },
+      {
+        "url": "https://cnaveneto.it/startup/",
+        "region": "Veneto",
+        "kind": "html",
+        "state": "available",
+        "reason": "Pagina pubblica e robots verificati; nessun collegamento a condizioni individuato.",
+        "last_success": "2026-10-13T19:13:40.569861+00:00",
+        "checked_at": "2026-10-13T19:13:40.569859+00:00",
+        "policy_url": null,
+        "sector": null,
+        "topics": "[\"startup\", \"tender\"]",
+        "reliability": "Accesso verificato; contenuti da verificare singolarmente",
+        "refresh_hours": 24,
+        "discovered_from": null
+      },
+      {
+        "url": "https://venetosviluppo.it/index.php/news",
+        "region": "Veneto",
+        "kind": "html",
+        "state": "pending",
+        "reason": "Da verificare",
+        "last_success": null,
+        "checked_at": null,
+        "policy_url": null,
+        "sector": null,
+        "topics": null,
+        "reliability": null,
+        "refresh_hours": null,
+        "discovered_from": null
+      },
+      {
+        "url": "https://www.assolombarda.it/media/comunicati-stampa",
+        "region": "Lombardia",
+        "kind": "html",
+        "state": "pending",
+        "reason": "Da verificare",
+        "last_success": null,
+        "checked_at": null,
+        "policy_url": null,
+        "sector": null,
+        "topics": null,
+        "reliability": null,
+        "refresh_hours": null,
+        "discovered_from": null
+      },
+      {
+        "url": "https://cms.ui.torino.it/",
+        "region": "Piemonte",
+        "kind": "html",
+        "state": "pending",
+        "reason": "Da verificare",
+        "last_success": null,
+        "checked_at": null,
+        "policy_url": null,
+        "sector": null,
+        "topics": null,
+        "reliability": null,
+        "refresh_hours": null,
+        "discovered_from": null
+      },
+      {
+        "url": "https://confindustriatoscanacentroecosta.it/notizie/press/",
+        "region": "Toscana",
+        "kind": "html",
+        "state": "pending",
+        "reason": "Da verificare",
+        "last_success": null,
+        "checked_at": null,
+        "policy_url": null,
+        "sector": null,
+        "topics": null,
+        "reliability": null,
+        "refresh_hours": null,
+        "discovered_from": null
+      },
+      {
+        "url": "https://cnaveneto.it/feed/",
+        "region": "Veneto",
+        "kind": "rss",
+        "state": "available",
+        "reason": "Pagina pubblica e robots verificati; nessun collegamento a condizioni individuato.",
+        "last_success": "2026-10-13T19:13:38.922793+00:00",
+        "checked_at": "2026-10-13T19:13:38.922788+00:00",
+        "policy_url": null,
+        "sector": null,
+        "topics": "[]",
+        "reliability": "Accesso verificato; contenuti da verificare singolarmente",
+        "refresh_hours": 24,
+        "discovered_from": null
+      },
+      {
+        "url": "https://www.venetoeconomia.it/feed/",
+        "region": "Veneto",
+        "kind": "rss",
+        "state": "available",
+        "reason": "Pagina pubblica e robots verificati; nessun collegamento a condizioni individuato.",
+        "last_success": "2026-10-13T19:13:39.772216+00:00",
+        "checked_at": "2026-10-13T19:13:39.772211+00:00",
+        "policy_url": null,
+        "sector": null,
+        "topics": "[]",
+        "reliability": "Accesso verificato; contenuti da verificare singolarmente",
+        "refresh_hours": 24,
+        "discovered_from": null
+      },
+      {
+        "url": "https://www.confartigianatovicenza.it/feed/",
+        "region": "Veneto",
+        "kind": "rss",
+        "state": "available",
+        "reason": "Pagina pubblica e robots verificati; nessun collegamento a condizioni individuato.",
+        "last_success": "2026-10-13T19:13:38.072076+00:00",
+        "checked_at": "2026-10-13T19:13:38.072074+00:00",
+        "policy_url": null,
+        "sector": null,
+        "topics": "[\"change\"]",
+        "reliability": "Accesso verificato; contenuti da verificare singolarmente",
+        "refresh_hours": 24,
+        "discovered_from": null
+      }
+    ],
+    "paid": {
+      "tavily": {
+        "enabled": false,
+        "credentials_present": true,
+        "max_spend_eur": 0,
+        "reason": "Nessun adattatore a pagamento abilitato; autorizzazione e limite preventivo necessari."
+      },
+      "serper": {
+        "enabled": false,
+        "credentials_present": true,
+        "max_spend_eur": 0,
+        "reason": "Nessun adattatore a pagamento abilitato; autorizzazione e limite preventivo necessari."
+      }
+    },
+    "note": "URL scoperti e pagine lette non sono clienti. Aziende e risultati deduplicati per identità disponibile. Tempi misurati, crediti a pagamento consumati: zero. Attribuzione alla prima fonte nota; righe storiche senza provenienza escluse dai conteggi per provider."
+  },
+  "elapsed_seconds": 19.54,
+  "qualified": null,
+  "qualification_note": "Not measured: this pilot stops before expensive deep research; no shortlist or client acquisition claimed."
+}

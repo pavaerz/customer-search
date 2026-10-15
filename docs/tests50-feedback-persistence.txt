@@ -1,0 +1,42 @@
+test_stop_also_kills_child_ignoring_term (test_research.OwnedChildrenTest.test_stop_also_kills_child_ignoring_term) ... ok
+test_contact_and_deletion_suppression (test_research.PersistenceTest.test_contact_and_deletion_suppression) ... ok
+test_correlated_documents_use_verified_identity (test_research.PersistenceTest.test_correlated_documents_use_verified_identity) ... ok
+test_crm_bridge_drafts_and_manual_category (test_research.PersistenceTest.test_crm_bridge_drafts_and_manual_category) ... ok
+test_failed_fetch_does_not_erase_verified_identity (test_research.PersistenceTest.test_failed_fetch_does_not_erase_verified_identity) ... ok
+test_homonymous_different_legal_identity (test_research.PersistenceTest.test_homonymous_different_legal_identity) ... ok
+test_migration_repeat_preserves_rows (test_research.PersistenceTest.test_migration_repeat_preserves_rows) ... ok
+test_new_campaign_can_complete_prior_technical_or_partial_review (test_research.PersistenceTest.test_new_campaign_can_complete_prior_technical_or_partial_review) ... ok
+test_one_campaign_only (test_research.PersistenceTest.test_one_campaign_only) ... ok
+test_one_company_not_one_signal (test_research.PersistenceTest.test_one_company_not_one_signal) ... ok
+test_quality_denominator_only_proposed (test_research.PersistenceTest.test_quality_denominator_only_proposed) ... ok
+test_reconciliation_retains_assessment_ids (test_research.PersistenceTest.test_reconciliation_retains_assessment_ids) ... ok
+test_resume_requeues_only_unfinished (test_research.PersistenceTest.test_resume_requeues_only_unfinished) ... ok
+test_same_legal_identity_different_domain (test_research.PersistenceTest.test_same_legal_identity_different_domain) ... ok
+test_same_signal_not_reproposed (test_research.PersistenceTest.test_same_signal_not_reproposed) ... ok
+test_stop_owned_worker_under_five_seconds (test_research.PersistenceTest.test_stop_owned_worker_under_five_seconds) ... ok
+test_stop_refuses_late_promotion (test_research.PersistenceTest.test_stop_refuses_late_promotion) ... ok
+test_unknown_identity_becomes_verified_without_duplicate (test_research.PersistenceTest.test_unknown_identity_becomes_verified_without_duplicate) ... ok
+test_budget_wrong_subject_or_low (test_research.QualificationTest.test_budget_wrong_subject_or_low) ... ok
+test_completed_contradiction (test_research.QualificationTest.test_completed_contradiction) ... ok
+test_critical_webapp (test_research.QualificationTest.test_critical_webapp) ... ok
+test_existing_solution_unknown (test_research.QualificationTest.test_existing_solution_unknown) ... ok
+test_explicit_request_all_gates (test_research.QualificationTest.test_explicit_request_all_gates) ... ok
+test_fabricated_quote_or_id_rejected (test_research.QualificationTest.test_fabricated_quote_or_id_rejected) ... ok
+test_future_and_old_dates (test_research.QualificationTest.test_future_and_old_dates) ... ok
+test_generic_and_employee_requests (test_research.QualificationTest.test_generic_and_employee_requests) ... ok
+test_geography (test_research.QualificationTest.test_geography) ... ok
+test_identity_missing (test_research.QualificationTest.test_identity_missing) ... ok
+test_incomplete_check (test_research.QualificationTest.test_incomplete_check) ... ok
+test_missing_contact (test_research.QualificationTest.test_missing_contact) ... ok
+test_pages_prioritize_contact_over_products (test_research.QualificationTest.test_pages_prioritize_contact_over_products) ... ok
+test_relocation_slow_old_site_not_enough (test_research.QualificationTest.test_relocation_slow_old_site_not_enough) ... ok
+test_republication_not_independent (test_research.QualificationTest.test_republication_not_independent) ... ok
+test_schema_forbids_additional_fields (test_research.QualificationTest.test_schema_forbids_additional_fields) ... ok
+test_small_fix (test_research.QualificationTest.test_small_fix) ... ok
+test_unknown_budget_never_internal_floor (test_research.QualificationTest.test_unknown_budget_never_internal_floor) ... ok
+test_unknown_geography (test_research.QualificationTest.test_unknown_geography) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.764s
+
+OK

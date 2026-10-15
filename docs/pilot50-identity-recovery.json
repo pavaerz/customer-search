@@ -1,0 +1,24 @@
+{
+  "directory": "data/identity-pilots/2026-10-14T07-58-35.145295+00-00",
+  "finished": "2026-10-14T07:59:53.230197+00:00",
+  "requests": 0,
+  "results": [
+    {
+      "subject": "Alessandrin & C. s.r.l.",
+      "url": "https://www.alessandrin.com/",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "assessment_status": "unverifiable",
+      "seconds": 73.28
+    },
+    {
+      "subject": "Newpharm Srl",
+      "url": "https://www.newpharm.it/",
+      "state": "needs_review",
+      "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+      "company_ready": false,
+      "seconds": 4.6
+    }
+  ]
+}

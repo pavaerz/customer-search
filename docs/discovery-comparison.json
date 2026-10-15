@@ -1,0 +1,112 @@
+{
+  "protocol": "Deterministic synthetic replay, same 3 intents and max 9 queries. Original HTML triage; no model/qualification execution. Qualified and deep failures remain null because deep qualification was not run. Timing is local replay CPU/SQLite, not live network speed.",
+  "baseline_code_sha256": "59817b10e25dd657ee322f011e794af84d28055983d1ae066704423d51b46b57",
+  "results": {
+    "before": {
+      "initial_frontier": 152,
+      "queries": 9,
+      "original_pages": 9,
+      "pertinent_companies": 6,
+      "correct_identifications": 6,
+      "identification_precision": 1.0,
+      "promising": 6,
+      "qualified": null,
+      "deep_verification_failure_rate": null,
+      "preliminary_failure_rate": 0.0,
+      "elapsed_seconds": 0.197,
+      "seconds_per_promising": 0.0328,
+      "irrelevant_pagination": 2,
+      "query_trace": [
+        [
+          "fornitore nuovo sito Veneto",
+          1
+        ],
+        [
+          "configuratore Veneto",
+          1
+        ],
+        [
+          "nuova linea Veneto",
+          1
+        ],
+        [
+          "fornitore nuovo sito Veneto",
+          2
+        ],
+        [
+          "configuratore Veneto",
+          2
+        ],
+        [
+          "nuova linea Veneto",
+          2
+        ],
+        [
+          "fornitore nuovo sito Veneto",
+          3
+        ],
+        [
+          "configuratore Veneto",
+          3
+        ],
+        [
+          "nuova linea Veneto",
+          3
+        ]
+      ]
+    },
+    "after": {
+      "initial_frontier": 18,
+      "queries": 8,
+      "original_pages": 7,
+      "pertinent_companies": 6,
+      "correct_identifications": 6,
+      "identification_precision": 1.0,
+      "promising": 6,
+      "qualified": null,
+      "deep_verification_failure_rate": null,
+      "preliminary_failure_rate": 0.0,
+      "elapsed_seconds": 0.266,
+      "seconds_per_promising": 0.0444,
+      "irrelevant_pagination": 0,
+      "query_trace": [
+        [
+          "fornitore nuovo sito Veneto",
+          1
+        ],
+        [
+          "configuratore Veneto",
+          1
+        ],
+        [
+          "nuova linea Veneto",
+          1
+        ],
+        [
+          "fornitore nuovo sito Veneto",
+          2
+        ],
+        [
+          "configuratore Veneto",
+          2
+        ],
+        [
+          "\"nuova linea\" \"prodotti\" Veneto produzione alimentare",
+          1
+        ],
+        [
+          "fornitore nuovo sito Veneto",
+          3
+        ],
+        [
+          "configuratore Veneto",
+          3
+        ]
+      ]
+    }
+  },
+  "limitations": [
+    "Small synthetic sample, no evidence of improved market recall or conversion.",
+    "This replay isolates pagination waste and initial queue size. A separate live report describes available sources."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "tests": 309,
+  "passed": true,
+  "browser": {
+    "company_preferences": true,
+    "desktop_mobile": true,
+    "filters_dossier_review": true,
+    "contact_green_delete": true,
+    "start_stop_resume": true,
+    "pipeline_drag_drop": true,
+    "settings_save": true,
+    "browser_errors": [],
+    "real_data_modified": false
+  },
+  "backup": "data/backups/20261013T225342709505Z",
+  "smoke_requests": 1
+}

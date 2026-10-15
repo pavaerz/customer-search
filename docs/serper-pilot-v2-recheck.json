@@ -1,0 +1,413 @@
+{
+  "source_run": 2,
+  "method": "Regressione offline delle pagine originali conservate; nessuna query, modello o nuova qualifica. Il report originale non è modificato.",
+  "before_promising": 14,
+  "after_promising": 6,
+  "results": [
+    {
+      "url": "https://www.preveli.it/servizi/noleggio-sito-web",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Richiesta di progetto non riscontrata nel testo originale.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via Aquileia 262, 30023 Concordia Sagittaria (VE), Italia Telefono +39 342 512-68-66"
+    },
+    {
+      "url": "https://www.unioncamereveneto.it/settore/distribuzione-alimentare/",
+      "before": "promising",
+      "after": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://tesi.luiss.it/32095/1/234671_GIUDICI_MARIA%20CHIARA.pdf",
+      "before": "unverifiable",
+      "after": "unverifiable",
+      "reason": "Fonte HTML non conservata: nessuna nuova richiesta eseguita"
+    },
+    {
+      "url": "https://bottleofitaly.com/pages/cantine-pieropan",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": "Bottle of Italy S.R.L. — Via Robert Falcon Scott 82, Ravenna, 48125, Italia — P.IVA / CF: IT02681440398 — REA: RA-222949 Navigando e/o acquistando su Bottleofitaly.com dichiari di avere l'età legale per consumare alcolici nel tuo Paese. © Tutti i Diritti Riservati."
+    },
+    {
+      "url": "https://www.jotform.com/it/form-templates/order-form/product-order-forms",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://offrendo.it/siti-web/vittorio-veneto",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Richiesta di progetto non riscontrata nel testo originale.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": "Bachdörfli 1, 8752, Näfels, GL, CH"
+    },
+    {
+      "url": "https://savialimentare.it/specialita-v-gamma-con-consegne-in-meno-di-48-ore-su-tutto-il-territorio-nazionale/",
+      "before": "promising",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Sede Legale Via del Lavoro, 13 Vedelago (TV) 31050"
+    },
+    {
+      "url": "https://www.forumagenti.it/it/Forum-Agenti-Centro-Nord-Bologna/Aziende/Lunica-Srl",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "Indirizzo pubblico fuori dalle regioni selezionate.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": "Via Fratelli Cervi, 80 42124 Reggio Emilia (RE) Tel: 339 1587049"
+    },
+    {
+      "url": "https://www.ismeamercati.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F2%252Fd%252FD.128571c545bf9fd64d18/P/BLOB%3AID%3D13415/E/pdf?mode=download",
+      "before": "unverifiable",
+      "after": "unverifiable",
+      "reason": "Fonte HTML non conservata: nessuna nuova richiesta eseguita"
+    },
+    {
+      "url": "https://www.cad3d.it/forum1/discussione/arredamento-3d.29142/",
+      "before": "promising",
+      "after": "needs_review",
+      "reason": "Discussione o raccolta di progetti: il soggetto e una richiesta attuale non sono ancora verificati.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.evisole.com/mappa-del-sito/",
+      "before": "needs_review",
+      "after": "rejected",
+      "reason": "Pagina di servizio o archivio, non un segnale riferito a un’impresa.",
+      "publisher": false,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.freshplaza.it/article/9342282/nuova-linea-chef-di-alta-gamma-in-tubetto-e-in-formato-monoporzione/",
+      "before": "promising",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.comuni-italiani.it/024/100/siti/affari_e_economia.html",
+      "before": "unverifiable",
+      "after": "unverifiable",
+      "reason": "Fonte HTML non conservata: nessuna nuova richiesta eseguita"
+    },
+    {
+      "url": "https://ivanoincitti.it/vecchi-siti-web-ok/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via All'Ara 8, 45100, Rovigo, RO, IT"
+    },
+    {
+      "url": "https://www.innoveneto.org/2021/09/nutrigrano_promolog/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://picclick.it/Collezionismo/Collezionismo-cartaceo/Decreti-e-documenti/Altri-decreti/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.europages.it/it/showroom/restyling-sito-web",
+      "before": "unverifiable",
+      "after": "unverifiable",
+      "reason": "Fonte HTML non conservata: nessuna nuova richiesta eseguita"
+    },
+    {
+      "url": "https://www.ziliosrl.com/wp-content/uploads/2025/06/CATALOGO-PRODOTTI-1.pdf",
+      "before": "unverifiable",
+      "after": "unverifiable",
+      "reason": "Fonte HTML non conservata: nessuna nuova richiesta eseguita"
+    },
+    {
+      "url": "https://simoneperin.it/consulenza-seo-venezia/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Richiesta di progetto non riscontrata nel testo originale.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.skin-food.it/",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "Indirizzo pubblico fuori dalle regioni selezionate.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via Veneto, 36 24041 Brembate (BG) Amministrazione/Academy"
+    },
+    {
+      "url": "https://www.icportoviro.edu.it/documento/pnrr-esperienza-del-cittadino-nei-servizi-pubblici-risorse-per-il-sito-web/",
+      "before": "rejected",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.parmafood.it/sostenibilita/",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "S.p.A. esclusa dal target: ParmaFood Group S.p.a.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via Cavo, 16 43037 – Lesignano de' Bagni (PR) P.IVA 02914670340"
+    },
+    {
+      "url": "https://falchetto.dev/progetti/rifacimento-sito-impresa-edile/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Discussione o raccolta di progetti: il soggetto e una richiesta attuale non sono ancora verificati.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.pianetapsr.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/1024",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.clickable.it/blog/seo/rifare-sito-guida/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Copyright © 2026 Clickable SRL – Sede legale: Viale Gozzadini 1, 40124 Bologna (BO) – Numero REA BO – 531666 – P.iva e CF 03596121206 – Posta certificata: clickable@legalmail.it Privacy policy – Modifica preferenze Cookie – Mappa del sito"
+    },
+    {
+      "url": "https://www.matchplat.com/legno-arredo-uno-sguardo-verso-nuovi-mercati/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via Zanica 19K, 24050, Grassobbio, BG, IT"
+    },
+    {
+      "url": "https://esperto-business-plan.eu/aprire-un-ecommerce-in-italia/",
+      "before": "promising",
+      "after": "needs_review",
+      "reason": "Guida o catalogo di strumenti: descrive come fare, non un bisogno specifico del committente.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": null
+    },
+    {
+      "url": "https://www.regione.veneto.it/",
+      "before": "promising",
+      "after": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.maxwellandpartners.com/export-arredamento/",
+      "before": "rejected",
+      "after": "needs_review",
+      "reason": "Guida o catalogo di strumenti: descrive come fare, non un bisogno specifico del committente.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via Paganini, 4 – 20131 – Milano Ufficio 2: Via Natale Battaglia 25 – 20127 – Milano"
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Veneto",
+      "before": "rejected",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://newvisibility.it/it/portfolio/web/as-tec-impianti-realizzazione-sito-internet",
+      "before": "rejected",
+      "after": "needs_review",
+      "reason": "Discussione o raccolta di progetti: il soggetto e una richiesta attuale non sono ancora verificati.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.hostess-promoter.com/it/blog/esempio-lancio-nuovo-prodotto-alimentare/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.ilfattoquotidiano.it/2026/01/06/tassazione-vendite-online-partita-iva-notizie/8238563/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.veneto.eu/it",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://sitoaspi-qa-cloudfront.autostrade.it/static/procurement/tender_497157/171730406/All.%2003%20CAPITOLATO%20TECNICO%20SITO%20WEB.pdf",
+      "before": "unverifiable",
+      "after": "unverifiable",
+      "reason": "Fonte HTML non conservata: nessuna nuova richiesta eseguita"
+    },
+    {
+      "url": "https://lodefood.com/come-lanciare-un-nuovo-prodotto-alimentare-di-successo/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Guida o catalogo di strumenti: descrive come fare, non un bisogno specifico del committente.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://itrade-global.net/portfolio-category/arredamento/",
+      "before": "promising",
+      "after": "needs_review",
+      "reason": "Discussione o raccolta di progetti: il soggetto e una richiesta attuale non sono ancora verificati.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": "Indirizzo: Via Vallio, 44-46 – 30020 Meolo (VE) Telefono: +39 0421 345891 Email: info@itrade-global.net"
+    },
+    {
+      "url": "https://www.contributiregione.it/chi-siamo/",
+      "before": "rejected",
+      "after": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://unvenetoinviaggio.it/cosa-vedere-in-veneto/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.veneto.info/mappa-veneto/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://ilfattoalimentare.it/esselunga-smart-etichette-prezzi.html",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.performarsi.it/servizi/marketing-per-brand-di-arredamento-interior-design",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Sede operativa Via Garibaldi, 10 36035 - Schio (Vi)"
+    },
+    {
+      "url": "https://sell.amazon.it/imparare/vendita-online",
+      "before": "promising",
+      "after": "needs_review",
+      "reason": "Guida o catalogo di strumenti: descrive come fare, non un bisogno specifico del committente.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Veneto",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://poleepo.cloud/marketplace-italiani-lista-migliori-market-italia/",
+      "before": "rejected",
+      "after": "needs_review",
+      "reason": "Guida o catalogo di strumenti: descrive come fare, non un bisogno specifico del committente.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Viale Roma 2, 03100, Frosinone, FR, IT"
+    },
+    {
+      "url": "https://www.veneto.info/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.fiereinternazionali.com/evento/index-international-design-exhibition/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": null
+    }
+  ]
+}

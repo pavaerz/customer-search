@@ -1,0 +1,113 @@
+{
+  "scope": "Development replay; not independent evaluation",
+  "api_requests": 0,
+  "model_calls": 0,
+  "results": [
+    {
+      "url": "https://www.adviva.it/job/",
+      "state": "promising",
+      "reason": "Richiesta di collaborazione freelance riscontrata sul sito aziendale, con identità e canale di contatto verificati. Ambito e compenso da concordare.",
+      "identity": {
+        "name": "Adviva Srl",
+        "website": "https://www.adviva.it/",
+        "legal_id": "IT04335490274",
+        "location": "Via Antonio Meucci, 21 Campolongo Maggiore (VE) Pec:",
+        "region": "Veneto",
+        "country": null,
+        "regions": [
+          "Veneto"
+        ],
+        "locations": [
+          "Via Antonio Meucci, 21 Campolongo Maggiore (VE) Pec:"
+        ],
+        "contacts": [
+          {
+            "type": "phone",
+            "value": "+390497852206",
+            "url": "https://www.adviva.it/",
+            "checked_at": "2026-10-14T16:26:34.894355+00:00",
+            "basis": "Contatto pubblico",
+            "role": "Referente non specificato"
+          },
+          {
+            "type": "form",
+            "value": "https://www.adviva.it/contatti/",
+            "url": "https://www.adviva.it/contatti/",
+            "checked_at": "2026-10-14T16:26:38.304000+00:00",
+            "basis": "Modulo aziendale pubblico, non inviato",
+            "role": "Referente non specificato"
+          }
+        ],
+        "identity_contacts": [],
+        "sector": "Retail / commercio · inferito",
+        "description": "Creiamo E-commerce e Siti Web che ambiscono al successo per visibilità, vendite e conversioni. Siamo specializzati su PrestaShop e WordPress.",
+        "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+        "group": "agencies",
+        "identity_status": "verified",
+        "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+        "source_url": "https://www.adviva.it/"
+      },
+      "collaboration": {
+        "quote": "Instauriamo collaborazioni continuative con partner esterni e freelance in questi ambiti:\nSviluppo WordPress Frontend e Backend\nSviluppo PrestaShop Frontend e Backend\nSystem Administration\nTi eri già candidato e ti vuoi ricandidare o candidare per alte posizioni?\nAggiorna i tuoi dati e poi scrivici per ricandidarti o per candidarti per altre posizioni che specificherai nell’oggetto\nConsulta l’Informativa sul trattamento dei dati personali dei candidati.",
+        "role": null,
+        "contract_quote": null,
+        "url": "https://www.adviva.it/job/",
+        "checked_at": "2026-10-14T16:22:47.639046+00:00",
+        "published_at": null,
+        "scope": "Da concordare",
+        "budget": null
+      }
+    },
+    {
+      "url": "https://www.jampaa.it/lavora-con-noi/",
+      "state": "needs_review",
+      "reason": "Richiesta datata: prima del contatto serve confermare che la collaborazione sia ancora aperta.",
+      "identity": {
+        "name": "Jampaa",
+        "website": "https://www.jampaa.it/",
+        "legal_id": "IT05077240280",
+        "location": null,
+        "region": null,
+        "country": null,
+        "regions": [
+          "Lombardia",
+          "Veneto"
+        ],
+        "locations": [
+          "Via Germania, 3 – 35010 Vigonza (PD)",
+          "Via Marconi, 6 – 31040 Chiarano (TV) MILANO",
+          "Via Giovanni Pezzotti, 8 – 20141 – Milano (MI) Agenzia Digital Marketing: Specializzati nella progettazione e sviluppo di siti web professionali per il turismo, in grado di garantire la migliore user experience con un approccio Data-Driven e un team qualificato e certificato.",
+          "Via Marconi, 6 – 31040 Chiarano (TV)",
+          "Via Giancarlo Sismondi, 50 – 20133 Milano (MI)"
+        ],
+        "contacts": [
+          {
+            "type": "phone",
+            "value": "+390492970335",
+            "url": "https://www.jampaa.it/",
+            "checked_at": "2026-10-14T16:26:39.153308+00:00",
+            "basis": "Contatto pubblico",
+            "role": "Referente non specificato"
+          },
+          {
+            "type": "email",
+            "value": "info@jampaa.it",
+            "url": "https://www.jampaa.it/",
+            "checked_at": "2026-10-14T16:26:39.153308+00:00",
+            "basis": "Pubblicato sul sito; non implica consenso",
+            "role": "Referente non specificato"
+          }
+        ],
+        "identity_contacts": [],
+        "sector": "Agenzia / servizi digitali",
+        "description": "Dal Web Design al Web Marketing, Jampaa si impegna a trovare le migliori soluzioni, analizzando le opportunità e creando progetti su misura.",
+        "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+        "group": "agencies",
+        "identity_status": "verified",
+        "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+        "source_url": "https://www.jampaa.it/"
+      },
+      "collaboration": null
+    }
+  ]
+}

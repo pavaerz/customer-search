@@ -1,0 +1,756 @@
+{
+  "started_at": "2026-10-13T21:50:16.630745+00:00",
+  "scope": "Piccolo campione diagnostico B2B Veneto. Identità/attività non equivalgono a opportunità. Nessun invio o nuovo contatto nel CRM reale.",
+  "provider": "SearXNG",
+  "paid_requests": 0,
+  "queries": [
+    {
+      "query": "impiantistica industriale Veneto azienda contatti -agenzia -software -lavoro",
+      "urls": [
+        "https://imp-ind.com/contatti.html",
+        "https://www.impiantisticarizzetto.it/it/index.php",
+        "https://www.mailtogo.it/regioni-italia/Database-aziende-Veneto/Lista-aziende-Impiantistica-Veneto/",
+        "https://terzultimafermata.blog/2023/02/28/rigetto-ammissione-al-patrocinio-a-spese-dello-stato-fac-simile-opposizione-aggiornata-alla-riforma-del-processo-civile-cartabia-di-riccardo-radi/",
+        "https://www.impiantisticarizzetto.it/it/azienda.php",
+        "https://www.onix.srl/servizi/impiantistica/industriale/",
+        "https://www.ordineavvocatinovara.it/wp-content/uploads/2022/03/Opposizione-ex-artt.-702-bis-cpc-99-170-DPR-115-2002-TUSG-15-DLVO-150-2011.pdf",
+        "https://www.vecton.it/",
+        "https://www.informazione-aziende.it/azienda_impiantistica-industriale-srl-b7945",
+        "https://www.laleggepertutti.it/102561_gratuito-patrocinio-opposizione-da-notificare-al-ministero-giustizia",
+        "https://www.camerapenalefirenze.it/modelli-di-ricorso-avverso-provvedimento-di-rigetto-in-tema-di-gratuito-patrocinio/",
+        "https://lnx.paolonesta.it/formulario-di-atti-e-modulistica/formulario-modulistica-varia/gratuito-patrocinio-forma-dell-impugnazione-del-provvedimento-di-revoca.html",
+        "https://www.studiocataldi.it/articoli/47400-opposizione-al-gratuito-patrocinio-si-applica-il-rito-penale.asp",
+        "https://www.avvocatogratis.com/2019/10/ricorso-revoca-gratuito-patrocinio/",
+        "http://www.camerapenalefirenze.it/wp-content/uploads/2021/03/Modello-ricorso-avverso-liquidazione.pdf"
+      ],
+      "new_urls": 15
+    },
+    {
+      "query": "ingegneria industriale Veneto azienda contatti -agenzia -software -lavoro",
+      "urls": [
+        "https://www.andreabedonstudio.it/",
+        "https://it.wikipedia.org/wiki/Ingegneria",
+        "https://www.bpm-eng.it/",
+        "https://www.dii.unipd.it/contatti/",
+        "https://magazine.alphatest.it/quanti-tipi-ingegneria-esistono/",
+        "https://www.dfgingegneria.com/",
+        "https://www.iquadroci.com/",
+        "https://www.unirc.it/ingegneria",
+        "http://www.industrialprojects.it/",
+        "https://www.azero.veneto.it/rubrica-telefonica",
+        "https://www.unical.it/didattica/offerta-formativa/esami-di-stato/ingegnere/",
+        "https://www.laureaonlineingegneria.it/tipi-di-ingegneria/",
+        "https://www.unicusano.it/blog/didattica/corsi/tipi-di-ingegneria/",
+        "https://it.wikipedia.org/wiki/Ingegnere",
+        "https://www.treccani.it/enciclopedia/ingegneria/",
+        "https://www.treccani.it/vocabolario/ingegneria/",
+        "https://corsi.unical.it/lt-lmcu/ingegneria-informatica/"
+      ],
+      "new_urls": 17
+    },
+    {
+      "query": "lavorazioni meccaniche Veneto azienda contatti -agenzia -software -lavoro",
+      "urls": [
+        "https://www.italmeccanicasrl.com/",
+        "https://elearner.it/lavorazioni/",
+        "https://www.meccanicanetwork.it/regione/veneto",
+        "https://www.torniturarigal.com/",
+        "https://www.treccani.it/vocabolario/lavorazione/",
+        "https://www.stox.it/lavorazioni/lavorazioni-meccaniche/",
+        "https://www.mcmlavorazionimeccaniche.com/",
+        "https://www.treccani.it/enciclopedia/lavorazione/",
+        "https://www.meccanicanetwork.it/",
+        "https://www.stox.it/azienda/",
+        "https://www.cylex-italia.it/terranuova-bracciolini/brilli-lavorazione-metalli-11223738.html",
+        "https://calibropro.com/lavorazioni-meccaniche/",
+        "https://www.fabbro-urgente.it/fabbri/AR/fabbro-a-terranuova-bracciolini.htm",
+        "https://dizionari.corriere.it/dizionario_italiano/L/lavorazione.shtml",
+        "https://aziendeinweb.it/lavorazioni-meccaniche/",
+        "https://firmania.it/terranuova-bracciolini/tecnomec-srl-3500541"
+      ],
+      "new_urls": 16
+    },
+    {
+      "query": "site:imp-ind.com novità nuovi servizi prodotti",
+      "urls": [],
+      "new_urls": 0
+    },
+    {
+      "query": "site:italmeccanicasrl.com novità nuovi servizi prodotti",
+      "urls": [
+        "https://italmeccanicasrl.com/index.html"
+      ],
+      "new_urls": 1
+    }
+  ],
+  "companies": [
+    {
+      "url": "https://imp-ind.com/contatti.html",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "identity": {
+        "name": "Impiantistica Industriale S.r.l.",
+        "website": "https://imp-ind.com/",
+        "legal_id": "IT04695980278",
+        "region": "Veneto",
+        "identity_status": "verified"
+      },
+      "target_quote": "Marghera, Venezia — esperienza dal 1980\nSaldatura industriale\ne prefabbricazione di tubazioni\nCostruiti su oltre 40 anni di esperienza nel metalmeccanico industriale.\nAcciai a carbonio, inox e legati. Normative ASME e EN. Certificati ISO 9001, 3834, 45001.\nI Nostri Servizi\nRichie",
+      "limits": [],
+      "pages": [
+        "https://imp-ind.com/",
+        "https://imp-ind.com/contatti.html",
+        "https://imp-ind.com/chi-siamo",
+        "https://imp-ind.com/contatti"
+      ]
+    },
+    {
+      "url": "https://www.andreabedonstudio.it/",
+      "state": "rejected",
+      "reason": "Fornitore di servizi digitali o consulenza: non è un committente per questa ricerca.",
+      "company_ready": false,
+      "identity": {
+        "name": "Consulenze e perizie per l'industria che innova",
+        "website": "https://www.andreabedonstudio.it/",
+        "legal_id": null,
+        "region": null,
+        "identity_status": "unknown"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": [
+        "https://www.andreabedonstudio.it/",
+        "https://www.andreabedonstudio.it/"
+      ]
+    },
+    {
+      "url": "https://www.italmeccanicasrl.com/",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "identity": {
+        "name": "ITALMECCANICA Lavorazioni meccaniche medio grandi",
+        "website": "https://www.italmeccanicasrl.com/",
+        "legal_id": "IT03190280275",
+        "region": "Veneto",
+        "identity_status": "verified"
+      },
+      "target_quote": "LAVORAZIONI MECCANICHE\nGRANDI E MEDIE DIMENSIONI\nLAVORAZIONI DI PRECISIONE\nCARPENTERIE SU COMMESSA\nPRODUZIONE\nCHIAVI IN MANO\nLAVORAZIONI MECCANICHE\nSTAMPI E PORTASTAMPI\nITALMECCANICA\nLAVORAZIONI MECCANICHE DI GRANDI E MEDI",
+      "limits": [],
+      "pages": [
+        "https://www.italmeccanicasrl.com/",
+        "https://www.italmeccanicasrl.com/chi-siamo.html",
+        "https://www.italmeccanicasrl.com/contatti.php"
+      ]
+    },
+    {
+      "url": "https://www.impiantisticarizzetto.it/it/index.php",
+      "state": "needs_review",
+      "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+      "company_ready": false,
+      "identity": {
+        "name": "impiantisticarizzetto.it",
+        "website": "https://www.impiantisticarizzetto.it/",
+        "legal_id": "IT04593570262",
+        "region": "Veneto",
+        "identity_status": "unknown"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": [
+        "https://www.impiantisticarizzetto.it/it/index.php",
+        "https://www.impiantisticarizzetto.it/it/index.php",
+        "https://www.impiantisticarizzetto.it/it/azienda.php",
+        "https://www.impiantisticarizzetto.it/it/contatti.php"
+      ]
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Ingegneria",
+      "state": "needs_review",
+      "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+      "company_ready": false,
+      "identity": {
+        "name": "Wikipedia, l'enciclopedia libera",
+        "website": "https://it.wikipedia.org/",
+        "legal_id": null,
+        "region": null,
+        "identity_status": "unknown"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": [
+        "https://it.wikipedia.org/wiki/Pagina_principale",
+        "https://it.wikipedia.org/wiki/Ingegneria",
+        "https://it.wikipedia.org/wiki/Wikipedia:Contatti",
+        "https://it.wikipedia.org/wiki/Azienda"
+      ]
+    },
+    {
+      "url": "https://elearner.it/lavorazioni/",
+      "state": "needs_review",
+      "reason": "Guida o catalogo di strumenti: descrive come fare, non un bisogno specifico del committente.",
+      "company_ready": false,
+      "identity": {
+        "name": "Lavorazioni: guida completa alle Lavorazioni moderne e tradizionali",
+        "website": "https://elearner.it/",
+        "legal_id": null,
+        "region": null,
+        "identity_status": "unknown"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": []
+    },
+    {
+      "url": "https://www.mailtogo.it/regioni-italia/Database-aziende-Veneto/Lista-aziende-Impiantistica-Veneto/",
+      "state": "needs_review",
+      "reason": "Fonte con aziende da identificare; non è un cliente né una prova di bisogno.",
+      "company_ready": false,
+      "identity": {
+        "name": "Mailtogo",
+        "website": "https://www.mailtogo.it/",
+        "legal_id": "IT10351260012",
+        "region": null,
+        "identity_status": "verified"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": []
+    },
+    {
+      "url": "https://www.bpm-eng.it/",
+      "state": "needs_review",
+      "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+      "company_ready": true,
+      "identity": {
+        "name": "BPM",
+        "website": "https://www.bpm-eng.it/",
+        "legal_id": "IT04002490276",
+        "region": "Veneto",
+        "identity_status": "verified"
+      },
+      "target_quote": "a, nel cuore del polo industriale veneto votato al saper fare, dall’incontro tra la progettazione d’impianti in ambito elettrico-meccanico, per il piping e carpenteria e la manutenzione industriale.\nIl nostro team\nLe tue idee, il nostro\nknow-how.\nPrendiamo ogni progetto come una scommessa da vincere, partec",
+      "limits": [],
+      "pages": [
+        "https://www.bpm-eng.it/",
+        "https://www.bpm-eng.it/chi-siamo/",
+        "https://www.bpm-eng.it/contatti/"
+      ]
+    },
+    {
+      "url": "https://www.meccanicanetwork.it/regione/veneto",
+      "state": "rejected",
+      "reason": "Fornitore di servizi digitali o consulenza: non è un committente per questa ricerca.",
+      "company_ready": false,
+      "identity": {
+        "name": "Meccanica Network",
+        "website": "https://www.meccanicanetwork.it/",
+        "legal_id": null,
+        "region": null,
+        "identity_status": "unknown"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": [
+        "https://www.meccanicanetwork.it/",
+        "https://www.meccanicanetwork.it/regione/veneto",
+        "https://www.meccanicanetwork.it/contatti",
+        "https://www.meccanicanetwork.it/per-le-aziende"
+      ]
+    },
+    {
+      "url": "https://terzultimafermata.blog/2023/02/28/rigetto-ammissione-al-patrocinio-a-spese-dello-stato-fac-simile-opposizione-aggiornata-alla-riforma-del-processo-civile-cartabia-di-riccardo-radi/",
+      "state": "needs_review",
+      "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+      "company_ready": false,
+      "identity": {
+        "name": "TERZULTIMA FERMATA",
+        "website": "https://terzultimafermata.blog/",
+        "legal_id": null,
+        "region": null,
+        "identity_status": "unknown"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": [
+        "https://terzultimafermata.blog/",
+        "https://terzultimafermata.blog/2023/02/28/rigetto-ammissione-al-patrocinio-a-spese-dello-stato-fac-simile-opposizione-aggiornata-alla-riforma-del-processo-civile-cartabia-di-riccardo-radi/",
+        "https://terzultimafermata.blog/gli-autori/",
+        "https://terzultimafermata.blog/contatti/"
+      ]
+    },
+    {
+      "url": "https://www.dii.unipd.it/contatti/",
+      "state": "needs_review",
+      "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+      "company_ready": false,
+      "identity": {
+        "name": "dii.unipd.it",
+        "website": "https://www.dii.unipd.it/",
+        "legal_id": null,
+        "region": "Veneto",
+        "identity_status": "unknown"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": [
+        "https://www.dii.unipd.it/",
+        "https://www.dii.unipd.it/contatti/",
+        "https://www.dii.unipd.it/contatti/",
+        "https://www.dii.unipd.it/contatti/"
+      ]
+    },
+    {
+      "url": "https://www.torniturarigal.com/",
+      "state": "needs_review",
+      "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+      "company_ready": false,
+      "identity": {
+        "name": "TORNITURA RI.GAL. SRL",
+        "website": "https://www.torniturarigal.com/",
+        "legal_id": "IT03331570287",
+        "region": null,
+        "identity_status": "verified"
+      },
+      "target_quote": null,
+      "limits": [],
+      "pages": [
+        "https://www.torniturarigal.com/",
+        "https://www.torniturarigal.com/lavorazioni-meccaniche-di-precisione-veneto/",
+        "https://www.torniturarigal.com/contatti/"
+      ]
+    }
+  ],
+  "investigations": [
+    {
+      "url": "https://imp-ind.com/servizi",
+      "state": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "excerpts": [
+        "teriali certificati, taglio, adattamento, assemblaggio e saldatura.\nLa prefabbricazione in officina garantisce qualità superiore rispetto al lavoro in cantiere, riducendo i tempi di installazione e i costi complessivi.\nPrefabbricazione da isometrici e P&ID\nMateriali certificati con MTR (Material Test Report)\nAcciai: A106 Gr.B, ASTM A312 (304/316/321), P11/P22\nSchedule da SCH 10 a S",
+        "diniamo le attività di montaggio meccanico, installazione di tubazioni, supporti e componentistica, garantendo il rispetto dei disegni di progetto e delle normative vigenti.\nOperiamo in ambienti industriali complessi, con esperienza in impianti petrolchimici, siderurgici e del settore energia. Forniamo supporto tecnico nelle fasi di pre-commissioning e commissioning.\nMontaggio tuba",
+        "tor\nPre-commissioning e commissioning support\nControlli e Collaudi\nLa qualità del prodotto finito è garantita da un sistema di controllo rigoroso in ogni fase della produzione. Eseguiamo o coordiniamo tutti i controlli non distruttivi (NDT) richiesti dalle normative e dai clienti.\nAl termine della lavorazione rilasciamo documentazione completa: certificati di conformità materiali,"
+      ]
+    },
+    {
+      "url": "https://imp-ind.com/progetti",
+      "state": "rejected",
+      "reason": "La pagina originale non documenta un segnale pertinente alle strategie commerciali.",
+      "excerpts": []
+    },
+    {
+      "url": "https://www.italmeccanicasrl.com/servizi.html",
+      "state": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "excerpts": [
+        "tto.\nIl nostro staff, affidabile e professionale, unito ad un parco macchine di alto livello, è una garanzia di qualità dei servizi. Tutte le fasi di lavorazione, a cominciare dalla programmazione, sono sottoposte a controlli severi e si basano sulla flessibilità, così da soddisfare ogni esigenza della nostra clientela.\nSERVIZI DI LAVORAZIONE STAMPI\nPORTASTAMPI E STAMPI\nEseguiamo l"
+      ]
+    },
+    {
+      "url": "https://italmeccanicasrl.com/index.html",
+      "state": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "excerpts": [
+        "tà di operare in totale sinergia con la clientela: solo in questo modo è possibile dare vita ad una collaborazione che si possa rivelare solida e prolungata nel tempo, oltre che proficua per entrambe le parti.\nChi ha bisogno di affidarsi ad un’azienda che si occupi di lavorazioni meccaniche di precisione in Veneto può rivolgersi a Italmeccanica: avrà così la certezza di vedere soddisfatte t"
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "url": "https://imp-ind.com/servizi",
+      "identity": {
+        "name": "Impiantistica Industriale S.r.l.",
+        "website": "https://imp-ind.com/",
+        "legal_id": "IT04695980278",
+        "location": "Via dell'Idrogeno, 7, 30175, Marghera, VE, IT",
+        "region": "Veneto",
+        "country": "IT",
+        "contacts": [
+          {
+            "type": "phone",
+            "value": "+39041931984",
+            "url": "https://imp-ind.com/",
+            "checked_at": "2026-10-13T21:50:23.563931+00:00",
+            "basis": "Contatto pubblico",
+            "role": "Referente non specificato"
+          },
+          {
+            "type": "email",
+            "value": "info@imp-ind.com",
+            "url": "https://imp-ind.com/",
+            "checked_at": "2026-10-13T21:50:23.563931+00:00",
+            "basis": "Pubblicato sul sito; non implica consenso",
+            "role": "Referente non specificato"
+          },
+          {
+            "type": "form",
+            "value": "https://imp-ind.com/contatti",
+            "url": "https://imp-ind.com/contatti",
+            "checked_at": "2026-10-13T21:50:24.828199+00:00",
+            "basis": "Modulo aziendale pubblico, non inviato",
+            "role": "Referente non specificato"
+          }
+        ],
+        "identity_contacts": [],
+        "sector": "Industria / manifattura · inferito",
+        "description": "Specialisti in saldatura industriale e prefabbricazione di tubazioni a Marghera, Venezia. Certificati ISO 9001, 3834, 45001. Acciai carbonio, inox e legati. Normative ASME e EN.",
+        "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+        "group": "direct",
+        "identity_status": "verified",
+        "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+        "source_url": "https://imp-ind.com/"
+      },
+      "assessment": {
+        "version": 4,
+        "status": "rejected",
+        "score": 20,
+        "score_detail": {
+          "Qualità delle prove": {
+            "points": 0,
+            "evidence_ids": [
+              "015419a5753bbd3c31da",
+              "81dee4b55f9519252244",
+              "e99e7284d79fede1d8aa",
+              "cc38f7620c5486585632",
+              "4fb18fbf09ffaa36854f",
+              "da40bfe7801a32b771be"
+            ],
+            "reason": "Elemento non documentato o controllo non superato."
+          },
+          "Concretezza del bisogno": {
+            "points": 0,
+            "evidence_ids": [
+              "015419a5753bbd3c31da",
+              "81dee4b55f9519252244",
+              "e99e7284d79fede1d8aa",
+              "cc38f7620c5486585632",
+              "4fb18fbf09ffaa36854f",
+              "da40bfe7801a32b771be"
+            ],
+            "reason": "Elemento non documentato o controllo non superato."
+          },
+          "Tempestività": {
+            "points": 10,
+            "evidence_ids": [
+              "015419a5753bbd3c31da",
+              "81dee4b55f9519252244",
+              "e99e7284d79fede1d8aa",
+              "cc38f7620c5486585632",
+              "4fb18fbf09ffaa36854f",
+              "da40bfe7801a32b771be"
+            ],
+            "reason": "Evento datato entro 180 giorni o processo attuale osservato."
+          },
+          "Progetto completo": {
+            "points": 0,
+            "evidence_ids": [
+              "015419a5753bbd3c31da",
+              "81dee4b55f9519252244",
+              "e99e7284d79fede1d8aa",
+              "cc38f7620c5486585632",
+              "4fb18fbf09ffaa36854f",
+              "da40bfe7801a32b771be"
+            ],
+            "reason": "Elemento non documentato o controllo non superato."
+          },
+          "Compatibilità economica documentata": {
+            "points": 0,
+            "evidence_ids": [
+              "015419a5753bbd3c31da",
+              "81dee4b55f9519252244",
+              "e99e7284d79fede1d8aa",
+              "cc38f7620c5486585632",
+              "4fb18fbf09ffaa36854f",
+              "da40bfe7801a32b771be"
+            ],
+            "reason": "Budget non dichiarato: zero punti."
+          },
+          "Fattibilità tecnica": {
+            "points": 0,
+            "evidence_ids": [
+              "015419a5753bbd3c31da",
+              "81dee4b55f9519252244",
+              "e99e7284d79fede1d8aa",
+              "cc38f7620c5486585632",
+              "4fb18fbf09ffaa36854f",
+              "da40bfe7801a32b771be"
+            ],
+            "reason": "Elemento non documentato o controllo non superato."
+          },
+          "Accessibilità del contatto": {
+            "points": 5,
+            "evidence_ids": [
+              "015419a5753bbd3c31da",
+              "81dee4b55f9519252244",
+              "e99e7284d79fede1d8aa",
+              "cc38f7620c5486585632",
+              "4fb18fbf09ffaa36854f",
+              "da40bfe7801a32b771be"
+            ],
+            "reason": "Canale aziendale trovato in una pagina ufficiale."
+          },
+          "Riscontri indipendenti": {
+            "points": 5,
+            "evidence_ids": [
+              "015419a5753bbd3c31da",
+              "81dee4b55f9519252244",
+              "e99e7284d79fede1d8aa",
+              "cc38f7620c5486585632",
+              "4fb18fbf09ffaa36854f",
+              "da40bfe7801a32b771be"
+            ],
+            "reason": "Almeno due fatti distinti; ripubblicazioni escluse."
+          }
+        },
+        "gates": [
+          {
+            "key": "identity",
+            "label": "Identità verificata",
+            "passed": true,
+            "reason": "Identità e dominio collegati a dati ufficiali, non al nome nel motore.",
+            "evidence_ids": []
+          },
+          {
+            "key": "geography",
+            "label": "Area geografica",
+            "passed": true,
+            "reason": "Sede aziendale in un’area ammessa; località sconosciuta non supera il controllo.",
+            "evidence_ids": []
+          },
+          {
+            "key": "target",
+            "label": "Target compatibile",
+            "passed": false,
+            "reason": "Il progetto individuato non appartiene alle categorie selezionate.",
+            "evidence_ids": []
+          },
+          {
+            "key": "timing",
+            "label": "Attualità",
+            "passed": true,
+            "reason": "Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+            "evidence_ids": [
+              "015419a5753bbd3c31da",
+              "81dee4b55f9519252244",
+              "e99e7284d79fede1d8aa",
+              "cc38f7620c5486585632"
+            ]
+          },
+          {
+            "key": "need",
+            "label": "Bisogno concreto",
+            "passed": false,
+            "reason": "Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+            "evidence_ids": [
+              "015419a5753bbd3c31da",
+              "81dee4b55f9519252244",
+              "e99e7284d79fede1d8aa",
+              "cc38f7620c5486585632",
+              "4fb18fbf09ffaa36854f",
+              "da40bfe7801a32b771be"
+            ]
+          },
+          {
+            "key": "scope",
+            "label": "Progetto completo",
+            "passed": false,
+            "reason": "Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+            "evidence_ids": []
+          },
+          {
+            "key": "economics",
+            "label": "Compatibilità economica",
+            "passed": true,
+            "reason": "Budget non dichiarato: nessuna capacità di spesa attribuita.",
+            "evidence_ids": []
+          },
+          {
+            "key": "counterevidence",
+            "label": "Soluzioni e controprove",
+            "passed": false,
+            "reason": "Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+            "evidence_ids": []
+          },
+          {
+            "key": "feasibility",
+            "label": "Fattibilità",
+            "passed": false,
+            "reason": "Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+            "evidence_ids": []
+          },
+          {
+            "key": "contact",
+            "label": "Canale aziendale",
+            "passed": true,
+            "reason": "Contatto pubblico attribuito all’azienda; non equivale a consenso.",
+            "evidence_ids": []
+          },
+          {
+            "key": "validation",
+            "label": "Verifica approfondita",
+            "passed": false,
+            "reason": "Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+            "evidence_ids": []
+          }
+        ],
+        "project": "none",
+        "minimum_offer": null,
+        "budget": null,
+        "budget_evidence_id": null,
+        "confidence": "insufficiente",
+        "why": "Nessun bisogno digitale documentato",
+        "why_now": "Il sito web non presenta problemi tecnici o processi che richiedano un'intervento digitale.",
+        "proposal": "Nessun progetto digitale completo giustificato dalle prove disponibili.",
+        "next_action": "Completare i controlli mancanti prima di proporre un progetto.",
+        "objections": [
+          "Il sito web non presenta problemi tecnici o processi che richiedano un'intervento digitale.",
+          "Il team esegue processi di alta qualità, ma non emerge la necessità di un sito web o di un sistema di e-commerce.",
+          "Il sito web non evidenzia problemi di navigabilità, velocità o usabilità che richiederebbero un'intervento digitale."
+        ],
+        "missing": [
+          "Target compatibile: Il progetto individuato non appartiene alle categorie selezionate.",
+          "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+          "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+          "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+          "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+          "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+          "Citazione non riscontrata nell’estratto presentato al modello",
+          "Citazione non riscontrata nell’estratto presentato al modello",
+          "Sito web attuale e sue funzionalità",
+          "Esigenze di e-commerce o di vendita online",
+          "Integrazioni con sistemi di gestione aziendale",
+          "Strategie di marketing digitale e presenza online"
+        ],
+        "reasons": [
+          "Target compatibile: Il progetto individuato non appartiene alle categorie selezionate.",
+          "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+          "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+          "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+          "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+          "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+          "Citazione non riscontrata nell’estratto presentato al modello",
+          "Citazione non riscontrata nell’estratto presentato al modello",
+          "Sito web attuale e sue funzionalità",
+          "Esigenze di e-commerce o di vendita online",
+          "Integrazioni con sistemi di gestione aziendale",
+          "Strategie di marketing digitale e presenza online"
+        ],
+        "signals": [
+          {
+            "id": "015419a5753bbd3c31da",
+            "document_id": "ac98054090bceb55d1fae12d671dbb45873f492361998ec94acf4b48ff21e02a",
+            "kind": "process",
+            "quote": "Lavoriamo su acciai al carbonio, inossidabili e legati, in qualsiasi posizione e in tutte le classi di spessore.",
+            "url": "https://imp-ind.com/servizi",
+            "published_at": null,
+            "checked_at": "2026-10-13T21:51:12.008000+00:00",
+            "official": true,
+            "event_key": "807c248f6b19a1f9270946e1a78024fbec6a3e24ba55cc877d257fe3645c90b9"
+          },
+          {
+            "id": "81dee4b55f9519252244",
+            "document_id": "ac98054090bceb55d1fae12d671dbb45873f492361998ec94acf4b48ff21e02a",
+            "kind": "process",
+            "quote": "La prefabbricazione in officina garantisce qualità superiore rispetto al lavoro in cantiere, riducendo i tempi di installazione e i costi complessivi.",
+            "url": "https://imp-ind.com/servizi",
+            "published_at": null,
+            "checked_at": "2026-10-13T21:51:12.008000+00:00",
+            "official": true,
+            "event_key": "9073c96249d8a45d8d4050f9d473d1846a74140a190f2af585103a1c651b0ccf"
+          },
+          {
+            "id": "e99e7284d79fede1d8aa",
+            "document_id": "ac98054090bceb55d1fae12d671dbb45873f492361998ec94acf4b48ff21e02a",
+            "kind": "process",
+            "quote": "Eseguiamo o coordiniamo tutti i controlli non distruttivi (NDT) richiesti dalle normative e dai clienti.",
+            "url": "https://imp-ind.com/servizi",
+            "published_at": null,
+            "checked_at": "2026-10-13T21:51:12.008000+00:00",
+            "official": true,
+            "event_key": "31362982e63a09eae990f4387aa78c98b05728636c36a8b11176a07aadcdc3db"
+          },
+          {
+            "id": "cc38f7620c5486585632",
+            "document_id": "ac98054090bceb55d1fae12d671dbb45873f492361998ec94acf4b48ff21e02a",
+            "kind": "process",
+            "quote": "Il nostro team si occupa dell'installazione in cantiere degli impianti prefabbricati. Coordiniamo le attività di montaggio meccanico, installazione di tubazioni, supporti e componentistica, garantendo il rispetto dei disegni di progetto e delle normative vigenti.",
+            "url": "https://imp-ind.com/servizi",
+            "published_at": null,
+            "checked_at": "2026-10-13T21:51:12.008000+00:00",
+            "official": true,
+            "event_key": "51f949928b54c0336fcc415cea96774537b8154238f5887ad42af71079c8d090"
+          },
+          {
+            "id": "4fb18fbf09ffaa36854f",
+            "document_id": "90aab68a7003c66fd0ee1eec83b119507ccaf4bbfd1b74e667faf29c0a6d2e93",
+            "kind": "request",
+            "quote": "Lavoriamo insieme\nHai un progetto di saldatura o prefabbricazione? Contattaci per discutere le tue esigenze.",
+            "url": "https://imp-ind.com/chi-siamo",
+            "published_at": null,
+            "checked_at": "2026-10-13T21:50:24.190528+00:00",
+            "official": true,
+            "event_key": "66b94e5551ed8ebc4f6ed4953be5df9e275800b0b437e2107c42833b982350a6"
+          },
+          {
+            "id": "da40bfe7801a32b771be",
+            "document_id": "90aab68a7003c66fd0ee1eec83b119507ccaf4bbfd1b74e667faf29c0a6d2e93",
+            "kind": "counterevidence",
+            "quote": "I Nostri Valori\nPrecisione\nOgni giunzione, ogni cordone di saldatura è eseguito rispettando le tolleranze di progetto. La qualità non è negoziabile.",
+            "url": "https://imp-ind.com/chi-siamo",
+            "published_at": null,
+            "checked_at": "2026-10-13T21:50:24.190528+00:00",
+            "official": true,
+            "event_key": "9e9ed05f6ac13fdd964d965d519bbcdba87120307e7e2a963757d7680d3749cb"
+          }
+        ],
+        "document_ids": [
+          "f12be0813c50d545849596ccbba157d4ed36017178a040d2b76af4cb102320d1",
+          "ac98054090bceb55d1fae12d671dbb45873f492361998ec94acf4b48ff21e02a",
+          "68f2e10b6007a5900eefe0ac33cce8e450c5d2708d3d0d7e0affa70226e5521e",
+          "90aab68a7003c66fd0ee1eec83b119507ccaf4bbfd1b74e667faf29c0a6d2e93",
+          "2d58295f247340478c20b2c334ac1b59afb8b666f5e835e7fa2a359f00317bfa",
+          "59d4ed3ce7fa46a7090238b3daa229cbc1bbb0087e04bc01e9707af79db708d0"
+        ],
+        "strategy": "change",
+        "validated_at": "2026-10-13T21:52:56.022667+00:00",
+        "validation": {
+          "status": "insufficient",
+          "support_ids": [
+            "015419a5753bbd3c31da",
+            "81dee4b55f9519252244",
+            "e99e7284d79fede1d8aa",
+            "cc38f7620c5486585632",
+            "4fb18fbf09ffaa36854f",
+            "da40bfe7801a32b771be"
+          ],
+          "existing_solution_checked": true,
+          "small_fix_sufficient": true,
+          "reason": "Il sito web non presenta problemi tecnici o processi che richiedano un'intervento digitale. Le esigenze di e-commerce o di vendita online non sono evidenziate e il team esegue processi di alta qualità, ma non emerge la necessità di un sito web o di un sistema di e-commerce."
+        },
+        "analysis_status": "incomplete",
+        "coverage": {
+          "identity": true,
+          "offer": true,
+          "contact": true,
+          "solutions": true
+        },
+        "solution_urls": [],
+        "correlated": true,
+        "origin_strategy": "change"
+      },
+      "publisher": false
+    }
+  ],
+  "limits": [
+    "Campione piccolo, settori e stadi diversi dai confronti Serper precedenti: nessuna comparazione di precisione o efficacia commerciale. Non misura risposte o clienti."
+  ],
+  "finished_at": "2026-10-13T21:52:56.056099+00:00",
+  "seconds": 159.4,
+  "summary": {
+    "pages_sampled": 12,
+    "businesses_identified": 3,
+    "deep_checks": 1,
+    "qualified": 0
+  }
+}

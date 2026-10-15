@@ -1,0 +1,13 @@
+{
+  "source": "data/cycle50/2026-10-14T10-15-46.907683+00-00",
+  "url": "https://sipasolutions.com/it/chi-siamo",
+  "before": "Not excluded; deep review started",
+  "after": {
+    "code": "legal_spa",
+    "reason": "S.p.A. esclusa dal target: Il SISTEMA DI GESTIONE PER LA QUALITÀ di SIPA S.P.A. è certificato ISO 9001.",
+    "url": "https://sipasolutions.com/it/chi-siamo",
+    "checked_at": "2026-10-14T10:20:48.597092+00:00"
+  },
+  "search_requests": 0,
+  "web_requests": 0
+}

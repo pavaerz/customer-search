@@ -1,0 +1,8 @@
+............................................................................................................................................................................................................................................................................................................./opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py:252: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106a857b0>
+  _iterencode = c_make_encoder(
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+............................................
+----------------------------------------------------------------------
+Ran 345 tests in 10.332s
+
+OK

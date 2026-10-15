@@ -1,0 +1,74 @@
+{
+  "before": {
+    "state": "rejected",
+    "project": "none",
+    "budget": null,
+    "editorial_characters": 156,
+    "passages": 0,
+    "editorial_signals": [
+      {
+        "id": "6e8bc0f0ce92a9c46492",
+        "document_id": "97ffbd6933c2aa56dad40ef1b28c468917641acd24b19decf3372a00c9a9db54",
+        "kind": "business",
+        "quote": "Da Moncalvo alle grandi opere d’Italia: i tubi che parlano piemontese. “Plastica LG” festeggia 40 anni con un’espansione delle produzioni “made in Moncalvo”",
+        "url": "https://piemonte.italiaeconomy.it/plastica-lg-i-tubi-che-parlano-monferrino/",
+        "published_at": "2026-10-05",
+        "checked_at": "2026-10-14T09:33:06.151641+00:00",
+        "official": false,
+        "event_key": "92bdeae9165629751893875659f7eedac11c937ef15e1b56366c64c3f1feaeba",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      }
+    ]
+  },
+  "after": {
+    "state": "rejected",
+    "project": "none",
+    "budget": null,
+    "editorial_characters": 1797,
+    "passages": 4,
+    "editorial_signals": [
+      {
+        "id": "6e8bc0f0ce92a9c46492",
+        "document_id": "97ffbd6933c2aa56dad40ef1b28c468917641acd24b19decf3372a00c9a9db54",
+        "kind": "business",
+        "quote": "Da Moncalvo alle grandi opere d’Italia: i tubi che parlano piemontese. “Plastica LG” festeggia 40 anni con un’espansione delle produzioni “made in Moncalvo”",
+        "url": "https://piemonte.italiaeconomy.it/plastica-lg-i-tubi-che-parlano-monferrino/",
+        "published_at": "2026-10-05",
+        "checked_at": "2026-10-14T09:33:06.151641+00:00",
+        "official": false,
+        "event_key": "92bdeae9165629751893875659f7eedac11c937ef15e1b56366c64c3f1feaeba",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "1bb29b3c78482f8daa21",
+        "document_id": "97ffbd6933c2aa56dad40ef1b28c468917641acd24b19decf3372a00c9a9db54",
+        "kind": "business",
+        "quote": "Non sono solo le opere autostradali, ferroviarie e portuali ad essere destinatarie delle forniture “made in Moncalvo” ma anche gli interventi in ambito di geotecnica relativi ad esempio ai pozzi artesiani lavorando a stretto contatto con trivellatori e aziende di distribuzione di materiali di trivellazione. “Un prodotto made in Italy certificato anche dall’Istituto Italiano dei Plastici”, assicura Oscar Pitossi, giunto nel 2021 dalla provincia di Brescia all’amministrazione della Plastica LG",
+        "url": "https://piemonte.italiaeconomy.it/plastica-lg-i-tubi-che-parlano-monferrino/",
+        "published_at": "2026-10-05",
+        "checked_at": "2026-10-14T09:33:06.151641+00:00",
+        "official": false,
+        "event_key": "01cf6cee83cbb6e6cad60378dbaf8417f9bc09b76e63c589a51453941f150ba9",
+        "model_kind": "process",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      },
+      {
+        "id": "df4f5eeef624db0dbb06",
+        "document_id": "97ffbd6933c2aa56dad40ef1b28c468917641acd24b19decf3372a00c9a9db54",
+        "kind": "business",
+        "quote": "E tornando alla sostenibilità, c’è un’attestazione che garantisce l’attenzione al pianeta: si tratta della certificazione “Plastica Seconda Vita” (PSV) che dimostra la conformità ai Criteri Ambientali Minimi (CAM) negli appalti pubblici e ha permesso a Plastica LG di poter fornire i tubi di propria creazione agli interventi previsti recentemente dal PNRR grazie alla rigenerazione assicurata nella misura minima del 20% del prodotto.",
+        "url": "https://piemonte.italiaeconomy.it/plastica-lg-i-tubi-che-parlano-monferrino/",
+        "published_at": "2026-10-05",
+        "checked_at": "2026-10-14T09:33:06.151641+00:00",
+        "official": false,
+        "event_key": "d72bb82ff3330c00ad03c123177e64dcb77e1ae76ea0f95fec31f5d98688b571",
+        "model_kind": "gap",
+        "classification_note": "La citazione descrive l’attività, ma non documenta il bisogno digitale attribuito dal modello."
+      }
+    ]
+  },
+  "serper_requests": 0,
+  "independent_precision": null
+}

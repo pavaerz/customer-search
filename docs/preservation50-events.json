@@ -1,0 +1,204 @@
+{
+  "checked_at": "2026-10-14T08:28:07.465273+00:00",
+  "backup": "data/backups/20261014T081046277239Z/sales.sqlite3",
+  "tables": {
+    "config": {
+      "rows_before": 18,
+      "rows_after": 18,
+      "unchanged": true
+    },
+    "companies": {
+      "rows_before": 105,
+      "rows_after": 105,
+      "unchanged": true
+    },
+    "sources": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "evidence": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "prospects": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "prospect_evidence": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "interactions": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "runs": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "run_items": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "legacy_records": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "audits": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "target_exclusions": {
+      "rows_before": 5,
+      "rows_after": 5,
+      "unchanged": true
+    },
+    "dismissed_companies": {
+      "rows_before": 1,
+      "rows_after": 1,
+      "unchanged": true
+    },
+    "contact_groups": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "research_schema": {
+      "rows_before": 6,
+      "rows_after": 6,
+      "unchanged": true
+    },
+    "campaigns": {
+      "rows_before": 3,
+      "rows_after": 3,
+      "unchanged": true
+    },
+    "research_tasks": {
+      "rows_before": 929,
+      "rows_after": 929,
+      "unchanged": true
+    },
+    "research_entities": {
+      "rows_before": 37,
+      "rows_after": 37,
+      "unchanged": true
+    },
+    "research_domains": {
+      "rows_before": 27,
+      "rows_after": 27,
+      "unchanged": true
+    },
+    "research_documents": {
+      "rows_before": 196,
+      "rows_after": 196,
+      "unchanged": true
+    },
+    "research_assessments": {
+      "rows_before": 64,
+      "rows_after": 64,
+      "unchanged": true
+    },
+    "research_signals": {
+      "rows_before": 374,
+      "rows_after": 374,
+      "unchanged": true
+    },
+    "research_events": {
+      "rows_before": 432,
+      "rows_after": 432,
+      "unchanged": true
+    },
+    "research_reviews": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "research_sources": {
+      "rows_before": 49,
+      "rows_after": 49,
+      "unchanged": true
+    },
+    "research_query_memory": {
+      "rows_before": 44,
+      "rows_after": 44,
+      "unchanged": true
+    },
+    "research_visited": {
+      "rows_before": 201,
+      "rows_after": 201,
+      "unchanged": true
+    },
+    "workspace_resets": {
+      "rows_before": 1,
+      "rows_after": 1,
+      "unchanged": true
+    },
+    "workspace_archive": {
+      "rows_before": 1600,
+      "rows_after": 1600,
+      "unchanged": true
+    },
+    "commercial_outcomes": {
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    "grant_profile": {
+      "rows_before": 1,
+      "rows_after": 1,
+      "unchanged": true
+    },
+    "grant_runs": {
+      "rows_before": 2,
+      "rows_after": 2,
+      "unchanged": true
+    },
+    "grant_tasks": {
+      "rows_before": 39,
+      "rows_after": 39,
+      "unchanged": true
+    },
+    "grant_items": {
+      "rows_before": 15,
+      "rows_after": 15,
+      "unchanged": true
+    },
+    "search_trials": {
+      "rows_before": 3,
+      "rows_after": 3,
+      "unchanged": true
+    },
+    "search_trial_requests": {
+      "rows_before": 18,
+      "rows_after": 18,
+      "unchanged": true
+    },
+    "search_trial_reviews": {
+      "rows_before": 40,
+      "rows_after": 40,
+      "unchanged": true
+    }
+  },
+  "excluded_tables": [
+    "api_usage",
+    "cache",
+    "discovery_frontier",
+    "discovery_candidates",
+    "discovery_transitions",
+    "discovery_provider_health",
+    "discovery_operations",
+    "discovery_branches",
+    "discovery_queries",
+    "discovery_source_profiles"
+  ],
+  "integrity": "ok"
+}

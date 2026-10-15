@@ -1,0 +1,23 @@
+{
+  "scope": "Development regressions, not held-out quality estimate",
+  "rows": [
+    {
+      "url": "https://ellemeccanica.it/contatti/",
+      "before_publisher": true,
+      "after_publisher": false,
+      "reviewed_role": "company"
+    },
+    {
+      "url": "https://lavorazionelamierasrl.it/contattare-azienda-lavorazione-lamiera/",
+      "before_publisher": true,
+      "after_publisher": false,
+      "reviewed_role": "company"
+    },
+    {
+      "url": "http://www.dallalba.it/it/azienda/chi-siamo",
+      "before_publisher": false,
+      "after_publisher": false,
+      "reviewed_role": "company"
+    }
+  ]
+}

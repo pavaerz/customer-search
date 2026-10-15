@@ -1,0 +1,143 @@
+{
+  "started_at": "2026-10-14T09:55:19.170055+00:00",
+  "finished_at": "2026-10-14T10:04:14.530264+00:00",
+  "campaign_status": "paused",
+  "requests": 6,
+  "tasks": {
+    "done": 33,
+    "failed": 1,
+    "pending": 48
+  },
+  "candidate_states": {
+    "needs_review": 8,
+    "promising": 1,
+    "rejected": 5,
+    "unverifiable": 3
+  },
+  "assessments": [
+    {
+      "id": 66,
+      "status": "rejected",
+      "project": "none",
+      "name": "Automazione Veneto srl",
+      "website": "https://www.automazioneveneto.com/",
+      "identity_status": "verified"
+    },
+    {
+      "id": 67,
+      "status": "rejected",
+      "project": "none",
+      "name": "Automazione Veneto srl",
+      "website": "https://www.automazioneveneto.com/",
+      "identity_status": "verified"
+    },
+    {
+      "id": 65,
+      "status": "rejected",
+      "project": "none",
+      "name": "Automazione Veneto srl",
+      "website": "https://www.automazioneveneto.com/",
+      "identity_status": "verified"
+    }
+  ],
+  "directory": "data/cycle50/2026-10-14T09-55-19.001780+00-00",
+  "candidates": [
+    {
+      "url": "https://connect.factorysoftware.com/it/roadshow-2026",
+      "state": "unverifiable",
+      "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme."
+    },
+    {
+      "url": "https://italmopa.com/elenco-aziende-associate-veneto/",
+      "state": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore."
+    },
+    {
+      "url": "https://sipasolutions.com/it/chi-siamo",
+      "state": "promising",
+      "reason": "Verifica sospesa; verrà ripresa dal lavoro salvato."
+    },
+    {
+      "url": "https://www.automazioneveneto.com/automazione-veneto-sostiene-il-talento-e-le-emozioni-dei-piu-giovani/",
+      "state": "rejected",
+      "reason": "Nelle fonti esaminate non emerge una ragione documentata per proporre un progetto digitale completo."
+    },
+    {
+      "url": "https://www.automazioneveneto.com/notizie/",
+      "state": "rejected",
+      "reason": "Nelle fonti esaminate non emerge una ragione documentata per proporre un progetto digitale completo."
+    },
+    {
+      "url": "https://www.automazioneveneto.com/tp/impianti-civili-e-direzionali/",
+      "state": "rejected",
+      "reason": "Intervento limitato, non emerge un progetto completo."
+    },
+    {
+      "url": "https://www.automazioneveneto.com/tp/servizi-impianti-industriali/",
+      "state": "rejected",
+      "reason": "Intervento limitato, non emerge un progetto completo."
+    },
+    {
+      "url": "https://www.automazioneveneto.com/tp/servizi-per-impianti-produzione-energia/",
+      "state": "rejected",
+      "reason": "Nelle fonti esaminate non emerge una ragione documentata per proporre un progetto digitale completo."
+    },
+    {
+      "url": "https://www.confindustria.vicenza.it/aziende/alimentari-e-bevande",
+      "state": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore."
+    },
+    {
+      "url": "https://www.corriere.it/economia/aziende/26_maggio_21/stellantis-60-miliardi-nel-nuovo-piano-al-2030-con-60-nuovi-modelli-per-far-salire-la-produzione-48897b61-f527-42fc-81bc-69e82a3c0xlk.shtml",
+      "state": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente."
+    },
+    {
+      "url": "https://www.industriaitaliana.it/ferroli-brand-aquaopti-gamma-scaldacqua-pompa-di-calore/",
+      "state": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente."
+    },
+    {
+      "url": "https://www.meccanicanetwork.it/regione/lombardia",
+      "state": "needs_review",
+      "reason": "Profili o nomi aziendali pubblici da risolvere."
+    },
+    {
+      "url": "https://www.meccanicanetwork.it/regione/piemonte",
+      "state": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore."
+    },
+    {
+      "url": "https://www.meccanicanetwork.it/regione/toscana",
+      "state": "needs_review",
+      "reason": "Fonte con aziende da identificare; non è un cliente né una prova di bisogno."
+    },
+    {
+      "url": "https://www.meccanicanetwork.it/regione/veneto",
+      "state": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore."
+    },
+    {
+      "url": "https://www.rainews.it/articoli/2026/05/stellantis-nuovo-piano-fastlane-60-mld-investimenti-e-60-nuovi-modelli-al-2030-7916f36b-f902-48ee-8b18-09c2088842f9.html",
+      "state": "unverifiable",
+      "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme."
+    },
+    {
+      "url": "https://www.tespi.net/riviste_alimentando/GroceryeConsumiGiugnoLuglio2026.pdf",
+      "state": "unverifiable",
+      "reason": "Connessione interrotta dal sito www.tespi.net. Il controllo viene saltato; la ricerca continua sulle altre fonti. Nuovo accesso consentito tra 15 minuti."
+    }
+  ],
+  "errors": [
+    {
+      "message": "Connessione interrotta dal sito www.tespi.net. Il controllo viene saltato; la ricerca continua sulle altre fonti. Nuovo accesso consentito tra 15 minuti.",
+      "url": "https://www.tespi.net/riviste_alimentando/GroceryeConsumiGiugnoLuglio2026.pdf"
+    }
+  ],
+  "stop": {
+    "at": "2026-10-14T10:04:14.020188+00:00",
+    "reason": "Prova fermata dopo aver riprodotto verifiche ripetute della stessa azienda e selezione errata di articoli storici. Campione operativo incompleto; conservato per confronto."
+  },
+  "qualified": 0,
+  "independent_precision": null
+}

@@ -1,0 +1,32 @@
+{
+  "split": "development",
+  "search_requests": 4,
+  "queries": 4,
+  "original_pages_read": 3,
+  "reviewer": "Assistant; not independent human review",
+  "reviews": [
+    {
+      "url": "https://www.remor.it/2026/09/24/remor-essentials-nuova-divisione-prodotti-standard/",
+      "decision": "Investigate company; do not qualify from announcement",
+      "basis": "Original dated announcement of Remor Essentials; original page links dedicated offer and catalogue. Official identity verified separately.",
+      "qualified": false
+    },
+    {
+      "url": "https://it.fashionnetwork.com/news/Cuoieria-fiorentina-approda-nel-mercato-dach,1808101.html",
+      "decision": "Do not use as timely target signal",
+      "basis": "Article published 17 February 2026, over 180 days before pilot; article also describes existing online shop and established distribution.",
+      "qualified": false
+    },
+    {
+      "url": "https://www.cuneo24.it/2026/09/nasce-piemonteis-il-nuovo-marchio-collettivo-dellagroalimentare-piemontese-361203/",
+      "decision": "Public regional programme, not an identified buyer",
+      "basis": "PiemonteIS is a collective regional brand. Article does not identify a private company commissioning a digital project.",
+      "qualified": false
+    }
+  ],
+  "limits": [
+    "Not a random or independently held-out sample.",
+    "Original source verification is not evidence of buying intent.",
+    "No commercial outreach or conversion measurement."
+  ]
+}

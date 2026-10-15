@@ -1,0 +1,30 @@
+use_default_settings:
+  engines:
+    keep_only: [google, bing, duckduckgo, brave, yahoo]
+server:
+  secret_key: "7fc3cda8415f42876c4dafb0eb3dd3d86b6ea1cb067a39afb29b2267dfb42808"
+  limiter: false
+  image_proxy: false
+search:
+  formats: [html, json]
+  default_lang: it-IT
+outgoing:
+  request_timeout: 8.0
+
+# Engine availability is verified by live probes, not assumed from configuration.
+# Do not rotate identities or bypass their restrictions.
+engines:
+  - name: bing
+    disabled: true
+    enable_http3: false
+    enable_http2: true
+  - name: google
+    disabled: true
+  - name: duckduckgo
+    disabled: true
+  - name: brave
+    disabled: true
+
+  - name: yahoo
+    disabled: false
+    weight: 2

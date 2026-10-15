@@ -1,0 +1,419 @@
+{
+  "source_run": 3,
+  "method": "Regressione offline delle pagine originali conservate; nessuna query, modello o nuova qualifica. Il report originale non è modificato.",
+  "before_promising": 12,
+  "after_promising": 12,
+  "results": [
+    {
+      "url": "https://acitreviso.tuttogare.it/gare/index.php",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Richiesta di progetto non riscontrata nel testo originale.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": "Viale Giuseppe Verdi 23/C Treviso (TV) Tel. 0422.56070 Email: direttore@acitreviso.it - PEC: acitreviso@pec.acitreviso.it"
+    },
+    {
+      "url": "https://www.rainews.it/tgr/veneto/video/2026/02/crescono-in-veneto-le-produzioni-agricole-destinate-agli-integratori-alimentari-d04805ab-d0ac-4210-a2d0-766e477812d4.html",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.confindustriavenest.it/stampa-e-media/comunicati-stampa/veneto-est-export-resiliente-per-ora-a-dazi-e-germania-nel-2026-trend-in-crescita-per-4-aziende-su-dieci",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.incentivimpresa.it/bandi-ecommerce-2026-vendere-online-pmi/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Sede legale Via Patturelli, 14, 81100 Caserta Sede operativa"
+    },
+    {
+      "url": "https://essebie.com/b2b/",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "Indirizzo pubblico fuori dalle regioni selezionate.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via dell'Ora del Garda, 61 Spini di Gardolo SETTORE A - 38121 (TN) T. 0461 390512"
+    },
+    {
+      "url": "https://www.davidearmari.it/web-designer/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Possibile partner: complementarità da verificare, nessun progetto commissionato dimostrato.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDecreto.aspx?id=579434",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.newchem.it/",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "S.p.A. esclusa dal target: Newchem Food S.p.A. - Via M.F. Quintiliano, 30 - 20138 Milano | tel: +39 02.5061987 - fax: +39 02.55400495 - email: Questo indirizzo email è protetto dagli spambots. È necessario abilitare JavaScript per vederlo.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Newchem Food S.p.A. - Via M.F. Quintiliano, 30 - 20138 Milano | tel: +39 02.5061987 - fax: +39 02.55400495 - email: Questo indirizzo email è protetto dagli spambots. È necessario abilitare JavaScript per vederlo. Cap.Soc: € 50.000 i.v. - Num.REA: 1416108 - P.IVA: 10895860152 Seguici su:"
+    },
+    {
+      "url": "https://www.venetoinnovazione.it/interior-design-veneto-incontra-i-mercati-internazionali-al-via-oggi-a-padova-i-match-making-b2b/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via delle Industrie 19/D 30175 Venezia - Marghera Tel: (+39) 041 3967211"
+    },
+    {
+      "url": "https://www.regione.veneto.it/article-detail?articleGroupId=2591459&articleId=2673295",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://italianstylediffusion.com/content/138-preventivi-aziende-b2b?srsltid=AU7gw4UdESpwJtbChk7abgDCz-gzWqPsf3DWm6BghbtbW97KjNlGeGhM",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "P.iva 05685260282 | N° REA PD-484960 | Via Antonio Vivaldi, 50, 35040 Casale di Scodosia (PD), Italia | email: info@italianstylediffusion.com | Tel: +39 392-8115841 Impostazioni cookie"
+    },
+    {
+      "url": "https://www.perazza.it/realizzazione-siti-web-treviso/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Possibile partner: complementarità da verificare, nessun progetto commissionato dimostrato.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "http://www.infogare.it/gare.asp",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.innoveneto.org/2024/02/packaging_all_estero/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.buildnews.it/articolo/export-legno-arredo-primo-semestre-2026-in-calo-nel-nord-est-lombardia-a-39-veneto-a-44-e-friuli-venezia-giulia-a-54",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.progesa.com/it-it/bandi-0.aspx?pp=1241",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "S.p.A. esclusa dal target: Copyright © 2017-2026 Progesa Spa Sede di Milano: Via Giotto, 3 20145 Milano Sede di Mantova: Viale Italia, 21 46100 Mantova Tel +39 0376 384898",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": "Copyright © 2017-2026 Progesa Spa Sede di Milano: Via Giotto, 3 20145 Milano Sede di Mantova: Viale Italia, 21 46100 Mantova Tel +39 0376 384898 PEC: progesasrl@pcert.it Capitale Sociale: € 270.000,00 i.v."
+    },
+    {
+      "url": "https://www.doozy.it/sviluppo-piattaforme-b2b/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via Niccolò Tommaseo 68, 35131, Padova, Veneto, IT"
+    },
+    {
+      "url": "https://freelancedev.it/sviluppo-ecommerce",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.aopd.veneto.it/news,11608",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Sede Legale: Via Giustiniani, 2 - 35128 Padova Cod. ISTAT 050901 - Cod. Fisc. 00349040287"
+    },
+    {
+      "url": "https://www.menu.it/",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "Indirizzo pubblico fuori dalle regioni selezionate.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Sede legale/Stabilimento: Via Statale 12 n.102 41036 Medolla (MO)"
+    },
+    {
+      "url": "https://bandosubito.it/pro/grants/programma-degli-interventi-di-promozione-economica-e-internazionalizzazione-anno-2026-regione-del-veneto/",
+      "before": "unverifiable",
+      "after": "unverifiable",
+      "reason": "Fonte HTML non conservata: nessuna nuova richiesta eseguita"
+    },
+    {
+      "url": "https://www.venetoinnovazione.it/bando-per-linternazionalizzazione-delle-pmi/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via delle Industrie 19/D 30175 Venezia - Marghera Tel: (+39) 041 3967211"
+    },
+    {
+      "url": "https://enricovenezia.it/ecommerce-b2b-su-misura/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": null
+    },
+    {
+      "url": "https://www.miosiriccardo.it/e-commerce-shopify",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://bandi.regione.veneto.it/Public/Index",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://cnaveneto.it/ccrl-alimentare-veneto/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via della Pila 3B/1 30175 Venezia, località Marghera Italia"
+    },
+    {
+      "url": "https://www.deloitte.com/it/it/services/consulting/research/furniture-market-monitor-2026.html",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.bandiora.it/blog/incentivi-pmi-veneto-settembre-2026-bandi-provincia",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via Ventotto Luglio n°187, 47893, Borgo Maggiore, SM"
+    },
+    {
+      "url": "https://freelancedev.it/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Possibile partner: complementarità da verificare, nessun progetto commissionato dimostrato.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://modulieditabili.com/fac-simile-lettera-di-richiesta-offerta-commerciale",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.confindustriavenest.it/le-imprese/i-gruppi-merceologici/gruppo-alimentari",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://it.m.wikipedia.org/wiki/Azienda",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.pmi.org/",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "La pagina originale non documenta un segnale pertinente alle strategie commerciali.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.ponx.video/profile/emanuela-botto/",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "La pagina originale non documenta un segnale pertinente alle strategie commerciali.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.agenziaentrate.gov.it/portale/home",
+      "before": "unverifiable",
+      "after": "unverifiable",
+      "reason": "Fonte HTML non conservata: nessuna nuova richiesta eseguita"
+    },
+    {
+      "url": "https://www.treccani.it/vocabolario/richiesta_(Sinonimi-e-Contrari)/",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "La pagina originale non documenta un segnale pertinente alle strategie commerciali.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://www.flessya.com/2026/08/25/mercato-mobile-2026/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": null
+    },
+    {
+      "url": "https://sumbit.it/e-commerce-pmi-strategie-vendita/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": null
+    },
+    {
+      "url": "https://www.orderfactory.it/ecommerce-b2b-per-rivenditori-e-distributori/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Elenco di rivenditori: indirizzi e strumenti descritti non dimostrano un bisogno del produttore.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via Europa 6 – 40061 Minerbio (BO) P. Iva 02864441205 Assistenza: +39 0543 1992069"
+    },
+    {
+      "url": "https://www.freelanceboard.it/",
+      "before": "unverifiable",
+      "after": "unverifiable",
+      "reason": "Fonte HTML non conservata: nessuna nuova richiesta eseguita"
+    },
+    {
+      "url": "https://confcommercioveneto.it/bando-distretti-del-commercio-2026/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Richiesta di progetto non riscontrata nel testo originale.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    },
+    {
+      "url": "https://www.studiocampesato.it/ccrl-veneto-2026-alimentazione-panificazione/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "publisher": false,
+      "identity_status": "unknown",
+      "location": "Via Q. Rossi, 24 - Lonigo (VI) lavoro@rc-studio.it 0444 437272"
+    },
+    {
+      "url": "https://economia-aziendale.com/bandi-pnrr-veneto/",
+      "before": "promising",
+      "after": "promising",
+      "reason": "Segnale riscontrato nella pagina originale. Da verificare bisogno specifico, dimensione del progetto e alternative già disponibili.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via Grosseto 6 - MI MILANO - 20156 P.IVA. 14314110967 info@economia-aziendale.com Contatti Emergenza"
+    },
+    {
+      "url": "https://www.orderfactory.it/catalogo-prodotti-ecommerce-b2b/",
+      "before": "rejected",
+      "after": "rejected",
+      "reason": "Indirizzo pubblico fuori dalle regioni selezionate.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "Via Europa 6 – 40061 Minerbio (BO) P. Iva 02864441205 Assistenza: +39 0543 1992069"
+    },
+    {
+      "url": "https://www.agenziaentrate.gov.it/portale/area-riservata/",
+      "before": "unverifiable",
+      "after": "unverifiable",
+      "reason": "Fonte HTML non conservata: nessuna nuova richiesta eseguita"
+    },
+    {
+      "url": "https://horienta.it/news/richiesta-di-offerta/",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Guida o catalogo di strumenti: descrive come fare, non un bisogno specifico del committente.",
+      "publisher": false,
+      "identity_status": "verified",
+      "location": "© 2026 Se.Ri.Gest. s.r.l.s. · Via delle Rose 43, 00040 Rocca di Papa (RM) · P.IVA IT12775371003 Horienta è un servizio privato: non è un sito della pubblica amministrazione né di ANAC. I dati sulle gare vengono dalle pubblicazioni delle stazioni appaltanti; quelli sui contratti dagli open data ANAC."
+    },
+    {
+      "url": "http://www.regione.veneto.it/web/guest/la-regione",
+      "before": "needs_review",
+      "after": "needs_review",
+      "reason": "Indice editoriale: esplorare gli articoli pertinenti, non proporre l’editore.",
+      "publisher": true,
+      "identity_status": null,
+      "location": null
+    }
+  ]
+}

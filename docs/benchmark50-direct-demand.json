@@ -1,0 +1,333 @@
+{
+  "checked_at": "2026-10-14T16:38:40.792249+00:00",
+  "split": "evaluation",
+  "sample_size": 6,
+  "sample_sha256": "9a9bc6cb22f21c3281b3184e0a249b1049f94323b218c80ae977f6689ffbf817",
+  "baseline": "data/backups/20261014T161155549946Z/project.zip",
+  "baseline_sha256": "54830610cefa20e64208e03e61d9619bf0fa764d1702d093cd6256b383c07d7b",
+  "api_requests": 2,
+  "scope": "Original-page triage and contact routes, not full project qualification or sales conversion. Same frozen pages for both versions.",
+  "selection": "First 3 distinct permissible domains per query, excluding all previous development/evaluation domains before acquisition. Errors retained.",
+  "versions": {
+    "before": [
+      {
+        "url": "https://www.e-leads.it/fullstack-web-developer/",
+        "error": "Original page absent from frozen capture: https://www.e-leads.it/fullstack-web-developer/"
+      },
+      {
+        "url": "https://synextya.com/lavora-con-noi/",
+        "state": "needs_review",
+        "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+        "identity": {
+          "name": "synextya.com",
+          "website": "https://synextya.com/",
+          "legal_id": null,
+          "location": null,
+          "region": null,
+          "country": null,
+          "contacts": [],
+          "identity_contacts": [],
+          "sector": null,
+          "description": "",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "unknown",
+          "basis": "Identità o collegamento al dominio non sufficientemente dimostrati.",
+          "source_url": "https://synextya.com/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://aulab.it/offerte-di-lavoro",
+        "state": "rejected",
+        "reason": "Fornitore di servizi digitali: non è un committente per questa ricerca.",
+        "identity": {
+          "name": "Aulab",
+          "website": "https://aulab.it/",
+          "legal_id": "IT07647440721",
+          "location": null,
+          "region": null,
+          "country": null,
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "800128626",
+              "url": "https://aulab.it/",
+              "checked_at": "2026-10-14T16:31:41.355559+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": null,
+          "description": "Scopri i nostri corsi pratici e certificati: Sviluppo Web, Intelligenza Artificiale, UX/UI, Data Analysis, Digital Marketing, Project Manage",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "agencies",
+          "identity_status": "unknown",
+          "basis": "Identità o collegamento al dominio non sufficientemente dimostrati.",
+          "source_url": "https://aulab.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.devpunks.com/blog/sviluppatore-freelance-guida-aziende",
+        "state": "rejected",
+        "reason": "Guida o catalogo di strumenti: descrive come fare, non un bisogno specifico del committente.",
+        "identity": {
+          "name": "Devpunks",
+          "website": "https://www.devpunks.com/",
+          "legal_id": "IT12778070016",
+          "location": "Via Vincenzo Lancia 31/20, 10141, Torino, TO, IT",
+          "region": "Piemonte",
+          "country": "IT",
+          "contacts": [],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Come scegliere uno sviluppatore freelance senza brutte sorprese: costi, rischi, checklist di valutazione e il modello del collettivo Devpunks.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.devpunks.com/blog/sviluppatore-freelance-guida-aziende"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.developerway.it/head-hunter-it-per-aziende",
+        "state": "needs_review",
+        "reason": "Identità verificata, ma attività non riscontrata nel segmento selezionato.",
+        "identity": {
+          "name": "DeveloperWay S.R.L.",
+          "website": "https://www.developerway.it/",
+          "legal_id": "IT13065040969",
+          "location": "Via G. Compagnoni 1, 20100, Milano, MI, IT",
+          "region": "Lombardia",
+          "country": "IT",
+          "contacts": [],
+          "identity_contacts": [],
+          "sector": "Retail / commercio · inferito",
+          "description": "Entra nel network di 3000+ developer freelance italiani. Talent manager dedicato, progetti full remote con aziende europee, community e formazione. Iscrizione gratuita.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.developerway.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://pensieriecolori.it/blog/lavoro-web-developer/",
+        "state": "needs_review",
+        "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+        "identity": {
+          "name": "Pensieri e Colori",
+          "website": "https://pensieriecolori.it/",
+          "legal_id": null,
+          "location": null,
+          "region": null,
+          "country": null,
+          "contacts": [],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Il web developer è una delle figure professionali più richieste del mercato digitale. Ma cosa fa esattamente? Quali competenze servono? E come si inserisce questa figura in un contesto come quello di una cooperativa sociale e agenzia di comunicazione?\r\n\r\nScopri come in Pensieri e Colori, l’agenzia di comunicazione Onlus,",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "unknown",
+          "basis": "Identità o collegamento al dominio non sufficientemente dimostrati.",
+          "source_url": "https://pensieriecolori.it/blog/lavoro-web-developer/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      }
+    ],
+    "after": [
+      {
+        "url": "https://www.e-leads.it/fullstack-web-developer/",
+        "error": "Original page absent from frozen capture: https://www.e-leads.it/fullstack-web-developer/"
+      },
+      {
+        "url": "https://synextya.com/lavora-con-noi/",
+        "state": "needs_review",
+        "reason": "Impresa da identificare: nome, sito e sede non ancora verificati insieme.",
+        "identity": {
+          "name": "synextya.com",
+          "website": "https://synextya.com/",
+          "legal_id": null,
+          "location": null,
+          "region": null,
+          "country": null,
+          "regions": [],
+          "locations": [],
+          "contacts": [],
+          "identity_contacts": [],
+          "sector": null,
+          "description": "",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "unknown",
+          "basis": "Identità o collegamento al dominio non sufficientemente dimostrati.",
+          "source_url": "https://synextya.com/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://aulab.it/offerte-di-lavoro",
+        "state": "rejected",
+        "reason": "Fornitore di servizi digitali: non è un committente per questa ricerca.",
+        "identity": {
+          "name": "Aulab",
+          "website": "https://aulab.it/",
+          "legal_id": "IT07647440721",
+          "location": null,
+          "region": null,
+          "country": null,
+          "regions": [],
+          "locations": [],
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "800128626",
+              "url": "https://aulab.it/",
+              "checked_at": "2026-10-14T16:31:41.355559+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": null,
+          "description": "Scopri i nostri corsi pratici e certificati: Sviluppo Web, Intelligenza Artificiale, UX/UI, Data Analysis, Digital Marketing, Project Manage",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "agencies",
+          "identity_status": "unknown",
+          "basis": "Identità o collegamento al dominio non sufficientemente dimostrati.",
+          "source_url": "https://aulab.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.devpunks.com/blog/sviluppatore-freelance-guida-aziende",
+        "state": "rejected",
+        "reason": "Guida o catalogo di strumenti: descrive come fare, non un bisogno specifico del committente.",
+        "identity": {
+          "name": "Devpunks",
+          "website": "https://www.devpunks.com/",
+          "legal_id": "IT12778070016",
+          "location": "Via Vincenzo Lancia 31/20, 10141, Torino, TO, IT",
+          "region": "Piemonte",
+          "country": "IT",
+          "regions": [
+            "Piemonte"
+          ],
+          "locations": [
+            "Via Vincenzo Lancia 31/20, 10141, Torino, TO, IT"
+          ],
+          "contacts": [],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Come scegliere uno sviluppatore freelance senza brutte sorprese: costi, rischi, checklist di valutazione e il modello del collettivo Devpunks.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.devpunks.com/blog/sviluppatore-freelance-guida-aziende"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.developerway.it/head-hunter-it-per-aziende",
+        "state": "needs_review",
+        "reason": "Identità verificata, ma attività non riscontrata nel segmento selezionato.",
+        "identity": {
+          "name": "DeveloperWay S.R.L.",
+          "website": "https://www.developerway.it/",
+          "legal_id": "IT13065040969",
+          "location": "Via G. Compagnoni 1, 20100, Milano, MI, IT",
+          "region": "Lombardia",
+          "country": "IT",
+          "regions": [
+            "Lombardia"
+          ],
+          "locations": [
+            "Via G. Compagnoni 1, 20100, Milano, MI, IT"
+          ],
+          "contacts": [],
+          "identity_contacts": [],
+          "sector": "Retail / commercio · inferito",
+          "description": "Entra nel network di 3000+ developer freelance italiani. Talent manager dedicato, progetti full remote con aziende europee, community e formazione. Iscrizione gratuita.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.developerway.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://pensieriecolori.it/blog/lavoro-web-developer/",
+        "state": "needs_review",
+        "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+        "identity": {
+          "name": "Pensieri e Colori",
+          "website": "https://pensieriecolori.it/",
+          "legal_id": null,
+          "location": null,
+          "region": null,
+          "country": null,
+          "regions": [],
+          "locations": [],
+          "contacts": [],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Il web developer è una delle figure professionali più richieste del mercato digitale. Ma cosa fa esattamente? Quali competenze servono? E come si inserisce questa figura in un contesto come quello di una cooperativa sociale e agenzia di comunicazione?\r\n\r\nScopri come in Pensieri e Colori, l’agenzia di comunicazione Onlus,",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "unknown",
+          "basis": "Identità o collegamento al dominio non sufficientemente dimostrati.",
+          "source_url": "https://pensieriecolori.it/blog/lavoro-web-developer/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      }
+    ]
+  },
+  "metrics": {
+    "before": {
+      "examined": 6,
+      "identified": 2,
+      "promising": 0,
+      "documented_collaborations_with_contact": 0,
+      "unverifiable": 1,
+      "qualified": 0,
+      "model_calls": 0,
+      "replay_api_requests": 0,
+      "precision_at_10": null,
+      "precision_at_20": null
+    },
+    "after": {
+      "examined": 6,
+      "identified": 2,
+      "promising": 0,
+      "documented_collaborations_with_contact": 0,
+      "unverifiable": 1,
+      "qualified": 0,
+      "model_calls": 0,
+      "replay_api_requests": 0,
+      "precision_at_10": null,
+      "precision_at_20": null
+    }
+  },
+  "limits": [
+    "Small cohort, not proof of commercial efficacy.",
+    "No purchased budget inferred; original invitation can require availability confirmation.",
+    "Precision needs manual labels and adequate denominators; no score fabricated.",
+    "Baseline can request uncaptured pages; these remain explicit errors, never commercial rejections."
+  ]
+}

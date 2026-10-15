@@ -1,0 +1,490 @@
+{
+  "checked_at": "2026-10-14T16:58:59.746212+00:00",
+  "split": "unread company originals; broader allowed geography, not a controlled comparison with four-region pilot",
+  "sample_size": 3,
+  "sample_sha256": "3c3d6be814d9063bb6050c7374c9721a8eae4e5ea69b1bbdc8ccd95df448c74a",
+  "baseline": "data/backups/20261014T161155549946Z/project.zip",
+  "baseline_sha256": "54830610cefa20e64208e03e61d9619bf0fa764d1702d093cd6256b383c07d7b",
+  "api_requests": 0,
+  "project_override": "website",
+  "scope": "Original-page triage and contact routes, not full project qualification or sales conversion. Same frozen pages for both versions.",
+  "selection": "Selection rule not recorded in this capture; consult cohort metadata. Do not assume a random or representative sample.",
+  "versions": {
+    "before": [
+      {
+        "url": "https://www.adriasonline.it/lavora-con-noi/",
+        "state": "needs_review",
+        "reason": "Assunzione di personale, non una commessa. L’eventuale bisogno digitale richiede prove indipendenti.",
+        "identity": {
+          "name": "Adrias Online – Realizzazione siti e web marketing a Rimini",
+          "website": "https://www.adriasonline.it/",
+          "legal_id": null,
+          "location": "Viale Principe Amedeo, n. 7 - 47921 Rimini (Italia) - p. iva 037 68 200 408",
+          "region": "Emilia-Romagna",
+          "country": null,
+          "contacts": [
+            {
+              "type": "email",
+              "value": "info@adriasonline.it",
+              "url": "https://www.adriasonline.it/lavora-con-noi/",
+              "checked_at": "2026-10-14T16:52:03.019744+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "+39054156207",
+              "url": "https://www.adriasonline.it/lavora-con-noi/",
+              "checked_at": "2026-10-14T16:52:03.019744+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Ospitalità · inferito",
+          "description": "Il web è la tua passione e hai tanta voglia di metterti in gioco? Scopri tutte le posizioni aperte, forse c’è una scrivania che ti aspetta!",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.adriasonline.it/lavora-con-noi/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://business-click.it/lavora-con-noi",
+        "state": "needs_review",
+        "reason": "Possibile partner: complementarità da verificare, nessun progetto commissionato dimostrato.",
+        "identity": {
+          "name": "Business Click S.r.l.",
+          "website": "https://business-click.it/",
+          "legal_id": "IT06106240481",
+          "location": "V.le Mazzini 40, 50132, Firenze, Italia",
+          "region": "Toscana",
+          "country": "Italia",
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+390555356878",
+              "url": "https://business-click.it/lavora-con-noi",
+              "checked_at": "2026-10-14T16:52:13.425257+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "+390621129446",
+              "url": "https://business-click.it/lavora-con-noi",
+              "checked_at": "2026-10-14T16:52:13.425257+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Industria / manifattura · inferito",
+          "description": "Business Click cerca developer Laravel PHP junior e senior da remoto. Ambiente giovane, formazione aziendale, crescita professionale e flessibilità lavorativa.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "agencies",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://business-click.it/lavora-con-noi"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.innform.eu/lavoro",
+        "state": "rejected",
+        "reason": "Assunzione di personale, non una commessa. L’eventuale bisogno digitale richiede prove indipendenti.",
+        "identity": {
+          "name": "Innform S.r.l.",
+          "website": "https://www.innform.eu/",
+          "legal_id": null,
+          "location": "Via della Chimica, 87, 85100, Potenza, Basilicata, IT",
+          "region": null,
+          "country": "IT",
+          "contacts": [
+            {
+              "type": "email",
+              "value": "formazione@innform.eu",
+              "url": "https://www.innform.eu/lavoro",
+              "checked_at": "2026-10-14T16:52:18.464692+00:00",
+              "basis": "Indirizzo pubblicato nel testo del sito; non implica consenso",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": null,
+          "description": "Scopri le posizioni aperte in Innform e presso le nostre aziende partner. Stage, tirocini retribuiti, lavoro full-time e freelance in Basilicata e remoto.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.innform.eu/lavoro"
+        },
+        "collaboration": null,
+        "company_ready": false
+      }
+    ],
+    "after": [
+      {
+        "url": "https://www.adriasonline.it/lavora-con-noi/",
+        "state": "promising",
+        "reason": "Richiesta di collaborazione freelance riscontrata sul sito aziendale, con identità e canale di contatto verificati. Ambito e compenso da concordare.",
+        "identity": {
+          "name": "Adrias Online – Realizzazione siti e web marketing a Rimini",
+          "website": "https://www.adriasonline.it/",
+          "legal_id": null,
+          "location": "Viale Principe Amedeo, n. 7 - 47921 Rimini (Italia) - p. iva 037 68 200 408",
+          "region": "Emilia-Romagna",
+          "country": null,
+          "regions": [
+            "Emilia-Romagna"
+          ],
+          "locations": [
+            "Viale Principe Amedeo, n. 7 - 47921 Rimini (Italia) - p. iva 037 68 200 408"
+          ],
+          "contacts": [
+            {
+              "type": "email",
+              "value": "info@adriasonline.it",
+              "url": "https://www.adriasonline.it/",
+              "checked_at": "2026-10-14T16:52:05.594842+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "+39054156207",
+              "url": "https://www.adriasonline.it/",
+              "checked_at": "2026-10-14T16:52:05.594842+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "barbara@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "francesco@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "arianna@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "asia@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "camilla@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "donatella@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "fabio@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "giorgia@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "giulia@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "lia@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "massimo@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "paola@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "caterina@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "davide@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "lara@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "elfia@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "gioele@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "giona@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "giusy@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "otello@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "amministrazione@adriasonline.it",
+              "url": "https://www.adriasonline.it/chi-siamo/",
+              "checked_at": "2026-10-14T16:52:08.974425+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "form",
+              "value": "https://www.adriasonline.it/contattaci/",
+              "url": "https://www.adriasonline.it/contattaci/",
+              "checked_at": "2026-10-14T16:52:11.341039+00:00",
+              "basis": "Modulo aziendale pubblico, non inviato",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Ospitalità · inferito",
+          "description": "In Adrias Online troverai un team preparato e sempre pronto ad offrirti tutto il supporto necessario per raggiungere i tuoi obiettivi.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "agencies",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.adriasonline.it/"
+        },
+        "collaboration": {
+          "quote": "Cerchiamo un collaboratore freelance per ampliamento organico\nProfilo richiesto:\nConoscenza approfondita di HTML, CSS, Bootstrap, Javascript;\nConoscenza nell'uso di Jquery e framework React (quest'ultimo opzionale);\nConoscenza del CMS WordPress.\nConoscenza delle tematiche relative allo sviluppo di interfacce mobile e responsive.\nChiudi profilo\nCandidatura spontanea\nIl profilo che cerchiamo\nInvia il tuo CV\nNew",
+          "role": "Frontend Developer / Freelance",
+          "contract_quote": "Frontend Developer / Freelance",
+          "url": "https://www.adriasonline.it/lavora-con-noi/",
+          "checked_at": "2026-10-14T16:52:03.019744+00:00",
+          "published_at": null,
+          "page_published_at": null,
+          "scope": "Da concordare",
+          "budget": null
+        },
+        "company_ready": true
+      },
+      {
+        "url": "https://business-click.it/lavora-con-noi",
+        "state": "needs_review",
+        "reason": "Richiesta freelance documentata, ma non riscontrata la compatibilità con siti aziendali/WordPress/frontend selezionati.",
+        "identity": {
+          "name": "Business Click S.r.l.",
+          "website": "https://business-click.it/",
+          "legal_id": "IT06106240481",
+          "location": "V.le Mazzini 40, 50132, Firenze, Italia",
+          "region": "Toscana",
+          "country": "Italia",
+          "regions": [
+            "Toscana"
+          ],
+          "locations": [
+            "V.le Mazzini 40, 50132, Firenze, Italia"
+          ],
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+390555356878",
+              "url": "https://business-click.it/",
+              "checked_at": "2026-10-14T16:52:14.479365+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "phone",
+              "value": "+390621129446",
+              "url": "https://business-click.it/",
+              "checked_at": "2026-10-14T16:52:14.479365+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "form",
+              "value": "https://business-click.it/contattaci",
+              "url": "https://business-click.it/contattaci",
+              "checked_at": "2026-10-14T16:52:15.416300+00:00",
+              "basis": "Modulo aziendale pubblico, non inviato",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Agenzia / servizi digitali",
+          "description": "Business Click ⏚ Web Agency specializzata in e-Commerce, Marketplace Multi Vendor, Analisi, Sviluppo Software e Web Marketing. ✆ 055 535 6878 ☞ Scopri i nostri servizi Web 3.0.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "agencies",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://business-click.it/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      },
+      {
+        "url": "https://www.innform.eu/lavoro",
+        "state": "rejected",
+        "reason": "Località esclusa: Basilicata",
+        "identity": {
+          "name": "Innform S.r.l.",
+          "website": "https://www.innform.eu/",
+          "legal_id": null,
+          "location": "Via della Chimica, 87, 85100, Potenza, Basilicata, IT",
+          "region": null,
+          "country": "IT",
+          "regions": [],
+          "locations": [
+            "Via della Chimica, 87, 85100, Potenza, Basilicata, IT"
+          ],
+          "contacts": [
+            {
+              "type": "email",
+              "value": "formazione@innform.eu",
+              "url": "https://www.innform.eu/",
+              "checked_at": "2026-10-14T16:52:19.463457+00:00",
+              "basis": "Indirizzo pubblicato nel testo del sito; non implica consenso",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Industria / manifattura · inferito",
+          "description": "Innform, centro di formazione professionale in Basilicata accreditato dalla Regione: Master, corsi di qualifica, Programma GOL e corsi gratuiti a Potenza.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.innform.eu/"
+        },
+        "collaboration": null,
+        "company_ready": false
+      }
+    ]
+  },
+  "metrics": {
+    "before": {
+      "examined": 3,
+      "identified": 3,
+      "promising": 0,
+      "documented_collaborations_with_contact": 0,
+      "unverifiable": 0,
+      "qualified": 0,
+      "model_calls": 0,
+      "replay_api_requests": 0,
+      "precision_at_10": null,
+      "precision_at_20": null
+    },
+    "after": {
+      "examined": 3,
+      "identified": 3,
+      "promising": 1,
+      "documented_collaborations_with_contact": 1,
+      "unverifiable": 0,
+      "qualified": 0,
+      "model_calls": 0,
+      "replay_api_requests": 0,
+      "precision_at_10": null,
+      "precision_at_20": null
+    }
+  },
+  "limits": [
+    "Small cohort, not proof of commercial efficacy.",
+    "No purchased budget inferred; original invitation can require availability confirmation.",
+    "Precision needs manual labels and adequate denominators; no score fabricated.",
+    "Baseline can request uncaptured pages; these remain explicit errors, never commercial rejections."
+  ]
+}

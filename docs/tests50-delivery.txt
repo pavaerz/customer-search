@@ -1,0 +1,7 @@
+/Users/diegopavanello/Desktop/Siti Diego/customerSearch/sales/research_store.py:43: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x102df9c60>
+  c.execute('BEGIN IMMEDIATE')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+----------------------------------------------------------------------
+Ran 517 tests in 14.122s
+
+OK

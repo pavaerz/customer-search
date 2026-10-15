@@ -1,0 +1,670 @@
+{
+  "baseline_backup": "data/backups/20261014T113627182351Z",
+  "sample": "Pagine originali già raccolte: confronto di recupero link, non precisione commerciale. Tecnova è un caso di sviluppo.",
+  "serper_requests": 0,
+  "pages": 81,
+  "changes": [
+    {
+      "url": "https://www.tecnovavicenza.com/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/f09fbe0a319d8bd245909a0afc52b3285c182cfcc6af7961976050045b3581b7.json",
+      "sha256": "a8437dc5ed437134527a2cdb61ebeb9ea60c810e8b4313261948b3dfd9e5235c",
+      "identity_status": "verified",
+      "before": [],
+      "after": [
+        "https://combustoriabbattimentosolventi.wordpress.com/"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "url": "https://www.tecnoservice-it.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/01232dad465521c0ba33509e5509e4c640f65d4516022f8901bd303c2b29b41f.json",
+      "sha256": "eb8b1dc6fdee98bc166928be24491348c7c35f18521ef428014bd1f567df1056",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.gruppocaraglio.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/01ed18ec69f511433e839313b80be189e7c551a309e21b8b4c7547b0665f6e66.json",
+      "sha256": "630617851b69fc13edaf3d75f20c4b4b9a32b9da861fd890fcf5762d9e41e9c4",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "http://www.montecoitalia.it/impianti.asp",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/02179bfc9995ebdb15ed530e1aa1db574474562de88c2a29f44721aef8e75f60.json",
+      "sha256": "e4b70d167fb394abd99d536e2753f0b86a58e0d7d1e698befacf85b11d1a85e6",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://rdimpiantisrl.com/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/04819c733f7a9c24a09eabdcf5a42e6808e2006148b019c150a2b666d8f8e369.json",
+      "sha256": "bc8d258dd672be1cadbc39002221cee971160b9c0c177d5001cc76d995b88478",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecriam.com/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/0844050ba2919d1bcb486f1768fe5584de8a1eab3426b5bdd853e6df8591aab3.json",
+      "sha256": "3e05beb7881893237c3cfc02d1164fbea7eb14d22ab562b70c19054507cb2ad5",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.soimaimpianti.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/0b3019411ee083824f05443293670396d3fb21e6d08dc4cb1873da8f905e7402.json",
+      "sha256": "e5333bc099b0272ba060b31caebb1ead0e3d29f5c087e4de3c12ac21493085e8",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.bertolino.com/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/129c094afb9ae66f265463bd232b469a19670cdbd1ed4a17720fd768810f71f4.json",
+      "sha256": "80ba35cdaf83e84ae1505568eea00615b3381593e0377ffd000ef2d8a9308abc",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.systemimpiantisrl.it/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/148e93b387b7f7ce6976fd8a8fb686ad52083ee080d561dfb6e4530bde996a81.json",
+      "sha256": "bfd2ac64db74184ad0df2b06c20245d368191661a0fff697c47716e5cfb0fc08",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://rdimpiantisrl.com/azienda/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/1523c53c411e0f78fccb040e4e690c8424239c02a56d608ceabf7b34286b0bbe.json",
+      "sha256": "12960e0b882196d8652f28526e25f855308c78d1fbd20c926beb82be1fe09744",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.termozetaimpianti.it/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/166ef63aeca952b78e3d0bfedbf3effdfb4e1cb9f44f89274a12901707f6509a.json",
+      "sha256": "6ae7ae8c70161a8af2c58b41369ac72e30e0631b92b72fa56cc976ae19a7c713",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://radarsrl.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/18564e75476e33238e7e99a4b99255bec410e6d5465a1d3e092bbbe54068b4ee.json",
+      "sha256": "0e9af8fe0e42661e9ab604fbd21f15c602218f6b9e2018f5dd74662236cdd0e9",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://giemmeimpianti.com/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/1c1bd80b9f4b2a7981df10ef642f8d1629fd719769677800da75e58662b6fc90.json",
+      "sha256": "adb662c4de7c2b52e8eb56bf43826d971015e600e3225711ebd89fe0ca4adfb5",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecnovavicenza.com/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/1f2c54b9ba034e90a1e220076086074baf7e0764f7c6fc0b62ffaa71aa39733a.json",
+      "sha256": "359ef30361f96f9cc1ca4ef75e8bc03bfecc876f387074beed7bcd8523b93eed",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.gruppocaraglio.it/index.html",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/1fe966b43ec4938ca33ff5ed0f6087aafbc269aeb1185a21296b80310d92346b.json",
+      "sha256": "b37ccd99d5a3426f90b6f6245973448939c10051a66263899af0af72baf1edf5",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.sicmesrl.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/261ab5b7765a7f867972a5573c9e7327f211ba7eb7e84e286b943b405c536599.json",
+      "sha256": "2bd75cf0444dc45f2b018ad0590a320dd7d494359db0c91e3e1a97586134bd10",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecnoservice-it.it/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/27bd3e31a5b6a80e209eed05abb5a60c7f2d203c64e08cc96bcf038e437c488f.json",
+      "sha256": "bff47105cd024cc37b09840f01d3bebcb9b279e531a048d592c599b2760b7ad1",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://freddo.it/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/280d2fd46edfdaedfb1f877eb052b768dc3d91e2b0956bffb2a225181799a2e6.json",
+      "sha256": "9a1be1358d59fd067335ace57cbbc8a9ddc9147d33be15475b0499e3eafa290e",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://hile.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/2ede8993dd0d28f165929fcc169f28715403c68c1372c8a51d0b7e63ddf1de98.json",
+      "sha256": "2ed7b3b101d609e892edf69a6ba773627304b2f7a70e4b0143dc5cf49df1412d",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.idealelectric.it/impianti-elettrici-fotovoltaici-antincendio-sicurezza-automazione-san-zenone-castelfranco-treviso-bassano-vicenza/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/354afbbe43b6a99f7687ed74f1db3ab35c2ece072cad1591b42777f18adfc9d1.json",
+      "sha256": "91c2af4b6307125474869c09270fae8747b8f75fd1bcd6cbe321ae601cc84a8a",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://giemmeimpianti.com/servizi/progettazione-impiantistica-industriale/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/3867c91fefff39f19a1835a9d1dfd55d94ec4941df92a94067c05b0c8be005d8.json",
+      "sha256": "0132b23a56a4cac893b74e68ab374e1195e6f719e864dd5c84ff05830297eeda",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecnoservice-it.it/ditta-manutenzione-impianti-industriali-tecnologia-avanguardia-milano-lombardia/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/3bd0c917e2cdb4886b62c17d37a42c3c0260d55a1710c770abe19850e8121e81.json",
+      "sha256": "a69119d74ddc4b183eb44ad78a5fbf359f03393bfcbd1db3834894e39b916dbd",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.soimaimpianti.it/contatti",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/3f9ac06302b5f2fe7458ef9ffaca7a4b8f60ef8c02f9072864f03941e920610f.json",
+      "sha256": "9ebe0ecb740dcb9357b24e8bfb0224d519dc77449ef9c6408ca43adb193537db",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://rdimpiantisrl.com/contact/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/45eac2e07205063204ab25538af4352e8f07df929601f58ee7eff01b9b5211c4.json",
+      "sha256": "c6be2f707dcc8afe32b9ecde45ee2960affa297c34d5d80da8b1db79c408e0ce",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://climat-srl.it/climat-s-r-l-specialisti-in-impianti-industriali-e-civili/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/49d2ca054a810ff2248ae9b44fb2d8ab30fac54e29eab0761302781ed5bd6c7d.json",
+      "sha256": "83fd91648e1e7be965d50bef68ef12533646a9839f25a32e09078e07b2b41d29",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fimin.net/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/4fe8b588dcec0bdf163487f75796a38d35c9e2013149bad657503a080c45da3d.json",
+      "sha256": "b888d50e84b28ce7f98d919a8277902dae87b8a6fcf8140e7b88d85d5b67ada8",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://giemmeimpianti.com/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/52fd503bc6802a3baa97cf74bfecc3e67484e34693ce1a0ecc95e0a6d30435c1.json",
+      "sha256": "a7b946b7afc586dd6b2e35fd593649d6c58d82e41d52b4eb2f8f5bd0d1ebc3a8",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.sicmesrl.it/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/58243f5d2a79c84e19b5b800272874db87a5821a39c95225cdf1a8edc5cb1b0d.json",
+      "sha256": "06645e57ded83d38d7c40bd43821eead360269cee7f5297d8692c1b9261f1cc0",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://giemmeimpianti.com/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/5b15daa465a57cdf1401e9355f6800a0105422c03af9d6b70018e942977aa4c2.json",
+      "sha256": "84015374a449fc720f774da4a424c9238de9df96e3b46292d8218874a9053ef9",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "http://www.montecoitalia.it/contatti.asp",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/5bd3d6e7ebecd70f2b64c434fc6b5dd9a6473ad053e7e5bd076a272edbbc860b.json",
+      "sha256": "9b0a8629a16e68b67ff12cdfa0cc9b60eca631b59cb6515e3a120d4578ab1776",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.bertolino.com/impianti-elettrici-industriali-e-terziario/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/5c0048d09af5758bed416d6c2dfb5f8a011352b0737d6e955e9383ebe27e79db.json",
+      "sha256": "7c500c3ed3b0d2a9099b8dac26d20d29889826344b9efa5d7cb99429c5e823fc",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecriam.com/azienda/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/5dd5490ccd93356df30ea631f3fa4a53437bb6a3415d7c26fbc0b01234acbd50.json",
+      "sha256": "de3d46dbf7e7d2b13667f483b8eea6b492310ef9db19b56aa35c5adfd243a226",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.furianisael.com/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/5fc972d3282482aca8eae2b87b8f4edbf85ec1ffdd8a54cf14c0919568a6236d.json",
+      "sha256": "ad35191cdea8c11c37cb550c2273caf3429e403ff959fae443edba6f5cace6dc",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.termozetaimpianti.it/costruzione-impianti-industriali-lombardia/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/610dabb964386b4203c4dd13da3c3ec7f4d39630b38b1bf138c65872b561b42f.json",
+      "sha256": "fb88b07835bd38622e3a83e8955465319936bdd895ac02ce9d303db311268ba8",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.sicmesrl.it/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/668425468f9d7cf758d084e8cc9aa35cb669d566b46f42b0535ce88cf16437f8.json",
+      "sha256": "5bb24b9e8d98b36dfda69fa64eb380d10d28bc748caab5fcb18a7566eab037fd",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.systemimpiantisrl.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/6a5cb0509ad474f9e4055a374101d24bfb1311b1b2ec955585ab29fb8c6bca1a.json",
+      "sha256": "b5db87d1bc06da2f6117400bcb59b2bbe9b0b9a20361f918ba74d657ff8ec587",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecnovavicenza.com/impianti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/6ad85bb7976476541969d347c81b6d157b879fe7f3a9e5c5f61dff38ac9525ef.json",
+      "sha256": "6fb5cc834249181e81840a0c26e6d6731aca01786627e8d7a612bb32e1301aab",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://freddo.it/contatti/\\",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/6c524f5f86571fca1ec9624e1e92f47e4cf356d27d808caf8ff67d56c9684f2a.json",
+      "sha256": "524143b01a3271f5aa2eba079bb53ddc723ec3b0ae78250034a59ec2cca8ff3c",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fma-srl.com/manutenzione-impianti-industriali-lombardia/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/6dd0e4e1c6bb4143e7e5ccc17b5c33657433f7c99a6cf61b318bf74ee6680660.json",
+      "sha256": "1b8a2fe47d780649e409dff4c730a5eeeb95c78ac10fb6af8943b7236694107d",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fimin.net/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/71fefb4ea6a6204e37718dd5279b733b27e70f65f1964e866b53a16d1b68f61f.json",
+      "sha256": "ccd6d4cb41fbcb694aea4ce1ff8aa00c2fa76241e626fd7197761f7691d61d2c",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fullserviceimpianti.com/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/7459d2d768670345f00e048e23f29eb9feb68768f56efdeb001c7df464b15877.json",
+      "sha256": "ca0a06dd053eaaa0dd7ee1cc5aa4a80e2bb0a4fc36fdbdee4554c8f255d01625",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.gruppocaraglio.it/contatti.aspx",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/74a52416677f0d5c669e91343b764212184260159d437b3faaaa87ee88941e56.json",
+      "sha256": "698bc304f0e00ff4d4d083933c7187454d6dfa3b06fa98991fde214075261c62",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://radarsrl.it/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/775fe42881e143335c7671a39b21f446e48d3633d3d1648f3a4a1c0f838688a3.json",
+      "sha256": "d85c660de4d9cd76d73934ba89e65ec3b3e7e2c077e9fb5a784f8b24279d6803",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecnologicaimpianti.com/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/78c4b8c2223654b561fadc680ab07271d560c8568c5d133d94f339c9f62bddda.json",
+      "sha256": "5530ad2b44116bb03c10154070cedf0304f74c68598b4005fad38fc5bc641456",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fma-srl.com/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/7e6ea4cf6fa793a6d1aa7ff892c7c973ef09b517e5e435951b8ac8e796804b3b.json",
+      "sha256": "590cf7b0205b1700c253e195bb947126cf3118b6ca6d53ff984275c57869e1d3",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fma-srl.com/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/83d0d2936d4c593baf229abf045520c2fe4737bfae72b1f8641dbddfab7090fa.json",
+      "sha256": "c86e3341a8854e14d6e2dbcc6b29992dfecc86281903c93593322846b90c3fc0",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://freddo.it/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/8de88d7c396284129285b5cfbe7aabf343ffb6ca506f9849cca6995db5247822.json",
+      "sha256": "3a883119990f0b62f464e2cb5a6c3d1ba890d3d0fe747b34b40d315443078ce8",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.gruppocaraglio.it/industriale.html",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/9252ecb61fe039c0d793c5132ad573d2e63b95f501c100b65834dab0f9d540b6.json",
+      "sha256": "3f3a06268853b35072ce01c50e43f9d822ece11727b20507d86e0fb4210f7137",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://climat-srl.it/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/9563290e6ad33c9483348d668eaae002606f6de385eb997c6ea20015942e04a5.json",
+      "sha256": "406269dce92f7650e4e5c49abf489076e424370474835f980469efc6dccdebf8",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.furianisael.com/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/97cfbb5de59d4ac867deca315e7f843ddd3d1a17babbfd6e8657ad350edc5eb9.json",
+      "sha256": "c12f678c88a607b3922f2df1d104b0f5340f3f0a9ee8622c023adc918cff97e5",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.termozetaimpianti.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/a0b26d5484f3cba88fc575e7d433942a6dcda0c6e46ca3b427a1076fd2006633.json",
+      "sha256": "ed9aa78649c4f4c236d2e4f98cb633223db862346105bc2906eab769cf61e4df",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecriam.com/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/a184d00555d6cee33e05d43d4becc86d6548c7d2c609aa370080f1c5964a5ac4.json",
+      "sha256": "3e4b938d1a7e2ec3f543a17334030cd6726f654db20af87c3d7aeb579d7795b2",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.idealelectric.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/a1ff0dd496c66a3c8e733900acec35c9e0edde04ff4d1b316f380094145982e5.json",
+      "sha256": "99dbd74f06f2de9095e08cc75fea013495f1323e4e2bab64e1ec3e7b415c0dcb",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.furianisael.com/impianti-industriali-furiani-sael-e-la-tua-scelta-affidabile/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/a8558f4bbc1b87e436f38af1c157d35376455bdc87a33a1e76df9f363a20b00e.json",
+      "sha256": "59d812929a26c21482f8e2b71bbb5b0048c0048bd82fe27b9741e37a0b471628",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://rdimpiantisrl.com/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/aa2a05f28189d99a5b78b0c0959abd38fd10946791cb67345358a186d0999458.json",
+      "sha256": "01bdefecd032b946774d484d9fe03262ea7f41eb09970f76573ba2fe118eaf45",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fullserviceimpianti.com/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/b2496c127dc72684debb3872ed8bb37572810abddd8bf58921ecb9a8ea9ab321.json",
+      "sha256": "a35fd68e5b4b3bc44ccfb0a8763e6bc436cade47cdfe65845a6dbd3f0e7fe48d",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.furianisael.com/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/b27daaca3cfbc82aae6d0ddd27dfb22e7186b15a2268550d633167320f8986f1.json",
+      "sha256": "50e7f9614f5e88e97e2e0afcdd81cc6bb20a9a8eecce83bd50c276c9efa29189",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://hile.it/impianti-industriali/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/b4cb1715b1e540196826613ec19dc90d3c657ac42e5d9a9be0314c56cd9a241b.json",
+      "sha256": "387431ab3baaa4477749761df70b139931c603363bdcaf641c97fe6bc722aa44",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.systemimpiantisrl.it/realizzazione-impianti-elettrici-piemonte/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/b54b265a273b0b00674398592dad59f896f9488e115d848d2ad7a3aec341f99f.json",
+      "sha256": "c2947456a330235ca50f40b6d3ace132a04c3f3b93b8750699f02b23adb1560c",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fimin.net/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/b6257e5b90488221849e2879c785ee39fa1017044b9c308e788bcf367340d2a1.json",
+      "sha256": "1573a832d2848169a177c73c5817812cb96e5d63c35b7169926105efd3a12dfd",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fullserviceimpianti.com/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/b65d19b1cfee0f857dd5995fa2db0165a8907ecade341b7fa20c2660b44c94f1.json",
+      "sha256": "25f97abb84718f2368f341c549f540f4d6ac582809a35ed414f0d6f302ec9f8b",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "http://www.montecoitalia.it/azienda.asp",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/b671e981a809de7e0a43f0112b8f94a1e487c9ca753ea724eea62d44f986a5b6.json",
+      "sha256": "649f1fb50a0eba6a7c6e423149a0e4901de710ae8c87c8040787b2abf33c45e2",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.termozetaimpianti.it/azienda/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/b6845c5ad64375c2cc1a3dcfcf5ca04cd9c91e6a7a541164bd5f8cbd4240139d.json",
+      "sha256": "b44b95fc2bec571aabff966e6986b9473b161937360cdb314ef55db35886cbc4",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.idealelectric.it/contatti-ideal-electric-andreatta-giuseppe-elettricisti-san-zenone-ezzelini-treviso-veneto/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/bc6c7fe243d2ba8eb107bfc632f4a418dd3e1396e54f8faccbbfbf150550cc87.json",
+      "sha256": "492615ad3d7d0cdfa59a311d6a3a1e6eadebc6f77486f9d0156d16da1ded8233",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecnologicaimpianti.com/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/bd564c162693300ec91e66a3f7ba1288c2787d824368636e3b0d7d6859681105.json",
+      "sha256": "bd1312360a66714bf40c02cf2621982daf46f51ba13d10a15e9a343271033d26",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "http://www.montecoitalia.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/bf2a499e8f39c640e2b4568d0034ee9da73052d8e65843c4550248e26deef486.json",
+      "sha256": "e4a8f453b6a6cdd69672e10a47581a545b38e379bb621f0d8599a69d6cc7709c",
+      "identity_status": "unknown",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.soimaimpianti.it/azienda-impiantistica-elettrica-generale",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/c6c337307b092b14ca0c534ed27d5414a3a5df9d5af42604630610a210da1cd2.json",
+      "sha256": "7bbd48d3708cb45bff7bc26c7de1390f3db0456526bf719036177198d03731b6",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://hile.it/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/c7bbd7c2dfda672499b7e9aad1001b70ac331a106d9028af2f29d85ef1c12755.json",
+      "sha256": "49f2cc5cc1447c20edd1ca527451de2aa588d2018d0cea28729991715b55b369",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecnovavicenza.com/azienda/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/c98f2ded3d29bc92a202f998d1d2778c0944c1a20eabdf6a1aeeb105a034f435.json",
+      "sha256": "a8745a9134118891dec1e5ef5a5dfb1dbccbbbedc2fa6091e08ff909c231952c",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://hile.it/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/cab58947d53dbe41c12eb8e0d5f2dab520fd30a4c20b45296e0f77be6b9afacc.json",
+      "sha256": "202c59dd6359c944705b262ff422a1df6b2db29b1741cc8bbedfaabb43750d86",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecnologicaimpianti.com/azienda/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/d0fd46d9886f87b9dba4fd9a67c623212a2f180ad37ad5c95b6ebbbdbc753b67.json",
+      "sha256": "8935e984fd28d45beb5d396593afdf3bd6963e39173ff0a88fd40d60c7d20c75",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.systemimpiantisrl.it/chi-siamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/d209f88bd47c04363a10b20fe79d73ee7b97ef9b3545ef803d8b6512843b4c42.json",
+      "sha256": "f8ebcbedd5289d1c28b1a010dee6800a62568f91cb6ce7d82bc3393f0b016397",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.bertolino.com/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/d2c001c8104ac854b37ffc2fec2feb66180a8cd05d4770e2aec7e34d341f6d0b.json",
+      "sha256": "7ba1e11ddb5a9f01b9a91b89e57f3818d38783ee4c43eb8e8be779b6b617d6db",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://freddo.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/d3726ccd69d1a078cf80ae568fc0a84a6523dc8ea4c5eea5634217dd3e2a0561.json",
+      "sha256": "72a43b2526ed32209b8fdc5c0a3d78f0a140d06d82d18e8e6e932226ba9be9da",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://radarsrl.it/contatti/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/d575f92579ac627f88a3afe3de9d05a7ab2c930f7ba12f5fbc414848d33b9dc0.json",
+      "sha256": "e9b77b9c1d3be403ec862bd0e2bc91f474c824849c5c5a56266535c9a8fc9914",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecnoservice-it.it/centro-azienda-assistenza-macchine-schede-cnc-milano-lombardia/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/d57a46f8b1af3d2550efefd0fd6a77b1abdd3c2b56b97762d475537c8511e97f.json",
+      "sha256": "801259c3d50a531f12bac2d7cf71faaadbeb3cac2d8a91167764b0805cc44e87",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://climat-srl.it/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/d69c0d2430f36e34dc75038b3e23b2efa06e5f6485f72d17c15ae9372e86cb6a.json",
+      "sha256": "f2cd94835eebad3011f42ec946726b8f784f01b9f812fd3518a049025b36efd8",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecriam.com/interventi/impianti-industriali-bergamo/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/e6f3a4ff4fb27cfac57fa37a2f9440680deece1d5faa7af4df01419b4323835d.json",
+      "sha256": "f1274be3ed4e1f42b0fba6ed7846a9c27d128a546d75a49dca8b257874958884",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fma-srl.com/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/eb2dda5a26c502f7adc7bb12e343fee72797447a9ede0f9a90f5ffc0d1437964.json",
+      "sha256": "7f659a1d3ffaffa2c8a27f6af40a396e200b212e267f74d5d60cf2eda5342321",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://radarsrl.it/en/contacts/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/ec2c907b9db1173b3ad9cb62e9185ab8815eab812e4f010ee865149ad956addc.json",
+      "sha256": "9bae3b28e1fb523d78fd91f40be721dbb9680436aa43b178c5d7a40f70def14c",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.fimin.net/forniture-per-impianti-industriali-a-vicenza/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/efd2662b88c2372ed429ea03e2d5b1d380ddee5e4d6bf9c95d67a69b27818536.json",
+      "sha256": "567538be082934d66945c5603b1bf3e3cd2f3bd65a34d8d7cf61a7b80ce5a59f",
+      "identity_status": "verified",
+      "before": [],
+      "after": []
+    },
+    {
+      "url": "https://www.tecnovavicenza.com/",
+      "capture": "data/company-screening/2026-10-14T10-40-33.965496+00-00/pages/f09fbe0a319d8bd245909a0afc52b3285c182cfcc6af7961976050045b3581b7.json",
+      "sha256": "a8437dc5ed437134527a2cdb61ebeb9ea60c810e8b4313261948b3dfd9e5235c",
+      "identity_status": "verified",
+      "before": [],
+      "after": [
+        "https://combustoriabbattimentosolventi.wordpress.com/"
+      ]
+    }
+  ]
+}

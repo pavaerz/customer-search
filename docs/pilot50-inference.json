@@ -1,0 +1,169 @@
+{
+  "checked_at": "2026-10-14T09:09:30.856422+00:00",
+  "split": "development",
+  "reviewer": "Assistant; not independent human review",
+  "queries": 10,
+  "serper_requests": 10,
+  "original_pages_captured": 18,
+  "search_comparison": [
+    {
+      "query": "\"nuovo marchio\" arredamento",
+      "before": {
+        "returned": 10,
+        "excluded_by_access_policy": 5,
+        "urls": [
+          "https://www.instagram.com/reel/DUpoC7QClsQ/",
+          "https://www.instagram.com/p/DQpvpeajCNR/",
+          "https://www.facebook.com/CaranCasaTaurisano/posts/-nasce-carancasail-nuovo-marchio-di-carangelo-arredi-dedicato-alla-progettazione/1498401145199501/",
+          "https://www.finnishdesignshop.it/it-it/marchio/design-house-stockholm?srsltid=AU7gw4VNbZzNUW1AVsX4CAQVASNIJIVBXWO0vFBF4iD2wq0kFvgyCnSQ",
+          "https://www.instagram.com/reel/Dd_JfyOE5WX/",
+          "https://www.facebook.com/61550985946271/videos/da-adelfio-tessile-un-nuovo-brand-entra-a-far-parte-della-nuova-collezione-di-pi/975754078269619/",
+          "https://www.sitstar-furniture.com/it/about-us",
+          "https://room108.com/it/rivenditori/",
+          "https://www.ilsole24ore.com/art/il-gruppo-emiratino-sobha-si-affida-design-italiano-il-debutto-flar-AIm81xmB",
+          "https://it.fashionnetwork.com/news/Design-week-quarta-carrellata-sugli-eventi-speciali-a-milano,1825005.html"
+        ]
+      },
+      "after": {
+        "returned": 10,
+        "excluded_by_access_policy": 0,
+        "urls": [
+          "https://www.finnishdesignshop.it/it-it/marchio/design-house-stockholm?srsltid=AU7gw4UpqoKTqQyWXMvG4VCc8jMN0CsLGwq5l3lZkV6IlVri1pYtz2qK",
+          "https://www.ilsole24ore.com/art/il-gruppo-emiratino-sobha-si-affida-design-italiano-il-debutto-flar-AIm81xmB",
+          "https://it.fashionnetwork.com/news/Design-week-quarta-carrellata-sugli-eventi-speciali-a-milano,1825005.html",
+          "https://room108.com/it/rivenditori/",
+          "https://mital.com/",
+          "https://www.byflou.com/it/",
+          "https://www.nobilia.de/it/prodotti/elettrodomestici/apparecchi-esclusivi/",
+          "https://ag-metal.it/blog",
+          "https://www.bluarch.it/storie-news-blog-architettura-interior-lighting",
+          "https://www.advance-comunicazione.it/author/alessandro/"
+        ]
+      }
+    },
+    {
+      "query": "\"nuova linea\" \"srl\" Veneto",
+      "before": {
+        "returned": 10,
+        "excluded_by_access_policy": 5,
+        "urls": [
+          "https://it.linkedin.com/posts/francescoagostinis_il-louvre-ha-lanciato-da-poco-una-nuova-linea-activity-7497188103691026435-gQRu",
+          "https://www.facebook.com/tecnomeccanica/posts/-nuova-linea-beta-rsc-39in-arrivo-a-settembre-la-nuova-linea-di-cassettiere-port/1507836844720497/",
+          "https://www.instagram.com/reel/DYuBIfUMh_s/",
+          "https://www.rinnovabili.it/mercato/le-aziende-informano/energy-spa-test-linea-produttiva-nuova-gigafactory/",
+          "https://www.facebook.com/FincoAgricolturaVeneto/posts/nuovi-arrivi-nel-reparto-pet-%C3%A8-arrivata-in-negozio-la-nuova-linea-di-giochi-per-/1690522959747222/",
+          "https://winecouture.it/2026/07/13/vitevis-rivoluziona-limbottigliamento-pronta-la-nuova-linea-da-10-000-bottiglie-lora-per-la-vendemmia-2026/",
+          "https://www.ilrestodelcarlino.it/ferrara/cronaca/nuova-linea-in-cavo-interrato-b19eda8a",
+          "https://www.regione.veneto.it/web/vas-via-vinca-nuvv/progetti-2025",
+          "https://www.fsbusitalia.it/it/veneto/news-veneto/2026/9/1/in-partenza-la-nuova-linea-u17.html",
+          "https://www.instagram.com/reel/DZw2qadkYBY/"
+        ]
+      },
+      "after": {
+        "returned": 10,
+        "excluded_by_access_policy": 0,
+        "urls": [
+          "https://www.rinnovabili.it/mercato/le-aziende-informano/energy-spa-test-linea-produttiva-nuova-gigafactory/",
+          "https://www.regione.veneto.it/web/vas-via-vinca-nuvv/progetti-2025",
+          "https://www.ilrestodelcarlino.it/ferrara/cronaca/nuova-linea-in-cavo-interrato-b19eda8a",
+          "https://www.fsbusitalia.it/it/veneto/news-veneto/2026/9/1/in-partenza-la-nuova-linea-u17.html",
+          "https://winecouture.it/2026/07/13/vitevis-rivoluziona-limbottigliamento-pronta-la-nuova-linea-da-10-000-bottiglie-lora-per-la-vendemmia-2026/",
+          "https://www.luceweb.eu/2026/04/29/nuova-vita-agli-scarti-luci-sostenibili-sulla-citta/",
+          "https://www.quotidianosanita.it/uncategorized/fresenius-kabi-284-milioni-per-la-nuova-linea-di-soluzioni-infusionali-a-isola-della-scala/",
+          "https://www.tespi.net/riviste_alimentando/GroceryeConsumiGiugnoLuglio2026.pdf",
+          "https://www.sammontanaitalia.com/it/fatto-all-italiana/stabilimenti.html",
+          "https://venetoricerche.it/2026/06/26/ricerca-di-mercato-come-strategia-il-valore-della-relazione/"
+        ]
+      }
+    }
+  ],
+  "companies": [
+    {
+      "name": "Mital Srl",
+      "website": "https://mital.com/",
+      "region": "Veneto",
+      "status": "needs_review",
+      "why": "Rinnovamento della visual identity e brand identity",
+      "reasons": [
+        "Attualità: Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+        "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+        "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+        "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+        "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+        "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+        "ruoli_web",
+        "dati_web",
+        "integrazioni_web",
+        "manutenzione_web_sicurezza"
+      ],
+      "signals": 5,
+      "unmet_requirements": [
+        "Attualità: Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+        "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+        "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+        "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+        "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+        "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+        "ruoli_web",
+        "dati_web",
+        "integrazioni_web",
+        "manutenzione_web_sicurezza"
+      ],
+      "analysis_status": "completed",
+      "solution_urls": [],
+      "coverage": {
+        "identity": true,
+        "offer": true,
+        "contact": true,
+        "solutions": true
+      },
+      "budget": null,
+      "need_inference": null
+    },
+    {
+      "name": "AG Metal",
+      "website": "https://ag-metal.it/",
+      "region": "Lazio",
+      "status": "rejected",
+      "why": "Nessun bisogno di un progetto digitale completo documentato nelle fonti esaminate.",
+      "reasons": [
+        "Nelle fonti esaminate non emerge una ragione documentata per proporre un progetto digitale completo."
+      ],
+      "signals": 28,
+      "unmet_requirements": [
+        "Nelle fonti esaminate non emerge una ragione documentata per proporre un progetto digitale completo."
+      ],
+      "analysis_status": "completed",
+      "solution_urls": [
+        "https://agmetaldesign.it/"
+      ],
+      "coverage": {
+        "identity": true,
+        "offer": true,
+        "contact": true,
+        "solutions": true
+      },
+      "budget": null,
+      "need_inference": null
+    }
+  ],
+  "qualified": 0,
+  "precision_at_20": null,
+  "commercial_effectiveness_established": false,
+  "limitations": [
+    "Two company dossiers are not a sufficient independent evaluation sample.",
+    "Removing inaccessible results does not make the remaining URLs commercially relevant.",
+    "Inference promotion is covered by controlled tests; no real positive inference case established by this pilot.",
+    "No emails sent, no production CRM promotion, no additional paid service."
+  ],
+  "capture_sha256": {
+    "data/pilot50-next/implicit/pages.json": "bdeff798990f8c83fb054ed60becc123571cf221b45c34bb92ee26bc43bb76ae",
+    "data/pilot50-next/implicit/adapted-pages.json": "bb2ba83eef755076a7a8661e08efbe0e861e947e347f6cb2bced4709816e3c42",
+    "data/pilot50-next/implicit/ag-brand-pages.json": "eaf0fa05f8d63896aca83a672c6daf227b94d85f63381a68ac4ff4e5ee74be20",
+    "data/pilot50-next/implicit/deep-pages.json": "b98a2324acc97c9e2e1990ff8bcccb92f493191d197feec0914ab78db00e904b",
+    "data/pilot50-next/implicit-search.json": "82ab74b237da647ccd1807a9516f6874dc10f082d18fd47fa29c13bfa73b6e4e",
+    "data/pilot50-next/implicit/consumer-search.json": "446040da5efd5bcea2945dfc07a10c857ea42853bd2650ccb02fe49cba3d1c85",
+    "data/pilot50-next/implicit/adapted-search.json": "20625eaac616ed2700783a787d4d7d8b60b3eb95679e0a069a5c2bd0cb56d0d0",
+    "data/pilot50-next/implicit/search-access-comparison.json": "74d376791178e99c8c3d7311384c095f44b0119d4aea020be0e254533879c19a"
+  }
+}

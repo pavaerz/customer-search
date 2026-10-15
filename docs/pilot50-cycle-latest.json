@@ -1,0 +1,11 @@
+{
+  "directory": "data/cycle50/2026-10-14T11-41-04.639979+00-00",
+  "campaign_id": 4,
+  "requests": 0,
+  "finished_at": "2026-10-14T11:46:19.305062+00:00",
+  "tasks": {
+    "done": 21,
+    "pending": 48,
+    "superseded": 1
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-10-14T08:08:26.568398+00:00",
+  "scope": "Cached development replay; not an independent commercial benchmark",
+  "requests": 0,
+  "results": [
+    {
+      "subject": "Alessandrin & C. s.r.l.",
+      "before_missing": [
+        "Attualità: Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+        "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+        "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+        "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+        "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+        "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+        "Ruoli e responsabilità digitali all'interno dell'azienda",
+        "Integrazioni con sistemi di gestione aziendale attuali",
+        "Processi di gestione dei dati e sicurezza informatica",
+        "Modalità di monitoraggio delle prestazioni e raccolta dati digitali"
+      ],
+      "after_missing": [
+        "Attualità: Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+        "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+        "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+        "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+        "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+        "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto."
+      ],
+      "status": "needs_review",
+      "proposal": {
+        "project": "none",
+        "why": "Nessun bisogno di un progetto digitale completo documentato nelle fonti esaminate.",
+        "why_now": "",
+        "proposal": "",
+        "scope": "unknown",
+        "feasibility": "unknown",
+        "support_ids": [],
+        "critical_unknowns": [],
+        "objections": [],
+        "budget_signal_id": ""
+      },
+      "seconds": 0.02
+    },
+    {
+      "subject": "Newpharm Srl",
+      "before_missing": [
+        "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+        "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+        "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+        "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+        "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto.",
+        "Ruoli e responsabilità digitali",
+        "Integrazioni con sistemi esistenti",
+        "Dati e loro gestione",
+        "Manutenzione e sicurezza web app"
+      ],
+      "after_missing": [
+        "Attualità: Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+        "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+        "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+        "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+        "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+        "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto."
+      ],
+      "status": "needs_review",
+      "proposal": {
+        "project": "none",
+        "why": "Nessun bisogno di un progetto digitale completo documentato nelle fonti esaminate.",
+        "why_now": "",
+        "proposal": "",
+        "scope": "unknown",
+        "feasibility": "unknown",
+        "support_ids": [],
+        "critical_unknowns": [],
+        "objections": [],
+        "budget_signal_id": ""
+      },
+      "seconds": 0.02
+    }
+  ]
+}

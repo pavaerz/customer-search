@@ -1,0 +1,119 @@
+{
+  "split": "development; not an independent commercial precision benchmark",
+  "serper_requests": 23,
+  "source_trial": {
+    "attempted": 4,
+    "read": 4,
+    "articles_offered": 23,
+    "pages_captured": 7,
+    "serper_requests": 0,
+    "frozen_replay_same_candidates": true,
+    "currently_enabled_regions": [
+      "Veneto",
+      "Lombardia",
+      "Piemonte"
+    ],
+    "deferred_region": "Toscana: all six sampled archive articles dated 2024; other Tuscany discovery remains enabled"
+  },
+  "article_review": {
+    "sample": 23,
+    "explicit_body_scoped": 17,
+    "subscription_previews_now_unverifiable": 2,
+    "resolution_routes_before": 18,
+    "resolution_routes_after": 16
+  },
+  "queries": [
+    {
+      "region": "Lombardia",
+      "version": "before",
+      "comparison": "first_query",
+      "returned": 10,
+      "query": "impiantistica industriale Lombardia nuova linea prodotti 2026 -agenzia -\"come fare\" -site:facebook.com -site:instagram.com -site:linkedin.com -site:youtube.com"
+    },
+    {
+      "region": "Lombardia",
+      "version": "after",
+      "comparison": "first_query",
+      "returned": 10,
+      "query": "impiantistica industriale Lombardia \"nuova divisione\" -agenzia -\"come fare\" -site:facebook.com -site:instagram.com -site:linkedin.com -site:youtube.com"
+    },
+    {
+      "region": "Lombardia",
+      "version": "before",
+      "comparison": "domain_only",
+      "returned": 0,
+      "query": "site:lombardiaeconomy.it \"nuova divisione\""
+    },
+    {
+      "region": "Lombardia",
+      "version": "after",
+      "comparison": "domain_only",
+      "returned": 0,
+      "query": "site:lombardia.italiaeconomy.it \"nuova divisione\""
+    },
+    {
+      "region": "Piemonte",
+      "version": "before",
+      "comparison": "first_query",
+      "returned": 10,
+      "query": "impiantistica industriale Piemonte nuova linea prodotti 2026 -agenzia -\"come fare\" -site:facebook.com -site:instagram.com -site:linkedin.com -site:youtube.com"
+    },
+    {
+      "region": "Piemonte",
+      "version": "after",
+      "comparison": "first_query",
+      "returned": 7,
+      "query": "impiantistica industriale Piemonte \"nuova divisione\" -agenzia -\"come fare\" -site:facebook.com -site:instagram.com -site:linkedin.com -site:youtube.com"
+    },
+    {
+      "region": "Piemonte",
+      "version": "before",
+      "comparison": "domain_only",
+      "returned": 0,
+      "query": "site:piemonteeconomy.it \"nuova divisione\""
+    },
+    {
+      "region": "Piemonte",
+      "version": "after",
+      "comparison": "domain_only",
+      "returned": 0,
+      "query": "site:piemonte.italiaeconomy.it \"nuova divisione\""
+    },
+    {
+      "region": "Lombardia",
+      "version": "same_event_no_literal_year",
+      "comparison": "final_same_event",
+      "returned": 10,
+      "query": "impiantistica industriale Lombardia \"nuova linea\" prodotti -agenzia -\"come fare\" -site:facebook.com -site:instagram.com -site:linkedin.com -site:youtube.com"
+    },
+    {
+      "region": "Piemonte",
+      "version": "same_event_no_literal_year",
+      "comparison": "final_same_event",
+      "returned": 0,
+      "query": "impiantistica industriale Piemonte \"nuova linea\" prodotti -agenzia -\"come fare\" -site:facebook.com -site:instagram.com -site:linkedin.com -site:youtube.com"
+    }
+  ],
+  "company_check": {
+    "name": "Plastica LG",
+    "identity": "verified",
+    "region": "Piemonte",
+    "documents": 5,
+    "before": "rejected",
+    "after": "rejected",
+    "budget": null,
+    "editorial_context_characters_before": 11,
+    "editorial_context_characters_after": 156
+  },
+  "qualified_in_completed_company_checks": 0,
+  "precision_at_20": null,
+  "commercial_effectiveness_proven": false,
+  "limits": [
+    "Query variants were developed with this sample. No independent success claim.",
+    "Correcting publisher domains did not increase returned URLs in the two paired queries: both remain empty.",
+    "Final first-query variant returned 10 URLs in Lombardy and zero in Piedmont; URL counts do not establish company relevance.",
+    "The deep company sample is one, not all source articles. A real commercial opportunity has not been established.",
+    "The local model retains the recovered company expansion passage as business context; further reasoning quality remains to be validated.",
+    "No customer was contacted and no pilot prospect was added to the production CRM."
+  ]
+}

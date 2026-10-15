@@ -1,0 +1,1303 @@
+{
+  "baseline_backup": "data/backups/20261014T114731966935Z",
+  "baseline_sha256": {
+    "commercial_planner": "4d05f95d268ac40ec68ac610fd60d155aa22df2e49cf1cc4d7c2efec90fb56b8",
+    "company_research": "e90a283d08602cd2a6083ec88c34b087a797f988454d77f0d090344fd8288426"
+  },
+  "search_requests": 0,
+  "model_calls": 0,
+  "comparisons": [
+    {
+      "profile": "b2b",
+      "region": "Veneto",
+      "strategy": "companies",
+      "queries": 54,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Veneto",
+      "strategy": "change",
+      "queries": 45,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Veneto",
+      "strategy": "investment",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Veneto",
+      "strategy": "startup",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Veneto",
+      "strategy": "hiring",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Veneto",
+      "strategy": "process",
+      "queries": 27,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lombardia",
+      "strategy": "companies",
+      "queries": 84,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lombardia",
+      "strategy": "change",
+      "queries": 40,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lombardia",
+      "strategy": "investment",
+      "queries": 16,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lombardia",
+      "strategy": "startup",
+      "queries": 16,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lombardia",
+      "strategy": "hiring",
+      "queries": 16,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lombardia",
+      "strategy": "process",
+      "queries": 24,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Piemonte",
+      "strategy": "companies",
+      "queries": 60,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Piemonte",
+      "strategy": "change",
+      "queries": 40,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Piemonte",
+      "strategy": "investment",
+      "queries": 16,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Piemonte",
+      "strategy": "startup",
+      "queries": 16,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Piemonte",
+      "strategy": "hiring",
+      "queries": 16,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Piemonte",
+      "strategy": "process",
+      "queries": 24,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Toscana",
+      "strategy": "companies",
+      "queries": 72,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Toscana",
+      "strategy": "change",
+      "queries": 35,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Toscana",
+      "strategy": "investment",
+      "queries": 14,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Toscana",
+      "strategy": "startup",
+      "queries": 14,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Toscana",
+      "strategy": "hiring",
+      "queries": 14,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Toscana",
+      "strategy": "process",
+      "queries": 21,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Emilia-Romagna",
+      "strategy": "companies",
+      "queries": 72,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Emilia-Romagna",
+      "strategy": "change",
+      "queries": 30,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Emilia-Romagna",
+      "strategy": "investment",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Emilia-Romagna",
+      "strategy": "startup",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Emilia-Romagna",
+      "strategy": "hiring",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Emilia-Romagna",
+      "strategy": "process",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Liguria",
+      "strategy": "companies",
+      "queries": 36,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Liguria",
+      "strategy": "change",
+      "queries": 30,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Liguria",
+      "strategy": "investment",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Liguria",
+      "strategy": "startup",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Liguria",
+      "strategy": "hiring",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Liguria",
+      "strategy": "process",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "companies",
+      "queries": 36,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "change",
+      "queries": 30,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "investment",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "startup",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "hiring",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "process",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Trentino-Alto Adige",
+      "strategy": "companies",
+      "queries": 24,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Trentino-Alto Adige",
+      "strategy": "change",
+      "queries": 30,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Trentino-Alto Adige",
+      "strategy": "investment",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Trentino-Alto Adige",
+      "strategy": "startup",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Trentino-Alto Adige",
+      "strategy": "hiring",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Trentino-Alto Adige",
+      "strategy": "process",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Valle d’Aosta",
+      "strategy": "companies",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Valle d’Aosta",
+      "strategy": "change",
+      "queries": 30,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Valle d’Aosta",
+      "strategy": "investment",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Valle d’Aosta",
+      "strategy": "startup",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Valle d’Aosta",
+      "strategy": "hiring",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Valle d’Aosta",
+      "strategy": "process",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lazio",
+      "strategy": "companies",
+      "queries": 42,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lazio",
+      "strategy": "change",
+      "queries": 30,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lazio",
+      "strategy": "investment",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lazio",
+      "strategy": "startup",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lazio",
+      "strategy": "hiring",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "b2b",
+      "region": "Lazio",
+      "strategy": "process",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Veneto",
+      "strategy": "companies",
+      "queries": 36,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Veneto",
+      "strategy": "change",
+      "queries": 35,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Veneto",
+      "strategy": "investment",
+      "queries": 14,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Veneto",
+      "strategy": "startup",
+      "queries": 14,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Veneto",
+      "strategy": "hiring",
+      "queries": 14,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Veneto",
+      "strategy": "process",
+      "queries": 21,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lombardia",
+      "strategy": "companies",
+      "queries": 56,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lombardia",
+      "strategy": "change",
+      "queries": 30,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lombardia",
+      "strategy": "investment",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lombardia",
+      "strategy": "startup",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lombardia",
+      "strategy": "hiring",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lombardia",
+      "strategy": "process",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Piemonte",
+      "strategy": "companies",
+      "queries": 40,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Piemonte",
+      "strategy": "change",
+      "queries": 30,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Piemonte",
+      "strategy": "investment",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Piemonte",
+      "strategy": "startup",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Piemonte",
+      "strategy": "hiring",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Piemonte",
+      "strategy": "process",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Toscana",
+      "strategy": "companies",
+      "queries": 48,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Toscana",
+      "strategy": "change",
+      "queries": 25,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Toscana",
+      "strategy": "investment",
+      "queries": 10,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Toscana",
+      "strategy": "startup",
+      "queries": 10,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Toscana",
+      "strategy": "hiring",
+      "queries": 10,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Toscana",
+      "strategy": "process",
+      "queries": 15,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Emilia-Romagna",
+      "strategy": "companies",
+      "queries": 48,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Emilia-Romagna",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Emilia-Romagna",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Emilia-Romagna",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Emilia-Romagna",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Emilia-Romagna",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Liguria",
+      "strategy": "companies",
+      "queries": 24,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Liguria",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Liguria",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Liguria",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Liguria",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Liguria",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "companies",
+      "queries": 24,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Trentino-Alto Adige",
+      "strategy": "companies",
+      "queries": 16,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Trentino-Alto Adige",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Trentino-Alto Adige",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Trentino-Alto Adige",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Trentino-Alto Adige",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Trentino-Alto Adige",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Valle d’Aosta",
+      "strategy": "companies",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Valle d’Aosta",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Valle d’Aosta",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Valle d’Aosta",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Valle d’Aosta",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Valle d’Aosta",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lazio",
+      "strategy": "companies",
+      "queries": 28,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lazio",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lazio",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lazio",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lazio",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "retail",
+      "region": "Lazio",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Veneto",
+      "strategy": "companies",
+      "queries": 36,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Veneto",
+      "strategy": "change",
+      "queries": 35,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Veneto",
+      "strategy": "investment",
+      "queries": 14,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Veneto",
+      "strategy": "startup",
+      "queries": 14,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Veneto",
+      "strategy": "hiring",
+      "queries": 14,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Veneto",
+      "strategy": "process",
+      "queries": 21,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lombardia",
+      "strategy": "companies",
+      "queries": 56,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lombardia",
+      "strategy": "change",
+      "queries": 30,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lombardia",
+      "strategy": "investment",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lombardia",
+      "strategy": "startup",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lombardia",
+      "strategy": "hiring",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lombardia",
+      "strategy": "process",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Piemonte",
+      "strategy": "companies",
+      "queries": 40,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Piemonte",
+      "strategy": "change",
+      "queries": 30,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Piemonte",
+      "strategy": "investment",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Piemonte",
+      "strategy": "startup",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Piemonte",
+      "strategy": "hiring",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Piemonte",
+      "strategy": "process",
+      "queries": 18,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Toscana",
+      "strategy": "companies",
+      "queries": 48,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Toscana",
+      "strategy": "change",
+      "queries": 25,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Toscana",
+      "strategy": "investment",
+      "queries": 10,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Toscana",
+      "strategy": "startup",
+      "queries": 10,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Toscana",
+      "strategy": "hiring",
+      "queries": 10,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Toscana",
+      "strategy": "process",
+      "queries": 15,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Emilia-Romagna",
+      "strategy": "companies",
+      "queries": 48,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Emilia-Romagna",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Emilia-Romagna",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Emilia-Romagna",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Emilia-Romagna",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Emilia-Romagna",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Liguria",
+      "strategy": "companies",
+      "queries": 24,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Liguria",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Liguria",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Liguria",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Liguria",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Liguria",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "companies",
+      "queries": 24,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Friuli-Venezia Giulia",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Trentino-Alto Adige",
+      "strategy": "companies",
+      "queries": 16,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Trentino-Alto Adige",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Trentino-Alto Adige",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Trentino-Alto Adige",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Trentino-Alto Adige",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Trentino-Alto Adige",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Valle d’Aosta",
+      "strategy": "companies",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Valle d’Aosta",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Valle d’Aosta",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Valle d’Aosta",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Valle d’Aosta",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Valle d’Aosta",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lazio",
+      "strategy": "companies",
+      "queries": 28,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lazio",
+      "strategy": "change",
+      "queries": 20,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lazio",
+      "strategy": "investment",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lazio",
+      "strategy": "startup",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lazio",
+      "strategy": "hiring",
+      "queries": 8,
+      "same_query_set": true
+    },
+    {
+      "profile": "services",
+      "region": "Lazio",
+      "strategy": "process",
+      "queries": 12,
+      "same_query_set": true
+    }
+  ],
+  "first_eight_change_queries": {
+    "before": [
+      "impiantistica industriale Veneto \"nuova linea\" prodotti -agenzia -\"come fare\"",
+      "site:venetoeconomia.it \"nuova linea\" prodotti",
+      "impiantistica industriale Veneto \"mercati esteri\" espansione -agenzia -\"come fare\"",
+      "site:nordesteconomia.gelocal.it \"mercati esteri\" espansione",
+      "impiantistica industriale Veneto \"nuovo marchio\" -agenzia -\"come fare\"",
+      "site:confindustriavenest.it \"nuovo marchio\"",
+      "impiantistica industriale Veneto \"distributori\" \"nuova rete\" -agenzia -\"come fare\"",
+      "site:venetoeconomia.it \"distributori\" \"nuova rete\""
+    ],
+    "after": [
+      "impiantistica industriale Veneto \"nuova linea\" prodotti -agenzia -\"come fare\"",
+      "site:venetoeconomia.it \"nuova linea\" prodotti",
+      "ingegneria industriale Veneto \"mercati esteri\" espansione -agenzia -\"come fare\"",
+      "site:confindustriavenest.it \"mercati esteri\" espansione",
+      "lavorazioni meccaniche Veneto \"nuovo marchio\" -agenzia -\"come fare\"",
+      "site:nordesteconomia.gelocal.it \"nuovo marchio\"",
+      "carpenteria metallica Veneto \"distributori\" \"nuova rete\" -agenzia -\"come fare\"",
+      "site:venetoeconomia.it \"distributori\" \"nuova rete\""
+    ],
+    "sectors_before": [
+      "impiantistica industriale"
+    ],
+    "sectors_after": [
+      "carpenteria metallica",
+      "impiantistica industriale",
+      "ingegneria industriale",
+      "lavorazioni meccaniche"
+    ]
+  },
+  "limitation": "Misura della diversificazione delle query, non della pertinenza dei risultati o dell’efficacia commerciale."
+}

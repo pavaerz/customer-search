@@ -1,0 +1,37 @@
+{
+  "companies": {
+    "rows": 105,
+    "unchanged": true,
+    "sha256": "776ddcc090b4671d6884e457977be37ea01336021e3c22c9223c3ef293a385c0"
+  },
+  "prospects": {
+    "rows": 0,
+    "unchanged": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "interactions": {
+    "rows": 0,
+    "unchanged": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "dismissed_companies": {
+    "rows": 1,
+    "unchanged": true,
+    "sha256": "8fe17d2547ffc6d955a269174c32b9a4d845166086520d079eda917c16d84f9a"
+  },
+  "research_assessments": {
+    "rows": 64,
+    "unchanged": true,
+    "sha256": "893b9a569dca9e183e54edf1875b6ae5ce309c623f50a8ffd0a855431fae1ba2"
+  },
+  "research_reviews": {
+    "rows": 0,
+    "unchanged": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "commercial_outcomes": {
+    "rows": 0,
+    "unchanged": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  }
+}

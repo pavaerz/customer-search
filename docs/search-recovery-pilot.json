@@ -1,0 +1,88 @@
+{
+  "checked_at": "2026-10-13T20:21:40.991523+00:00",
+  "capabilities": {
+    "paging": true,
+    "time_range": true,
+    "engines": [
+      "bing",
+      "yahoo"
+    ]
+  },
+  "queries": [
+    {
+      "query": "nuova linea prodotti Veneto",
+      "urls": 17,
+      "sample": [
+        "https://nuova-linea.com/",
+        "https://www.treccani.it/vocabolario/nuova/",
+        "https://nuova-linea.it/"
+      ]
+    },
+    {
+      "query": "nuovo showroom Padova",
+      "urls": 17,
+      "sample": [
+        "https://www.ferriauto.it/genesis-arriva-a-padova/",
+        "https://nuovo-paris.com/",
+        "https://www.quattroruote.it/news/eventi/2026/06/26/genesis_showroom_padova.html"
+      ]
+    },
+    {
+      "query": "ordini rivenditori Toscana",
+      "urls": 16,
+      "sample": [
+        "https://start.toscana.it/ecatalog/",
+        "https://start.toscana.it/index/index/hideAnnouncements/true",
+        "https://start.toscana.it/marketplace"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://nuova-linea.com/",
+      "status": 200,
+      "title": "Nuova Linea | Pelletteria a Vicenza"
+    },
+    {
+      "url": "https://www.treccani.it/vocabolario/nuova/",
+      "status": 200,
+      "title": "Nuòva - Significato ed etimologia - Vocabolario - Treccani"
+    }
+  ],
+  "providers": [
+    {
+      "name": "searxng",
+      "queries": 3,
+      "pages": 0,
+      "cached_pages": 0,
+      "unique_urls": 50,
+      "errors": 0,
+      "seconds": 4.8,
+      "companies": 0,
+      "promising": 0,
+      "qualified": 0,
+      "unverifiable": 0,
+      "rejections": {},
+      "engines": [
+        "bing",
+        "yahoo"
+      ],
+      "engine_errors": [],
+      "credits": 0,
+      "cost_eur": 0,
+      "seconds_per_promising": null
+    }
+  ],
+  "site_checks": [
+    {
+      "type": "PageConnectionError",
+      "message": "Connessione interrotta dal sito geniai.it. Il controllo viene saltato; la ricerca continua sulle altre fonti. Nuovo accesso consentito tra 15 minuti.",
+      "seconds": 0.631
+    },
+    {
+      "type": "PageConnectionError",
+      "message": "Connessione interrotta dal sito geniai.it. Il controllo viene saltato; la ricerca continua sulle altre fonti. Nuovo accesso consentito tra 15 minuti.",
+      "seconds": 0.009
+    }
+  ]
+}

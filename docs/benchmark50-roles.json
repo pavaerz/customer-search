@@ -1,0 +1,154 @@
+{
+  "scope": "Publisher identity only, not qualification or buying intent. Sources include blogs and public institutions. False means not identified as publisher, not verified company.",
+  "sample_selection": "First 20 domains by SHA256(source-role-evaluation-v1 + domain) from 143 cached historical domains. Five development domains excluded before sampling.",
+  "sample_sha256": "927442a65f0bd75517b555c056368bbf1b5c04cb1b1d9b9946d97cca1b0dac8f",
+  "baseline_sha256": "f11bc66b74517575bc05557dedff0c664c8f174735a47d7a4a9ab646aed8f5a2",
+  "sample_size": 20,
+  "businesses": 11,
+  "public_sources": 7,
+  "rows": [
+    {
+      "url": "https://rehub.glass/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.repubblica.it/",
+      "reviewed_role": "publisher_or_public_source",
+      "before_publisher": true,
+      "after_publisher": true
+    },
+    {
+      "url": "https://cnaveneto.it/startup/",
+      "reviewed_role": "publisher_or_public_source",
+      "before_publisher": false,
+      "after_publisher": true
+    },
+    {
+      "url": "https://www.ipaziaspace.com/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Veneto",
+      "reviewed_role": "unrelated",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://unvenetoinviaggio.it/cosa-vedere-in-veneto/",
+      "reviewed_role": "publisher_or_public_source",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.baolfly.it/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.tecnovavicenza.com/impianti/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://ompesama.com/index.php/ompesama-lavorazioni-meccaniche-castelgomberto/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.bpm-eng.it/approccio/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.onix.srl/servizi/impiantistica/industriale/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.tiktok.com/@cfu_unitelematiche",
+      "reviewed_role": "unrelated",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.officinecioetto.it/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.cdpgroupspa.it/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.innoveneto.org/cerca-un-partner-internazionale/",
+      "reviewed_role": "publisher_or_public_source",
+      "before_publisher": true,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.soluzionecomputer.it/acrobat-reader-come-scaricare-e-utilizzare/",
+      "reviewed_role": "publisher_or_public_source",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.cbsstrutture.it/contatti/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.fabionodariphoto.com/cosa-vedere-pechino-3-giorni/",
+      "reviewed_role": "publisher_or_public_source",
+      "before_publisher": false,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.azero.veneto.it/rubrica-telefonica",
+      "reviewed_role": "publisher_or_public_source",
+      "before_publisher": true,
+      "after_publisher": false
+    },
+    {
+      "url": "https://www.venetaimpianti.net/impianti-industriali/",
+      "reviewed_role": "company",
+      "before_publisher": false,
+      "after_publisher": false
+    }
+  ],
+  "results": {
+    "before": {
+      "companies_wrongly_flagged_as_publishers": 0,
+      "public_sources_recognized": 3,
+      "qualified_opportunities": null,
+      "precision_at_10": null,
+      "precision_at_20": null,
+      "api_requests": 0
+    },
+    "after": {
+      "companies_wrongly_flagged_as_publishers": 0,
+      "public_sources_recognized": 2,
+      "qualified_opportunities": null,
+      "precision_at_10": null,
+      "precision_at_20": null,
+      "api_requests": 0
+    }
+  },
+  "limits": [
+    "Role labels reviewed by the development assistant from the frozen originals, not an independent human reviewer.",
+    "This tests a narrow classifier; missing publisher recognition and unknown identity must still be caught downstream.",
+    "No commercial precision or conversion claim; qualification not run."
+  ]
+}

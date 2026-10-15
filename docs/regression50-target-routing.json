@@ -1,0 +1,275 @@
+{
+  "checked_at": "2026-10-14T10:30:01.773548+00:00",
+  "source": "data/cycle50/2026-10-14T10-15-46.907683+00-00",
+  "split": "development regressions, not independent precision",
+  "search_requests": 0,
+  "web_requests": 0,
+  "model_requests": 0,
+  "cases": [
+    {
+      "url": "https://hile.it/impianti-industriali/",
+      "before": {
+        "state": "needs_review",
+        "identity": {
+          "name": "Hile",
+          "website": "https://hile.it/",
+          "legal_id": "IT04886710260",
+          "location": null,
+          "region": null,
+          "country": null,
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "049 9620845",
+              "url": "https://hile.it/",
+              "checked_at": "2026-10-14T10:20:52.327380+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "info@hile.it",
+              "url": "https://hile.it/",
+              "checked_at": "2026-10-14T10:20:52.327380+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "form",
+              "value": "https://hile.it/contatti/",
+              "url": "https://hile.it/contatti/",
+              "checked_at": "2026-10-14T10:20:53.725531+00:00",
+              "basis": "Modulo aziendale pubblico, non inviato",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Industria / manifattura · inferito",
+          "description": "Hile è l'azienda di automazione industriale, esperta nell'installazione di fotovoltaico per aziende. Realizziamo interventi di efficientamento energetico.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://hile.it/"
+        },
+        "publisher": false,
+        "company_ready": false,
+        "assessment_id": null
+      },
+      "after": {
+        "state": "needs_review",
+        "reason": "Impresa e attività verificate: ora cerco una ragione commerciale, non ancora un’opportunità.",
+        "identity": {
+          "name": "Hile",
+          "website": "https://hile.it/",
+          "legal_id": "IT04886710260",
+          "location": "Sede Operativa Viale dell’Industria 28 35010 Curtarolo PD",
+          "region": "Veneto",
+          "country": null,
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "049 9620845",
+              "url": "https://hile.it/",
+              "checked_at": "2026-10-14T10:20:52.327380+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "email",
+              "value": "info@hile.it",
+              "url": "https://hile.it/",
+              "checked_at": "2026-10-14T10:20:52.327380+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "form",
+              "value": "https://hile.it/contatti/",
+              "url": "https://hile.it/contatti/",
+              "checked_at": "2026-10-14T10:20:53.725531+00:00",
+              "basis": "Modulo aziendale pubblico, non inviato",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Industria / manifattura · inferito",
+          "description": "Hile è l'azienda di automazione industriale, esperta nell'installazione di fotovoltaico per aziende. Realizziamo interventi di efficientamento energetico.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://hile.it/"
+        },
+        "publisher": false,
+        "company_ready": true,
+        "resolve": false,
+        "source": false
+      }
+    },
+    {
+      "url": "https://sipasolutions.com/it/chi-siamo",
+      "before": {
+        "state": "unverifiable",
+        "identity": {
+          "name": "SIPA Solutions",
+          "website": "https://sipasolutions.com/",
+          "legal_id": "IT01118790268",
+          "location": "Via Caduti del Lavoro, 3 - 31029 Vittorio Veneto - Italy",
+          "region": "Veneto",
+          "country": null,
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+39%200438%20911511",
+              "url": "https://sipasolutions.com/",
+              "checked_at": "2026-10-14T10:20:49.316693+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "form",
+              "value": "https://sipasolutions.com/contact-us",
+              "url": "https://sipasolutions.com/contact-us",
+              "checked_at": "2026-10-14T10:20:50.010417+00:00",
+              "basis": "Modulo aziendale pubblico, non inviato",
+              "role": "Referente non specificato"
+            },
+            {
+              "type": "form",
+              "value": "https://sipasolutions.com/it/contattaci",
+              "url": "https://sipasolutions.com/it/contattaci",
+              "checked_at": "2026-10-14T10:20:50.759811+00:00",
+              "basis": "Modulo aziendale pubblico, non inviato",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [
+            {
+              "type": "email",
+              "value": "sipaprivacy@zoppas.com",
+              "url": "https://sipasolutions.com/privacy-policy",
+              "checked_at": "2026-10-14T10:20:55.859728+00:00",
+              "basis": "Pubblicato sul sito; non implica consenso",
+              "role": "Referente non specificato"
+            }
+          ],
+          "sector": null,
+          "description": "SIPA develops technologies for PET packaging and beverage production, from preforms to complete lines, with a focus on efficiency and quality.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://sipasolutions.com/"
+        },
+        "publisher": false,
+        "company_ready": true,
+        "assessment_id": 66
+      },
+      "after": {
+        "state": "rejected",
+        "reason": "S.p.A. esclusa dal target: Il SISTEMA DI GESTIONE PER LA QUALITÀ di SIPA S.P.A. è certificato ISO 9001.",
+        "identity": {
+          "name": "Oltre 30 anni di soluzioni per contenitori in PET",
+          "website": "https://sipasolutions.com/",
+          "legal_id": "IT01118790268",
+          "location": "Via Caduti del Lavoro, 3 - 31029 Vittorio Veneto - Italy",
+          "region": "Veneto",
+          "country": null,
+          "contacts": [
+            {
+              "type": "phone",
+              "value": "+39%200438%20911511",
+              "url": "https://sipasolutions.com/it/chi-siamo",
+              "checked_at": "2026-10-14T10:20:48.597092+00:00",
+              "basis": "Contatto pubblico",
+              "role": "Referente non specificato"
+            }
+          ],
+          "identity_contacts": [],
+          "sector": "Industria / manifattura · inferito",
+          "description": "Scopri SIPA Solutions: leader nella fornitura di tecnologie all'avanguardia per sistemi di confezionamento e produzione. Scopri di più su di noi.",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://sipasolutions.com/it/chi-siamo"
+        },
+        "publisher": false,
+        "company_ready": false,
+        "resolve": false,
+        "source": false
+      }
+    },
+    {
+      "url": "https://www.veneziatoday.it/economia/sigit-nuova-proprietaria-speedline-via-rilancio.html",
+      "before": {
+        "state": "needs_review",
+        "identity": {
+          "name": "VeneziaToday",
+          "website": "https://www.veneziatoday.it/",
+          "legal_id": "IT10786801000",
+          "location": "Citynews spa - Viale Stelvio 70, 20159 Milano",
+          "region": "Lombardia",
+          "country": null,
+          "contacts": [],
+          "identity_contacts": [],
+          "sector": null,
+          "description": "VeneziaToday - il giornale on line: cronaca e notizie dai principali quartieri della città, e informazioni di sport e cultura",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "verified",
+          "basis": "Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.",
+          "source_url": "https://www.veneziatoday.it/"
+        },
+        "publisher": false,
+        "company_ready": true,
+        "assessment_id": 67
+      },
+      "after": {
+        "state": "needs_review",
+        "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+        "identity": {},
+        "publisher": true,
+        "company_ready": false,
+        "resolve": true,
+        "source": false
+      }
+    },
+    {
+      "url": "https://www.padovanews.it/2026/09/22/nanni-fresenius-kabi-nuova-linea-raddoppia-velocita-produzione/",
+      "before": {
+        "state": "needs_review",
+        "identity": {
+          "name": "Padovanews",
+          "website": "https://www.padovanews.it/",
+          "legal_id": null,
+          "location": null,
+          "region": null,
+          "country": null,
+          "contacts": [],
+          "identity_contacts": [],
+          "sector": null,
+          "description": "",
+          "description_basis": "Descrizione pubblicata dal sito, non verificata come promessa commerciale.",
+          "group": "direct",
+          "identity_status": "unknown",
+          "basis": "Identità o collegamento al dominio non sufficientemente dimostrati.",
+          "source_url": "https://www.padovanews.it/"
+        },
+        "publisher": false,
+        "company_ready": false,
+        "assessment_id": null
+      },
+      "after": {
+        "state": "needs_review",
+        "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+        "identity": {},
+        "publisher": true,
+        "company_ready": false,
+        "resolve": true,
+        "source": false
+      }
+    }
+  ]
+}

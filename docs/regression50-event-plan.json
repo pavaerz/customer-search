@@ -1,0 +1,40 @@
+{
+  "scope": "Development replay of Remor, not independent benchmark",
+  "source": "https://www.remor.it/2026/09/24/remor-essentials-nuova-divisione-prodotti-standard/",
+  "identity_verified": true,
+  "before_searches": [
+    "site:remor.it novità nuovi servizi prodotti",
+    "site:remor.it settori mercati progetti",
+    "site:remor.it catalogo portale clienti shop"
+  ],
+  "after_searches": [
+    "site:remor.it marchio prodotti servizi"
+  ],
+  "direct_links": {
+    "77400708ef711c22b24ec5434d452e2b5f7586e63b66d9ddd8167820be3a9bd7": [
+      "https://www.remor.it/essentials/",
+      "https://www.remor.it/essentials"
+    ]
+  },
+  "questions": [
+    {
+      "id": "77400708ef711c22b24ec5434d452e2b5f7586e63b66d9ddd8167820be3a9bd7",
+      "kind": "brand",
+      "status": "hypothesis",
+      "document_id": "1207408d8258c0779482ce9a86d49e0591d1789b4d2f99025fa772387979eee4",
+      "url": "https://www.remor.it/2026/09/24/remor-essentials-nuova-divisione-prodotti-standard/",
+      "quote": "Remor Essentials: la nuova divisione Remor nata da 40 anni di esperienza",
+      "published_at": "2026-09-24",
+      "question": "Come viene presentata e distinta la nuova offerta?",
+      "countercheck": "Il sito presenta già il marchio e la sua offerta? Una pagina aggiuntiva è sufficiente?",
+      "queries": [
+        "site:remor.it Remor Essentials la nuova divisione Remor nata da 40 anni di esperienza",
+        "site:remor.it marchio prodotti servizi"
+      ],
+      "limit": "Evento verificato nella fonte; bisogno, perimetro e fornitore ancora da verificare.",
+      "named_topic": "Remor Essentials"
+    }
+  ],
+  "qualified_by_planner": false,
+  "api_requests_for_replay": 0
+}

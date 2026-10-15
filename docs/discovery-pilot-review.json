@@ -1,0 +1,104 @@
+{
+  "scope": "Revisione degli estratti del campione e replay delle pagine originali registrate; non revisione indipendente di qualificati. Nessuna rete nel replay.",
+  "sample": 12,
+  "qualified_reviewed": 0,
+  "preliminary_false_positive_fixed": "Confartigianato come azienda promettente nel pilota precedente; ora editore da risolvere.",
+  "items": [
+    {
+      "url": "https://www.confartigianatovicenza.it/gustarti/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": true,
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "review_note": "Fonte editoriale, nessuna azienda qualificata; bisogno digitale da dimostrare."
+    },
+    {
+      "url": "https://www.confartigianatovicenza.it/distacchi-trasferte-internazionali/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": true,
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "review_note": "Incontro informativo sulle trasferte, non espansione di un cliente. Editore riconosciuto."
+    },
+    {
+      "url": "https://cnaveneto.it/limpresa-della-bellezza-2026-cultura-territorio-e-impresa-a-vigonza/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": true,
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "review_note": "Fonte editoriale, nessuna azienda qualificata; bisogno digitale da dimostrare."
+    },
+    {
+      "url": "https://www.venetoeconomia.it/2026/10/torri-eur-roma-carron/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": true,
+      "reason": "Articolo pertinente: identificare e verificare le aziende citate. L’editore non è un cliente.",
+      "review_note": "Il testo nomina Carron S.p.A.: soggetto escluso dalle regole finali, non opportunità."
+    },
+    {
+      "url": "https://cnaveneto.it/premio-cambiamenti-nord-est-finale/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": true,
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "review_note": "Evento storico: solo eventuali nomi collegati possono aprire una verifica, non provano bisogno attuale."
+    },
+    {
+      "url": "https://cnaveneto.it/cambiamenti-imprese-nord-est/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": true,
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "review_note": "Evento storico: solo eventuali nomi collegati possono aprire una verifica, non provano bisogno attuale."
+    },
+    {
+      "url": "https://cnaveneto.it/startup-veneto-nuovo-bando/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": false,
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "review_note": "Fonte editoriale, nessuna azienda qualificata; bisogno digitale da dimostrare."
+    },
+    {
+      "url": "https://cnaveneto.it/premio-cambiamenti-ultimi-giorni-per-iscriversi/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": false,
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "review_note": "Evento storico: solo eventuali nomi collegati possono aprire una verifica, non provano bisogno attuale."
+    },
+    {
+      "url": "https://cnaveneto.it/premio-cambiamenti-2026/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": false,
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "review_note": "Evento storico: solo eventuali nomi collegati possono aprire una verifica, non provano bisogno attuale."
+    },
+    {
+      "url": "https://cnaveneto.it/premio-cambiamenti-di-cna-i-vincitori-della-semifinale-nord-est/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": true,
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "review_note": "Evento storico: solo eventuali nomi collegati possono aprire una verifica, non provano bisogno attuale."
+    },
+    {
+      "url": "https://cnaveneto.it/cambiamenti-nord/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": false,
+      "reason": "Data non attuale: serve un nuovo segnale datato, non basta ripubblicare la pagina.",
+      "review_note": "Evento storico: solo eventuali nomi collegati possono aprire una verifica, non provano bisogno attuale."
+    },
+    {
+      "url": "https://cnaveneto.it/startup-venete-cambiamenti/",
+      "state": "needs_review",
+      "publisher": true,
+      "resolve": true,
+      "reason": "Elenco storico di nuove imprese: identità da risolvere e segnale attuale ancora da trovare.",
+      "review_note": "Evento storico: solo eventuali nomi collegati possono aprire una verifica, non provano bisogno attuale."
+    }
+  ]
+}

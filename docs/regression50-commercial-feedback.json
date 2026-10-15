@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-14T08:38:46.122166+00:00",
+  "scope": "Development replay on a previously inspected company. Not an independent quality benchmark.",
+  "backup": "data/backups/20261014T083536879012Z",
+  "company": "Remor S.R.L.",
+  "source_urls": [
+    "https://www.remor.it/",
+    "https://www.remor.it/2026/09/24/remor-essentials-nuova-divisione-prodotti-standard/",
+    "https://www.remor.it/essentials/",
+    "https://www.remor.it/contatti/",
+    "https://www.remor.it/azienda/",
+    "https://www.remor.it/category/azienda/",
+    "https://www.remor.it/servizi/",
+    "https://www.remor.it/comunicazione-visiva/segnaletica-aziendale/"
+  ],
+  "api_requests": 0,
+  "model_network_requests": 0,
+  "results": {
+    "before": {
+      "status": "needs_review",
+      "limits": [],
+      "next_action": "Completare i controlli mancanti prima di proporre un progetto.",
+      "reason": [
+        "Attualità: Evento documentato entro 180 giorni oppure processo/lacuna attuale osservabile.",
+        "Bisogno concreto: Richiesta pertinente o collegamento motivato fra almeno due riscontri distinti.",
+        "Progetto completo: Il perimetro richiede un progetto completo; una piccola modifica non basta.",
+        "Soluzioni e controprove: Controllati strumenti già disponibili, soluzioni esterne e alternative minori.",
+        "Fattibilità: Perimetro delimitato, nessuna incognita tecnica critica irrisolta.",
+        "Verifica approfondita: Identità, offerta, contatto e soluzioni controllati; nessun controllo necessario incompleto."
+      ],
+      "qualified": false,
+      "signal_count": 30,
+      "budget": null
+    },
+    "after": {
+      "status": "rejected",
+      "limits": [],
+      "next_action": "Passare ad altre aziende; rivalutare questa solo con nuovi elementi commerciali significativi.",
+      "reason": [
+        "Nelle fonti esaminate non emerge una ragione documentata per proporre un progetto digitale completo."
+      ],
+      "qualified": false,
+      "signal_count": 30,
+      "budget": null
+    }
+  }
+}
