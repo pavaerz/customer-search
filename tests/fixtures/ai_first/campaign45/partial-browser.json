@@ -1,0 +1,1333 @@
+{
+  "provenance": "Campaign 45 record 1212 saved evidence; no new fetch or inference.",
+  "body": {
+    "decision_engine": "ai_first_1",
+    "decision": "NOT_INTERESTING",
+    "state": "REJECTED",
+    "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+    "original": true,
+    "entity_name": "Rechsteiner di Florian von Stepski-Doliwa",
+    "identity_verified": false,
+    "validation_status": "ACCEPTED",
+    "facts": [
+      {
+        "field": "entity",
+        "id": "e1",
+        "start": 259,
+        "end": 401,
+        "quote": "Rechsteiner di Florian von Stepski-Doliwa - Via Frassenè 2 31046 Piavon - Oderzo (TV) P.I.: 04217720269 C.F.: VNS FRN 76 S11Z102X Isc.Reg.Imp.",
+        "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+        "checked_at": "2026-10-20T19:05:04.616978+00:00",
+        "content_hash": "f42e01cced051344a5528161e232641d89011dd01dfc660468e83bb637722248",
+        "document_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf",
+        "original": true,
+        "result_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf:page",
+        "document_start": 2876,
+        "document_end": 3018
+      },
+      {
+        "field": "signal",
+        "id": "e2",
+        "start": 76,
+        "end": 241,
+        "quote": "Il nostro Agriturismo si trova in una tipica casa colonica ristrutturata con cura e attenzione al dettaglio e dispone di 11 accoglienti camere e 4 ampi appartamenti.",
+        "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+        "checked_at": "2026-10-20T19:05:04.616978+00:00",
+        "content_hash": "96dff5f26e6bc76bbcde17acb360369094d8d287efb0de4a06baabc47a4e09f7",
+        "document_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf",
+        "original": true,
+        "result_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf:page",
+        "document_start": 76,
+        "document_end": 241
+      },
+      {
+        "field": "existing_solution",
+        "id": "e2",
+        "start": 924,
+        "end": 935,
+        "quote": "PRENOTA ORA",
+        "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+        "checked_at": "2026-10-20T19:05:04.616978+00:00",
+        "content_hash": "96dff5f26e6bc76bbcde17acb360369094d8d287efb0de4a06baabc47a4e09f7",
+        "document_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf",
+        "original": true,
+        "result_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf:page",
+        "document_start": 924,
+        "document_end": 935
+      },
+      {
+        "field": "existing_solution",
+        "id": "e1",
+        "start": 0,
+        "end": 18,
+        "quote": "Prenota una camera",
+        "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+        "checked_at": "2026-10-20T19:05:04.616978+00:00",
+        "content_hash": "f42e01cced051344a5528161e232641d89011dd01dfc660468e83bb637722248",
+        "document_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf",
+        "original": true,
+        "result_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf:page",
+        "document_start": 2617,
+        "document_end": 2635
+      },
+      {
+        "field": "technical",
+        "id": "measurement",
+        "start": 434,
+        "end": 446,
+        "quote": "\"value\": 200",
+        "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+        "checked_at": "2026-10-20T19:05:04.616978+00:00",
+        "content_hash": "9eb07394bb727474b2f16ad9e69cb0c7d60edd0d1ac3b753f365e8880906f9c8",
+        "document_id": "781c285c1c2b2205a1a4fa15afe3e7d9eabb8aa8f8a88e7ca6b2e6d389f3adf4",
+        "original": true,
+        "result_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf:page",
+        "document_start": 434,
+        "document_end": 446
+      },
+      {
+        "field": "geography",
+        "id": "e1",
+        "start": 259,
+        "end": 401,
+        "quote": "Rechsteiner di Florian von Stepski-Doliwa - Via Frassenè 2 31046 Piavon - Oderzo (TV) P.I.: 04217720269 C.F.: VNS FRN 76 S11Z102X Isc.Reg.Imp.",
+        "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+        "checked_at": "2026-10-20T19:05:04.616978+00:00",
+        "content_hash": "f42e01cced051344a5528161e232641d89011dd01dfc660468e83bb637722248",
+        "document_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf",
+        "original": true,
+        "result_id": "f25cc740105f8ff02387dab1b34831a87ded58c24d740e64169585a174130dcf:page",
+        "document_start": 2876,
+        "document_end": 3018
+      }
+    ],
+    "reason": "La pagina promuove l’ospitalità dell’agriturismo, ma non documenta richieste di sviluppo né problemi concreti nel percorso di prenotazione. Non emerge una motivazione commerciale sufficiente per proporre un intervento.",
+    "ai_decision": {
+      "decision": "NOT_INTERESTING",
+      "entity_name": "Rechsteiner di Florian von Stepski-Doliwa",
+      "subject_role": "OWNER",
+      "relationship": "BUSINESS_SIGNAL",
+      "service": "website",
+      "reason": "La pagina promuove l’ospitalità dell’agriturismo, ma non documenta richieste di sviluppo né problemi concreti nel percorso di prenotazione. Non emerge una motivazione commerciale sufficiente per proporre un intervento.",
+      "fit": "Competenze web pertinenti in astratto; manca un’esigenza verificata su cui costruire una proposta.",
+      "facts": [
+        {
+          "field": "entity",
+          "segment_id": "s19a6f3c225ce1826b284"
+        },
+        {
+          "field": "signal",
+          "segment_id": "s1cbaa73a4badb95b40cc"
+        },
+        {
+          "field": "existing_solution",
+          "segment_id": "s88a5e81ba5a60cb45cc2"
+        },
+        {
+          "field": "existing_solution",
+          "segment_id": "s411397cd3135377cec5f"
+        },
+        {
+          "field": "technical",
+          "segment_id": "sfd9066e1461c9f09698a"
+        },
+        {
+          "field": "geography",
+          "segment_id": "s19a6f3c225ce1826b284"
+        }
+      ],
+      "unknowns": [
+        "Destinazione e funzionamento mobile del pulsante «PRENOTA ORA» non verificati.",
+        "Eventuali necessità di sviluppo, budget e compenso sconosciuti."
+      ],
+      "confidence": "MEDIUM",
+      "priority": "low",
+      "compensation": "UNKNOWN",
+      "feasibility": "UNKNOWN",
+      "currentness": "CURRENT_OBSERVATION",
+      "assessment": {
+        "intent": "COMPANY_ACTIVITY",
+        "intent_facts": [
+          1
+        ],
+        "scope": "UNKNOWN",
+        "scope_facts": [],
+        "existing_solution": "NOT_CHECKED",
+        "solution_facts": [
+          2,
+          3,
+          4
+        ],
+        "interpretation": "Esiste una pagina commerciale con inviti alla prenotazione. Le evidenze tecniche confermano soltanto la risposta HTTP, non l’adeguatezza del percorso. Non è documentato alcun divario digitale.",
+        "objections": [
+          "La presenza di camere e appartamenti non dimostra un bisogno di rifacimento.",
+          "L’assenza di una verifica funzionale non prova difetti.",
+          "Un eventuale problema circoscritto potrebbe richiedere solo una piccola correzione."
+        ]
+      },
+      "action": {
+        "type": "STOP",
+        "link_id": "",
+        "query": "",
+        "question": ""
+      }
+    },
+    "confidence": "MEDIUM",
+    "commercial_assessment": {
+      "intent": "COMPANY_ACTIVITY",
+      "intent_facts": [
+        1
+      ],
+      "scope": "UNKNOWN",
+      "scope_facts": [],
+      "existing_solution": "NOT_CHECKED",
+      "solution_facts": [
+        2,
+        3,
+        4
+      ],
+      "interpretation": "Esiste una pagina commerciale con inviti alla prenotazione. Le evidenze tecniche confermano soltanto la risposta HTTP, non l’adeguatezza del percorso. Non è documentato alcun divario digitale.",
+      "objections": [
+        "La presenza di camere e appartamenti non dimostra un bisogno di rifacimento.",
+        "L’assenza di una verifica funzionale non prova difetti.",
+        "Un eventuale problema circoscritto potrebbe richiedere solo una piccola correzione."
+      ]
+    },
+    "commercial_exclusions": [],
+    "website_audit": {
+      "version": "9.2.1",
+      "controls": [
+        {
+          "code": "http_status",
+          "level": 1,
+          "status": "PASS",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "http",
+            "value": 200
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "observed"
+        },
+        {
+          "code": "https",
+          "level": 2,
+          "status": "PASS",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": "https"
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "observed"
+        },
+        {
+          "code": "redirects",
+          "level": 1,
+          "status": "NOT_TESTED",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "http",
+            "value": {
+              "requested": null,
+              "final": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/"
+            }
+          },
+          "error": null,
+          "coverage": "not_measured",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "title",
+          "level": 2,
+          "status": "PASS",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": "Camere e Appartamenti in Veneto | Agriturismo Rechsteiner"
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "observed"
+        },
+        {
+          "code": "meta_description",
+          "level": 2,
+          "status": "PASS",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": "Agriturismo Rechsteiner offre camere e appartamenti in Veneto per un'esperienza autentica tra relax, natura e tradizione locale."
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "observed"
+        },
+        {
+          "code": "canonical",
+          "level": 2,
+          "status": "PASS",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": [
+              "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/"
+            ]
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "observed"
+        },
+        {
+          "code": "viewport",
+          "level": 2,
+          "status": "PASS",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": "width=device-width, initial-scale=1, maximum-scale=1"
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "observed"
+        },
+        {
+          "code": "h1",
+          "level": 2,
+          "status": "PASS",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": [
+              "CAMERE E APPARTAMENTI"
+            ]
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "observed"
+        },
+        {
+          "code": "structured_data",
+          "level": 2,
+          "status": "PASS",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": [
+              {
+                "@context": "https://schema.org",
+                "@graph": [
+                  {
+                    "@type": "WebPage",
+                    "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+                    "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+                    "name": "Camere e Appartamenti in Veneto | Agriturismo Rechsteiner",
+                    "isPartOf": {
+                      "@id": "https://rechsteiner.it/#website"
+                    },
+                    "primaryImageOfPage": {
+                      "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/#primaryimage"
+                    },
+                    "image": {
+                      "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/#primaryimage"
+                    },
+                    "thumbnailUrl": "https://www.tripadvisor.it/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg",
+                    "datePublished": "2017-07-18T13:10:07+00:00",
+                    "dateModified": "2026-06-18T12:39:02+00:00",
+                    "description": "Agriturismo Rechsteiner offre camere e appartamenti in Veneto per un'esperienza autentica tra relax, natura e tradizione locale.",
+                    "breadcrumb": {
+                      "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/#breadcrumb"
+                    },
+                    "inLanguage": "it-IT",
+                    "potentialAction": [
+                      {
+                        "@type": "ReadAction",
+                        "target": [
+                          "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "ImageObject",
+                    "inLanguage": "it-IT",
+                    "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/#primaryimage",
+                    "url": "https://www.tripadvisor.it/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg",
+                    "contentUrl": "https://www.tripadvisor.it/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg"
+                  },
+                  {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/#breadcrumb",
+                    "itemListElement": [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://rechsteiner.it/"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Agriturismo",
+                        "item": "https://rechsteiner.it/agriturismo-rechsteiner/"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Camere e Appartamenti"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "WebSite",
+                    "@id": "https://rechsteiner.it/#website",
+                    "url": "https://rechsteiner.it/",
+                    "name": "Cantina Rechsteiner",
+                    "description": "Rechsteiner: vino, arte e cultura dal 1881",
+                    "publisher": {
+                      "@id": "https://rechsteiner.it/#organization"
+                    },
+                    "potentialAction": [
+                      {
+                        "@type": "SearchAction",
+                        "target": {
+                          "@type": "EntryPoint",
+                          "urlTemplate": "https://rechsteiner.it/?s={search_term_string}"
+                        },
+                        "query-input": {
+                          "@type": "PropertyValueSpecification",
+                          "valueRequired": true,
+                          "valueName": "search_term_string"
+                        }
+                      }
+                    ],
+                    "inLanguage": "it-IT"
+                  },
+                  {
+                    "@type": "Organization",
+                    "@id": "https://rechsteiner.it/#organization",
+                    "name": "Rechsteiner",
+                    "url": "https://rechsteiner.it/",
+                    "logo": {
+                      "@type": "ImageObject",
+                      "inLanguage": "it-IT",
+                      "@id": "https://rechsteiner.it/#/schema/logo/image/",
+                      "url": "",
+                      "contentUrl": "",
+                      "caption": "Rechsteiner"
+                    },
+                    "image": {
+                      "@id": "https://rechsteiner.it/#/schema/logo/image/"
+                    },
+                    "sameAs": [
+                      "https://www.facebook.com/rechsteinerwinery/",
+                      "https://www.instagram.com/rechsteinerwinery/"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "observed"
+        },
+        {
+          "code": "images_without_alt",
+          "level": 2,
+          "status": "FAIL_OBSERVED",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": {
+              "total": 28,
+              "missing_alt": 1
+            }
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "observed"
+        },
+        {
+          "code": "navigation",
+          "level": 2,
+          "status": "INCONCLUSIVE",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": {
+              "links": 93,
+              "commercial_links": [
+                {
+                  "url": "https://rechsteiner.it/contatti/",
+                  "label": "Contatti",
+                  "purpose": "contact"
+                },
+                {
+                  "url": "https://rechsteiner.it/vigneti-e-cantina/i-vini/",
+                  "label": "Vini e prodotti Rechsteiner",
+                  "purpose": "offering"
+                }
+              ]
+            }
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "contact_forms",
+          "level": 2,
+          "status": "INCONCLUSIVE",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": {
+              "count": 1,
+              "submission_tested": false
+            }
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "cta_presence",
+          "level": 2,
+          "status": "INCONCLUSIVE",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": {
+              "labelled_contact_paths": [
+                {
+                  "url": "https://rechsteiner.it/contatti/",
+                  "label": "Contatti",
+                  "purpose": "contact"
+                }
+              ],
+              "mailto": 2
+            }
+          },
+          "error": null,
+          "coverage": "sampled_page",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "responsive",
+          "level": 2,
+          "status": "NOT_TESTED",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "not_measured",
+            "value": null
+          },
+          "error": null,
+          "coverage": "not_measured",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "form_delivery",
+          "level": 2,
+          "status": "NOT_TESTED",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "not_measured",
+            "value": null
+          },
+          "error": null,
+          "coverage": "not_measured",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "performance",
+          "level": 2,
+          "status": "NOT_TESTED",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "not_measured",
+            "value": null
+          },
+          "error": null,
+          "coverage": "not_measured",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "site_creation_date",
+          "level": 2,
+          "status": "NOT_TESTED",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "not_measured",
+            "value": null
+          },
+          "error": null,
+          "coverage": "not_measured",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "complete_link_coverage",
+          "level": 2,
+          "status": "NOT_TESTED",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "not_measured",
+            "value": null
+          },
+          "error": null,
+          "coverage": "not_measured",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "rendering_390",
+          "level": 4,
+          "status": "NOT_TESTED",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "viewport": 390,
+            "measurements": []
+          },
+          "error": [
+            "robots",
+            "access_error"
+          ],
+          "coverage": "incomplete",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "rendering_1366",
+          "level": 4,
+          "status": "NOT_TESTED",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "viewport": 1366,
+            "measurements": []
+          },
+          "error": [
+            "robots",
+            "access_error"
+          ],
+          "coverage": "incomplete",
+          "reliability": "unresolved"
+        },
+        {
+          "code": "resource_access",
+          "level": 3,
+          "status": "PARTIAL",
+          "source": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "evidence": {
+            "attempted": 59,
+            "ignored": []
+          },
+          "error": [
+            "robots",
+            "access_error"
+          ],
+          "coverage": "requested_resources_only",
+          "reliability": "limited"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "access": {
+            "status": "PUBLIC_CONTENT",
+            "content_read": true,
+            "code": null,
+            "basis": "html_content_no_detected_interstitial"
+          },
+          "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+          "title": "Camere e Appartamenti in Veneto | Agriturismo Rechsteiner",
+          "links": [
+            {
+              "url": "https://rechsteiner.it/contatti/",
+              "label": "Contatti",
+              "purpose": "contact"
+            },
+            {
+              "url": "https://rechsteiner.it/vigneti-e-cantina/i-vini/",
+              "label": "Vini e prodotti Rechsteiner",
+              "purpose": "offering"
+            }
+          ],
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "CAMERE E APPARTAMENTI"
+            },
+            {
+              "tag": "h2",
+              "text": "Orari Utili"
+            },
+            {
+              "tag": "h2",
+              "text": "Le Colazioni in Agriturismo"
+            }
+          ],
+          "contact_forms": 1,
+          "text_characters": 2508
+        }
+      ],
+      "observations": [
+        {
+          "id": "02b1e43386a289a928f46d36",
+          "code": "http_status",
+          "status": "PASS",
+          "severity": "info",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "http",
+            "value": 200
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "fd259c2da25df4d144c04020",
+          "code": "https",
+          "status": "PASS",
+          "severity": "moderate",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": "https"
+          },
+          "impact": "",
+          "action": "Verificare configurazione HTTPS; non implica rifacimento.",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "6fd557a9d338f50257a88fd9",
+          "code": "redirects",
+          "status": "UNKNOWN",
+          "severity": "info",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "http",
+            "value": {
+              "requested": null,
+              "final": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/"
+            }
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "UNKNOWN",
+          "measurement_status": "NOT_MEASURED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "6676ed48dc57fd8580e22d2d",
+          "code": "title",
+          "status": "PASS",
+          "severity": "minor",
+          "dimension": "CONTENT_AND_STRUCTURE",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": "Camere e Appartamenti in Veneto | Agriturismo Rechsteiner"
+          },
+          "impact": "",
+          "action": "Controllo puntuale del documento; assenza del tag non dimostra un progetto completo.",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "554c77729e8134ee0e3a9524",
+          "code": "meta_description",
+          "status": "PASS",
+          "severity": "minor",
+          "dimension": "CONTENT_AND_STRUCTURE",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": "Agriturismo Rechsteiner offre camere e appartamenti in Veneto per un'esperienza autentica tra relax, natura e tradizione locale."
+          },
+          "impact": "",
+          "action": "Controllo puntuale del documento; assenza del tag non dimostra un progetto completo.",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "83843f7397c8af07a4854dea",
+          "code": "canonical",
+          "status": "PASS",
+          "severity": "minor",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": [
+              "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/"
+            ]
+          },
+          "impact": "",
+          "action": "Controllo puntuale del documento; assenza del tag non dimostra un progetto completo.",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "c6930e22ededa39942d1af21",
+          "code": "viewport",
+          "status": "PASS",
+          "severity": "minor",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": "width=device-width, initial-scale=1, maximum-scale=1"
+          },
+          "impact": "",
+          "action": "Controllo puntuale del documento; assenza del tag non dimostra un progetto completo.",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "b916b99e73571e6747e7f272",
+          "code": "h1",
+          "status": "PASS",
+          "severity": "minor",
+          "dimension": "CONTENT_AND_STRUCTURE",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": [
+              "CAMERE E APPARTAMENTI"
+            ]
+          },
+          "impact": "",
+          "action": "Controllo puntuale del documento; assenza del tag non dimostra un progetto completo.",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "b01fb1dd33acae111544689f",
+          "code": "structured_data",
+          "status": "PASS",
+          "severity": "minor",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": [
+              {
+                "@context": "https://schema.org",
+                "@graph": [
+                  {
+                    "@type": "WebPage",
+                    "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+                    "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+                    "name": "Camere e Appartamenti in Veneto | Agriturismo Rechsteiner",
+                    "isPartOf": {
+                      "@id": "https://rechsteiner.it/#website"
+                    },
+                    "primaryImageOfPage": {
+                      "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/#primaryimage"
+                    },
+                    "image": {
+                      "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/#primaryimage"
+                    },
+                    "thumbnailUrl": "https://www.tripadvisor.it/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg",
+                    "datePublished": "2017-07-18T13:10:07+00:00",
+                    "dateModified": "2026-06-18T12:39:02+00:00",
+                    "description": "Agriturismo Rechsteiner offre camere e appartamenti in Veneto per un'esperienza autentica tra relax, natura e tradizione locale.",
+                    "breadcrumb": {
+                      "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/#breadcrumb"
+                    },
+                    "inLanguage": "it-IT",
+                    "potentialAction": [
+                      {
+                        "@type": "ReadAction",
+                        "target": [
+                          "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "ImageObject",
+                    "inLanguage": "it-IT",
+                    "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/#primaryimage",
+                    "url": "https://www.tripadvisor.it/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg",
+                    "contentUrl": "https://www.tripadvisor.it/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg"
+                  },
+                  {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/#breadcrumb",
+                    "itemListElement": [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://rechsteiner.it/"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Agriturismo",
+                        "item": "https://rechsteiner.it/agriturismo-rechsteiner/"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Camere e Appartamenti"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "WebSite",
+                    "@id": "https://rechsteiner.it/#website",
+                    "url": "https://rechsteiner.it/",
+                    "name": "Cantina Rechsteiner",
+                    "description": "Rechsteiner: vino, arte e cultura dal 1881",
+                    "publisher": {
+                      "@id": "https://rechsteiner.it/#organization"
+                    },
+                    "potentialAction": [
+                      {
+                        "@type": "SearchAction",
+                        "target": {
+                          "@type": "EntryPoint",
+                          "urlTemplate": "https://rechsteiner.it/?s={search_term_string}"
+                        },
+                        "query-input": {
+                          "@type": "PropertyValueSpecification",
+                          "valueRequired": true,
+                          "valueName": "search_term_string"
+                        }
+                      }
+                    ],
+                    "inLanguage": "it-IT"
+                  },
+                  {
+                    "@type": "Organization",
+                    "@id": "https://rechsteiner.it/#organization",
+                    "name": "Rechsteiner",
+                    "url": "https://rechsteiner.it/",
+                    "logo": {
+                      "@type": "ImageObject",
+                      "inLanguage": "it-IT",
+                      "@id": "https://rechsteiner.it/#/schema/logo/image/",
+                      "url": "",
+                      "contentUrl": "",
+                      "caption": "Rechsteiner"
+                    },
+                    "image": {
+                      "@id": "https://rechsteiner.it/#/schema/logo/image/"
+                    },
+                    "sameAs": [
+                      "https://www.facebook.com/rechsteinerwinery/",
+                      "https://www.instagram.com/rechsteinerwinery/"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "impact": "",
+          "action": "Controllo puntuale del documento; assenza del tag non dimostra un progetto completo.",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "0a67554e0776095e1ad722ad",
+          "code": "images_without_alt",
+          "status": "ISSUE",
+          "severity": "minor",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": {
+              "total": 28,
+              "missing_alt": 1
+            }
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_TECHNICAL_ISSUE"
+        },
+        {
+          "id": "3301045c232236ebe2a89cb1",
+          "code": "navigation",
+          "status": "MEASURED",
+          "severity": "info",
+          "dimension": "CONTENT_AND_STRUCTURE",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": {
+              "links": 93,
+              "commercial_links": [
+                {
+                  "url": "https://rechsteiner.it/contatti/",
+                  "label": "Contatti",
+                  "purpose": "contact"
+                },
+                {
+                  "url": "https://rechsteiner.it/vigneti-e-cantina/i-vini/",
+                  "label": "Vini e prodotti Rechsteiner",
+                  "purpose": "offering"
+                }
+              ]
+            }
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "06296c0c0f28d8de782747b1",
+          "code": "contact_forms",
+          "status": "MEASURED",
+          "severity": "info",
+          "dimension": "CONTENT_AND_STRUCTURE",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": {
+              "count": 1,
+              "submission_tested": false
+            }
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "8411bd1d8b6bb76db0a90610",
+          "code": "cta_presence",
+          "status": "MEASURED",
+          "severity": "info",
+          "dimension": "CONTENT_AND_STRUCTURE",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "html",
+            "value": {
+              "labelled_contact_paths": [
+                {
+                  "url": "https://rechsteiner.it/contatti/",
+                  "label": "Contatti",
+                  "purpose": "contact"
+                }
+              ],
+              "mailto": 2
+            }
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "MEASURED",
+          "measurement_status": "OBSERVED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "d423bbf0b407e75a07c06500",
+          "code": "responsive",
+          "status": "UNKNOWN",
+          "severity": "info",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "not_measured",
+            "value": null
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "UNKNOWN",
+          "measurement_status": "NOT_MEASURED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "aa1ccee5bd08c7af335c2cfa",
+          "code": "form_delivery",
+          "status": "UNKNOWN",
+          "severity": "info",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "not_measured",
+            "value": null
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "UNKNOWN",
+          "measurement_status": "NOT_MEASURED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "90bf08bcaec384377ba41ade",
+          "code": "performance",
+          "status": "UNKNOWN",
+          "severity": "info",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "not_measured",
+            "value": null
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "UNKNOWN",
+          "measurement_status": "NOT_MEASURED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "e9c1ac50d4f99f83cb3472e7",
+          "code": "site_creation_date",
+          "status": "UNKNOWN",
+          "severity": "info",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "not_measured",
+            "value": null
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "UNKNOWN",
+          "measurement_status": "NOT_MEASURED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        },
+        {
+          "id": "0c1bd01fa3961c2e3b562e87",
+          "code": "complete_link_coverage",
+          "status": "UNKNOWN",
+          "severity": "info",
+          "dimension": "TECHNICAL_ISSUES",
+          "evidence": {
+            "url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+            "checked_at": "2026-10-20T19:05:04.616978+00:00",
+            "content_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+            "method": "not_measured",
+            "value": null
+          },
+          "impact": "",
+          "action": "",
+          "certainty": "UNKNOWN",
+          "measurement_status": "NOT_MEASURED",
+          "journey": null,
+          "observation_type": "OBSERVED_CHECK"
+        }
+      ],
+      "attempts": [],
+      "external_solutions": [
+        {
+          "url": "https://www.idabooking.eu/Home/search1/539E73B1-471C-4A49-A98B-54253482CF12",
+          "label": "PRENOTA ORA",
+          "source_url": "https://rechsteiner.it/agriturismo-rechsteiner/camere-e-appartamenti/",
+          "checked_at": "2026-10-20T19:05:04.616978+00:00",
+          "source_hash": "2ca7923581ca2460fe6dd992429f3a415c3a204b46072a1ba836df2fcca4f60e",
+          "access": {
+            "content_read": false,
+            "status": "NOT_READ"
+          },
+          "adequacy": "UNKNOWN",
+          "text": null,
+          "target_hash": null,
+          "basis": "official_outbound_link_not_verified_ownership_or_adequacy"
+        }
+      ],
+      "design_assessment": {
+        "status": "NOT_ASSESSED",
+        "reason": "Gerarchia tipografica limitata agli stili renderizzati osservati; gusto estetico, attualità visiva e coerenza del marchio non dedotti dal solo HTML.",
+        "observation_ids": []
+      },
+      "requested_level": "DEEP",
+      "completed_level": null,
+      "coverage_limits": [
+        "$ is not defined",
+        "Dipendenze non disponibili: readiness non certificabile; attesa aggiuntiva omessa",
+        "Operazione dinamica o flusso continuo non eseguito",
+        "Pagina oltre 1,5 MB: controllo non completato",
+        "Redirect verificato via HTTP, base del documento/risorsa non renderizzata: https://rechsteiner.it/",
+        "robots.txt non verificabile: risposta di accesso HTTP 400",
+        "robots.txt non verificabile: risposta di accesso HTTP 403",
+        "robots.txt temporaneamente indisponibile: HTTP 522",
+        "robots.txt temporaneamente non raggiungibile: timed out"
+      ],
+      "browser_failure_codes": [
+        "robots",
+        "access_error"
+      ],
+      "completed_viewports": [],
+      "scores": {
+        "TECHNICAL_ISSUES": {
+          "score": 2,
+          "basis": [
+            "0a67554e0776095e1ad722ad"
+          ],
+          "meaning": "observed_issue_weight_not_sales_probability"
+        },
+        "CONTENT_AND_STRUCTURE": {
+          "score": 0,
+          "basis": [],
+          "meaning": "observed_issue_weight_not_sales_probability"
+        },
+        "EVIDENCE_CONFIDENCE": {
+          "score": 67,
+          "basis": "coverage_of_declared_checks_not_company_confidence",
+          "unknown": 6
+        }
+      },
+      "website_opportunity": "LIMITED_OR_UNPROVEN",
+      "major_evidence_ids": [],
+      "browser_status": "PARTIAL",
+      "scope": "sampled_pages_only",
+      "purchase_intent": "UNKNOWN",
+      "budget": null
+    },
+    "workflow_state": "DECISION_COMPLETE",
+    "flows": [
+      "AZIENDE"
+    ],
+    "checked_at": "2026-10-20T19:05:04.616978+00:00"
+  }
+}

@@ -24,9 +24,9 @@ def classify(pages,identity=None):
             if own and types(node)&{'GovernmentOrganization'}:
                 return result('public_body',page,str(node.get('name') or parsed['title']),'Organizzazione pubblica dichiarata nei dati del sito.')
         for name in names:
-            match=PUBLIC.search(name)
+            match=PUBLIC.search(str(name or ''))
             if match:return result('public_body',page,match[0],'Denominazione istituzionale sanitaria o pubblica; non è una PMI privata.')
-            match=DIRECTORY.search(name)
+            match=DIRECTORY.search(str(name or ''))
             if match:return result('directory',page,match[0],'Il sito si presenta come elenco di imprese, non come committente.')
     from .source_roles import publisher_identity
     from .direct_channels import digital_supplier

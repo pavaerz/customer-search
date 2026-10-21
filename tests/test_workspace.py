@@ -1,4 +1,5 @@
 import json,sqlite3,tempfile,unittest
+from contextlib import closing
 from pathlib import Path
 from sales.db import Store,encode,now
 from sales.workspace import reset_results,RESULT_TABLES
@@ -37,7 +38,7 @@ class WorkspaceResetTest(unittest.TestCase):
   payload={'domain':'old.example','status':'sent','outcome':'do_not_contact'}
   with self.store.connect() as c:c.execute('INSERT INTO legacy_records VALUES (?,?,?)',('leads',9,encode(payload)))
   old=self.root/'customers.sqlite3'
-  with sqlite3.connect(old) as c:c.execute('CREATE TABLE leads(id INTEGER PRIMARY KEY,domain TEXT,status TEXT)');c.execute("INSERT INTO leads VALUES (9,'old.example','sent')")
+  with closing(sqlite3.connect(old)) as c,c:c.execute('CREATE TABLE leads(id INTEGER PRIMARY KEY,domain TEXT,status TEXT)');c.execute("INSERT INTO leads VALUES (9,'old.example','sent')")
   self.reset();self.store.init();self.store.migrate_legacy(old)
   self.assertEqual(self.store.legacy(),[]);self.assertTrue(self.rs.suppressed({'website':'https://old.example'}))
   with self.store.connect() as c:self.assertEqual(tuple(c.execute("SELECT prior_contacted,do_not_contact FROM companies WHERE domain='old.example'").fetchone()),(1,1))

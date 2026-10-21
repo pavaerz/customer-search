@@ -26,7 +26,7 @@ class VisibleText(HTMLParser):
     @property
     def lines(self):return [' '.join(x.split()) for x in ''.join(self.parts).splitlines() if x.strip()]
 
-def exclusion(page, parsed=None):
+def exclusion(page, parsed=None, allow_legal_spa=False):
     """Return a sourced reason, never infer legal form or company size from design."""
     parsed=parsed or parse_page(page)
     host=domain(page['url']); brand=parsed.get('name') or host.split('.')[0]
@@ -74,6 +74,7 @@ def exclusion(page, parsed=None):
             base_match=bool((own_page or LEGAL.search(' '.join(visible[max(0,n-1):n+3]))) and any(re.search(r'(?<!\w)'+re.escape(base)+r'\s*$',line[:match.start()],re.I) for base in bases))
             if any(a in prefix for a in aliases) or base_match:
                 reason='S.p.A. esclusa dal target: '+line[:240];code='legal_spa';break
+    if allow_legal_spa and code=='legal_spa':reason=code=None
     if not reason:
         # These thresholds are selection rules, not a legal SME classification.
         for line in parsed['text'].splitlines():

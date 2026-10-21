@@ -1,0 +1,769 @@
+[
+  {
+    "basis": "Campaign 56 saved search results; no new web access",
+    "payload": {
+      "task": "DISCOVERY_TRIAGE_1",
+      "flow": "AZIENDE",
+      "query": "Veneto escursioni in barca prenotazione sito ufficiale",
+      "hypothesis": "Almeno un operatore propone escursioni acquistabili ma presenta un percorso digitale di prenotazione incompleto, verificabile sul sito ufficiale e sufficientemente rilevante da motivare un progetto completo.",
+      "objective": "Individuare operatori di escursioni con un possibile progetto completo di sito e prenotazione, senza attribuire loro una richiesta di sviluppo.",
+      "social_origin": null,
+      "items": [
+        {
+          "id": "75a4ddfc3012b09f3e86fe4bd00140d10800dd62fde05af6b2f70405793ccd43",
+          "url": "https://freedome.it/escursioni-in-barca/veneto/?srsltid=AU7gw4V_zZlmdEcjaeADvnhgRZ5FUkrNwVPCasKviJZ0EDqrJc_9kXcT",
+          "title": "Escursioni in barca Veneto | Prenota o regala online",
+          "description": "Naviga in sicurezza in compagnia di un capitano esperto. Scegli una delle escursioni in barca in Veneto e preparati a salpare. Prenota Online."
+        },
+        {
+          "id": "2614b911b121ebc749a0c643eb6e3c5b1e4c4696614633ed688d2adde595a4da",
+          "url": "https://www.tripadvisor.it/Attractions-g187866-Activities-c61-t167-Veneto.html",
+          "title": "I 10 MIGLIORI Giri in barca a Veneto (con i prezzi)",
+          "description": "Esplora gli affascinanti canali e la Laguna Veneziana a bordo di una barca tradizionale, per immortalare ricordi indimenticabili da una prospettiva unica."
+        },
+        {
+          "id": "a90430897282d01aebdb0f53ed7b25d138f6c35239c394dd8847ea712c49eb9c",
+          "url": "https://www.liveinup.it/esperienze/gite-in-barca/veneto?srsltid=AU7gw4Wk1RsYiwX3U66C04TQIt87bPKIFyY9MExJPO0g_Ox_da569wOB",
+          "title": "Gite in Barca Veneto | Prenota o Regala su Liveinup",
+          "description": "Prenota un'Escursione in Barca nei luoghi più belli d'Italia ; Gita in Barca sul Lago di Garda. Tour privato di 1 ora da Salò fino alla Villa Borghese · 235,00."
+        },
+        {
+          "id": "eebb9e3501f58999724cd1eeb26d9ba1b401c30cb10e5d6793f19f97bebd20b5",
+          "url": "https://www.parcodeltapo.org/pagina.php?id=223",
+          "title": "Escursioni 2026 | Parco del Delta del Po Veneto",
+          "description": "Escursioni in barca nel Parco del Delta del Po · Scano Boa fra lagune e canneti · Durata: 2 ore e mezza. Imbarco: Canarin · Il Po di Maistra e la golena di Cà ..."
+        },
+        {
+          "id": "407cbb98ccf19d697cdae451817ce765f3a6ba5ff52e3cb395e22e2e9b4fcf02",
+          "url": "https://www.vivovenetia.it/la-navigazione-a-venezia/",
+          "title": "Barca Venezia: tutti i tour giornalieri",
+          "description": "A partire da € 32 per persona (per 8 persone). Prenota il tour. TOUR IN CRUISER VINTAGE IN LAGUNA. Noleggio barca 10 posti tour Venezia. Barca 10 posti esterno."
+        },
+        {
+          "id": "b6958980560fbf90acd2e4e501f91345fdc3a5da3cfb44e7e2eac58236c9690e",
+          "url": "https://tenutagoroveneto.it/tag/escursioni-in-barca/",
+          "title": "escursioni in barca – Tenuta Goro Veneto",
+          "description": "ESCURSIONI IN BARCA NEL PARCO DEL DELTA DEL PO A Tenuta Goro Veneto puoi prenotare delle emozionanti escursioni in barca nel Parco del Delta del Po, ..."
+        },
+        {
+          "id": "79d91be23c0f984adc97891f0beae966f5f985ff063de6aa440d03b3e9e2099e",
+          "url": "https://www.marinocacciatori.it/it/",
+          "title": "Escursioni in barca ed eventi privati con la Marino Cacciatori",
+          "description": "L'agenzia, con sede a Porto Tolle (RO), dispone di una flotta di motonavi, barche a fondo piatto e catamarani, adatti a navigare anche nei fondali più bassi, ..."
+        },
+        {
+          "id": "8b96804d0c53f75946a906d7539e15dccdeb2e42f8e576eddea8836c749ba197",
+          "url": "https://www.checkyeti.com/it/boat-tours/italia/veneto/gita-barca",
+          "title": "Gite in barca Veneto: 11 offerte con i migliori ...",
+          "description": "Veneto: prenota gite in barca da 15 EUR ✓ 30+ Recensioni ✓ I migliori operatori: Venice Boat Experience, Bosetti Tours Chioggia & Il Doge di Venezia ..."
+        },
+        {
+          "id": "14cb67160f279680051c91aa29010e209ebc43a3f27a9eae6781030df7607fbf",
+          "url": "https://www.visitchioggia.com/it/da-vivere/darsene-e-nautica/escursioni-in-barca/",
+          "title": "Escursioni in barca",
+          "description": "Troverai diverse agenzie pronte ad accompagnarti alla scoperta della laguna veneta e dei suoi paesaggi unici, con gite adatte a tutte le occasioni, ..."
+        },
+        {
+          "id": "2690c3369e7b0decd6de7d7e0a0203cdefae8feaa90a02761eaebd472b58080d",
+          "url": "https://www.podeltatourism.it/it/scopri-il-territorio/escursioni-in-barca",
+          "title": "Escursioni in barca - Comacchio",
+          "description": "Proponiamo tour guidati in barca lungo il fiume Po, alla sua foce e nelle suggestive Valli di Comacchio, attraversando oasi naturalistiche di straordinaria ..."
+        }
+      ]
+    },
+    "raw_response": {
+      "items": [
+        {
+          "id": "75a4ddfc3012b09f3e86fe4bd00140d10800dd62fde05af6b2f70405793ccd43",
+          "action": "HOLD",
+          "role": "COLLECTION",
+          "quote": "Scegli una delle escursioni in barca in Veneto",
+          "reason": "La presentazione indica una raccolta regionale di esperienze prenotabili, non il sito di un singolo operatore da investigare."
+        },
+        {
+          "id": "2614b911b121ebc749a0c643eb6e3c5b1e4c4696614633ed688d2adde595a4da",
+          "action": "HOLD",
+          "role": "COLLECTION",
+          "quote": "I 10 MIGLIORI Giri in barca a Veneto (con i prezzi)",
+          "reason": "La classifica identifica una raccolta di attività, non la fonte ufficiale di un operatore."
+        },
+        {
+          "id": "a90430897282d01aebdb0f53ed7b25d138f6c35239c394dd8847ea712c49eb9c",
+          "action": "HOLD",
+          "role": "COLLECTION",
+          "quote": "Gite in Barca Veneto | Prenota o Regala su Liveinup",
+          "reason": "La presentazione come catalogo regionale di esperienze da prenotare o regalare indica una raccolta, non un singolo operatore."
+        },
+        {
+          "id": "eebb9e3501f58999724cd1eeb26d9ba1b401c30cb10e5d6793f19f97bebd20b5",
+          "action": "UNKNOWN",
+          "role": "UNKNOWN",
+          "quote": "Escursioni 2026 | Parco del Delta del Po Veneto",
+          "reason": "Non è chiaro se il Parco organizzi e venda le escursioni o pubblichi un programma di terzi. L'originale deve stabilire il soggetto responsabile e l'eventuale percorso ufficiale di prenotazione."
+        },
+        {
+          "id": "407cbb98ccf19d697cdae451817ce765f3a6ba5ff52e3cb395e22e2e9b4fcf02",
+          "action": "READ",
+          "role": "OPERATING_COMPANY",
+          "quote": "A partire da € 32 per persona (per 8 persone). Prenota il tour.",
+          "reason": "La proposta commerciale concreta merita verifica. L'originale deve chiarire il ruolo nella gestione dei tour e consentire di verificare disponibilità, prenotazione e pagamento, senza presumere carenze o una richiesta di sviluppo."
+        },
+        {
+          "id": "b6958980560fbf90acd2e4e501f91345fdc3a5da3cfb44e7e2eac58236c9690e",
+          "action": "READ",
+          "role": "OPERATING_COMPANY",
+          "quote": "A Tenuta Goro Veneto puoi prenotare delle emozionanti escursioni in barca nel Parco del Delta del Po",
+          "reason": "La descrizione collega una struttura specifica alla prenotazione di escursioni. L'originale deve stabilire se le gestisca o le intermedi e come si completi l'acquisto; il formato archivio non basta a escluderla."
+        },
+        {
+          "id": "79d91be23c0f984adc97891f0beae966f5f985ff063de6aa440d03b3e9e2099e",
+          "action": "READ",
+          "role": "OPERATING_COMPANY",
+          "quote": "dispone di una flotta di motonavi, barche a fondo piatto e catamarani",
+          "reason": "La descrizione indica un possibile operatore diretto con mezzi propri. L'originale deve confermare l'offerta acquistabile e mostrare il percorso di prenotazione, prima di ipotizzare lacune o un progetto."
+        },
+        {
+          "id": "8b96804d0c53f75946a906d7539e15dccdeb2e42f8e576eddea8836c749ba197",
+          "action": "HOLD",
+          "role": "COLLECTION",
+          "quote": "I migliori operatori: Venice Boat Experience, Bosetti Tours Chioggia & Il Doge di Venezia",
+          "reason": "Il riferimento a più operatori identifica una raccolta comparativa di offerte, non il sito ufficiale del singolo soggetto da investigare."
+        },
+        {
+          "id": "14cb67160f279680051c91aa29010e209ebc43a3f27a9eae6781030df7607fbf",
+          "action": "HOLD",
+          "role": "COLLECTION",
+          "quote": "Troverai diverse agenzie pronte ad accompagnarti alla scoperta della laguna veneta",
+          "reason": "La pagina presenta diverse agenzie del territorio anziché identificarsi come operatore delle escursioni."
+        },
+        {
+          "id": "2690c3369e7b0decd6de7d7e0a0203cdefae8feaa90a02761eaebd472b58080d",
+          "action": "READ",
+          "role": "OPERATING_COMPANY",
+          "quote": "Proponiamo tour guidati in barca lungo il fiume Po, alla sua foce e nelle suggestive Valli di Comacchio",
+          "reason": "La proposta in prima persona rende plausibile un'attività operativa da verificare. L'originale deve stabilire chi gestisce i tour, l'area effettivamente servita e la completezza del percorso di prenotazione, senza attribuire intenzioni d'acquisto."
+        }
+      ]
+    }
+  },
+  {
+    "basis": "Campaign 56 saved search results; no new web access",
+    "payload": {
+      "task": "DISCOVERY_TRIAGE_1",
+      "flow": "AGENCIES",
+      "query": "cerchiamo sviluppatore \"contratto a progetto\"",
+      "hypothesis": "Annunci di agenzie descrivono collaborazioni di sviluppo a progetto che non emergono dalle ricerche su freelance o partner tecnici.",
+      "objective": "Individuare richieste esplicite legate a incarichi tecnici, distinguendole dagli inviti permanenti.",
+      "social_origin": null,
+      "items": [
+        {
+          "id": "2ebffcd06f388a2559f58e14de2c90a1d48d8d4645923dc9163e6d037829822d",
+          "url": "https://www.moduli.it/contratto-a-progetto-esempio-9076",
+          "title": "Contratto a progetto: esempio Word, Pdf - Moduli.it",
+          "description": "Un fac simile di contratto a progetto o contratto di collaborazione a progetto, un tipo di contratto di lavoro parasubordinato che prevede lo svolgimento di uno o più progetti specifici, programmi di lavoro, o fasi di esso."
+        },
+        {
+          "id": "9f8d640eac02ec001c5a858e93bc743a397b40b12f7b2374bc9ad9d1446cd470",
+          "url": "https://www.marianiluigi.com/downloadmodulistica/72-contratto-lavoro-progetto/file",
+          "title": "Fac Simile di: - marianiluigi.com",
+          "description": "A svolgere l’attività di cui al precedente art. 6, con la speciale diligenza richiesta dalla natura dell’incarico assunto. In particolare farà buon uso della sua professionalità e farà ricorso alla propria creatività, che non subirà limitazioni da parte del Committente; il lavoratore a Progetto lavorerà in assoluta autonomia operativa, senza vincoli di orario di lavoro e di presenza ..."
+        },
+        {
+          "id": "8f4a4bfe2692a37a6e0f1c0d15700cb0088b81bd372be2615d571660e4e23dcb",
+          "url": "https://contratto-veloce.com/contratto-a-progetto-fac-simile/",
+          "title": "Contratto A Progetto Fac Simile",
+          "description": "Si prega di compilare il modulo sottostante per creare un Contratto a Progetto Fac Simile. Tutti i campi devono essere compilati affinché il contratto esprima chiaramente l’accordo tra le parti."
+        },
+        {
+          "id": "ecc587bcac2df92a7dd00e044e511ef3b81d8475affa6de7c89072970ef1791d",
+          "url": "https://www.lexdo.it/modello/contratto-collaborazione-a-progetto-cocopro/",
+          "title": "Contratto a Progetto (Co.Co.Pro.): Guida e Modello - LexDo.it",
+          "description": "Scarica subito un facsimile di Contratto a Progetto (Co.Co.Pro.) personalizzato Commissiona la realizzazione di un progetto intellettuale o manuale"
+        },
+        {
+          "id": "276e44778b525212a92a81fedacd4cab2fd9391ec3b96b27523a9efa8b103aef",
+          "url": "https://www.modellidocumenti.it/modello-contratto-a-progetto.html",
+          "title": "Il modello del Contratto a progetto: ecco il fac simile",
+          "description": "Un fac simile di un possibile contratto a progetto da poter utilizzare come modello."
+        },
+        {
+          "id": "14036b4594c0693847416b25c3ac5122c90f94998d62c34797051a3c004cb8f8",
+          "url": "https://www.studioperuzzi.com/public/BOZZA%20Contratto%20di%20collaborazione%20a%20progetto.doc",
+          "title": "BOZZA Contratto di collaborazione a progetto / a programma",
+          "description": "Egli pertanto non sarà vincolato all'osservanza di un orario prestabilito essendo libero di spostare, modificare, ampliare o ridurre l'orario di presenza a suo insindacabile giudizio ma sempre nel rispetto dell'organizzazione aziendale e dell'organigramma della tutela della salute e sicurezza sul lavoro, di cui al punto 4.3, nell'ambito delle quali la collaborazione sarà sviluppata."
+        },
+        {
+          "id": "e761c28597fd9932053a9b695e9e4a7a4f00ec37bd0e2fb910450d5bfbb5f141",
+          "url": "https://facsimilecontratto.com/lavoro-a-progetto/",
+          "title": "Fac Simile Contratto Di Lavoro A Progetto",
+          "description": "Fac Simile Contratto Di Lavoro A Progetto - Rating ⭐⭐⭐⭐⭐ 5 - 77 Opinioni - Modificabile - Formati Microsoft WORD (.docx)"
+        }
+      ]
+    },
+    "raw_response": {
+      "items": [
+        {
+          "id": "2ebffcd06f388a2559f58e14de2c90a1d48d8d4645923dc9163e6d037829822d",
+          "action": "HOLD",
+          "role": "TEMPLATE",
+          "quote": "Contratto a progetto: esempio Word, Pdf - Moduli.it",
+          "reason": "I metadati indicano un modello contrattuale, non un annuncio di collaborazione tecnica. L'originale dovrebbe contenere una richiesta concreta distinta dal facsimile per essere pertinente."
+        },
+        {
+          "id": "9f8d640eac02ec001c5a858e93bc743a397b40b12f7b2374bc9ad9d1446cd470",
+          "action": "HOLD",
+          "role": "TEMPLATE",
+          "quote": "Fac Simile di: - marianiluigi.com",
+          "reason": "Il titolo identifica un facsimile e la descrizione riporta clausole contrattuali, non una ricerca di sviluppatori. L'originale dovrebbe attestare un incarico reale, distinto dall'esempio legale."
+        },
+        {
+          "id": "8f4a4bfe2692a37a6e0f1c0d15700cb0088b81bd372be2615d571660e4e23dcb",
+          "action": "HOLD",
+          "role": "TEMPLATE",
+          "quote": "Si prega di compilare il modulo sottostante per creare un Contratto a Progetto Fac Simile.",
+          "reason": "La descrizione presenta un generatore di contratti, non un invito a collaborare. L'originale dovrebbe documentare una richiesta tecnica autonoma rispetto alla compilazione del modello."
+        },
+        {
+          "id": "ecc587bcac2df92a7dd00e044e511ef3b81d8475affa6de7c89072970ef1791d",
+          "action": "HOLD",
+          "role": "TEMPLATE",
+          "quote": "Contratto a Progetto (Co.Co.Pro.): Guida e Modello - LexDo.it",
+          "reason": "I metadati identificano una guida con modello: l'espressione sul commissionare un progetto non prova un incarico effettivo. L'originale dovrebbe distinguere un'eventuale richiesta reale dalle istruzioni contrattuali."
+        },
+        {
+          "id": "276e44778b525212a92a81fedacd4cab2fd9391ec3b96b27523a9efa8b103aef",
+          "action": "HOLD",
+          "role": "TEMPLATE",
+          "quote": "Un fac simile di un possibile contratto a progetto da poter utilizzare come modello.",
+          "reason": "La descrizione identifica esplicitamente un modello, non una richiesta di sviluppo. L'originale dovrebbe contenere un annuncio concreto separato dal facsimile per giustificare ulteriori letture."
+        },
+        {
+          "id": "14036b4594c0693847416b25c3ac5122c90f94998d62c34797051a3c004cb8f8",
+          "action": "HOLD",
+          "role": "TEMPLATE",
+          "quote": "BOZZA Contratto di collaborazione a progetto / a programma",
+          "reason": "Il titolo presenta una bozza contrattuale e la descrizione contiene clausole organizzative, non un invito di un'agenzia. L'originale dovrebbe stabilire l'esistenza di un incarico tecnico reale distinto dalla bozza."
+        },
+        {
+          "id": "e761c28597fd9932053a9b695e9e4a7a4f00ec37bd0e2fb910450d5bfbb5f141",
+          "action": "HOLD",
+          "role": "TEMPLATE",
+          "quote": "Fac Simile Contratto Di Lavoro A Progetto",
+          "reason": "I metadati presentano un facsimile modificabile, non un annuncio operativo. L'originale dovrebbe attestare una richiesta effettiva di collaborazione tecnica, anziché la disponibilità del documento."
+        }
+      ]
+    }
+  },
+  {
+    "basis": "Campaign 56 saved search results; no new web access",
+    "payload": {
+      "task": "DISCOVERY_TRIAGE_1",
+      "flow": "NEWS",
+      "query": "Veneto produttore macchinari acquisisce azienda 2026",
+      "hypothesis": "Un’acquisizione recente potrebbe aver ampliato il catalogo senza una corrispondente integrazione dei prodotti e dei percorsi di richiesta sul sito ufficiale dell’acquirente.",
+      "objective": "Identificare un produttore coinvolto in un’acquisizione che comporti un cambiamento documentato dell’offerta commerciale.",
+      "social_origin": null,
+      "items": [
+        {
+          "id": "03915f3799f5c4fec6496e3941606da9cc639c476737bcf63424a61bbf9edac9",
+          "url": "https://www.reteagevolazioni.it/bando-metalmeccanica-veneto/",
+          "title": "Bando Metalmeccanica Veneto 2026: sicurezza macchine",
+          "description": "Il Bando Metalmeccanica 2026 di Azienda Zero finanzia a fondo perduto la sicurezza dei macchinari nelle imprese metalmeccaniche venete."
+        },
+        {
+          "id": "ffd255e1c55689b025a420b3d47f5a7e2187b6d33993d2cfbe7f5e06fefc8e25",
+          "url": "https://www.regione.veneto.it/web/agricoltura-e-foreste/bandi-finanziamenti",
+          "title": "Bandi e finanziamenti - Sviluppo Rurale",
+          "description": "La Giunta regionale del Veneto, con deliberazione n. 741 del 21 luglio 2026, pubblicata sul BUR n.99 del 24 luglio 2026, ha approvato l'attivazione del bando ..."
+        },
+        {
+          "id": "daf1ab7cac95f9c525d694f3bb5eef537301e33258d9377917eb74e812210628",
+          "url": "https://www.incentivimpresa.it/bando-macchinari-innovativi/",
+          "title": "Bando Macchinari Innovativi: Chiuso, le Alternative 2026",
+          "description": "Macchinari Innovativi chiuso dal 2021: nel 2026 i macchinari li pagano Sabatini e iperammortamento. Investimenti Sostenibili 4.0 è chiuso ..."
+        },
+        {
+          "id": "30819b1bf2e871d0cf50e875473951d07ebdc8bc336f73fe38fe8ef42f981143",
+          "url": "https://www.progesa.com/it-it/bandi-0.aspx?pp=1241",
+          "title": "Bandi",
+          "description": "Con una dotazione di 5 milioni di euro, Regione Veneto vuole sostenere il riposizionamento delle imprese artigiane, mediante la promozione di nuove soluzioni, ..."
+        },
+        {
+          "id": "28b00fc32310381d8e4878fca90df11b68adef76333ede113332710ed2af8a7e",
+          "url": "https://isinetconsulting.it/risorse-utili/bando-veneto-artigiano-2026/",
+          "title": "Bando Veneto Artigiano 2026: Guida al contributo",
+          "description": "Il Veneto Artigiano 2026 è il bando regionale che eroga un contributo a fondo perduto del 30% delle spese ammissibili (macchinari, software, ..."
+        },
+        {
+          "id": "3745f6bcc61c9a3b725544d601628948a847732e4b040fdeaaf689744697e5df",
+          "url": "https://www.expoindustria.it/",
+          "title": "Expo Industria: Home",
+          "description": "Dal 27 al 30 ottobre 2026, a Vicenza, potrai scoprire prodotti e servizi, vedere le macchine in azione e confrontarti direttamente con tecnici ed esperti."
+        },
+        {
+          "id": "034507b4a4b791055c7c33d5afaa522283a43b3a8d7e5ca2a8e48eeb15bfb846",
+          "url": "https://www.venetosviluppo.it/",
+          "title": "Veneto Sviluppo",
+          "description": "Il Gruppo Veneto Sviluppo, già esistente dall'acquisizione da parte di Veneto Sviluppo S.p.A. del 100% di FVS S.G.R. S.p.A., ha trovato la sua definitiva ..."
+        },
+        {
+          "id": "73b653a8da567bf03f66bd12ee46695fecacebe85465cbdc186158d623825ab7",
+          "url": "https://www.idrobasegroup.com/it/itm-italia-entra-in-idrobase-group",
+          "title": "Idrobase acquista ITM Italia divisione Cleaning ed entra ...",
+          "description": "Novità nel “cleaning”: Idrobase accelera la crescita ed acquista ITM Italia, obbiettivo +25% di fatturato. Bruno Ferrarese, contitolare ..."
+        },
+        {
+          "id": "814c69ca99dcc8f6af49966b990b99652af9d8e1fd140d98a8bfbbd34451371c",
+          "url": "https://www.contributiregione.it/agevolazioni-imprese-edili-3-bandi-a-fondo-perduto/",
+          "title": "AGEVOLAZIONI ESCAVATORI E MACCHINE MOVIMENTO ...",
+          "description": "Approvata dal parlamento l'agevolazione che ti consente di recuperare il 20% del valore di acquisizione dei beni strumentali innovativi. Agevolazione Iper ..."
+        },
+        {
+          "id": "fe2d362067c0a476dc1af640cc1a751cf114a001a2e7818a3bbf49764034aa27",
+          "url": "https://www.selfgroupcomi.it/",
+          "title": "Self Group Comi – Produzione Macchine Termoformatrici",
+          "description": "Scopri Self Group Comi, azienda italiana con oltre 50 anni di esperienza nella produzione di macchinari per termoformatura, presse industriali, ..."
+        }
+      ]
+    },
+    "raw_response": {
+      "items": [
+        {
+          "id": "03915f3799f5c4fec6496e3941606da9cc639c476737bcf63424a61bbf9edac9",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "Bando Metalmeccanica Veneto 2026: sicurezza macchine",
+          "reason": "La metadata presenta un bando per la sicurezza dei macchinari, non un'acquisizione societaria. Non è la fonte da approfondire per documentare un cambiamento dell'offerta di un produttore."
+        },
+        {
+          "id": "ffd255e1c55689b025a420b3d47f5a7e2187b6d33993d2cfbe7f5e06fefc8e25",
+          "action": "HOLD",
+          "role": "COLLECTION",
+          "quote": "Bandi e finanziamenti - Sviluppo Rurale",
+          "reason": "La metadata identifica una raccolta di bandi e finanziamenti regionali, non un produttore o una notizia di acquisizione da verificare."
+        },
+        {
+          "id": "daf1ab7cac95f9c525d694f3bb5eef537301e33258d9377917eb74e812210628",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "Bando Macchinari Innovativi: Chiuso, le Alternative 2026",
+          "reason": "Il contenuto descritto riguarda incentivi per acquistare macchinari e relative alternative, non acquisizioni di aziende o integrazioni di catalogo."
+        },
+        {
+          "id": "30819b1bf2e871d0cf50e875473951d07ebdc8bc336f73fe38fe8ef42f981143",
+          "action": "HOLD",
+          "role": "COLLECTION",
+          "quote": "Bandi",
+          "reason": "Titolo e descrizione presentano una fonte dedicata ai bandi di sostegno alle imprese, non un evento societario pertinente all'indagine."
+        },
+        {
+          "id": "28b00fc32310381d8e4878fca90df11b68adef76333ede113332710ed2af8a7e",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "Bando Veneto Artigiano 2026: Guida al contributo",
+          "reason": "È esplicitamente una guida a un contributo regionale: fonte informativa sulle agevolazioni, non documentazione di un'acquisizione industriale."
+        },
+        {
+          "id": "3745f6bcc61c9a3b725544d601628948a847732e4b040fdeaaf689744697e5df",
+          "action": "HOLD",
+          "role": "UNRELATED_REFERENCE",
+          "quote": "potrai scoprire prodotti e servizi, vedere le macchine in azione",
+          "reason": "La metadata presenta una manifestazione espositiva, non un evento di acquisizione di un produttore. È un riferimento estraneo al cambiamento commerciale da documentare."
+        },
+        {
+          "id": "034507b4a4b791055c7c33d5afaa522283a43b3a8d7e5ca2a8e48eeb15bfb846",
+          "action": "UNKNOWN",
+          "role": "COMPANY_EVENT",
+          "quote": "dall'acquisizione da parte di Veneto Sviluppo S.p.A. del 100% di FVS S.G.R. S.p.A.",
+          "reason": "La descrizione menziona un'acquisizione, ma non chiarisce un legame con la produzione di macchinari o un cambiamento dell'offerta industriale. L'originale dovrebbe stabilire natura delle attività coinvolte, data e conseguenze commerciali dell'operazione."
+        },
+        {
+          "id": "73b653a8da567bf03f66bd12ee46695fecacebe85465cbdc186158d623825ab7",
+          "action": "READ",
+          "role": "COMPANY_EVENT",
+          "quote": "Idrobase acquista ITM Italia divisione Cleaning",
+          "reason": "È una notizia specifica di acquisizione di una divisione, plausibilmente utile a verificare l'ampliamento dell'offerta. L'originale deve stabilire data, soggetti e perimetro dell'operazione, legame con il Veneto e prodotti effettivamente aggiunti; l'eventuale mancata integrazione del catalogo e dei percorsi di richiesta resta da verificare."
+        },
+        {
+          "id": "814c69ca99dcc8f6af49966b990b99652af9d8e1fd140d98a8bfbbd34451371c",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "recuperare il 20% del valore di acquisizione dei beni strumentali innovativi",
+          "reason": "La descrizione riguarda agevolazioni per l'acquisto di beni strumentali: l'acquisizione citata non è un'operazione societaria."
+        },
+        {
+          "id": "fe2d362067c0a476dc1af640cc1a751cf114a001a2e7818a3bbf49764034aa27",
+          "action": "READ",
+          "role": "OPERATING_COMPANY",
+          "quote": "produzione di macchinari per termoformatura, presse industriali",
+          "reason": "La metadata identifica un produttore operativo, il cui sito può documentare l'offerta corrente e la storia societaria. L'originale deve stabilire se esista un'acquisizione pertinente, quando sia avvenuta, il legame territoriale e quali prodotti abbia aggiunto: lo snippet non dimostra questi elementi."
+        }
+      ]
+    }
+  },
+  {
+    "basis": "Campaign 56 saved search results; no new web access",
+    "payload": {
+      "task": "DISCOVERY_TRIAGE_1",
+      "flow": "SOCIAL",
+      "query": "\"DWI7xr4iLmi\" -site:instagram.com",
+      "hypothesis": "Una pagina ufficiale può documentare autonomamente la richiesta citata nel post.",
+      "objective": "Cercare una fonte pubblica accessibile che richiami il post indicato.",
+      "social_origin": {
+        "url": "https://www.instagram.com/p/DWI7xr4iLmi/"
+      },
+      "items": [
+        {
+          "id": "dbf7673e5153b2f88f82119ae3405384cb81b05377364f03ec69cfeaa8bcffdf",
+          "url": "https://www.idcrawl.com/username-search",
+          "title": "Username Search - Social Media Profile Lookup - IDCrawl",
+          "description": "Username search by IDCrawl. Run a reverse username lookup to uncover social media profiles, hidden profiles and real people behind a username."
+        },
+        {
+          "id": "c18290ceae58cbfeadcb7ce94efa4899317cd51349ece5d178a85dd3ec8c5b10",
+          "url": "https://tinyurl.com/",
+          "title": "URL Shortener, Branded Short Links & Analytics | TinyURL",
+          "description": "Welcome to the original link shortener — simplifying the Internet through the power of the URL since 2002. You can use branded domains for fully custom links, track link analytics, and enjoy other powerful features with our paid plans."
+        },
+        {
+          "id": "ff4a422941a6b33211f03a85d8f8e045763e1434aa8745bab9ff62bbcbbba7e0",
+          "url": "https://backtweets.com/",
+          "title": "BackTweets - search tweets and social posts, trace any link",
+          "description": "Search public tweets and posts across X, Reddit, LinkedIn and 17 more networks, or paste any link to see where it travels. Free, no account."
+        },
+        {
+          "id": "c69093f2acedf7c03c2d1e3c0a3cda7ca6903431343b8f05248f82dc57f525c1",
+          "url": "https://alertvin.com/",
+          "title": "AlertVIN – VIN Database",
+          "description": "2025 Chevrolet Honda Kia Nissan RAM Tesla Toyota 2024 Acura Audi BMW Buick Chevrolet Ford Freightliner Genesis GMC Honda Hyundai Infiniti Jeep Kawasaki Kenworth Kia Lexus Mazda Mercedes-Benz Mitsubishi Nissan Peterbilt Porsche RAM Subaru Tesla Toyota Volkswagen Volvo Yamaha 2023 Acura Audi BMW Buick Can-Am Chevrolet Chrysler Dodge Ford Forest River Freightliner Genesis GMC Grand Design ..."
+        },
+        {
+          "id": "e86dc688ab81ea33160e441daa3d89230ddef35fe87c9e80776b93f5fcca05af",
+          "url": "https://toolzu.com/search-instagram-profiles/",
+          "title": "Free Search Instagram Profiles - Toolzu",
+          "description": "Instagram search users by name and bio. 8+ filters for exact search and immediate results. Use an Instagram search for free"
+        },
+        {
+          "id": "d2738e2b0c383963edbd7e301de9077f4cfaaa8930720c2f67fbc5ce16a606d5",
+          "url": "https://www.firesticktricks.com/best-downloader-codes.html",
+          "title": "Best Downloader Codes – All You Need to Know (2026)",
+          "description": "What Are Downloader Codes Exactly? Let me simplify it for you. Downloader codes are shortened URLs that simplify app downloads. These codes work with apps like Downloader by AFTVnews. When you enter a code in the Downloader app, it takes you directly to a specific web address where you can download an APK (Android application) file. Think of these codes like shortcuts. Instead of typing out a ..."
+        },
+        {
+          "id": "62f1b40df98c5e271cccb6b61232ec05d39379bcc01ce73fc698e304d6efcf03",
+          "url": "https://countercurrents.org/2003/06/women-soldiers-in-communist-party-of-nepal-maoist/",
+          "title": "Women soldiers in Communist Party of Nepal (Maoist)",
+          "description": "The girl had a soft, childish face and a singsong voice. “What do you think they will do?” she asked the driver of our pickup truck. “The army will recognise us at once if we go by ourselves."
+        }
+      ]
+    },
+    "raw_response": {
+      "items": [
+        {
+          "id": "dbf7673e5153b2f88f82119ae3405384cb81b05377364f03ec69cfeaa8bcffdf",
+          "action": "HOLD",
+          "role": "SUPPLIER_OFFER",
+          "quote": "Run a reverse username lookup to uncover social media profiles",
+          "reason": "I metadati presentano uno strumento generico di ricerca utenti, non una menzione specifica del post. Per recuperare il riferimento serve una fonte che documenti il collegamento al post indicato."
+        },
+        {
+          "id": "c18290ceae58cbfeadcb7ce94efa4899317cd51349ece5d178a85dd3ec8c5b10",
+          "action": "HOLD",
+          "role": "SUPPLIER_OFFER",
+          "quote": "Welcome to the original link shortener",
+          "reason": "È presentato un servizio di abbreviazione dei link, non una pagina che richiami il post. La fonte originale dovrebbe stabilire un collegamento specifico con il post e documentare l'eventuale richiesta."
+        },
+        {
+          "id": "ff4a422941a6b33211f03a85d8f8e045763e1434aa8745bab9ff62bbcbbba7e0",
+          "action": "HOLD",
+          "role": "SUPPLIER_OFFER",
+          "quote": "Search public tweets and posts across X, Reddit, LinkedIn and 17 more networks",
+          "reason": "I metadati descrivono un motore di ricerca sociale generico, non un risultato specifico relativo al post. L'originale utile deve mostrare una menzione riconoscibile del post indicato; la capacità di cercarlo non ne conferma il recupero."
+        },
+        {
+          "id": "c69093f2acedf7c03c2d1e3c0a3cda7ca6903431343b8f05248f82dc57f525c1",
+          "action": "HOLD",
+          "role": "UNRELATED_REFERENCE",
+          "quote": "AlertVIN – VIN Database",
+          "reason": "Titolo e descrizione identificano una banca dati automobilistica, un riferimento estraneo all'indagine sul post. Una fonte pertinente dovrebbe stabilire il collegamento con quel preciso post, non soltanto comparire nella ricerca."
+        },
+        {
+          "id": "e86dc688ab81ea33160e441daa3d89230ddef35fe87c9e80776b93f5fcca05af",
+          "action": "HOLD",
+          "role": "SUPPLIER_OFFER",
+          "quote": "Instagram search users by name and bio.",
+          "reason": "È uno strumento generico per cercare profili Instagram, non una menzione del contenuto richiesto. La fonte originale dovrebbe identificare il post specifico e documentare autonomamente l'eventuale richiesta citata."
+        },
+        {
+          "id": "d2738e2b0c383963edbd7e301de9077f4cfaaa8930720c2f67fbc5ce16a606d5",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "What Are Downloader Codes Exactly?",
+          "reason": "La descrizione identifica una guida sui codici per scaricare applicazioni, non una fonte sul post. Per questa indagine l'originale deve documentare un richiamo specifico al post indicato."
+        },
+        {
+          "id": "62f1b40df98c5e271cccb6b61232ec05d39379bcc01ce73fc698e304d6efcf03",
+          "action": "HOLD",
+          "role": "UNRELATED_REFERENCE",
+          "quote": "Women soldiers in Communist Party of Nepal (Maoist)",
+          "reason": "Titolo e descrizione presentano un articolo sulle combattenti maoiste in Nepal, un riferimento estraneo all'indagine. Una fonte utile dovrebbe stabilire esplicitamente il nesso con il post indicato e con il suo contenuto."
+        }
+      ]
+    }
+  },
+  {
+    "basis": "Campaign 56 saved search results; no new web access",
+    "payload": {
+      "task": "DISCOVERY_TRIAGE_1",
+      "flow": "STARTUPS",
+      "query": "startup \"cerco sviluppatore\" MVP -site:linkedin.com",
+      "hypothesis": "Esiste una startup identificabile che cerca uno sviluppatore esterno per un MVP non ancora completato.",
+      "objective": "Individuare una richiesta del fondatore per sviluppare un MVP, distinguendola da offerte di fornitori.",
+      "social_origin": null,
+      "items": [
+        {
+          "id": "138e81ff5c9cbe9192f2533d0bc43d9875e362393c5f0b5f5df6cbc1da838ab0",
+          "url": "https://www.freelancer.com/projects/web-development/sviluppo-mvp-web-app-startup",
+          "title": "Sviluppo MVP Web App Startup - Freelancer",
+          "description": "PHP & Web Development Projects for €250-750 EUR. Cerco sviluppatore serio e pratico per realizzare un MVP di una web-app (non app store) orientata a task/reward. Stack p"
+        },
+        {
+          "id": "a4377266692abd1f9c15561c1acbbf9ff4acf3e53c5b7d21b6b9e019e1567dac",
+          "url": "https://www.marianomatera.dev/blog/mvp-startup-guida-sviluppo-2025",
+          "title": "MVP per Startup: Come Sviluppare un Prodotto Minimo Viabile",
+          "description": "Guida completa allo sviluppo MVP per startup nel 2025. Cos'è un MVP, quanto costa, tempi di sviluppo, errori da evitare e come validare la tua idea di business."
+        },
+        {
+          "id": "7b56a8afdb953a7308d959ee6b00290183afb86488c1ba55fc4929eb67474ae2",
+          "url": "https://jreadydev.com/startup/mvp/",
+          "title": "MVP startup: cos'è, come svilupparlo e quanto costa - Jready",
+          "description": "Guida completa all'MVP per startup italiane: cos'è, differenza con prototipo, costi reali e come svilupparlo"
+        },
+        {
+          "id": "a8974040d03d1f5830ecf45ddbb071f1ed7a69c2a251c4888b635cccb5040882",
+          "url": "https://www.giannimessina.it/2026/06/17/mvp-minimum-viable-product-cose-come-crearlo-e-gli-esempi-di-startup-che-hanno-avuto-successo/",
+          "title": "MVP (Minimum Viable Product): cos’è, come crearlo e gli ...",
+          "description": "In questa guida scoprirai cos’è un MVP, perché è fondamentale per validare un’idea imprenditoriale, come realizzarlo e quali sono gli esempi più famosi di startup che hanno iniziato proprio da un MVP."
+        },
+        {
+          "id": "b1a1b6bf5e7318186bb768f711dc53eba50b92dee476a8bed059c85b95d2a9a8",
+          "url": "https://davidecariola.it/it/blog/mvp-cose-come-costruirlo-e-validarlo-con-successo",
+          "title": "MVP: cos'è, come costruirlo e validarlo con successo",
+          "description": "Scopri cos'è un MVP, come costruirlo e validarlo senza sprechi. Guida pratica con esempi reali per startup, founder e micro-imprenditori digitali."
+        },
+        {
+          "id": "f597cb7e74ad1fb11ece31c2293511f09e8e3c841ea7856bd4200ec8d8f88442",
+          "url": "https://agency.ernesto.it/mvp-strategia-startup-italiane/",
+          "title": "MVP: Strategia Vincente per Startup - agency.ernesto.it",
+          "description": "Creare un MVP è essenziale per le startup italiane. Scopri come sviluppare il tuo prodotto minimo per emergere nel mercato."
+        },
+        {
+          "id": "29f775e194e55d9fd28996e76a4608260a55e5ae296f790272be0ff5306ca9d8",
+          "url": "https://www.startupmag.it/mvp/",
+          "title": "MVP: cos'è e a cosa serve | StartUp Magazine",
+          "description": "MVP (Minimum Viable Product): cos’è e a cosa serve nel post a cura di StartUp Mag Nel mondo delle startup si deve curare ogni minimo dettaglio utile per fare in modo che la propria idea di business possa superare indenne le prime fasi di vita e prosperare. Per fare questo il Minimum Viable Product (MVP) riveste un ruolo fondamentale."
+        }
+      ]
+    },
+    "raw_response": {
+      "items": [
+        {
+          "id": "138e81ff5c9cbe9192f2533d0bc43d9875e362393c5f0b5f5df6cbc1da838ab0",
+          "action": "READ",
+          "role": "POSSIBLE_REQUEST",
+          "quote": "Cerco sviluppatore serio e pratico per realizzare un MVP di una web-app",
+          "reason": "Il metadata suggerisce una richiesta concreta di sviluppo esterno. L'originale deve stabilire identità del committente e della startup, eventuale ruolo di fondatore, stato non completato dell'MVP e attualità della richiesta."
+        },
+        {
+          "id": "a4377266692abd1f9c15561c1acbbf9ff4acf3e53c5b7d21b6b9e019e1567dac",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "Guida completa allo sviluppo MVP per startup nel 2025.",
+          "reason": "Il metadata identifica una guida esplicativa, non una richiesta di un fondatore. Per sostenere l'ipotesi, l'originale dovrebbe documentare una distinta richiesta attribuibile a una startup identificabile."
+        },
+        {
+          "id": "7b56a8afdb953a7308d959ee6b00290183afb86488c1ba55fc4929eb67474ae2",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "Guida completa all'MVP per startup italiane",
+          "reason": "La descrizione presenta una guida su definizione, costi e sviluppo dell'MVP. Non è una fonte prioritaria per questa indagine; l'originale dovrebbe contenere una richiesta concreta e attribuita, distinta dai consigli generali."
+        },
+        {
+          "id": "a8974040d03d1f5830ecf45ddbb071f1ed7a69c2a251c4888b635cccb5040882",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "In questa guida scoprirai cos’è un MVP",
+          "reason": "Il metadata identifica una guida con esempi di startup, che non costituiscono di per sé richieste di sviluppo. L'originale dovrebbe stabilire una specifica richiesta attuale di un fondatore per un MVP ancora da completare."
+        },
+        {
+          "id": "b1a1b6bf5e7318186bb768f711dc53eba50b92dee476a8bed059c85b95d2a9a8",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "Guida pratica con esempi reali per startup, founder e micro-imprenditori digitali.",
+          "reason": "Il contenuto è presentato come guida pratica, non come richiesta del committente. L'originale dovrebbe documentare una distinta startup identificabile che cerca sviluppo esterno per sostenere l'ipotesi."
+        },
+        {
+          "id": "f597cb7e74ad1fb11ece31c2293511f09e8e3c841ea7856bd4200ec8d8f88442",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "Scopri come sviluppare il tuo prodotto minimo per emergere nel mercato.",
+          "reason": "Il metadata presenta contenuti esplicativi rivolti alle startup, anziché una richiesta di sviluppo. L'originale dovrebbe stabilire l'esistenza di una specifica richiesta attribuita a un fondatore, distinta dal contenuto informativo."
+        },
+        {
+          "id": "29f775e194e55d9fd28996e76a4608260a55e5ae296f790272be0ff5306ca9d8",
+          "action": "HOLD",
+          "role": "INFORMATIONAL",
+          "quote": "MVP: cos'è e a cosa serve | StartUp Magazine",
+          "reason": "Il titolo e la descrizione identificano un articolo introduttivo sul ruolo dell'MVP. L'originale dovrebbe documentare una richiesta concreta di una startup identificabile, non soltanto spiegazioni generali, per contribuire all'indagine."
+        }
+      ]
+    }
+  },
+  {
+    "basis": "Previously saved manually chosen diagnostic query; NOT autonomous discovery",
+    "payload": {
+      "task": "DISCOVERY_TRIAGE_1",
+      "flow": "AGENCIES",
+      "query": "\"lavora con noi\" \"freelance\" \"frontend\" -filetype:pdf",
+      "hypothesis": "",
+      "objective": "Find original technical collaboration invitations. Dates and openness require original reading.",
+      "social_origin": null,
+      "items": [
+        {
+          "id": "588000d5ed91672d47943e1be6ff6d278c03c403fce2585b0a2b5e8520b1d019",
+          "url": "https://brainylabs.it/it/jobs/frontend-developer",
+          "title": "Frontend Developer — Lavora con noi",
+          "description": "Esperienza in ambito di ottimizzazione codice e performance frontend ... Offerta commisurata all'esperienza; possibili collaborazioni freelance. ... Lavora con noi ..."
+        },
+        {
+          "id": "4ec302a83230e8d3ff478cdf80487969293ea32a95f3e25d6409a2ce947cd642",
+          "url": "https://www.developerway.it/developers-freelance",
+          "title": "Lavoro Freelance per Developer e Programmatori",
+          "description": "Cerchi lavoro freelance come developer? Entra gratuitamente nel network DeveloperWay e ricevi opportunità, progetti full remote e supporto dedicato."
+        },
+        {
+          "id": "ad500bf422254122123ac9f9b30a6b43f4b7576806a066131d53d9502a770e54",
+          "url": "https://synextya.com/lavora-con-noi/",
+          "title": "Lavora con noi | Entra a far parte del team di ...",
+          "description": "Posizioni aperte · IT Business Analyst Freelance Senior · Backend Developer · Frontend Developer · Junior Frontend Developer · Junior backend Developer · Assistant ..."
+        },
+        {
+          "id": "7ac8e360af06fb8f62ba30cc56af10f992c912f460f909f8b0920218c5b5712e",
+          "url": "https://www.e-leads.it/fullstack-web-developer/",
+          "title": "Freelance fullstack web developer (mid-level) - E-Leads",
+          "description": "Programma Affiliati. Lavora con noi. Freelance fullstack web developer (mid-level) - possibilità remoto. ‍♂️ NOI. Ciao, siamo E-leads, un marketplace di ..."
+        },
+        {
+          "id": "ffb552707588eddb1e80845b27424863dff6d8f748f4e77a0c8f79498e03c017",
+          "url": "https://aulab.it/offerte-di-lavoro",
+          "title": "Lavora con noi",
+          "description": "... frontend developer esperto in React ... Siamo alla ricerca di un docente esperto in Project Management per ampliare il nostro team di docenti freelance."
+        },
+        {
+          "id": "8c7720172478af5f6065acf5d0439385eb6ca0550bd2bf1223f507fd63e9d00f",
+          "url": "https://it.indeed.com/q-frontend-remoto-offerte-lavoro.html",
+          "title": "Oltre 100 offerte di lavoro: Frontend Remoto, 20 ottobre 2026",
+          "description": "Fullstack Developer FREELANCE | Java, Angular, React ... Esperienza con framework frontend Angular (TypeScript) e/o React. Si occuperà dello sviluppo e della ..."
+        },
+        {
+          "id": "e9900e9ec643d3b8da94584d47b9403e83808ab64821e9edd7dfe6f9d660967b",
+          "url": "https://www.jampaa.it/lavora-con-noi/",
+          "title": "Lavora con noi",
+          "description": "Design frontend: progettazione grafica di interfacce web e mobile (dalla ... Tipologia contrattuale: collaborazione Freelance (Partita IVA / a progetto ..."
+        },
+        {
+          "id": "a14ac79aa79320cd3e2b586f87ec8cc786a1139e27ae0308cd178fbca4f7df1f",
+          "url": "https://www.edos.it/lavora-con-noi/full-stack-developer/",
+          "title": "Full Stack Developer · Lavora con noi - Edos",
+          "description": "Cosa cerchiamo · 5+ anni di esperienza in sviluppo full stack · Frontend: React o Vue. · Backend: Node. · Database: PostgreSQL o MySQL, esperienza con query ..."
+        },
+        {
+          "id": "36f6dfe6b539c24e08ded9129c3ec04ca1556aea699ae3bbc0b0c6b31d717ac1",
+          "url": "https://www.glassdoor.it/Lavoro/milano-frontend-developer-lavori-SRCH_IL.0,6_IC2802090_KO7,25.htm",
+          "title": "79 offerte di lavoro per frontend developer, Milano - Glassdoor",
+          "description": "Frontend Developer. Milano. In cambio, offriamo un ambiente di lavoro stimolante, una cultura ... Lavora con noi. Inserzionisti · Carriere. Scarica l'app. Italia ..."
+        },
+        {
+          "id": "108b225b11b488adf54c954ba40226a0efdad57b575bb4238896c3818ba9dcee",
+          "url": "https://www.adviva.it/job/",
+          "title": "Lavora con noi - Adviva",
+          "description": "Instauriamo collaborazioni continuative con partner esterni e freelance in questi ambiti: Sviluppo WordPress Frontend e Backend; Sviluppo PrestaShop Frontend e ..."
+        }
+      ]
+    },
+    "raw_response": {
+      "items": [
+        {
+          "id": "588000d5ed91672d47943e1be6ff6d278c03c403fce2585b0a2b5e8520b1d019",
+          "action": "READ",
+          "role": "POSSIBLE_INVITATION",
+          "quote": "possibili collaborazioni freelance",
+          "reason": "Explicitly suggests external technical collaboration. Read the original to establish the role's scope, collaboration terms, date and current openness."
+        },
+        {
+          "id": "4ec302a83230e8d3ff478cdf80487969293ea32a95f3e25d6409a2ce947cd642",
+          "action": "HOLD",
+          "role": "COLLECTION",
+          "quote": "Entra gratuitamente nel network DeveloperWay e ricevi opportunità",
+          "reason": "The metadata describes an opportunity-distribution network rather than a direct technical collaboration invitation from an operator."
+        },
+        {
+          "id": "ad500bf422254122123ac9f9b30a6b43f4b7576806a066131d53d9502a770e54",
+          "action": "READ",
+          "role": "POSSIBLE_INVITATION",
+          "quote": "Posizioni aperte · IT Business Analyst Freelance Senior · Backend Developer · Frontend Developer",
+          "reason": "An apparent company careers page lists technical roles and a freelance position. The original must establish which roles accept external collaborators, their scope and current openness."
+        },
+        {
+          "id": "7ac8e360af06fb8f62ba30cc56af10f992c912f460f909f8b0920218c5b5712e",
+          "action": "READ",
+          "role": "POSSIBLE_INVITATION",
+          "quote": "Freelance fullstack web developer (mid-level) - possibilità remoto.",
+          "reason": "A specific freelance technical role warrants original reading. Establish the contracting entity, responsibilities, collaboration terms, date and whether applications remain open."
+        },
+        {
+          "id": "ffb552707588eddb1e80845b27424863dff6d8f748f4e77a0c8f79498e03c017",
+          "action": "READ",
+          "role": "POSSIBLE_INVITATION",
+          "quote": "frontend developer esperto in React",
+          "reason": "The apparent employer page mentions a technical role alongside freelance teaching recruitment. Read to distinguish development from teaching opportunities and establish external collaboration eligibility and current openness."
+        },
+        {
+          "id": "8c7720172478af5f6065acf5d0439385eb6ca0550bd2bf1223f507fd63e9d00f",
+          "action": "HOLD",
+          "role": "COLLECTION",
+          "quote": "Oltre 100 offerte di lavoro: Frontend Remoto, 20 ottobre 2026",
+          "reason": "This is an aggregated job-search results page, not an original operator's collaboration invitation."
+        },
+        {
+          "id": "e9900e9ec643d3b8da94584d47b9403e83808ab64821e9edd7dfe6f9d660967b",
+          "action": "READ",
+          "role": "POSSIBLE_INVITATION",
+          "quote": "Tipologia contrattuale: collaborazione Freelance (Partita IVA / a progetto",
+          "reason": "Explicit freelance collaboration language accompanies frontend interface work. The original must establish whether the invitation concerns design, implementation or both, plus its date and current openness."
+        },
+        {
+          "id": "a14ac79aa79320cd3e2b586f87ec8cc786a1139e27ae0308cd178fbca4f7df1f",
+          "action": "READ",
+          "role": "POSSIBLE_INVITATION",
+          "quote": "Full Stack Developer · Lavora con noi - Edos",
+          "reason": "A specific technical recruitment page merits reading even without explicit freelance terms. Establish whether external collaboration is accepted, the engagement scope and current openness."
+        },
+        {
+          "id": "36f6dfe6b539c24e08ded9129c3ec04ca1556aea699ae3bbc0b0c6b31d717ac1",
+          "action": "HOLD",
+          "role": "COLLECTION",
+          "quote": "79 offerte di lavoro per frontend developer, Milano - Glassdoor",
+          "reason": "The metadata identifies an aggregated job collection rather than an original technical collaboration invitation."
+        },
+        {
+          "id": "108b225b11b488adf54c954ba40226a0efdad57b575bb4238896c3818ba9dcee",
+          "action": "READ",
+          "role": "POSSIBLE_INVITATION",
+          "quote": "Instauriamo collaborazioni continuative con partner esterni e freelance",
+          "reason": "Explicit acceptance of external collaborators for technical development warrants reading. The original must establish supported disciplines, collaboration requirements, date and whether the invitation remains active."
+        }
+      ]
+    }
+  }
+]

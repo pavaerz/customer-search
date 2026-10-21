@@ -1,0 +1,1426 @@
+{
+  "provenance": "Campagna 32, dati salvati reali. Nessuna risposta invalida grezza disponibile.",
+  "filters": {
+    "target": "all",
+    "agent_version": "6.0",
+    "commercial_engines": [
+      "AZIENDE",
+      "AGENCIES",
+      "STARTUPS"
+    ],
+    "mode": "deep",
+    "work_budget": {
+      "max_pages": 2,
+      "max_reads": 6,
+      "max_browser_pages": 3,
+      "max_candidates_per_engine": 60,
+      "browser_sample_percent": 25,
+      "browser_timeout_ms": 20000,
+      "browser_total_seconds": 120,
+      "browser_max_resources": 60,
+      "max_queries_per_engine": 24,
+      "max_provider_requests": 36,
+      "max_serper_credits": 36,
+      "max_http_reads": 450,
+      "max_followups": 12,
+      "max_browser_runs": 4,
+      "max_runtime_seconds": 1800
+    },
+    "regions": [
+      "Veneto",
+      "Lombardia",
+      "Piemonte",
+      "Emilia-Romagna",
+      "Liguria",
+      "Friuli-Venezia Giulia",
+      "Trentino-Alto Adige",
+      "Valle d’Aosta",
+      "Toscana"
+    ],
+    "max_job_age_days": 14,
+    "agent_settings": {
+      "exploration_percent": 25,
+      "memory_hours": 24,
+      "max_verification_depth": 3
+    },
+    "commercial": {
+      "ai": {
+        "enabled": true,
+        "provider": "REMOTE",
+        "model": "gpt-5.4-mini",
+        "mode": "shadow",
+        "endpoint": "https://api.openai.com/v1/chat/completions",
+        "timeout": 30,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 1000,
+        "max_calls_per_campaign": 20,
+        "max_calls_per_engine": 8,
+        "max_calls_per_candidate": 1,
+        "max_estimated_cost": 1,
+        "max_concurrent_requests": 1,
+        "max_retries": 0,
+        "input_cost_per_million": 0.75,
+        "output_cost_per_million": 4.5,
+        "cache_ttl_hours": 24
+      }
+    },
+    "search_version": "5.0",
+    "demand_version": "5.1"
+  },
+  "plan": {
+    "reason": "Need distinct, evidence-seeking queries aimed at concrete digital projects or company change signals in the target regions, while avoiding repeat strategies and low-signal recruiter/candidate queries.",
+    "queries": [
+      {
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "objective": "Identify concrete published digital projects that reveal the actual client/company and project scope.",
+        "hypothesis": "Agency and studio portfolio pages may name the requesting company and describe a complete web/ecommerce project with enough detail to infer need.",
+        "missing": "Named company, project type, and evidence of a complete digital initiative.",
+        "expected_source": "Agency portfolio pages, case studies, project pages on official domains.",
+        "success": "Find a project page that explicitly names the company and describes deliverables like website, ecommerce, UX, integration, or migration.",
+        "stop_condition": "Stop if results are only agency self-promotion without client names or project specifics.",
+        "region": "remote Italy",
+        "page": 1,
+        "strategy_id": "official/agency portfolio discovery",
+        "expected_cost": {
+          "serper_requests": 1,
+          "http_reads": "successive, entro quota"
+        }
+      },
+      {
+        "query": "site:*.it (\"lavora con noi\" OR careers OR jobs OR vacancies) (Magento OR WooCommerce OR Shopify OR React OR frontend OR web developer) (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR Toscana) -linkedin -indeed -glassdoor",
+        "strategy": "direct employer openings",
+        "objective": "Find companies with active digital hiring needs in the target regions.",
+        "hypothesis": "Companies with explicit technical vacancies are more likely to have an immediate web/app/ecommerce need.",
+        "missing": "Employer name, role, and technical stack tied to the company itself.",
+        "expected_source": "Official careers pages on company domains.",
+        "success": "Return a job page naming the employer and a relevant digital role with stack or responsibilities.",
+        "stop_condition": "Stop if only job aggregators or generic listings appear.",
+        "region": "remote Italy",
+        "page": 1,
+        "strategy_id": "direct employer openings",
+        "expected_cost": {
+          "serper_requests": 1,
+          "http_reads": "successive, entro quota"
+        }
+      },
+      {
+        "query": "site:*.it (\"nuovo sito\" OR \"restyling sito\" OR \"rifacimento e-commerce\" OR \"digital transformation\" OR \"ERP\" OR \"CRM\") (azienda OR società) (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Toscana)",
+        "strategy": "change-signal search",
+        "objective": "Detect companies publicly announcing change initiatives that often create web/app work.",
+        "hypothesis": "Press releases or news posts announcing rebranding, digital transformation, or system changes can indicate a concrete implementation need.",
+        "missing": "Documented business change plus an explicit digital gap or implementation context.",
+        "expected_source": "Company newsrooms, press releases, or official announcements.",
+        "success": "Find a dated announcement from the company mentioning a website, ecommerce, platform, or integration project.",
+        "stop_condition": "Stop if announcements are only corporate finance/news with no digital component.",
+        "region": "remote Italy",
+        "page": 1,
+        "strategy_id": "change-signal search",
+        "expected_cost": {
+          "serper_requests": 1,
+          "http_reads": "successive, entro quota"
+        }
+      }
+    ],
+    "chosen": {
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "strategy": "official/agency portfolio discovery",
+      "objective": "Identify concrete published digital projects that reveal the actual client/company and project scope.",
+      "hypothesis": "Agency and studio portfolio pages may name the requesting company and describe a complete web/ecommerce project with enough detail to infer need.",
+      "missing": "Named company, project type, and evidence of a complete digital initiative.",
+      "expected_source": "Agency portfolio pages, case studies, project pages on official domains.",
+      "success": "Find a project page that explicitly names the company and describes deliverables like website, ecommerce, UX, integration, or migration.",
+      "stop_condition": "Stop if results are only agency self-promotion without client names or project specifics.",
+      "region": "remote Italy",
+      "page": 1,
+      "strategy_id": "official/agency portfolio discovery",
+      "expected_cost": {
+        "serper_requests": 1,
+        "http_reads": "successive, entro quota"
+      },
+      "selection": "exploitation",
+      "memory_adjustment": 0
+    },
+    "basis": "model_plan_with_memory_ranking"
+  },
+  "search_results": [
+    {
+      "url": "https://www.assolombarda.it/servizi/startup/informazioni/startup-e-scaleup-cleantech-nuova-call-per-progetti-innovativi-in-lombardia",
+      "title": "Startup cleantech: nuova call per progetti innovativi in ...",
+      "snippet": "... progetti innovativi in Lombardia. Home · Servizi · Startup · Informazioni; Startup cleantech: nuova call per progetti innovativi in Lombardia. Startup · Startup.",
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "executed_query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook -filetype:pdf",
+      "reason": "analysis_unavailable"
+    },
+    {
+      "url": "https://progeu.regione.emilia-romagna.it/it",
+      "title": "Programmi e progetti europei e internazionali: Home page - IT",
+      "snippet": "Programmi e progetti · Ada · Alleanza delle Regioni europee per la sicurezza idrica e l'adattamento ai cambiamenti climatici · Alleanza per sviluppo agricoltura ...",
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "executed_query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook -filetype:pdf",
+      "reason": "analysis_unavailable"
+    },
+    {
+      "url": "https://www.cssudine.it/progetti/42/dialoghi-residenze-delle-arti-performative-a-villa-manin2015-2017/104/residenza-16-sotterraneo",
+      "title": "Residenza 16 - Sotterraneo | CSS Teatro stabile di ...",
+      "snippet": "... progetti; Artistici; Collaborazioni; Formazione; Laboratori; Sociale; Teatro ... Friuli Venezia Giulia menu. CSS. Chi siamo. Storia, visione e missione · Organi ...",
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "executed_query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook -filetype:pdf",
+      "reason": "analysis_unavailable"
+    },
+    {
+      "url": "https://www.atsliguria.it/progetti/progetti-finanziati-fondi-pubblici.html",
+      "title": "Progetti finanziati da fondi pubblici",
+      "snippet": "Progetti · Home · Progetti; Altri progetti con finanziamenti pubblici. Progetti finanziati da fondi pubblici. Pagina in costruzione. Logo ATS Liguria. SEDE.",
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "executed_query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook -filetype:pdf",
+      "reason": "analysis_unavailable"
+    },
+    {
+      "url": "https://www.ecocamere.it/progetti/piemonte",
+      "title": "Unioncamere Piemonte",
+      "snippet": "Unioncamere Piemonte segnala una nuova linea di finanziamento per progetti in linea con gli obiettivi del Green Deal europeo e dell'Agenda ONU 2030. Energia ...",
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "executed_query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook -filetype:pdf",
+      "reason": "Analisi semantica: lettura mirata"
+    },
+    {
+      "url": "https://www.arpal.liguria.it/attivita-e-servizi/progetti-europei.html",
+      "title": "Progetti europei",
+      "snippet": "Progetti europei. Cerca / Filtra. Concluso/In corso. - Qualsiasi -, Conclusi (23) ... tel +39 010 64371 - arpal@pec.arpal.liguria.it. C.F. e P.IVA ...",
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "executed_query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook -filetype:pdf",
+      "reason": "Fonte editoriale: non una richiesta."
+    },
+    {
+      "url": "https://pie.camcom.it/contatti/area-progetti-e-sviluppo-del-territorio",
+      "title": "Area progetti e sviluppo del territorio | Unioncamere Piemonte",
+      "snippet": "Area progetti e sviluppo del territorio. Area progetti e sviluppo del territorio. Indirizzo. Via Pomba, 23 - 10123 Torino. Orari. Da Lunedì a Giovedì: 9.00 ...",
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "executed_query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook -filetype:pdf",
+      "reason": "Interpretazione della fonte: DIRECTORY"
+    },
+    {
+      "url": "https://www.minddesign.it/studio.aspx",
+      "title": "Mind Design Web Agency | Studio",
+      "snippet": "Mind Design | Web Agency Piombino Toscana: Creazione Siti Web/Siti Internet Responsive Adattivi, Realizzazione Siti Ecommerce ... progetti, portali e ...",
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "executed_query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook -filetype:pdf",
+      "reason": "Interpretazione della fonte: SUPPLIER_OFFER"
+    },
+    {
+      "url": "https://www.cremonaoggi.it/2026/05/22/europa-project-week-a-ottobre-la-toscana-capitale-dei-progetti-europei/",
+      "title": "\"Europa Project Week\", a ottobre la Toscana capitale dei ...",
+      "snippet": "... Toscana capitale dei progetti europei. FIRENZE (ITALPRESS) – Dal 20 al 22 ottobre la Fortezza da Basso di Firenze ospiterà la prima edizione ...",
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "executed_query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook -filetype:pdf",
+      "reason": "analysis_unavailable"
+    },
+    {
+      "url": "https://ripartitrentino.provincia.tn.it/Misure/Misure-scadute/BANDO-PIATTAFORMA-ECOMMERCE-TRENTINO",
+      "title": "BANDO PIATTAFORMA ECOMMERCE TRENTINO",
+      "snippet": "... ECOMMERCE TRENTINO. BANDO PIATTAFORMA ECOMMERCE TRENTINO ... Possono accedere alla Fase 2 solamente i progetti che hanno superato la Fase 1 di selezione.",
+      "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+      "executed_query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook -filetype:pdf",
+      "reason": "analysis_unavailable"
+    },
+    {
+      "url": "https://pie.camcom.it/contatti",
+      "title": "Contatti e orari di apertura al pubblico degli uffici",
+      "snippet": "Menù privacy. Note legali · Accesso riservato · Privacy. © 2022 Unioncamere Piemonte - Realizzato con Drupal. Impostazioni Privacy. Questo sito utilizza cookie ...",
+      "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+      "executed_query": "\"Unioncamere Piemon\" sito ufficiale contatti -filetype:pdf",
+      "reason": "Interpretazione della fonte: DIRECTORY"
+    },
+    {
+      "url": "https://pie.camcom.it/",
+      "title": "Unioncamere Piemonte: Home",
+      "snippet": "Contatti ... © 2022 Unioncamere Piemonte - Realizzato con Drupal. Impostazioni Privacy. Questo sito utilizza cookie tecnici e cookie analitici anonimizzati.",
+      "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+      "executed_query": "\"Unioncamere Piemon\" sito ufficiale contatti -filetype:pdf",
+      "reason": "Interpretazione della fonte: DIRECTORY"
+    },
+    {
+      "url": "https://pie.camcom.it/amministrazione-trasparente/enti-controllati",
+      "title": "Enti controllati | Unioncamere Piemonte",
+      "snippet": "Contatti. Via Pomba, 23 - 10123 Torino; Tel ... Menù privacy. Note legali · Accesso riservato · Privacy. © 2022 Unioncamere Piemonte - Realizzato con Drupal.",
+      "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+      "executed_query": "\"Unioncamere Piemon\" sito ufficiale contatti -filetype:pdf",
+      "reason": "Interpretazione della fonte: DIRECTORY"
+    },
+    {
+      "url": "https://pie.camcom.it/i-nostri-servizi",
+      "title": "I nostri servizi | Unioncamere Piemonte - Sistema Camerale",
+      "snippet": "Contatti · Home; I nostri servizi. I nostri servizi. Unioncamere Piemonte, con l'obiettivo di promuovere e realizzare iniziative per favorire lo sviluppo e la ...",
+      "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+      "executed_query": "\"Unioncamere Piemon\" sito ufficiale contatti -filetype:pdf",
+      "reason": "Analisi semantica: lettura mirata"
+    },
+    {
+      "url": "https://pie.camcom.it/arbitrato-e-mediazione/mediazione-adr-piemonte/sportelli",
+      "title": "Sportelli - adr piemonte",
+      "snippet": "Contatti. Via Pomba, 23 - 10123 Torino; Tel ... Menù privacy. Note legali · Accesso riservato · Privacy. © 2022 Unioncamere Piemonte - Realizzato con Drupal ...",
+      "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+      "executed_query": "\"Unioncamere Piemon\" sito ufficiale contatti -filetype:pdf",
+      "reason": "analysis_unavailable"
+    },
+    {
+      "url": "https://pie.camcom.it/privacy",
+      "title": "Privacy - Unioncamere Piemonte",
+      "snippet": "37 del GDPR, contattabile presso Unioncamere Piemonte, via Pomba, 23 - 10123 Torino (email: rpd2@pie.camcom.it - PEC: segreteriaunioncamerepiemonte@legalmail.it ...",
+      "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+      "executed_query": "\"Unioncamere Piemon\" sito ufficiale contatti -filetype:pdf",
+      "reason": "analysis_unavailable"
+    },
+    {
+      "url": "https://pie.camcom.it/comunicazione-e-stampa/social-media",
+      "title": "Social Media - Unioncamere Piemonte - Sistema Camerale",
+      "snippet": "C'è un modo in più per essere informati sulle attività di Unioncamere Piemonte: seguire l'account ufficiale su Twitter @Unioncamere_Pie. Tutti i cittadini e ...",
+      "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+      "executed_query": "\"Unioncamere Piemon\" sito ufficiale contatti -filetype:pdf",
+      "reason": "analysis_unavailable"
+    }
+  ],
+  "valid_outputs": [
+    {
+      "id": 460,
+      "task": "RESEARCH_READ_6",
+      "output": {
+        "analyses": [
+          {
+            "result_id": "aba8081c5057fff2f0edeae281c5b4b7883bc54025fe824f6cc3fac09a08b245",
+            "kind": "COMPANY_SIGNAL",
+            "kind_ref": {
+              "id": "9d8b6f1a713cb87e8343b5d49cf098a77b1900e343ee1266e99e84f78373079f",
+              "start": 0,
+              "end": 18
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "9d8b6f1a713cb87e8343b5d49cf098a77b1900e343ee1266e99e84f78373079f",
+                  "start": 0,
+                  "end": 18
+                }
+              },
+              {
+                "field": "signal",
+                "ref": {
+                  "id": "9d8b6f1a713cb87e8343b5d49cf098a77b1900e343ee1266e99e84f78373079f",
+                  "start": 19,
+                  "end": 112
+                }
+              }
+            ],
+            "hypothesis": "Unioncamere Piemonte is signaling a funding opportunity for projects aligned with Green Deal and UN 2030 goals, but no direct purchasing request is shown.",
+            "missing": [
+              "request",
+              "budget",
+              "contract",
+              "contact",
+              "official_domain",
+              "scope"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          },
+          {
+            "result_id": "5719e33ebc1b09811d41aadd6f4eccde5e015575c9d015570e9e9bb241d4e1bd",
+            "kind": "EDITORIAL",
+            "kind_ref": {
+              "id": "e280d570ebfb5c88ca090cb085cef3741d1357812c70ac116e0db3729b6debd8",
+              "start": 0,
+              "end": 19
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "e280d570ebfb5c88ca090cb085cef3741d1357812c70ac116e0db3729b6debd8",
+                  "start": 0,
+                  "end": 19
+                }
+              },
+              {
+                "field": "signal",
+                "ref": {
+                  "id": "e280d570ebfb5c88ca090cb085cef3741d1357812c70ac116e0db3729b6debd8",
+                  "start": 0,
+                  "end": 19
+                }
+              }
+            ],
+            "hypothesis": "ARPAL Liguria is presenting a projects page with filters for ongoing and concluded European projects; this is informational, not a buying signal.",
+            "missing": [
+              "request",
+              "budget",
+              "contract",
+              "contact",
+              "official_domain",
+              "scope"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "9d8b6f1a713cb87e8343b5d49cf098a77b1900e343ee1266e99e84f78373079f",
+          "result_id": "aba8081c5057fff2f0edeae281c5b4b7883bc54025fe824f6cc3fac09a08b245",
+          "url": "https://www.ecocamere.it/progetti/piemonte",
+          "text": "Unioncamere Piemonte\nUnioncamere Piemonte segnala una nuova linea di finanziamento per progetti in linea con gli obiettivi del Green Deal europeo e dell'Agenda ONU 2030. Energia ...",
+          "hash": "a6bcf6c3e5d25ae9972abe2035f6494d46dad5618cbe046ccb28e3c01328238e",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        },
+        {
+          "id": "e280d570ebfb5c88ca090cb085cef3741d1357812c70ac116e0db3729b6debd8",
+          "result_id": "5719e33ebc1b09811d41aadd6f4eccde5e015575c9d015570e9e9bb241d4e1bd",
+          "url": "https://www.arpal.liguria.it/attivita-e-servizi/progetti-europei.html",
+          "text": "Progetti europei\nProgetti europei. Cerca / Filtra. Concluso/In corso. - Qualsiasi -, Conclusi (23) ... tel +39 010 64371 - arpal@pec.arpal.liguria.it. C.F. e P.IVA ...",
+          "hash": "3efcdcb8df9b45b0fc2d430a69af924afffa21cc4009bb83762c2dca459ca870",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        }
+      ]
+    },
+    {
+      "id": 461,
+      "task": "RESEARCH_READ_6",
+      "output": {
+        "analyses": [
+          {
+            "result_id": "dcc9cae07163bb61b7f9b08ea56c6178712e97ce3eb5b4763495439deffdb34d",
+            "kind": "DIRECTORY",
+            "kind_ref": {
+              "id": "3b6dd42a78b9bd36db446416adbc497bcb49beddaf267de711d1e3379dcf532c",
+              "start": 0,
+              "end": 50
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "3b6dd42a78b9bd36db446416adbc497bcb49beddaf267de711d1e3379dcf532c",
+                  "start": 0,
+                  "end": 29
+                }
+              },
+              {
+                "field": "official_domain",
+                "ref": {
+                  "id": "3b6dd42a78b9bd36db446416adbc497bcb49beddaf267de711d1e3379dcf532c",
+                  "start": 0,
+                  "end": 50
+                }
+              }
+            ],
+            "hypothesis": "This is a contact/directory page for an institutional unit at Unioncamere Piemonte, not a buying signal.",
+            "missing": [
+              "request",
+              "budget",
+              "contact",
+              "signal",
+              "scope",
+              "feasibility",
+              "closed"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          },
+          {
+            "result_id": "c995927f3bffa1a47af3f2a9c69fa949bd23ce7ec1080b29c0abeba8251b41da",
+            "kind": "SUPPLIER_OFFER",
+            "kind_ref": {
+              "id": "65d72a0dd6a9ecb2b2763b9be5096512f161d20dbc93d22de903cb45f73d41eb",
+              "start": 0,
+              "end": 55
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "65d72a0dd6a9ecb2b2763b9be5096512f161d20dbc93d22de903cb45f73d41eb",
+                  "start": 0,
+                  "end": 25
+                }
+              },
+              {
+                "field": "technical",
+                "ref": {
+                  "id": "65d72a0dd6a9ecb2b2763b9be5096512f161d20dbc93d22de903cb45f73d41eb",
+                  "start": 26,
+                  "end": 110
+                }
+              }
+            ],
+            "hypothesis": "This page presents Mind Design as a web agency offering site and ecommerce creation services.",
+            "missing": [
+              "request",
+              "budget",
+              "contact",
+              "signal",
+              "scope",
+              "feasibility",
+              "closed"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "3b6dd42a78b9bd36db446416adbc497bcb49beddaf267de711d1e3379dcf532c",
+          "result_id": "dcc9cae07163bb61b7f9b08ea56c6178712e97ce3eb5b4763495439deffdb34d",
+          "url": "https://pie.camcom.it/contatti/area-progetti-e-sviluppo-del-territorio",
+          "text": "Area progetti e sviluppo del territorio | Unioncamere Piemonte\nArea progetti e sviluppo del territorio. Area progetti e sviluppo del territorio. Indirizzo. Via Pomba, 23 - 10123 Torino. Orari. Da Lunedì a Giovedì: 9.00 ...",
+          "hash": "51262675e2c45d9d64b11140a71ac114033f11fe02a858a9454f0c8847575c9b",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        },
+        {
+          "id": "65d72a0dd6a9ecb2b2763b9be5096512f161d20dbc93d22de903cb45f73d41eb",
+          "result_id": "c995927f3bffa1a47af3f2a9c69fa949bd23ce7ec1080b29c0abeba8251b41da",
+          "url": "https://www.minddesign.it/studio.aspx",
+          "text": "Mind Design Web Agency | Studio\nMind Design | Web Agency Piombino Toscana: Creazione Siti Web/Siti Internet Responsive Adattivi, Realizzazione Siti Ecommerce ... progetti, portali e ...",
+          "hash": "737c60ff1cf7156f036ff4b8dc4f9f7d920223e83fb436c76f71a57cfca59688",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        }
+      ]
+    },
+    {
+      "id": 465,
+      "task": "RESEARCH_READ_6",
+      "output": {
+        "analyses": [
+          {
+            "result_id": "35fc5cea1f97e56f5119e559ae202011a9018e708fc9b4ca3f57ed587b6cd24c",
+            "kind": "DIRECTORY",
+            "kind_ref": {
+              "id": "5c032a48bcbe35080beb1b21547d83eed348119fb22df33985825bab9917d7d4",
+              "start": 0,
+              "end": 33
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "5c032a48bcbe35080beb1b21547d83eed348119fb22df33985825bab9917d7d4",
+                  "start": 0,
+                  "end": 25
+                }
+              },
+              {
+                "field": "official_domain",
+                "ref": {
+                  "id": "5c032a48bcbe35080beb1b21547d83eed348119fb22df33985825bab9917d7d4",
+                  "start": 0,
+                  "end": 18
+                }
+              }
+            ],
+            "hypothesis": "This is the contact page for Unioncamere Piemonte, likely a public directory/contact resource rather than a commercial buying signal.",
+            "missing": [
+              "request",
+              "budget",
+              "contact",
+              "signal",
+              "scope",
+              "feasibility"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          },
+          {
+            "result_id": "6366efa93fd5c7fbe345198c07aba921f0de36082e8578bc379bae9c5bc11be2",
+            "kind": "DIRECTORY",
+            "kind_ref": {
+              "id": "85b31e55e48cd819c846f831262f018eb3dd2423f0dff9d4622e21e8de0dbef6",
+              "start": 0,
+              "end": 25
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "85b31e55e48cd819c846f831262f018eb3dd2423f0dff9d4622e21e8de0dbef6",
+                  "start": 0,
+                  "end": 18
+                }
+              },
+              {
+                "field": "official_domain",
+                "ref": {
+                  "id": "85b31e55e48cd819c846f831262f018eb3dd2423f0dff9d4622e21e8de0dbef6",
+                  "start": 0,
+                  "end": 18
+                }
+              }
+            ],
+            "hypothesis": "This is the homepage of Unioncamere Piemonte, a general organizational site with no explicit project or procurement demand in the snippet.",
+            "missing": [
+              "request",
+              "budget",
+              "contact",
+              "signal",
+              "scope",
+              "feasibility"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "5c032a48bcbe35080beb1b21547d83eed348119fb22df33985825bab9917d7d4",
+          "result_id": "35fc5cea1f97e56f5119e559ae202011a9018e708fc9b4ca3f57ed587b6cd24c",
+          "url": "https://pie.camcom.it/contatti",
+          "text": "Contatti e orari di apertura al pubblico degli uffici\nMenù privacy. Note legali · Accesso riservato · Privacy. © 2022 Unioncamere Piemonte - Realizzato con Drupal. Impostazioni Privacy. Questo sito utilizza cookie ...",
+          "hash": "3be6feeacf033b5d99c603a8e248f70fb5f24ce69fdeb89d5da40375b53fc084",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        },
+        {
+          "id": "85b31e55e48cd819c846f831262f018eb3dd2423f0dff9d4622e21e8de0dbef6",
+          "result_id": "6366efa93fd5c7fbe345198c07aba921f0de36082e8578bc379bae9c5bc11be2",
+          "url": "https://pie.camcom.it/",
+          "text": "Unioncamere Piemonte: Home\nContatti ... © 2022 Unioncamere Piemonte - Realizzato con Drupal. Impostazioni Privacy. Questo sito utilizza cookie tecnici e cookie analitici anonimizzati.",
+          "hash": "1fa605044a2d620bf82118a66c25364e3b3cb6b943203b2ed55027e812d8af02",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "task": "RESEARCH_READ_6",
+      "output": {
+        "analyses": [
+          {
+            "result_id": "b395ef8c3e27e5df2b6ee1d5005712ff51542165bf2d0bd59d1a242971ae4514",
+            "kind": "DIRECTORY",
+            "kind_ref": {
+              "id": "e4a72739d3eb49712faa38829a5ccd373cfe9550fc444110612ecb34ea4b0020",
+              "start": 0,
+              "end": 22
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "e4a72739d3eb49712faa38829a5ccd373cfe9550fc444110612ecb34ea4b0020",
+                  "start": 0,
+                  "end": 22
+                }
+              },
+              {
+                "field": "official_domain",
+                "ref": {
+                  "id": "e4a72739d3eb49712faa38829a5ccd373cfe9550fc444110612ecb34ea4b0020",
+                  "start": 0,
+                  "end": 22
+                }
+              }
+            ],
+            "hypothesis": "This snippet is a directory-style organizational page for Unioncamere Piemonte, not an evidence of buying intent or a project request.",
+            "missing": [
+              "request",
+              "technical",
+              "contract",
+              "geography",
+              "publication",
+              "budget",
+              "contact",
+              "signal"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          },
+          {
+            "result_id": "bf00cb80a509fc49912948e2797d20439415b21f9c626d5dfbd71550d9ccebf2",
+            "kind": "COMPANY_SIGNAL",
+            "kind_ref": {
+              "id": "4f879c3beb1e7d2b9d7e67b3d2005e64d23d02aa106a78d3cb27a32cbe509800",
+              "start": 0,
+              "end": 20
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "4f879c3beb1e7d2b9d7e67b3d2005e64d23d02aa106a78d3cb27a32cbe509800",
+                  "start": 0,
+                  "end": 20
+                }
+              },
+              {
+                "field": "signal",
+                "ref": {
+                  "id": "4f879c3beb1e7d2b9d7e67b3d2005e64d23d02aa106a78d3cb27a32cbe509800",
+                  "start": 0,
+                  "end": 20
+                }
+              },
+              {
+                "field": "digital_gap",
+                "ref": {
+                  "id": "4f879c3beb1e7d2b9d7e67b3d2005e64d23d02aa106a78d3cb27a32cbe509800",
+                  "start": 0,
+                  "end": 20
+                }
+              },
+              {
+                "field": "existing_solution",
+                "ref": {
+                  "id": "4f879c3beb1e7d2b9d7e67b3d2005e64d23d02aa106a78d3cb27a32cbe509800",
+                  "start": 0,
+                  "end": 20
+                }
+              }
+            ],
+            "hypothesis": "Unioncamere Piemonte presents its services; this is a generic institutional/service page and does not establish a commercial request.",
+            "missing": [
+              "request",
+              "technical",
+              "contract",
+              "geography",
+              "publication",
+              "budget",
+              "contact",
+              "feasibility"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "e4a72739d3eb49712faa38829a5ccd373cfe9550fc444110612ecb34ea4b0020",
+          "result_id": "b395ef8c3e27e5df2b6ee1d5005712ff51542165bf2d0bd59d1a242971ae4514",
+          "url": "https://pie.camcom.it/amministrazione-trasparente/enti-controllati",
+          "text": "Enti controllati | Unioncamere Piemonte\nContatti. Via Pomba, 23 - 10123 Torino; Tel ... Menù privacy. Note legali · Accesso riservato · Privacy. © 2022 Unioncamere Piemonte - Realizzato con Drupal.",
+          "hash": "ce5766d353b9ad3304a99255a5adb180c74af2ba910c8b74914bf41d4a8515c8",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        },
+        {
+          "id": "4f879c3beb1e7d2b9d7e67b3d2005e64d23d02aa106a78d3cb27a32cbe509800",
+          "result_id": "bf00cb80a509fc49912948e2797d20439415b21f9c626d5dfbd71550d9ccebf2",
+          "url": "https://pie.camcom.it/i-nostri-servizi",
+          "text": "I nostri servizi | Unioncamere Piemonte - Sistema Camerale\nContatti · Home; I nostri servizi. I nostri servizi. Unioncamere Piemonte, con l'obiettivo di promuovere e realizzare iniziative per favorire lo sviluppo e la ...",
+          "hash": "ab520e42e09170a9d5c05522191761c9b8cb6971d243136f32f85ff3432d8654",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        }
+      ]
+    },
+    {
+      "id": 457,
+      "task": "RESEARCH_PLAN_6",
+      "output": {
+        "decision": "search",
+        "reason": "Need distinct, evidence-seeking queries aimed at concrete digital projects or company change signals in the target regions, while avoiding repeat strategies and low-signal recruiter/candidate queries.",
+        "queries": [
+          {
+            "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+            "strategy": "official/agency portfolio discovery",
+            "objective": "Identify concrete published digital projects that reveal the actual client/company and project scope.",
+            "hypothesis": "Agency and studio portfolio pages may name the requesting company and describe a complete web/ecommerce project with enough detail to infer need.",
+            "missing": "Named company, project type, and evidence of a complete digital initiative.",
+            "expected_source": "Agency portfolio pages, case studies, project pages on official domains.",
+            "success": "Find a project page that explicitly names the company and describes deliverables like website, ecommerce, UX, integration, or migration.",
+            "stop_condition": "Stop if results are only agency self-promotion without client names or project specifics."
+          },
+          {
+            "query": "site:*.it (\"lavora con noi\" OR careers OR jobs OR vacancies) (Magento OR WooCommerce OR Shopify OR React OR frontend OR web developer) (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR Toscana) -linkedin -indeed -glassdoor",
+            "strategy": "direct employer openings",
+            "objective": "Find companies with active digital hiring needs in the target regions.",
+            "hypothesis": "Companies with explicit technical vacancies are more likely to have an immediate web/app/ecommerce need.",
+            "missing": "Employer name, role, and technical stack tied to the company itself.",
+            "expected_source": "Official careers pages on company domains.",
+            "success": "Return a job page naming the employer and a relevant digital role with stack or responsibilities.",
+            "stop_condition": "Stop if only job aggregators or generic listings appear."
+          },
+          {
+            "query": "site:*.it (\"nuovo sito\" OR \"restyling sito\" OR \"rifacimento e-commerce\" OR \"digital transformation\" OR \"ERP\" OR \"CRM\") (azienda OR società) (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Toscana)",
+            "strategy": "change-signal search",
+            "objective": "Detect companies publicly announcing change initiatives that often create web/app work.",
+            "hypothesis": "Press releases or news posts announcing rebranding, digital transformation, or system changes can indicate a concrete implementation need.",
+            "missing": "Documented business change plus an explicit digital gap or implementation context.",
+            "expected_source": "Company newsrooms, press releases, or official announcements.",
+            "success": "Find a dated announcement from the company mentioning a website, ecommerce, platform, or integration project.",
+            "stop_condition": "Stop if announcements are only corporate finance/news with no digital component."
+          }
+        ]
+      },
+      "evidence": []
+    }
+  ],
+  "memory": [
+    {
+      "flow": "AGENCIES",
+      "kind": "model",
+      "key": "plan:0:463",
+      "body": {
+        "task": "RESEARCH_PLAN_6",
+        "status": "budget_exhausted",
+        "reason": "candidate_budget",
+        "estimated_cost": null,
+        "basis": "model_interpretation"
+      },
+      "created_at": "2026-10-19T09:22:09.609697+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "10:28fabb667295d8ccc6ec6cfd567846228c95447245b9acb80e87812fd56c5ca2",
+      "body": {
+        "record_id": 10,
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "ecocamere.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Fonte non verificabile: robots_unverifiable",
+        "basis": "validated_interpretation",
+        "technical_error": "robots_unverifiable"
+      },
+      "created_at": "2026-10-19T09:22:09.561110+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "11:702956dbe7c18d580cadb5ecca92a3b1c89fcfe5fefb0da15c354f83b5a2e7c3",
+      "body": {
+        "record_id": 11,
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "pie.camcom.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi AI non disponibile o invalida; nessuna promozione.",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:19.341850+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "11:93f24a7f9df39c2e2ac26a05ff9991e00b0cf733da70e6ead56d8b58d48f0414",
+      "body": {
+        "record_id": 11,
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "pie.camcom.it",
+        "state": "REJECTED",
+        "kind": "DIRECTORY",
+        "reason": "Interpretazione della fonte: DIRECTORY",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:14.096309+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "12:19931d55ebea2ae486490d631cc725a66553ece45b37c93798585543b48c3567",
+      "body": {
+        "record_id": 12,
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "pie.camcom.it",
+        "state": "REJECTED",
+        "kind": "DIRECTORY",
+        "reason": "Interpretazione della fonte: DIRECTORY",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:14.104645+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "13:666442d3020c2f1dfb37fbed020a0dea7681627fa82b78374a0c83f6029b2222",
+      "body": {
+        "record_id": 13,
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "pie.camcom.it",
+        "state": "REJECTED",
+        "kind": "DIRECTORY",
+        "reason": "Interpretazione della fonte: DIRECTORY",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:18.079813+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "14:ec4d22c30d2d00047c5cfbda8242193b5078bb84f14170e328ddc3bc18f212ca",
+      "body": {
+        "record_id": 14,
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "pie.camcom.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi del risultato non completata: engine_budget",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:18.110753+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "15:a5c0138d97c50008d86570127231c08eb139ff4afafd9108bcba26ecb1c24b71",
+      "body": {
+        "record_id": 15,
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "pie.camcom.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi del risultato non completata: engine_budget",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:18.117794+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "16:7254a1ce3b04ca4e187b5ce4dc484b5648876d8d1ae9c693318185d8afad417b",
+      "body": {
+        "record_id": 16,
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "pie.camcom.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi del risultato non completata: engine_budget",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:18.132031+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "17:bf190bab64ec3ea6148ccd14f061b96db6ef4352debb8dfb5bde484e9bf03e2b",
+      "body": {
+        "record_id": 17,
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "pie.camcom.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi AI non disponibile o invalida; nessuna promozione.",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:18.549181+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "1:bca0745bfa955367ce665c72a34c22f3310e045cdbe13b3cd24abbf500f130d5",
+      "body": {
+        "record_id": 1,
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "assolombarda.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi del risultato non completata: wrong_source",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:21:52.586430+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "2:cbc7903d189c451ec50bb211537a9cf9871e180eb459fceca49258133cfc2548",
+      "body": {
+        "record_id": 2,
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "progeu.regione.emilia-romagna.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi del risultato non completata: wrong_source",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:21:52.597592+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "3:e49aee2db51c4630f4c46a2c3906b7088ee84f1a1ad8aa9ede6a6963fd75e964",
+      "body": {
+        "record_id": 3,
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "cssudine.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi del risultato non completata: wrong_source",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:21:55.664001+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "4:d3d858aa6edf7cd65ce50ae2f54d6e8d7776188825d19ef79875b1aeb18dd20b",
+      "body": {
+        "record_id": 4,
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "atsliguria.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi del risultato non completata: wrong_source",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:21:55.676081+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "5:e25a17a84a7c18bf479e2c9700d4f87e9fc5b5229dd896df3c7bdcc9b09761b2",
+      "body": {
+        "record_id": 5,
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "arpal.liguria.it",
+        "state": "REJECTED",
+        "kind": "EDITORIAL",
+        "reason": "Fonte editoriale: non una richiesta.",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:00.379079+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "6:2e25dd12c8e67b531852b598ba494a215f02089d778088ff1f0b6b4c5d06010c",
+      "body": {
+        "record_id": 6,
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "pie.camcom.it",
+        "state": "REJECTED",
+        "kind": "DIRECTORY",
+        "reason": "Interpretazione della fonte: DIRECTORY",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:03.133045+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "7:42528234b0ec470fa0785a30260f7fa9c793f0fcd08e5c01feb0bcd6ab811973",
+      "body": {
+        "record_id": 7,
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "minddesign.it",
+        "state": "REJECTED",
+        "kind": "SUPPLIER_OFFER",
+        "reason": "Interpretazione della fonte: SUPPLIER_OFFER",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:03.142775+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "8:694b36b6655fe37611393963b4c187a0cb267896282c38140e0bc3eea8cd3d44",
+      "body": {
+        "record_id": 8,
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "cremonaoggi.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi del risultato non completata: temporal_role_mismatch",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:09.281703+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "decision",
+      "key": "9:e5bb55f42488c280038e7356ba352a88afd4deaf19d0b15fed87e1e811fb3505",
+      "body": {
+        "record_id": 9,
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "domain": "ripartitrentino.provincia.tn.it",
+        "state": "UNVERIFIABLE",
+        "kind": "UNKNOWN",
+        "reason": "Analisi del risultato non completata: temporal_role_mismatch",
+        "basis": "validated_interpretation",
+        "technical_error": null
+      },
+      "created_at": "2026-10-19T09:22:09.292427+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "batch:4614:0:458",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "invalid",
+        "reason": "wrong_source",
+        "estimated_cost": 0.00332775,
+        "basis": "model_interpretation",
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:21:52.572833+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "batch:4614:2:459",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "invalid",
+        "reason": "wrong_source",
+        "estimated_cost": 0.0031065,
+        "basis": "model_interpretation",
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:21:55.651482+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "batch:4614:4:460",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "completed",
+        "reason": null,
+        "estimated_cost": 0.00321825,
+        "basis": "model_interpretation",
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:22:00.360269+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "batch:4614:6:461",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "completed",
+        "reason": null,
+        "estimated_cost": 0.0031725,
+        "basis": "model_interpretation",
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:22:03.121481+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "batch:4614:8:462",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "invalid",
+        "reason": "temporal_role_mismatch",
+        "estimated_cost": 0.00327375,
+        "basis": "model_interpretation",
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:22:09.268093+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "batch:4616:0:465",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "completed",
+        "reason": null,
+        "estimated_cost": 0.00311475,
+        "basis": "model_interpretation",
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:22:14.084667+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "batch:4616:2:466",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "completed",
+        "reason": null,
+        "estimated_cost": 0.00379875,
+        "basis": "model_interpretation",
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:22:18.068109+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "batch:4616:4:467",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "budget_exhausted",
+        "reason": "engine_budget",
+        "estimated_cost": null,
+        "basis": "model_interpretation",
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:22:18.104199+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "batch:4616:6:468",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "budget_exhausted",
+        "reason": "engine_budget",
+        "estimated_cost": null,
+        "basis": "model_interpretation",
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:22:18.125846+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "page://pie.camcom.it/contatti:470",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "budget_exhausted",
+        "reason": "engine_budget",
+        "estimated_cost": null,
+        "basis": "model_interpretation",
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:22:19.197491+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "page://pie.camcom.it/i-nostri-servizi:469",
+      "body": {
+        "task": "RESEARCH_READ_6",
+        "status": "budget_exhausted",
+        "reason": "engine_budget",
+        "estimated_cost": null,
+        "basis": "model_interpretation",
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery"
+      },
+      "created_at": "2026-10-19T09:22:18.513256+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "plan:0:457",
+      "body": {
+        "task": "RESEARCH_PLAN_6",
+        "status": "completed",
+        "reason": null,
+        "estimated_cost": 0.0032235,
+        "basis": "model_interpretation"
+      },
+      "created_at": "2026-10-19T09:21:45.818695+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "model",
+      "key": "plan:1:471",
+      "body": {
+        "task": "RESEARCH_PLAN_6",
+        "status": "budget_exhausted",
+        "reason": "engine_budget",
+        "estimated_cost": null,
+        "basis": "model_interpretation"
+      },
+      "created_at": "2026-10-19T09:22:19.387500+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "plan",
+      "key": "4611",
+      "body": {
+        "reason": "Need distinct, evidence-seeking queries aimed at concrete digital projects or company change signals in the target regions, while avoiding repeat strategies and low-signal recruiter/candidate queries.",
+        "queries": [
+          {
+            "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+            "strategy": "official/agency portfolio discovery",
+            "objective": "Identify concrete published digital projects that reveal the actual client/company and project scope.",
+            "hypothesis": "Agency and studio portfolio pages may name the requesting company and describe a complete web/ecommerce project with enough detail to infer need.",
+            "missing": "Named company, project type, and evidence of a complete digital initiative.",
+            "expected_source": "Agency portfolio pages, case studies, project pages on official domains.",
+            "success": "Find a project page that explicitly names the company and describes deliverables like website, ecommerce, UX, integration, or migration.",
+            "stop_condition": "Stop if results are only agency self-promotion without client names or project specifics.",
+            "region": "remote Italy",
+            "page": 1,
+            "strategy_id": "official/agency portfolio discovery",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          },
+          {
+            "query": "site:*.it (\"lavora con noi\" OR careers OR jobs OR vacancies) (Magento OR WooCommerce OR Shopify OR React OR frontend OR web developer) (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR Toscana) -linkedin -indeed -glassdoor",
+            "strategy": "direct employer openings",
+            "objective": "Find companies with active digital hiring needs in the target regions.",
+            "hypothesis": "Companies with explicit technical vacancies are more likely to have an immediate web/app/ecommerce need.",
+            "missing": "Employer name, role, and technical stack tied to the company itself.",
+            "expected_source": "Official careers pages on company domains.",
+            "success": "Return a job page naming the employer and a relevant digital role with stack or responsibilities.",
+            "stop_condition": "Stop if only job aggregators or generic listings appear.",
+            "region": "remote Italy",
+            "page": 1,
+            "strategy_id": "direct employer openings",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          },
+          {
+            "query": "site:*.it (\"nuovo sito\" OR \"restyling sito\" OR \"rifacimento e-commerce\" OR \"digital transformation\" OR \"ERP\" OR \"CRM\") (azienda OR società) (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Toscana)",
+            "strategy": "change-signal search",
+            "objective": "Detect companies publicly announcing change initiatives that often create web/app work.",
+            "hypothesis": "Press releases or news posts announcing rebranding, digital transformation, or system changes can indicate a concrete implementation need.",
+            "missing": "Documented business change plus an explicit digital gap or implementation context.",
+            "expected_source": "Company newsrooms, press releases, or official announcements.",
+            "success": "Find a dated announcement from the company mentioning a website, ecommerce, platform, or integration project.",
+            "stop_condition": "Stop if announcements are only corporate finance/news with no digital component.",
+            "region": "remote Italy",
+            "page": 1,
+            "strategy_id": "change-signal search",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          }
+        ],
+        "chosen": {
+          "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+          "strategy": "official/agency portfolio discovery",
+          "objective": "Identify concrete published digital projects that reveal the actual client/company and project scope.",
+          "hypothesis": "Agency and studio portfolio pages may name the requesting company and describe a complete web/ecommerce project with enough detail to infer need.",
+          "missing": "Named company, project type, and evidence of a complete digital initiative.",
+          "expected_source": "Agency portfolio pages, case studies, project pages on official domains.",
+          "success": "Find a project page that explicitly names the company and describes deliverables like website, ecommerce, UX, integration, or migration.",
+          "stop_condition": "Stop if results are only agency self-promotion without client names or project specifics.",
+          "region": "remote Italy",
+          "page": 1,
+          "strategy_id": "official/agency portfolio discovery",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploitation",
+          "memory_adjustment": 0
+        },
+        "basis": "model_plan_with_memory_ranking"
+      },
+      "created_at": "2026-10-19T09:21:45.828222+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "query",
+      "key": "site it casi studio or progetti or portfolio or realizzazione sito or ecommerce veneto or lombardia or piemonte or emilia romagna or liguria or friuli venezia giulia or trentino or toscana linkedin facebook",
+      "body": {
+        "query": "site:*.it (\"casi studio\" OR \"progetti\" OR \"portfolio\" OR \"realizzazione sito\" OR \"ecommerce\") (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+        "strategy": "official/agency portfolio discovery",
+        "results": 10,
+        "objective": "Identify concrete published digital projects that reveal the actual client/company and project scope.",
+        "hypothesis": "Agency and studio portfolio pages may name the requesting company and describe a complete web/ecommerce project with enough detail to infer need.",
+        "selection": "exploitation",
+        "basis": "search_receipt"
+      },
+      "created_at": "2026-10-19T09:22:09.295943+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "query",
+      "key": "unioncamere piemon sito ufficiale contatti",
+      "body": {
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "strategy": "official/agency portfolio discovery",
+        "results": 7,
+        "objective": "Verificare official_domain per Unioncamere Piemon",
+        "hypothesis": "Identità e richiesta possono essere confermate da fonte ufficiale.",
+        "selection": "verification",
+        "basis": "search_receipt"
+      },
+      "created_at": "2026-10-19T09:22:18.134256+00:00"
+    },
+    {
+      "flow": "AZIENDE",
+      "kind": "verification",
+      "key": "agent-investigate:cc25800e6f859cd659d4a1bdf566d65368f3c20d91cfa2e48e8088f9a82f10b3",
+      "body": {
+        "objective": "Verificare official_domain per Unioncamere Piemon",
+        "missing": "official_domain",
+        "query": "\"Unioncamere Piemon\" sito ufficiale contatti",
+        "stop_condition": "Nessuna fonte autorizzata o profondità/budget esauriti",
+        "expected_cost": {
+          "serper_requests": 1
+        },
+        "priority": "missing_required_evidence"
+      },
+      "created_at": "2026-10-19T09:22:09.557770+00:00"
+    },
+    {
+      "flow": "STARTUPS",
+      "kind": "model",
+      "key": "plan:0:464",
+      "body": {
+        "task": "RESEARCH_PLAN_6",
+        "status": "budget_exhausted",
+        "reason": "candidate_budget",
+        "estimated_cost": null,
+        "basis": "model_interpretation"
+      },
+      "created_at": "2026-10-19T09:22:09.637099+00:00"
+    }
+  ]
+}

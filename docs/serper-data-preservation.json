@@ -1,8 +1,0 @@
-{
-  "companies": true,
-  "prospects": true,
-  "interactions": true,
-  "dismissed_companies": true,
-  "contact_groups": true,
-  "sqlite_integrity": "ok"
-}

@@ -13,6 +13,8 @@ def safe_error(value):
 
 def error_outcome(error,kind):
     from .discovery_control import ProviderDeferred, ProviderConfigurationError, QueryError
+    from .commercial.resources import BudgetExceeded
+    if isinstance(error,BudgetExceeded):return {'outcome':'not_executed','scope':'budget','resource':error.resource,'retryable':False}
     from .serper_provider import CreditLimit
     if isinstance(error,QueryError):return {'outcome':'permanent_error','scope':'query','retryable':False}
     if isinstance(error,InterruptedError):return {'outcome':'interrupted','scope':'operation','retryable':False}

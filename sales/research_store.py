@@ -51,6 +51,8 @@ def migrate(store):
     migrate_discovery(store)
     from .grants import migrate as migrate_grants
     migrate_grants(store)
+    from .commercial.storage import migrate as migrate_commercial
+    migrate_commercial(store)
 
 class ResearchStore:
     def __init__(self,store):self.store=store
@@ -59,8 +61,42 @@ class ResearchStore:
     def create(self,filters=None,target=50):
         filters=filters or {}
         if type(target)!=int or not 1<=target<=50:raise ValueError('Obiettivo compreso tra 1 e 50 aziende')
-        if not isinstance(filters,dict) or set(filters)-{'projects','regions','groups','target'}:raise ValueError('Filtri campagna non validi')
+        if not isinstance(filters,dict) or set(filters)-{'projects','regions','groups','target','commercial_engines','work_budget','mode','commercial','max_job_age_days','deep_authorized','deep_plan_token','agent_version','agent_settings','runtime_version','decision_engine','social_urls','discovery_triage_version','continuation_version'}:raise ValueError('Filtri campagna non validi')
+        if 'discovery_triage_version' in filters and (
+                type(filters['discovery_triage_version']) is not int or filters['discovery_triage_version']!=1 or
+                filters.get('decision_engine')!='ai_first_1' or filters.get('agent_version')!='6.0'):
+            raise ValueError('Versione selezione fonti non valida')
+        if 'continuation_version' in filters and (
+                type(filters['continuation_version']) is not int or filters['continuation_version']!=1 or
+                filters.get('decision_engine')!='ai_first_1' or filters.get('agent_version')!='6.0'):
+            raise ValueError('Versione continuità ricerca non valida')
+        if 'social_urls' in filters:
+            from .agent6.social_seeds import validate_filters
+            filters={**filters,'social_urls':validate_filters(filters)}
+        if 'decision_engine' in filters and (filters['decision_engine']!='ai_first_1' or filters.get('agent_version')!='6.0'):
+            raise ValueError('Motore decisionale non valido')
+        if 'agent_version' in filters:
+            if filters['agent_version']!='6.0' or not filters.get('commercial_engines'):raise ValueError('Versione agente non valida')
+            from .agent6 import config,VERSION
+            filters={**filters,'agent_settings':config(filters.get('agent_settings')),'runtime_version':VERSION}
+        elif 'agent_settings' in filters or 'runtime_version' in filters:raise ValueError('Configurazione riservata all’agente commerciale')
         from .research_rules import ALLOWED_REGIONS
+        if 'commercial_engines' in filters:
+            from .commercial.catalog import options
+            from .commercial.geography import REGIONS
+            engines,budget=options(filters)
+            if filters.get('mode')=='deep' and filters.get('deep_authorized') is not True:raise ValueError('Conferma esplicitamente i limiti del piano Deep prima di avviare.')
+            from .commercial.ai_settings import campaign_config
+            filters={**filters,'commercial':campaign_config(self.store,filters)}
+            if filters.get('agent_version')=='6.0':
+                from .agent6.api import validate_start
+                validate_start(self.store,filters)
+            if filters.get('mode')=='deep':
+                from .commercial.search_intelligence import approval_token
+                if filters.get('deep_plan_token')!=approval_token(filters,budget,filters['commercial']['ai']):raise ValueError('Piano Deep mancante o impostazioni cambiate: aggiorna l’anteprima e conferma i massimi.')
+            filters={**filters,'commercial_engines':engines,'work_budget':budget,'regions':filters.get('regions') or list(REGIONS),'search_version':'5.0','demand_version':'5.1'}
+            ALLOWED_REGIONS=REGIONS
+        elif 'work_budget' in filters or 'commercial' in filters or 'max_job_age_days' in filters:raise ValueError('Impostazioni riservate ai motori commerciali')
         from .company_research import PROFILES
         if not isinstance(filters.get('target','all'),str) or filters.get('target','all') not in PROFILES:raise ValueError('Segmento aziendale non valido')
         filters={'target':'all',**filters}
@@ -98,7 +134,7 @@ class ResearchStore:
             data['tasks']={r['state']:r['n'] for r in c.execute('SELECT state,count(*) n FROM research_tasks WHERE campaign_id=? GROUP BY state',(cid,))}
             work=c.execute("SELECT strategy,payload FROM research_tasks WHERE campaign_id=? AND state='working' ORDER BY id LIMIT 1",(cid,)).fetchone()
             data['active_research']={'strategy':work['strategy'],**{k:v for k,v in json.loads(work['payload']).items() if k in ('query','hypothesis','url')}} if work else None
-            data['serper_requests']=c.execute("SELECT coalesce(sum(json_extract(details,'$.credits')),0) FROM discovery_operations WHERE campaign_id=? AND provider='serper'",(cid,)).fetchone()[0]
+            data['serper_requests']=c.execute("SELECT coalesce(sum(json_extract(details,'$.credits')),0) FROM discovery_operations WHERE campaign_id=? AND (provider='serper' OR EXISTS (SELECT 1 FROM json_each(discovery_operations.details,'$.engines') WHERE value='google via Serper'))",(cid,)).fetchone()[0]
 
             # One latest decision per entity, not one count per page or engine.
             rows=c.execute('''SELECT a.* FROM research_assessments a WHERE a.campaign_id=? AND a.id=(SELECT max(b.id) FROM research_assessments b WHERE b.campaign_id=a.campaign_id AND b.entity_id=a.entity_id)''',(cid,)).fetchall()
@@ -119,6 +155,9 @@ class ResearchStore:
             data['events']=[{**dict(r),'details':json.loads(r['details'])} for r in c.execute('SELECT * FROM research_events WHERE campaign_id=? ORDER BY id DESC LIMIT 30',(cid,))]
             data['sources']=[dict(r) for r in c.execute('SELECT * FROM research_sources')]
         data['running']=data['status'] in ('running','waiting','stopping')
+        if data['filters'].get('commercial_engines'):
+            from .commercial.coordinator import campaign_counts
+            data.update(campaign_counts(self.store,cid))
         return data
     def active(self,cid,generation):
         with self.store.connect() as c:return bool(c.execute("SELECT 1 FROM campaigns WHERE id=? AND generation=? AND status IN ('running','waiting')",(cid,generation)).fetchone())
@@ -152,9 +191,17 @@ class ResearchStore:
             row=c.execute('SELECT status FROM campaigns WHERE id=?',(cid,)).fetchone()
             if not row or row['status'] not in ('paused','blocked','error'):raise ValueError('Questa campagna non è riprendibile')
             if c.execute("SELECT 1 FROM campaigns WHERE status IN ('running','waiting','stopping')").fetchone():raise ValueError('Una ricerca è già in corso')
+            saved=json.loads(c.execute('SELECT filters FROM campaigns WHERE id=?',(cid,)).fetchone()[0])
+            if saved.get('commercial_engines'):
+                from .commercial.resources import availability
+                from .commercial.catalog import options
+                engines,limits=options(saved)
+                info=availability(self.store,cid,limits,engines)
+                if not info['resume_available']:raise ValueError(info['resume_reason'])
             c.execute("UPDATE campaigns SET status='running',generation=?,message='Ripresa della ricerca',updated_at=?,finished_at=NULL WHERE id=?",(secrets.token_hex(12),now(),cid))
             c.execute("UPDATE discovery_frontier SET state='pending' WHERE campaign_id=? AND state='blocked'",(cid,))
-            c.execute("UPDATE research_tasks SET state='pending',attempts=0,available_at=?,updated_at=? WHERE campaign_id=? AND state IN ('working','failed','blocked')",(now(),now(),cid))
+            attempts='attempts' if saved.get('agent_version')=='6.0' else '0'
+            c.execute("UPDATE research_tasks SET state='pending',attempts="+attempts+",available_at=?,updated_at=? WHERE campaign_id=? AND state IN ('working','failed','blocked')",(now(),now(),cid))
         return self.campaign(cid)
     def enqueue(self,cid,kind,strategy,payload,key=None):
         fp=key or digest(encode([kind,strategy,payload]))
@@ -165,12 +212,21 @@ class ResearchStore:
     def claim(self,cid,generation):
         with self.store.connect() as c:
             c.execute('BEGIN IMMEDIATE')
-            if not c.execute("SELECT 1 FROM campaigns WHERE id=? AND generation=? AND status IN ('running','waiting')",(cid,generation)).fetchone():return None
+            campaign=c.execute("SELECT filters FROM campaigns WHERE id=? AND generation=? AND status IN ('running','waiting')",(cid,generation)).fetchone()
+            if not campaign:return None
+            filters=json.loads(campaign['filters'])
             turns=c.execute('SELECT coalesce(sum(attempts),0) FROM research_tasks WHERE campaign_id=?',(cid,)).fetchone()[0]
             preferred=('candidate','search','candidate','source','verify','candidate')[turns%6]
             # Compare like work: reading a directory must not count as a paid
             # company search and starve that strategy behind explicit ads.
-            row=c.execute("SELECT * FROM research_tasks WHERE campaign_id=? AND state='pending' AND available_at<=? ORDER BY CASE WHEN kind=? THEN 0 ELSE 1 END,CASE WHEN kind='verify' THEN -coalesce(json_extract(payload,'$.verification_priority'),0) ELSE 0 END,(SELECT count(*) FROM research_tasks done WHERE done.campaign_id=research_tasks.campaign_id AND done.strategy=research_tasks.strategy AND done.kind=research_tasks.kind AND (research_tasks.kind<>'candidate' OR coalesce(json_extract(done.payload,'$.publisher'),0)=coalesce(json_extract(research_tasks.payload,'$.publisher'),0)) AND done.state IN ('done','failed')),CASE WHEN kind='search' AND strategy='companies' THEN 0 ELSE 1 END,id LIMIT 1",(cid,now(),preferred)).fetchone()
+            row=c.execute("SELECT * FROM research_tasks WHERE campaign_id=? AND state='pending' AND available_at<=? ORDER BY CASE WHEN kind=? THEN 0 ELSE 1 END,CASE WHEN kind='verify' THEN -coalesce(json_extract(payload,'$.verification_priority'),0) ELSE 0 END,(SELECT count(*) FROM research_tasks done WHERE done.campaign_id=research_tasks.campaign_id AND done.strategy=research_tasks.strategy AND done.kind=research_tasks.kind AND (research_tasks.kind<>'candidate' OR coalesce(json_extract(done.payload,'$.publisher'),0)=coalesce(json_extract(research_tasks.payload,'$.publisher'),0)) AND done.state IN ('done','failed')),CASE WHEN kind='search' AND strategy='companies' THEN 0 ELSE 1 END,-coalesce(json_extract(payload,'$.discovery.priority'),0),id LIMIT 1",(cid,now(),preferred)).fetchone()
+            if filters.get('agent_version')=='6.0':
+                from .agent6.scheduling import choose
+                tid,decision=choose(c,{'id':cid,'filters':filters},now())
+                row=c.execute('SELECT * FROM research_tasks WHERE id=?',(tid,)).fetchone() if tid else None
+                if decision:
+                    c.execute('INSERT INTO research_events(campaign_id,kind,message,details,created_at) VALUES (?,?,?,?,?)',
+                        (cid,'agent_schedule','Priorità: completare le prove e distribuire il lavoro tra i flussi.',encode(decision),now()))
             if not row:return None
             c.execute("UPDATE research_tasks SET state='working',attempts=attempts+1,updated_at=? WHERE id=?",(now(),row['id']))
         return {**dict(row),'attempts':row['attempts']+1,'payload':json.loads(row['payload'])}

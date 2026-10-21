@@ -1,0 +1,1 @@
+Campagna 48: metadati Serper e ricevuta di ricerca già salvati. Il post non è stato letto e non è una opportunità verificata. Fixture offline per routing e budget; nessuna credenziale o nuovo accesso.

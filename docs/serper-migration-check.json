@@ -1,8 +1,0 @@
-{
-  "backup": "data/backups/20261013T203018291161Z/sales.sqlite3",
-  "integrity": "ok",
-  "preexisting_tables_preserved": true,
-  "checked_tables": 43,
-  "migration_version": 44,
-  "idempotent": true
-}

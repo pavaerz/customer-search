@@ -42,14 +42,21 @@ class PageConnectionError(AccessIssue):
 class PublicWeb:
     allow_pdf=False
     def __init__(self,store,stop=lambda:None): self.store=store;self.stop=stop;self.rules={};self.last={}
+    def is_blocked(self,url):return blocked(url)
     def _raw(self,url,redirects=4,policy=True):
         self.stop();url=canonical(url);p=parse.urlsplit(url)
-        if blocked(url): raise ValueError('Fonte non autorizzata per l’estrazione automatica')
+        if self.is_blocked(url): raise ValueError('Fonte non autorizzata per l’estrazione automatica')
+        if not self.allow_pdf:
+            from .content_policy import require_non_pdf
+            require_non_pdf(url)
         if policy: self.policy(url)
         port=p.port or (443 if p.scheme=='https' else 80)
+        from .commercial.resources import reserve,timeout
+        reserve('http_reads')
         ips=[a[4][0] for a in socket.getaddrinfo(p.hostname,port,type=socket.SOCK_STREAM)]
         if not ips or any(not ipaddress.ip_address(ip).is_global for ip in ips): raise ValueError('Accesso a reti private non consentito')
-        conn=http.client.HTTPConnection(p.hostname,port,timeout=12);sock=socket.create_connection((ips[0],port),timeout=12)
+        request_timeout=min(timeout(12),getattr(self,'request_timeout',lambda:12)())
+        conn=http.client.HTTPConnection(p.hostname,port,timeout=request_timeout);sock=socket.create_connection((ips[0],port),timeout=request_timeout)
         try:
             if p.scheme=='https': sock=ssl.create_default_context().wrap_socket(sock,server_hostname=p.hostname)
             conn.sock=sock
@@ -57,12 +64,32 @@ class PublicWeb:
             response=conn.getresponse()
             if response.status in (301,302,303,307,308):
                 if redirects<=0: raise ValueError('Redirect non verificabile')
-                return self._raw(parse.urljoin(url,response.getheader('Location','')),redirects-1,policy)
+                target=canonical(parse.urljoin(url,response.getheader('Location','')))
+                result=self._raw(target,redirects-1,policy)
+                return {**result,'redirect_chain':[{'url':url,'status':response.status,'location':target}]+result.get('redirect_chain',[]),
+                    'acquisition_requested_url':url}
             content_type=response.getheader('Content-Type','')
-            if response.status==200 and not self.allow_pdf and 'application/pdf' in content_type.lower():
-                raise ValueError('Contenuto non testuale: documento PDF escluso prima del download')
+            if not self.allow_pdf:
+                from .content_policy import require_non_pdf,ExcludedPDF
+                require_non_pdf({'url':url,'content_type':content_type})
             size_limit=8000000 if self.allow_pdf else 1500000
-            raw=response.read(size_limit+1)
+            def read_body(size):
+                # Browser phase deadlines must also bound a stream that keeps
+                # sending small chunks; a socket inactivity timeout alone does not.
+                if not hasattr(self,'request_timeout'):return response.read(size)
+                parts=[];remaining=size
+                while remaining:
+                    self.stop();sock.settimeout(min(timeout(12),self.request_timeout()))
+                    chunk=response.read1(min(65536,remaining))
+                    if not chunk:break
+                    parts.append(chunk);remaining-=len(chunk)
+                return b''.join(parts)
+            if self.allow_pdf:raw=read_body(size_limit+1)
+            else:
+                prefix=read_body(5)
+                if prefix==b'%PDF-':raise ExcludedPDF(url)
+                self.stop()
+                raw=prefix+read_body(size_limit+1-len(prefix))
             if len(raw)>size_limit: raise ValueError('Documento troppo grande: controllo non completato' if self.allow_pdf else 'Pagina oltre 1,5 MB: controllo non completato')
             if self.allow_pdf and response.status==200 and ('application/pdf' in content_type or raw.startswith(b'%PDF-')):
                 from io import BytesIO
@@ -78,10 +105,10 @@ class PublicWeb:
                 if len(text.strip())<50:raise ValueError('PDF non leggibile: manca un livello testuale')
                 return {'status':200,'html':'<pre>'+escape(text)+'</pre>','plain_text':text,'url':url,'checked_at':now(),'content_hash':digest(text),'content_type':content_type,'cached':False}
             if len(raw)>getattr(self,'html_size_limit',size_limit):raise ValueError('Pagina oltre 1,5 MB: controllo non completato')
-            if not any(t in content_type for t in ('text/','xml','json')) and response.status==200: raise ValueError('Contenuto non testuale')
+            if not getattr(self,'allow_binary',False) and not any(t in content_type for t in ('text/','xml','json')) and response.status==200: raise ValueError('Contenuto non testuale')
             charset=re.search(r'charset=([\w-]+)',content_type)
             text=raw.decode(charset.group(1) if charset else 'utf-8',errors='replace')
-            return {'status':response.status,'html':text,'url':url,'checked_at':now(),'content_hash':digest(text),'content_type':content_type,'retry_after':response.getheader('Retry-After'),'cached':False}
+            return {'status':response.status,'html':text,'url':url,'checked_at':now(),'content_hash':digest(text),'content_type':content_type,'retry_after':response.getheader('Retry-After'),'last_modified':response.getheader('Last-Modified'),'cache_control':response.getheader('Cache-Control'),'cached':False,**({'body':raw} if getattr(self,'allow_binary',False) else {})}
         finally: conn.close();sock.close()
     def policy(self,url):
         self.stop();p=parse.urlsplit(url);origin=parse.urlunsplit((p.scheme,p.netloc,'','',''))
@@ -123,7 +150,7 @@ class PublicWeb:
         self.last[origin]=time.monotonic()
     def get(self,url,refresh=False):
         url=canonical(url)
-        if blocked(url): raise ValueError('Fonte esclusa: accesso automatico non abilitato')
+        if self.is_blocked(url): raise ValueError('Fonte esclusa: accesso automatico non abilitato')
         key='page:'+url
         cached=None if refresh else self.store.cache_get(key,self.store.settings()['cache_hours'])
         if cached: return {**cached,'cached':True}
@@ -173,12 +200,12 @@ class SearXNG(SearchProvider):
     def search(self,query,config):
         base=os.getenv('SEARXNG_URL','').rstrip('/');p=parse.urlsplit(base)
         if p.scheme!='http' or p.hostname not in ('localhost','127.0.0.1'): raise ValueError('SearXNG locale non configurato')
-        key='searxng:'+digest(json.dumps([base,query,config['time_range'],config['results_per_query']]))
+        key='searxng:'+digest(json.dumps([base,query,config['time_range'],config['results_per_query'],config.get('page',1)]))
         cached=self.store.cache_get(key,6)
         if cached is not None:return cached
         self.store.reserve('searxng')
         try:
-            result=api_json(base+'/search?'+parse.urlencode({'q':query,'format':'json','language':'it-IT','categories':'general','time_range':config['time_range']}))
+            result=api_json(base+'/search?'+parse.urlencode({'q':query,'pageno':config.get('page',1),'format':'json','language':'it-IT','categories':'general','time_range':config['time_range']}))
         except (OSError,ValueError) as exc:
             raise ValueError('Ricerca gratuita SearXNG non disponibile: '+str(exc)+'. Verifica il servizio locale; Tavily è disattivato.') from None
         if not isinstance(result,dict) or not isinstance(result.get('results'),list):raise ValueError('Risposta SearXNG non valida')

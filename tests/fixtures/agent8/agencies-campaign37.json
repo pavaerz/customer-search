@@ -1,0 +1,244 @@
+{
+  "basis": "Saved public campaign 37 evidence, not a new fetch or current qualification. Kondividi original remains in campaign36 fixture.",
+  "cases": [
+    {
+      "domain": "kondividi.it",
+      "campaign": 37,
+      "record_id": 91,
+      "receipt": {
+        "url": "https://kondividi.it/web-agency-modena/",
+        "title": "Web Agency Modena: Siti Internet Ed Ecommerce Con SEO",
+        "content": "Come Web Agency Modena in continua espansione, cerchiamo collaboratori con almeno due anni di esperienza nel web design e nel web marketing, pronti a ...",
+        "timestamp": "2026-10-19T13:55:25.818349+00:00"
+      },
+      "record": {
+        "kind": "AGENCY_PARTNERSHIP",
+        "state": "DISCOVERED",
+        "entity_name": "Web Agency Modena: Siti Internet Ed Ecommerce Con SEO",
+        "facts": [
+          {
+            "field": "entity",
+            "id": "e2",
+            "start": 0,
+            "end": 53,
+            "quote": "Web Agency Modena: Siti Internet Ed Ecommerce Con SEO",
+            "url": "https://kondividi.it/web-agency-modena/",
+            "checked_at": null,
+            "content_hash": "8c243de6265bd2957f54ccd74c9ceb10b9a9fe60a246c6b1f3d94f4cf8430dc0",
+            "document_id": null,
+            "original": false,
+            "result_id": "r2",
+            "document_start": 0,
+            "document_end": 53
+          },
+          {
+            "field": "signal",
+            "id": "e2",
+            "start": 54,
+            "end": 207,
+            "quote": "Come Web Agency Modena in continua espansione, cerchiamo collaboratori con almeno due anni di esperienza nel web design e nel web marketing, pronti a ...",
+            "url": "https://kondividi.it/web-agency-modena/",
+            "checked_at": null,
+            "content_hash": "8c243de6265bd2957f54ccd74c9ceb10b9a9fe60a246c6b1f3d94f4cf8430dc0",
+            "document_id": null,
+            "original": false,
+            "result_id": "r2",
+            "document_start": 54,
+            "document_end": 207
+          }
+        ],
+        "semantic_issues": [],
+        "relationship": {
+          "status": "unknown",
+          "basis": "indexed_citation",
+          "quote": null
+        }
+      }
+    },
+    {
+      "domain": "adriasonline.it",
+      "campaign": 37,
+      "record_id": 94,
+      "receipt": {
+        "url": "https://www.adriasonline.it/lavora-con-noi/",
+        "title": "Adrias Online è sempre alla ricerca di nuovi professionisti",
+        "content": "Cerchiamo collaboratori autonomi per ampliamento organico nell ... scrittura di contenuti per portali turistici e per un portale di destination marketing ...",
+        "timestamp": "2026-10-19T13:55:25.821887+00:00"
+      },
+      "record": {
+        "kind": "UNKNOWN",
+        "state": "UNVERIFIABLE",
+        "entity_name": null,
+        "facts": [],
+        "semantic_issues": [],
+        "relationship": {
+          "status": "unknown",
+          "basis": "original_citation",
+          "quote": null
+        }
+      },
+      "original": {
+        "url": "https://www.adriasonline.it/lavora-con-noi/",
+        "text": "Entra a far parte\ndel nostro team\nSiamo sempre alla ricerca di nuovi talenti, collaborativi e appassionati.\nTeam\nLavora con noi\nIl web è la tua passione e hai tanta voglia di metterti in gioco?\nScopri tutte le posizioni aperte, forse c’è una scrivania che ti aspetta!\nNew\nFrontend Developer / Freelance\nCerchiamo un collaboratore freelance per ampliamento organico\nProfilo richiesto:\nConoscenza approfondita di HTML, CSS, Bootstrap, Javascript;\nConoscenza nell'uso di Jquery e framework React (quest'ultimo opzionale);\nConoscenza del CMS WordPress.\nConoscenza delle tematiche relative allo sviluppo di interfacce mobile e responsive.\nChiudi profilo\nCandidatura spontanea\nIl profilo che cerchiamo\nInvia il tuo CV\nNew\nGraphic Designer / Freelance\nCerchiamo un collaboratore freelance per ampliamento organico\nProfilo richiesto:\nCapacità di progettazione grafica di siti web; desktop e mobile.\nConoscenza dei principi di usabilità\nCompleta autonomia nella gestione del progetto.\nConoscenza dei programmi della suite Adobe\nInviare CV e portfolio progetti realizzati.\nChiudi profilo\nInvia il tuo CV\nIl profilo che cerchiamo\nInvia il tuo CV\nNew\nPay Per Click Specialist / Assunzione\nCerchiamo un Pay Per Click Specialist per ampliamento organico nell'Area Marketing.\nProfilo richiesto:\nEsperienza nell'uso della piattaforma Google Ads\nConoscenza di Google Analytics\nCapacità di ideare, coordinare e analizzare attività di Conversion Rate Optimization\nCapacità di mantenere relazioni con i clienti e stakeholder\nCapacità di lavorare in gruppo e con scadenze senza perdere la propria indipendenza\nChiudi profilo\nInvia il tuo CV\nIl profilo che cerchiamo\nInvia il tuo CV\nNew\nSales Account / Freelance\nCerchiamo collaboratori autonomi per ampliamento organico nell'Area Sales.\nIn Adrias Online, storica realtà riminese specializzata in marketing e comunicazione per il settore turistico-alberghiero, ricerchiamo un/una Sales Account Freelance con P.IVA, motivato/a e con esperienza, che operi sul territorio.\nResponsabilità principali:\nPromuovere e presentare i servizi di marketing digitale ad hotel, residence e strutture ricettive della zona\nGestire l’intero ciclo di vendita: dalla ricerca di nuovi contatti alla trattativa, fino alla chiusura degli accordi commerciali\nCollaborare con il team marketing nello sviluppo di strategie e proposte personalizzate per i clienti\nRequisiti richiesti:\nP.IVA attiva\nAlmeno 2 anni di esperienza nella vendita di servizi, preferibilmente in ambito turistico o marketing\nOttime capacità comunicative, empatia e attitudine al problem solving\nConoscenze di base di marketing digitale e strumenti informatici (Google Drive, Excel/Google Sheets)\nPatente B e trasferimenti autonomi\nCosa offriamo:\nCollaborazione autonoma con provvigioni competitive e possibilità di anticipo mensile\nLavoro flessibile anche in smart working, con autonomia nella gestione del proprio tempo\nMomenti di confronto e condivisione: riunioni periodiche, incontri interni, visite in sede e sessioni di formazione\nOpportunità di crescita professionale in un ambiente giovane, dinamico e orientato ai risultati\nChiudi profilo\nInvia il tuo CV\nIl profilo che cerchiamo\nInvia il tuo CV\nNew\nSocial Media Specialist\nCerchiamo un/una Social Media Specialist per ampliamento organico nell' Area Marketing.\nIn Adrias Online, storica realtà riminese specializzata in marketing e comunicazione per il settore turistico-alberghiero, ricerchiamo un/una Social Media Specialist che possa gestire le attività social dei nostri clienti con creatività, strategia e competenza.\nResponsabilità principali:\nGestione completa delle campagne su Meta (Facebook e Instagram Ads): creazione, monitoraggio, ottimizzazione e reportistica\nSviluppo e gestione di piani editoriali in linea con gli obiettivi di comunicazione dei clienti\nCreazione e gestione di contenuti multiformato (Stories, Reels, video brevi, carousel, ecc.)\nPianificazione strategica della presenza social dei clienti, in collaborazione con il team\nGestione diretta del rapporto con i clienti e coordinamento delle attività\nRequisiti richiesti:\nEsperienza nella gestione di campagne Facebook Ads e Instagram Ads\nOttima conoscenza di Meta Business Suite\nCapacità di sviluppare strategie social integrate e data-driven\nCompetenze di copywriting e adattamento dei contenuti in base al target\nBuone capacità analitiche per interpretare dati e performance\nCreatività, precisione e attitudine al lavoro in team\nCosa offriamo:\nContratto e retribuzione commisurati all’esperienza\nLavoro flessibile anche in smart working, con autonomia nella gestione del proprio tempo\nMomenti di confronto e condivisione: riunioni periodiche, incontri interni, visite in sede e sessioni di formazione\nOpportunità di crescita professionale in un ambiente giovane, dinamico e orientato ai risultati\nChiudi profilo\nInvia il tuo CV\nIl profilo che cerchiamo\nInvia il tuo CV\nCandidature spontanee\nSe pensi che il tuo talento possa dare un valore aggiunto in Adrias Online, inviaci la tua candidatura compilando il form ed indicandoci in poche righe i tuoi ambiti di interesse. Ti contatteremo volentieri per un colloquio conoscitivo.\n1\nFrontend Developer /Junior\nche ami unire l'arte del design con l'arte della programmazione.\nCandidatura spontanea\n2\nBackend Developer /Junior\ncon una spiccata attitudine al lavoro in gruppo e capacità di “problem solving”.\nCandidatura spontanea\n3\nWeb designer /Junior\ncreativo e attento ai dettagli, con capacità di analisi e di lavoro in team.\nCandidatura spontanea\n1\nEmail Marketing Manager /Junior\nche ami scrivere, raccontare e creare un legame con gli iscritti.\nCandidatura spontanea\n2\nSocial Media Manager / Senior\ncon capacità di comunicazione, di analisi e di “problem solving”.\nCandidatura spontanea\n3\nContent Editor / Senior\ncon empatia, curiosità e amore per le parole e la scrittura.\nCandidatura spontanea\n4\nSeo Specialist / Senior\nse tracciare, analizzare e leggere i dati è il tuo pane quotidiano.\nCandidatura spontanea\nOpportunità di stage\nAll'interno della nostra azienda lo stage è considerato un alto momento di formazione.\nMandaci il tuo curriculum e inizia la tua avventura!\n1\nSocial & Content creator / stage\ncon una spiccata attitudine al lavoro in gruppo e capacità di “problem solving”\nSei appassionato di web e stai studiando digital marketing? Vorresti crescere come copywriter e content editor?\nCosa offriamo\nEntrerai a far parte di un team di professionisti pronto a mostrarti come funziona una vera campagna omnichannel: la strategia, quali canali scegliere e come si sviluppa un progetto integrando fra loro tutti gli strumenti di marketing.\nSe non conosci il mondo del turismo, scoprirai come si supporta un hotel nella sua promozione online e offline (dall’hotel identity alle campagne per vendere camere).\nTroverai un ambiente confortevole, cordiale e uno spazio accogliente per le tue pause pranzo o caffè, perché anche in ufficio coltivare le relazioni è importante e noi non vediamo l'ora di conoscerti!\nCosa farai con noi\nA livello pratico, affiancherai il team di sviluppo dei siti e il team Web Marketing.\nTi occuperai di:\ncontenuti per i siti web degli hotel\nprogrammazione del piano editoriale per i social network e scrittura dei post\nscrittura di contenuti per portali turistici e per un portale di destination marketing\ncreazione e scrittura di offerte e pacchetti turistici per hotel\ncontenuti per newsletter dedicate al territorio o ai punti di forza dell'hotel.\nChiudi profilo\nCandidatura spontanea\nIl profilo che cerchiamo\nCandidatura spontanea\n2\nSales Account / stage\ncon buone capacità relazionali e comunicative, spirito collaborativo, capacità di analisi e interesse nei nuovi trend del mercato turistico\nCosa farai con noi\nA livello pratico, affiancherai il reparto Sales nel:\nMettere in pratica le nostre strategie di acquisizione nuovi clienti;\nGestire la relazione con i clienti e valutarne la soddisfazione\nMettere in campo attività di \"up-selling\" e \"cross-selling\" sul parco clienti acquisito\nCollaborare con l'Area Marketing per la realizzazione di progetti personalizzati\nInteragire con le tutte le aree aziendali coinvolte nella gestione del cliente\nAnalisi del mercato e dei concorrenti.\nIn Adrias Online entrerai a far parte di un team di professionisti pronto a condividere strategie ed esperienza.\nTroverai un ambiente confortevole, cordiale e uno spazio accogliente per le tue pause pranzo o caffè, perché anche in ufficio coltivare le relazioni è importante e noi non vediamo l'ora di conoscerti!\nChiudi profilo\nCandidatura spontanea\nIl profilo che cerchiamo\nCandidatura spontanea\nEntra a far parte\ndel nostro team\nAllega il tuo CV *\nMi candido per il profilo di...Sales Account FreelanceSocial Media SpecialistCandidatura spontanea\nDichiaro di aver letto l’informativa al trattamento dei miei dati personali, fornita da Adrias Online ai sensi del Regolamento UE 2016/679 e della normativa nazionale in materia di protezione dei dati personali.\n* campi obbligatori\nAdrias Online srl\nViale Principe Amedeo, n. 7 - 47921 Rimini (Italia) - p. iva 037 68 200 408\nCopyright Adrias Online 2023 - Tutti i diritti riservati - Privacy policy\nScrivici\nChiamaci",
+        "checked_at": "2026-10-19T13:55:39.430032+00:00",
+        "document_id": "82f797aa3e1d958821fa1a28dbd383279e28840fa4adfd084a889e310d2797db",
+        "title": "Adrias Online è sempre alla ricerca di nuovi professionisti",
+        "original": true,
+        "sha256_text": "8bad48cd45eee5065ad44600e6d91db16901fbe46bfe3b37131ddb4e202c44ec"
+      }
+    },
+    {
+      "domain": "e89.it",
+      "campaign": 37,
+      "record_id": 162,
+      "receipt": {
+        "url": "https://e89.it/lavora-con-noi/",
+        "title": "Lavora con noi - Cerchiamo collaboratori per la nostra web ...",
+        "content": "Freelance. Cerchiamo freelance di “qualità” e “seri” per inserire nell'organico della nostra piattaforma. Se sei: un Graphic & Web Designer, Copywriter, ...",
+        "timestamp": "2026-10-19T14:01:18.443549+00:00"
+      },
+      "record": {
+        "kind": "AGENCY_PARTNERSHIP",
+        "state": "DISCOVERED",
+        "entity_name": null,
+        "facts": [
+          {
+            "field": "request",
+            "id": "e1",
+            "start": 74,
+            "end": 219,
+            "quote": "Cerchiamo freelance di “qualità” e “seri” per inserire nell'organico della nostra piattaforma. Se sei: un Graphic & Web Designer, Copywriter, ...",
+            "url": "https://e89.it/lavora-con-noi/",
+            "checked_at": "2026-10-19T14:01:32.277152+00:00",
+            "content_hash": "8ec465c4e78852aaf09af060a488d128dcdcecf6e79e272f10ec2f20dc86b7a0",
+            "document_id": null,
+            "original": false,
+            "result_id": "recovery",
+            "document_start": 74,
+            "document_end": 219
+          }
+        ],
+        "semantic_issues": [],
+        "relationship": {
+          "status": "external_mentioned",
+          "basis": "indexed_citation",
+          "quote": "Cerchiamo freelance di “qualità” e “seri” per inserire nell'organico della nostra piattaforma. Se sei: un Graphic & Web Designer, Copywriter, ..."
+        }
+      }
+    },
+    {
+      "domain": "escagency.it",
+      "campaign": 37,
+      "record_id": 163,
+      "receipt": {
+        "url": "https://www.escagency.it/offerta-lavoro-graphic-web-designer/",
+        "title": "Offerta lavoro | Freelance Graphic & Web Designer",
+        "content": "Cerchiamo Graphic & Web Designer freelance: lavora su progetti digitali, UI e visual design in ESC Agency. Scopri la posizione.",
+        "timestamp": "2026-10-19T14:01:18.445244+00:00"
+      },
+      "record": {
+        "kind": "UNKNOWN",
+        "state": "DISCOVERED",
+        "entity_name": "Offerta lavoro",
+        "facts": [
+          {
+            "field": "entity",
+            "id": "e2",
+            "start": 0,
+            "end": 14,
+            "quote": "Offerta lavoro",
+            "url": "https://www.escagency.it/offerta-lavoro-graphic-web-designer/",
+            "checked_at": null,
+            "content_hash": "3bdd5362c7b8b6fad7ceb2ed39c5b9937d4fd627fc56fe842bac1f23568b9859",
+            "document_id": null,
+            "original": false,
+            "result_id": "r2",
+            "document_start": 0,
+            "document_end": 14
+          },
+          {
+            "field": "request",
+            "id": "e2",
+            "start": 50,
+            "end": 156,
+            "quote": "Cerchiamo Graphic & Web Designer freelance: lavora su progetti digitali, UI e visual design in ESC Agency.",
+            "url": "https://www.escagency.it/offerta-lavoro-graphic-web-designer/",
+            "checked_at": null,
+            "content_hash": "3bdd5362c7b8b6fad7ceb2ed39c5b9937d4fd627fc56fe842bac1f23568b9859",
+            "document_id": null,
+            "original": false,
+            "result_id": "r2",
+            "document_start": 50,
+            "document_end": 156
+          }
+        ],
+        "semantic_issues": [
+          "employee_category_conflicts_with_external_evidence",
+          "employee_category_conflicts_with_hypothesis"
+        ],
+        "relationship": {
+          "status": "external_mentioned",
+          "basis": "indexed_citation",
+          "quote": "Cerchiamo Graphic & Web Designer freelance: lavora su progetti digitali, UI e visual design in ESC Agency."
+        }
+      }
+    },
+    {
+      "domain": "henryandco.it",
+      "campaign": 37,
+      "record_id": 164,
+      "receipt": {
+        "url": "https://www.henryandco.it/job/cerchiamo-un-web-designer-freelance/",
+        "title": "Siamo alla ricerca di un Web Designer Freelance - henry & co.",
+        "content": "Henry&Co. Design è alla ricerca di un Web Designer freelance per lavori digitali a progetto. Competenze richieste: HTML, HTML5, CSS; Javascript ...",
+        "timestamp": "2026-10-19T14:01:18.447247+00:00"
+      },
+      "record": {
+        "kind": "UNKNOWN",
+        "state": "DISCOVERED",
+        "entity_name": "Henry&Co.",
+        "facts": [
+          {
+            "field": "entity",
+            "id": "e3",
+            "start": 62,
+            "end": 71,
+            "quote": "Henry&Co.",
+            "url": "https://www.henryandco.it/job/cerchiamo-un-web-designer-freelance/",
+            "checked_at": null,
+            "content_hash": "7f2c59ebd28bd31de5934f833f20100f15c0f43e579d2d87c7f0f0a146376219",
+            "document_id": null,
+            "original": false,
+            "result_id": "r3",
+            "document_start": 62,
+            "document_end": 71
+          },
+          {
+            "field": "request",
+            "id": "e3",
+            "start": 72,
+            "end": 154,
+            "quote": "Design è alla ricerca di un Web Designer freelance per lavori digitali a progetto.",
+            "url": "https://www.henryandco.it/job/cerchiamo-un-web-designer-freelance/",
+            "checked_at": null,
+            "content_hash": "7f2c59ebd28bd31de5934f833f20100f15c0f43e579d2d87c7f0f0a146376219",
+            "document_id": null,
+            "original": false,
+            "result_id": "r3",
+            "document_start": 72,
+            "document_end": 154
+          }
+        ],
+        "semantic_issues": [
+          "employee_category_conflicts_with_external_evidence",
+          "employee_category_conflicts_with_hypothesis"
+        ],
+        "relationship": {
+          "status": "external_mentioned",
+          "basis": "indexed_citation",
+          "quote": "Design è alla ricerca di un Web Designer freelance per lavori digitali a progetto."
+        }
+      }
+    }
+  ]
+}

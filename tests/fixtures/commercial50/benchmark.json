@@ -1,0 +1,1247 @@
+{
+  "label_policy": "Frozen before implementation; POSITIVE=pertinent demand for investigation, not verified commission; ambiguous excluded from binary precision/recall. Synthetic cases separate.",
+  "as_of": "2026-10-18T19:03:15.531152+00:00",
+  "cases": [
+    {
+      "id": "wp",
+      "engine": "FREELANCE",
+      "label": "POSITIVE",
+      "label_reason": "Domanda esplicita pertinente, da ammettere per verifica; non qualifica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/wp",
+        "title": "Cerchiamo sviluppatore WordPress freelance",
+        "content": "Cerchiamo un collaboratore esterno WordPress per sviluppare un sito aziendale completo. Partita IVA."
+      }
+    },
+    {
+      "id": "woo",
+      "engine": "FREELANCE",
+      "label": "POSITIVE",
+      "label_reason": "Domanda esplicita pertinente, da ammettere per verifica; non qualifica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/woo",
+        "title": "Cerchiamo sviluppatore WooCommerce",
+        "content": "Richiesta di preventivo: migrazione del nostro e-commerce a WooCommerce, cerchiamo un freelance."
+      }
+    },
+    {
+      "id": "agency",
+      "engine": "AGENCIES",
+      "label": "POSITIVE",
+      "label_reason": "Domanda esplicita pertinente, da ammettere per verifica; non qualifica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/agency",
+        "title": "Collaborazioni agenzia",
+        "content": "Siamo una web agency. Cerchiamo sviluppatori WordPress freelance per collaborazioni continuative."
+      }
+    },
+    {
+      "id": "frontend",
+      "engine": "FREELANCE",
+      "label": "POSITIVE",
+      "label_reason": "Domanda esplicita pertinente, da ammettere per verifica; non qualifica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/frontend",
+        "title": "Hiring frontend contractor",
+        "content": "We are hiring a React frontend contractor, remote Europe. Independent contractor contract."
+      }
+    },
+    {
+      "id": "rebuild",
+      "engine": "FREELANCE",
+      "label": "POSITIVE",
+      "label_reason": "Domanda esplicita pertinente, da ammettere per verifica; non qualifica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/rebuild",
+        "title": "Rifacimento sito aziendale",
+        "content": "Abbiamo bisogno di rifare il nostro sito aziendale. Cerchiamo un professionista esterno per un progetto completo."
+      }
+    },
+    {
+      "id": "mvp",
+      "engine": "STARTUPS",
+      "label": "POSITIVE",
+      "label_reason": "Domanda esplicita pertinente, da ammettere per verifica; non qualifica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/mvp",
+        "title": "Paid MVP development project",
+        "content": "Our startup is looking for a freelance web developer to build a paid MVP. Remote Italy."
+      }
+    },
+    {
+      "id": "newsite",
+      "engine": "FREELANCE",
+      "label": "POSITIVE",
+      "label_reason": "Domanda esplicita pertinente, da ammettere per verifica; non qualifica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/newsite",
+        "title": "Need a new business website",
+        "content": "We need a new business website and are looking for a freelance website developer."
+      }
+    },
+    {
+      "id": "checkout",
+      "engine": "FREELANCE",
+      "label": "POSITIVE",
+      "label_reason": "Domanda esplicita pertinente, da ammettere per verifica; non qualifica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/checkout",
+        "title": "WooCommerce integration project",
+        "content": "Seeking a WooCommerce developer for a paid custom checkout and ERP integration project, remote Europe."
+      }
+    },
+    {
+      "id": "sales",
+      "engine": "FREELANCE",
+      "label": "NEGATIVE",
+      "label_reason": "Ruolo/fonte manifestamente fuori obiettivo",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/sales",
+        "title": "Addetta vendite Lidl",
+        "content": "Vendite part-time per il nostro negozio"
+      }
+    },
+    {
+      "id": "article",
+      "engine": "FREELANCE",
+      "label": "NEGATIVE",
+      "label_reason": "Ruolo/fonte manifestamente fuori obiettivo",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/article",
+        "title": "Quando l’IA esce dal recinto: il caso OpenAI-Hugging Face",
+        "content": "La piattaforma ospita modelli, dataset e codice software."
+      }
+    },
+    {
+      "id": "intern",
+      "engine": "FREELANCE",
+      "label": "NEGATIVE",
+      "label_reason": "Ruolo/fonte manifestamente fuori obiettivo",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/intern",
+        "title": "Tirocinio Digital Content WordPress",
+        "content": "Cerchiamo stagista per social e gestione contenuti siti WordPress."
+      }
+    },
+    {
+      "id": "seller",
+      "engine": "FREELANCE",
+      "label": "NEGATIVE",
+      "label_reason": "Ruolo/fonte manifestamente fuori obiettivo",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/seller",
+        "title": "Sviluppatore WordPress freelance",
+        "content": "Realizziamo siti WordPress per aziende. Richiedi preventivo ai nostri sviluppatori."
+      }
+    },
+    {
+      "id": "directory",
+      "engine": "FREELANCE",
+      "label": "NEGATIVE",
+      "label_reason": "Ruolo/fonte manifestamente fuori obiettivo",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/directory",
+        "title": "Elenco sviluppatori WordPress",
+        "content": "Directory dei migliori sviluppatori freelance."
+      }
+    },
+    {
+      "id": "usonly",
+      "engine": "FREELANCE",
+      "label": "NEGATIVE",
+      "label_reason": "Ruolo/fonte manifestamente fuori obiettivo",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/usonly",
+        "title": "WordPress contractor US only",
+        "content": "Hiring WordPress developer. Must reside in the US. Remote US only."
+      }
+    },
+    {
+      "id": "careers",
+      "engine": "FREELANCE",
+      "label": "NEGATIVE",
+      "label_reason": "Ruolo/fonte manifestamente fuori obiettivo",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/careers",
+        "title": "Lavora con noi: venditori",
+        "content": "Cerchiamo addetti vendite per il negozio."
+      }
+    },
+    {
+      "id": "sap",
+      "engine": "FREELANCE",
+      "label": "NEGATIVE",
+      "label_reason": "Ruolo/fonte manifestamente fuori obiettivo",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/sap",
+        "title": "SAP consultant freelance",
+        "content": "Cerchiamo SAP consultant, frontend WordPress nel sito aziendale."
+      }
+    },
+    {
+      "id": "cofounder",
+      "engine": "STARTUPS",
+      "label": "NEGATIVE",
+      "label_reason": "Ruolo/fonte manifestamente fuori obiettivo",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/cofounder",
+        "title": "Startup cerca cofounder frontend",
+        "content": "Cerchiamo cofounder React, solo equity, non retribuito."
+      }
+    },
+    {
+      "id": "social",
+      "engine": "FREELANCE",
+      "label": "AMBIGUOUS",
+      "label_reason": "Approfondimento ammesso senza qualifica automatica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://www.linkedin.com/jobs/view/wordpress-freelance-at-example-123456789",
+        "title": "WordPress freelance at Example",
+        "content": ""
+      }
+    },
+    {
+      "id": "standing",
+      "engine": "AGENCIES",
+      "label": "AMBIGUOUS",
+      "label_reason": "Approfondimento ammesso senza qualifica automatica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/standing",
+        "title": "Collaborazioni",
+        "content": "Siamo aperti a collaborazioni freelance WordPress."
+      }
+    },
+    {
+      "id": "unknownactor",
+      "engine": "FREELANCE",
+      "label": "AMBIGUOUS",
+      "label_reason": "Approfondimento ammesso senza qualifica automatica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/unknownactor",
+        "title": "WordPress contractor",
+        "content": "Looking for a WordPress contractor, employer not disclosed."
+      }
+    },
+    {
+      "id": "remoteunknown",
+      "engine": "FREELANCE",
+      "label": "AMBIGUOUS",
+      "label_reason": "Approfondimento ammesso senza qualifica automatica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/remoteunknown",
+        "title": "Frontend contractor remote",
+        "content": "Hiring React contractor, remote."
+      }
+    },
+    {
+      "id": "outbound",
+      "engine": "WEBSITE_REBUILD",
+      "label": "AMBIGUOUS",
+      "label_reason": "Approfondimento ammesso senza qualifica automatica",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/outbound",
+        "title": "Alfa componenti industriali",
+        "content": "Produciamo componenti industriali. Contatti."
+      }
+    },
+    {
+      "id": "historical-912",
+      "engine": "FREELANCE",
+      "item": {
+        "url": "https://lavoro.lidl.it/jobs/addetta-o-vendite-part-time-vittorio-veneto-tv-752288",
+        "title": "Addetta/o Vendite part-time - Lidl Lavoro",
+        "content": "Come Addetta/o Vendite in Lidl Italia crei un'esperienza positiva per chi entra in negozio e contribuisci al lavoro di squadra.",
+        "engines": [
+          "google via Serper"
+        ],
+        "date": "25 set 2026",
+        "appearance_id": "f29bec4323a3902fc956f7a90af8f31a606c37db197f5f64639e078b49dad1e3",
+        "max_job_age_days": 14,
+        "original_url": "https://lavoro.lidl.it/jobs/addetta-o-vendite-part-time-vittorio-veneto-tv-752288",
+        "canonical_url": "https://lavoro.lidl.it/jobs/addetta-o-vendite-part-time-vittorio-veneto-tv-752288",
+        "snippet": "Come Addetta/o Vendite in Lidl Italia crei un'esperienza positiva per chi entra in negozio e contribuisci al lavoro di squadra.",
+        "query": "WordPress (cerchiamo OR ricerchiamo) freelance Veneto Italia",
+        "executed_query": "WordPress (cerchiamo OR ricerchiamo) freelance Veneto Italia -filetype:pdf",
+        "provider": "serper",
+        "source": "web",
+        "subject": null,
+        "timestamp": "2026-10-18T18:55:23.992830+00:00",
+        "origin": {
+          "query": "WordPress (cerchiamo OR ricerchiamo) freelance Veneto Italia",
+          "page": 1,
+          "region": "Veneto",
+          "provider": "serper",
+          "task_id": 4269,
+          "acquisition": "search",
+          "family": "wordpress_request",
+          "segment": null,
+          "source_preference": "direct",
+          "strategy_version": "4.5"
+        },
+        "source_kind": "official_job_hint",
+        "decision": "admit",
+        "priority": 40,
+        "reason": "Pagina candidature: ruolo tecnico e natura esterna ancora da verificare.",
+        "accessibility": "not_checked",
+        "commercial_intent": {
+          "intent": "UNKNOWN",
+          "commercial_role": "UNKNOWN",
+          "reason": "Intenzione commerciale non sufficientemente attribuibile.",
+          "request_clause": null,
+          "role": null,
+          "technical": false,
+          "buyer_evidence": [],
+          "negations": [],
+          "contradictions": [],
+          "seller_evidence": [],
+          "request_nature": "UNKNOWN",
+          "subject_relation": "unknown",
+          "relationship": null,
+          "requester": null,
+          "provider": null,
+          "work_recipient": null,
+          "payer": null
+        },
+        "result_type": "UNKNOWN",
+        "preflight": {
+          "level": "A",
+          "basis": "insufficient_metadata",
+          "identity_verified": false,
+          "http_reads": 0,
+          "ai_calls": 0
+        },
+        "commercial_source_role": "company_candidate",
+        "freshness": {
+          "publication_date": null,
+          "date_status": "UNKNOWN",
+          "index_date_hint": "25 set 2026",
+          "date_hint": null,
+          "availability": "UNVERIFIABLE",
+          "priority_hint": "unknown",
+          "limits": [
+            "Data di indicizzazione distinta da pubblicazione; apertura non verificata per semplice data recente."
+          ]
+        },
+        "investigation_value": {
+          "basis": "observable_metadata_not_sales_probability",
+          "priority": 40,
+          "missing": [
+            "official_identity",
+            "original_request"
+          ],
+          "next_step": "targeted_read"
+        }
+      },
+      "label": "NEGATIVE",
+      "label_reason": "Vendite Lidl non web",
+      "provenance": "SAVED_CAMPAIGN29",
+      "opportunity_id": 912
+    },
+    {
+      "id": "historical-915",
+      "engine": "FREELANCE",
+      "item": {
+        "url": "https://it.linkedin.com/jobs/view/tirocinio-digital-content-wordpress-at-citycomm-srl-4467701489",
+        "title": "Tirocinio Digital Content & WordPress — Livorno",
+        "content": "Cerchiamo uno/a stagista da inserire nel team marketing, con interesse sia per i social e i contenuti sia per la gestione dei siti web. Cosa farai:.",
+        "engines": [
+          "google via Serper"
+        ],
+        "date": "30 set 2026",
+        "appearance_id": "a11d3658d0871c659f2954ec875dd008df8687520d259f4d20fff95d58f74ad6",
+        "max_job_age_days": 14,
+        "original_url": "https://it.linkedin.com/jobs/view/tirocinio-digital-content-wordpress-at-citycomm-srl-4467701489",
+        "canonical_url": "https://it.linkedin.com/jobs/view/tirocinio-digital-content-wordpress-at-citycomm-srl-4467701489",
+        "snippet": "Cerchiamo uno/a stagista da inserire nel team marketing, con interesse sia per i social e i contenuti sia per la gestione dei siti web. Cosa farai:.",
+        "query": "WooCommerce sviluppatore (cerco OR cerchiamo) Toscana Italia",
+        "executed_query": "WooCommerce sviluppatore (cerco OR cerchiamo) Toscana Italia -filetype:pdf",
+        "provider": "serper",
+        "source": "linkedin",
+        "subject": null,
+        "timestamp": "2026-10-18T18:56:49.595465+00:00",
+        "origin": {
+          "query": "WooCommerce sviluppatore (cerco OR cerchiamo) Toscana Italia",
+          "page": 1,
+          "region": "Toscana",
+          "provider": "serper",
+          "task_id": 4293,
+          "acquisition": "search",
+          "family": "commission_ecommerce",
+          "segment": null,
+          "source_preference": "direct",
+          "strategy_version": "4.5"
+        },
+        "source_kind": "linkedin_job",
+        "decision": "admit",
+        "priority": 30,
+        "reason": "Annuncio tecnico per rapporto dipendente: conservato per revisione manuale, non come commessa freelance.",
+        "accessibility": "indexed_only",
+        "commercial_intent": {
+          "intent": "JOB_OFFER",
+          "commercial_role": "EMPLOYER",
+          "reason": "Richiesta tecnica diretta nel blocco; soggetto, contratto e attualità richiedono verifica separata.",
+          "request_clause": "Tirocinio Digital Content & WordPress — Livorno Cerchiamo uno/a stagista da inserire nel team marketing, con interesse sia per i social e i contenuti sia per la gestione dei siti web.",
+          "role": null,
+          "technical": true,
+          "buyer_evidence": [
+            {
+              "quote": "Tirocinio Digital Content & WordPress — Livorno Cerchiamo uno/a stagista da inserire nel team marketing, con interesse sia per i social e i contenuti sia per la gestione dei siti web.",
+              "start": 0,
+              "end": 183
+            }
+          ],
+          "negations": [],
+          "contradictions": [],
+          "seller_evidence": [],
+          "request_nature": "CURRENT_OPEN_REQUEST",
+          "subject_relation": "publisher",
+          "relationship": "employment",
+          "requester": "publisher",
+          "provider": null,
+          "work_recipient": null,
+          "payer": null,
+          "requested_subject": null,
+          "actor_relation": "INSUFFICIENT_EVIDENCE",
+          "candidate_addressing": []
+        },
+        "result_type": "JOB_POSTING",
+        "preflight": {
+          "level": "A",
+          "basis": "social_url",
+          "identity_verified": false,
+          "http_reads": 0,
+          "ai_calls": 0
+        },
+        "commercial_source_role": "company_candidate",
+        "freshness": {
+          "publication_date": null,
+          "date_status": "UNKNOWN",
+          "index_date_hint": "30 set 2026",
+          "date_hint": null,
+          "availability": "UNVERIFIABLE",
+          "priority_hint": "unknown",
+          "limits": [
+            "Data di indicizzazione distinta da pubblicazione; apertura non verificata per semplice data recente."
+          ]
+        },
+        "recommendation_only": true
+      },
+      "label": "NEGATIVE",
+      "label_reason": "Tirocinio esplicito",
+      "provenance": "SAVED_CAMPAIGN29",
+      "opportunity_id": 915
+    },
+    {
+      "id": "historical-916",
+      "engine": "FREELANCE",
+      "item": {
+        "url": "https://www.thedotcultura.it/quando-lia-esce-dal-recinto-il-caso-openai-hugging-face/",
+        "title": "Quando l'IA esce dal recinto: il caso OpenAI-Hugging Face",
+        "content": "La piattaforma svolge per l'intelligenza artificiale una funzione per certi aspetti analoga a quella di GitHub per il software: ospita modelli, dataset, codice ...",
+        "engines": [
+          "google via Serper"
+        ],
+        "date": "19 set 2026",
+        "appearance_id": "ac5e308d2e75501d03a63236f3185d9360ff758aa655f29ba3107f9a3aa6bcc0",
+        "max_job_age_days": 14,
+        "original_url": "https://www.thedotcultura.it/quando-lia-esce-dal-recinto-il-caso-openai-hugging-face/",
+        "canonical_url": "https://www.thedotcultura.it/quando-lia-esce-dal-recinto-il-caso-openai-hugging-face/",
+        "snippet": "La piattaforma svolge per l'intelligenza artificiale una funzione per certi aspetti analoga a quella di GitHub per il software: ospita modelli, dataset, codice ...",
+        "query": "WooCommerce sviluppatore (cerco OR cerchiamo) Toscana Italia",
+        "executed_query": "WooCommerce sviluppatore (cerco OR cerchiamo) Toscana Italia -filetype:pdf",
+        "provider": "serper",
+        "source": "web",
+        "subject": null,
+        "timestamp": "2026-10-18T18:56:49.636998+00:00",
+        "origin": {
+          "query": "WooCommerce sviluppatore (cerco OR cerchiamo) Toscana Italia",
+          "page": 1,
+          "region": "Toscana",
+          "provider": "serper",
+          "task_id": 4293,
+          "acquisition": "search",
+          "family": "commission_ecommerce",
+          "segment": null,
+          "source_preference": "direct",
+          "strategy_version": "4.5"
+        },
+        "source_kind": "company_site_hint",
+        "decision": "admit",
+        "priority": 30,
+        "reason": "Indizi insufficienti: candidato a bassa priorità.",
+        "accessibility": "not_checked",
+        "commercial_intent": {
+          "intent": "UNKNOWN",
+          "commercial_role": "UNKNOWN",
+          "reason": "Intenzione commerciale non sufficientemente attribuibile.",
+          "request_clause": null,
+          "role": null,
+          "technical": true,
+          "buyer_evidence": [],
+          "negations": [],
+          "contradictions": [],
+          "seller_evidence": [],
+          "request_nature": "UNKNOWN",
+          "subject_relation": "unknown",
+          "relationship": null,
+          "requester": null,
+          "provider": null,
+          "work_recipient": null,
+          "payer": null
+        },
+        "result_type": "UNKNOWN",
+        "preflight": {
+          "level": "A",
+          "basis": "insufficient_metadata",
+          "identity_verified": false,
+          "http_reads": 0,
+          "ai_calls": 0
+        },
+        "commercial_source_role": "company_candidate",
+        "freshness": {
+          "publication_date": null,
+          "date_status": "UNKNOWN",
+          "index_date_hint": "19 set 2026",
+          "date_hint": null,
+          "availability": "UNVERIFIABLE",
+          "priority_hint": "unknown",
+          "limits": [
+            "Data di indicizzazione distinta da pubblicazione; apertura non verificata per semplice data recente."
+          ]
+        },
+        "investigation_value": {
+          "basis": "observable_metadata_not_sales_probability",
+          "priority": 30,
+          "missing": [
+            "official_identity",
+            "original_request"
+          ],
+          "next_step": "targeted_read"
+        }
+      },
+      "label": "NEGATIVE",
+      "label_reason": "Articolo informativo, nessuna richiesta",
+      "provenance": "SAVED_CAMPAIGN29",
+      "opportunity_id": 916
+    },
+    {
+      "id": "historical-825",
+      "engine": "STARTUPS",
+      "item": {
+        "url": "https://www.zodiacpoolsystems.com/en/product-archive/cleaners/baracuda-pacer",
+        "title": "Baracuda Pacer",
+        "content": "The Baracuda Pacer is built on Baracuda's long history as a global leader in automatic pool cleaning technology. Full Description; Specifications & Technical ...",
+        "engines": [
+          "google via Serper"
+        ],
+        "resolution_company": "PACER",
+        "resolution_role": "Full Stack Developer (Freelance)",
+        "resolution_stage": "COMPANY_DOMAIN_CANDIDATE",
+        "resolution_source": "https://it.talent.com/view?id=641833497982403754",
+        "appearance_id": "e3d83fc6142c19335d99700efd7c8cfbd1b3f404a31218cbd71fc48d08a2a99f",
+        "max_job_age_days": 14,
+        "original_url": "https://www.zodiacpoolsystems.com/en/product-archive/cleaners/baracuda-pacer",
+        "canonical_url": "https://www.zodiacpoolsystems.com/en/product-archive/cleaners/baracuda-pacer",
+        "snippet": "The Baracuda Pacer is built on Baracuda's long history as a global leader in automatic pool cleaning technology. Full Description; Specifications & Technical ...",
+        "query": "\"PACER\"  Italia sito ufficiale (collaborazioni OR careers OR \"lavora con noi\") -site:linkedin.com -site:bebee.com -site:recruit.net",
+        "executed_query": "\"PACER\"  Italia sito ufficiale (collaborazioni OR careers OR \"lavora con noi\") -site:linkedin.com -site:bebee.com -site:recruit.net -filetype:pdf",
+        "provider": "serper",
+        "source": "web",
+        "subject": null,
+        "timestamp": "2026-10-18T18:56:35.756422+00:00",
+        "origin": {
+          "query": "\"PACER\"  Italia sito ufficiale (collaborazioni OR careers OR \"lavora con noi\") -site:linkedin.com -site:bebee.com -site:recruit.net",
+          "page": 1,
+          "region": null,
+          "provider": "serper",
+          "task_id": 4280,
+          "acquisition": "resolution",
+          "family": null,
+          "segment": null,
+          "source_preference": null,
+          "strategy_version": null,
+          "parent": "https://it.talent.com/view?id=641833497982403754",
+          "reason": "Ricerca di una fonte ufficiale equivalente"
+        },
+        "source_kind": "company_site_hint",
+        "decision": "admit",
+        "priority": 65,
+        "reason": "Possibile dominio del soggetto cercato: verificare identità e pagina collaborazioni, nessuna richiesta presunta.",
+        "accessibility": "not_checked",
+        "commercial_intent": {
+          "intent": "UNKNOWN",
+          "commercial_role": "UNKNOWN",
+          "reason": "Intenzione commerciale non sufficientemente attribuibile.",
+          "request_clause": null,
+          "role": null,
+          "technical": false,
+          "buyer_evidence": [],
+          "negations": [],
+          "contradictions": [],
+          "seller_evidence": [],
+          "request_nature": "UNKNOWN",
+          "subject_relation": "unknown",
+          "relationship": null,
+          "requester": null,
+          "provider": null,
+          "work_recipient": null,
+          "payer": null
+        },
+        "result_type": "UNKNOWN",
+        "preflight": {
+          "level": "A",
+          "basis": "insufficient_metadata",
+          "identity_verified": false,
+          "http_reads": 0,
+          "ai_calls": 0
+        },
+        "commercial_source_role": "company_candidate",
+        "freshness": {
+          "publication_date": null,
+          "date_status": "UNKNOWN",
+          "index_date_hint": null,
+          "date_hint": null,
+          "availability": "UNVERIFIABLE",
+          "priority_hint": "unknown",
+          "limits": [
+            "Data di indicizzazione distinta da pubblicazione; apertura non verificata per semplice data recente."
+          ]
+        },
+        "request_type": "UNKNOWN",
+        "admission_stage": "COMPANY_DOMAIN_CANDIDATE"
+      },
+      "label": "NEGATIVE",
+      "label_reason": "PACER prodotto piscina, soggetto errato",
+      "provenance": "SAVED_CAMPAIGN29",
+      "opportunity_id": 825
+    },
+    {
+      "id": "historical-857",
+      "engine": "AGENCIES",
+      "item": {
+        "url": "https://understack.it/lavora-con-noi/",
+        "title": "Lavoro sviluppatore WordPress, da remoto - Understack",
+        "content": "Cosa cerchiamo · Autonomia · Precisione · Solidità tecnica · Affidabilità sulle scadenze · Dimestichezza con Git · Attenzione ai dettagli · Capacità di rispettare un ...",
+        "engines": [
+          "google via Serper"
+        ],
+        "appearance_id": "614e1ba9c96ee99eae279f18dd6be2a5f88dcc318358276d0202ad90bba3a674",
+        "max_job_age_days": 14,
+        "original_url": "https://understack.it/lavora-con-noi/",
+        "canonical_url": "https://understack.it/lavora-con-noi/",
+        "snippet": "Cosa cerchiamo · Autonomia · Precisione · Solidità tecnica · Affidabilità sulle scadenze · Dimestichezza con Git · Attenzione ai dettagli · Capacità di rispettare un ...",
+        "query": "agenzia \"cerchiamo\" sviluppatore WordPress freelance Lombardia Italia",
+        "executed_query": "agenzia \"cerchiamo\" sviluppatore WordPress freelance Lombardia Italia -filetype:pdf",
+        "provider": "serper",
+        "source": "web",
+        "subject": null,
+        "timestamp": "2026-10-18T18:55:25.085824+00:00",
+        "origin": {
+          "query": "agenzia \"cerchiamo\" sviluppatore WordPress freelance Lombardia Italia",
+          "page": 1,
+          "region": "Lombardia",
+          "provider": "serper",
+          "task_id": 4270,
+          "acquisition": "search",
+          "family": "agency_open",
+          "segment": null,
+          "source_preference": "direct",
+          "strategy_version": "4.3"
+        },
+        "source_kind": "official_job_hint",
+        "decision": "admit",
+        "priority": 60,
+        "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte.",
+        "accessibility": "not_checked",
+        "commercial_intent": {
+          "intent": "BUYER_INTENT",
+          "commercial_role": "BUYER",
+          "reason": "Richiesta tecnica diretta nel blocco; soggetto, contratto e attualità richiedono verifica separata.",
+          "request_clause": "Lavoro sviluppatore WordPress, da remoto - Understack Cosa cerchiamo · Autonomia · Precisione · Solidità tecnica · Affidabilità sulle scadenze · Dimestichezza con Git · Attenzione ai dettagli · Capacità di rispettare un .",
+          "role": null,
+          "technical": true,
+          "buyer_evidence": [
+            {
+              "quote": "Lavoro sviluppatore WordPress, da remoto - Understack Cosa cerchiamo · Autonomia · Precisione · Solidità tecnica · Affidabilità sulle scadenze · Dimestichezza con Git · Attenzione ai dettagli · Capacità di rispettare un .",
+              "start": 0,
+              "end": 221
+            }
+          ],
+          "negations": [],
+          "contradictions": [],
+          "seller_evidence": [],
+          "request_nature": "CURRENT_OPEN_REQUEST",
+          "subject_relation": "publisher",
+          "relationship": null,
+          "requester": "publisher",
+          "provider": null,
+          "work_recipient": null,
+          "payer": null,
+          "requested_subject": null,
+          "actor_relation": "INSUFFICIENT_EVIDENCE",
+          "candidate_addressing": []
+        },
+        "result_type": "AGENCY_COLLABORATION",
+        "preflight": {
+          "level": "A",
+          "basis": "insufficient_metadata",
+          "identity_verified": false,
+          "http_reads": 0,
+          "ai_calls": 0
+        },
+        "commercial_source_role": "company_candidate",
+        "freshness": {
+          "publication_date": null,
+          "date_status": "UNKNOWN",
+          "index_date_hint": null,
+          "date_hint": null,
+          "availability": "UNVERIFIABLE",
+          "priority_hint": "unknown",
+          "limits": [
+            "Data di indicizzazione distinta da pubblicazione; apertura non verificata per semplice data recente."
+          ]
+        },
+        "agency_signal": "D_NO_SIGNAL",
+        "investigation_value": {
+          "basis": "observable_metadata_not_sales_probability",
+          "priority": 60,
+          "missing": [
+            "official_identity",
+            "original_request"
+          ],
+          "next_step": "targeted_read"
+        }
+      },
+      "label": "POSITIVE",
+      "label_reason": "Collaborazione esterna realmente presente nella fonte, attualità ignota",
+      "provenance": "SAVED_CAMPAIGN29",
+      "opportunity_id": 857
+    },
+    {
+      "id": "historical-856",
+      "engine": "AGENCIES",
+      "item": {
+        "url": "https://internetimage.it/pr/sviluppatore-wordpress-wordpress-technical-developer-full-stack/",
+        "title": "Sviluppatore WordPress / WordPress Technical Developer ...",
+        "content": "Cerchiamo uno Sviluppatore WordPress che si occupi di sviluppo, manutenzione e ottimizzazione di siti WordPress personalizzati, con un ruolo centrale di ...",
+        "engines": [
+          "google via Serper"
+        ],
+        "appearance_id": "8513f840a92a4a42cb65f920c5ff620bf95dbc258e35efea05122448bfa4a15a",
+        "max_job_age_days": 14,
+        "original_url": "https://internetimage.it/pr/sviluppatore-wordpress-wordpress-technical-developer-full-stack/",
+        "canonical_url": "https://internetimage.it/pr/sviluppatore-wordpress-wordpress-technical-developer-full-stack/",
+        "snippet": "Cerchiamo uno Sviluppatore WordPress che si occupi di sviluppo, manutenzione e ottimizzazione di siti WordPress personalizzati, con un ruolo centrale di ...",
+        "query": "agenzia \"cerchiamo\" sviluppatore WordPress freelance Lombardia Italia",
+        "executed_query": "agenzia \"cerchiamo\" sviluppatore WordPress freelance Lombardia Italia -filetype:pdf",
+        "provider": "serper",
+        "source": "web",
+        "subject": null,
+        "timestamp": "2026-10-18T18:55:25.033537+00:00",
+        "origin": {
+          "query": "agenzia \"cerchiamo\" sviluppatore WordPress freelance Lombardia Italia",
+          "page": 1,
+          "region": "Lombardia",
+          "provider": "serper",
+          "task_id": 4270,
+          "acquisition": "search",
+          "family": "agency_open",
+          "segment": null,
+          "source_preference": "direct",
+          "strategy_version": "4.3"
+        },
+        "source_kind": "company_site_hint",
+        "decision": "admit",
+        "priority": 60,
+        "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte.",
+        "accessibility": "not_checked",
+        "commercial_intent": {
+          "intent": "BUYER_INTENT",
+          "commercial_role": "BUYER",
+          "reason": "Richiesta tecnica diretta nel blocco; soggetto, contratto e attualità richiedono verifica separata.",
+          "request_clause": "Cerchiamo uno Sviluppatore WordPress che si occupi di sviluppo, manutenzione e ottimizzazione di siti WordPress personalizzati, con un ruolo centrale di .",
+          "role": null,
+          "technical": true,
+          "buyer_evidence": [
+            {
+              "quote": "Cerchiamo uno Sviluppatore WordPress che si occupi di sviluppo, manutenzione e ottimizzazione di siti WordPress personalizzati, con un ruolo centrale di .",
+              "start": 59,
+              "end": 213
+            }
+          ],
+          "negations": [],
+          "contradictions": [],
+          "seller_evidence": [],
+          "request_nature": "CURRENT_OPEN_REQUEST",
+          "subject_relation": "publisher",
+          "relationship": null,
+          "requester": "publisher",
+          "provider": null,
+          "work_recipient": null,
+          "payer": null,
+          "requested_subject": null,
+          "actor_relation": "INSUFFICIENT_EVIDENCE",
+          "candidate_addressing": []
+        },
+        "result_type": "AGENCY_COLLABORATION",
+        "preflight": {
+          "level": "A",
+          "basis": "insufficient_metadata",
+          "identity_verified": false,
+          "http_reads": 0,
+          "ai_calls": 0
+        },
+        "commercial_source_role": "company_candidate",
+        "freshness": {
+          "publication_date": null,
+          "date_status": "UNKNOWN",
+          "index_date_hint": null,
+          "date_hint": null,
+          "availability": "UNVERIFIABLE",
+          "priority_hint": "unknown",
+          "limits": [
+            "Data di indicizzazione distinta da pubblicazione; apertura non verificata per semplice data recente."
+          ]
+        },
+        "agency_signal": "E_SERVICE_OFFER",
+        "investigation_value": {
+          "basis": "observable_metadata_not_sales_probability",
+          "priority": 60,
+          "missing": [
+            "official_identity",
+            "original_request"
+          ],
+          "next_step": "targeted_read"
+        }
+      },
+      "label": "AMBIGUOUS",
+      "label_reason": "Ruolo tecnico, contratto ignoto",
+      "provenance": "SAVED_CAMPAIGN29",
+      "opportunity_id": 856
+    },
+    {
+      "id": "historical-914",
+      "engine": "FREELANCE",
+      "item": {
+        "url": "https://www.profilcultura.it/annuncio/collaboratore-trice-contenuti-digitali-social-commerce-16115.html",
+        "title": "Collaboratore/trice contenuti digitali, social ed e-commerce",
+        "content": "Stiamo cercando una persona con Partita IVA con cui avviare una collaborazione continuativa per affiancarci nella gestione operativa della nostra presenza.",
+        "engines": [
+          "google via Serper"
+        ],
+        "date": "30 set 2026",
+        "appearance_id": "439005f3de7116ab59fe4a6248f4623a862794a349240448ab9abd967cbda312",
+        "max_job_age_days": 14,
+        "original_url": "https://www.profilcultura.it/annuncio/collaboratore-trice-contenuti-digitali-social-commerce-16115.html",
+        "canonical_url": "https://www.profilcultura.it/annuncio/collaboratore-trice-contenuti-digitali-social-commerce-16115.html",
+        "snippet": "Stiamo cercando una persona con Partita IVA con cui avviare una collaborazione continuativa per affiancarci nella gestione operativa della nostra presenza.",
+        "query": "frontend (cerchiamo OR ricerchiamo) \"partita IVA\" Liguria Italia",
+        "executed_query": "frontend (cerchiamo OR ricerchiamo) \"partita IVA\" Liguria Italia -filetype:pdf",
+        "provider": "serper",
+        "source": "web",
+        "subject": null,
+        "timestamp": "2026-10-18T18:56:32.119475+00:00",
+        "origin": {
+          "query": "frontend (cerchiamo OR ricerchiamo) \"partita IVA\" Liguria Italia",
+          "page": 1,
+          "region": "Liguria",
+          "provider": "serper",
+          "task_id": 4275,
+          "acquisition": "search",
+          "family": "external_frontend",
+          "segment": null,
+          "source_preference": "official_careers",
+          "strategy_version": "4.5"
+        },
+        "source_kind": "company_site_hint",
+        "decision": "admit",
+        "priority": 90,
+        "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte.",
+        "accessibility": "not_checked",
+        "commercial_intent": {
+          "intent": "FREELANCE_OPPORTUNITY",
+          "commercial_role": "FREELANCE_BUYER",
+          "reason": "Richiesta tecnica diretta nel blocco; soggetto, contratto e attualità richiedono verifica separata.",
+          "request_clause": "Collaboratore/trice contenuti digitali, social ed e-commerce Stiamo cercando una persona con Partita IVA con cui avviare una collaborazione continuativa per affiancarci nella gestione operativa della nostra presenza.",
+          "role": null,
+          "technical": true,
+          "buyer_evidence": [
+            {
+              "quote": "Collaboratore/trice contenuti digitali, social ed e-commerce Stiamo cercando una persona con Partita IVA con cui avviare una collaborazione continuativa per affiancarci nella gestione operativa della nostra presenza.",
+              "start": 0,
+              "end": 216
+            }
+          ],
+          "negations": [],
+          "contradictions": [],
+          "seller_evidence": [],
+          "request_nature": "CURRENT_OPEN_REQUEST",
+          "subject_relation": "publisher",
+          "relationship": "external",
+          "requester": "publisher",
+          "provider": null,
+          "work_recipient": "external_professional",
+          "payer": null,
+          "requested_subject": null,
+          "actor_relation": "INSUFFICIENT_EVIDENCE",
+          "candidate_addressing": []
+        },
+        "result_type": "DIRECT_REQUEST",
+        "preflight": {
+          "level": "A",
+          "basis": "insufficient_metadata",
+          "identity_verified": false,
+          "http_reads": 0,
+          "ai_calls": 0
+        },
+        "commercial_source_role": "company_candidate",
+        "freshness": {
+          "publication_date": null,
+          "date_status": "UNKNOWN",
+          "index_date_hint": "30 set 2026",
+          "date_hint": null,
+          "availability": "UNVERIFIABLE",
+          "priority_hint": "unknown",
+          "limits": [
+            "Data di indicizzazione distinta da pubblicazione; apertura non verificata per semplice data recente."
+          ]
+        },
+        "investigation_value": {
+          "basis": "observable_metadata_not_sales_probability",
+          "priority": 90,
+          "missing": [
+            "official_identity",
+            "original_request"
+          ],
+          "next_step": "targeted_read"
+        }
+      },
+      "label": "AMBIGUOUS",
+      "label_reason": "Snippet collaborazione P.IVA, originale inaccessibile",
+      "provenance": "SAVED_CAMPAIGN29",
+      "opportunity_id": 914
+    },
+    {
+      "id": "historical-917",
+      "engine": "WEBSITE_REBUILD",
+      "item": {
+        "url": "https://www.designalpino.it/?srsltid=AU7gw4VM0BKREU-eXQ2d7f_hOW-yeT-dLawZV_YqF8smUN9Nm1H4AP9E",
+        "title": "DESIGN ALPINO | Arredamento di montagna",
+        "content": "Il design autentico della casa di montagna. Selezioniamo i migliori arredi e realizziamo progetti su misura per chalet e baite dove eleganza, natura e comfort ...",
+        "engines": [
+          "google via Serper"
+        ],
+        "appearance_id": "37628ea4e8878d93aefbb64cbb1a059ac9a10c598d44509d0ea140f9fecf6ba9",
+        "max_job_age_days": 14,
+        "original_url": "https://www.designalpino.it/?srsltid=AU7gw4VM0BKREU-eXQ2d7f_hOW-yeT-dLawZV_YqF8smUN9Nm1H4AP9E",
+        "canonical_url": "https://www.designalpino.it/?srsltid=AU7gw4VM0BKREU-eXQ2d7f_hOW-yeT-dLawZV_YqF8smUN9Nm1H4AP9E",
+        "snippet": "Il design autentico della casa di montagna. Selezioniamo i migliori arredi e realizziamo progetti su misura per chalet e baite dove eleganza, natura e comfort ...",
+        "query": "falegnameria arredamento su misura sito ufficiale contatti Valle d’Aosta Italia",
+        "executed_query": "falegnameria arredamento su misura sito ufficiale contatti Valle d’Aosta Italia -filetype:pdf",
+        "provider": "serper",
+        "source": "web",
+        "subject": null,
+        "timestamp": "2026-10-18T18:56:45.178344+00:00",
+        "origin": {
+          "query": "falegnameria arredamento su misura sito ufficiale contatti Valle d’Aosta Italia",
+          "page": 1,
+          "region": "Valle d’Aosta",
+          "provider": "serper",
+          "task_id": 4291,
+          "acquisition": "search",
+          "family": "specialist_furniture",
+          "segment": "furniture",
+          "source_preference": "official_company",
+          "strategy_version": "4.3"
+        },
+        "source_kind": "company_site_hint",
+        "decision": "admit",
+        "priority": 35,
+        "reason": "Possibile sito aziendale: identità e bisogno richiedono screening e prove tecniche.",
+        "accessibility": "not_checked",
+        "commercial_intent": {
+          "intent": "SELLER_INTENT",
+          "commercial_role": "SELLER",
+          "reason": "Il soggetto offre sviluppo a clienti/partner; non dimostra di affidare lavoro a un professionista.",
+          "request_clause": "Selezioniamo i migliori arredi e realizziamo progetti su misura per chalet e baite dove eleganza, natura e comfort .",
+          "role": null,
+          "technical": false,
+          "buyer_evidence": [],
+          "negations": [],
+          "contradictions": [],
+          "seller_evidence": [],
+          "request_nature": "SERVICE_OFFER",
+          "subject_relation": "unknown",
+          "relationship": null,
+          "requester": null,
+          "provider": "publisher",
+          "work_recipient": "publisher",
+          "payer": null
+        },
+        "result_type": "UNKNOWN",
+        "preflight": {
+          "level": "A",
+          "basis": "insufficient_metadata",
+          "identity_verified": false,
+          "http_reads": 0,
+          "ai_calls": 0
+        },
+        "commercial_source_role": "company_candidate",
+        "freshness": {
+          "publication_date": null,
+          "date_status": "UNKNOWN",
+          "index_date_hint": null,
+          "date_hint": null,
+          "availability": "UNVERIFIABLE",
+          "priority_hint": "unknown",
+          "limits": [
+            "Data di indicizzazione distinta da pubblicazione; apertura non verificata per semplice data recente."
+          ]
+        },
+        "investigation_value": {
+          "basis": "observable_metadata_not_sales_probability",
+          "priority": 35,
+          "missing": [
+            "official_identity",
+            "measured_defects"
+          ],
+          "next_step": "targeted_read"
+        }
+      },
+      "label": "AMBIGUOUS",
+      "label_reason": "Prospect outbound senza bisogno",
+      "provenance": "SAVED_CAMPAIGN29",
+      "opportunity_id": 917
+    },
+    {
+      "id": "closed",
+      "engine": "FREELANCE",
+      "label": "NEGATIVE",
+      "label_reason": "Fonte originale fixture chiusa o datata",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/closed",
+        "title": "WordPress freelance",
+        "content": "Hiring WordPress freelancer remote Italy",
+        "job_activity_evidence": [
+          {
+            "kind": "application",
+            "value": "CLOSED_CONFIRMED",
+            "url": "https://example.test/jobs/closed",
+            "observed_at": "2026-10-18T19:03:15.531152+00:00",
+            "scope": "specific_job",
+            "provenance": "ORIGINAL_PAGE",
+            "method": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "id": "old",
+      "engine": "FREELANCE",
+      "label": "NEGATIVE",
+      "label_reason": "Fonte originale fixture chiusa o datata",
+      "provenance": "SYNTHETIC_BOUNDARY_NOT_MARKET_RESULT",
+      "item": {
+        "url": "https://example.test/jobs/old",
+        "title": "WordPress freelance",
+        "content": "Hiring WordPress freelancer remote Italy",
+        "job_activity_evidence": [
+          {
+            "kind": "publication",
+            "value": "2025-01-01T00:00:00Z",
+            "url": "https://example.test/jobs/old",
+            "observed_at": "2026-10-18T19:03:15.531152+00:00",
+            "scope": "specific_job",
+            "provenance": "ORIGINAL_PAGE",
+            "method": "JobPosting.datePosted"
+          }
+        ]
+      }
+    }
+  ],
+  "baseline": [
+    {
+      "id": "wp",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "woo",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "agency",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "frontend",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "rebuild",
+      "decision": "admit",
+      "reason": "Pagina candidature: ruolo tecnico e natura esterna ancora da verificare."
+    },
+    {
+      "id": "mvp",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "newsite",
+      "decision": "admit",
+      "reason": "Pagina candidature: ruolo tecnico e natura esterna ancora da verificare."
+    },
+    {
+      "id": "checkout",
+      "decision": "admit",
+      "reason": "Pagina candidature: ruolo tecnico e natura esterna ancora da verificare."
+    },
+    {
+      "id": "sales",
+      "decision": "admit",
+      "reason": "Pagina candidature: ruolo tecnico e natura esterna ancora da verificare."
+    },
+    {
+      "id": "article",
+      "decision": "admit",
+      "reason": "Pagina candidature: ruolo tecnico e natura esterna ancora da verificare."
+    },
+    {
+      "id": "intern",
+      "decision": "admit",
+      "reason": "Annuncio tecnico per rapporto dipendente: conservato per revisione manuale, non come commessa freelance."
+    },
+    {
+      "id": "seller",
+      "decision": "exclude",
+      "reason": "seller_intent"
+    },
+    {
+      "id": "directory",
+      "decision": "exclude",
+      "reason": "directory"
+    },
+    {
+      "id": "usonly",
+      "decision": "exclude",
+      "reason": "job_geo_incompatible"
+    },
+    {
+      "id": "careers",
+      "decision": "admit",
+      "reason": "Pagina candidature: ruolo tecnico e natura esterna ancora da verificare."
+    },
+    {
+      "id": "sap",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "cofounder",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "social",
+      "decision": "admit",
+      "reason": "Annuncio individuale indicizzato: azienda e ruolo candidati, fonte originale da verificare."
+    },
+    {
+      "id": "standing",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "unknownactor",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "remoteunknown",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "outbound",
+      "decision": "admit",
+      "reason": "Pagina candidature: ruolo tecnico e natura esterna ancora da verificare."
+    },
+    {
+      "id": "historical-912",
+      "decision": "admit",
+      "reason": "Pagina candidature: ruolo tecnico e natura esterna ancora da verificare."
+    },
+    {
+      "id": "historical-915",
+      "decision": "admit",
+      "reason": "Annuncio tecnico per rapporto dipendente: conservato per revisione manuale, non come commessa freelance."
+    },
+    {
+      "id": "historical-916",
+      "decision": "admit",
+      "reason": "Indizi insufficienti: candidato a bassa priorità."
+    },
+    {
+      "id": "historical-825",
+      "decision": "admit",
+      "reason": "Possibile dominio del soggetto cercato: verificare identità e pagina collaborazioni, nessuna richiesta presunta."
+    },
+    {
+      "id": "historical-857",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "historical-856",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "historical-914",
+      "decision": "admit",
+      "reason": "Richiesta tecnica e contesto del committente presenti; da verificare sulla fonte."
+    },
+    {
+      "id": "historical-917",
+      "decision": "admit",
+      "reason": "Possibile sito aziendale: identità e bisogno richiedono screening e prove tecniche."
+    },
+    {
+      "id": "closed",
+      "decision": "exclude",
+      "reason": "job_closed"
+    },
+    {
+      "id": "old",
+      "decision": "exclude",
+      "reason": "job_stale"
+    }
+  ]
+}

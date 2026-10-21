@@ -35,27 +35,54 @@ def web_reference(href):
         return urlunsplit((p.scheme,p.netloc,path,p.query,p.fragment))
     except ValueError:return None
 
+
+def layout_text_boundary(attrs):
+    """Explicit layout containers separate labels even when their tag is span.
+
+    Ordinary inline markup must keep spelling intact (e.g. Woo<b>Commerce</b>).
+    No stylesheet fetch, inferred semantics or site-specific selector is used.
+    """
+    return bool(set(attrs.get('class','').split()) & {'flex','inline-flex','grid','inline-grid','block'}
+                or re.search(r'(?:^|;)\s*display\s*:\s*(?:flex|inline-flex|grid|inline-grid|block)\s*(?:!important\s*)?(?:;|$)',
+                             attrs.get('style',''),re.I))
+
+VOID_TAGS={'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
+
 class Document(HTMLParser):
     def __init__(self,html):
         super().__init__(convert_charrefs=True)
         self.parts=[];self.title='';self.headings=[];self.links=[];self.meta={};self.schemas=[];self.forms=[];self.inputs=[];self.images=[];self.times=[];self.publication_times=[]
+        self.canonical=None;self.canonicals=[];self.time_attributes=[]
         self.skip=0;self.ld=False;self.raw=[];self.in_title=False;self.heading=None;self.hparts=[];self.anchor=None;self.anchor_parts=[];self.anchor_navigation=False
+        self.layout_stack=[]
         self.feed(html)
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
+        layout=layout_text_boundary(a)
+        if layout:self.parts.append('\n')
+        if tag not in VOID_TAGS:self.layout_stack.append((tag,layout))
+        if tag=='link' and 'canonical' in a.get('rel','').lower().split():
+            self.canonical=web_reference(a.get('href',''))
+            self.canonicals.append(a.get('href',''))
         if tag in ('script','style','noscript','nav','footer','header'): self.skip+=1
         if tag=='script' and a.get('type')=='application/ld+json': self.ld=True;self.raw=[]
         if tag=='title': self.in_title=True
         if tag in ('h1','h2','h3'): self.heading=tag;self.hparts=[]
         if tag=='meta': self.meta[a.get('property',a.get('name','')).lower()]=a.get('content','')
         if tag=='time' and a.get('datetime'): self.times.append(a['datetime'])
+        if tag=='time' and a.get('datetime'): self.time_attributes.append(a)
         if tag=='time' and a.get('datetime') and 'datePublished' in a.get('itemprop','').split():self.publication_times.append(a['datetime'])
         if tag=='a': self.anchor=web_reference(a.get('href',''));self.anchor_parts=[];self.anchor_navigation=bool(self.skip)
         if tag=='form': self.forms.append(a)
         if tag in ('input','textarea','select'): self.inputs.append(a)
         if tag=='img': self.images.append(a)
-        if tag in ('p','div','section','article','li','br','h1','h2','h3'): self.parts.append('\n')
+        if tag in ('p','div','section','article','li','br','h1','h2','h3','select','option','optgroup'): self.parts.append('\n')
     def handle_endtag(self,tag):
+        for i in range(len(self.layout_stack)-1,-1,-1):
+            if self.layout_stack[i][0]==tag:
+                if any(boundary for _,boundary in self.layout_stack[i:]):self.parts.append('\n')
+                del self.layout_stack[i:]
+                break
         if tag=='script' and self.ld:
             try: self.schemas.append(json.loads(''.join(self.raw)))
             except ValueError: pass
@@ -64,7 +91,7 @@ class Document(HTMLParser):
         if tag=='title': self.in_title=False
         if tag==self.heading: self.headings.append({'tag':tag,'text':' '.join(' '.join(self.hparts).split())});self.heading=None
         if tag=='a' and self.anchor is not None: self.links.append({'url':self.anchor,'text':' '.join(' '.join(self.anchor_parts).split()),'navigation':self.anchor_navigation});self.anchor=None
-        if tag in ('p','div','section','article','li','h1','h2','h3'): self.parts.append('\n')
+        if tag in ('p','div','section','article','li','h1','h2','h3','select','option','optgroup'): self.parts.append('\n')
     def handle_data(self,data):
         if self.ld:self.raw.append(data)
         if self.in_title:self.title+=data

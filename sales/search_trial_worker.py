@@ -4,6 +4,7 @@ import json
 import os
 import sqlite3
 import time
+from contextlib import closing
 from pathlib import Path
 from urllib.parse import urlencode, urlsplit
 from .db import Store, now, encode, domain
@@ -62,7 +63,7 @@ def run(path, rid, token):
         folder=store.path.parent/'search-trials';folder.mkdir(exist_ok=True,mode=0o700)
         path=folder/f'trial-{rid}.sqlite3'
         fd=os.open(path,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600);os.close(fd)
-        with store.connect() as source,sqlite3.connect(path) as target:source.backup(target)
+        with store.connect() as source,closing(sqlite3.connect(path)) as target:source.backup(target)
         scratch=Store(path)
         halted=set()
         for index,(strategy,query) in enumerate(QUERIES):

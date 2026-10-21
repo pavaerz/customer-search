@@ -74,7 +74,7 @@ def transport(key, payload):
     req = request.Request('https://google.serper.dev/search', data=json.dumps(payload).encode(),
                           headers={'X-API-KEY': key, 'Content-Type': 'application/json'})
     try:
-        with request.build_opener(NoRedirect()).open(req, timeout=25) as response:
+        with request.build_opener(NoRedirect()).open(req, timeout=__import__('sales.commercial.resources',fromlist=['timeout']).timeout(25)) as response:
             raw = response.read(2_000_001)
             if len(raw) > 2_000_000:
                 raise ValueError('Serper: risposta troppo grande')

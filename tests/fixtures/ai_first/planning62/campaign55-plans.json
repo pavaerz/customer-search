@@ -1,0 +1,816 @@
+[
+  {
+    "flow": "AGENCIES",
+    "plan": {
+      "reason": "Restano due ipotesi distinte dalle ricerche recenti: incarichi con partita IVA e selezione di fornitori tecnici esterni. Mantengo il Veneto e cerco richieste attribuibili all’agenzia, senza interpretare gli errori tecnici precedenti come assenza di domanda.",
+      "queries": [
+        {
+          "query": "Veneto agenzia cerca sviluppatore web partita IVA",
+          "strategy": "project_contract",
+          "objective": "Individuare agenzie che cercano sviluppatori web con un rapporto professionale esterno.",
+          "hypothesis": "Un’agenzia veneta pubblica una ricerca di sviluppo web che ammette esplicitamente collaborazioni con partita IVA.",
+          "missing": "Identità completa dell’agenzia, fonte originale, natura esterna della collaborazione, attualità e perimetro dell’invito.",
+          "expected_source": "Pagina ufficiale lavora con noi o annuncio originale pubblicato dall’agenzia.",
+          "success": "La fonte originale identifica un’agenzia in Veneto e invita esplicitamente uno sviluppatore web a collaborare con partita IVA; eventuali alternative di assunzione vengono distinte.",
+          "stop_condition": "Scartare offerte esclusivamente dipendenti, intermediari senza committente identificabile e servizi venduti da sviluppatori. Dopo tre ricerche effettivamente vuote o prevalentemente irrilevanti nella famiglia, cambiare fonte o azione commerciale.",
+          "query_validation": {
+            "query": "Veneto agenzia cerca sviluppatore web partita IVA",
+            "original_query": "Veneto agenzia cerca sviluppatore web partita IVA",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "AGENCIES",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "agenzia cerca sviluppatore web partita iva",
+          "page": 1,
+          "strategy_id": "project_contract",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          }
+        },
+        {
+          "query": "Veneto agenzia seleziona fornitori sviluppo web",
+          "strategy": "external_technical_partner",
+          "objective": "Trovare inviti di agenzie rivolti a fornitori esterni di sviluppo web, oltre alle normali pagine di recruiting.",
+          "hypothesis": "Un’agenzia veneta dispone di una selezione o candidatura fornitori che include esplicitamente lo sviluppo web e ammette professionisti esterni.",
+          "missing": "Attribuzione della richiesta all’agenzia, invito originale, ammissibilità dei freelance, ambito tecnico e validità attuale.",
+          "expected_source": "Pagina ufficiale di selezione fornitori, avviso di collaborazione o candidatura partner tecnici dell’agenzia.",
+          "success": "Una fonte originale conferma che l’agenzia invita fornitori esterni per sviluppo web e non limita l’accesso a categorie incompatibili con un freelance. Un invito permanente resta un’opportunità di collaborazione, non prova di incarichi attivi o retribuiti.",
+          "stop_condition": "Scartare pagine che vendono sviluppo web, partnership commerciali senza attività tecnica e semplici elenchi di fornitori. Interrompere la famiglia dopo tre ricerche effettivamente vuote o prevalentemente irrilevanti, senza conteggiare i problemi di accesso come esiti commerciali negativi.",
+          "query_validation": {
+            "query": "Veneto agenzia seleziona fornitori sviluppo web",
+            "original_query": "Veneto agenzia seleziona fornitori sviluppo web",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "AGENCIES",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "agenzia seleziona fornitori sviluppo web",
+          "page": 1,
+          "strategy_id": "external_technical_partner",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          }
+        }
+      ],
+      "rejected_queries": [],
+      "invalid_proposals": [],
+      "chosen": {
+        "query": "Veneto agenzia seleziona fornitori sviluppo web",
+        "strategy": "external_technical_partner",
+        "objective": "Trovare inviti di agenzie rivolti a fornitori esterni di sviluppo web, oltre alle normali pagine di recruiting.",
+        "hypothesis": "Un’agenzia veneta dispone di una selezione o candidatura fornitori che include esplicitamente lo sviluppo web e ammette professionisti esterni.",
+        "missing": "Attribuzione della richiesta all’agenzia, invito originale, ammissibilità dei freelance, ambito tecnico e validità attuale.",
+        "expected_source": "Pagina ufficiale di selezione fornitori, avviso di collaborazione o candidatura partner tecnici dell’agenzia.",
+        "success": "Una fonte originale conferma che l’agenzia invita fornitori esterni per sviluppo web e non limita l’accesso a categorie incompatibili con un freelance. Un invito permanente resta un’opportunità di collaborazione, non prova di incarichi attivi o retribuiti.",
+        "stop_condition": "Scartare pagine che vendono sviluppo web, partnership commerciali senza attività tecnica e semplici elenchi di fornitori. Interrompere la famiglia dopo tre ricerche effettivamente vuote o prevalentemente irrilevanti, senza conteggiare i problemi di accesso come esiti commerciali negativi.",
+        "query_validation": {
+          "query": "Veneto agenzia seleziona fornitori sviluppo web",
+          "original_query": "Veneto agenzia seleziona fornitori sviluppo web",
+          "allowed": true,
+          "repairs": []
+        },
+        "channel": "AGENCIES",
+        "commercial_policy": {
+          "allowed": true,
+          "intents": [
+            "request_or_invitation_to_verify"
+          ],
+          "branch_count": 1,
+          "basis": "search_direction_only_originals_still_required"
+        },
+        "query_family": "agenzia seleziona fornitori sviluppo web",
+        "page": 1,
+        "strategy_id": "AGENCIES:open_web:exploration:unspecified",
+        "expected_cost": {
+          "serper_requests": 1,
+          "http_reads": "successive, entro quota"
+        },
+        "selection": "exploration",
+        "memory_adjustment": 0.0,
+        "memory_samples": 2,
+        "ranking_basis": "stable_strategy_family_observed_outcomes",
+        "selection_index": 87
+      },
+      "chosen_queries": [
+        {
+          "query": "Veneto agenzia seleziona fornitori sviluppo web",
+          "strategy": "external_technical_partner",
+          "objective": "Trovare inviti di agenzie rivolti a fornitori esterni di sviluppo web, oltre alle normali pagine di recruiting.",
+          "hypothesis": "Un’agenzia veneta dispone di una selezione o candidatura fornitori che include esplicitamente lo sviluppo web e ammette professionisti esterni.",
+          "missing": "Attribuzione della richiesta all’agenzia, invito originale, ammissibilità dei freelance, ambito tecnico e validità attuale.",
+          "expected_source": "Pagina ufficiale di selezione fornitori, avviso di collaborazione o candidatura partner tecnici dell’agenzia.",
+          "success": "Una fonte originale conferma che l’agenzia invita fornitori esterni per sviluppo web e non limita l’accesso a categorie incompatibili con un freelance. Un invito permanente resta un’opportunità di collaborazione, non prova di incarichi attivi o retribuiti.",
+          "stop_condition": "Scartare pagine che vendono sviluppo web, partnership commerciali senza attività tecnica e semplici elenchi di fornitori. Interrompere la famiglia dopo tre ricerche effettivamente vuote o prevalentemente irrilevanti, senza conteggiare i problemi di accesso come esiti commerciali negativi.",
+          "query_validation": {
+            "query": "Veneto agenzia seleziona fornitori sviluppo web",
+            "original_query": "Veneto agenzia seleziona fornitori sviluppo web",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "AGENCIES",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "agenzia seleziona fornitori sviluppo web",
+          "page": 1,
+          "strategy_id": "AGENCIES:open_web:exploration:unspecified",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploration",
+          "memory_adjustment": 0.0,
+          "memory_samples": 2,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 87
+        }
+      ],
+      "basis": "model_plan_with_memory_ranking"
+    }
+  },
+  {
+    "flow": "AZIENDE",
+    "plan": {
+      "reason": "Restano due ipotesi distinte da verificare: un settore operativo non presente nelle ricerche recenti e una ricerca orientata esplicitamente alla domanda tecnica esterna. Le opportunità proattive resteranno separate dalle richieste dichiarate.",
+      "queries": [
+        {
+          "query": "Veneto torrefazione vendita caffè sito ufficiale",
+          "strategy": "official_company_sector_region",
+          "objective": "Individuare torrefazioni operative e verificare eventuali opportunità per un progetto web completo.",
+          "hypothesis": "Una torrefazione con vendita documentata potrebbe avere un percorso digitale commerciale incompleto, verificabile sul sito ufficiale.",
+          "missing": "Identità aziendale completa, operatività in Veneto, evidenze del percorso commerciale e del limite digitale, portata di un eventuale intervento. Interesse all'acquisto e budget restano sconosciuti.",
+          "expected_source": "Siti ufficiali delle torrefazioni, pagine di vendita e condizioni commerciali.",
+          "success": "Identificare un'impresa reale e documentare un ostacolo commerciale concreto che giustifichi un sito completo, un rifacimento o un ecommerce, senza attribuirle domanda dichiarata.",
+          "stop_condition": "Scartare directory, rivenditori non pertinenti e siti senza evidenze sufficienti. Non qualificare per sola estetica o presenza di un catalogo; cambiare settore o fonte dopo tre ricerche effettivamente vuote o prevalentemente irrilevanti della stessa famiglia.",
+          "query_validation": {
+            "query": "Veneto torrefazione vendita caffè sito ufficiale",
+            "original_query": "Veneto torrefazione vendita caffè sito ufficiale",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "AZIENDE",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "official_company_investigation_not_declared_demand"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "torrefazione vendita caffè sito ufficiale",
+          "page": 1,
+          "strategy_id": "official_company_sector_region",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          }
+        },
+        {
+          "query": "Veneto azienda cerca sviluppatore web esterno",
+          "strategy": "explicit_complete_project",
+          "objective": "Trovare richieste aziendali di sviluppo web affidabili e aperte a un professionista esterno.",
+          "hypothesis": "Un'impresa veneta potrebbe pubblicare direttamente una richiesta per uno sviluppatore esterno destinata a un progetto web completo.",
+          "missing": "Fonte originale del richiedente, apertura esplicita alla collaborazione esterna, oggetto e portata del progetto, data e validità della richiesta. Compenso e budget non sono presunti.",
+          "expected_source": "Annuncio originale sul sito aziendale o richiesta pubblicata direttamente dall'impresa.",
+          "success": "Verificare insieme soggetto richiedente, invito esterno e sviluppo di un sito, ecommerce o applicazione completa; distinguere una collaborazione continuativa da un incarico attivo.",
+          "stop_condition": "Scartare offerte esclusivamente dipendenti, annunci di fornitori, richieste commerciali e interventi isolati. Se i risultati sono prevalentemente occupazionali, cambiare fonte o formulazione senza dedurre assenza di domanda.",
+          "query_validation": {
+            "query": "Veneto azienda cerca sviluppatore web esterno",
+            "original_query": "Veneto azienda cerca sviluppatore web esterno",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "AZIENDE",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "azienda cerca sviluppatore web esterno",
+          "page": 1,
+          "strategy_id": "explicit_complete_project",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          }
+        }
+      ],
+      "rejected_queries": [],
+      "invalid_proposals": [],
+      "chosen": {
+        "query": "Veneto torrefazione vendita caffè sito ufficiale",
+        "strategy": "official_company_sector_region",
+        "objective": "Individuare torrefazioni operative e verificare eventuali opportunità per un progetto web completo.",
+        "hypothesis": "Una torrefazione con vendita documentata potrebbe avere un percorso digitale commerciale incompleto, verificabile sul sito ufficiale.",
+        "missing": "Identità aziendale completa, operatività in Veneto, evidenze del percorso commerciale e del limite digitale, portata di un eventuale intervento. Interesse all'acquisto e budget restano sconosciuti.",
+        "expected_source": "Siti ufficiali delle torrefazioni, pagine di vendita e condizioni commerciali.",
+        "success": "Identificare un'impresa reale e documentare un ostacolo commerciale concreto che giustifichi un sito completo, un rifacimento o un ecommerce, senza attribuirle domanda dichiarata.",
+        "stop_condition": "Scartare directory, rivenditori non pertinenti e siti senza evidenze sufficienti. Non qualificare per sola estetica o presenza di un catalogo; cambiare settore o fonte dopo tre ricerche effettivamente vuote o prevalentemente irrilevanti della stessa famiglia.",
+        "query_validation": {
+          "query": "Veneto torrefazione vendita caffè sito ufficiale",
+          "original_query": "Veneto torrefazione vendita caffè sito ufficiale",
+          "allowed": true,
+          "repairs": []
+        },
+        "channel": "AZIENDE",
+        "commercial_policy": {
+          "allowed": true,
+          "intents": [
+            "official_company_investigation_not_declared_demand"
+          ],
+          "branch_count": 1,
+          "basis": "search_direction_only_originals_still_required"
+        },
+        "query_family": "torrefazione vendita caffè sito ufficiale",
+        "page": 1,
+        "strategy_id": "AZIENDE:open_web:exploration:unspecified",
+        "expected_cost": {
+          "serper_requests": 1,
+          "http_reads": "successive, entro quota"
+        },
+        "selection": "exploitation",
+        "memory_adjustment": -0.455,
+        "memory_samples": 22,
+        "ranking_basis": "stable_strategy_family_observed_outcomes",
+        "selection_index": 41
+      },
+      "chosen_queries": [
+        {
+          "query": "Veneto torrefazione vendita caffè sito ufficiale",
+          "strategy": "official_company_sector_region",
+          "objective": "Individuare torrefazioni operative e verificare eventuali opportunità per un progetto web completo.",
+          "hypothesis": "Una torrefazione con vendita documentata potrebbe avere un percorso digitale commerciale incompleto, verificabile sul sito ufficiale.",
+          "missing": "Identità aziendale completa, operatività in Veneto, evidenze del percorso commerciale e del limite digitale, portata di un eventuale intervento. Interesse all'acquisto e budget restano sconosciuti.",
+          "expected_source": "Siti ufficiali delle torrefazioni, pagine di vendita e condizioni commerciali.",
+          "success": "Identificare un'impresa reale e documentare un ostacolo commerciale concreto che giustifichi un sito completo, un rifacimento o un ecommerce, senza attribuirle domanda dichiarata.",
+          "stop_condition": "Scartare directory, rivenditori non pertinenti e siti senza evidenze sufficienti. Non qualificare per sola estetica o presenza di un catalogo; cambiare settore o fonte dopo tre ricerche effettivamente vuote o prevalentemente irrilevanti della stessa famiglia.",
+          "query_validation": {
+            "query": "Veneto torrefazione vendita caffè sito ufficiale",
+            "original_query": "Veneto torrefazione vendita caffè sito ufficiale",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "AZIENDE",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "official_company_investigation_not_declared_demand"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "torrefazione vendita caffè sito ufficiale",
+          "page": 1,
+          "strategy_id": "AZIENDE:open_web:exploration:unspecified",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploitation",
+          "memory_adjustment": -0.455,
+          "memory_samples": 22,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 41
+        }
+      ],
+      "basis": "model_plan_with_memory_ranking"
+    }
+  },
+  {
+    "flow": "NEWS",
+    "plan": {
+      "reason": "La memoria non mostra dossier qualificati dalle ricerche precedenti. Proseguire con un test limitato su tre eventi commerciali distinti, evitando cosmetica, showroom e nuove spa già esplorati. Ogni evento richiede verifica originale e successivo controllo indipendente del sito: la notizia non dimostra domanda di sviluppo.",
+      "queries": [
+        {
+          "query": "Veneto cantina inaugura centro visite 2026",
+          "strategy": "market_expansion",
+          "objective": "Identificare una cantina con un nuovo centro visite e verificare i percorsi digitali per le esperienze effettivamente offerte.",
+          "hypothesis": "Un centro visite con esperienze prenotabili potrebbe richiedere un percorso strutturato per disponibilità, gruppi e acquisti; l'ipotesi decade se il sito o un servizio collegato copre già queste funzioni.",
+          "missing": "Identità dell'impresa gestore, fonte originale e date dell'inaugurazione, offerta commerciale delle visite, sito ufficiale e verifica indipendente del percorso di prenotazione. Nessuna richiesta di lavoro è ancora provata.",
+          "expected_source": "Notizia aziendale o stampa enologica con evento datato; successivamente pagine ufficiali delle esperienze ed eventuale sistema di prenotazione collegato.",
+          "success": "Nuova attività commerciale confermata e ostacolo funzionale documentabile che sostenga un progetto completo di prenotazione o vendita delle esperienze.",
+          "stop_condition": "Scartare eventi istituzionali senza impresa identificabile, visite non commerciali e casi con prenotazione già adeguata. Non qualificare la sola assenza di checkout come necessità di rifacimento.",
+          "query_validation": {
+            "query": "Veneto cantina inaugura centro visite 2026",
+            "original_query": "Veneto cantina inaugura centro visite 2026",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "NEWS",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "company_event_not_declared_demand"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "cantina inaugura centro visite 2026",
+          "page": 1,
+          "strategy_id": "market_expansion",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          }
+        },
+        {
+          "query": "Veneto produttore lancia servizio ricambi 2026",
+          "strategy": "new_product_line",
+          "objective": "Trovare il lancio datato di un servizio ricambi e verificare se esista un'opportunità concreta per un catalogo transazionale o un portale clienti.",
+          "hypothesis": "Il nuovo servizio potrebbe introdurre esigenze di identificazione e richiesta dei ricambi non supportate dai canali digitali esistenti; l'ipotesi è falsificata da un portale adeguato o da un processo commerciale incompatibile con il self-service.",
+          "missing": "Impresa responsabile, fonte originale, date di pubblicazione e lancio, destinatari del servizio, sito ufficiale e lacuna verificata nel percorso pubblico. Accessi riservati non osservabili restano sconosciuti.",
+          "expected_source": "Comunicato del produttore o articolo tecnico sul lancio; successivamente catalogo ufficiale, documentazione pubblica e pagine del servizio ricambi.",
+          "success": "Lancio verificato e limite funzionale concreto, distinto dalla notizia, compatibile con un progetto sostanziale di ecommerce B2B o applicazione web.",
+          "stop_condition": "Scartare normali pagine di servizi senza lancio datato, rivenditori incidentali e portali già adeguati. Se il funzionamento è verificabile solo con credenziali, non assumere l'esistenza di una lacuna.",
+          "query_validation": {
+            "query": "Veneto produttore lancia servizio ricambi 2026",
+            "original_query": "Veneto produttore lancia servizio ricambi 2026",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "NEWS",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "company_event_not_declared_demand"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "produttore lancia servizio ricambi 2026",
+          "page": 1,
+          "strategy_id": "new_product_line",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          }
+        }
+      ],
+      "rejected_queries": [
+        {
+          "query": "Veneto noleggio attrezzature apre nuova filiale 2026",
+          "allowed": false,
+          "reason": "query_commercial_direction_missing",
+          "instruction": "The query itself must seek an invitation/request or a specific company event. For proactive discovery use official_company_sector_region with sector and territory. A generic web topic, provider partnership slogan or funding is not evidence of demand."
+        }
+      ],
+      "invalid_proposals": [],
+      "chosen": {
+        "query": "Veneto cantina inaugura centro visite 2026",
+        "strategy": "market_expansion",
+        "objective": "Identificare una cantina con un nuovo centro visite e verificare i percorsi digitali per le esperienze effettivamente offerte.",
+        "hypothesis": "Un centro visite con esperienze prenotabili potrebbe richiedere un percorso strutturato per disponibilità, gruppi e acquisti; l'ipotesi decade se il sito o un servizio collegato copre già queste funzioni.",
+        "missing": "Identità dell'impresa gestore, fonte originale e date dell'inaugurazione, offerta commerciale delle visite, sito ufficiale e verifica indipendente del percorso di prenotazione. Nessuna richiesta di lavoro è ancora provata.",
+        "expected_source": "Notizia aziendale o stampa enologica con evento datato; successivamente pagine ufficiali delle esperienze ed eventuale sistema di prenotazione collegato.",
+        "success": "Nuova attività commerciale confermata e ostacolo funzionale documentabile che sostenga un progetto completo di prenotazione o vendita delle esperienze.",
+        "stop_condition": "Scartare eventi istituzionali senza impresa identificabile, visite non commerciali e casi con prenotazione già adeguata. Non qualificare la sola assenza di checkout come necessità di rifacimento.",
+        "query_validation": {
+          "query": "Veneto cantina inaugura centro visite 2026",
+          "original_query": "Veneto cantina inaugura centro visite 2026",
+          "allowed": true,
+          "repairs": []
+        },
+        "channel": "NEWS",
+        "commercial_policy": {
+          "allowed": true,
+          "intents": [
+            "company_event_not_declared_demand"
+          ],
+          "branch_count": 1,
+          "basis": "search_direction_only_originals_still_required"
+        },
+        "query_family": "cantina inaugura centro visite 2026",
+        "page": 1,
+        "strategy_id": "NEWS:open_web:exploration:unspecified",
+        "expected_cost": {
+          "serper_requests": 1,
+          "http_reads": "successive, entro quota"
+        },
+        "selection": "exploitation",
+        "memory_adjustment": -0.548,
+        "memory_samples": 31,
+        "ranking_basis": "stable_strategy_family_observed_outcomes",
+        "selection_index": 53
+      },
+      "chosen_queries": [
+        {
+          "query": "Veneto cantina inaugura centro visite 2026",
+          "strategy": "market_expansion",
+          "objective": "Identificare una cantina con un nuovo centro visite e verificare i percorsi digitali per le esperienze effettivamente offerte.",
+          "hypothesis": "Un centro visite con esperienze prenotabili potrebbe richiedere un percorso strutturato per disponibilità, gruppi e acquisti; l'ipotesi decade se il sito o un servizio collegato copre già queste funzioni.",
+          "missing": "Identità dell'impresa gestore, fonte originale e date dell'inaugurazione, offerta commerciale delle visite, sito ufficiale e verifica indipendente del percorso di prenotazione. Nessuna richiesta di lavoro è ancora provata.",
+          "expected_source": "Notizia aziendale o stampa enologica con evento datato; successivamente pagine ufficiali delle esperienze ed eventuale sistema di prenotazione collegato.",
+          "success": "Nuova attività commerciale confermata e ostacolo funzionale documentabile che sostenga un progetto completo di prenotazione o vendita delle esperienze.",
+          "stop_condition": "Scartare eventi istituzionali senza impresa identificabile, visite non commerciali e casi con prenotazione già adeguata. Non qualificare la sola assenza di checkout come necessità di rifacimento.",
+          "query_validation": {
+            "query": "Veneto cantina inaugura centro visite 2026",
+            "original_query": "Veneto cantina inaugura centro visite 2026",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "NEWS",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "company_event_not_declared_demand"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "cantina inaugura centro visite 2026",
+          "page": 1,
+          "strategy_id": "NEWS:open_web:exploration:unspecified",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploitation",
+          "memory_adjustment": -0.548,
+          "memory_samples": 31,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 53
+        }
+      ],
+      "basis": "model_plan_with_memory_ranking"
+    }
+  },
+  {
+    "flow": "SOCIAL",
+    "plan": {
+      "reason": "Verificare entrambi i social con richieste di collaborazione tecnica esterna in Veneto. I precedenti errori di accesso non dimostrano assenza di domanda; evitare ulteriori ricerche di copie degli URL Instagram.",
+      "queries": [
+        {
+          "query": "site:instagram.com/p/ Veneto \"cerchiamo\" sviluppatore freelance",
+          "strategy": "instagram_public_request",
+          "objective": "Trovare richieste Instagram di sviluppo esterno, separandole dal reclutamento esclusivamente subordinato.",
+          "hypothesis": "Un’azienda veneta ha pubblicato una ricerca esplicita di uno sviluppatore freelance per un progetto web o una collaborazione continuativa.",
+          "missing": "Originale leggibile, azienda richiedente, data, contenuto dell’incarico, natura remunerata e compatibilità territoriale.",
+          "expected_source": "Post Instagram pubblico originale pubblicato dal committente o da un suo rappresentante identificabile.",
+          "success": "Il post attribuisce chiaramente la richiesta a un’azienda e descrive sviluppo di siti completi, ecommerce, frontend o web app aperto a professionisti esterni; budget non dichiarato resta sconosciuto.",
+          "stop_condition": "Non qualificare snippet privi di originale leggibile, annunci di fornitori, richieste anonime o soli interventi minori. In caso di blocco tecnico non cercare aggiramenti; dopo tre ricerche vuote o prevalentemente irrilevanti cambiare fonte o azione commerciale.",
+          "query_validation": {
+            "query": "site:instagram.com/p/ Veneto \"cerchiamo\" sviluppatore freelance",
+            "original_query": "site:instagram.com/p/ Veneto \"cerchiamo\" \"sviluppatore freelance\"",
+            "allowed": true,
+            "repairs": [
+              "discovery_phrase_matching_relaxed_terms_preserved"
+            ]
+          },
+          "channel": "SOCIAL",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "site:instagram.com p cerca sviluppatore freelance",
+          "page": 1,
+          "strategy_id": "instagram_public_request",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          }
+        }
+      ],
+      "rejected_queries": [],
+      "invalid_proposals": [],
+      "chosen": {
+        "query": "site:instagram.com/p/ Veneto \"cerchiamo\" sviluppatore freelance",
+        "strategy": "instagram_public_request",
+        "objective": "Trovare richieste Instagram di sviluppo esterno, separandole dal reclutamento esclusivamente subordinato.",
+        "hypothesis": "Un’azienda veneta ha pubblicato una ricerca esplicita di uno sviluppatore freelance per un progetto web o una collaborazione continuativa.",
+        "missing": "Originale leggibile, azienda richiedente, data, contenuto dell’incarico, natura remunerata e compatibilità territoriale.",
+        "expected_source": "Post Instagram pubblico originale pubblicato dal committente o da un suo rappresentante identificabile.",
+        "success": "Il post attribuisce chiaramente la richiesta a un’azienda e descrive sviluppo di siti completi, ecommerce, frontend o web app aperto a professionisti esterni; budget non dichiarato resta sconosciuto.",
+        "stop_condition": "Non qualificare snippet privi di originale leggibile, annunci di fornitori, richieste anonime o soli interventi minori. In caso di blocco tecnico non cercare aggiramenti; dopo tre ricerche vuote o prevalentemente irrilevanti cambiare fonte o azione commerciale.",
+        "query_validation": {
+          "query": "site:instagram.com/p/ Veneto \"cerchiamo\" sviluppatore freelance",
+          "original_query": "site:instagram.com/p/ Veneto \"cerchiamo\" \"sviluppatore freelance\"",
+          "allowed": true,
+          "repairs": [
+            "discovery_phrase_matching_relaxed_terms_preserved"
+          ]
+        },
+        "channel": "SOCIAL",
+        "commercial_policy": {
+          "allowed": true,
+          "intents": [
+            "request_or_invitation_to_verify"
+          ],
+          "branch_count": 1,
+          "basis": "search_direction_only_originals_still_required"
+        },
+        "query_family": "site:instagram.com p cerca sviluppatore freelance",
+        "page": 1,
+        "strategy_id": "SOCIAL:social:external_invitation:unspecified",
+        "expected_cost": {
+          "serper_requests": 1,
+          "http_reads": "successive, entro quota"
+        },
+        "selection": "exploitation",
+        "memory_adjustment": 0.0,
+        "memory_samples": 5,
+        "ranking_basis": "stable_strategy_family_observed_outcomes",
+        "selection_index": 101
+      },
+      "chosen_queries": [
+        {
+          "query": "site:instagram.com/p/ Veneto \"cerchiamo\" sviluppatore freelance",
+          "strategy": "instagram_public_request",
+          "objective": "Trovare richieste Instagram di sviluppo esterno, separandole dal reclutamento esclusivamente subordinato.",
+          "hypothesis": "Un’azienda veneta ha pubblicato una ricerca esplicita di uno sviluppatore freelance per un progetto web o una collaborazione continuativa.",
+          "missing": "Originale leggibile, azienda richiedente, data, contenuto dell’incarico, natura remunerata e compatibilità territoriale.",
+          "expected_source": "Post Instagram pubblico originale pubblicato dal committente o da un suo rappresentante identificabile.",
+          "success": "Il post attribuisce chiaramente la richiesta a un’azienda e descrive sviluppo di siti completi, ecommerce, frontend o web app aperto a professionisti esterni; budget non dichiarato resta sconosciuto.",
+          "stop_condition": "Non qualificare snippet privi di originale leggibile, annunci di fornitori, richieste anonime o soli interventi minori. In caso di blocco tecnico non cercare aggiramenti; dopo tre ricerche vuote o prevalentemente irrilevanti cambiare fonte o azione commerciale.",
+          "query_validation": {
+            "query": "site:instagram.com/p/ Veneto \"cerchiamo\" sviluppatore freelance",
+            "original_query": "site:instagram.com/p/ Veneto \"cerchiamo\" \"sviluppatore freelance\"",
+            "allowed": true,
+            "repairs": [
+              "discovery_phrase_matching_relaxed_terms_preserved"
+            ]
+          },
+          "channel": "SOCIAL",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "site:instagram.com p cerca sviluppatore freelance",
+          "page": 1,
+          "strategy_id": "SOCIAL:social:external_invitation:unspecified",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploitation",
+          "memory_adjustment": 0.0,
+          "memory_samples": 5,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 101
+        }
+      ],
+      "basis": "model_plan_with_memory_ranking"
+    }
+  },
+  {
+    "flow": "STARTUPS",
+    "plan": {
+      "reason": "La memoria non documenta opportunità verificate e mostra ripetizioni su MVP, manutenzione e cofondatori. Testare due azioni diverse in Veneto: rifacimento completo del sito e affidamento esterno del frontend. Evitare ulteriori varianti generiche delle ricerche già svolte.",
+      "queries": [
+        {
+          "query": "startup Veneto cerchiamo freelance rifacimento sito",
+          "strategy": "startup_complete_website_rebuild",
+          "objective": "Individuare startup che richiedono a un freelance il rifacimento completo del proprio sito.",
+          "hypothesis": "Esiste una richiesta originale attribuibile a una startup veneta per un sito da rifare, non una proposta pubblicata da un fornitore.",
+          "missing": "Identità completa della startup, richiesta originale ancora valida, perimetro non limitato a piccoli interventi, rapporto esterno e condizioni economiche.",
+          "expected_source": "Pagina ufficiale della startup o intervento pubblico del fondatore con attribuzione verificabile.",
+          "success": "La fonte originale identifica startup e progetto incompiuto e invita un professionista esterno a occuparsene; compenso e budget restano sconosciuti se non dichiarati.",
+          "stop_condition": "Scartare offerte di servizi, portfolio, progetti già conclusi e assunzioni esclusivamente dipendenti. Se emergono soltanto questi casi, interrompere questa pista senza moltiplicare sinonimi.",
+          "query_validation": {
+            "query": "startup Veneto cerchiamo freelance rifacimento sito",
+            "original_query": "startup Veneto cerchiamo freelance rifacimento sito",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "STARTUPS",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "startup cerca freelance rifacimento sito",
+          "page": 1,
+          "strategy_id": "startup_complete_website_rebuild",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          }
+        },
+        {
+          "query": "startup Veneto cerchiamo consulente frontend",
+          "strategy": "external_frontend_product_assignment",
+          "objective": "Trovare incarichi esterni per realizzare il frontend di un prodotto web di una startup.",
+          "hypothesis": "Una startup veneta cerca un consulente frontend per uno sviluppo concreto ancora da completare, distinto da manutenzione isolata o ricerca di dipendenti.",
+          "missing": "Fonte originale, identità e sede della startup, prodotto e lavoro richiesto, ammissibilità della collaborazione freelance, integrazioni, responsabilità di sicurezza e continuità prevista.",
+          "expected_source": "Annuncio originale della startup, pagina ufficiale delle collaborazioni o pubblicazione attribuibile al fondatore.",
+          "success": "Sono verificabili una richiesta di sviluppo frontend e un rapporto esterno. Distinguere incarico specifico da invito permanente; classificare separatamente compenso monetario, equity e condizioni sconosciute.",
+          "stop_condition": "Scartare annunci esclusivamente da dipendente, consulenti che vendono servizi e richieste senza progetto identificabile. Se la ricerca produce solo questi risultati, fermare la pista.",
+          "query_validation": {
+            "query": "startup Veneto cerchiamo consulente frontend",
+            "original_query": "startup Veneto cerchiamo consulente frontend",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "STARTUPS",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "startup cerca consulente frontend",
+          "page": 1,
+          "strategy_id": "external_frontend_product_assignment",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          }
+        }
+      ],
+      "rejected_queries": [],
+      "invalid_proposals": [],
+      "chosen": {
+        "query": "startup Veneto cerchiamo freelance rifacimento sito",
+        "strategy": "startup_complete_website_rebuild",
+        "objective": "Individuare startup che richiedono a un freelance il rifacimento completo del proprio sito.",
+        "hypothesis": "Esiste una richiesta originale attribuibile a una startup veneta per un sito da rifare, non una proposta pubblicata da un fornitore.",
+        "missing": "Identità completa della startup, richiesta originale ancora valida, perimetro non limitato a piccoli interventi, rapporto esterno e condizioni economiche.",
+        "expected_source": "Pagina ufficiale della startup o intervento pubblico del fondatore con attribuzione verificabile.",
+        "success": "La fonte originale identifica startup e progetto incompiuto e invita un professionista esterno a occuparsene; compenso e budget restano sconosciuti se non dichiarati.",
+        "stop_condition": "Scartare offerte di servizi, portfolio, progetti già conclusi e assunzioni esclusivamente dipendenti. Se emergono soltanto questi casi, interrompere questa pista senza moltiplicare sinonimi.",
+        "query_validation": {
+          "query": "startup Veneto cerchiamo freelance rifacimento sito",
+          "original_query": "startup Veneto cerchiamo freelance rifacimento sito",
+          "allowed": true,
+          "repairs": []
+        },
+        "channel": "STARTUPS",
+        "commercial_policy": {
+          "allowed": true,
+          "intents": [
+            "request_or_invitation_to_verify"
+          ],
+          "branch_count": 1,
+          "basis": "search_direction_only_originals_still_required"
+        },
+        "query_family": "startup cerca freelance rifacimento sito",
+        "page": 1,
+        "strategy_id": "STARTUPS:open_web:external_invitation:unspecified",
+        "expected_cost": {
+          "serper_requests": 1,
+          "http_reads": "successive, entro quota"
+        },
+        "selection": "exploitation",
+        "memory_adjustment": 0.0,
+        "memory_samples": 3,
+        "ranking_basis": "stable_strategy_family_observed_outcomes",
+        "selection_index": 77
+      },
+      "chosen_queries": [
+        {
+          "query": "startup Veneto cerchiamo freelance rifacimento sito",
+          "strategy": "startup_complete_website_rebuild",
+          "objective": "Individuare startup che richiedono a un freelance il rifacimento completo del proprio sito.",
+          "hypothesis": "Esiste una richiesta originale attribuibile a una startup veneta per un sito da rifare, non una proposta pubblicata da un fornitore.",
+          "missing": "Identità completa della startup, richiesta originale ancora valida, perimetro non limitato a piccoli interventi, rapporto esterno e condizioni economiche.",
+          "expected_source": "Pagina ufficiale della startup o intervento pubblico del fondatore con attribuzione verificabile.",
+          "success": "La fonte originale identifica startup e progetto incompiuto e invita un professionista esterno a occuparsene; compenso e budget restano sconosciuti se non dichiarati.",
+          "stop_condition": "Scartare offerte di servizi, portfolio, progetti già conclusi e assunzioni esclusivamente dipendenti. Se emergono soltanto questi casi, interrompere questa pista senza moltiplicare sinonimi.",
+          "query_validation": {
+            "query": "startup Veneto cerchiamo freelance rifacimento sito",
+            "original_query": "startup Veneto cerchiamo freelance rifacimento sito",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "STARTUPS",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "startup cerca freelance rifacimento sito",
+          "page": 1,
+          "strategy_id": "STARTUPS:open_web:external_invitation:unspecified",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploitation",
+          "memory_adjustment": 0.0,
+          "memory_samples": 3,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 77
+        }
+      ],
+      "basis": "model_plan_with_memory_ranking"
+    }
+  },
+  {
+    "flow": "STARTUPS",
+    "plan": {
+      "reason": "Proposta AI già salvata e rivalidata sugli esiti attuali.",
+      "queries": [
+        {
+          "query": "startup Veneto cerchiamo consulente frontend",
+          "strategy": "external_frontend_product_assignment",
+          "objective": "Trovare incarichi esterni per realizzare il frontend di un prodotto web di una startup.",
+          "hypothesis": "Una startup veneta cerca un consulente frontend per uno sviluppo concreto ancora da completare, distinto da manutenzione isolata o ricerca di dipendenti.",
+          "missing": "Fonte originale, identità e sede della startup, prodotto e lavoro richiesto, ammissibilità della collaborazione freelance, integrazioni, responsabilità di sicurezza e continuità prevista.",
+          "expected_source": "Annuncio originale della startup, pagina ufficiale delle collaborazioni o pubblicazione attribuibile al fondatore.",
+          "success": "Sono verificabili una richiesta di sviluppo frontend e un rapporto esterno. Distinguere incarico specifico da invito permanente; classificare separatamente compenso monetario, equity e condizioni sconosciute.",
+          "stop_condition": "Scartare annunci esclusivamente da dipendente, consulenti che vendono servizi e richieste senza progetto identificabile. Se la ricerca produce solo questi risultati, fermare la pista.",
+          "query_validation": {
+            "query": "startup Veneto cerchiamo consulente frontend",
+            "original_query": "startup Veneto cerchiamo consulente frontend",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "STARTUPS",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "startup cerca consulente frontend",
+          "page": 1,
+          "strategy_id": "external_frontend_product_assignment",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          }
+        }
+      ],
+      "chosen": {
+        "query": "startup Veneto cerchiamo consulente frontend",
+        "strategy": "external_frontend_product_assignment",
+        "objective": "Trovare incarichi esterni per realizzare il frontend di un prodotto web di una startup.",
+        "hypothesis": "Una startup veneta cerca un consulente frontend per uno sviluppo concreto ancora da completare, distinto da manutenzione isolata o ricerca di dipendenti.",
+        "missing": "Fonte originale, identità e sede della startup, prodotto e lavoro richiesto, ammissibilità della collaborazione freelance, integrazioni, responsabilità di sicurezza e continuità prevista.",
+        "expected_source": "Annuncio originale della startup, pagina ufficiale delle collaborazioni o pubblicazione attribuibile al fondatore.",
+        "success": "Sono verificabili una richiesta di sviluppo frontend e un rapporto esterno. Distinguere incarico specifico da invito permanente; classificare separatamente compenso monetario, equity e condizioni sconosciute.",
+        "stop_condition": "Scartare annunci esclusivamente da dipendente, consulenti che vendono servizi e richieste senza progetto identificabile. Se la ricerca produce solo questi risultati, fermare la pista.",
+        "query_validation": {
+          "query": "startup Veneto cerchiamo consulente frontend",
+          "original_query": "startup Veneto cerchiamo consulente frontend",
+          "allowed": true,
+          "repairs": []
+        },
+        "channel": "STARTUPS",
+        "commercial_policy": {
+          "allowed": true,
+          "intents": [
+            "request_or_invitation_to_verify"
+          ],
+          "branch_count": 1,
+          "basis": "search_direction_only_originals_still_required"
+        },
+        "query_family": "startup cerca consulente frontend",
+        "page": 1,
+        "strategy_id": "STARTUPS:open_web:project_request:website",
+        "expected_cost": {
+          "serper_requests": 1,
+          "http_reads": "successive, entro quota"
+        },
+        "selection": "exploration",
+        "memory_adjustment": -0.071,
+        "memory_samples": 7,
+        "ranking_basis": "stable_strategy_family_observed_outcomes",
+        "selection_index": 79
+      },
+      "basis": "revalidated_saved_proposal_no_model_call"
+    }
+  }
+]

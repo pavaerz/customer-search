@@ -1,0 +1,499 @@
+{
+  "provenance": "Real GPT-6.1 Sol response from authorized frozen-original comparison; no new inference during replay.",
+  "source": "VALIDATION-AI-SOL-01.json",
+  "case": "campaign44-1168",
+  "observed_error": "unsupported_actor",
+  "expected": "NEEDS_RESEARCH",
+  "payload": {
+    "task": "COMMERCIAL_DECISION_1",
+    "unit_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+    "flow": "AGENCIES",
+    "result_ids": [
+      "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page"
+    ],
+    "evidence": [
+      {
+        "id": "metadata",
+        "result_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "unit_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "url": "https://www.webbes.it/agenzia-di-comunicazione/",
+        "text": "    \"og:site_name\": \"Alkimedia, Realizzazione siti web, creazione siti internet, progettazione grafica, posizionamento siti internet\"",
+        "hash": "48f4d4d7d0d5d2c52d4c5498ce06102df77a925723632a72eb4fc576e6f5d2bd",
+        "document_id": "e3dfc54bde9227f1f4edfa16bfdebabcdfc5b79537514f48a294daebbf9ac728",
+        "offset": 346,
+        "original": true,
+        "checked_at": "2026-10-20T14:48:03.656539+00:00",
+        "origin": "original_metadata",
+        "segments": [
+          {
+            "segment_id": "s0d2cc2032d7d2f3862ea",
+            "start": 4,
+            "end": 133,
+            "text": "\"og:site_name\": \"Alkimedia, Realizzazione siti web, creazione siti internet, progettazione grafica, posizionamento siti internet\""
+          }
+        ]
+      },
+      {
+        "id": "e1",
+        "result_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "url": "https://www.webbes.it/agenzia-di-comunicazione/",
+        "text": "I report possono essere generati in base alla combinazione di set di dati (come profili utente, statistiche, ricerche di mercato, dati analitici) riguardanti le interazioni dell’utente e quelle di altri utenti con contenuti pubblicitari o (non pubblicitari) al fine di identificare caratteristiche comuni (ad esempio, per determinare quale pubblico di riferimento è più ricettivo a una campagna pubblicitaria o a determinati contenuti).\nIllustrazioni",
+        "hash": "e77816c8e7ba66021b7937d9de1de5a42c760dd902b5898dd84ced06cd7430de",
+        "offset": 20535,
+        "original": true,
+        "document_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be",
+        "checked_at": "2026-10-20T14:48:03.656539+00:00",
+        "unit_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "segments": [
+          {
+            "segment_id": "s275f65e43ed1746ca552",
+            "start": 0,
+            "end": 436,
+            "text": "I report possono essere generati in base alla combinazione di set di dati (come profili utente, statistiche, ricerche di mercato, dati analitici) riguardanti le interazioni dell’utente e quelle di altri utenti con contenuti pubblicitari o (non pubblicitari) al fine di identificare caratteristiche comuni (ad esempio, per determinare quale pubblico di riferimento è più ricettivo a una campagna pubblicitaria o a determinati contenuti)."
+          },
+          {
+            "segment_id": "s2f01173900b53b1079e2",
+            "start": 437,
+            "end": 450,
+            "text": "Illustrazioni"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "result_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "url": "https://www.webbes.it/agenzia-di-comunicazione/",
+        "text": "Non ti toglieranno gli occhi di dosso. La tua storia diventa icona...\nContatti rapidi\nMezzago (Monza Brianza)\nVia Cascina Palazzina, 3\nRogeno (Lecco)\nVia Giuseppe Gadda, 7\nTel. +39 031 866886\nE-mail: info@webbes.it\nI nostri orari\nDal lunedì al venerdì\ndalle 9.00 alle 12.30\ndalle 14.00 alle 18.00\nSi riceve preferibilmente\nSU APPUNTAMENTO.\nCopyright\nI contenuti di questo sito sono di proprietà di Alkimedia. Altri marchi, nomi di prodotti, d’azienda e loghi contenuti in questo sito possono essere marchi di proprietà o marchi registrati dei rispettivi proprietari.\nFacebook\nInstagram\nLinkedin\nYoutube\nALKIMEDIA – P.Iva 08651970967 – Realizzazione siti web Monza – Informativa sulla privacy e sui cookie – Consenso Cookie\nInformativa Breve CookieQuesto sito utilizza cookie, anche di terze parti o tecnologie simili per scopi tecnici e, previo tuo consenso, per altri finalità come specificato nella",
+        "hash": "b0a5c0abdbc3bcefeeecc62d866e1be8b2541c6ccd64a9caa581799017d5634f",
+        "offset": 2488,
+        "original": true,
+        "document_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be",
+        "checked_at": "2026-10-20T14:48:03.656539+00:00",
+        "unit_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "segments": [
+          {
+            "segment_id": "s25e765c71b989cfb5178",
+            "start": 0,
+            "end": 38,
+            "text": "Non ti toglieranno gli occhi di dosso."
+          },
+          {
+            "segment_id": "sbf844523506e577012c1",
+            "start": 39,
+            "end": 69,
+            "text": "La tua storia diventa icona..."
+          },
+          {
+            "segment_id": "s72021837e4393caf9bd5",
+            "start": 70,
+            "end": 85,
+            "text": "Contatti rapidi"
+          },
+          {
+            "segment_id": "s7442848938bd6fb2cb39",
+            "start": 86,
+            "end": 109,
+            "text": "Mezzago (Monza Brianza)"
+          },
+          {
+            "segment_id": "s8d91e622abd8579686aa",
+            "start": 110,
+            "end": 134,
+            "text": "Via Cascina Palazzina, 3"
+          },
+          {
+            "segment_id": "sce9007027c4a6b75414b",
+            "start": 135,
+            "end": 149,
+            "text": "Rogeno (Lecco)"
+          },
+          {
+            "segment_id": "s09592480cee82f5e1766",
+            "start": 150,
+            "end": 171,
+            "text": "Via Giuseppe Gadda, 7"
+          },
+          {
+            "segment_id": "s66cf1f901a1dda3be4f4",
+            "start": 172,
+            "end": 191,
+            "text": "Tel. +39 031 866886"
+          },
+          {
+            "segment_id": "s84b2d8ee1bf9c02feb59",
+            "start": 192,
+            "end": 214,
+            "text": "E-mail: info@webbes.it"
+          },
+          {
+            "segment_id": "s70b0945487f2e873715d",
+            "start": 200,
+            "end": 214,
+            "text": "info@webbes.it"
+          },
+          {
+            "segment_id": "s2298f4e6003eb400c549",
+            "start": 215,
+            "end": 229,
+            "text": "I nostri orari"
+          },
+          {
+            "segment_id": "s33555946c523a7b8daf1",
+            "start": 230,
+            "end": 251,
+            "text": "Dal lunedì al venerdì"
+          },
+          {
+            "segment_id": "scca814e028a59c9d6511",
+            "start": 252,
+            "end": 273,
+            "text": "dalle 9.00 alle 12.30"
+          },
+          {
+            "segment_id": "sf3e70164d763dae64f67",
+            "start": 274,
+            "end": 296,
+            "text": "dalle 14.00 alle 18.00"
+          },
+          {
+            "segment_id": "s9cececc608828fdf70ac",
+            "start": 297,
+            "end": 322,
+            "text": "Si riceve preferibilmente"
+          },
+          {
+            "segment_id": "sd27dbd842953a9cac716",
+            "start": 323,
+            "end": 339,
+            "text": "SU APPUNTAMENTO."
+          },
+          {
+            "segment_id": "s7f4662c310b89e646610",
+            "start": 340,
+            "end": 349,
+            "text": "Copyright"
+          },
+          {
+            "segment_id": "sda1bd2ca93ca7c1b6c10",
+            "start": 350,
+            "end": 408,
+            "text": "I contenuti di questo sito sono di proprietà di Alkimedia."
+          },
+          {
+            "segment_id": "s67ce268a964156487b40",
+            "start": 409,
+            "end": 566,
+            "text": "Altri marchi, nomi di prodotti, d’azienda e loghi contenuti in questo sito possono essere marchi di proprietà o marchi registrati dei rispettivi proprietari."
+          },
+          {
+            "segment_id": "s1ee706bbba2c9c2f1f4a",
+            "start": 567,
+            "end": 575,
+            "text": "Facebook"
+          },
+          {
+            "segment_id": "s558f9ea8efb5ff556a90",
+            "start": 576,
+            "end": 585,
+            "text": "Instagram"
+          },
+          {
+            "segment_id": "sf30ef954e68c64a064aa",
+            "start": 586,
+            "end": 594,
+            "text": "Linkedin"
+          },
+          {
+            "segment_id": "scae8831cdf117a706a5e",
+            "start": 595,
+            "end": 602,
+            "text": "Youtube"
+          },
+          {
+            "segment_id": "s1f066c3f1b6bef82d6b0",
+            "start": 603,
+            "end": 722,
+            "text": "ALKIMEDIA – P.Iva 08651970967 – Realizzazione siti web Monza – Informativa sulla privacy e sui cookie – Consenso Cookie"
+          },
+          {
+            "segment_id": "s2f245865a4cbf85bff7d",
+            "start": 723,
+            "end": 900,
+            "text": "Informativa Breve CookieQuesto sito utilizza cookie, anche di terze parti o tecnologie simili per scopi tecnici e, previo tuo consenso, per altri finalità come specificato nella"
+          }
+        ]
+      },
+      {
+        "id": "e3",
+        "result_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "url": "https://www.webbes.it/agenzia-di-comunicazione/",
+        "text": "Vai al contenuto\nRaccontiamo\nal mondo chi sei\nAgenzia di Comunicazione\nAgenzia di Comunicazione\nMonza, Lombardia\nQualunque sia la tua idea, ti aiutiamo a trasformarla in realtà\nSiamo un’Agenzia di Comunicazione, la nostra missione è raccontare al mondo chi sei. Per farlo utilizziamo tutti i canali possibili: elaborazioni grafiche, stampa, siti internet, piattaforme social.\nSiamo una realtà dinamica, in continua evoluzione. Collaboriamo con una rete di professionisti interni e esterni per un supporto originale in tutte le fasi creative: dall’ideazione dell’immagine coordinata al rafforzamento del brand storytelling online e offline.\nAgenzia di comunicazione ed il giusto MIX\nCi piacciono le idee, ma solo quelle buone\nPer comunicare in modo efficace hai bisogno del giusto mix tra competenze tecniche e creatività. Noi di Alkimedia ti assicuriamo entrambe le cose: ragioniamo con te sulla tipologia di messaggio che vuoi diffondere, sul tuo ta",
+        "hash": "a2ec255a7f0fc2423cb6b3114192eb9812796aaa3976b874ed3e65467fa05203",
+        "offset": 0,
+        "original": true,
+        "document_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be",
+        "checked_at": "2026-10-20T14:48:03.656539+00:00",
+        "unit_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "segments": [
+          {
+            "segment_id": "s887da7e2231ece9e1fcf",
+            "start": 0,
+            "end": 16,
+            "text": "Vai al contenuto"
+          },
+          {
+            "segment_id": "sf9d1f57fcf42ad316ae4",
+            "start": 17,
+            "end": 28,
+            "text": "Raccontiamo"
+          },
+          {
+            "segment_id": "s574c2c8f54b56f0bc830",
+            "start": 29,
+            "end": 45,
+            "text": "al mondo chi sei"
+          },
+          {
+            "segment_id": "s50d65ade27770e908bc0",
+            "start": 46,
+            "end": 70,
+            "text": "Agenzia di Comunicazione"
+          },
+          {
+            "segment_id": "s14a075d782288f3a619d",
+            "start": 71,
+            "end": 95,
+            "text": "Agenzia di Comunicazione"
+          },
+          {
+            "segment_id": "s324b1fce04156ebfb7ee",
+            "start": 96,
+            "end": 112,
+            "text": "Monza, Lombardia"
+          },
+          {
+            "segment_id": "s0f30f6ae6583d36c0117",
+            "start": 113,
+            "end": 176,
+            "text": "Qualunque sia la tua idea, ti aiutiamo a trasformarla in realtà"
+          },
+          {
+            "segment_id": "s2b2984371ed893179d44",
+            "start": 177,
+            "end": 261,
+            "text": "Siamo un’Agenzia di Comunicazione, la nostra missione è raccontare al mondo chi sei."
+          },
+          {
+            "segment_id": "s795fe241a1897fcb0210",
+            "start": 262,
+            "end": 375,
+            "text": "Per farlo utilizziamo tutti i canali possibili: elaborazioni grafiche, stampa, siti internet, piattaforme social."
+          },
+          {
+            "segment_id": "sc95829335d244ec1e540",
+            "start": 376,
+            "end": 426,
+            "text": "Siamo una realtà dinamica, in continua evoluzione."
+          },
+          {
+            "segment_id": "s1db03a87ccb66f3624e1",
+            "start": 427,
+            "end": 639,
+            "text": "Collaboriamo con una rete di professionisti interni e esterni per un supporto originale in tutte le fasi creative: dall’ideazione dell’immagine coordinata al rafforzamento del brand storytelling online e offline."
+          },
+          {
+            "segment_id": "s7c9fd10adef8eeee06c6",
+            "start": 640,
+            "end": 681,
+            "text": "Agenzia di comunicazione ed il giusto MIX"
+          },
+          {
+            "segment_id": "s5e5f64629ac3a5242f1e",
+            "start": 682,
+            "end": 724,
+            "text": "Ci piacciono le idee, ma solo quelle buone"
+          },
+          {
+            "segment_id": "seafe99227c28b7700311",
+            "start": 725,
+            "end": 821,
+            "text": "Per comunicare in modo efficace hai bisogno del giusto mix tra competenze tecniche e creatività."
+          },
+          {
+            "segment_id": "s1b2971c8963fb8a346ab",
+            "start": 822,
+            "end": 950,
+            "text": "Noi di Alkimedia ti assicuriamo entrambe le cose: ragioniamo con te sulla tipologia di messaggio che vuoi diffondere, sul tuo ta"
+          }
+        ]
+      }
+    ],
+    "identity": {
+      "name": "Alkimedia",
+      "verified": true,
+      "domain": "webbes.it"
+    },
+    "dates": [
+      {
+        "role": "modified_at",
+        "value": "2024-08-13",
+        "raw": "2024-08-13T11:39:52+00:00",
+        "origin": "og:article:modified_time",
+        "unit_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "explicit": true,
+        "precision": "day",
+        "timezone": "as_supplied"
+      },
+      {
+        "role": "published_at",
+        "value": "2023-06-19",
+        "raw": "2023-06-19T15:26:17+00:00",
+        "origin": "Schema.org.datePublished",
+        "unit_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "explicit": true,
+        "precision": "day",
+        "timezone": "as_supplied"
+      },
+      {
+        "role": "modified_at",
+        "value": "2024-08-13",
+        "raw": "2024-08-13T11:39:52+00:00",
+        "origin": "Schema.org.dateModified",
+        "unit_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "explicit": true,
+        "precision": "day",
+        "timezone": "as_supplied"
+      },
+      {
+        "role": "modified_at",
+        "value": "2026-10-20",
+        "raw": "2026-10-20T13:31:24+00:00",
+        "origin": "HTTP.Last-Modified",
+        "unit_id": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page",
+        "explicit": true,
+        "precision": "day",
+        "timezone": "as_supplied"
+      }
+    ],
+    "observed_at": "2026-10-20T14:48:03.656539+00:00",
+    "max_job_age_days": 14,
+    "geography_allowed": true,
+    "region": "Lombardia",
+    "policy_exclusion": false,
+    "commercial_exclusions": [],
+    "response_channels": [],
+    "links": [
+      {
+        "id": "lf5cd9e1eef15d85e",
+        "url": "https://www.webbes.it/servizi-seo-consulente-seo-esperto-posizionamento/",
+        "label": "Servizi SEO, Consulenza SEO"
+      },
+      {
+        "id": "l4fbba90d10fbac83",
+        "url": "https://www.webbes.it/contatti-richiesta-preventivo/",
+        "label": "Contatti"
+      },
+      {
+        "id": "l5ca50291df496072",
+        "url": "https://www.webbes.it/agenzia-di-comunicazione/#content",
+        "label": "Vai al contenuto"
+      },
+      {
+        "id": "l509ebcc32a0c7359",
+        "url": "https://www.webbes.it",
+        "label": ""
+      },
+      {
+        "id": "l6a87b30a3b8a8f6c",
+        "url": "https://www.webbes.it/agenzia-di-comunicazione/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE0NTc2IiwidG9nZ2xlIjpmYWxzZX0%3D",
+        "label": ""
+      },
+      {
+        "id": "l53638a9b3e130d4b",
+        "url": "https://www.webbes.it/realizzazione-siti-web-monza/",
+        "label": "Web"
+      },
+      {
+        "id": "l24a906c07a9675f7",
+        "url": "https://www.webbes.it/siti-internet-responsive/",
+        "label": "Siti internet responsive"
+      },
+      {
+        "id": "lf8afa3a60bc53e2a",
+        "url": "https://www.webbes.it/siti-web-aziendali/",
+        "label": "Siti web aziendali"
+      }
+    ],
+    "prior_question": null,
+    "metadata": {
+      "origin": "page",
+      "canonical_url": "https://www.webbes.it/agenzia-di-comunicazione/",
+      "last_modified": "Tue, 20 Oct 2026 13:31:24 GMT",
+      "selected_unit": "e356b87ed19166773d7e524e46ed381946a00ee3b0a87c3796ced4a998f924be:page"
+    }
+  },
+  "output": {
+    "decision": "NEEDS_RESEARCH",
+    "entity_name": "Alkimedia",
+    "subject_role": "OWNER",
+    "relationship": "BUSINESS_SIGNAL",
+    "service": "frontend",
+    "reason": "Alkimedia dichiara di collaborare con professionisti esterni, ma la pagina non invita a candidarsi. Va verificato se accetta nuovi collaboratori freelance per lo sviluppo web.",
+    "fit": "Le competenze web di Diego sono pertinenti ai servizi dell’agenzia; non sono documentati incarichi disponibili o requisiti tecnici.",
+    "facts": [
+      {
+        "field": "entity",
+        "segment_id": "s1f066c3f1b6bef82d6b0"
+      },
+      {
+        "field": "geography",
+        "segment_id": "s324b1fce04156ebfb7ee"
+      },
+      {
+        "field": "signal",
+        "segment_id": "s1db03a87ccb66f3624e1"
+      },
+      {
+        "field": "technical",
+        "segment_id": "s795fe241a1897fcb0210"
+      },
+      {
+        "field": "signal",
+        "segment_id": "s2b2984371ed893179d44"
+      }
+    ],
+    "unknowns": [
+      "Accettazione di nuovi collaboratori esterni per sviluppo web.",
+      "Disponibilità di incarichi, condizioni e compensi."
+    ],
+    "confidence": "MEDIUM",
+    "priority": "low",
+    "compensation": "UNKNOWN",
+    "feasibility": "UNKNOWN",
+    "currentness": "UNKNOWN",
+    "assessment": {
+      "intent": "SUPPLYING_SERVICES",
+      "intent_facts": [
+        3,
+        4
+      ],
+      "scope": "COLLABORATION",
+      "scope_facts": [
+        2
+      ],
+      "existing_solution": "NOT_CHECKED",
+      "solution_facts": [],
+      "interpretation": "L’agenzia presenta i propri servizi e una rete di professionisti già utilizzata. La rete è un segnale pertinente, non un invito esplicito a entrarvi.",
+      "objections": [
+        "Nessuna richiesta di sviluppo o candidatura spontanea nella pagina.",
+        "La collaborazione descritta riguarda genericamente le fasi creative, non incarichi tecnici specifici."
+      ]
+    },
+    "action": {
+      "type": "SEARCH_SUBJECT",
+      "link_id": "",
+      "query": "Alkimedia collaboratori freelance sviluppo web candidature spontanee",
+      "question": "Alkimedia pubblica un invito a nuovi collaboratori freelance o accetta candidature spontanee per lo sviluppo web?"
+    }
+  }
+}

@@ -1,0 +1,1563 @@
+{
+  "version": "9.2",
+  "scope": "offline_implementation_and_validation",
+  "production_campaign_latest": 41,
+  "real_consumption": {
+    "openai_calls": 0,
+    "serper_requests": 0,
+    "new_campaigns": 0,
+    "emails": 0,
+    "budget_changes": 0
+  },
+  "replay_saved_campaign41": {
+    "version": "9.2",
+    "scope": "offline_saved_inputs_not_new_campaign",
+    "historical_campaign": 41,
+    "real_api_calls": 0,
+    "real_serper_requests": 0,
+    "new_campaigns": 0,
+    "production_database_writes": 0,
+    "before": {
+      "ai_calls": 100,
+      "ai_stages": {
+        "plan": 5,
+        "screen": 56,
+        "verify": 2,
+        "replan": 37
+      },
+      "ai_purposes": {
+        "discovery_planning": 5,
+        "initial_screening": 54,
+        "original_verification": 2,
+        "discovery_replanning": 37,
+        "targeted_recovery": 2
+      },
+      "ai_statuses": {
+        "completed": 100
+      },
+      "ai_fully_valid": 59,
+      "ai_partial": 41,
+      "estimated_ai_cost_usd": 0.29177474999999997,
+      "input_tokens": 150803,
+      "output_tokens": 39705,
+      "query_executions": 72,
+      "zero_result_queries": 42,
+      "serper_requests_attempted": 72,
+      "serper_credits_estimated": 72,
+      "serper_actual_billing": null,
+      "discovered_appearances": 210,
+      "raw_records": 204,
+      "linked_trace_records": 11,
+      "record_states": {
+        "NEEDS_REVIEW": 23,
+        "DISCOVERED": 138,
+        "REJECTED": 26,
+        "UNVERIFIABLE": 6
+      },
+      "original_record_count": 26,
+      "identity_verified_records": 11,
+      "activity": {
+        "identified_companies": 11,
+        "qualified_companies": 0,
+        "companies_with_documented_fit": 6,
+        "companies_with_public_contact": 11,
+        "documented_external_invitations": 0,
+        "documented_explicit_requests": 0,
+        "promising_dossiers": 0,
+        "sites_with_completed_http_screen": 11,
+        "usable_qualified_dossiers": 0,
+        "sales_conversion": null,
+        "original_pages_read": 91,
+        "sites_with_audit": 11,
+        "sites_with_completed_browser": 0,
+        "original_records_without_access_status": 0,
+        "active_verification_tasks": 0,
+        "pending_verification_tasks": 0,
+        "basis": "distinct_verified_entities_and_access_confirmed_pages",
+        "historical_totals_unchanged": true
+      },
+      "planning_responses": 79,
+      "plan_accepted_candidates": 124,
+      "plan_rejected_proposals": 29,
+      "browser_resource_runs": 4
+    },
+    "replayed_cases": [
+      {
+        "record_id": 781,
+        "url": "https://nhwconsulting.it/lavora-con-noi/",
+        "before": {
+          "entity_name": "NHWCONSULTING",
+          "identity_verified": false,
+          "state": "NEEDS_REVIEW",
+          "missing": [
+            "budget",
+            "contact",
+            "digital_gap",
+            "entity",
+            "geography",
+            "publication",
+            "signal",
+            "technical"
+          ],
+          "reason": "Richiesta documentata; mancano: budget, contact, digital_gap, entity, geography, publication, signal, technical",
+          "optional_unknowns": null,
+          "completion_queue": {
+            "candidate_key": "974d06dba5c0c95fea87bd8e87dd52cbe36e2ef6703f3b328859c09cd1718516",
+            "phase": "verification",
+            "promising": false,
+            "completed_checks": [
+              "contact",
+              "entity",
+              "request",
+              "technical"
+            ],
+            "missing_checks": [
+              "budget",
+              "contact",
+              "digital_gap",
+              "entity",
+              "geography",
+              "publication",
+              "signal",
+              "technical"
+            ],
+            "next_action": "Verificare budget sulla fonte del committente.",
+            "blocked_reason": null,
+            "estimated_project_value": null,
+            "next_cost": {
+              "ai_calls": null,
+              "serper_requests": null,
+              "usd": null
+            },
+            "priority_reason": "evidence_incomplete",
+            "current_availability": "UNKNOWN",
+            "sales_probability": null
+          },
+          "commercial_fit": null,
+          "budget": {
+            "kind": "UNKNOWN",
+            "amount": null,
+            "currency": null,
+            "quote": null
+          },
+          "identity_link": null
+        },
+        "after": {
+          "entity_name": "NHW Consulting",
+          "identity_verified": true,
+          "state": "NEEDS_REVIEW",
+          "missing": [
+            "publication",
+            "technical"
+          ],
+          "reason": "Richiesta documentata; da confermare: attualità dell’invito, competenze richieste nella collaborazione",
+          "optional_unknowns": [
+            "budget"
+          ],
+          "completion_queue": {
+            "candidate_key": "cf5fdb5e8e31e74fa8f067722fe5876d21c14828fd70d0260eb5799cd040aebd",
+            "phase": "verification",
+            "promising": true,
+            "completed_checks": [
+              "contact",
+              "entity",
+              "official_domain",
+              "request"
+            ],
+            "missing_checks": [
+              "publication",
+              "technical"
+            ],
+            "optional_unknowns": [
+              "budget"
+            ],
+            "next_action": "Verificare competenze richieste nella collaborazione con il committente o sulla fonte ufficiale.",
+            "commercial_maturity": "interesting_incomplete",
+            "active_assignment": "UNKNOWN",
+            "contract_acquired": "UNKNOWN",
+            "pipeline_checks": {
+              "SOURCE_ACQUISITION": "completed",
+              "IDENTITY_RESOLUTION": "completed",
+              "ORIGINAL_VERIFICATION": "completed",
+              "QUALIFICATION": "NEEDS_REVIEW",
+              "DOSSIER_COMPLETION": "pending",
+              "FINALIZATION": "incomplete"
+            },
+            "blocked_reason": null,
+            "estimated_project_value": null,
+            "next_cost": {
+              "ai_calls": null,
+              "serper_requests": null,
+              "usd": null
+            },
+            "priority_reason": "documented_invitation_identity_and_contact",
+            "current_availability": "UNKNOWN",
+            "sales_probability": null
+          },
+          "commercial_fit": null,
+          "budget": {
+            "kind": "UNKNOWN",
+            "amount": null,
+            "currency": null,
+            "quote": null
+          },
+          "identity_link": {
+            "matched": true,
+            "public_name": "NHW Consulting",
+            "original_name": "NHWCONSULTING",
+            "basis": "graphic_alias_on_verified_owner_domain",
+            "source_url": "https://nhwconsulting.it/lavora-con-noi/",
+            "official_domain": "nhwconsulting.it",
+            "quote": "NHWCONSULTING"
+          }
+        },
+        "next_check": {
+          "allowed": true,
+          "reason": "verify_missing_required_evidence",
+          "goal": "technical",
+          "evidence": "Cerchiamo collaboratori, freelance, consulenti e professionisti del digitale che vogliano portare idee, competenze e visione dentro un progetto ambizioso ma concreto."
+        },
+        "replay_limit": null,
+        "historical_negative_neutralized_for_learning": false
+      },
+      {
+        "record_id": 756,
+        "url": "https://www.puntoinfissi.it/",
+        "before": {
+          "entity_name": "PUNTO INFISSI SRL",
+          "identity_verified": true,
+          "state": "REJECTED",
+          "missing": [
+            "incompatible_source:large_group"
+          ],
+          "reason": "Compatibilità commerciale non dimostrata: incompatible_source:large_group",
+          "optional_unknowns": null,
+          "completion_queue": {
+            "candidate_key": "07f20dd5bc638e464ac9ee14b623922b66665cfaa8a215ff12db7d57e5e516aa",
+            "phase": "verification",
+            "promising": false,
+            "completed_checks": [
+              "business_activity",
+              "official_domain"
+            ],
+            "missing_checks": [
+              "incompatible_source:large_group"
+            ],
+            "next_action": "Verificare la portata del progetto e la priorità con il referente.",
+            "blocked_reason": null,
+            "estimated_project_value": null,
+            "next_cost": {
+              "ai_calls": null,
+              "serper_requests": null,
+              "usd": null
+            },
+            "priority_reason": "evidence_incomplete",
+            "current_availability": "UNKNOWN",
+            "sales_probability": null
+          },
+          "commercial_fit": {
+            "status": "NOT_SUITABLE",
+            "audit_allowed": false,
+            "source_role": "large_group",
+            "page_roles": [
+              {
+                "page_role": "UNKNOWN",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              },
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/contatti/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              },
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/landing-oknoplast-2026/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              },
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/servizi/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              },
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/prodotti/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              },
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/2026/09/22/qualita-dellaria-in-casa-come-i-serramenti-giusti-aiutano-a-combattere-polvere-e-allergie-autunnali/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              }
+            ],
+            "domain_role": "OFFICIAL_COMPANY_SITE",
+            "official_domain_verified": true,
+            "offer_evidence": [
+              {
+                "url": "https://www.puntoinfissi.it/",
+                "quote": "Siamo rivenditori ufficiali e premium partner Oknoplast, gruppo multinazionale specializzato nella progettazione e realizzazione di serramenti in PVC, soluzioni moderne e di design per la casa contemporanea.",
+                "checked_at": "2026-10-19T23:06:20.127095+00:00",
+                "scope": "business_offering_not_digital_need"
+              },
+              {
+                "url": "https://www.puntoinfissi.it/landing-oknoplast-2026/",
+                "quote": "Se desideri chiarimenti sui nostri servizi o prodotti non esitare a compilare i campi sottostanti. Inviaci un messaggio e sarai contattato al più presto.",
+                "checked_at": "2026-10-19T23:06:21.540541+00:00",
+                "scope": "business_offering_not_digital_need"
+              },
+              {
+                "url": "https://www.puntoinfissi.it/servizi/",
+                "quote": "Ogni serramento prodotto da Punto Infissi è soggetto a molti controlli per garantirne la qualità costruttiva e il corretto assemblaggio dei singoli componenti. Tutto il materiale, dai profili alla ferramenta, è selezionato in base a severi parametri di qualità. L’intero processo è continuamente monitorato e specifiche certificazioni garantiscono il prodotto acquistato dal cliente rispondendo a fattori termici, funzionali e di durata del serramento nel tempo.",
+                "checked_at": "2026-10-19T23:06:22.203574+00:00",
+                "scope": "business_offering_not_digital_need"
+              },
+              {
+                "url": "https://www.puntoinfissi.it/prodotti/",
+                "quote": "Punto Infissi è un partner affidabile che produce serramenti per arredare con gusto la tua casa, la proteggiamo da ogni condizione climatica. Un prodotto fondamentale per garantire all’ambiente domestico un’equilibrata protezione da ogni condizione ambientale dove il clima rappresenta sempre più una variabile in costante evoluzione.",
+                "checked_at": "2026-10-19T23:06:22.901740+00:00",
+                "scope": "business_offering_not_digital_need"
+              },
+              {
+                "url": "https://www.puntoinfissi.it/2026/09/22/qualita-dellaria-in-casa-come-i-serramenti-giusti-aiutano-a-combattere-polvere-e-allergie-autunnali/",
+                "quote": "Gli infissi datati o installati con tecniche obsolete presentano micro-fessure e spifferi invisibili a occhio nudo. Oltre a disperdere il calore verso l’esterno, queste fessure agiscono come un vero e proprio “aspiratore” di inquinanti esterni e polveri sottili. I serramenti moderni in legno, PVC, alluminio di ultima generazione garantiscono i massimi livelli di tenuta d’aria certificati dai test di laboratorio. Azzerando, quindi i micro-spifferi creando uno “scudo” ermetico grazie a:",
+                "checked_at": "2026-10-19T23:06:23.618546+00:00",
+                "scope": "business_offering_not_digital_need"
+              }
+            ],
+            "contact_available": true,
+            "size": {
+              "status": "UNKNOWN",
+              "employees": null
+            },
+            "site_complexity": "UNKNOWN",
+            "budget": null,
+            "purchase_intent": null,
+            "counterevidence": [],
+            "reasons": [
+              "incompatible_source:large_group"
+            ],
+            "confidence": "documented_checks",
+            "scope": "audit_priority_only_not_qualification"
+          },
+          "budget": {
+            "kind": "UNKNOWN",
+            "amount": null,
+            "currency": null,
+            "quote": null
+          },
+          "identity_link": null
+        },
+        "after": {
+          "entity_name": "PUNTO INFISSI SRL",
+          "identity_verified": true,
+          "state": "NEEDS_REVIEW",
+          "missing": [
+            "incompatible_source:large_group"
+          ],
+          "reason": "Preselezione recuperata; audit e bisogno commerciale ancora da dimostrare.",
+          "optional_unknowns": null,
+          "completion_queue": {
+            "candidate_key": "07f20dd5bc638e464ac9ee14b623922b66665cfaa8a215ff12db7d57e5e516aa",
+            "phase": "verification",
+            "promising": false,
+            "completed_checks": [
+              "business_activity",
+              "official_domain"
+            ],
+            "missing_checks": [
+              "incompatible_source:large_group"
+            ],
+            "next_action": "Verificare la portata del progetto e la priorità con il referente.",
+            "blocked_reason": null,
+            "estimated_project_value": null,
+            "next_cost": {
+              "ai_calls": null,
+              "serper_requests": null,
+              "usd": null
+            },
+            "priority_reason": "evidence_incomplete",
+            "current_availability": "UNKNOWN",
+            "sales_probability": null
+          },
+          "commercial_fit": {
+            "status": "SUITABLE_FOR_AUDIT",
+            "audit_allowed": true,
+            "source_role": "company_candidate",
+            "page_roles": [
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              },
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/contatti/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              },
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/landing-oknoplast-2026/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              },
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/servizi/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              },
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/prodotti/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              },
+              {
+                "page_role": "OFFICIAL_COMPANY_SUBPAGE",
+                "domain_role": "OFFICIAL_COMPANY_SITE",
+                "multi_subject": false,
+                "actor_status": "UNRESOLVED",
+                "publisher": "puntoinfissi.it",
+                "source_url": "https://www.puntoinfissi.it/2026/09/22/qualita-dellaria-in-casa-come-i-serramenti-giusti-aiutano-a-combattere-polvere-e-allergie-autunnali/",
+                "roles": [
+                  "SOURCE_OWNER"
+                ],
+                "basis": "Owner must be established independently."
+              }
+            ],
+            "domain_role": "OFFICIAL_COMPANY_SITE",
+            "official_domain_verified": true,
+            "offer_evidence": [
+              {
+                "url": "https://www.puntoinfissi.it/",
+                "quote": "Siamo rivenditori ufficiali e premium partner Oknoplast, gruppo multinazionale specializzato nella progettazione e realizzazione di serramenti in PVC, soluzioni moderne e di design per la casa contemporanea.",
+                "checked_at": "2026-10-19T23:06:20.127095+00:00",
+                "scope": "business_offering_not_digital_need"
+              },
+              {
+                "url": "https://www.puntoinfissi.it/landing-oknoplast-2026/",
+                "quote": "Se desideri chiarimenti sui nostri servizi o prodotti non esitare a compilare i campi sottostanti. Inviaci un messaggio e sarai contattato al più presto.",
+                "checked_at": "2026-10-19T23:06:21.540541+00:00",
+                "scope": "business_offering_not_digital_need"
+              },
+              {
+                "url": "https://www.puntoinfissi.it/servizi/",
+                "quote": "Ogni serramento prodotto da Punto Infissi è soggetto a molti controlli per garantirne la qualità costruttiva e il corretto assemblaggio dei singoli componenti. Tutto il materiale, dai profili alla ferramenta, è selezionato in base a severi parametri di qualità. L’intero processo è continuamente monitorato e specifiche certificazioni garantiscono il prodotto acquistato dal cliente rispondendo a fattori termici, funzionali e di durata del serramento nel tempo.",
+                "checked_at": "2026-10-19T23:06:22.203574+00:00",
+                "scope": "business_offering_not_digital_need"
+              },
+              {
+                "url": "https://www.puntoinfissi.it/prodotti/",
+                "quote": "Punto Infissi è un partner affidabile che produce serramenti per arredare con gusto la tua casa, la proteggiamo da ogni condizione climatica. Un prodotto fondamentale per garantire all’ambiente domestico un’equilibrata protezione da ogni condizione ambientale dove il clima rappresenta sempre più una variabile in costante evoluzione.",
+                "checked_at": "2026-10-19T23:06:22.901740+00:00",
+                "scope": "business_offering_not_digital_need"
+              },
+              {
+                "url": "https://www.puntoinfissi.it/2026/09/22/qualita-dellaria-in-casa-come-i-serramenti-giusti-aiutano-a-combattere-polvere-e-allergie-autunnali/",
+                "quote": "Gli infissi datati o installati con tecniche obsolete presentano micro-fessure e spifferi invisibili a occhio nudo. Oltre a disperdere il calore verso l’esterno, queste fessure agiscono come un vero e proprio “aspiratore” di inquinanti esterni e polveri sottili. I serramenti moderni in legno, PVC, alluminio di ultima generazione garantiscono i massimi livelli di tenuta d’aria certificati dai test di laboratorio. Azzerando, quindi i micro-spifferi creando uno “scudo” ermetico grazie a:",
+                "checked_at": "2026-10-19T23:06:23.618546+00:00",
+                "scope": "business_offering_not_digital_need"
+              }
+            ],
+            "contact_available": true,
+            "size": {
+              "status": "UNKNOWN",
+              "employees": null
+            },
+            "site_complexity": "UNKNOWN",
+            "budget": null,
+            "purchase_intent": null,
+            "counterevidence": [],
+            "reasons": [],
+            "confidence": "documented_checks",
+            "scope": "audit_priority_only_not_qualification"
+          },
+          "budget": {
+            "kind": "UNKNOWN",
+            "amount": null,
+            "currency": null,
+            "quote": null
+          },
+          "identity_link": null
+        },
+        "next_check": {
+          "allowed": false,
+          "reason": "identity_not_cited"
+        },
+        "replay_limit": "No saved browser or commercial AI review: cannot simulate qualification.",
+        "historical_negative_neutralized_for_learning": true
+      }
+    ],
+    "queries_rejected_counterfactually": [
+      {
+        "flow": "SOCIAL",
+        "query": "site:mastodon.social Valle d’Aosta \"cerco sviluppatore WordPress\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:instagram.com Valle d’Aosta \"cerco sviluppatore\" WordPress",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "AZIENDE",
+        "query": "site:.it Piemonte azienda lavorazioni alimentari sito ufficiale",
+        "reason": "company_strategy_balance_requires_explicit"
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:bsky.app Lombardia \"cerco sviluppatore ecommerce\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:bsky.app Lombardia \"cerco sviluppatore WordPress\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:linkedin.com Emilia-Romagna \"cerco sviluppatore\" WordPress",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:linkedin.com Emilia-Romagna \"cerco sviluppatore ecommerce\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:instagram.com Friuli-Venezia Giulia \"cerco sviluppatore wordpress\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:bsky.app Toscana \"cerco sviluppatore frontend\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "STARTUPS",
+        "query": "site:linkedin.com/company Piemonte startup \"cerchiamo sviluppatori\" (wordpress OR ecommerce)",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:linkedin.com Valle d’Aosta \"cerco sviluppatore wordpress\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:linkedin.com Valle d’Aosta \"cerco frontend developer\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:bsky.app Veneto (\"cerco sviluppatore\" OR \"richiesta sviluppo\") ecommerce",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:linkedin.com Veneto \"cerco sviluppatore frontend\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:instagram.com Veneto \"cercasi sviluppatore wordpress\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:instagram.com Emilia-Romagna \"cercasi sviluppatore\" ecommerce",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:instagram.com Emilia-Romagna \"cercasi wordpress\" sviluppatore",
+        "reason": "query_family_saturated",
+        "sample": 3
+      },
+      {
+        "flow": "SOCIAL",
+        "query": "site:mastodon.social Friuli-Venezia Giulia \"cercasi ecommerce developer\"",
+        "reason": "query_family_saturated",
+        "sample": 3
+      }
+    ],
+    "known_identity_false_negatives_recovered": 1,
+    "interesting_incomplete_dossiers": 1,
+    "new_verified_opportunities": 0,
+    "new_potential_opportunities": 0,
+    "limitations": [
+      "Replay uses recorded validated AI outputs, not newly generated answers.",
+      "Only two selected original cases are requalified; previous campaign fixtures cover other regressions.",
+      "Blocked-query count is a policy counterfactual, not measured provider savings.",
+      "No saved response for future NHW technical/currentness follow-up; cannot complete it offline.",
+      "Commercial conversion, weekly yield and real new planning distribution remain unmeasured."
+    ]
+  },
+  "synthetic_simulation": {
+    "combined": {
+      "scenario": "synthetic_not_real_leads",
+      "flows": [
+        "AZIENDE",
+        "AGENCIES",
+        "SOCIAL",
+        "STARTUPS",
+        "NEWS"
+      ],
+      "direct_requests_per_flow": 5,
+      "configured_max_calls": 100,
+      "configured_max_cost_usd": 2,
+      "simulated_provider_calls": 31,
+      "purposes": {
+        "discovery_planning": 5,
+        "discovery_replanning": 5,
+        "initial_screening": 3,
+        "original_verification": 17,
+        "website_audit_interpretation": 1
+      },
+      "planning_share": 0.3225806451612903,
+      "original_verification_flows": [
+        "AGENCIES",
+        "AZIENDE",
+        "NEWS",
+        "SOCIAL",
+        "STARTUPS"
+      ],
+      "states": {
+        "VERIFIED": 11,
+        "POTENTIAL": 6,
+        "DISCOVERED": 1,
+        "UNVERIFIABLE": 1
+      },
+      "remaining_tasks": [],
+      "api_calls_real": 0,
+      "real_opportunities": 0,
+      "production_writes": 0
+    },
+    "isolated": [
+      {
+        "scenario": "synthetic_not_real_leads",
+        "flows": [
+          "AZIENDE"
+        ],
+        "direct_requests_per_flow": 1,
+        "configured_max_calls": 100,
+        "configured_max_cost_usd": 2,
+        "simulated_provider_calls": 3,
+        "purposes": {
+          "discovery_planning": 1,
+          "discovery_replanning": 1,
+          "original_verification": 1
+        },
+        "planning_share": 0.6666666666666666,
+        "original_verification_flows": [
+          "AZIENDE"
+        ],
+        "states": {
+          "VERIFIED": 1
+        },
+        "remaining_tasks": [],
+        "api_calls_real": 0,
+        "real_opportunities": 0,
+        "production_writes": 0
+      },
+      {
+        "scenario": "synthetic_not_real_leads",
+        "flows": [
+          "AGENCIES"
+        ],
+        "direct_requests_per_flow": 1,
+        "configured_max_calls": 100,
+        "configured_max_cost_usd": 2,
+        "simulated_provider_calls": 3,
+        "purposes": {
+          "discovery_planning": 1,
+          "discovery_replanning": 1,
+          "original_verification": 1
+        },
+        "planning_share": 0.6666666666666666,
+        "original_verification_flows": [
+          "AGENCIES"
+        ],
+        "states": {
+          "POTENTIAL": 1
+        },
+        "remaining_tasks": [],
+        "api_calls_real": 0,
+        "real_opportunities": 0,
+        "production_writes": 0
+      },
+      {
+        "scenario": "synthetic_not_real_leads",
+        "flows": [
+          "SOCIAL"
+        ],
+        "direct_requests_per_flow": 1,
+        "configured_max_calls": 100,
+        "configured_max_cost_usd": 2,
+        "simulated_provider_calls": 5,
+        "purposes": {
+          "discovery_planning": 1,
+          "discovery_replanning": 1,
+          "initial_screening": 2,
+          "original_verification": 1
+        },
+        "planning_share": 0.4,
+        "original_verification_flows": [
+          "SOCIAL"
+        ],
+        "states": {
+          "UNVERIFIABLE": 1,
+          "VERIFIED": 1
+        },
+        "remaining_tasks": [],
+        "api_calls_real": 0,
+        "real_opportunities": 0,
+        "production_writes": 0
+      },
+      {
+        "scenario": "synthetic_not_real_leads",
+        "flows": [
+          "STARTUPS"
+        ],
+        "direct_requests_per_flow": 1,
+        "configured_max_calls": 100,
+        "configured_max_cost_usd": 2,
+        "simulated_provider_calls": 3,
+        "purposes": {
+          "discovery_planning": 1,
+          "discovery_replanning": 1,
+          "original_verification": 1
+        },
+        "planning_share": 0.6666666666666666,
+        "original_verification_flows": [
+          "STARTUPS"
+        ],
+        "states": {
+          "VERIFIED": 1
+        },
+        "remaining_tasks": [],
+        "api_calls_real": 0,
+        "real_opportunities": 0,
+        "production_writes": 0
+      },
+      {
+        "scenario": "synthetic_not_real_leads",
+        "flows": [
+          "NEWS"
+        ],
+        "direct_requests_per_flow": 1,
+        "configured_max_calls": 100,
+        "configured_max_cost_usd": 2,
+        "simulated_provider_calls": 5,
+        "purposes": {
+          "discovery_planning": 1,
+          "discovery_replanning": 1,
+          "initial_screening": 1,
+          "original_verification": 1,
+          "website_audit_interpretation": 1
+        },
+        "planning_share": 0.4,
+        "original_verification_flows": [
+          "NEWS"
+        ],
+        "states": {
+          "POTENTIAL": 1,
+          "DISCOVERED": 1
+        },
+        "remaining_tasks": [],
+        "api_calls_real": 0,
+        "real_opportunities": 0,
+        "production_writes": 0
+      }
+    ],
+    "limits": "Synthetic original availability is supplied; this is not a forecast of real candidate quality."
+  },
+  "test_runs": [
+    {
+      "artifact": "implementation-report/customersearch92/AGENT-TESTS.txt",
+      "tests": 412,
+      "seconds": 32.674,
+      "passed": true
+    },
+    {
+      "artifact": "implementation-report/customersearch92/COMMERCIAL-TESTS.txt",
+      "tests": 203,
+      "seconds": 40.425,
+      "passed": true
+    },
+    {
+      "artifact": "implementation-report/customersearch92/HTTP-TESTS.txt",
+      "tests": 14,
+      "seconds": 2.028,
+      "passed": true
+    },
+    {
+      "artifact": "implementation-report/customersearch92/FINAL-REVIEW-TESTS.txt",
+      "tests": 53,
+      "seconds": 3.086,
+      "passed": true
+    }
+  ],
+  "primary_suite_tests": 629,
+  "ui_regression": {
+    "viewports": [
+      {
+        "width": 1440,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "passed": true
+      }
+    ],
+    "javascript_errors": [],
+    "paid_calls": 0,
+    "live_campaigns": 0,
+    "production_writes": 0
+  },
+  "ui_nhw_saved_original": {
+    "viewports": [
+      {
+        "width": 1440,
+        "saved_original_dossier": true,
+        "honest_incomplete_lead": true,
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "saved_original_dossier": true,
+        "honest_incomplete_lead": true,
+        "overflow": false
+      }
+    ],
+    "javascript_errors": [],
+    "external_calls": 0,
+    "production_writes": 0
+  },
+  "local_browser_scenarios": {
+    "scope": "synthetic_local_sources_real_browser_measurements",
+    "cases": [
+      {
+        "scenario": "usable",
+        "completed": true,
+        "responsive": "PASS",
+        "measured_defects": [],
+        "elapsed_ms": 2673,
+        "processes_closed": true
+      },
+      {
+        "scenario": "overflow",
+        "completed": true,
+        "responsive": "ISSUE",
+        "measured_defects": [
+          "mobile_content",
+          "desktop_content"
+        ],
+        "elapsed_ms": 1494,
+        "processes_closed": true
+      },
+      {
+        "scenario": "incomplete",
+        "completed": false,
+        "responsive": "UNKNOWN",
+        "measured_defects": [],
+        "elapsed_ms": 2270,
+        "processes_closed": true
+      }
+    ],
+    "external_calls": 0,
+    "production_writes": 0,
+    "commercial_opportunities": 0
+  },
+  "preservation": {
+    "tables": [
+      {
+        "table": "agent6_cache",
+        "counts": [
+          363,
+          363
+        ],
+        "same": true
+      },
+      {
+        "table": "agent6_entities",
+        "counts": [
+          53,
+          53
+        ],
+        "same": true
+      },
+      {
+        "table": "agent6_feedback",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "agent6_memory",
+        "counts": [
+          3043,
+          3043
+        ],
+        "same": true
+      },
+      {
+        "table": "agent6_record_revisions",
+        "counts": [
+          1963,
+          1963
+        ],
+        "same": true
+      },
+      {
+        "table": "agent6_records",
+        "counts": [
+          944,
+          944
+        ],
+        "same": true
+      },
+      {
+        "table": "agent7_diagnostics",
+        "counts": [
+          175,
+          175
+        ],
+        "same": true
+      },
+      {
+        "table": "agent8_annotations",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "api_usage",
+        "counts": [
+          13,
+          13
+        ],
+        "same": true
+      },
+      {
+        "table": "audits",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "cache",
+        "counts": [
+          6841,
+          6841
+        ],
+        "same": true
+      },
+      {
+        "table": "campaigns",
+        "counts": [
+          41,
+          41
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_ai_executions",
+        "counts": [
+          1034,
+          1034
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_discovery",
+        "counts": [
+          4039,
+          4039
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_engine_runs",
+        "counts": [
+          132,
+          132
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_job_observations",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_job_reviews",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_opportunities",
+        "counts": [
+          1077,
+          1077
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_outcomes",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_resources",
+        "counts": [
+          619,
+          619
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_revisions",
+        "counts": [
+          1386,
+          1386
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_search_cache_history",
+        "counts": [
+          527,
+          527
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_search_cache_usage",
+        "counts": [
+          470,
+          470
+        ],
+        "same": true
+      },
+      {
+        "table": "commercial_social_reviews",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "companies",
+        "counts": [
+          105,
+          105
+        ],
+        "same": true
+      },
+      {
+        "table": "config",
+        "counts": [
+          19,
+          19
+        ],
+        "same": true
+      },
+      {
+        "table": "contact_groups",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "discovery_branches",
+        "counts": [
+          33,
+          33
+        ],
+        "same": true
+      },
+      {
+        "table": "discovery_candidates",
+        "counts": [
+          1379,
+          1379
+        ],
+        "same": true
+      },
+      {
+        "table": "discovery_frontier",
+        "counts": [
+          2442,
+          2442
+        ],
+        "same": true
+      },
+      {
+        "table": "discovery_operations",
+        "counts": [
+          5097,
+          5097
+        ],
+        "same": true
+      },
+      {
+        "table": "discovery_provider_health",
+        "counts": [
+          2,
+          2
+        ],
+        "same": true
+      },
+      {
+        "table": "discovery_queries",
+        "counts": [
+          390,
+          390
+        ],
+        "same": true
+      },
+      {
+        "table": "discovery_source_profiles",
+        "counts": [
+          45,
+          45
+        ],
+        "same": true
+      },
+      {
+        "table": "discovery_transitions",
+        "counts": [
+          3521,
+          3521
+        ],
+        "same": true
+      },
+      {
+        "table": "dismissed_companies",
+        "counts": [
+          1,
+          1
+        ],
+        "same": true
+      },
+      {
+        "table": "evidence",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "grant_items",
+        "counts": [
+          15,
+          15
+        ],
+        "same": true
+      },
+      {
+        "table": "grant_profile",
+        "counts": [
+          1,
+          1
+        ],
+        "same": true
+      },
+      {
+        "table": "grant_runs",
+        "counts": [
+          2,
+          2
+        ],
+        "same": true
+      },
+      {
+        "table": "grant_tasks",
+        "counts": [
+          39,
+          39
+        ],
+        "same": true
+      },
+      {
+        "table": "interactions",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "legacy_records",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "prospect_evidence",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "prospects",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "research_assessments",
+        "counts": [
+          177,
+          177
+        ],
+        "same": true
+      },
+      {
+        "table": "research_documents",
+        "counts": [
+          3097,
+          3097
+        ],
+        "same": true
+      },
+      {
+        "table": "research_domains",
+        "counts": [
+          366,
+          366
+        ],
+        "same": true
+      },
+      {
+        "table": "research_entities",
+        "counts": [
+          764,
+          764
+        ],
+        "same": true
+      },
+      {
+        "table": "research_events",
+        "counts": [
+          7265,
+          7265
+        ],
+        "same": true
+      },
+      {
+        "table": "research_query_memory",
+        "counts": [
+          262,
+          262
+        ],
+        "same": true
+      },
+      {
+        "table": "research_reviews",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "research_schema",
+        "counts": [
+          16,
+          16
+        ],
+        "same": true
+      },
+      {
+        "table": "research_signals",
+        "counts": [
+          4266,
+          4266
+        ],
+        "same": true
+      },
+      {
+        "table": "research_sources",
+        "counts": [
+          53,
+          53
+        ],
+        "same": true
+      },
+      {
+        "table": "research_tasks",
+        "counts": [
+          5619,
+          5619
+        ],
+        "same": true
+      },
+      {
+        "table": "research_visited",
+        "counts": [
+          1043,
+          1043
+        ],
+        "same": true
+      },
+      {
+        "table": "run_items",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "runs",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "search_trial_requests",
+        "counts": [
+          18,
+          18
+        ],
+        "same": true
+      },
+      {
+        "table": "search_trial_reviews",
+        "counts": [
+          40,
+          40
+        ],
+        "same": true
+      },
+      {
+        "table": "search_trials",
+        "counts": [
+          3,
+          3
+        ],
+        "same": true
+      },
+      {
+        "table": "sources",
+        "counts": [
+          0,
+          0
+        ],
+        "same": true
+      },
+      {
+        "table": "target_exclusions",
+        "counts": [
+          5,
+          5
+        ],
+        "same": true
+      },
+      {
+        "table": "workspace_archive",
+        "counts": [
+          1600,
+          1600
+        ],
+        "same": true
+      },
+      {
+        "table": "workspace_resets",
+        "counts": [
+          1,
+          1
+        ],
+        "same": true
+      }
+    ],
+    "all_unchanged": true,
+    "integrity": "ok",
+    "latest_campaign": 41,
+    "environment_configuration_unchanged": true,
+    "comparison": "every row of all production tables vs verified pre-9.2 backup"
+  },
+  "changes": {
+    "modified_since_preflight": [
+      "sales/agent6/commercial_view.py",
+      "sales/agent6/coordinator.py",
+      "sales/agent6/strategies.py",
+      "sales/agent6/completion.py",
+      "sales/agent6/budget.py",
+      "sales/agent6/commercial_policy.py",
+      "sales/agent6/__init__.py",
+      "sales/agent6/api.py",
+      "sales/agent6/query_pipeline.py",
+      "sales/agent6/qualification.py",
+      "sales/agent6/scheduling.py",
+      "sales/agent6/learning.py",
+      "sales/agent6/website_audit.py",
+      "sales/agent6/news.py",
+      "sales/agent6/schema.py",
+      "sales/commercial/entity_scope.py",
+      "sales/commercial/target_fit.py",
+      "static/agent6.js",
+      "static/worklist.js",
+      "tests/test_agent7_lifecycle.py",
+      "README.md"
+    ],
+    "new_source_files": [
+      "sales/agent6/pipeline_metrics.py",
+      "sales/agent6/identity_aliases.py",
+      "sales/agent6/progressive_audit.py",
+      "sales/agent6/requirements.py",
+      "tests/test_agent92.py",
+      "tests/fixtures/agent92/campaign41.json.gz",
+      "tests/fixtures/agent92/README.md",
+      "scripts/check_agent92_ux.py",
+      "scripts/replay_agent92.py",
+      "scripts/simulate_agent92.py"
+    ]
+  },
+  "commercial_effectiveness": {
+    "new_real_qualified_opportunities": 0,
+    "sales_conversion": null,
+    "precision": null,
+    "weekly_useful_yield": null,
+    "note": "One interesting incomplete partnership reconstructed offline. No active assignment or revenue demonstrated."
+  },
+  "runtime": {
+    "backend_restarted": false,
+    "restart_required_for_new_code": true,
+    "historical_records_rewritten": false
+  },
+  "artifact_hashes": {
+    "COMMERCIAL-TESTS.txt": "6737bed8e446e6bc1fa18b45a98fd061d3922752130a2081842d4e5a7f28d5e6",
+    "AGENT-TESTS.txt": "463b79998ae953d25f7a0d81cca21513843c44be5c9abbeb109313d91ea19736",
+    "PRESERVATION.json": "4107b41262ce145c7eccd5f9f7d521a28a5d45c000f4135f4cd89d71ef6be958",
+    "HTTP-TESTS.txt": "631a359ca70e21026c81bf7f07d239912580ae403df75d54b41b1a3976fffe7a",
+    "REPLAY-41.json": "933c185d8a449503ac54efcd1d2054b1b019eb12eee158ed3d293474c9457019",
+    "FINAL-REVIEW-TESTS.txt": "e1e5762f508b6d48b76e33eac88ad81315470f2a740f7d21826fafeba78ed395",
+    "UI-REGRESSION.json": "518820aabe2df59400e2b4e9494f35eaebe9103352e9a726269e150e3da36ca0",
+    "CHANGES.json": "ed7975fa6411db09008e5cc6f551e9c37165984d909de39f9a7323d9c945f8e5",
+    "UI-NHW.json": "8142c56feb875426f82ded842ec08f181c2f14df6f012c5ede0c53c2f38ffc67",
+    "SIMULATION.json": "252f0040dde8c8305e16d7f48765e9844a4e5a15dc8f631f2c09644a723e0862",
+    "BROWSER.json": "7b42768331d51b48c4bac9ceefd0d2ab023b942cfaae34a60465d1b0fe6df667"
+  },
+  "fixture_sha256": "23e4447160a63cd20dab25514498725ca32fb682c143a9c31b6f54f776fa819d"
+}

@@ -1,0 +1,74 @@
+{
+  "status": "completed",
+  "query": {
+    "q": "\"lavanderia industriale\" Veneto -filetype:pdf",
+    "gl": "it",
+    "hl": "it",
+    "num": 10,
+    "page": 1
+  },
+  "started_at": "2026-10-21T00:22:53.788391+00:00",
+  "receipt": {
+    "requested": {
+      "q": "\"lavanderia industriale\" Veneto -filetype:pdf",
+      "gl": "it",
+      "hl": "it",
+      "num": 10,
+      "page": 1
+    },
+    "provider_parameters_present": true,
+    "parameter_matches": {
+      "q": true,
+      "gl": true,
+      "hl": true,
+      "num": true,
+      "page": true
+    },
+    "basis": "provider_parameter_echo_not_result_relevance"
+  },
+  "results": [
+    {
+      "link": "https://www.girardigroupsrl.com/",
+      "title": "Girardi Group - Lavanderia industriale",
+      "snippet": "Da oltre 20 anni, Girardi Group opera come lavanderia industriale a Treviso e in Triveneto per il lavaggio, la sanificazione e la cura di abiti da lavoro, biancheria piana, tovagliato, divise e indumenti per ospiti RSA e il lavanolo sanitario.",
+      "position": 1
+    },
+    {
+      "link": "https://www.lm2000srl.it/",
+      "title": "Lavanderia Industriale LM 2000",
+      "snippet": "Lavanderia Industriale LM 2000 Srl Noleggio e lavaggio biancheria alberghi, ristoranti, centri benessere e spa LM 2000 presente nella Rivista DETERGO 2018 (scarica il pdf)",
+      "position": 2
+    },
+    {
+      "link": "https://www.nexivsrl.it/",
+      "title": "Nexiv S.r.l. – Lavanderia industriale",
+      "snippet": "NEXIV La Lavanderia industriale con uno sguardo al futuro. La nostra azienda è specializzata nel lavaggio industriale, offrendo soluzioni avanzate per la pulizia e la manutenzione in settori ad alta intensità operativa.",
+      "position": 3
+    },
+    {
+      "link": "https://aziende.virgilio.it/ita/veneto/cat/LAVANDERIE_INDUSTRIALI_E_NOLEGGIO_BIANCHERIA.html",
+      "title": "Lavanderie Industriali e Noleggio Biancheria in Veneto",
+      "snippet": "La lavanderia industriale che ridona igiene e splendore ai capi di alberghi e ristoranti, ad Arzergrande, provincia di Padova.",
+      "position": 4
+    },
+    {
+      "link": "https://www.paginegialle.it/veneto/lavanderie_industriali.html",
+      "title": "Lavanderie industriali in Veneto | Pagine Gialle",
+      "snippet": "Cerchi una Lavanderia industriale in Veneto? Su Pagine Gialle trovi orari e indirizzi delle principali attività commerciali della città.",
+      "position": 5
+    },
+    {
+      "link": "https://www.lavanderiaeraclea.com/",
+      "title": "Lavanderia Industriale Eraclea",
+      "snippet": "Lavanderia Eraclea s.r.l. si distingue per la professionalità e competenza nella fornitura dei servizi di noleggio e lavaggio biancheria a strutture pubbliche e private, del settore della ristorazione e alberghiero.",
+      "position": 6
+    },
+    {
+      "link": "https://lavanderialsg.it/",
+      "title": "Lavanderia industriale Mirano e Marghera/Mestre - Lavanderia ...",
+      "snippet": "Siamo professionisti nel settore della lavanderia, costantemente aggiornati sulle ultime tecnologie, metodi di pulizia e soluzioni per affrontare macchie o tessuti delicati.",
+      "position": 7
+    }
+  ],
+  "finished_at": "2026-10-21T00:22:57.493018+00:00"
+}

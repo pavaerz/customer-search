@@ -1,0 +1,35 @@
+[
+  {
+    "flow": "AGENCIES",
+    "query": "site:.it agenzia web \"collaboratori esterni\" WordPress frontend ecommerce",
+    "strategy": "agency-careers-with-explicit-external-collaboration",
+    "objective": "Find Italian agencies that explicitly recruit external WordPress/frontend/ecommerce collaborators.",
+    "hypothesis": "Some agencies in the target regions publish pages for 'collaboratori esterni', freelance partners, or external developers.",
+    "missing": "Direct evidence of an agency requesting external collaboration, plus the specific role or work type.",
+    "expected_source": "Agency careers pages, 'lavora con noi', partnership pages, or recruitment pages on the company site.",
+    "success": "A result shows a named agency and an explicit request for external collaborators in web development.",
+    "stop_condition": "Stop if searches only return generic job boards, employee jobs, or service pages with no explicit freelance/contractor request."
+  },
+  {
+    "flow": "AZIENDE",
+    "query": "site:*.it (\"agenzia\" OR \"partner\" OR \"collaborazione\" OR \"in partnership\" OR \"realizzato con\" OR \"sviluppato da\") (sito OR ecommerce OR web OR digital) (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli Venezia Giulia\" OR Trentino OR Toscana) -linkedin -facebook",
+    "strategy": "explicit agency collaboration",
+    "objective": "Identify public collaborations between companies and agencies/vendors that indicate active digital purchasing behavior.",
+    "hypothesis": "A company publicly acknowledging an agency/vendor collaboration is a verifiable sign of current or recent procurement activity.",
+    "missing": "Named requester company plus explicit external agency collaboration; avoid relying on agency portfolios alone.",
+    "expected_source": "official company pages, agency case pages on their own domain, or press releases mentioning both parties",
+    "success": "A result includes a complete company name and an explicit collaboration statement involving a digital project.",
+    "stop_condition": "Stop if only agency self-promotions or completed portfolios appear without evidence of the company as requester."
+  },
+  {
+    "flow": "STARTUPS",
+    "query": "site:it startup \"freelance\" OR \"collaboratore esterno\" OR \"agenzia\" frontend OR wordpress OR ecommerce Veneto Lombardia Piemonte Emilia-Romagna Liguria Friuli-Venezia Giulia Trentino-Alto Adige Valle d'Aosta Toscana",
+    "strategy": "Target explicit external collaboration requests from startups in the target regions",
+    "objective": "Find startups that are actively seeking outside web development help",
+    "hypothesis": "A startup in one of the target regions has published a request for freelance/contractor web work or an external agency collaboration.",
+    "missing": "Named startup, explicit request text, and currentness of the request",
+    "expected_source": "Startup careers pages, official news/press posts, and founder/company websites",
+    "success": "At least one named startup with an explicit external request for web development or ecommerce work",
+    "stop_condition": "Stop if results are only employee jobs, generic hiring pages, or non-actionable articles without a concrete request"
+  }
+]

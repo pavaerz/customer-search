@@ -1,0 +1,1196 @@
+{
+  "source": "Saved campaign 34 only; invalid outputs unavailable",
+  "configuration": {
+    "agent_version": "6.0",
+    "mode": "deep",
+    "commercial_engines": [
+      "AZIENDE",
+      "AGENCIES",
+      "STARTUPS"
+    ],
+    "regions": [
+      "Veneto",
+      "Lombardia",
+      "Piemonte",
+      "Emilia-Romagna",
+      "Liguria",
+      "Friuli-Venezia Giulia",
+      "Trentino-Alto Adige",
+      "Valle d’Aosta",
+      "Toscana"
+    ],
+    "work_budget": {
+      "max_pages": 2,
+      "max_reads": 6,
+      "max_browser_pages": 3,
+      "max_candidates_per_engine": 60,
+      "browser_sample_percent": 25,
+      "browser_timeout_ms": 20000,
+      "browser_total_seconds": 120,
+      "browser_max_resources": 60,
+      "max_queries_per_engine": 24,
+      "max_provider_requests": 36,
+      "max_serper_credits": 36,
+      "max_http_reads": 450,
+      "max_followups": 12,
+      "max_browser_runs": 4,
+      "max_runtime_seconds": 1800
+    },
+    "max_job_age_days": 14,
+    "agent_settings": {
+      "exploration_percent": 25,
+      "memory_hours": 24,
+      "max_verification_depth": 3
+    }
+  },
+  "ai_configuration": {
+    "enabled": true,
+    "provider": "REMOTE",
+    "model": "gpt-5.4-mini",
+    "mode": "shadow",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "timeout": 30,
+    "max_input_tokens": 8192,
+    "max_output_tokens": 1000,
+    "max_calls_per_campaign": 20,
+    "max_calls_per_engine": 8,
+    "max_calls_per_candidate": 1,
+    "max_estimated_cost": 1,
+    "max_concurrent_requests": 1,
+    "max_retries": 0,
+    "input_cost_per_million": 0.75,
+    "output_cost_per_million": 4.5,
+    "cache_ttl_hours": 24
+  },
+  "calls": [
+    {
+      "id": 484,
+      "flow": "AZIENDE",
+      "status": "invalid",
+      "task": "RESEARCH_PLAN_6",
+      "stage": "plan",
+      "evidence": [],
+      "output": null,
+      "diagnostic": {
+        "code": "unbounded_query",
+        "task": "RESEARCH_PLAN_6",
+        "stage": "plan",
+        "evidence_count": 0,
+        "result_count": 0,
+        "output_hash": "54f5d7d04eef3c2bb8763c32a38104cdc3c590b4f6312a828207b7097dcfc4fe"
+      }
+    },
+    {
+      "id": 485,
+      "flow": "AGENCIES",
+      "status": "completed",
+      "task": "RESEARCH_PLAN_6",
+      "stage": "plan",
+      "evidence": [],
+      "output": {
+        "decision": "search",
+        "reason": "Observed evidence is still insufficient for a falsifiable buyer-request hypothesis. Prior attempts show technical errors and low relevance on the explicit-external-collaboration angle, while the current goal still requires agencies explicitly recruiting freelance/contractor collaborators for WordPress/frontend/ecommerce work. Need fresh, more constrained queries that keep the collaboration signal mandatory and avoid supplier/generic agency pages.",
+        "queries": [
+          {
+            "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+            "strategy": "explicit-collaboration-careers",
+            "objective": "Find Italian agencies with a concrete external-collaborator hiring signal.",
+            "hypothesis": "Some agencies in the target regions publish careers pages or job posts that explicitly mention freelance, contractor, or external collaborators for WordPress/frontend/ecommerce roles.",
+            "missing": "A page that names the agency and contains an explicit request for external collaboration, not a general service page or supplier listing.",
+            "expected_source": "Agency careers pages, recruiting pages, or job posts on the agency site.",
+            "success": "Result contains a complete agency name plus a verbatim request such as 'cerchiamo freelance', 'collaboratore esterno', or equivalent with the relevant digital scope.",
+            "stop_condition": "Stop if results remain dominated by generic agency services, supplier guides, or non-explicit job pages after this query."
+          },
+          {
+            "query": "site:.it (\"cerchiamo freelance\" OR \"cerchiamo collaboratori\" OR \"cercasi freelance\" OR \"collaboratori esterni\") (WordPress OR frontend OR ecommerce) (agenzia OR studio OR digital) -facebook -linkedin",
+            "strategy": "request-phrase-first",
+            "objective": "Capture direct invitation language that indicates external hiring intent.",
+            "hypothesis": "Agencies more often use direct invitation phrases on career or recruitment pages than formal job-board language.",
+            "missing": "Direct quoted invitation language tied to an identifiable agency and digital work scope.",
+            "expected_source": "Agency websites with careers, join-us, or recruitment pages.",
+            "success": "At least one result shows the agency name and a direct invitation phrase matching the collaboration intent.",
+            "stop_condition": "Stop if the phrase-based approach returns unrelated job boards, media articles, or non-agency supplier pages without an identifiable requester."
+          },
+          {
+            "query": "site:.it (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli-Venezia Giulia\" OR \"Trentino-Alto Adige\" OR \"Valle d’Aosta\" OR Toscana) (agenzia OR studio OR digital) (\"collaboratore esterno\" OR freelance OR contractor) (\"sviluppo web\" OR WordPress OR frontend OR ecommerce)",
+            "strategy": "region-filtered-collaboration",
+            "objective": "Prioritize agencies in the target regions that show explicit external-collaboration needs.",
+            "hypothesis": "Regional agencies are more likely to publish nearby hiring pages mentioning external collaborators for web development tasks.",
+            "missing": "Regional match plus explicit collaboration request plus digital-scope relevance.",
+            "expected_source": "Regional agency websites or local recruitment pages.",
+            "success": "A result provides a complete agency name and an explicit collaboration request within one of the target regions.",
+            "stop_condition": "Stop if regional filtering still surfaces only generic agency profiles or unrelated editorial mentions."
+          }
+        ]
+      },
+      "diagnostic": null
+    },
+    {
+      "id": 486,
+      "flow": "STARTUPS",
+      "status": "invalid",
+      "task": "RESEARCH_PLAN_6",
+      "stage": "plan",
+      "evidence": [],
+      "output": null,
+      "diagnostic": {
+        "code": "unbounded_query",
+        "task": "RESEARCH_PLAN_6",
+        "stage": "plan",
+        "evidence_count": 0,
+        "result_count": 0,
+        "output_hash": "de6f4531c6f8d573819371b247c1e06a88466fdb33e598b6d81121ec355c8147"
+      }
+    },
+    {
+      "id": 487,
+      "flow": "AGENCIES",
+      "status": "invalid",
+      "task": "RESEARCH_SCREEN_6",
+      "stage": "screen",
+      "evidence": [
+        {
+          "id": "e1",
+          "result_id": "r1",
+          "url": "https://www.freelancer.co.it/jobs/wordpress",
+          "text": "WordPress Jobs for October 2026 - Freelancer\nMi aspetto: • un design leggero, moderno e responsive • sviluppo in WordPress, Joomla o altro CMS che consenta facile autonomia di aggiornamento • tempi di ...",
+          "hash": "b3984b84000ba1e32d98e3876d966595b8e03ebb4d7db5a8721a9262fb6fc320",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        },
+        {
+          "id": "e2",
+          "result_id": "r2",
+          "url": "https://mateagency.it/lavora-con-noi/",
+          "text": "Lavora con noi\nLavora con noi. Cerchiamo talenti da integrare ai nostri team e nuove collaborazioni senza limiti territoriali.Scopri le posizioni aperte.",
+          "hash": "37ddf840a9ed96d5e903920e921144863ea3331f4188a6e09f1f4fac3bed30af",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        },
+        {
+          "id": "e3",
+          "result_id": "r3",
+          "url": "https://e89.it/lavora-con-noi/",
+          "text": "Lavora con noi - Cerchiamo collaboratori per la nostra web ...\nCerchiamo freelance di “qualità” e “seri” per inserire nell'organico della ... Lavora con noi · MAPPA DEL SITO · Privacy Policy · Cookie Policy · Termini e ...",
+          "hash": "b24a7f07f7138304e62f260a15453d51d8432cfa93d7d3e9f1ea384006288d95",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        }
+      ],
+      "output": null,
+      "diagnostic": {
+        "code": "quote_missing_or_occurrence_invalid",
+        "result_index": 1,
+        "reference_index": 1,
+        "evidence_index": 1,
+        "quote_length": 11,
+        "occurrence": 0,
+        "task": "RESEARCH_SCREEN_6",
+        "stage": "screen",
+        "evidence_count": 3,
+        "result_count": 3,
+        "output_hash": "20c2cb3ab7f0ac1edd3660bea76452b31fb3e19e44e42553a682aef53f566276"
+      }
+    },
+    {
+      "id": 488,
+      "flow": "AGENCIES",
+      "status": "completed",
+      "task": "RESEARCH_SCREEN_6",
+      "stage": "screen",
+      "evidence": [
+        {
+          "id": "e1",
+          "result_id": "r1",
+          "url": "https://www.nexweb.it/lavora-con-noi/",
+          "text": "Lavora con Noi - NexWeb\nLavora con noi. Cresci con NexWeb. Sei un venditore con spirito imprenditoriale o un professionista del digitale? Unisciti alla rete NexWeb — lavora in ...",
+          "hash": "b4dbb0fa21d2c0bd9b9218bb0a6611777bb6742f03ffcda4db8ea0233c7e6c5e",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        },
+        {
+          "id": "e2",
+          "result_id": "r2",
+          "url": "https://www.mirror.it/jobs",
+          "text": "Jobs\nCareers · Lab · Contact · Work · About · Careers · Lab · Contact ... Full time, freelance or internships, we are always open to great people joining the team.",
+          "hash": "950b891172dd0ff812e77e612bab36ab01dbd8591945e0074b1b0c2f720dbb45",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        },
+        {
+          "id": "e3",
+          "result_id": "r3",
+          "url": "https://marketing.inretedigital.it/web-editor-social-media/",
+          "text": "Web Editor\nLavora con noi · Contattaci · IT. Web Editor – Freelance. Siamo alla ricerca di un freelance con competenze di social media marketing e di web editing per ...",
+          "hash": "dd6caa6b4102629472d7ce57327ff0f3cd28121ab463e4939820f2c068c11b21",
+          "offset": 0,
+          "original": false,
+          "document_id": null,
+          "checked_at": null
+        }
+      ],
+      "output": {
+        "analyses": [
+          {
+            "result_id": "r1",
+            "kind": "COMPANY_SIGNAL",
+            "kind_ref": {
+              "id": "e1",
+              "start": 24,
+              "end": 39
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "e1",
+                  "start": 17,
+                  "end": 23
+                }
+              },
+              {
+                "field": "signal",
+                "ref": {
+                  "id": "e1",
+                  "start": 24,
+                  "end": 39
+                }
+              }
+            ],
+            "hypothesis": "NexWeb is signaling an active hiring/collaboration need and may have an open commercial request for digital professionals.",
+            "missing": [
+              "request",
+              "digital_gap",
+              "contact",
+              "official_domain",
+              "geography",
+              "feasibility",
+              "closed"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          },
+          {
+            "result_id": "r2",
+            "kind": "EMPLOYEE_JOB",
+            "kind_ref": {
+              "id": "e2",
+              "start": 74,
+              "end": 109
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "e2",
+                  "start": 0,
+                  "end": 4
+                }
+              },
+              {
+                "field": "request",
+                "ref": {
+                  "id": "e2",
+                  "start": 74,
+                  "end": 109
+                }
+              }
+            ],
+            "hypothesis": "Mirror is advertising careers options and may be open to freelance or contract collaboration, but the exact commercial need is unclear.",
+            "missing": [
+              "entity",
+              "request",
+              "digital_gap",
+              "contact",
+              "official_domain",
+              "geography",
+              "feasibility",
+              "closed"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          },
+          {
+            "result_id": "r3",
+            "kind": "EMPLOYEE_JOB",
+            "kind_ref": {
+              "id": "e3",
+              "start": 69,
+              "end": 103
+            },
+            "facts": [
+              {
+                "field": "entity",
+                "ref": {
+                  "id": "e3",
+                  "start": 0,
+                  "end": 10
+                }
+              },
+              {
+                "field": "request",
+                "ref": {
+                  "id": "e3",
+                  "start": 69,
+                  "end": 103
+                }
+              }
+            ],
+            "hypothesis": "In Rete Digital is seeking a freelance web editor with social media marketing and web editing skills, indicating a potential contractor opportunity.",
+            "missing": [
+              "entity",
+              "digital_gap",
+              "contact",
+              "official_domain",
+              "geography",
+              "feasibility",
+              "closed"
+            ],
+            "evidence_status": "interpretation_not_fact"
+          }
+        ]
+      },
+      "diagnostic": null
+    },
+    {
+      "id": 489,
+      "flow": "AGENCIES",
+      "status": "completed",
+      "task": "RESEARCH_PLAN_6",
+      "stage": "replan",
+      "evidence": [],
+      "output": {
+        "decision": "search",
+        "reason": "Current evidence shows repeated failures with generic agency-careers queries and technical issues on some domains. A narrower, falsifiable search can still target explicit external-collaboration requests from agencies, while excluding supplier/service pages and completed portfolios.",
+        "queries": [
+          {
+            "query": "site:.it (agenzia OR studio OR digital) (\"cerchiamo freelance\" OR \"cerchiamo collaboratori\" OR \"collaboratori esterni\") (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+            "strategy": "explicit external-collaboration careers",
+            "objective": "Find agency pages that explicitly invite freelance or external collaborators for WordPress/frontend/ecommerce work.",
+            "hypothesis": "Some Italian agencies in the target regions publish career or contact pages that explicitly ask for freelance or external collaborators.",
+            "missing": "A page with a concrete request for external collaborators and the agency name.",
+            "expected_source": "Agency careers or work-with-us page on an Italian company site.",
+            "success": "At least one result shows the complete agency name and an explicit request such as cerchiamo freelance, collaboratori esterni, or collabora con noi tied to WordPress/frontend/ecommerce.",
+            "stop_condition": "Stop if the query returns only employee jobs, generic hiring pages, or service/supplier pages without explicit external-collaboration language."
+          },
+          {
+            "query": "site:.it (agenzia OR studio OR digital) (\"collabora con noi\" OR \"entra nel team\" OR \"lavora con noi\") (freelance OR contractor OR partita IVA) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+            "strategy": "career-page with contractor signal",
+            "objective": "Capture agency career pages that mention contractor-style collaboration rather than employee roles.",
+            "hypothesis": "Some agencies use broader recruiting language that still includes freelance/partita IVA collaboration for digital projects.",
+            "missing": "Verbatim evidence that the agency is open to external or freelance collaboration.",
+            "expected_source": "Agency recruitment page, ideally in a careers or join-us section.",
+            "success": "A result includes the full company name plus a literal collaboration cue and a relevant digital scope term.",
+            "stop_condition": "Stop if results only describe standard employee openings or if the collaboration cue is absent from the page text."
+          },
+          {
+            "query": "site:.it (agenzia OR studio OR web agency) (\"partita IVA\" OR freelance OR contractor) (WordPress OR ecommerce OR frontend) (Veneto OR Lombardia OR Piemonte OR Emilia-Romagna OR Liguria OR \"Friuli-Venezia Giulia\" OR \"Trentino-Alto Adige\" OR \"Valle d’Aosta\" OR Toscana) -facebook -linkedin",
+            "strategy": "regionalized external-collaboration search",
+            "objective": "Limit results to the target regions while preserving explicit external-collaboration intent.",
+            "hypothesis": "Regionally based agencies are more likely to publish local hiring pages or collaboration notices that match the target.",
+            "missing": "Region-linked agency pages with a specific external-collaboration request.",
+            "expected_source": "Regional agency website pages, not directories or job aggregators.",
+            "success": "At least one regional agency page with complete company name and explicit freelance/partita IVA collaboration wording.",
+            "stop_condition": "Stop if region terms only surface directory pages, press articles, or generic agency descriptions without a concrete request."
+          }
+        ]
+      },
+      "diagnostic": null
+    }
+  ],
+  "url_audit": [
+    {
+      "url": "https://www.freelancer.co.it/jobs/wordpress",
+      "flow": "AGENCIES",
+      "title": "WordPress Jobs for October 2026 - Freelancer",
+      "snippet": "Mi aspetto: • un design leggero, moderno e responsive • sviluppo in WordPress, Joomla o altro CMS che consenta facile autonomia di aggiornamento • tempi di ...",
+      "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+      "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+      "decision": "not_processed",
+      "reason": "analysis_unavailable",
+      "record": {
+        "version": "6.0",
+        "checked_at": "2026-10-19T10:23:58.946866+00:00",
+        "flow": "AGENCIES",
+        "url": "https://www.freelancer.co.it/jobs/wordpress",
+        "title": "WordPress Jobs for October 2026 - Freelancer",
+        "original": false,
+        "kind": "UNKNOWN",
+        "entity_name": null,
+        "identity_verified": false,
+        "official_domain": null,
+        "entity_key": null,
+        "facts": [],
+        "hypothesis": "",
+        "missing": [],
+        "counterevidence": [],
+        "freshness": {
+          "status": "UNKNOWN",
+          "published_at": null,
+          "basis": null,
+          "quote": null
+        },
+        "budget": {
+          "kind": "UNKNOWN",
+          "amount": null,
+          "currency": null,
+          "quote": null
+        },
+        "external": null,
+        "employee": null,
+        "geography": {
+          "status": "GEO_UNKNOWN",
+          "mode": "unknown",
+          "quote": null
+        },
+        "state": "UNVERIFIABLE",
+        "reason": "Analisi del risultato non completata: quote_missing_or_occurrence_invalid",
+        "next_verification": null,
+        "contacts": [],
+        "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+        "strategy": "explicit-collaboration-careers",
+        "discovery": {
+          "url": "https://www.freelancer.co.it/jobs/wordpress",
+          "title": "WordPress Jobs for October 2026 - Freelancer",
+          "content": "Mi aspetto: • un design leggero, moderno e responsive • sviluppo in WordPress, Joomla o altro CMS che consenta facile autonomia di aggiornamento • tempi di ...",
+          "engines": [
+            "google via Serper"
+          ],
+          "original_url": "https://www.freelancer.co.it/jobs/wordpress",
+          "canonical_url": "https://www.freelancer.co.it/jobs/wordpress",
+          "snippet": "Mi aspetto: • un design leggero, moderno e responsive • sviluppo in WordPress, Joomla o altro CMS che consenta facile autonomia di aggiornamento • tempi di ...",
+          "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+          "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+          "provider": "serper",
+          "source": "web",
+          "subject": null,
+          "timestamp": "2026-10-19T10:23:55.676820+00:00",
+          "origin": {
+            "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+            "page": 1,
+            "region": "remote Italy",
+            "provider": "serper",
+            "task_id": 4632,
+            "acquisition": "search",
+            "family": null,
+            "segment": null,
+            "source_preference": null,
+            "strategy_version": null,
+            "strategy_id": "explicit-collaboration-careers",
+            "demand_type": null,
+            "language": null,
+            "geography_tier": null,
+            "discovery_period": null
+          },
+          "appearance_id": "91ee85683db9c06401fc11d1fafdab6045d9252e4d34ab8a14f2de50648045dd",
+          "decision": "not_processed",
+          "reason": "not_processed_stop",
+          "priority": 0,
+          "source_kind": "not_checked"
+        },
+        "depth": 0,
+        "technical_error": "ai_quote_missing_or_occurrence_invalid",
+        "flows": [
+          "AGENCIES"
+        ],
+        "request_key": "9d09f14086fa1906c84366abb24be1544afd3f4d871531d2902d1af54ce1bc11"
+      },
+      "manual_category": "Aggregatore",
+      "manual_review": "Richieste WordPress negli estratti, ma lista multiannuncio e committente non identificato. Non è un cliente verificato.",
+      "review_basis": "saved_snippet_and_model_output_only",
+      "original_read": false
+    },
+    {
+      "url": "https://mateagency.it/lavora-con-noi/",
+      "flow": "AGENCIES",
+      "title": "Lavora con noi",
+      "snippet": "Lavora con noi. Cerchiamo talenti da integrare ai nostri team e nuove collaborazioni senza limiti territoriali.Scopri le posizioni aperte.",
+      "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+      "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+      "decision": "not_processed",
+      "reason": "analysis_unavailable",
+      "record": {
+        "version": "6.0",
+        "checked_at": "2026-10-19T10:23:58.960263+00:00",
+        "flow": "AGENCIES",
+        "url": "https://mateagency.it/lavora-con-noi/",
+        "title": "Lavora con noi",
+        "original": false,
+        "kind": "UNKNOWN",
+        "entity_name": null,
+        "identity_verified": false,
+        "official_domain": null,
+        "entity_key": null,
+        "facts": [],
+        "hypothesis": "",
+        "missing": [],
+        "counterevidence": [],
+        "freshness": {
+          "status": "UNKNOWN",
+          "published_at": null,
+          "basis": null,
+          "quote": null
+        },
+        "budget": {
+          "kind": "UNKNOWN",
+          "amount": null,
+          "currency": null,
+          "quote": null
+        },
+        "external": null,
+        "employee": null,
+        "geography": {
+          "status": "GEO_UNKNOWN",
+          "mode": "unknown",
+          "quote": null
+        },
+        "state": "UNVERIFIABLE",
+        "reason": "Analisi del risultato non completata: quote_missing_or_occurrence_invalid",
+        "next_verification": null,
+        "contacts": [],
+        "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+        "strategy": "explicit-collaboration-careers",
+        "discovery": {
+          "url": "https://mateagency.it/lavora-con-noi/",
+          "title": "Lavora con noi",
+          "content": "Lavora con noi. Cerchiamo talenti da integrare ai nostri team e nuove collaborazioni senza limiti territoriali.Scopri le posizioni aperte.",
+          "engines": [
+            "google via Serper"
+          ],
+          "original_url": "https://mateagency.it/lavora-con-noi/",
+          "canonical_url": "https://mateagency.it/lavora-con-noi/",
+          "snippet": "Lavora con noi. Cerchiamo talenti da integrare ai nostri team e nuove collaborazioni senza limiti territoriali.Scopri le posizioni aperte.",
+          "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+          "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+          "provider": "serper",
+          "source": "web",
+          "subject": null,
+          "timestamp": "2026-10-19T10:23:55.678276+00:00",
+          "origin": {
+            "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+            "page": 1,
+            "region": "remote Italy",
+            "provider": "serper",
+            "task_id": 4632,
+            "acquisition": "search",
+            "family": null,
+            "segment": null,
+            "source_preference": null,
+            "strategy_version": null,
+            "strategy_id": "explicit-collaboration-careers",
+            "demand_type": null,
+            "language": null,
+            "geography_tier": null,
+            "discovery_period": null
+          },
+          "appearance_id": "c7107578c9e54484c8453478ad59c829641001d8056377d2f3086e3824970d97",
+          "decision": "not_processed",
+          "reason": "not_processed_stop",
+          "priority": 0,
+          "source_kind": "not_checked"
+        },
+        "depth": 0,
+        "technical_error": "ai_quote_missing_or_occurrence_invalid",
+        "flows": [
+          "AGENCIES"
+        ],
+        "request_key": "10aa17927d91a9fad63d9f8a67c3cb611b911b087d3ee7390f69924300f1561f"
+      },
+      "manual_category": "Agenzia / invito generico",
+      "manual_review": "Nuove collaborazioni dichiarate nello snippet; ambito tecnico e natura esterna non chiariti. Lettura originale plausibilmente utile; batch invalido.",
+      "review_basis": "saved_snippet_and_model_output_only",
+      "original_read": false
+    },
+    {
+      "url": "https://e89.it/lavora-con-noi/",
+      "flow": "AGENCIES",
+      "title": "Lavora con noi - Cerchiamo collaboratori per la nostra web ...",
+      "snippet": "Cerchiamo freelance di “qualità” e “seri” per inserire nell'organico della ... Lavora con noi · MAPPA DEL SITO · Privacy Policy · Cookie Policy · Termini e ...",
+      "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+      "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+      "decision": "not_processed",
+      "reason": "analysis_unavailable",
+      "record": {
+        "version": "6.0",
+        "checked_at": "2026-10-19T10:23:58.970109+00:00",
+        "flow": "AGENCIES",
+        "url": "https://e89.it/lavora-con-noi/",
+        "title": "Lavora con noi - Cerchiamo collaboratori per la nostra web ...",
+        "original": false,
+        "kind": "UNKNOWN",
+        "entity_name": null,
+        "identity_verified": false,
+        "official_domain": null,
+        "entity_key": null,
+        "facts": [],
+        "hypothesis": "",
+        "missing": [],
+        "counterevidence": [],
+        "freshness": {
+          "status": "UNKNOWN",
+          "published_at": null,
+          "basis": null,
+          "quote": null
+        },
+        "budget": {
+          "kind": "UNKNOWN",
+          "amount": null,
+          "currency": null,
+          "quote": null
+        },
+        "external": null,
+        "employee": null,
+        "geography": {
+          "status": "GEO_UNKNOWN",
+          "mode": "unknown",
+          "quote": null
+        },
+        "state": "UNVERIFIABLE",
+        "reason": "Analisi del risultato non completata: quote_missing_or_occurrence_invalid",
+        "next_verification": null,
+        "contacts": [],
+        "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+        "strategy": "explicit-collaboration-careers",
+        "discovery": {
+          "url": "https://e89.it/lavora-con-noi/",
+          "title": "Lavora con noi - Cerchiamo collaboratori per la nostra web ...",
+          "content": "Cerchiamo freelance di “qualità” e “seri” per inserire nell'organico della ... Lavora con noi · MAPPA DEL SITO · Privacy Policy · Cookie Policy · Termini e ...",
+          "engines": [
+            "google via Serper"
+          ],
+          "original_url": "https://e89.it/lavora-con-noi/",
+          "canonical_url": "https://e89.it/lavora-con-noi/",
+          "snippet": "Cerchiamo freelance di “qualità” e “seri” per inserire nell'organico della ... Lavora con noi · MAPPA DEL SITO · Privacy Policy · Cookie Policy · Termini e ...",
+          "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+          "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+          "provider": "serper",
+          "source": "web",
+          "subject": null,
+          "timestamp": "2026-10-19T10:23:55.679660+00:00",
+          "origin": {
+            "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+            "page": 1,
+            "region": "remote Italy",
+            "provider": "serper",
+            "task_id": 4632,
+            "acquisition": "search",
+            "family": null,
+            "segment": null,
+            "source_preference": null,
+            "strategy_version": null,
+            "strategy_id": "explicit-collaboration-careers",
+            "demand_type": null,
+            "language": null,
+            "geography_tier": null,
+            "discovery_period": null
+          },
+          "appearance_id": "b298ce19c343005101e6b7ad59d032b0bd8a4a0278982063872706a7408f0040",
+          "decision": "not_processed",
+          "reason": "not_processed_stop",
+          "priority": 0,
+          "source_kind": "not_checked"
+        },
+        "depth": 0,
+        "technical_error": "ai_quote_missing_or_occurrence_invalid",
+        "flows": [
+          "AGENCIES"
+        ],
+        "request_key": "8f744cb973dab35db8f2310eb8a1433fac5f3b7e01dae305177fc07ec65a9634"
+      },
+      "manual_category": "Agenzia / disponibilità freelance esplicita",
+      "manual_review": "Lo snippet dice «Cerchiamo freelance»; pista coerente con i partner richiesti. Persa nello screening fallito: non prova una commessa qualificata né attualità.",
+      "review_basis": "saved_snippet_and_model_output_only",
+      "original_read": false
+    },
+    {
+      "url": "https://www.nexweb.it/lavora-con-noi/",
+      "flow": "AGENCIES",
+      "title": "Lavora con Noi - NexWeb",
+      "snippet": "Lavora con noi. Cresci con NexWeb. Sei un venditore con spirito imprenditoriale o un professionista del digitale? Unisciti alla rete NexWeb — lavora in ...",
+      "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+      "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+      "decision": "not_processed",
+      "reason": "no_cited_commercial_reason",
+      "record": {
+        "version": "6.0",
+        "checked_at": "2026-10-19T10:24:01.708547+00:00",
+        "flow": "AGENCIES",
+        "url": "https://www.nexweb.it/lavora-con-noi/",
+        "title": "Lavora con Noi - NexWeb",
+        "original": false,
+        "kind": "COMPANY_SIGNAL",
+        "entity_name": "NexWeb",
+        "identity_verified": false,
+        "official_domain": null,
+        "entity_key": null,
+        "facts": [
+          {
+            "field": "entity",
+            "id": "e1",
+            "start": 17,
+            "end": 23,
+            "quote": "NexWeb",
+            "url": "https://www.nexweb.it/lavora-con-noi/",
+            "checked_at": null,
+            "content_hash": "b4dbb0fa21d2c0bd9b9218bb0a6611777bb6742f03ffcda4db8ea0233c7e6c5e",
+            "document_id": null,
+            "original": false,
+            "result_id": "r1",
+            "document_start": 17,
+            "document_end": 23
+          },
+          {
+            "field": "signal",
+            "id": "e1",
+            "start": 24,
+            "end": 39,
+            "quote": "Lavora con noi.",
+            "url": "https://www.nexweb.it/lavora-con-noi/",
+            "checked_at": null,
+            "content_hash": "b4dbb0fa21d2c0bd9b9218bb0a6611777bb6742f03ffcda4db8ea0233c7e6c5e",
+            "document_id": null,
+            "original": false,
+            "result_id": "r1",
+            "document_start": 24,
+            "document_end": 39
+          }
+        ],
+        "hypothesis": "NexWeb is signaling an active hiring/collaboration need and may have an open commercial request for digital professionals.",
+        "missing": [
+          "closed",
+          "contact",
+          "digital_gap",
+          "entity",
+          "existing_solution",
+          "feasibility",
+          "geography",
+          "official_domain",
+          "request",
+          "scope",
+          "signal"
+        ],
+        "counterevidence": [],
+        "freshness": {
+          "status": "UNKNOWN",
+          "published_at": null,
+          "basis": null,
+          "quote": null
+        },
+        "budget": {
+          "kind": "UNKNOWN",
+          "amount": null,
+          "currency": null,
+          "quote": null
+        },
+        "external": null,
+        "employee": null,
+        "geography": {
+          "status": "GEO_UNKNOWN",
+          "mode": "unknown",
+          "quote": null
+        },
+        "state": "DISCOVERED",
+        "reason": "Approfondimento non giustificato: no_cited_commercial_reason",
+        "next_verification": "Verificare impresa, dominio ufficiale e bisogno digitale specifico.",
+        "contacts": [],
+        "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+        "strategy": "explicit-collaboration-careers",
+        "discovery": {
+          "url": "https://www.nexweb.it/lavora-con-noi/",
+          "title": "Lavora con Noi - NexWeb",
+          "content": "Lavora con noi. Cresci con NexWeb. Sei un venditore con spirito imprenditoriale o un professionista del digitale? Unisciti alla rete NexWeb — lavora in ...",
+          "engines": [
+            "google via Serper"
+          ],
+          "original_url": "https://www.nexweb.it/lavora-con-noi/",
+          "canonical_url": "https://www.nexweb.it/lavora-con-noi/",
+          "snippet": "Lavora con noi. Cresci con NexWeb. Sei un venditore con spirito imprenditoriale o un professionista del digitale? Unisciti alla rete NexWeb — lavora in ...",
+          "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+          "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+          "provider": "serper",
+          "source": "web",
+          "subject": null,
+          "timestamp": "2026-10-19T10:23:55.681109+00:00",
+          "origin": {
+            "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+            "page": 1,
+            "region": "remote Italy",
+            "provider": "serper",
+            "task_id": 4632,
+            "acquisition": "search",
+            "family": null,
+            "segment": null,
+            "source_preference": null,
+            "strategy_version": null,
+            "strategy_id": "explicit-collaboration-careers",
+            "demand_type": null,
+            "language": null,
+            "geography_tier": null,
+            "discovery_period": null
+          },
+          "appearance_id": "380b76389cf787e881336f1461eccb15d73172cf9d36123352f55a6dcb4ca143",
+          "decision": "not_processed",
+          "reason": "not_processed_stop",
+          "priority": 0,
+          "source_kind": "not_checked"
+        },
+        "depth": 0,
+        "flows": [
+          "AGENCIES"
+        ],
+        "request_key": "d7daf59d97cae100102bf758e7cb25964019d00634957b0578056f1b25c8bf70"
+      },
+      "manual_category": "Agenzia / invito misto",
+      "manual_review": "Invito a venditori e professionisti digitali. Il modello cita solo «Lavora con noi» come cambiamento: prova insufficiente. Non approfondire automaticamente è difendibile; non dimostra assenza di collaborazione.",
+      "review_basis": "saved_snippet_and_model_output_only",
+      "original_read": false
+    },
+    {
+      "url": "https://www.mirror.it/jobs",
+      "flow": "AGENCIES",
+      "title": "Jobs",
+      "snippet": "Careers · Lab · Contact · Work · About · Careers · Lab · Contact ... Full time, freelance or internships, we are always open to great people joining the team.",
+      "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+      "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+      "decision": "exclude",
+      "reason": "Interpretazione della fonte: EMPLOYEE_JOB",
+      "record": {
+        "version": "6.0",
+        "checked_at": "2026-10-19T10:24:01.721954+00:00",
+        "flow": "AGENCIES",
+        "url": "https://www.mirror.it/jobs",
+        "title": "Jobs",
+        "original": false,
+        "kind": "EMPLOYEE_JOB",
+        "entity_name": "Jobs",
+        "identity_verified": false,
+        "official_domain": null,
+        "entity_key": null,
+        "facts": [
+          {
+            "field": "entity",
+            "id": "e2",
+            "start": 0,
+            "end": 4,
+            "quote": "Jobs",
+            "url": "https://www.mirror.it/jobs",
+            "checked_at": null,
+            "content_hash": "950b891172dd0ff812e77e612bab36ab01dbd8591945e0074b1b0c2f720dbb45",
+            "document_id": null,
+            "original": false,
+            "result_id": "r2",
+            "document_start": 0,
+            "document_end": 4
+          },
+          {
+            "field": "request",
+            "id": "e2",
+            "start": 74,
+            "end": 109,
+            "quote": "Full time, freelance or internships",
+            "url": "https://www.mirror.it/jobs",
+            "checked_at": null,
+            "content_hash": "950b891172dd0ff812e77e612bab36ab01dbd8591945e0074b1b0c2f720dbb45",
+            "document_id": null,
+            "original": false,
+            "result_id": "r2",
+            "document_start": 74,
+            "document_end": 109
+          }
+        ],
+        "hypothesis": "Mirror is advertising careers options and may be open to freelance or contract collaboration, but the exact commercial need is unclear.",
+        "missing": [
+          "entity",
+          "request",
+          "digital_gap",
+          "contact",
+          "official_domain",
+          "geography",
+          "feasibility",
+          "closed"
+        ],
+        "counterevidence": [],
+        "freshness": {
+          "status": "UNKNOWN",
+          "published_at": null,
+          "basis": null,
+          "quote": null
+        },
+        "budget": {
+          "kind": "UNKNOWN",
+          "amount": null,
+          "currency": null,
+          "quote": null
+        },
+        "external": null,
+        "employee": null,
+        "geography": {
+          "status": "GEO_UNKNOWN",
+          "mode": "unknown",
+          "quote": null
+        },
+        "state": "REJECTED",
+        "reason": "Interpretazione della fonte: EMPLOYEE_JOB",
+        "next_verification": null,
+        "contacts": [],
+        "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+        "strategy": "explicit-collaboration-careers",
+        "discovery": {
+          "url": "https://www.mirror.it/jobs",
+          "title": "Jobs",
+          "content": "Careers · Lab · Contact · Work · About · Careers · Lab · Contact ... Full time, freelance or internships, we are always open to great people joining the team.",
+          "engines": [
+            "google via Serper"
+          ],
+          "original_url": "https://www.mirror.it/jobs",
+          "canonical_url": "https://www.mirror.it/jobs",
+          "snippet": "Careers · Lab · Contact · Work · About · Careers · Lab · Contact ... Full time, freelance or internships, we are always open to great people joining the team.",
+          "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+          "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+          "provider": "serper",
+          "source": "web",
+          "subject": null,
+          "timestamp": "2026-10-19T10:23:55.682308+00:00",
+          "origin": {
+            "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+            "page": 1,
+            "region": "remote Italy",
+            "provider": "serper",
+            "task_id": 4632,
+            "acquisition": "search",
+            "family": null,
+            "segment": null,
+            "source_preference": null,
+            "strategy_version": null,
+            "strategy_id": "explicit-collaboration-careers",
+            "demand_type": null,
+            "language": null,
+            "geography_tier": null,
+            "discovery_period": null
+          },
+          "appearance_id": "94b33036ee48a2ceb093e5615fa13d7f0fbba0f12215827803d6f93110a38b37",
+          "decision": "not_processed",
+          "reason": "not_processed_stop",
+          "priority": 0,
+          "source_kind": "not_checked"
+        },
+        "depth": 0,
+        "flows": [
+          "AGENCIES"
+        ],
+        "request_key": "53cdffa69ae1886204d4fe36a5907190e3a00fa2cc17449e40114a027ff51ceb"
+      },
+      "manual_category": "Agenzia / rapporti misti",
+      "manual_review": "La prova cita «Full time, freelance or internships»: EMPLOYEE_JOB esclusivo non è sostenuto. «Jobs» è titolo della pagina, non identità. Falso negativo di approfondimento plausibile, non opportunità qualificata dimostrata.",
+      "review_basis": "saved_snippet_and_model_output_only",
+      "original_read": false
+    },
+    {
+      "url": "https://marketing.inretedigital.it/web-editor-social-media/",
+      "flow": "AGENCIES",
+      "title": "Web Editor",
+      "snippet": "Lavora con noi · Contattaci · IT. Web Editor – Freelance. Siamo alla ricerca di un freelance con competenze di social media marketing e di web editing per ...",
+      "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+      "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+      "decision": "exclude",
+      "reason": "Interpretazione della fonte: EMPLOYEE_JOB",
+      "record": {
+        "version": "6.0",
+        "checked_at": "2026-10-19T10:24:01.732370+00:00",
+        "flow": "AGENCIES",
+        "url": "https://marketing.inretedigital.it/web-editor-social-media/",
+        "title": "Web Editor",
+        "original": false,
+        "kind": "EMPLOYEE_JOB",
+        "entity_name": "Web Editor",
+        "identity_verified": false,
+        "official_domain": null,
+        "entity_key": null,
+        "facts": [
+          {
+            "field": "entity",
+            "id": "e3",
+            "start": 0,
+            "end": 10,
+            "quote": "Web Editor",
+            "url": "https://marketing.inretedigital.it/web-editor-social-media/",
+            "checked_at": null,
+            "content_hash": "dd6caa6b4102629472d7ce57327ff0f3cd28121ab463e4939820f2c068c11b21",
+            "document_id": null,
+            "original": false,
+            "result_id": "r3",
+            "document_start": 0,
+            "document_end": 10
+          },
+          {
+            "field": "request",
+            "id": "e3",
+            "start": 69,
+            "end": 103,
+            "quote": "Siamo alla ricerca di un freelance",
+            "url": "https://marketing.inretedigital.it/web-editor-social-media/",
+            "checked_at": null,
+            "content_hash": "dd6caa6b4102629472d7ce57327ff0f3cd28121ab463e4939820f2c068c11b21",
+            "document_id": null,
+            "original": false,
+            "result_id": "r3",
+            "document_start": 69,
+            "document_end": 103
+          }
+        ],
+        "hypothesis": "In Rete Digital is seeking a freelance web editor with social media marketing and web editing skills, indicating a potential contractor opportunity.",
+        "missing": [
+          "entity",
+          "digital_gap",
+          "contact",
+          "official_domain",
+          "geography",
+          "feasibility",
+          "closed"
+        ],
+        "counterevidence": [],
+        "freshness": {
+          "status": "UNKNOWN",
+          "published_at": null,
+          "basis": null,
+          "quote": null
+        },
+        "budget": {
+          "kind": "UNKNOWN",
+          "amount": null,
+          "currency": null,
+          "quote": null
+        },
+        "external": null,
+        "employee": null,
+        "geography": {
+          "status": "GEO_UNKNOWN",
+          "mode": "unknown",
+          "quote": null
+        },
+        "state": "REJECTED",
+        "reason": "Interpretazione della fonte: EMPLOYEE_JOB",
+        "next_verification": null,
+        "contacts": [],
+        "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+        "strategy": "explicit-collaboration-careers",
+        "discovery": {
+          "url": "https://marketing.inretedigital.it/web-editor-social-media/",
+          "title": "Web Editor",
+          "content": "Lavora con noi · Contattaci · IT. Web Editor – Freelance. Siamo alla ricerca di un freelance con competenze di social media marketing e di web editing per ...",
+          "engines": [
+            "google via Serper"
+          ],
+          "original_url": "https://marketing.inretedigital.it/web-editor-social-media/",
+          "canonical_url": "https://marketing.inretedigital.it/web-editor-social-media/",
+          "snippet": "Lavora con noi · Contattaci · IT. Web Editor – Freelance. Siamo alla ricerca di un freelance con competenze di social media marketing e di web editing per ...",
+          "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+          "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+          "provider": "serper",
+          "source": "web",
+          "subject": null,
+          "timestamp": "2026-10-19T10:23:55.683349+00:00",
+          "origin": {
+            "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+            "page": 1,
+            "region": "remote Italy",
+            "provider": "serper",
+            "task_id": 4632,
+            "acquisition": "search",
+            "family": null,
+            "segment": null,
+            "source_preference": null,
+            "strategy_version": null,
+            "strategy_id": "explicit-collaboration-careers",
+            "demand_type": null,
+            "language": null,
+            "geography_tier": null,
+            "discovery_period": null
+          },
+          "appearance_id": "352a9666db771a6f0735f4f534abc78b8cbac19e79f0125027cb60ee58b5a8b8",
+          "decision": "not_processed",
+          "reason": "not_processed_stop",
+          "priority": 0,
+          "source_kind": "not_checked"
+        },
+        "depth": 0,
+        "flows": [
+          "AGENCIES"
+        ],
+        "request_key": "b6796023928f10b1ce5f618d6d345adaf806daf99fc7e09a48b150c05cf785d7"
+      },
+      "manual_category": "Richiesta freelance / contenuti",
+      "manual_review": "Lo snippet e la citazione dicono freelance: EMPLOYEE_JOB è contraddetto. Il ruolo riguarda social media/web editing, non sviluppo di siti: uno scarto per ambito potrebbe essere corretto.",
+      "review_basis": "saved_snippet_and_model_output_only",
+      "original_read": false
+    },
+    {
+      "url": "https://francofranchiedizioni.it/amphtml/ga/2026/10/ai-katarami-rikaya",
+      "flow": "AGENCIES",
+      "title": "ceo aerospace engineer travel company based in",
+      "snippet": "Careers ... Lockheed Martin is a leading global security, defense and aerospace contractor, ensuring those we serve always stay ahead of ready.",
+      "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+      "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+      "decision": "not_processed",
+      "reason": "stage_budget_screen_reserved_for_verification",
+      "record": null,
+      "manual_category": "Risultato fuori tema",
+      "manual_review": "Snippet aerospaziale/contractor senza domanda di sviluppo web; URL e titolo incoerenti. Possibile rumore indicizzato, non diagnosi di sito compromesso.",
+      "review_basis": "saved_snippet_and_model_output_only",
+      "original_read": false
+    },
+    {
+      "url": "https://signeditalia.it/work-with/",
+      "flow": "AGENCIES",
+      "title": "Lavora con noi",
+      "snippet": "Signed valuta candidature di figure professionali che possono costruirsi un ruolo chiave nell'agenzia. Scegli chi vuoi essere!",
+      "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+      "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+      "decision": "not_processed",
+      "reason": "stage_budget_screen_reserved_for_verification",
+      "record": null,
+      "manual_category": "Agenzia / careers",
+      "manual_review": "Candidature generiche senza contratto o perimetro specificati. Non processata per quota screening.",
+      "review_basis": "saved_snippet_and_model_output_only",
+      "original_read": false
+    },
+    {
+      "url": "https://5adesign.it/careers?open=2",
+      "flow": "AGENCIES",
+      "title": "Working at 5A Design",
+      "snippet": "Welcome, back to home · Careers · Contact ...",
+      "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+      "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+      "decision": "not_processed",
+      "reason": "stage_budget_screen_reserved_for_verification",
+      "record": null,
+      "manual_category": "Careers / estratto insufficiente",
+      "manual_review": "Solo navigazione nello snippet: nessuna richiesta dimostrabile. Non processata per quota screening.",
+      "review_basis": "saved_snippet_and_model_output_only",
+      "original_read": false
+    },
+    {
+      "url": "https://justjoin.it/job-offers/remote",
+      "flow": "AGENCIES",
+      "title": "Remote work - 11 179 job offers",
+      "snippet": "Remote job offers - work where you want and how you want - 11 179 current job offers from home. Visit justjoin.it and apply.",
+      "query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin",
+      "executed_query": "site:.it (agenzia OR studio OR digital) (\"lavora con noi\" OR careers OR recruitment) (freelance OR \"collaboratore esterno\" OR contractor) (WordPress OR frontend OR ecommerce) -facebook -linkedin -filetype:pdf",
+      "decision": "not_processed",
+      "reason": "stage_budget_screen_reserved_for_verification",
+      "record": null,
+      "manual_category": "Portale annunci",
+      "manual_review": "Lista aggregata di lavoro remoto; .it non prova compatibilità geografica con l’Italia. Non processata per quota screening.",
+      "review_basis": "saved_snippet_and_model_output_only",
+      "original_read": false
+    }
+  ]
+}

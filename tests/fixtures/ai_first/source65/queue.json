@@ -1,0 +1,403 @@
+{
+  "source": "Saved Campaign 58 final snapshot; no live execution",
+  "timestamp": "2026-10-21T03:16:13.525530+00:00",
+  "filters": {
+    "decision_engine": "ai_first_1",
+    "commercial_engines": [
+      "AZIENDE",
+      "AGENCIES",
+      "SOCIAL",
+      "STARTUPS",
+      "NEWS"
+    ],
+    "discovery_triage_version": 1
+  },
+  "config": {
+    "enabled": true,
+    "provider": "REMOTE",
+    "model": "gpt-6.1-sol",
+    "mode": "shadow",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "timeout": 60,
+    "max_input_tokens": 20480,
+    "max_output_tokens": 4096,
+    "max_calls_per_campaign": 20,
+    "max_calls_per_engine": 8,
+    "max_calls_per_candidate": 2,
+    "max_estimated_cost": 1.65,
+    "max_concurrent_requests": 1,
+    "max_retries": 0,
+    "input_cost_per_million": 2.0,
+    "output_cost_per_million": 10.0,
+    "cache_ttl_hours": 24
+  },
+  "ledger": [
+    {
+      "engine": "AGENCIES",
+      "candidate_id": "agent6:plan:AGENCIES:plan:0",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"plan\"}"
+    },
+    {
+      "engine": "AZIENDE",
+      "candidate_id": "agent6:plan:AZIENDE:plan:0",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"plan\"}"
+    },
+    {
+      "engine": "NEWS",
+      "candidate_id": "agent6:plan:NEWS:plan:0",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"plan\"}"
+    },
+    {
+      "engine": "SOCIAL",
+      "candidate_id": "agent6:plan:SOCIAL:plan:0",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"plan\"}"
+    },
+    {
+      "engine": "STARTUPS",
+      "candidate_id": "agent6:plan:STARTUPS:plan:0",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"plan\"}"
+    },
+    {
+      "engine": "AGENCIES",
+      "candidate_id": "agent6:screen:AGENCIES:discovery-triage:8070",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"screen\"}"
+    },
+    {
+      "engine": "AZIENDE",
+      "candidate_id": "agent6:screen:AZIENDE:discovery-triage:8069",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"screen\"}"
+    },
+    {
+      "engine": "NEWS",
+      "candidate_id": "agent6:screen:NEWS:discovery-triage:8074",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"screen\"}"
+    },
+    {
+      "engine": "SOCIAL",
+      "candidate_id": "agent6:screen:SOCIAL:discovery-triage:8089",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"screen\"}"
+    },
+    {
+      "engine": "STARTUPS",
+      "candidate_id": "agent6:screen:STARTUPS:discovery-triage:8073",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"screen\"}"
+    },
+    {
+      "engine": "AZIENDE",
+      "candidate_id": "agent6:verify:page:https://www.accademia.me/landing/qualifica-di-cuoco-regione-veneto/",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"verify\"}"
+    },
+    {
+      "engine": "STARTUPS",
+      "candidate_id": "agent6:verify:page:https://www.autobusweb.com/conerobus-progetto-elpt/",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"verify\"}"
+    },
+    {
+      "engine": "NEWS",
+      "candidate_id": "agent6:verify:page:https://www.corradobenedetti.it/",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"verify\"}"
+    },
+    {
+      "engine": "STARTUPS",
+      "candidate_id": "agent6:verify:page:https://www.innoveneto.org/php/schedaCITT.php?citt=166",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"verify\"}"
+    },
+    {
+      "engine": "NEWS",
+      "candidate_id": "agent6:verify:page:https://www.occhi.it/magazine/attualita/il-caseificio-san-rocco-inaugura-il-3-punto-vendita-a-bassano-81833934?srsltid=AU7gw4WsPaNgGDLy8gtk0X7h4zZEW4yFvUIDGD3uz1g8j-jfb3iZY27U",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"verify\"}"
+    },
+    {
+      "engine": "STARTUPS",
+      "candidate_id": "agent6:verify:page:https://www.openinnovation.regione.lombardia.it/it/collaborations/collaboration-proposals/973/digital-product-passport-per-tessile-e-arredo",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"verify\"}"
+    },
+    {
+      "engine": "NEWS",
+      "candidate_id": "agent6:verify:page:https://www.qdpnews.it/comuni/quartier-del-piave-vallata/farra-di-soligo/latteria-soligo-inaugura-un-nuovo-spaccio-a-san-dona-di-piave/",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"verify\"}"
+    },
+    {
+      "engine": "AGENCIES",
+      "candidate_id": "agent6:verify:page:https://www.salentofactory.com/diventa-partner/",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"verify\"}"
+    },
+    {
+      "engine": "AZIENDE",
+      "candidate_id": "agent6:verify:page:https://www.universitadelgustovicenza.it/",
+      "reserved_cost": 0.08192,
+      "reported_cost": null,
+      "body": "{\"stage\": \"verify\"}"
+    }
+  ],
+  "runs": [
+    {
+      "engine": "AGENCIES",
+      "state": "blocked"
+    },
+    {
+      "engine": "AZIENDE",
+      "state": "running"
+    },
+    {
+      "engine": "NEWS",
+      "state": "running"
+    },
+    {
+      "engine": "SOCIAL",
+      "state": "budget_reached"
+    },
+    {
+      "engine": "STARTUPS",
+      "state": "running"
+    }
+  ],
+  "tasks": [
+    {
+      "kind": "agent_plan",
+      "strategy": "AGENCIES",
+      "state": "done",
+      "available_at": "2026-10-21T03:05:44.635961+00:00"
+    },
+    {
+      "kind": "agent_plan",
+      "strategy": "AGENCIES",
+      "state": "done",
+      "available_at": "2026-10-21T03:12:16.002724+00:00"
+    },
+    {
+      "kind": "agent_plan",
+      "strategy": "AGENCIES",
+      "state": "done",
+      "available_at": "2026-10-21T03:16:13.488711+00:00"
+    },
+    {
+      "kind": "agent_plan",
+      "strategy": "AZIENDE",
+      "state": "done",
+      "available_at": "2026-10-21T03:05:18.325134+00:00"
+    },
+    {
+      "kind": "agent_plan",
+      "strategy": "AZIENDE",
+      "state": "done",
+      "available_at": "2026-10-21T03:12:16.627426+00:00"
+    },
+    {
+      "kind": "agent_plan",
+      "strategy": "NEWS",
+      "state": "done",
+      "available_at": "2026-10-21T03:06:54.784250+00:00"
+    },
+    {
+      "kind": "agent_plan",
+      "strategy": "SOCIAL",
+      "state": "done",
+      "available_at": "2026-10-21T03:06:04.044066+00:00"
+    },
+    {
+      "kind": "agent_plan",
+      "strategy": "STARTUPS",
+      "state": "done",
+      "available_at": "2026-10-21T03:06:32.632844+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "AGENCIES",
+      "state": "done",
+      "available_at": "2026-10-21T03:07:35.122262+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "SOCIAL",
+      "state": "done",
+      "available_at": "2026-10-21T03:08:41.061623+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "AZIENDE",
+      "state": "done",
+      "available_at": "2026-10-21T03:07:14.841229+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "AZIENDE",
+      "state": "budget",
+      "available_at": "2026-10-21T03:16:00.069991+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "NEWS",
+      "state": "done",
+      "available_at": "2026-10-21T03:08:38.724827+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "STARTUPS",
+      "state": "done",
+      "available_at": "2026-10-21T03:08:07.472753+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "SOCIAL",
+      "state": "done",
+      "available_at": "2026-10-21T03:07:36.649554+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "AZIENDE",
+      "state": "done",
+      "available_at": "2026-10-21T03:09:33.360420+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "NEWS",
+      "state": "budget",
+      "available_at": "2026-10-21T03:08:37.656743+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "NEWS",
+      "state": "budget",
+      "available_at": "2026-10-21T03:08:38.260533+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "AZIENDE",
+      "state": "failed",
+      "available_at": "2026-10-21T03:16:00.385477+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "STARTUPS",
+      "state": "pending",
+      "available_at": "2026-10-21T03:21:12.695473+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "AGENCIES",
+      "state": "done",
+      "available_at": "2026-10-21T03:09:48.991004+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "NEWS",
+      "state": "budget",
+      "available_at": "2026-10-21T03:08:38.564780+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "STARTUPS",
+      "state": "done",
+      "available_at": "2026-10-21T03:12:15.138878+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "NEWS",
+      "state": "done",
+      "available_at": "2026-10-21T03:10:26.669806+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "STARTUPS",
+      "state": "done",
+      "available_at": "2026-10-21T03:10:05.178467+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "NEWS",
+      "state": "done",
+      "available_at": "2026-10-21T03:11:48.317951+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "AZIENDE",
+      "state": "done",
+      "available_at": "2026-10-21T03:10:40.256787+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "NEWS",
+      "state": "done",
+      "available_at": "2026-10-21T03:11:11.365639+00:00"
+    },
+    {
+      "kind": "candidate",
+      "strategy": "STARTUPS",
+      "state": "done",
+      "available_at": "2026-10-21T03:11:28.483181+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "SOCIAL",
+      "state": "done",
+      "available_at": "2026-10-21T03:09:02.626152+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "SOCIAL",
+      "state": "done",
+      "available_at": "2026-10-21T03:09:07.934303+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "SOCIAL",
+      "state": "done",
+      "available_at": "2026-10-21T03:09:10.106811+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "SOCIAL",
+      "state": "done",
+      "available_at": "2026-10-21T03:09:13.539537+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "SOCIAL",
+      "state": "done",
+      "available_at": "2026-10-21T03:09:03.649471+00:00"
+    },
+    {
+      "kind": "search",
+      "strategy": "SOCIAL",
+      "state": "done",
+      "available_at": "2026-10-21T03:09:15.322712+00:00"
+    }
+  ]
+}

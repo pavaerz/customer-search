@@ -1,0 +1,2163 @@
+[
+  {
+    "id": 1390,
+    "error": "subject_region_not_supported",
+    "evidence": [
+      {
+        "id": "metadata",
+        "result_id": "102901519220f8d8c106c6fa42f8b748e64a7fcb909a7904805a44de6e6e5761:page",
+        "unit_id": "102901519220f8d8c106c6fa42f8b748e64a7fcb909a7904805a44de6e6e5761:page",
+        "url": "https://foundy.it/",
+        "text": "  \"title\": \"Foundy — Dove le idee diventano startup\",",
+        "hash": "8b07b411e4e5e53f2111e40ed74e8ab8f405948123381221402dd4fc67534bfa",
+        "document_id": "dddfa460fe7ff532c38ea0aaa4a642f2e9cfad276c0e87d9b20dcc208b7ed983",
+        "offset": 2,
+        "original": true,
+        "checked_at": "2026-10-21T00:20:36.993658+00:00",
+        "origin": "original_metadata",
+        "segments": [
+          {
+            "segment_id": "sa3f42a5f21a13a8e79e3",
+            "start": 2,
+            "end": 53,
+            "text": "\"title\": \"Foundy — Dove le idee diventano startup\","
+          }
+        ]
+      },
+      {
+        "id": "e1",
+        "result_id": "102901519220f8d8c106c6fa42f8b748e64a7fcb909a7904805a44de6e6e5761:page",
+        "url": "https://foundy.it/",
+        "text": "Caricamento…\nDove le idee italiane diventano startup. Pubblica, trova il tuo team, costruisci. Gratis, in italiano.\nProdotto\nIdeeProfiliVetrinaGestione\nRisorse\nBlogCome funzionaChi siamoTermini\nFoundy\nChi siamoBlogVetrinaRegistrati\n© 2026 Foundy · Progetto indipendente · Torino · Bologna · CuneoTermini · Privacy",
+        "hash": "2761558be188bebc2209ca7a8a30bdcadc90bf950a3cf195e4149558a5b79e38",
+        "offset": 0,
+        "original": true,
+        "document_id": "102901519220f8d8c106c6fa42f8b748e64a7fcb909a7904805a44de6e6e5761",
+        "checked_at": "2026-10-21T00:20:36.993658+00:00",
+        "unit_id": "102901519220f8d8c106c6fa42f8b748e64a7fcb909a7904805a44de6e6e5761:page",
+        "segments": [
+          {
+            "segment_id": "s4ba9e8067fd83fb7c745",
+            "start": 0,
+            "end": 12,
+            "text": "Caricamento…"
+          },
+          {
+            "segment_id": "sb703da89b098707af9e4",
+            "start": 13,
+            "end": 53,
+            "text": "Dove le idee italiane diventano startup."
+          },
+          {
+            "segment_id": "s33e047561db6f0edede1",
+            "start": 54,
+            "end": 94,
+            "text": "Pubblica, trova il tuo team, costruisci."
+          },
+          {
+            "segment_id": "s4517362b2c89dca8205a",
+            "start": 95,
+            "end": 115,
+            "text": "Gratis, in italiano."
+          },
+          {
+            "segment_id": "s341236c62548746db23c",
+            "start": 116,
+            "end": 124,
+            "text": "Prodotto"
+          },
+          {
+            "segment_id": "s35703edac164a8b774c5",
+            "start": 125,
+            "end": 151,
+            "text": "IdeeProfiliVetrinaGestione"
+          },
+          {
+            "segment_id": "s2db610e424d5dff590fa",
+            "start": 152,
+            "end": 159,
+            "text": "Risorse"
+          },
+          {
+            "segment_id": "sa00837e4edc8d105b7bb",
+            "start": 160,
+            "end": 193,
+            "text": "BlogCome funzionaChi siamoTermini"
+          },
+          {
+            "segment_id": "s6520be91e7c178cf8a9b",
+            "start": 194,
+            "end": 200,
+            "text": "Foundy"
+          },
+          {
+            "segment_id": "s6d1e5ae47b09905b4105",
+            "start": 201,
+            "end": 231,
+            "text": "Chi siamoBlogVetrinaRegistrati"
+          },
+          {
+            "segment_id": "sd8c3964d485698645917",
+            "start": 232,
+            "end": 313,
+            "text": "© 2026 Foundy · Progetto indipendente · Torino · Bologna · CuneoTermini · Privacy"
+          }
+        ]
+      }
+    ],
+    "response": {
+      "decision": "NOT_INTERESTING",
+      "entity_name": "Foundy",
+      "subject_role": "OWNER",
+      "relationship": "BUSINESS_SIGNAL",
+      "service": "unknown",
+      "reason": "Foundy presenta una piattaforma per pubblicare idee e trovare un team, non una richiesta di sviluppo né un invito a collaboratori esterni per il proprio prodotto. Non emerge un bisogno concreto che giustifichi una proposta commerciale a Foundy.",
+      "fit": "Il contesto startup è potenzialmente affine a Diego, ma non documenta incarichi web, compensi o un progetto commissionabile.",
+      "facts": [
+        {
+          "field": "entity",
+          "segment_id": "s6520be91e7c178cf8a9b"
+        },
+        {
+          "field": "signal",
+          "segment_id": "sb703da89b098707af9e4"
+        },
+        {
+          "field": "signal",
+          "segment_id": "s33e047561db6f0edede1"
+        },
+        {
+          "field": "existing_solution",
+          "segment_id": "s35703edac164a8b774c5"
+        },
+        {
+          "field": "geography",
+          "segment_id": "sd8c3964d485698645917"
+        }
+      ],
+      "unknowns": [
+        "Eventuali esigenze interne di sviluppo e disponibilità a incaricare freelance.",
+        "Compensi e natura degli eventuali accordi tra utenti della piattaforma."
+      ],
+      "confidence": "HIGH",
+      "priority": "low",
+      "compensation": "UNKNOWN",
+      "feasibility": "UNKNOWN",
+      "currentness": "CURRENT_OBSERVATION",
+      "assessment": {
+        "intent": "SUPPLYING_SERVICES",
+        "intent_facts": [
+          1,
+          2
+        ],
+        "scope": "UNKNOWN",
+        "scope_facts": [],
+        "existing_solution": "NOT_CHECKED",
+        "solution_facts": [
+          3
+        ],
+        "interpretation": "L'invito a pubblicare e trovare un team riguarda l'utilizzo della piattaforma, non il reclutamento di sviluppatori da parte di Foundy. Sono elencate funzionalità esistenti, ma non ne è stata verificata l'adeguatezza tecnica.",
+        "objections": [
+          "Nessuna richiesta commerciale attribuibile a Foundy.",
+          "Nessuna lacuna digitale osservata che sostenga un progetto completo.",
+          "La gratuità del servizio non chiarisce i compensi delle eventuali collaborazioni."
+        ]
+      },
+      "action": {
+        "type": "STOP",
+        "link_id": "",
+        "query": "",
+        "question": ""
+      },
+      "subject_geography": {
+        "status": "IN_TARGET",
+        "fact_indices": [
+          4
+        ],
+        "region": "Piemonte; Emilia-Romagna",
+        "reason": "Il footer di Foundy indica Torino, Bologna e Cuneo, tutte in regioni ammesse."
+      }
+    }
+  },
+  {
+    "id": 1392,
+    "error": "subject_region_not_supported",
+    "evidence": [
+      {
+        "id": "metadata",
+        "result_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "unit_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "url": "https://it.foundersbase.com/",
+        "text": "  \"title\": \"Trova un cofondatore in Italia | Foundersbase\",",
+        "hash": "86c252d3a1ae3ae9564ab21db5cab52d8c86529b8ca59e4a8f5b482fe9cb9c81",
+        "document_id": "4c8c1627197956300ccd0067e470d674ff0fd08c4652de275e3b432576f8296a",
+        "offset": 2,
+        "original": true,
+        "checked_at": "2026-10-21T00:21:08.385021+00:00",
+        "origin": "original_metadata",
+        "segments": [
+          {
+            "segment_id": "s696f5132276aaa97057f",
+            "start": 2,
+            "end": 42,
+            "text": "\"title\": \"Trova un cofondatore in Italia"
+          },
+          {
+            "segment_id": "s209ae5bbc56f1b4e0fe3",
+            "start": 45,
+            "end": 59,
+            "text": "Foundersbase\","
+          }
+        ]
+      },
+      {
+        "id": "e1",
+        "result_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "url": "https://it.foundersbase.com/",
+        "text": "\"Founder of Flameplace | Building AI tools for interiors professionals | Looking for a marketing & growth co-founder\"\nCustomer ResearchGrowth StrategyAI AutomationDigital marketing",
+        "hash": "f542083ce613ed81e38ec0bd01c4a849c4a749096e0aa40e5cb06ca497c48938",
+        "offset": 660,
+        "original": true,
+        "document_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a",
+        "checked_at": "2026-10-21T00:21:08.385021+00:00",
+        "unit_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "segments": [
+          {
+            "segment_id": "s89518dcc03a2760c3c82",
+            "start": 0,
+            "end": 22,
+            "text": "\"Founder of Flameplace"
+          },
+          {
+            "segment_id": "sfa7a56037364de914224",
+            "start": 25,
+            "end": 70,
+            "text": "Building AI tools for interiors professionals"
+          },
+          {
+            "segment_id": "se6d2a929650c94d70504",
+            "start": 73,
+            "end": 117,
+            "text": "Looking for a marketing & growth co-founder\""
+          },
+          {
+            "segment_id": "s66edcd9bc693d3aa1652",
+            "start": 118,
+            "end": 180,
+            "text": "Customer ResearchGrowth StrategyAI AutomationDigital marketing"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "result_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "url": "https://it.foundersbase.com/",
+        "text": "\"Product & Technical Founder | Building AI/SaaS products | Looking for a GTM Co-Founder\"\nAISaaSNew Product DevelopmentSaaS Development",
+        "hash": "f2b01859913f10252787fd8e8eba4e87495a04024baeed6651c4628ee89d00c0",
+        "offset": 1642,
+        "original": true,
+        "document_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a",
+        "checked_at": "2026-10-21T00:21:08.385021+00:00",
+        "unit_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "segments": [
+          {
+            "segment_id": "sa7e6689efaf2c66078e9",
+            "start": 0,
+            "end": 28,
+            "text": "\"Product & Technical Founder"
+          },
+          {
+            "segment_id": "s586b8548b7c91bac25d6",
+            "start": 31,
+            "end": 56,
+            "text": "Building AI/SaaS products"
+          },
+          {
+            "segment_id": "sf02b6be7a0dc88ae7b34",
+            "start": 59,
+            "end": 88,
+            "text": "Looking for a GTM Co-Founder\""
+          },
+          {
+            "segment_id": "s19961f7e7534f8338458",
+            "start": 89,
+            "end": 134,
+            "text": "AISaaSNew Product DevelopmentSaaS Development"
+          }
+        ]
+      },
+      {
+        "id": "e3",
+        "result_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "url": "https://it.foundersbase.com/",
+        "text": "Presenta la tua startup con un profilo completo e dettagliato. Condividi la tua visione, il team, i progressi e le posizioni aperte.\nBacheca lavoro startup",
+        "hash": "f50926c71fe247d7d0436ac00327d955f776b925b7f347657a47acb4ecabdd59",
+        "offset": 2727,
+        "original": true,
+        "document_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a",
+        "checked_at": "2026-10-21T00:21:08.385021+00:00",
+        "unit_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "segments": [
+          {
+            "segment_id": "s6c21d9861dc1a135ca16",
+            "start": 0,
+            "end": 62,
+            "text": "Presenta la tua startup con un profilo completo e dettagliato."
+          },
+          {
+            "segment_id": "sddea7902bca2bcc49cde",
+            "start": 63,
+            "end": 132,
+            "text": "Condividi la tua visione, il team, i progressi e le posizioni aperte."
+          },
+          {
+            "segment_id": "s88fd4259108d19b07abc",
+            "start": 133,
+            "end": 155,
+            "text": "Bacheca lavoro startup"
+          }
+        ]
+      },
+      {
+        "id": "e4",
+        "result_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "url": "https://it.foundersbase.com/",
+        "text": "Pubblica posizioni aperte o trova il tuo prossimo ruolo in una startup. Pensata per le assunzioni in fase iniziale, con trasparenza su equity e compenso.\nPerché unirti",
+        "hash": "db5033631b4f7dec5bab3fb42a8ed6676bea7778a8f09cd8b1c20fd66a79965a",
+        "offset": 2883,
+        "original": true,
+        "document_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a",
+        "checked_at": "2026-10-21T00:21:08.385021+00:00",
+        "unit_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "segments": [
+          {
+            "segment_id": "s612c238afaec03823b61",
+            "start": 0,
+            "end": 71,
+            "text": "Pubblica posizioni aperte o trova il tuo prossimo ruolo in una startup."
+          },
+          {
+            "segment_id": "sbf9542e71b08581777c8",
+            "start": 72,
+            "end": 153,
+            "text": "Pensata per le assunzioni in fase iniziale, con trasparenza su equity e compenso."
+          },
+          {
+            "segment_id": "sc82785b644b787f2d367",
+            "start": 154,
+            "end": 167,
+            "text": "Perché unirti"
+          }
+        ]
+      },
+      {
+        "id": "e5",
+        "result_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "url": "https://it.foundersbase.com/",
+        "text": "Costruisci la tua startup conle persone giuste\nEntra in una community attiva di founder, co-founder e appassionati del mondo startup. Connettiti, collabora e trasforma le tue idee in realtà insieme.\nInizia gratisEsplora le startup\nfoundersbase.com\n9000+ fondatori che costruiscono insieme\nChinaza Joseph\ncerca un cofondatore · Benin City\nScelto da founder in tutto il mondo\nFounder in Italia\nMembri reali su Foundersbase che vogliono connettersi, fare squadra e costruire qualcosa di grande.\nElia Ognjen Dolić\nSoftware Engineer\n\"Founder of Exploit2Impact\"\nUI/UX DesignBusiness developmentB2B SAASGrowth\nBassano del Grappa1-10\nIvan Codjebas\nIndustry Specialist\n\"Founder of Flameplace | Building AI tools for interiors professionals | Looking for a marketing & growth co-founder\"\nCustomer ResearchGrowth StrategyAI AutomationDigital marketing\nParma40+\nMarco D'Onghia\nBusiness Developer\n\"Founder ($95k+ Revenue) | VC & Startup Insights @UniBo Fintech So",
+        "hash": "b85bb8bad39c1ce28d738fa75aab0e325405044ea023bc2a13db1aab38e53e4b",
+        "offset": 0,
+        "original": true,
+        "document_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a",
+        "checked_at": "2026-10-21T00:21:08.385021+00:00",
+        "unit_id": "737539ff90e13704897ce6f59ca6188b08e485d7db8a615a7df87c898317587a:page",
+        "segments": [
+          {
+            "segment_id": "sb13eedb8778d6cd889c1",
+            "start": 0,
+            "end": 46,
+            "text": "Costruisci la tua startup conle persone giuste"
+          },
+          {
+            "segment_id": "s7a0fd7be9ecf4497bb40",
+            "start": 47,
+            "end": 133,
+            "text": "Entra in una community attiva di founder, co-founder e appassionati del mondo startup."
+          },
+          {
+            "segment_id": "s545d97f0c32eb6393866",
+            "start": 134,
+            "end": 198,
+            "text": "Connettiti, collabora e trasforma le tue idee in realtà insieme."
+          },
+          {
+            "segment_id": "sab0b5f9488af3868509d",
+            "start": 199,
+            "end": 230,
+            "text": "Inizia gratisEsplora le startup"
+          },
+          {
+            "segment_id": "sba34aba19678d5bab8bc",
+            "start": 231,
+            "end": 247,
+            "text": "foundersbase.com"
+          },
+          {
+            "segment_id": "s1fb4f77cc2525c53922e",
+            "start": 248,
+            "end": 288,
+            "text": "9000+ fondatori che costruiscono insieme"
+          },
+          {
+            "segment_id": "s5cbf6294d8d1411072f0",
+            "start": 289,
+            "end": 303,
+            "text": "Chinaza Joseph"
+          },
+          {
+            "segment_id": "sb89fab91a1e257c210f2",
+            "start": 304,
+            "end": 337,
+            "text": "cerca un cofondatore · Benin City"
+          },
+          {
+            "segment_id": "s06c520a12b7b53e6a608",
+            "start": 338,
+            "end": 373,
+            "text": "Scelto da founder in tutto il mondo"
+          },
+          {
+            "segment_id": "sb28102f2dc05ff34d656",
+            "start": 374,
+            "end": 391,
+            "text": "Founder in Italia"
+          },
+          {
+            "segment_id": "s53f7c06706f8df98d08a",
+            "start": 392,
+            "end": 491,
+            "text": "Membri reali su Foundersbase che vogliono connettersi, fare squadra e costruire qualcosa di grande."
+          },
+          {
+            "segment_id": "s75f10d2ae8c7ff099404",
+            "start": 492,
+            "end": 509,
+            "text": "Elia Ognjen Dolić"
+          },
+          {
+            "segment_id": "s53b143ce32821ea09469",
+            "start": 510,
+            "end": 527,
+            "text": "Software Engineer"
+          },
+          {
+            "segment_id": "sec654769cd13a81f5660",
+            "start": 528,
+            "end": 555,
+            "text": "\"Founder of Exploit2Impact\""
+          },
+          {
+            "segment_id": "s28fc968a32aebed0ed5d",
+            "start": 556,
+            "end": 602,
+            "text": "UI/UX DesignBusiness developmentB2B SAASGrowth"
+          },
+          {
+            "segment_id": "saa378deb3a6f3ecf4e63",
+            "start": 603,
+            "end": 625,
+            "text": "Bassano del Grappa1-10"
+          },
+          {
+            "segment_id": "s58aab9737a609bad98f6",
+            "start": 626,
+            "end": 639,
+            "text": "Ivan Codjebas"
+          },
+          {
+            "segment_id": "sfb8bcd80846388563c8f",
+            "start": 640,
+            "end": 659,
+            "text": "Industry Specialist"
+          },
+          {
+            "segment_id": "sb453f7c8faf981cc97c1",
+            "start": 660,
+            "end": 682,
+            "text": "\"Founder of Flameplace"
+          },
+          {
+            "segment_id": "s72231800f79691f6a350",
+            "start": 685,
+            "end": 730,
+            "text": "Building AI tools for interiors professionals"
+          },
+          {
+            "segment_id": "s2140530da916bdda2188",
+            "start": 733,
+            "end": 777,
+            "text": "Looking for a marketing & growth co-founder\""
+          },
+          {
+            "segment_id": "s0b0371c980ddf8ddb2bf",
+            "start": 778,
+            "end": 840,
+            "text": "Customer ResearchGrowth StrategyAI AutomationDigital marketing"
+          },
+          {
+            "segment_id": "s206a9ad8bca550d775d3",
+            "start": 841,
+            "end": 849,
+            "text": "Parma40+"
+          },
+          {
+            "segment_id": "sbde95009272ca13ba299",
+            "start": 850,
+            "end": 864,
+            "text": "Marco D'Onghia"
+          },
+          {
+            "segment_id": "sde22f1921e158bcefc2f",
+            "start": 865,
+            "end": 883,
+            "text": "Business Developer"
+          },
+          {
+            "segment_id": "s28156b9f4304259a721d",
+            "start": 884,
+            "end": 908,
+            "text": "\"Founder ($95k+ Revenue)"
+          },
+          {
+            "segment_id": "s09e61345b6a23c27d1a5",
+            "start": 911,
+            "end": 950,
+            "text": "VC & Startup Insights @UniBo Fintech So"
+          }
+        ]
+      }
+    ],
+    "response": {
+      "decision": "NOT_INTERESTING",
+      "entity_name": "Flameplace",
+      "subject_role": "REQUESTER",
+      "relationship": "UNKNOWN",
+      "service": "unknown",
+      "reason": "Flameplace cerca un cofondatore marketing e growth, non uno sviluppatore esterno. La scheda non documenta una richiesta di sviluppo web né un incarico freelance.",
+      "fit": "Il prodotto AI è in ambito digitale, ma il ruolo richiesto non corrisponde ai servizi frontend/web di Diego.",
+      "facts": [
+        {
+          "field": "entity",
+          "segment_id": "sb453f7c8faf981cc97c1"
+        },
+        {
+          "field": "signal",
+          "segment_id": "s72231800f79691f6a350"
+        },
+        {
+          "field": "request",
+          "segment_id": "s2140530da916bdda2188"
+        },
+        {
+          "field": "geography",
+          "segment_id": "s206a9ad8bca550d775d3"
+        }
+      ],
+      "unknowns": [
+        "Compenso ed eventuale partecipazione societaria non specificati.",
+        "Data di pubblicazione della singola scheda non disponibile."
+      ],
+      "confidence": "HIGH",
+      "priority": "low",
+      "compensation": "UNKNOWN",
+      "feasibility": "UNKNOWN",
+      "currentness": "UNKNOWN",
+      "assessment": {
+        "intent": "REQUESTING_EXTERNAL",
+        "intent_facts": [
+          2
+        ],
+        "scope": "COLLABORATION",
+        "scope_facts": [
+          2
+        ],
+        "existing_solution": "NOT_CHECKED",
+        "solution_facts": [],
+        "interpretation": "La richiesta riguarda un cofondatore con responsabilità commerciali. Non equivale a un contratto di sviluppo retribuito; la realizzazione di strumenti AI non prova un bisogno di sviluppo esterno.",
+        "objections": [
+          "Profilo richiesto marketing/growth, non frontend/web.",
+          "Nessuna evidenza di un progetto commissionabile a Diego."
+        ]
+      },
+      "action": {
+        "type": "STOP",
+        "link_id": "",
+        "query": "",
+        "question": ""
+      },
+      "subject_geography": {
+        "status": "IN_TARGET",
+        "fact_indices": [
+          3
+        ],
+        "region": "Emilia-Romagna",
+        "reason": "La scheda del fondatore di Flameplace indica Parma."
+      }
+    }
+  },
+  {
+    "id": 1395,
+    "error": "subject_region_not_supported",
+    "evidence": [
+      {
+        "id": "metadata",
+        "result_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43:page",
+        "unit_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43:page",
+        "url": "https://www.beautimport.com/it/news",
+        "text": "    \"og:site_name\": \"Beautimport\"",
+        "hash": "a5cd0c520f1a4cf3ba7278237d8e6dea5edbe28333889b0c397d54ded26b2258",
+        "document_id": "e31ee3f6fc17faed7ff37158406584b5dbd4852570960258ee1473358955fbe8",
+        "offset": 56,
+        "original": true,
+        "checked_at": "2026-10-21T00:22:05.605349+00:00",
+        "origin": "original_metadata",
+        "segments": [
+          {
+            "segment_id": "s0c4cbe6ec18bed6812b3",
+            "start": 4,
+            "end": 33,
+            "text": "\"og:site_name\": \"Beautimport\""
+          }
+        ]
+      },
+      {
+        "id": "e1",
+        "result_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43:page",
+        "url": "https://www.beautimport.com/it/news",
+        "text": "Giancarlo Zinesi inizia una collaborazione con Beautimport\nNicola Catelli, Amministratore Delegato di Beautimport, annuncia che, dal mese di settembre, Giancarlo Zinesi inizierà una collaborazione di consulenza con Beautimport.\nCastel Maggiore, settembre 2026\n01 settembre 2026 -\nLe strategie marketing per il lancio del secondo semestre '26\nTutte le novità della stagione più calda della cosmetica: Roberta Bertelé, responsabile marketing in Beautimport, anticipa le strategie in atto per il lancio di Kigriz edp, la novità Lubin Paris in arrivo in settembre\nBeauty Business, 7-8 /2026 - p. 43\n14 luglio 2026 -\nRacconti di Marketing\nEquilibrio cutaneo, attivi in alta concentrazione e ricerca avanzata: Decorté Herbal Concentrate spiegata da Anna Maria Palumbo\nImagine RCS 4 - 5 /2026 - pp. 40 e 41\n15 maggio 2026 -\nScopri il nuovo Total Look Decorté a Lucca\nCambia il destino della tua pelle!\nLe Vanità Profumerie Lucca. Dall’11 al 25 maggio 2026",
+        "hash": "bca1af77c80b050748e0913b0263a8a8f1d6b96d3086c56003b8170ad0d522ff",
+        "offset": 29,
+        "original": true,
+        "document_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43",
+        "checked_at": "2026-10-21T00:22:05.605349+00:00",
+        "unit_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43:page",
+        "segments": [
+          {
+            "segment_id": "s53654f839e41cc53f58b",
+            "start": 0,
+            "end": 58,
+            "text": "Giancarlo Zinesi inizia una collaborazione con Beautimport"
+          },
+          {
+            "segment_id": "sd4acc412cc4bee563fc3",
+            "start": 59,
+            "end": 227,
+            "text": "Nicola Catelli, Amministratore Delegato di Beautimport, annuncia che, dal mese di settembre, Giancarlo Zinesi inizierà una collaborazione di consulenza con Beautimport."
+          },
+          {
+            "segment_id": "s493b75d0ff865dc4c2dd",
+            "start": 228,
+            "end": 259,
+            "text": "Castel Maggiore, settembre 2026"
+          },
+          {
+            "segment_id": "s7569fd955fb0225f81c7",
+            "start": 260,
+            "end": 279,
+            "text": "01 settembre 2026 -"
+          },
+          {
+            "segment_id": "sf8f7b45dd07037b2e5d8",
+            "start": 280,
+            "end": 341,
+            "text": "Le strategie marketing per il lancio del secondo semestre '26"
+          },
+          {
+            "segment_id": "se87ef3d10d72bf5106d3",
+            "start": 342,
+            "end": 559,
+            "text": "Tutte le novità della stagione più calda della cosmetica: Roberta Bertelé, responsabile marketing in Beautimport, anticipa le strategie in atto per il lancio di Kigriz edp, la novità Lubin Paris in arrivo in settembre"
+          },
+          {
+            "segment_id": "s71009bc82698b9d952e4",
+            "start": 560,
+            "end": 594,
+            "text": "Beauty Business, 7-8 /2026 - p. 43"
+          },
+          {
+            "segment_id": "sd18943d3174284ef23ee",
+            "start": 595,
+            "end": 611,
+            "text": "14 luglio 2026 -"
+          },
+          {
+            "segment_id": "sfe25ad090e3a8dbd22ea",
+            "start": 612,
+            "end": 633,
+            "text": "Racconti di Marketing"
+          },
+          {
+            "segment_id": "sbe71068aa00118308576",
+            "start": 634,
+            "end": 761,
+            "text": "Equilibrio cutaneo, attivi in alta concentrazione e ricerca avanzata: Decorté Herbal Concentrate spiegata da Anna Maria Palumbo"
+          },
+          {
+            "segment_id": "sb63e10e356894fa7e777",
+            "start": 762,
+            "end": 799,
+            "text": "Imagine RCS 4 - 5 /2026 - pp. 40 e 41"
+          },
+          {
+            "segment_id": "sac0f59e89d66951c510b",
+            "start": 800,
+            "end": 816,
+            "text": "15 maggio 2026 -"
+          },
+          {
+            "segment_id": "sf3ffb8f019a69b251420",
+            "start": 817,
+            "end": 859,
+            "text": "Scopri il nuovo Total Look Decorté a Lucca"
+          },
+          {
+            "segment_id": "sdd9b8878bdd9fc630ee5",
+            "start": 860,
+            "end": 894,
+            "text": "Cambia il destino della tua pelle!"
+          },
+          {
+            "segment_id": "s71a15f5c58a97369a05a",
+            "start": 895,
+            "end": 922,
+            "text": "Le Vanità Profumerie Lucca."
+          },
+          {
+            "segment_id": "sca781fad942d50e6ae6b",
+            "start": 923,
+            "end": 948,
+            "text": "Dall’11 al 25 maggio 2026"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "result_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43:page",
+        "url": "https://www.beautimport.com/it/news",
+        "text": "Da Bourjois a Decorté e Lubin, mezzo secolo di Beauty\nCorriere della Sera Beauty 22 maggio 2024 p. 57\n22 maggio 2024 -\nTotal Look Decorté presso le Profumerie Mazzolari durante la Design Week.\nTotal Look Mazzolari. Aprile 2024\n15 aprile 2024 -\n50 anni di Storia\nBeauty Business 4/2024 - p. 20-25\n01 aprile 2024 -\nSolo l'inizio di una lunga storia di successi...\nPambianco Beauty 2/2024 - pp. 90 - 91\n01 aprile 2024 -\nLe Vanità Profumerie Lucca\nTotal Look Decorté presso Le Vanità Profumerie a Lucca dal 29 gennaio al 5 febbraio 2024\n29 gennaio 2024 -\nCHI è CHI in Beautimport 2024\nChi è Chi in Beautimport\nBeauty Business 1-2/2024 - p. 31\n08 gennaio 2024 -\nPer una bellezza radiosa...\nAnna Maria Palumbo, R&D Manager di Beautimport, svela i segreti di AQ Absolute Tightening Eye Cream.\nBeauty Business 11-2023 – p.62-63\n01 novembre 2023 -\nNovità Decorté",
+        "hash": "e9438709bdfcf1e4e58c1554bbd5bf56870d76f25c84f2e6d548ee02128fa71b",
+        "offset": 4854,
+        "original": true,
+        "document_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43",
+        "checked_at": "2026-10-21T00:22:05.605349+00:00",
+        "unit_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43:page",
+        "segments": [
+          {
+            "segment_id": "s7d9c4977d2f3107b0abd",
+            "start": 0,
+            "end": 53,
+            "text": "Da Bourjois a Decorté e Lubin, mezzo secolo di Beauty"
+          },
+          {
+            "segment_id": "s5e8596341d3bec6f853c",
+            "start": 54,
+            "end": 101,
+            "text": "Corriere della Sera Beauty 22 maggio 2024 p. 57"
+          },
+          {
+            "segment_id": "s4fee6b7df903b606ebf6",
+            "start": 102,
+            "end": 118,
+            "text": "22 maggio 2024 -"
+          },
+          {
+            "segment_id": "s57d05fba13c78087ade3",
+            "start": 119,
+            "end": 192,
+            "text": "Total Look Decorté presso le Profumerie Mazzolari durante la Design Week."
+          },
+          {
+            "segment_id": "s98535aded25d04fb7d63",
+            "start": 193,
+            "end": 214,
+            "text": "Total Look Mazzolari."
+          },
+          {
+            "segment_id": "s5ffe799aabeb5cac2c81",
+            "start": 215,
+            "end": 226,
+            "text": "Aprile 2024"
+          },
+          {
+            "segment_id": "s0444529b775b371d97b3",
+            "start": 227,
+            "end": 243,
+            "text": "15 aprile 2024 -"
+          },
+          {
+            "segment_id": "sb1dcf03642162df0e14d",
+            "start": 244,
+            "end": 261,
+            "text": "50 anni di Storia"
+          },
+          {
+            "segment_id": "s2d8ea393794ed488fbca",
+            "start": 262,
+            "end": 295,
+            "text": "Beauty Business 4/2024 - p. 20-25"
+          },
+          {
+            "segment_id": "s1e9fabc1cbc38fc37015",
+            "start": 296,
+            "end": 312,
+            "text": "01 aprile 2024 -"
+          },
+          {
+            "segment_id": "sc729cda7f660a64cec1d",
+            "start": 313,
+            "end": 361,
+            "text": "Solo l'inizio di una lunga storia di successi..."
+          },
+          {
+            "segment_id": "s5807ce14553b56bc5506",
+            "start": 362,
+            "end": 399,
+            "text": "Pambianco Beauty 2/2024 - pp. 90 - 91"
+          },
+          {
+            "segment_id": "s9a0628ca65387a220fc8",
+            "start": 400,
+            "end": 416,
+            "text": "01 aprile 2024 -"
+          },
+          {
+            "segment_id": "sd53f7b23dd08e528c60c",
+            "start": 417,
+            "end": 443,
+            "text": "Le Vanità Profumerie Lucca"
+          },
+          {
+            "segment_id": "s20d2fa57816909f153eb",
+            "start": 444,
+            "end": 532,
+            "text": "Total Look Decorté presso Le Vanità Profumerie a Lucca dal 29 gennaio al 5 febbraio 2024"
+          },
+          {
+            "segment_id": "sb266303ef324262e979d",
+            "start": 533,
+            "end": 550,
+            "text": "29 gennaio 2024 -"
+          },
+          {
+            "segment_id": "s08ee4256880c41f00458",
+            "start": 551,
+            "end": 580,
+            "text": "CHI è CHI in Beautimport 2024"
+          },
+          {
+            "segment_id": "s44f896cff77130550a17",
+            "start": 581,
+            "end": 605,
+            "text": "Chi è Chi in Beautimport"
+          },
+          {
+            "segment_id": "s6ab9219581095e027fef",
+            "start": 606,
+            "end": 638,
+            "text": "Beauty Business 1-2/2024 - p. 31"
+          },
+          {
+            "segment_id": "sefcb46938b9d05ea6b01",
+            "start": 639,
+            "end": 656,
+            "text": "08 gennaio 2024 -"
+          },
+          {
+            "segment_id": "sc95ddca24d88e35dc4eb",
+            "start": 657,
+            "end": 684,
+            "text": "Per una bellezza radiosa..."
+          },
+          {
+            "segment_id": "s918a9562398cc872c02a",
+            "start": 685,
+            "end": 785,
+            "text": "Anna Maria Palumbo, R&D Manager di Beautimport, svela i segreti di AQ Absolute Tightening Eye Cream."
+          },
+          {
+            "segment_id": "sa4e144ca0c15ecbf4156",
+            "start": 786,
+            "end": 819,
+            "text": "Beauty Business 11-2023 – p.62-63"
+          },
+          {
+            "segment_id": "s32f73b8cbf33fcebcb0c",
+            "start": 820,
+            "end": 838,
+            "text": "01 novembre 2023 -"
+          },
+          {
+            "segment_id": "sa05441603d0acf2e6013",
+            "start": 839,
+            "end": 853,
+            "text": "Novità Decorté"
+          }
+        ]
+      },
+      {
+        "id": "e3",
+        "result_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43:page",
+        "url": "https://www.beautimport.com/it/news",
+        "text": "Pambianco Beauty 01/2022 - p.42-44\n17 febbraio 2022 -\nBeautimport: chi è chi\nBeauty Business di febbraio 2022 presenta i protagonisti del selettivo.\nBeauty Business 01-02/2022 - p.37",
+        "hash": "c5ee8fc64ecddfd0e9475a45c82b32190eca84297a3dc613e6a1c49c81ce29fe",
+        "offset": 9061,
+        "original": true,
+        "document_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43",
+        "checked_at": "2026-10-21T00:22:05.605349+00:00",
+        "unit_id": "f3c2967ebbc2eb3730abd37bfc9163edcecb95962509602f68ec9fdaf78a6c43:page",
+        "segments": [
+          {
+            "segment_id": "sa41340193864b58e170e",
+            "start": 0,
+            "end": 34,
+            "text": "Pambianco Beauty 01/2022 - p.42-44"
+          },
+          {
+            "segment_id": "sc43884878c33bbecb6c5",
+            "start": 35,
+            "end": 53,
+            "text": "17 febbraio 2022 -"
+          },
+          {
+            "segment_id": "s74fbc4bf9046cac89b6e",
+            "start": 54,
+            "end": 76,
+            "text": "Beautimport: chi è chi"
+          },
+          {
+            "segment_id": "sf91dd9b4e3a440b77845",
+            "start": 77,
+            "end": 148,
+            "text": "Beauty Business di febbraio 2022 presenta i protagonisti del selettivo."
+          },
+          {
+            "segment_id": "sa4248ba80a13db1b2dbe",
+            "start": 149,
+            "end": 182,
+            "text": "Beauty Business 01-02/2022 - p.37"
+          }
+        ]
+      }
+    ],
+    "response": {
+      "decision": "NEEDS_RESEARCH",
+      "entity_name": "Beautimport",
+      "subject_role": "OWNER",
+      "relationship": "BUSINESS_SIGNAL",
+      "service": "unknown",
+      "reason": "Beautimport annuncia il lancio di Kigriz edp per settembre 2026, ma non emerge ancora un bisogno digitale concreto. Occorre verificare come viene commercializzato online prima di proporre un progetto.",
+      "fit": "Il lancio può motivare una verifica commerciale mirata, non dimostra da solo la necessità di un sito o ecommerce. Nessuna richiesta di sviluppatori esterni è documentata.",
+      "facts": [
+        {
+          "field": "entity",
+          "segment_id": "s0c4cbe6ec18bed6812b3"
+        },
+        {
+          "field": "signal",
+          "segment_id": "se87ef3d10d72bf5106d3"
+        },
+        {
+          "field": "signal",
+          "segment_id": "sd18943d3174284ef23ee"
+        },
+        {
+          "field": "geography",
+          "segment_id": "s493b75d0ff865dc4c2dd"
+        },
+        {
+          "field": "contract",
+          "segment_id": "sd4acc412cc4bee563fc3"
+        }
+      ],
+      "unknowns": [
+        "Modalità di commercializzazione online di Kigriz edp e soluzioni digitali già disponibili.",
+        "Eventuale esigenza digitale sufficientemente ampia da giustificare un progetto completo anziché piccoli aggiornamenti.",
+        "Disponibilità a incarichi web esterni e relativo compenso."
+      ],
+      "confidence": "MEDIUM",
+      "priority": "low",
+      "compensation": "UNKNOWN",
+      "feasibility": "UNKNOWN",
+      "currentness": "CURRENT_OBSERVATION",
+      "assessment": {
+        "intent": "COMPANY_ACTIVITY",
+        "intent_facts": [
+          1,
+          4
+        ],
+        "scope": "UNKNOWN",
+        "scope_facts": [],
+        "existing_solution": "NOT_CHECKED",
+        "solution_facts": [],
+        "interpretation": "La fonte descrive attività di marketing e una consulenza già assegnata a una persona specifica, non un invito a collaboratori digitali. Il lancio è un segnale commerciale da approfondire, senza un divario digitale ancora osservato.",
+        "objections": [
+          "Il lancio potrebbe essere già supportato adeguatamente da canali del marchio o dei rivenditori.",
+          "Eventuali necessità potrebbero limitarsi a contenuti o piccoli aggiornamenti, fuori dall'obiettivo commerciale di Diego.",
+          "Non è dimostrata la proporzionalità di un nuovo sito o ecommerce."
+        ]
+      },
+      "action": {
+        "type": "READ_LINK",
+        "link_id": "ldce1599deab880cc",
+        "query": "",
+        "question": "L'articolo sul lancio di Kigriz edp documenta canali di commercializzazione online già attivi oppure un'esigenza digitale concreta non coperta, oltre a semplici aggiornamenti?"
+      },
+      "subject_geography": {
+        "status": "IN_TARGET",
+        "fact_indices": [
+          3
+        ],
+        "region": "Emilia-Romagna",
+        "reason": "La comunicazione aziendale di Beautimport è datata da Castel Maggiore, in Emilia-Romagna."
+      }
+    }
+  },
+  {
+    "id": 1389,
+    "error": "unsupported_actor",
+    "evidence": [
+      {
+        "id": "metadata",
+        "result_id": "56c81b3d4419c77658a825ed12755ca85aa7c1920930c7639401a2481772e3fe:page",
+        "unit_id": "56c81b3d4419c77658a825ed12755ca85aa7c1920930c7639401a2481772e3fe:page",
+        "url": "https://www.comune.modena.it/",
+        "text": "  \"title\": \"Comune di Modena - Sito Ufficiale | Servizi, Uffici e Notizie - Comune di Modena\",",
+        "hash": "2d09c1fa7821bfe2d0537529a0d0dad780cd74c4a23b24725d429279ce77fe9b",
+        "document_id": "fba5fa84ee335a566f88c119ade7d490572184c5b9ded65f3264fbb8b599efe7",
+        "offset": 2,
+        "original": true,
+        "checked_at": "2026-10-21T00:20:23.379983+00:00",
+        "origin": "original_metadata",
+        "segments": [
+          {
+            "segment_id": "sd71f2a1a464ea350b317",
+            "start": 2,
+            "end": 45,
+            "text": "\"title\": \"Comune di Modena - Sito Ufficiale"
+          },
+          {
+            "segment_id": "s5440169cfd6b0d361013",
+            "start": 48,
+            "end": 94,
+            "text": "Servizi, Uffici e Notizie - Comune di Modena\","
+          }
+        ]
+      },
+      {
+        "id": "e1",
+        "result_id": "56c81b3d4419c77658a825ed12755ca85aa7c1920930c7639401a2481772e3fe:page",
+        "url": "https://www.comune.modena.it/",
+        "text": "Vai al contenutoVai alla navigazioneVai al footer\nRegione Emilia-Romagna\nAccedi all'area personale\nComune di Modena\nRETE CIVICA MONET\nSeguici su\nCerca\nComune di Modena\n-\nIn evidenza\n-\n-\n-\n-\n-\n-\nManovra antismog 2026/2027\nAvvisi\nComunicati stampa\nModena Partecipa\nModena Capitale Italiana del Volontariato 2026\nModena città creativa unesco per le Media Arts\nArgomenti e servizi in evidenza\nServizi\nAnagrafe e stato civile\nServizi online\nEdilizia privata\nSiti tematici\n-\n-\n-\n-\nQuanto sono chiare le informazioni su questa pagina?\nValuta da 1 a 5 stelle\nQuali sono stati gli aspetti che hai preferito?1/2\nDove hai incontrato le maggiori difficoltà?1/2\nVuoi aggiungere altri dettagli?1/2\nDettaglioInserire massimo 200 caratteri\nIndietroAvanti\nComune di Modena\nRETE CIVICA MONET\nAmministrazione\nOrgani di governo\nPolitici\nPersonale amministrativo\nAree amministrative\nProgrammazione e controllo\nUffici\nEnti, fondazioni e società partecipate\nDocumenti e dati\nNovità\nNotizie\nComunicati Stampa\nAvvisi\nServizi\nEducazione e formazione\nSalute, benessere e assistenza\nVita lavorativa\nMobilità e trasporti\nEdilizia e Urbanistica\nAnagrafe e stato civile\nGiustizia e sicurezza pubblica\nTributi, finanze e contravvenzioni\nCultura e tempo libero\nAmbiente\nImprese e commercio\nVivere Modena\nEventi\nLuoghi\nPiano di miglioramento del sito\nPrivacy\nNote legali\nObiettivi di accessibilità\nDichiarazione di accessibilità\nMappa del sito\nPiano di miglioramento del sito\nArchivio\nImpostazioni cookie",
+        "hash": "cddf026f7ab280f304ee70895f15f37047b44ef6ea3d5731927755b99daf5851",
+        "offset": 0,
+        "original": true,
+        "document_id": "56c81b3d4419c77658a825ed12755ca85aa7c1920930c7639401a2481772e3fe",
+        "checked_at": "2026-10-21T00:20:23.379983+00:00",
+        "unit_id": "56c81b3d4419c77658a825ed12755ca85aa7c1920930c7639401a2481772e3fe:page",
+        "segments": [
+          {
+            "segment_id": "sa6f746f1e67580d462b6",
+            "start": 0,
+            "end": 49,
+            "text": "Vai al contenutoVai alla navigazioneVai al footer"
+          },
+          {
+            "segment_id": "s6b1a43929db3088de03d",
+            "start": 50,
+            "end": 72,
+            "text": "Regione Emilia-Romagna"
+          },
+          {
+            "segment_id": "s2c00e62ba94d7c24e4e0",
+            "start": 73,
+            "end": 98,
+            "text": "Accedi all'area personale"
+          },
+          {
+            "segment_id": "s1e3d6494585218c362cf",
+            "start": 99,
+            "end": 115,
+            "text": "Comune di Modena"
+          },
+          {
+            "segment_id": "s989acd1876a22ffe07c6",
+            "start": 116,
+            "end": 133,
+            "text": "RETE CIVICA MONET"
+          },
+          {
+            "segment_id": "s5d417ff1b35ac1cc5f5d",
+            "start": 134,
+            "end": 144,
+            "text": "Seguici su"
+          },
+          {
+            "segment_id": "s7f03ba8c6f35712d0a12",
+            "start": 145,
+            "end": 150,
+            "text": "Cerca"
+          },
+          {
+            "segment_id": "s74814eb2d3a9955f07da",
+            "start": 151,
+            "end": 167,
+            "text": "Comune di Modena"
+          },
+          {
+            "segment_id": "se729b4ab093193377fa3",
+            "start": 168,
+            "end": 169,
+            "text": "-"
+          },
+          {
+            "segment_id": "s8954e6bebe397b6a3b67",
+            "start": 170,
+            "end": 181,
+            "text": "In evidenza"
+          },
+          {
+            "segment_id": "s13703e2e363c052d2f6e",
+            "start": 182,
+            "end": 183,
+            "text": "-"
+          },
+          {
+            "segment_id": "sda8bd43278dd27cfed62",
+            "start": 184,
+            "end": 185,
+            "text": "-"
+          },
+          {
+            "segment_id": "sffafd307f0a15a7840e2",
+            "start": 186,
+            "end": 187,
+            "text": "-"
+          },
+          {
+            "segment_id": "sf1c30574b176f41f2906",
+            "start": 188,
+            "end": 189,
+            "text": "-"
+          },
+          {
+            "segment_id": "s914339771e32608577c1",
+            "start": 190,
+            "end": 191,
+            "text": "-"
+          },
+          {
+            "segment_id": "s989c1b6e7e5c0a70fc11",
+            "start": 192,
+            "end": 193,
+            "text": "-"
+          },
+          {
+            "segment_id": "s9bb2e072576789690ae9",
+            "start": 194,
+            "end": 220,
+            "text": "Manovra antismog 2026/2027"
+          },
+          {
+            "segment_id": "s1539785d077c9f79b1d2",
+            "start": 221,
+            "end": 227,
+            "text": "Avvisi"
+          },
+          {
+            "segment_id": "s1fd872fe2bcc5ff7991d",
+            "start": 228,
+            "end": 245,
+            "text": "Comunicati stampa"
+          },
+          {
+            "segment_id": "s3535ec5cb960c104c1a5",
+            "start": 246,
+            "end": 262,
+            "text": "Modena Partecipa"
+          },
+          {
+            "segment_id": "s572f7f27cd1e03d4f59e",
+            "start": 263,
+            "end": 309,
+            "text": "Modena Capitale Italiana del Volontariato 2026"
+          },
+          {
+            "segment_id": "s50d593c30d1f12e607b7",
+            "start": 310,
+            "end": 356,
+            "text": "Modena città creativa unesco per le Media Arts"
+          },
+          {
+            "segment_id": "s5a860d8e65166169df7c",
+            "start": 357,
+            "end": 388,
+            "text": "Argomenti e servizi in evidenza"
+          },
+          {
+            "segment_id": "s64b6fe8adfbc10620581",
+            "start": 389,
+            "end": 396,
+            "text": "Servizi"
+          },
+          {
+            "segment_id": "se80c3f0f8099cd7883ce",
+            "start": 397,
+            "end": 420,
+            "text": "Anagrafe e stato civile"
+          },
+          {
+            "segment_id": "s45c7e1d6812856395d84",
+            "start": 421,
+            "end": 435,
+            "text": "Servizi online"
+          },
+          {
+            "segment_id": "sbcbf2f4b3120db3b4a88",
+            "start": 436,
+            "end": 452,
+            "text": "Edilizia privata"
+          },
+          {
+            "segment_id": "sbe8f8894f858789a73e6",
+            "start": 453,
+            "end": 466,
+            "text": "Siti tematici"
+          },
+          {
+            "segment_id": "sd40d382005fb8791fd0a",
+            "start": 467,
+            "end": 468,
+            "text": "-"
+          },
+          {
+            "segment_id": "s807fdb15d249849d8e3f",
+            "start": 469,
+            "end": 470,
+            "text": "-"
+          },
+          {
+            "segment_id": "sc6800408d36bccaffe95",
+            "start": 471,
+            "end": 472,
+            "text": "-"
+          },
+          {
+            "segment_id": "s7a46b029a9e591ce288b",
+            "start": 473,
+            "end": 474,
+            "text": "-"
+          },
+          {
+            "segment_id": "s5e8b8a89a5eced99adb4",
+            "start": 475,
+            "end": 527,
+            "text": "Quanto sono chiare le informazioni su questa pagina?"
+          },
+          {
+            "segment_id": "s407715df0513a0e44dbe",
+            "start": 528,
+            "end": 550,
+            "text": "Valuta da 1 a 5 stelle"
+          },
+          {
+            "segment_id": "s4354d5298fd9fcc459e5",
+            "start": 551,
+            "end": 601,
+            "text": "Quali sono stati gli aspetti che hai preferito?1/2"
+          },
+          {
+            "segment_id": "sfcc8a7929f3a4faafa63",
+            "start": 602,
+            "end": 648,
+            "text": "Dove hai incontrato le maggiori difficoltà?1/2"
+          },
+          {
+            "segment_id": "s0c3e2b27d474507ab921",
+            "start": 649,
+            "end": 683,
+            "text": "Vuoi aggiungere altri dettagli?1/2"
+          },
+          {
+            "segment_id": "sdf61a42ee4a4d780f01f",
+            "start": 684,
+            "end": 723,
+            "text": "DettaglioInserire massimo 200 caratteri"
+          },
+          {
+            "segment_id": "sca197b8561c932f42146",
+            "start": 724,
+            "end": 738,
+            "text": "IndietroAvanti"
+          },
+          {
+            "segment_id": "sdb2524dda7ea8b4cf030",
+            "start": 739,
+            "end": 755,
+            "text": "Comune di Modena"
+          },
+          {
+            "segment_id": "s1b5c79f85a8ebc3d002e",
+            "start": 756,
+            "end": 773,
+            "text": "RETE CIVICA MONET"
+          },
+          {
+            "segment_id": "s53f0f5109ed8ad9c0237",
+            "start": 774,
+            "end": 789,
+            "text": "Amministrazione"
+          },
+          {
+            "segment_id": "s156bf6acbe9334781ce0",
+            "start": 790,
+            "end": 807,
+            "text": "Organi di governo"
+          },
+          {
+            "segment_id": "s3c321848394b2e369952",
+            "start": 808,
+            "end": 816,
+            "text": "Politici"
+          },
+          {
+            "segment_id": "s3f0f510a617dfd3d7da4",
+            "start": 817,
+            "end": 841,
+            "text": "Personale amministrativo"
+          },
+          {
+            "segment_id": "s869e629c3f83f67ce675",
+            "start": 842,
+            "end": 861,
+            "text": "Aree amministrative"
+          },
+          {
+            "segment_id": "s5e807a51c46ac4d0dbb8",
+            "start": 862,
+            "end": 888,
+            "text": "Programmazione e controllo"
+          },
+          {
+            "segment_id": "s656d33eeff0cad73d855",
+            "start": 889,
+            "end": 895,
+            "text": "Uffici"
+          },
+          {
+            "segment_id": "sf550c2a6575ecc74aaa9",
+            "start": 896,
+            "end": 934,
+            "text": "Enti, fondazioni e società partecipate"
+          },
+          {
+            "segment_id": "s66275f6a1923766646eb",
+            "start": 935,
+            "end": 951,
+            "text": "Documenti e dati"
+          },
+          {
+            "segment_id": "s38885e709ef3aa7e4462",
+            "start": 952,
+            "end": 958,
+            "text": "Novità"
+          },
+          {
+            "segment_id": "s153eb5b59b4db9737761",
+            "start": 959,
+            "end": 966,
+            "text": "Notizie"
+          },
+          {
+            "segment_id": "s39eb4d45e59467166ae1",
+            "start": 967,
+            "end": 984,
+            "text": "Comunicati Stampa"
+          },
+          {
+            "segment_id": "sebde6d9f77bdcfda8448",
+            "start": 985,
+            "end": 991,
+            "text": "Avvisi"
+          },
+          {
+            "segment_id": "s95561bb41091abe3fac4",
+            "start": 992,
+            "end": 999,
+            "text": "Servizi"
+          },
+          {
+            "segment_id": "s89d493ef58515136cc2d",
+            "start": 1000,
+            "end": 1023,
+            "text": "Educazione e formazione"
+          },
+          {
+            "segment_id": "s4cf80c126fb88468e713",
+            "start": 1024,
+            "end": 1054,
+            "text": "Salute, benessere e assistenza"
+          },
+          {
+            "segment_id": "s12be909896e984d20da6",
+            "start": 1055,
+            "end": 1070,
+            "text": "Vita lavorativa"
+          },
+          {
+            "segment_id": "s94e8379c4d3e28d9dff5",
+            "start": 1071,
+            "end": 1091,
+            "text": "Mobilità e trasporti"
+          },
+          {
+            "segment_id": "s940616c49d0a36f7af00",
+            "start": 1092,
+            "end": 1114,
+            "text": "Edilizia e Urbanistica"
+          },
+          {
+            "segment_id": "s654aacfb922b58a4c61b",
+            "start": 1115,
+            "end": 1138,
+            "text": "Anagrafe e stato civile"
+          },
+          {
+            "segment_id": "s4419d59b0654644e52d5",
+            "start": 1139,
+            "end": 1169,
+            "text": "Giustizia e sicurezza pubblica"
+          },
+          {
+            "segment_id": "sdd36c505f7a2932f0611",
+            "start": 1170,
+            "end": 1204,
+            "text": "Tributi, finanze e contravvenzioni"
+          },
+          {
+            "segment_id": "sf363fca9868cd4d03260",
+            "start": 1205,
+            "end": 1227,
+            "text": "Cultura e tempo libero"
+          },
+          {
+            "segment_id": "s3fdbb2005d0690b29c39",
+            "start": 1228,
+            "end": 1236,
+            "text": "Ambiente"
+          },
+          {
+            "segment_id": "s19aea3f15700402a2de6",
+            "start": 1237,
+            "end": 1256,
+            "text": "Imprese e commercio"
+          },
+          {
+            "segment_id": "s8c0882122fc2f0726fda",
+            "start": 1257,
+            "end": 1270,
+            "text": "Vivere Modena"
+          },
+          {
+            "segment_id": "s44656624aeaca8bff683",
+            "start": 1271,
+            "end": 1277,
+            "text": "Eventi"
+          },
+          {
+            "segment_id": "sc7ed560c8d717e123406",
+            "start": 1278,
+            "end": 1284,
+            "text": "Luoghi"
+          },
+          {
+            "segment_id": "s12f24679d20e37c11eac",
+            "start": 1285,
+            "end": 1316,
+            "text": "Piano di miglioramento del sito"
+          },
+          {
+            "segment_id": "s70fda67b4e30fb4292f2",
+            "start": 1317,
+            "end": 1324,
+            "text": "Privacy"
+          },
+          {
+            "segment_id": "s809f20de5cd09397f58e",
+            "start": 1325,
+            "end": 1336,
+            "text": "Note legali"
+          },
+          {
+            "segment_id": "s0c630f2417f9862e6b47",
+            "start": 1337,
+            "end": 1363,
+            "text": "Obiettivi di accessibilità"
+          },
+          {
+            "segment_id": "s1801bd4a855c2dcd7001",
+            "start": 1364,
+            "end": 1394,
+            "text": "Dichiarazione di accessibilità"
+          },
+          {
+            "segment_id": "sd3427b46c7d62bda8bf6",
+            "start": 1395,
+            "end": 1409,
+            "text": "Mappa del sito"
+          },
+          {
+            "segment_id": "sff458f04d54759a29afa",
+            "start": 1410,
+            "end": 1441,
+            "text": "Piano di miglioramento del sito"
+          },
+          {
+            "segment_id": "s551a7c8c5f5a8c364c13",
+            "start": 1442,
+            "end": 1450,
+            "text": "Archivio"
+          },
+          {
+            "segment_id": "s33ddabcfa8d5f16e0142",
+            "start": 1451,
+            "end": 1470,
+            "text": "Impostazioni cookie"
+          }
+        ]
+      }
+    ],
+    "response": {
+      "decision": "NOT_INTERESTING",
+      "entity_name": "Comune di Modena",
+      "subject_role": "OWNER",
+      "relationship": "UNKNOWN",
+      "service": "unknown",
+      "reason": "Il soggetto è una pubblica amministrazione, esclusa dai criteri commerciali. La presenza di servizi online e di un piano di miglioramento del sito non costituisce una richiesta di collaborazione.",
+      "fit": "Non eleggibile per Diego: esclusione della pubblica amministrazione, indipendentemente dalla compatibilità tecnica.",
+      "facts": [
+        {
+          "field": "entity",
+          "segment_id": "s1e3d6494585218c362cf"
+        },
+        {
+          "field": "entity",
+          "segment_id": "s156bf6acbe9334781ce0"
+        },
+        {
+          "field": "geography",
+          "segment_id": "s6b1a43929db3088de03d"
+        },
+        {
+          "field": "existing_solution",
+          "segment_id": "s45c7e1d6812856395d84"
+        },
+        {
+          "field": "signal",
+          "segment_id": "s12f24679d20e37c11eac"
+        }
+      ],
+      "unknowns": [],
+      "confidence": "HIGH",
+      "priority": "low",
+      "compensation": "UNKNOWN",
+      "feasibility": "UNKNOWN",
+      "currentness": "CURRENT_OBSERVATION",
+      "assessment": {
+        "intent": "COMPANY_ACTIVITY",
+        "intent_facts": [
+          0,
+          1,
+          3
+        ],
+        "scope": "UNKNOWN",
+        "scope_facts": [],
+        "existing_solution": "NOT_CHECKED",
+        "solution_facts": [
+          3
+        ],
+        "interpretation": "Il sito presenta attività istituzionali e servizi ai cittadini, non un incarico web o un invito a collaboratori esterni. La voce sul miglioramento del sito non documenta un progetto disponibile.",
+        "objections": [
+          "Pubblica amministrazione: esclusione vincolante.",
+          "Nessuna richiesta commerciale documentata."
+        ]
+      },
+      "action": {
+        "type": "STOP",
+        "link_id": "",
+        "query": "",
+        "question": ""
+      },
+      "subject_geography": {
+        "status": "IN_TARGET",
+        "fact_indices": [
+          2
+        ],
+        "region": "Emilia-Romagna",
+        "reason": "La pagina istituzionale riporta Regione Emilia-Romagna; l'appartenenza geografica non supera l'esclusione del soggetto."
+      }
+    }
+  },
+  {
+    "id": 1394,
+    "error": "unsupported_actor",
+    "evidence": [
+      {
+        "id": "metadata",
+        "result_id": "4234c2cc0e204163487aaf10127be81051a72153a5650b203f2ed57a680686e2:page",
+        "unit_id": "4234c2cc0e204163487aaf10127be81051a72153a5650b203f2ed57a680686e2:page",
+        "url": "https://www.parcoarcheologicoappiaantica.it/",
+        "text": "      \"name\": \"Sito ufficiale Parco Archeologico dell&#039;Appia Antica\",",
+        "hash": "061245618d948e24e122f2cb926fe94cfbec18b5dbd48e312f3aebff2098f985",
+        "document_id": "a5ddeeef7d5c61cd3e53ed65149ce9bb87d9b45fccaaf5d4e1dcdf023c5a59b1",
+        "offset": 198,
+        "original": true,
+        "checked_at": "2026-10-21T00:21:43.965609+00:00",
+        "origin": "original_metadata",
+        "segments": [
+          {
+            "segment_id": "s96993d05446bc4e25323",
+            "start": 6,
+            "end": 58,
+            "text": "\"name\": \"Sito ufficiale Parco Archeologico dell&#039"
+          },
+          {
+            "segment_id": "s3b9ed0e6e69d88476d76",
+            "start": 59,
+            "end": 73,
+            "text": "Appia Antica\","
+          }
+        ]
+      },
+      {
+        "id": "e1",
+        "result_id": "4234c2cc0e204163487aaf10127be81051a72153a5650b203f2ed57a680686e2:page",
+        "url": "https://www.parcoarcheologicoappiaantica.it/",
+        "text": "Vai al contenuto\nCHIUDI\nCosa stai cercando?\nCHIUDI\nSito ufficiale Parco Archeologico dell'Appia Antica\nACQUISTA IL BIGLIETTO\nCultura\nUn’indimenticabile esperienza in un museo all’aperto\nGUARDA IL VIDEO\nNatura\nIl fascino senza tempo della Campagna Romana\nGUARDA IL VIDEO\nStoria\nUna storia che inizia nel 312 a.C. che continua a sorprendere\nGUARDA IL VIDEO\nTutela\nUn parco urbano conquistato con infaticabili battaglie\nGUARDA IL VIDEO\nCammino\nLungo la Regina Viarum alla scoperta delle proprie radici\nGUARDA IL VIDEO\nIn evidenza\nVAI A TUTTI GLI EVENTI\nIn evidenza\nMostre\nL’Ingegnere Volante. Taruffi torna sulla Via Appia Antica\nL'Ingegnere Volante. Taruffi torna sulla Via Appia Antica Roma, Casale di Santa Maria Nova, Parco Archeologico dell’Appia Antica 8 ottobre – 8 novembre 2026 Dall'8 ottobre all'8 novembre 2026, il\n5 Ottobre 2026\nEventi\nIn evidenza\nDomenica 11 ottobre appuntamento con F@MU: Famiglie al Museo!\nTutti insieme all'Antiquarium I",
+        "hash": "ce108c9411681576a8c4a45801590259ac972fd1759ea773edc7851bb214bfc8",
+        "offset": 0,
+        "original": true,
+        "document_id": "4234c2cc0e204163487aaf10127be81051a72153a5650b203f2ed57a680686e2",
+        "checked_at": "2026-10-21T00:21:43.965609+00:00",
+        "unit_id": "4234c2cc0e204163487aaf10127be81051a72153a5650b203f2ed57a680686e2:page",
+        "segments": [
+          {
+            "segment_id": "s337c45b5301c53734c2d",
+            "start": 0,
+            "end": 16,
+            "text": "Vai al contenuto"
+          },
+          {
+            "segment_id": "sc40914b06956210f5cda",
+            "start": 17,
+            "end": 23,
+            "text": "CHIUDI"
+          },
+          {
+            "segment_id": "s18dcdb4d4147d823ce3d",
+            "start": 24,
+            "end": 43,
+            "text": "Cosa stai cercando?"
+          },
+          {
+            "segment_id": "s795acfdd1752ffc63fbd",
+            "start": 44,
+            "end": 50,
+            "text": "CHIUDI"
+          },
+          {
+            "segment_id": "sd9dc74bcc1d6fcde62f4",
+            "start": 51,
+            "end": 102,
+            "text": "Sito ufficiale Parco Archeologico dell'Appia Antica"
+          },
+          {
+            "segment_id": "sb08db324c1ed4b13ffeb",
+            "start": 103,
+            "end": 124,
+            "text": "ACQUISTA IL BIGLIETTO"
+          },
+          {
+            "segment_id": "sd0922b1fc574af34a905",
+            "start": 125,
+            "end": 132,
+            "text": "Cultura"
+          },
+          {
+            "segment_id": "s183fc5d03ad08b5a249c",
+            "start": 133,
+            "end": 185,
+            "text": "Un’indimenticabile esperienza in un museo all’aperto"
+          },
+          {
+            "segment_id": "sfb1846dd1e9123271d47",
+            "start": 186,
+            "end": 201,
+            "text": "GUARDA IL VIDEO"
+          },
+          {
+            "segment_id": "scfa63f4e7cf17b5a6029",
+            "start": 202,
+            "end": 208,
+            "text": "Natura"
+          },
+          {
+            "segment_id": "s9de0442fd4f29162801b",
+            "start": 209,
+            "end": 253,
+            "text": "Il fascino senza tempo della Campagna Romana"
+          },
+          {
+            "segment_id": "sac46735f88aec238c3c1",
+            "start": 254,
+            "end": 269,
+            "text": "GUARDA IL VIDEO"
+          },
+          {
+            "segment_id": "sd1bdf327ca3ccef42374",
+            "start": 270,
+            "end": 276,
+            "text": "Storia"
+          },
+          {
+            "segment_id": "s937eed57ed541b15bf63",
+            "start": 277,
+            "end": 338,
+            "text": "Una storia che inizia nel 312 a.C. che continua a sorprendere"
+          },
+          {
+            "segment_id": "se4531d232a96808dd0d8",
+            "start": 339,
+            "end": 354,
+            "text": "GUARDA IL VIDEO"
+          },
+          {
+            "segment_id": "sb4941aef6a26495b3b71",
+            "start": 355,
+            "end": 361,
+            "text": "Tutela"
+          },
+          {
+            "segment_id": "s90c0d8dec5cb5e93ff61",
+            "start": 362,
+            "end": 416,
+            "text": "Un parco urbano conquistato con infaticabili battaglie"
+          },
+          {
+            "segment_id": "s857861b9707178bc5cb7",
+            "start": 417,
+            "end": 432,
+            "text": "GUARDA IL VIDEO"
+          },
+          {
+            "segment_id": "s9fa255a0deac4233599a",
+            "start": 433,
+            "end": 440,
+            "text": "Cammino"
+          },
+          {
+            "segment_id": "sf4db72cc78dc1f67aea4",
+            "start": 441,
+            "end": 498,
+            "text": "Lungo la Regina Viarum alla scoperta delle proprie radici"
+          },
+          {
+            "segment_id": "sbac6ebbaeba515a5d604",
+            "start": 499,
+            "end": 514,
+            "text": "GUARDA IL VIDEO"
+          },
+          {
+            "segment_id": "sf2a5c800af81fc56c0cb",
+            "start": 515,
+            "end": 526,
+            "text": "In evidenza"
+          },
+          {
+            "segment_id": "s9856288f086eedb1dd68",
+            "start": 527,
+            "end": 549,
+            "text": "VAI A TUTTI GLI EVENTI"
+          },
+          {
+            "segment_id": "s329b8b737e5e5cf42133",
+            "start": 550,
+            "end": 561,
+            "text": "In evidenza"
+          },
+          {
+            "segment_id": "s4721b5987763527b529b",
+            "start": 562,
+            "end": 568,
+            "text": "Mostre"
+          },
+          {
+            "segment_id": "s76601d15ef916900ccac",
+            "start": 569,
+            "end": 589,
+            "text": "L’Ingegnere Volante."
+          },
+          {
+            "segment_id": "s138d3b4dbee2417f5b0b",
+            "start": 590,
+            "end": 626,
+            "text": "Taruffi torna sulla Via Appia Antica"
+          },
+          {
+            "segment_id": "sf0e8c6a2e37f762d3b5a",
+            "start": 627,
+            "end": 647,
+            "text": "L'Ingegnere Volante."
+          },
+          {
+            "segment_id": "s7d6c64a400dc860866fa",
+            "start": 648,
+            "end": 822,
+            "text": "Taruffi torna sulla Via Appia Antica Roma, Casale di Santa Maria Nova, Parco Archeologico dell’Appia Antica 8 ottobre – 8 novembre 2026 Dall'8 ottobre all'8 novembre 2026, il"
+          },
+          {
+            "segment_id": "s3aa52d66755539c1d1b5",
+            "start": 823,
+            "end": 837,
+            "text": "5 Ottobre 2026"
+          },
+          {
+            "segment_id": "s76d14f1767142ce0d3f5",
+            "start": 838,
+            "end": 844,
+            "text": "Eventi"
+          },
+          {
+            "segment_id": "sebc934bd55147d5705be",
+            "start": 845,
+            "end": 856,
+            "text": "In evidenza"
+          },
+          {
+            "segment_id": "s0e1ed58a4457b921928d",
+            "start": 857,
+            "end": 918,
+            "text": "Domenica 11 ottobre appuntamento con F@MU: Famiglie al Museo!"
+          },
+          {
+            "segment_id": "s77a56c291cc3653a5a2d",
+            "start": 919,
+            "end": 950,
+            "text": "Tutti insieme all'Antiquarium I"
+          }
+        ]
+      }
+    ],
+    "response": {
+      "decision": "NOT_INTERESTING",
+      "entity_name": "Parco Archeologico dell’Appia Antica",
+      "subject_role": "OWNER",
+      "relationship": "BUSINESS_SIGNAL",
+      "service": "unknown",
+      "reason": "Il soggetto è localizzato a Roma, nel Lazio, fuori dalle regioni ammesse. La pagina presenta attività culturali e servizi ai visitatori, non una richiesta di sviluppo web o un invito a collaboratori esterni.",
+      "fit": "Nessuna opportunità commerciale ammissibile documentata per Diego.",
+      "facts": [
+        {
+          "field": "entity",
+          "segment_id": "sd9dc74bcc1d6fcde62f4"
+        },
+        {
+          "field": "geography",
+          "segment_id": "s7d6c64a400dc860866fa"
+        },
+        {
+          "field": "signal",
+          "segment_id": "s7d6c64a400dc860866fa"
+        },
+        {
+          "field": "existing_solution",
+          "segment_id": "sb08db324c1ed4b13ffeb"
+        }
+      ],
+      "unknowns": [
+        "Nessun incarico, compenso o fabbisogno digitale documentato.",
+        "Il percorso di acquisto biglietti non è stato verificato."
+      ],
+      "confidence": "HIGH",
+      "priority": "low",
+      "compensation": "UNKNOWN",
+      "feasibility": "UNKNOWN",
+      "currentness": "CURRENT_OBSERVATION",
+      "assessment": {
+        "intent": "COMPANY_ACTIVITY",
+        "intent_facts": [
+          2
+        ],
+        "scope": "UNKNOWN",
+        "scope_facts": [],
+        "existing_solution": "NOT_CHECKED",
+        "solution_facts": [
+          3
+        ],
+        "interpretation": "Il sito promuove mostre e visite e mostra un comando per acquistare biglietti. Non emerge una richiesta rivolta a sviluppatori esterni né un progetto completo da proporre su basi concrete.",
+        "objections": [
+          "Localizzazione fuori dalle regioni ammesse.",
+          "Nessuna lacuna digitale osservata che giustifichi un progetto completo.",
+          "La presenza del comando di acquisto non dimostra il funzionamento o l’adeguatezza del servizio."
+        ]
+      },
+      "action": {
+        "type": "STOP",
+        "link_id": "",
+        "query": "",
+        "question": ""
+      },
+      "subject_geography": {
+        "status": "OUT_OF_TARGET",
+        "fact_indices": [
+          1
+        ],
+        "region": "Lazio",
+        "reason": "La mostra è indicata a Roma, presso il Casale di Santa Maria Nova nel Parco Archeologico dell’Appia Antica."
+      }
+    }
+  },
+  {
+    "id": 1384,
+    "error": "unsupported_actor",
+    "evidence": [
+      {
+        "id": "metadata",
+        "result_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d:page",
+        "unit_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d:page",
+        "url": "https://www.unioncamereveneto.it/bollettino/9-2026/",
+        "text": "  \"title\": \"9/2026 – Unioncamere del Veneto\",",
+        "hash": "391db65d9c5df048c35909b1399f2e98a16b8e1c3a52fdea90813d437d271c16",
+        "document_id": "b832186fae9348860b32b1284cbaba6cd0bb532b95460331fb5ef99340dea864",
+        "offset": 2,
+        "original": true,
+        "checked_at": "2026-10-21T00:18:59.136592+00:00",
+        "origin": "original_metadata",
+        "segments": [
+          {
+            "segment_id": "sbbab09c7442d7b49ec94",
+            "start": 2,
+            "end": 45,
+            "text": "\"title\": \"9/2026 – Unioncamere del Veneto\","
+          }
+        ]
+      },
+      {
+        "id": "e1",
+        "result_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d:page",
+        "url": "https://www.unioncamereveneto.it/bollettino/9-2026/",
+        "text": "Si tratta quindi della seconda edizione e con questo Webinar intendiamo promuovere il progetto e stimolare le candidature delle Scuole per l’anno scolastico 2026- 2027.\nIn questo link trovate la news pubblicata dall’Ufficio Scolastico Regionale e in allegato la nota informativa.",
+        "hash": "5623be93051924c21133d48321be83adbb20729f620e288cd6c137561039f7b1",
+        "offset": 1631,
+        "original": true,
+        "document_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d",
+        "checked_at": "2026-10-21T00:18:59.136592+00:00",
+        "unit_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d:page",
+        "segments": [
+          {
+            "segment_id": "sfdccbf3297046f5935a1",
+            "start": 0,
+            "end": 168,
+            "text": "Si tratta quindi della seconda edizione e con questo Webinar intendiamo promuovere il progetto e stimolare le candidature delle Scuole per l’anno scolastico 2026- 2027."
+          },
+          {
+            "segment_id": "sfd7baa1500f05e2aaea4",
+            "start": 169,
+            "end": 279,
+            "text": "In questo link trovate la news pubblicata dall’Ufficio Scolastico Regionale e in allegato la nota informativa."
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "result_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d:page",
+        "url": "https://www.unioncamereveneto.it/bollettino/9-2026/",
+        "text": "L’obiettivo del progetto è supportare 40 PMI del territorio (compresi i professionisti con partita IVA) nell’analisi del proprio posizionamento sui temi ambientali, sociali e di governance (ESG) e nella predisposizione guidata del bilancio di sostenibilità, che è il principale documento per comunicare impegni assunti e risultati ottenuti.\nIl Percorso ESG prevede sessioni formative e laboratoriali – di gruppo e individuali – e l’utilizzo di una piattaforma web per il calcolo del rating ESG e l’elaborazione dei documenti di reporting.",
+        "hash": "0b04c2b9292345dfa91ef914bea8fcf42cd0636bb2371d94e90e99e662554eb2",
+        "offset": 12715,
+        "original": true,
+        "document_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d",
+        "checked_at": "2026-10-21T00:18:59.136592+00:00",
+        "unit_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d:page",
+        "segments": [
+          {
+            "segment_id": "sbd8f9d0ffb2a36a0e8f5",
+            "start": 0,
+            "end": 340,
+            "text": "L’obiettivo del progetto è supportare 40 PMI del territorio (compresi i professionisti con partita IVA) nell’analisi del proprio posizionamento sui temi ambientali, sociali e di governance (ESG) e nella predisposizione guidata del bilancio di sostenibilità, che è il principale documento per comunicare impegni assunti e risultati ottenuti."
+          },
+          {
+            "segment_id": "s97e97404dd2a89888885",
+            "start": 341,
+            "end": 538,
+            "text": "Il Percorso ESG prevede sessioni formative e laboratoriali – di gruppo e individuali – e l’utilizzo di una piattaforma web per il calcolo del rating ESG e l’elaborazione dei documenti di reporting."
+          }
+        ]
+      },
+      {
+        "id": "e3",
+        "result_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d:page",
+        "url": "https://www.unioncamereveneto.it/bollettino/9-2026/",
+        "text": "Enterprise Europe Network è la più grande rete a supporto delle PMI a livello mondiale, presente in più di 60 Paesi e composta da oltre 600 partner locali, raggruppati localmente in consorzi.\nLa Rete e i suoi membri mettono a sistema la propria esperienza sul business a livello internazionale con le competenze locali per supportare l’introduzione dell’innovazione nel mercato.\nLa Rete fornisce assistenza personalizzata alle imprese per accelerarne la crescita, sviluppare nuovi partenariati commerciali e tecnologici, favorire l’accesso al credito e la partecipazione a programmi di finanziamento europei.\nEUROSPORTELLO\nEVENTI\nWEBINAR DI PRESENTAZIONE DEL PROGETTO DI FORMAZIONE SCUOLA-LAVORO: “SCUOLA DIALOGICA.” EDIZIONE 2026-202\nGIOVEDÌ 21 MAGGIO 2026 DALLE ORE 16.00 ALLE 17.00",
+        "hash": "a01da6c7a2dc2859a77838c01ac76de02c4b6a723dc610e61d137dbe400038ae",
+        "offset": 408,
+        "original": true,
+        "document_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d",
+        "checked_at": "2026-10-21T00:18:59.136592+00:00",
+        "unit_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d:page",
+        "segments": [
+          {
+            "segment_id": "s0a2865b7226a6939e0d8",
+            "start": 0,
+            "end": 191,
+            "text": "Enterprise Europe Network è la più grande rete a supporto delle PMI a livello mondiale, presente in più di 60 Paesi e composta da oltre 600 partner locali, raggruppati localmente in consorzi."
+          },
+          {
+            "segment_id": "s7502f9a5cd2fb2739a05",
+            "start": 192,
+            "end": 378,
+            "text": "La Rete e i suoi membri mettono a sistema la propria esperienza sul business a livello internazionale con le competenze locali per supportare l’introduzione dell’innovazione nel mercato."
+          },
+          {
+            "segment_id": "s505b81ed966f60951844",
+            "start": 379,
+            "end": 608,
+            "text": "La Rete fornisce assistenza personalizzata alle imprese per accelerarne la crescita, sviluppare nuovi partenariati commerciali e tecnologici, favorire l’accesso al credito e la partecipazione a programmi di finanziamento europei."
+          },
+          {
+            "segment_id": "s22b33acc280b332922f3",
+            "start": 609,
+            "end": 622,
+            "text": "EUROSPORTELLO"
+          },
+          {
+            "segment_id": "s7dd1f03a1cbde765bc60",
+            "start": 623,
+            "end": 629,
+            "text": "EVENTI"
+          },
+          {
+            "segment_id": "sd46057098174ecc0ad6a",
+            "start": 630,
+            "end": 734,
+            "text": "WEBINAR DI PRESENTAZIONE DEL PROGETTO DI FORMAZIONE SCUOLA-LAVORO: “SCUOLA DIALOGICA.” EDIZIONE 2026-202"
+          },
+          {
+            "segment_id": "s0bebd32793072fac5250",
+            "start": 735,
+            "end": 784,
+            "text": "GIOVEDÌ 21 MAGGIO 2026 DALLE ORE 16.00 ALLE 17.00"
+          }
+        ]
+      },
+      {
+        "id": "e4",
+        "result_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d:page",
+        "url": "https://www.unioncamereveneto.it/bollettino/9-2026/",
+        "text": "A seguito della prima edizione della Scuola DiaLogica terminata con successo pochi giorni fa il 14 maggio u.s. con l’evento Hackathon tenutosi in provincia di Verona che ha coinvolto quattro classi di tre Scuole abbiamo il piacere di comunicarvi che il prossimo giovedì 21 maggio 2026 dalle ore 16:00 alle ore 17.00 si svolgerà il Webinar di presentazione del progetto di Formazione Scuola-Lavoro: “Scuola DiaLogica.” edizione 2026-2027.\nSi tratta quindi della seconda edizione e con questo Webinar intendiamo promuovere il progetto e stimolare le candidature delle Scuole per l’anno scolastico 2026- 2027.\nIn questo link trovate la news pubblicata dall’Ufficio Scolastico Regionale e in allegato la nota informativa.\nI Dirigenti Scolastici ed i Docenti Referenti FSL interessati a partecipare all’incontro dovranno presentare entro il giorno 20 maggio 2026 richiesta formale di adesione attraverso il modulo disponibile cliccando qui.",
+        "hash": "2a5ef9a868a7a4e2911e1f3c3d7d9ad79ee57ba1ef8fe76854c204f3508cddd1",
+        "offset": 1193,
+        "original": true,
+        "document_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d",
+        "checked_at": "2026-10-21T00:18:59.136592+00:00",
+        "unit_id": "6e581120b5e0b81c322889b7ab41ee7499aab0328a3c3d354e52ad304c6f785d:page",
+        "segments": [
+          {
+            "segment_id": "s56aa394c0bed9032bdd4",
+            "start": 0,
+            "end": 437,
+            "text": "A seguito della prima edizione della Scuola DiaLogica terminata con successo pochi giorni fa il 14 maggio u.s. con l’evento Hackathon tenutosi in provincia di Verona che ha coinvolto quattro classi di tre Scuole abbiamo il piacere di comunicarvi che il prossimo giovedì 21 maggio 2026 dalle ore 16:00 alle ore 17.00 si svolgerà il Webinar di presentazione del progetto di Formazione Scuola-Lavoro: “Scuola DiaLogica.” edizione 2026-2027."
+          },
+          {
+            "segment_id": "s0e6e1fef4cea0695a100",
+            "start": 438,
+            "end": 606,
+            "text": "Si tratta quindi della seconda edizione e con questo Webinar intendiamo promuovere il progetto e stimolare le candidature delle Scuole per l’anno scolastico 2026- 2027."
+          },
+          {
+            "segment_id": "s29c3280a66e1a6ce4cd1",
+            "start": 607,
+            "end": 717,
+            "text": "In questo link trovate la news pubblicata dall’Ufficio Scolastico Regionale e in allegato la nota informativa."
+          },
+          {
+            "segment_id": "s614ae14c022d9e8afcf1",
+            "start": 718,
+            "end": 935,
+            "text": "I Dirigenti Scolastici ed i Docenti Referenti FSL interessati a partecipare all’incontro dovranno presentare entro il giorno 20 maggio 2026 richiesta formale di adesione attraverso il modulo disponibile cliccando qui."
+          }
+        ]
+      }
+    ],
+    "response": {
+      "decision": "NOT_INTERESTING",
+      "entity_name": "Unioncamere del Veneto",
+      "subject_role": "PUBLISHER",
+      "relationship": "UNKNOWN",
+      "service": "unknown",
+      "reason": "Il bollettino presenta iniziative formative e servizi di supporto alle imprese, non una richiesta di sviluppo web o un invito a collaboratori digitali. Nei segmenti forniti non è identificata alcuna impresa cosmetica con un nuovo lancio: manca quindi anche il soggetto commerciale cercato.",
+      "fit": "Nessuna opportunità concreta documentata per Diego. L'impiego di una piattaforma ESG non implica una richiesta di realizzarla o modificarla.",
+      "facts": [
+        {
+          "field": "entity",
+          "segment_id": "sbbab09c7442d7b49ec94"
+        },
+        {
+          "field": "scope",
+          "segment_id": "sbd8f9d0ffb2a36a0e8f5"
+        },
+        {
+          "field": "existing_solution",
+          "segment_id": "s97e97404dd2a89888885"
+        },
+        {
+          "field": "request",
+          "segment_id": "s0e6e1fef4cea0695a100"
+        },
+        {
+          "field": "request",
+          "segment_id": "s614ae14c022d9e8afcf1"
+        }
+      ],
+      "unknowns": [
+        "Non è identificata l'impresa cosmetica oggetto della ricerca precedente."
+      ],
+      "confidence": "HIGH",
+      "priority": "low",
+      "compensation": "UNKNOWN",
+      "feasibility": "UNKNOWN",
+      "currentness": "UNKNOWN",
+      "assessment": {
+        "intent": "TRAINING",
+        "intent_facts": [
+          1,
+          3,
+          4
+        ],
+        "scope": "UNKNOWN",
+        "scope_facts": [],
+        "existing_solution": "NOT_CHECKED",
+        "solution_facts": [
+          2
+        ],
+        "interpretation": "Le candidature riguardano scuole e partecipanti alla formazione, non sviluppatori esterni. La piattaforma web è descritta come strumento del percorso ESG, senza evidenze di necessità tecniche.",
+        "objections": [
+          "Il publisher non va confuso con un'impresa cliente citata nel bollettino.",
+          "Il modulo indicato serve all'adesione a un incontro scolastico, non a proposte professionali.",
+          "Non emerge un divario digitale che giustifichi un progetto completo."
+        ]
+      },
+      "action": {
+        "type": "STOP",
+        "link_id": "",
+        "query": "",
+        "question": ""
+      },
+      "subject_geography": {
+        "status": "UNKNOWN",
+        "fact_indices": [],
+        "region": "",
+        "reason": "I segmenti non documentano una sede del soggetto selezionato; il nome dell'ente non viene usato come prova di indirizzo."
+      }
+    }
+  }
+]

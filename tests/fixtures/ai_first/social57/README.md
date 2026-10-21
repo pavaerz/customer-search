@@ -1,0 +1,1 @@
+Due originali pubblici Startup Bakery letti tramite CompanyWeb dopo la correzione del match marchio/nome legale. Homepage e careers: identità e navigazione osservate, non richieste freelance verificate. Nessun form inviato. Le risposte AI dei test sono sintetiche e volutamente invalide.

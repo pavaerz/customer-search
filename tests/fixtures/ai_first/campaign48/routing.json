@@ -1,0 +1,49 @@
+{
+  "post": {
+    "url": "https://www.instagram.com/groundcontrolcoworking/p/DWEVf9MiQBq/?hl=es-la",
+    "title": "Marco si occupa di marketing e comunicazione presso Ashore ...",
+    "content": "groundcontrolcoworking el March 19, 2026: \"Marco si occupa di marketing e comunicazione presso Ashore Studio, agenzia di cui è co-fondatore.",
+    "snippet": "groundcontrolcoworking el March 19, 2026: \"Marco si occupa di marketing e comunicazione presso Ashore Studio, agenzia di cui è co-fondatore."
+  },
+  "receipt": {
+    "query": "site:instagram.com Veneto agenzia cerchiamo freelance frontend",
+    "strategy": "instagram_public_request",
+    "results": 10,
+    "new_urls": 0,
+    "duplicates": 0,
+    "indexed_unverifiable": 7,
+    "policy_rejections": [
+      {
+        "url": "https://www.instagram.com/superagency_/",
+        "reason": "social_profile_not_specific_request",
+        "source_role": "PROFILE",
+        "instruction": "Find a specific public post or job, not a person/company profile.",
+        "domain": "instagram.com"
+      },
+      {
+        "url": "https://www.instagram.com/groundcontrolcoworking/p/DWEVf9MiQBq/?hl=es-la",
+        "reason": "social_profile_not_specific_request",
+        "source_role": "PROFILE",
+        "instruction": "Find a specific public post or job, not a person/company profile.",
+        "domain": "instagram.com"
+      },
+      {
+        "url": "https://www.instagram.com/opra.studio/",
+        "reason": "social_profile_not_specific_request",
+        "source_role": "PROFILE",
+        "instruction": "Find a specific public post or job, not a person/company profile.",
+        "domain": "instagram.com"
+      }
+    ],
+    "selection": "exploitation",
+    "objective": "Trovare inviti pubblici di agenzie venete a collaboratori frontend esterni.",
+    "hypothesis": "Un'agenzia veneta identificabile invita sviluppatori frontend freelance a collaborare attraverso un post pubblico Instagram.",
+    "query_validation": {
+      "query": "site:instagram.com Veneto agenzia cerchiamo freelance frontend",
+      "original_query": "site:instagram.com Veneto agenzia cerchiamo freelance frontend",
+      "allowed": true,
+      "repairs": []
+    },
+    "basis": "search_receipt"
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "pages": 119,
-  "input_and_schema_chars_before": 669932,
-  "input_and_schema_chars_after": 621196,
-  "example_response_chars_before": 44093,
-  "example_response_chars_after": 32823,
-  "method": "Confronto serializzazione su prime porzioni delle pagine aziendali già salvate, risposte sintetiche con identiche selezioni. Nessuna inferenza o ricerca.",
-  "limit": "Riduzione caratteri non equivalente a riduzione di tempo; durata della campagna aggiornata da misurare al prossimo avvio utente."
-}

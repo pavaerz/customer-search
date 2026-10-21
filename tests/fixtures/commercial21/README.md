@@ -1,0 +1,1 @@
+Fixture HTML pubbliche già acquisite nella campagna 8 (16 ottobre 2026). Nessuna richiesta di rete durante estrazione o test. Ogni pagina conserva URL, data e SHA-256; le revisioni rimandano a CAMPAIGN-8-DIAGNOSIS.md. Snapshot per regressioni, non attestazione di disponibilità commerciale attuale.

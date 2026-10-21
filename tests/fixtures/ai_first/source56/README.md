@@ -1,0 +1,3 @@
+Originale pubblico salvato durante la Campagna 53, riletto offline dal checkpoint original_page. Nessuna nuova richiesta HTTP. Articolo Italia Economy su Digitazon: pubblicato 2021-12-21, modifica dichiarata 2025-06-04. Fixture di estrazione, non prova di opportunità o richiesta attuale. I controlli sintetici dei test sono distinti.
+
+receipts.json: 69 ricevute reali della Campagna 53, esportate in sola lettura da commercial_discovery. model-response.json: risposta reale di una verifica AI autorizzata sul solo originale già salvato; NEEDS_RESEARCH su Digitazon, fonte STALE, non opportunità pronta. La risposta è conservata nei test per provare che la domanda proposta non avvii altre ricerche quando descrive soltanto servizi senza richiesta o lacuna osservata.

@@ -1,0 +1,20 @@
+{
+  "label": "MANUAL_OBSERVATIONS",
+  "scenario_clock": "2026-10-18T12:00:00+00:00",
+  "clock_policy": "Controlled test clock, NOT the claimed exact time of the user's LinkedIn visit. Relative labels remain labels; no absolute publication date is invented. Facts were reported in the Phase 4.5 request, not fetched by this replay.",
+  "opportunities": {
+    "774": {"observations": [
+      {"kind":"application","value":"CLOSED_CONFIRMED","quote":"No longer accepting applications"},
+      {"kind":"publication","value":null,"quote":"Pubblicato circa un anno prima della verifica","extra":{"method":"manual_too_old","max_age_days_at_observation":14}},
+      {"kind":"geography","value":"Prato, Toscana · Hybrid","quote":"Prato, Toscana · Hybrid"}
+    ]},
+    "866": {"observations": [
+      {"kind":"publication","value":null,"quote":"Pubblicato circa cinque mesi prima della verifica","extra":{"method":"manual_too_old","max_age_days_at_observation":14}},
+      {"kind":"geography","value":"Remote — United States","quote":"Remote — United States"},
+      {"kind":"apply_button","value":"Apply disponibile","quote":"Pulsante Apply disponibile; non prova accettazione o accessibilità dall'Italia"}
+    ]},
+    "870": {"observations": [
+      {"kind":"application","value":"CLOSED_CONFIRMED","quote":"No longer accepting applications"}
+    ]}
+  }
+}

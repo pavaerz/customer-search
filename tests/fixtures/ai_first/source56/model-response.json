@@ -1,0 +1,67 @@
+{
+  "decision": "NEEDS_RESEARCH",
+  "entity_name": "Digitazon",
+  "subject_role": "MENTIONED",
+  "relationship": "BUSINESS_SIGNAL",
+  "service": "unknown",
+  "reason": "Digitazon è descritta come piattaforma di incontro tra freelance e imprese: un possibile canale commerciale, ma non una richiesta di sviluppo né un invito verificato a candidarsi. Occorre accertare se accetti oggi sviluppatori freelance operanti dall’Italia per opportunità di lavoro.",
+  "fit": "Il settore tech-digital è compatibile con Diego; non risultano però incarichi, condizioni di accesso o compensi.",
+  "facts": [
+    {
+      "field": "entity",
+      "segment_id": "s2d6dbca8fc327b905b9d"
+    },
+    {
+      "field": "signal",
+      "segment_id": "s869232a21347f9d56d4c"
+    },
+    {
+      "field": "signal",
+      "segment_id": "s7d7afce82c994f01d484"
+    },
+    {
+      "field": "existing_solution",
+      "segment_id": "sbbac2679e64114e7cce6"
+    }
+  ],
+  "unknowns": [
+    "Esistenza attuale di un accesso per sviluppatori freelance a opportunità commerciali, distinto dall’offerta formativa.",
+    "Possibilità di partecipare lavorando dall’Italia.",
+    "Condizioni economiche e modalità di collaborazione."
+  ],
+  "confidence": "MEDIUM",
+  "priority": "low",
+  "compensation": "UNKNOWN",
+  "feasibility": "UNKNOWN",
+  "currentness": "STALE",
+  "assessment": {
+    "intent": "SUPPLYING_SERVICES",
+    "intent_facts": [
+      0,
+      1,
+      2
+    ],
+    "scope": "UNKNOWN",
+    "scope_facts": [],
+    "existing_solution": "NOT_CHECKED",
+    "solution_facts": [],
+    "interpretation": "L’articolo presenta un servizio di intermediazione e una community già esistente, non un invito esplicito a entrare nella rete né una commessa per Diego. Non emerge un’esigenza di rifacimento della piattaforma.",
+    "objections": [
+      "L’articolo è stato pubblicato il 21 dicembre 2021; la modifica del 2025 non dimostra che il servizio descritto sia ancora disponibile.",
+      "La descrizione di una rete di freelance non prova che siano aperte nuove adesioni.",
+      "Non sono verificati canali di risposta del soggetto."
+    ]
+  },
+  "action": {
+    "type": "SEARCH_SUBJECT",
+    "link_id": "",
+    "query": "Digitazon piattaforma iscrizione sviluppatori freelance Italia",
+    "question": "Digitazon offre attualmente un accesso ufficiale a sviluppatori freelance operanti dall’Italia per ricevere opportunità commerciali, distinto dai corsi di formazione?"
+  },
+  "subject_geography": {
+    "status": "UNKNOWN",
+    "fact_indices": [],
+    "region": "",
+    "reason": "Il riferimento all’acceleratore universitario milanese non prova la sede di Digitazon né l’ammissibilità del lavoro remoto dall’Italia."
+  }
+}

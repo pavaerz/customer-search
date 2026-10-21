@@ -1,8 +1,0 @@
-......................................................................................................................................................................................................................................................................................................................./Users/diegopavanello/Desktop/Siti Diego/customerSearch/sales/search_trial_worker.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106ef1c60>
-  def active(c):return c.execute("SELECT 1 FROM search_trials WHERE id=? AND generation=? AND state='running'",(rid,token)).fetchone()
-ResourceWarning: Enable tracemalloc to get the object allocation traceback
-............................................
-----------------------------------------------------------------------
-Ran 355 tests in 77.697s
-
-OK

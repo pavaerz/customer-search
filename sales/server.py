@@ -17,15 +17,20 @@ from .research_store import ResearchStore
 from .grants import answer_requirements,GrantsManager,profile as grant_profile,REGIONS,FORMS,REGIMES,CATALOG
 from .research_funnel import Funnel,FEEDBACK
 from .research_api import annotate,quality_report,commercial_feedback
+from .commercial.storage import Opportunities
+from .commercial.catalog import ENGINES as COMMERCIAL_ENGINES
+from .commercial.geography import REGIONS as COMMERCIAL_REGIONS
 from .search_trial import TrialManager,save_key as save_serper_key,review as review_search_trial
 
 STORE=Store();MANAGER=EngineManager(STORE);CSRF=secrets.token_urlsafe(32)
 
 def state():
     settings=STORE.settings();items=annotate(STORE,STORE.company_list());usage=STORE.usage();campaign=CampaignManager(STORE).state()
+    from .commercial.ai_settings import read as ai_settings
+    settings={**settings,'commercial_ai':ai_settings(STORE)}
     legacy_job=MANAGER.state()
     job={**legacy_job,**({'running':campaign['running'],'message':campaign['message'],'checked':campaign['examined'],'added':campaign['qualified'],'updated_at':campaign['updated_at']} if campaign else {})}
-    return {'csrf':CSRF,'version':'4.1','items':items,'settings':settings,'job':job,'campaign':campaign,'research_quality':quality_report(STORE),'commercial_feedback':commercial_feedback(STORE),'engines':ENGINES,'stages':STAGES,'stats':STORE.stats(),'usage':usage,'serper':__import__('sales.serper_provider',fromlist=['status']).status(STORE,campaign['id'] if campaign else None),'providers':{'tavily':False,'searxng':settings['provider']=='searxng' and bool(os.getenv('SEARXNG_URL')),'serper':settings['provider']=='serper','advisor':'locale' if settings.get('ollama_model') else 'regole'},'legacy_count':len(STORE.legacy())}
+    return {'commercial_profiles':{**__import__('sales.commercial.catalog',fromlist=['PROFILES']).PROFILES,'deep':__import__('sales.commercial.catalog',fromlist=['DEEP_PROFILE']).DEEP_PROFILE},'commercial_engines':COMMERCIAL_ENGINES,'commercial_regions':COMMERCIAL_REGIONS,'csrf':CSRF,'version':'6.0','agent6_flows':__import__('sales.agent6',fromlist=['FLOWS']).FLOWS,'items':items,'settings':settings,'job':job,'campaign':campaign,'research_quality':quality_report(STORE),'commercial_feedback':commercial_feedback(STORE),'engines':ENGINES,'stages':STAGES,'stats':STORE.stats(),'usage':usage,'serper':__import__('sales.serper_provider',fromlist=['status']).status(STORE,campaign['id'] if campaign else None),'providers':{'tavily':False,'searxng':settings['provider']=='searxng' and bool(os.getenv('SEARXNG_URL')),'serper':settings['provider']=='serper','advisor':'locale' if settings.get('ollama_model') else 'regole'},'legacy_count':len(STORE.legacy())}
 
 class Handler(BaseHTTPRequestHandler):
     def reply(self,status,body,mime='application/json; charset=utf-8'):
@@ -41,6 +46,36 @@ class Handler(BaseHTTPRequestHandler):
         if not self.trusted():return self.reply(403,{'error':'Apri l’app da '+ORIGIN})
         path=urlsplit(self.path).path
         try:
+            if path=='/agent6.js':return self.reply(200,(ROOT/'static/agent6.js').read_bytes(),'text/javascript; charset=utf-8')
+            if path=='/worklist.js':return self.reply(200,(ROOT/'static/worklist.js').read_bytes(),'text/javascript; charset=utf-8')
+            if path=='/api/agent6/records':
+                from .agent6.api import listing
+                return self.reply(200,listing(STORE,{k:v[-1] for k,v in parse_qs(urlsplit(self.path).query).items()}))
+            if path=='/api/agent6/worklist':
+                from .agent6.worklist import listing
+                return self.reply(200,listing(STORE,{k:v[-1] for k,v in parse_qs(urlsplit(self.path).query).items()}))
+            if path=='/api/agent6/intelligence':
+                from .agent6.api import intelligence
+                return self.reply(200,intelligence(STORE))
+            if re.fullmatch(r'/api/agent6/records/\d+',path):
+                from .agent6.api import dossier
+                return self.reply(200,dossier(STORE,int(path.rsplit('/',1)[1])))
+            if path=='/commercial.js':return self.reply(200,(ROOT/'static/commercial.js').read_bytes(),'text/javascript; charset=utf-8')
+            if path=='/api/commercial/catalog':return self.reply(200,{'engines':COMMERCIAL_ENGINES,'regions':COMMERCIAL_REGIONS})
+            if path=='/api/commercial/ai-settings':
+                from .commercial.ai_settings import read
+                return self.reply(200,read(STORE))
+            if path=='/api/commercial/discovery':
+                from .commercial.storage import discovery_listing
+                return self.reply(200,discovery_listing(STORE,{k:v[-1] for k,v in parse_qs(urlsplit(self.path).query).items()}))
+            if path=='/api/commercial/opportunities':return self.reply(200,Opportunities(STORE).listing({k:v[-1] for k,v in parse_qs(urlsplit(self.path).query).items()}))
+            if path=='/api/commercial/recommendations':
+                from .commercial.recommendation_store import listing
+                return self.reply(200,listing(STORE,{k:v[-1] for k,v in parse_qs(urlsplit(self.path).query).items()}))
+            if re.fullmatch(r'/api/commercial/opportunities/\d+',path):return self.reply(200,Opportunities(STORE).get(int(path.rsplit('/',1)[1])))
+            if re.fullmatch(r'/site-reviews/commercial-[a-f0-9]{24}\.png',path):
+                p=STORE.path.parent/'site-reviews'/path.rsplit('/',1)[1]
+                if p.is_file():return self.reply(200,p.read_bytes(),'image/png')
             static={'/search-trial.js':('search-trial.js','text/javascript; charset=utf-8'),'/grants.js':('grants.js','text/javascript; charset=utf-8'),'/':('index.html','text/html; charset=utf-8'),'/app.js':('app.js','text/javascript; charset=utf-8'),'/style.css':('style.css','text/css; charset=utf-8'),'/research.js':('research.js','text/javascript; charset=utf-8')}
             if path in static:
                 filename,mime=static[path];return self.reply(200,(ROOT/'static'/filename).read_bytes(),mime)
@@ -87,6 +122,31 @@ class Handler(BaseHTTPRequestHandler):
             body=json.loads(self.rfile.read(length) or b'{}')
             if not isinstance(body,dict):raise ValueError('Richiesta non valida')
             path=urlsplit(self.path).path
+            if path=='/api/agent6/preview':
+                from .agent6.api import preview
+                return self.reply(200,preview(STORE,body.get('filters',{})))
+            if re.fullmatch(r'/api/agent6/records/\d+/corrections',path):
+                from .agent6.annotations import save
+                return self.reply(200,save(STORE,int(path.split('/')[4]),body.get('changes'),body.get('note')))
+            if re.fullmatch(r'/api/agent6/records/\d+/(feedback|save)',path):
+                from .agent6.memory import feedback
+                from .agent6.api import save_contact
+                rid=int(path.split('/')[4])
+                return self.reply(200,feedback(STORE,rid,body.get('kind'),body.get('note','')) if path.endswith('/feedback') else save_contact(STORE,rid))
+            if path=='/api/commercial/search-plan':
+                from .commercial.search_intelligence import preview
+                return self.reply(200,preview(STORE,body.get('filters',{})))
+            if path=='/api/commercial/ai-settings':
+                from .commercial.ai_settings import save
+                return self.reply(200,save(STORE,body))
+            if re.fullmatch(r'/api/commercial/opportunities/\d+/social-review',path):return self.reply(200,Opportunities(STORE).social_review(int(path.split('/')[4]),body))
+            if re.fullmatch(r'/api/commercial/opportunities/\d+/job-observation',path):
+                from .commercial.recommendation_store import record_observation
+                return self.reply(200,record_observation(STORE,int(path.split('/')[4]),body))
+            if re.fullmatch(r'/api/commercial/opportunities/\d+/job-review',path):
+                from .commercial.recommendation_store import review
+                return self.reply(200,review(STORE,int(path.split('/')[4]),body))
+            if re.fullmatch(r'/api/commercial/opportunities/\d+/action',path):return self.reply(200,Opportunities(STORE).action(int(path.split('/')[4]),body.get('action')))
             if path=='/api/search-trial/key':
                 save_serper_key(STORE,body.get('key'));return self.reply(200,TrialManager(STORE).state())
             if path=='/api/search-trial/start':return self.reply(200,TrialManager(STORE).start(body.get('free_credits_confirmed')))
@@ -98,7 +158,12 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/grants/stop':return self.reply(200,GrantsManager(STORE).stop())
             if path in ('/api/campaigns','/api/research'):
                 if MANAGER.state()['running']:raise ValueError('Attendi il completamento del controllo tecnico in corso')
-                return self.reply(200,CampaignManager(STORE).start(body.get('filters'),body.get('target',50)))
+                filters=body.get('filters') or {}
+                if filters.get('agent_version')=='6.0':
+                    filters={**filters,'decision_engine':'ai_first_1','discovery_triage_version':1,'continuation_version':1}
+                else:
+                    raise ValueError('Per nuove campagne usa la ricerca AI-first. Le campagne storiche restano consultabili e riprendibili.')
+                return self.reply(200,CampaignManager(STORE).start(filters,body.get('target',50)))
             elif re.fullmatch(r'/api/campaigns/\d+/(stop|resume)',path):
                 parts=path.split('/');manager=CampaignManager(STORE);ident=int(parts[3])
                 return self.reply(200,manager.stop(ident) if parts[4]=='stop' else manager.resume(ident))
@@ -151,7 +216,8 @@ class Handler(BaseHTTPRequestHandler):
         except Exception:self.reply(500,{'error':'Operazione non completata. Nessun messaggio è stato inviato automaticamente.'})
     def log_message(self,format,*args):pass
 
-def main():
+def initialize_runtime():
+    """Called only after this process has acquired the HTTP listening socket."""
     STORE.init();STORE.migrate_legacy(DATA/'customers.sqlite3')
     from .local_model import ensure_local_model
     model=ensure_local_model()
@@ -167,5 +233,20 @@ def main():
         trials.stop();grants.stop();supervisor.close();raise SystemExit(0)
     signal.signal(signal.SIGTERM,shutdown)
     signal.signal(signal.SIGHUP,shutdown)
-    print('CustomerSearch 4.1 · '+ORIGIN,flush=True)
-    ThreadingHTTPServer(('127.0.0.1',PORT),Handler).serve_forever()
+def main():
+    # Binding must precede migrations/recovery: a second launch must not pause
+    # the active worker or change its database before failing with EADDRINUSE.
+    try:
+        http=ThreadingHTTPServer(('127.0.0.1',PORT),Handler)
+    except OSError as exc:
+        import errno
+        if exc.errno==errno.EADDRINUSE:
+            raise SystemExit(f'Porta {PORT} già occupata. CustomerSearch potrebbe essere già aperto: {ORIGIN}. Chiudi il processo esistente prima di riavviare.') from None
+        raise
+    try:
+        initialize_runtime()
+        from .agent6 import VERSION
+        print('CustomerSearch '+VERSION+' · '+ORIGIN,flush=True)
+        http.serve_forever()
+    finally:
+        http.server_close()

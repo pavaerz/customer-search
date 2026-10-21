@@ -1,7 +1,0 @@
-/Users/diegopavanello/Desktop/Siti Diego/customerSearch/sales/db.py:51: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x107c7dd50>
-  c.execute("UPDATE runs SET status='interrupted',finished_at=? WHERE status='running'",(now(),))
-ResourceWarning: Enable tracemalloc to get the object allocation traceback
-----------------------------------------------------------------------
-Ran 520 tests in 14.358s
-
-OK

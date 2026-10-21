@@ -1,0 +1,549 @@
+{
+  "provenance": "Real paid invitations61 response on saved Jampaa original, not a qualified opportunity",
+  "payload": {
+    "task": "COMMERCIAL_DECISION_1",
+    "unit_id": "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203:role:a8c532328d3c44a5",
+    "subject_scope_version": 1,
+    "allowed_regions": [
+      "Veneto",
+      "Lombardia",
+      "Piemonte",
+      "Emilia-Romagna",
+      "Liguria",
+      "Friuli-Venezia Giulia",
+      "Trentino-Alto Adige",
+      "Valle d’Aosta",
+      "Toscana"
+    ],
+    "flow": "AGENCIES",
+    "result_ids": [
+      "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203:role:a8c532328d3c44a5"
+    ],
+    "evidence": [
+      {
+        "id": "role-owner",
+        "result_id": "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203:role:a8c532328d3c44a5",
+        "unit_id": "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203:role:a8c532328d3c44a5",
+        "url": "https://www.jampaa.it/lavora-con-noi/",
+        "text": "JAMPAA S.R.L.",
+        "hash": "8a86d27cdc4b067c05ad44331abf9861fe35b4b8362ed831673e6dc97d4909f0",
+        "document_id": "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203",
+        "offset": 23347,
+        "original": true,
+        "checked_at": "2026-10-21T01:15:46.807153+00:00",
+        "segments": [
+          {
+            "segment_id": "s5940236ba51991e3e9ae",
+            "start": 0,
+            "end": 13,
+            "text": "JAMPAA S.R.L."
+          }
+        ]
+      },
+      {
+        "id": "e1",
+        "result_id": "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203:role:a8c532328d3c44a5",
+        "url": "https://www.jampaa.it/lavora-con-noi/",
+        "text": "Sviluppatore WordPress\nSe WordPress per te non è solo un CMS, ma un laboratorio di idee, potresti essere nel posto giusto. Siamo alla ricerca di uno/a WordPress Developer da inserire nell’attuale team di sviluppo con sede a Chiarano (TV) e Vigonza (PD).\nIl tuo obiettivo sarà supportarci nello sviluppo di siti web ad alte prestazioni, progettati con le migliori tecniche di neuromarketing definite dal nostro laboratorio strumentale e interfacciati con i sistemi di intelligenza artificiale generativa di OpenRosetta.ai.\nCompetenze tecniche richieste\nCompetenza nell’integrazione di applicazione di Gen AI nello sviluppo di siti web\nconoscenza approfondita del CMS WordPress\ncreazione di siti in WordPress con personalizzazione di temi e sviluppo su template già esistenti\nintegrazioni di servizi su siti esistenti\ncapacità di gestione in autonomia di attività di sviluppo, configurazione e installazione di software applicativi\nconoscenza del linguaggio CSS e tecniche responsive\nconoscenza del linguaggio PHP e di JavaScript\nconoscenze base di un tool di versioning\nRappresentano un plus\npredisposizione al lavoro di team e alla metodologia Agile\nesperienza (anche breve) di sviluppo web\nCompetenze trasversali richieste\nottime capacità relazionali e di team working, con particolare attenzione ad affidabilità e trasparenza\nforte motivazione ed interesse nell’espandere le proprie conoscenze in materia\nspiccate doti di problem solving\natteggiamento creativo, positivo e propositivo\ncuriosità e propensione alla costante ricerca, non solo in ambito di sviluppo\nvolontà di contribuire al miglioramento dei processi aziendali\npropensione alla formazione continua\nCosa offriamo\naffiancamento con persone senior\naccesso alle ultime ricerche del nostro laboratorio di neuromarketing\nformazione nell’uso dei sistemi di Gen Ai\nbudget di 500 euro/anno per la formazione personale\nrimborso spese in caso di trasferte\n1 voucher/anno per partecipazione a fiere di settore\nsmart working 3 giorni a settimana\norario flessibile: 40 ore settimanali da distribuire secondo le tue esigenze tra le 8 e le 19 (puoi ricavarti anche un pomeriggio libero durante la settimana)\nferie concordate con i colleghi in base alle tue esigenze\nfree coffee\nun fantastico team\nla condivisione di 25 anni di esperienza\nlavorerai in un’azienda certificata ISO 9001\nequilibrio tra lavoro e famiglia garantito: siamo certificati Family Audit\nStiamo cercando professionisti di entrambi i sessi e di qualsiasi età. La collaborazione è rivolta preferibilmente a freelance con partita IVA.\nSe pensi di avere le competenze che stiamo cercando, inviaci subito la tua candidatura!\nCOMPILA L'APPLICATION FORM\n*Il presente annuncio è rivolto a candidati di entrambi i sessi, ai sensi delle leggi 903/77 e 125/91, e a persone di tutte le età e tutte le nazionalità, ai sensi dei decreti legislativi 215/03 e 216/03. Si prega di indicare l’autorizzazione al trattamento dei dati personali ai sensi del D.L. 196/03.",
+        "hash": "dcd21b8ccb62c8815d2bb8c96aeafda434e1f7e5ba0d1cc4e9b1126b3e646180",
+        "offset": 1513,
+        "original": true,
+        "document_id": "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203",
+        "checked_at": "2026-10-21T01:15:46.807153+00:00",
+        "unit_id": "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203:role:a8c532328d3c44a5",
+        "segments": [
+          {
+            "segment_id": "s58193555af33915e3b91",
+            "start": 0,
+            "end": 22,
+            "text": "Sviluppatore WordPress"
+          },
+          {
+            "segment_id": "sa5e17855dc8c4af656dc",
+            "start": 23,
+            "end": 122,
+            "text": "Se WordPress per te non è solo un CMS, ma un laboratorio di idee, potresti essere nel posto giusto."
+          },
+          {
+            "segment_id": "s2a77db525df6891d8b7d",
+            "start": 123,
+            "end": 253,
+            "text": "Siamo alla ricerca di uno/a WordPress Developer da inserire nell’attuale team di sviluppo con sede a Chiarano (TV) e Vigonza (PD)."
+          },
+          {
+            "segment_id": "s1e6982c8bd9667666387",
+            "start": 254,
+            "end": 521,
+            "text": "Il tuo obiettivo sarà supportarci nello sviluppo di siti web ad alte prestazioni, progettati con le migliori tecniche di neuromarketing definite dal nostro laboratorio strumentale e interfacciati con i sistemi di intelligenza artificiale generativa di OpenRosetta.ai."
+          },
+          {
+            "segment_id": "s02a1bab0cbc1378e9c7a",
+            "start": 522,
+            "end": 551,
+            "text": "Competenze tecniche richieste"
+          },
+          {
+            "segment_id": "s168559453d5ea69a4dcd",
+            "start": 552,
+            "end": 633,
+            "text": "Competenza nell’integrazione di applicazione di Gen AI nello sviluppo di siti web"
+          },
+          {
+            "segment_id": "s9941cc36e51cb09f61af",
+            "start": 634,
+            "end": 675,
+            "text": "conoscenza approfondita del CMS WordPress"
+          },
+          {
+            "segment_id": "s7a4a8382222a0edf1473",
+            "start": 676,
+            "end": 773,
+            "text": "creazione di siti in WordPress con personalizzazione di temi e sviluppo su template già esistenti"
+          },
+          {
+            "segment_id": "sfffa45fe122ae2e1aad3",
+            "start": 774,
+            "end": 815,
+            "text": "integrazioni di servizi su siti esistenti"
+          },
+          {
+            "segment_id": "sffddac6fd99c538c4eb8",
+            "start": 816,
+            "end": 929,
+            "text": "capacità di gestione in autonomia di attività di sviluppo, configurazione e installazione di software applicativi"
+          },
+          {
+            "segment_id": "s2c9eba3b964ec4b92076",
+            "start": 930,
+            "end": 981,
+            "text": "conoscenza del linguaggio CSS e tecniche responsive"
+          },
+          {
+            "segment_id": "sae1a090b160cf1da6450",
+            "start": 982,
+            "end": 1027,
+            "text": "conoscenza del linguaggio PHP e di JavaScript"
+          },
+          {
+            "segment_id": "sc284e3bd32d7f7273c12",
+            "start": 1028,
+            "end": 1068,
+            "text": "conoscenze base di un tool di versioning"
+          },
+          {
+            "segment_id": "sd5734450d6c765aa3c39",
+            "start": 1069,
+            "end": 1090,
+            "text": "Rappresentano un plus"
+          },
+          {
+            "segment_id": "s4ba2e4e63c6dda070569",
+            "start": 1091,
+            "end": 1149,
+            "text": "predisposizione al lavoro di team e alla metodologia Agile"
+          },
+          {
+            "segment_id": "s19a04a1610232e5a8bff",
+            "start": 1150,
+            "end": 1190,
+            "text": "esperienza (anche breve) di sviluppo web"
+          },
+          {
+            "segment_id": "sc70994235baa5ef297a0",
+            "start": 1191,
+            "end": 1223,
+            "text": "Competenze trasversali richieste"
+          },
+          {
+            "segment_id": "s37f8786f2ace7866c390",
+            "start": 1224,
+            "end": 1327,
+            "text": "ottime capacità relazionali e di team working, con particolare attenzione ad affidabilità e trasparenza"
+          },
+          {
+            "segment_id": "sa3462ea76022888cf4a9",
+            "start": 1328,
+            "end": 1406,
+            "text": "forte motivazione ed interesse nell’espandere le proprie conoscenze in materia"
+          },
+          {
+            "segment_id": "s57ae56402ef011dcabcc",
+            "start": 1407,
+            "end": 1439,
+            "text": "spiccate doti di problem solving"
+          },
+          {
+            "segment_id": "sb1d9a420da884d7e74fe",
+            "start": 1440,
+            "end": 1486,
+            "text": "atteggiamento creativo, positivo e propositivo"
+          },
+          {
+            "segment_id": "sc8297bf8291f906c7913",
+            "start": 1487,
+            "end": 1564,
+            "text": "curiosità e propensione alla costante ricerca, non solo in ambito di sviluppo"
+          },
+          {
+            "segment_id": "sfa43ee308ca9cb25f57c",
+            "start": 1565,
+            "end": 1627,
+            "text": "volontà di contribuire al miglioramento dei processi aziendali"
+          },
+          {
+            "segment_id": "s51006cc61de916b94670",
+            "start": 1628,
+            "end": 1664,
+            "text": "propensione alla formazione continua"
+          },
+          {
+            "segment_id": "s274cd2ea615fda59a2e9",
+            "start": 1665,
+            "end": 1678,
+            "text": "Cosa offriamo"
+          },
+          {
+            "segment_id": "s54981b17086d7f0f85e2",
+            "start": 1679,
+            "end": 1711,
+            "text": "affiancamento con persone senior"
+          },
+          {
+            "segment_id": "sf2d12c135b12164130f0",
+            "start": 1712,
+            "end": 1781,
+            "text": "accesso alle ultime ricerche del nostro laboratorio di neuromarketing"
+          },
+          {
+            "segment_id": "s5cc1de0ad44a3e9fa20d",
+            "start": 1782,
+            "end": 1823,
+            "text": "formazione nell’uso dei sistemi di Gen Ai"
+          },
+          {
+            "segment_id": "s84b8b3bc405317fe7e85",
+            "start": 1824,
+            "end": 1875,
+            "text": "budget di 500 euro/anno per la formazione personale"
+          },
+          {
+            "segment_id": "s68ce88807bdef16210a9",
+            "start": 1876,
+            "end": 1911,
+            "text": "rimborso spese in caso di trasferte"
+          },
+          {
+            "segment_id": "sa88dc1c193053708b61b",
+            "start": 1912,
+            "end": 1964,
+            "text": "1 voucher/anno per partecipazione a fiere di settore"
+          },
+          {
+            "segment_id": "s1ff6dae0bee511e38ff7",
+            "start": 1965,
+            "end": 1999,
+            "text": "smart working 3 giorni a settimana"
+          },
+          {
+            "segment_id": "s5e760fc8bf9e9e13bf99",
+            "start": 2000,
+            "end": 2158,
+            "text": "orario flessibile: 40 ore settimanali da distribuire secondo le tue esigenze tra le 8 e le 19 (puoi ricavarti anche un pomeriggio libero durante la settimana)"
+          },
+          {
+            "segment_id": "s5c98b55f39194b250c1f",
+            "start": 2159,
+            "end": 2216,
+            "text": "ferie concordate con i colleghi in base alle tue esigenze"
+          },
+          {
+            "segment_id": "sb1a6652e1dd968fc78e5",
+            "start": 2217,
+            "end": 2228,
+            "text": "free coffee"
+          },
+          {
+            "segment_id": "s3b0070c1c6b69e09f0cf",
+            "start": 2229,
+            "end": 2247,
+            "text": "un fantastico team"
+          },
+          {
+            "segment_id": "sa20de7dd6f34ca9e8f24",
+            "start": 2248,
+            "end": 2288,
+            "text": "la condivisione di 25 anni di esperienza"
+          },
+          {
+            "segment_id": "sea0a7c27f1dd6b4dc4ed",
+            "start": 2289,
+            "end": 2333,
+            "text": "lavorerai in un’azienda certificata ISO 9001"
+          },
+          {
+            "segment_id": "s40d66fd06436586bcd0a",
+            "start": 2334,
+            "end": 2408,
+            "text": "equilibrio tra lavoro e famiglia garantito: siamo certificati Family Audit"
+          },
+          {
+            "segment_id": "sb1c91d6c73be235e927d",
+            "start": 2409,
+            "end": 2479,
+            "text": "Stiamo cercando professionisti di entrambi i sessi e di qualsiasi età."
+          },
+          {
+            "segment_id": "s6c820f4c86c09c9a77d6",
+            "start": 2480,
+            "end": 2552,
+            "text": "La collaborazione è rivolta preferibilmente a freelance con partita IVA."
+          },
+          {
+            "segment_id": "seedc19efcf31baedc01f",
+            "start": 2553,
+            "end": 2640,
+            "text": "Se pensi di avere le competenze che stiamo cercando, inviaci subito la tua candidatura!"
+          },
+          {
+            "segment_id": "s658254b2d263391008b7",
+            "start": 2641,
+            "end": 2667,
+            "text": "COMPILA L'APPLICATION FORM"
+          },
+          {
+            "segment_id": "sc9e36ce934beaebd61a3",
+            "start": 2668,
+            "end": 2872,
+            "text": "*Il presente annuncio è rivolto a candidati di entrambi i sessi, ai sensi delle leggi 903/77 e 125/91, e a persone di tutte le età e tutte le nazionalità, ai sensi dei decreti legislativi 215/03 e 216/03."
+          },
+          {
+            "segment_id": "s0cda08fb37ebf26597a8",
+            "start": 2873,
+            "end": 2970,
+            "text": "Si prega di indicare l’autorizzazione al trattamento dei dati personali ai sensi del D.L. 196/03."
+          }
+        ]
+      },
+      {
+        "id": "responsed03f13efd9179325",
+        "result_id": "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203:role:a8c532328d3c44a5",
+        "unit_id": "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203:role:a8c532328d3c44a5",
+        "url": "https://www.jampaa.it/lavora-con-noi/",
+        "text": "{\n  \"type\": \"application_link\",\n  \"value\": \"https://docs.google.com/forms/d/e/1FAIpQLSeBr_pGAfXCGB0TcJdKgXNWLW_mG4XINEKExQOlgY7-JuL5cg/viewform\",\n  \"label\": \"COMPILA L'APPLICATION FORM\",\n  \"observation\": \"Published control on original page; no submission or delivery verification.\"",
+        "hash": "b663d7579ee2fde1db47563cc5eec4a09df7738fb06ee79a4b588ff0c824def0",
+        "document_id": "d03f13efd9179325ae708ee59ba3cb6ab21244f9e56b48c44c4d2dd200a5c978",
+        "offset": 0,
+        "original": true,
+        "checked_at": "2026-10-21T01:15:46.807153+00:00",
+        "origin": "original_response_control",
+        "segments": [
+          {
+            "segment_id": "s5c634b6df0b20c18fdf4",
+            "start": 0,
+            "end": 1,
+            "text": "{"
+          },
+          {
+            "segment_id": "se5412eb3df5228656347",
+            "start": 4,
+            "end": 31,
+            "text": "\"type\": \"application_link\","
+          },
+          {
+            "segment_id": "s54f68005566d497299e1",
+            "start": 34,
+            "end": 145,
+            "text": "\"value\": \"https://docs.google.com/forms/d/e/1FAIpQLSeBr_pGAfXCGB0TcJdKgXNWLW_mG4XINEKExQOlgY7-JuL5cg/viewform\","
+          },
+          {
+            "segment_id": "s0f26925b96c906fb35c7",
+            "start": 148,
+            "end": 186,
+            "text": "\"label\": \"COMPILA L'APPLICATION FORM\","
+          },
+          {
+            "segment_id": "s309722807d06c452def7",
+            "start": 189,
+            "end": 239,
+            "text": "\"observation\": \"Published control on original page"
+          },
+          {
+            "segment_id": "s06dd1031607e2634d312",
+            "start": 241,
+            "end": 281,
+            "text": "no submission or delivery verification.\""
+          }
+        ]
+      }
+    ],
+    "identity": {
+      "name": "JAMPAA S.R.L.",
+      "verified": true,
+      "domain": "jampaa.it",
+      "verified_names": []
+    },
+    "dates": [],
+    "observed_at": "2026-10-21T01:15:46.807153+00:00",
+    "max_job_age_days": 14,
+    "geography_allowed": true,
+    "region": "Veneto",
+    "policy_exclusion": false,
+    "commercial_exclusions": [],
+    "response_channels": [
+      {
+        "type": "application_link",
+        "value": "https://docs.google.com/forms/d/e/1FAIpQLSeBr_pGAfXCGB0TcJdKgXNWLW_mG4XINEKExQOlgY7-JuL5cg/viewform",
+        "label": "COMPILA L'APPLICATION FORM",
+        "observation": "Published control on original page; no submission or delivery verification.",
+        "url": "https://www.jampaa.it/lavora-con-noi/",
+        "actor": "JAMPAA S.R.L.",
+        "evidence_id": "responsed03f13efd9179325"
+      },
+      {
+        "type": "phone",
+        "value": "+390492970335",
+        "label": "+39 049.2970335",
+        "observation": "Published control on original page; no submission or delivery verification.",
+        "url": "https://www.jampaa.it/lavora-con-noi/",
+        "actor": "JAMPAA S.R.L.",
+        "evidence_id": "response6c79e2fe24f0b6a8"
+      },
+      {
+        "type": "email",
+        "value": "info@jampaa.it",
+        "label": "info@jampaa.it",
+        "observation": "Published control on original page; no submission or delivery verification.",
+        "url": "https://www.jampaa.it/lavora-con-noi/",
+        "actor": "JAMPAA S.R.L.",
+        "evidence_id": "response7f4bba0aa822288e"
+      }
+    ],
+    "links": [
+      {
+        "id": "l08c0b1e4ee481c6c",
+        "url": "https://www.jampaa.it/neuromarketing/",
+        "label": "Neuromarketing"
+      },
+      {
+        "id": "le34e91c4d0de972a",
+        "url": "https://openrosetta.ai/",
+        "label": "OpenRosetta.ai ."
+      },
+      {
+        "id": "ld686169b5eee2384",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSeBr_pGAfXCGB0TcJdKgXNWLW_mG4XINEKExQOlgY7-JuL5cg/viewform",
+        "label": "COMPILA L'APPLICATION FORM"
+      }
+    ],
+    "prior_question": null,
+    "metadata": {
+      "origin": "page",
+      "canonical_url": "https://www.jampaa.it/lavora-con-noi/",
+      "last_modified": null,
+      "selected_unit": "02264d04b35b0a2d0cf6f0d23fe3caeda24f71e6bd6c11c36454ff4059fcd203:role:a8c532328d3c44a5",
+      "role_title": "Sviluppatore WordPress"
+    }
+  },
+  "response": {
+    "decision": "NEEDS_RESEARCH",
+    "entity_name": "JAMPAA S.R.L.",
+    "subject_role": "REQUESTER",
+    "relationship": "OPEN_FREELANCE_COLLABORATION",
+    "service": "website",
+    "reason": "Ricerca esplicita di uno sviluppatore WordPress, rivolta preferibilmente a freelance con partita IVA. È un’opportunità coerente con Diego, ma l’annuncio non è datato: va verificato se la selezione sia ancora aperta.",
+    "fit": "Buona corrispondenza su WordPress, PHP, JavaScript, CSS e personalizzazione dei temi. Da valutare l’esperienza richiesta nelle integrazioni Gen AI e la disponibilità per un impegno di 40 ore settimanali con presenza parziale in sede.",
+    "facts": [
+      {
+        "field": "entity",
+        "segment_id": "s5940236ba51991e3e9ae"
+      },
+      {
+        "field": "request",
+        "segment_id": "s2a77db525df6891d8b7d"
+      },
+      {
+        "field": "contract",
+        "segment_id": "s6c820f4c86c09c9a77d6"
+      },
+      {
+        "field": "scope",
+        "segment_id": "s1e6982c8bd9667666387"
+      },
+      {
+        "field": "technical",
+        "segment_id": "s7a4a8382222a0edf1473"
+      },
+      {
+        "field": "technical",
+        "segment_id": "sae1a090b160cf1da6450"
+      },
+      {
+        "field": "technical",
+        "segment_id": "s168559453d5ea69a4dcd"
+      },
+      {
+        "field": "contract",
+        "segment_id": "s5e760fc8bf9e9e13bf99"
+      },
+      {
+        "field": "contract",
+        "segment_id": "s1ff6dae0bee511e38ff7"
+      },
+      {
+        "field": "contact",
+        "segment_id": "s54f68005566d497299e1"
+      },
+      {
+        "field": "request",
+        "segment_id": "seedc19efcf31baedc01f"
+      }
+    ],
+    "unknowns": [
+      "Se la selezione WordPress sia ancora aperta.",
+      "Compenso e condizioni contrattuali.",
+      "Compatibilità dell’impegno richiesto con l’attività freelance di Diego."
+    ],
+    "confidence": "HIGH",
+    "priority": "medium",
+    "compensation": "UNKNOWN",
+    "feasibility": "BOUNDED",
+    "currentness": "UNKNOWN",
+    "assessment": {
+      "intent": "REQUESTING_EXTERNAL",
+      "intent_facts": [
+        1,
+        2,
+        10
+      ],
+      "scope": "COLLABORATION",
+      "scope_facts": [
+        2,
+        3,
+        7,
+        8
+      ],
+      "existing_solution": "NOT_CHECKED",
+      "solution_facts": [],
+      "interpretation": "JAMPAA cerca una collaborazione nello sviluppo web e indica espressamente una preferenza per freelance con partita IVA. Non è una proposta di rifacimento del sito dell’agenzia né un intervento isolato di manutenzione.",
+      "objections": [
+        "L’annuncio non riporta una data e la sua attualità non è verificata.",
+        "Sono richieste 40 ore settimanali; lo smart working è previsto per tre giorni, non come lavoro interamente remoto.",
+        "Il compenso non è indicato e l’esperienza di Diego nelle integrazioni Gen AI non è documentata."
+      ]
+    },
+    "action": {
+      "type": "READ_LINK",
+      "link_id": "ld686169b5eee2384",
+      "query": "",
+      "question": "Il modulo ufficiale conferma che la selezione per sviluppatore WordPress è ancora aperta, oppure segnala chiusura o indisponibilità delle candidature? Verificare senza inviare dati."
+    },
+    "subject_geography": {
+      "status": "IN_TARGET",
+      "fact_indices": [
+        1
+      ],
+      "region": "Veneto",
+      "reason": "La ricerca indica sedi del team a Chiarano (TV) e Vigonza (PD), entrambe in Veneto."
+    }
+  }
+}

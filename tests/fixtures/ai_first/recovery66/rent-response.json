@@ -1,0 +1,74 @@
+{
+  "decision": "NOT_INTERESTING",
+  "entity_name": "RENT Srl",
+  "subject_role": "OWNER",
+  "relationship": "BUSINESS_SIGNAL",
+  "service": "website",
+  "reason": "È un'impresa operativa nell'area ammessa, ma la pagina presenta servizi e prodotti ai clienti: non emerge una richiesta di sviluppo web né un problema commerciale specifico che giustifichi un progetto completo.",
+  "fit": "Le competenze di Diego sarebbero utilizzabili per eventuali sviluppi web, ma non è documentata un'opportunità concreta. Il catalogo e l'attività di noleggio, da soli, non giustificano un nuovo sito o ecommerce.",
+  "facts": [
+    {
+      "field": "entity",
+      "segment_id": "se2a016b130a9910450ec"
+    },
+    {
+      "field": "geography",
+      "segment_id": "s5081e4d96d24389556ec"
+    },
+    {
+      "field": "signal",
+      "segment_id": "s19225e63aec68a66dcc1"
+    },
+    {
+      "field": "existing_solution",
+      "segment_id": "s84acc3deccc8e0e8452d"
+    },
+    {
+      "field": "existing_solution",
+      "segment_id": "s0dc48784a54711c566b2"
+    }
+  ],
+  "unknowns": [
+    "Non sono documentati fabbisogni digitali, budget o disponibilità a incaricare sviluppatori esterni.",
+    "Non sono state verificate le funzionalità dell'area riservata né eventuali processi digitali di preventivazione e noleggio."
+  ],
+  "confidence": "HIGH",
+  "priority": "low",
+  "compensation": "UNKNOWN",
+  "feasibility": "UNKNOWN",
+  "currentness": "CURRENT_OBSERVATION",
+  "assessment": {
+    "intent": "SUPPLYING_SERVICES",
+    "intent_facts": [
+      2,
+      3
+    ],
+    "scope": "UNKNOWN",
+    "scope_facts": [],
+    "existing_solution": "NOT_CHECKED",
+    "solution_facts": [
+      3,
+      4
+    ],
+    "interpretation": "Il sito esistente presenta il noleggio e il parco mezzi usati. Questa osservazione non ne dimostra l'adeguatezza tecnica, ma non fornisce neppure un divario digitale concreto su cui fondare una proposta proporzionata di rifacimento.",
+    "objections": [
+      "Nessuna richiesta esplicita di collaborazione digitale.",
+      "Nessun ostacolo commerciale documentato che richieda un progetto completo.",
+      "I collegamenti «Lavora con noi» e «Le nostre collaborazioni nel mondo» non provano, da soli, l'accettazione di freelance web."
+    ]
+  },
+  "action": {
+    "type": "STOP",
+    "link_id": "",
+    "query": "",
+    "question": ""
+  },
+  "subject_geography": {
+    "status": "IN_TARGET",
+    "fact_indices": [
+      1
+    ],
+    "region": "Friuli-Venezia Giulia",
+    "reason": "Il footer riporta la sede a Fiume Veneto (PN), in una regione ammessa."
+  }
+}

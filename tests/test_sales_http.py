@@ -31,6 +31,40 @@ class HttpTest(unittest.TestCase):
   except HTTPError as e:return e.code,json.load(e)
  def test_state_no_secret(self):
   code,body=self.request('/api/state');self.assertEqual(code,200);self.assertNotIn('TAVILY_API_KEY',json.dumps(body));self.assertIn('csrf',body)
+ def test_company_dossier_corrections_use_existing_security_without_promotion(self):
+  from sales.research_store import ResearchStore
+  from sales.agent6 import memory
+  from test_agent6 import evaluated
+  with tempfile.TemporaryDirectory() as tmp:
+   store=Store(Path(tmp)/'corrections.db');store.init()
+   campaign=ResearchStore(store).create({'agent_version':'6.0','commercial_engines':['AGENCIES'],'commercial':{'ai':{'enabled':True,'provider':'MOCK'}}})
+   rid=memory.save_record(store,campaign,'AGENCIES',{**evaluated(),'state':'NEEDS_REVIEW'})
+   with patch.object(server,'STORE',store):
+    url=f'/api/agent6/records/{rid}/corrections';payload={'changes':{'priority':'high'},'note':'Revisione manuale delle prove.'}
+    self.assertEqual(self.request(url,payload,{'X-CSRF-Token':''})[0],403)
+    self.assertEqual(self.request(url,payload,{'Origin':'https://untrusted.example'})[0],403)
+    self.assertEqual(self.request(url,payload,{'Host':'untrusted.example'})[0],403)
+    self.assertEqual(self.request(url,{'changes':{'state':'VERIFIED'},'note':'No'})[0],400)
+    self.assertEqual(self.request(url,payload)[0],200)
+    code,body=self.request(f'/api/agent6/records/{rid}')
+    self.assertEqual(code,200);self.assertEqual(body['state'],'NEEDS_REVIEW')
+    self.assertEqual(body['manual_corrections']['priority']['value'],'high')
+    self.assertEqual(len(body['company_dossier']['signals']),1)
+    code,body=self.request('/api/agent6/worklist?view=review&group=company')
+    self.assertEqual(code,200);self.assertEqual(body['count_unit'],'companies')
+    self.assertEqual(self.request('/api/agent6/worklist?group=invalid')[0],400)
+    with store.connect() as c:
+     self.assertEqual(c.execute('SELECT count(*) FROM agent8_annotations').fetchone()[0],1)
+     self.assertEqual(c.execute('SELECT count(*) FROM commercial_ai_executions').fetchone()[0],0)
+     self.assertEqual(c.execute('SELECT count(*) FROM prospects').fetchone()[0],0)
+ def test_worklist_is_read_only_and_validates_filters_and_host(self):
+  with self.store.connect() as c:before=c.execute('SELECT count(*) FROM campaigns').fetchone()[0]
+  code,body=self.request('/api/agent6/worklist?view=ready')
+  self.assertEqual(code,200);self.assertEqual(body['mode'],'WORKLIST');self.assertIn('counts',body)
+  self.assertEqual(self.request('/api/agent6/worklist?view=not_a_view')[0],400)
+  self.assertEqual(self.request('/api/agent6/worklist?flow=not_a_flow')[0],400)
+  self.assertEqual(self.request('/api/agent6/worklist',headers={'Host':'evil.test'})[0],403)
+  with self.store.connect() as c:self.assertEqual(c.execute('SELECT count(*) FROM campaigns').fetchone()[0],before)
  def test_csrf_and_host(self):
   self.assertEqual(self.request('/api/settings',{},headers={'X-CSRF-Token':'bad'})[0],403)
   self.assertEqual(self.request('/api/state',headers={'Host':'evil.test'})[0],403)
@@ -44,6 +78,26 @@ class HttpTest(unittest.TestCase):
   finally:
    code,item=self.request(base+'/restore',{});self.assertEqual(code,200);self.assertIsNone(item['dismissed_at'])
  def test_no_auto_send_route(self):self.assertEqual(self.request('/api/send',{})[0],404)
+ def test_commercial_routes_share_csrf_and_manual_crm(self):
+  from sales.research_store import ResearchStore
+  from sales.commercial.storage import Opportunities
+  from sales.commercial.inspection import inspect
+  from test_commercial_engines import page
+  rs=ResearchStore(self.store);campaign=rs.create({'commercial_engines':['FREELANCE']})
+  try:
+   with patch('sales.commercial.inspection.ResearchWeb.get',lambda web,url:page('Cerchiamo WordPress freelance.',url=url)):
+    found=inspect(self.store,{'commercial_engine':'FREELANCE','url':'https://alfa.example/jobs'})
+   ident=Opportunities(self.store).save(campaign,found['identity'],found['documents'],found['result']);base='/api/commercial/opportunities/'+str(ident)
+   self.assertEqual(self.request('/api/commercial/catalog')[0],200)
+   self.assertEqual(self.request(base)[1]['body']['compensation']['amount'],None)
+   self.assertEqual(self.request('/api/commercial/opportunities?engine=FREELANCE&state=VERIFIED')[1]['total'],1)
+   self.assertEqual(self.request(base+'/action',{'action':'save'},headers={'X-CSRF-Token':'bad'})[0],403)
+   code,item=self.request(base+'/action',{'action':'save'});self.assertEqual(code,200);self.assertIsNotNone(item['prospect_id'])
+   self.assertEqual(self.request('/api/prospects/'+str(item['prospect_id']))[0],200)
+   self.assertEqual(self.request(base+'/action',{'action':'send'})[0],400)
+   self.assertEqual(self.request(base+'/action',{'action':'discard'})[0],200)
+   self.assertEqual(self.request('/api/commercial/opportunities?engine=FREELANCE')[1]['total'],0)
+  finally:rs.stop(campaign['id']);rs.paused(campaign['id'])
  def test_search_trial_secret_and_authorization(self):
   from sales.search_trial import key_path
   code,body=self.request('/api/search-trial');self.assertEqual(code,200)
@@ -72,7 +126,10 @@ class HttpTest(unittest.TestCase):
   from test_research import sample
   with patch.object(CampaignManager,'launch',lambda manager,c:manager.rs.campaign(c['id'])):
    self.assertEqual(self.request('/api/campaigns',{'target':51})[0],400)
-   code,campaign=self.request('/api/campaigns',{'target':50,'filters':{'regions':['Veneto']}});self.assertEqual(code,200)
+   self.assertEqual(self.request('/api/campaigns',{'target':50,'filters':{'regions':['Veneto']}})[0],400)
+   # Historical data remain readable/resumable, but the public creation route
+   # cannot silently launch the retired decision path for a new campaign.
+   campaign=ResearchStore(self.store).create({'regions':['Veneto']})
    try:
     self.assertEqual(self.request('/api/campaigns',{})[0],400)
     args=sample();aid=ResearchStore(self.store).save(campaign['id'],campaign['generation'],None,args[0],args[1],qualify(*args))
@@ -81,6 +138,13 @@ class HttpTest(unittest.TestCase):
     self.assertEqual(self.request('/api/opportunities/'+str(aid)+'/review',{'verdict':'confirmed','reason':'Fonte originale verificata'})[0],200)
     self.assertEqual(self.request('/api/campaigns/'+str(campaign['id'])+'/stop',{})[1]['status'],'paused')
     self.assertEqual(self.request('/api/campaigns/'+str(campaign['id'])+'/resume',{})[1]['status'],'running')
+   finally:CampaignManager(self.store).stop(campaign['id'])
+ def test_new_campaign_uses_only_ai_first_without_launching_worker(self):
+  from sales.campaigns import CampaignManager
+  with patch.object(CampaignManager,'launch',lambda manager,c:manager.rs.campaign(c['id'])):
+   code,campaign=self.request('/api/campaigns',{'filters':{'agent_version':'6.0','commercial_engines':['AGENCIES'],'regions':['Veneto'],'commercial':{'ai':{'enabled':True,'provider':'MOCK'}}}})
+   self.assertEqual(code,200)
+   try:self.assertEqual(campaign['filters']['decision_engine'],'ai_first_1')
    finally:CampaignManager(self.store).stop(campaign['id'])
  def test_cloud_model_setting_rejected(self):
   self.assertEqual(self.request('/api/settings',{'ollama_model':'some-model:cloud'})[0],400)

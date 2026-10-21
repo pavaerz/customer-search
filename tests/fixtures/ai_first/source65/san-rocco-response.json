@@ -1,0 +1,76 @@
+{
+  "provenance": "Unchanged diagnostic excerpt from actual Campaign 58 execution 1476; no new inference",
+  "output": {
+    "decision": "NEEDS_RESEARCH",
+    "entity_name": "Caseificio Sociale San Rocco",
+    "subject_role": "MENTIONED",
+    "relationship": "BUSINESS_SIGNAL",
+    "service": "ecommerce",
+    "reason": "L'apertura del terzo punto vendita è un segnale commerciale specifico, ma non dimostra un bisogno digitale. Occorre leggere il sito indicato nell'articolo per verificare le soluzioni già presenti e l'eventuale utilità di un progetto proporzionato alla rete di vendita.",
+    "fit": "Possibile compatibilità con le competenze WooCommerce di Diego, solo se emerge un'esigenza concreta non già coperta; nessuna richiesta di sviluppo è documentata.",
+    "facts": [
+      {
+        "field": "entity",
+        "segment_id": "sc30802aa58a4f5308c88"
+      },
+      {
+        "field": "signal",
+        "segment_id": "sc30802aa58a4f5308c88"
+      },
+      {
+        "field": "geography",
+        "segment_id": "sc30802aa58a4f5308c88"
+      },
+      {
+        "field": "signal",
+        "segment_id": "sd2461d10387d2d8f1025"
+      },
+      {
+        "field": "signal",
+        "segment_id": "s9667b0d108a2e5452e6a"
+      }
+    ],
+    "unknowns": [
+      "Presenza e funzionalità attuali di ecommerce, prenotazioni o ritiro nei punti vendita.",
+      "Esistenza di un'esigenza digitale che giustifichi un progetto completo anziché piccoli aggiornamenti.",
+      "Budget, disponibilità a incarichi esterni e canale di contatto del caseificio.",
+      "Situazione attuale della rete vendita: l'articolo è del 5 dicembre 2024."
+    ],
+    "confidence": "MEDIUM",
+    "priority": "low",
+    "compensation": "UNKNOWN",
+    "feasibility": "UNKNOWN",
+    "currentness": "STALE",
+    "assessment": {
+      "intent": "COMPANY_ACTIVITY",
+      "intent_facts": [
+        1,
+        3
+      ],
+      "scope": "UNKNOWN",
+      "scope_facts": [],
+      "existing_solution": "NOT_CHECKED",
+      "solution_facts": [],
+      "interpretation": "Il soggetto amplia la vendita diretta fisica, non sta cercando sviluppatori. Il collegamento al sito permette una verifica circoscritta delle soluzioni esistenti, senza presumere carenze.",
+      "objections": [
+        "L'espansione fisica, da sola, non giustifica un ecommerce.",
+        "Il sito potrebbe già coprire le esigenze commerciali oppure richiedere soltanto interventi minori.",
+        "Non sono documentati richiesta, compenso o perimetro progettuale."
+      ]
+    },
+    "action": {
+      "type": "READ_LINK",
+      "link_id": "ldecf966b4502771f",
+      "query": "",
+      "question": "Il sito del Caseificio Sociale San Rocco offre già acquisto online, prenotazione o ritiro nei negozi, oppure documenta un'esigenza commerciale non coperta che possa giustificare un progetto completo?"
+    },
+    "subject_geography": {
+      "status": "IN_TARGET",
+      "fact_indices": [
+        2
+      ],
+      "region": "Veneto",
+      "reason": "Il terzo punto vendita del soggetto è localizzato a Bassano del Grappa, in via della Pace 39."
+    }
+  }
+}

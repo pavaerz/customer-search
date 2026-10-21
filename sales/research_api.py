@@ -14,6 +14,19 @@ def annotate(store,items):
             item['qualification_label']={'qualified':'Qualificata 4.0','rejected':'Esclusa dalla shortlist','needs_review':'Da approfondire','unverifiable':'Non verificabile'}[row['status']]
             if row['status']=='qualified':
                 item['score']=row['score'];item['reason']=assessment['why'];item['hypothesis']=assessment['proposal'];item['missing']=assessment['missing'];item['qualification_rejected']=False
+    from .commercial.catalog import ENGINES
+    with store.connect() as c:
+        commercial={r['prospect_id']:r for r in c.execute('SELECT o.id,o.prospect_id,o.engine,r.state FROM commercial_opportunities o JOIN commercial_revisions r ON r.id=o.latest_revision WHERE o.prospect_id IS NOT NULL')}
+    for item in items:
+        if row:=commercial.get(item['id']):
+            item.update(commercial_opportunity_id=row['id'],commercial_engine=row['engine'],qualification='commercial',qualification_label=ENGINES[row['engine']]+' · '+{'VERIFIED':'Collaborazione verificata','POTENTIAL':'Potenziale cliente','NEEDS_REVIEW':'Da verificare','REJECTED':'Scartata','UNVERIFIABLE':'Non verificabile'}[row['state']])
+            item['qualification_rejected']=row['state'] in ('REJECTED','UNVERIFIABLE')
+    # 6.0 records remain separate from historical qualification revisions.
+    with store.connect() as c:
+        agent={r['prospect_id']:r for r in c.execute("SELECT p.id prospect_id,r.id record_id,r.state FROM prospects p JOIN agent6_records r ON p.identity='agent6:'||r.request_key WHERE r.id=(SELECT max(x.id) FROM agent6_records x WHERE x.request_key=r.request_key)")}
+    for item in items:
+        if row:=agent.get(item['id']):
+            item.update(agent6_record_id=row['record_id'],qualification='agent6',qualification_label='6.0 · '+row['state'],qualification_rejected=row['state'] in ('REJECTED','UNVERIFIABLE'))
     return items
 
 def quality_report(store):

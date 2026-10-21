@@ -26,6 +26,9 @@ def run(path,cid,generation,parent_pid=None):
         if not rs.active(cid,generation):raise InterruptedError('Arresto richiesto')
     def progress(message):rs.progress(cid,generation,message)
     try:
+        if campaign['filters'].get('commercial_engines'):
+            from .commercial.coordinator import run_campaign
+            return run_campaign(store,campaign,check,progress)
         from .prospect_scope import apply_scope,task_in_scope
         apply_scope(rs,campaign)
         funnel.constrain_legacy_queue(campaign)

@@ -30,5 +30,25 @@ implementation-report/*.log
 *.credentials
 credentials.json
 service-account*.json
-.DS_Store
 *.log
+
+# Private local analyses and rollback archives (may contain customer evidence).
+/rollback-*/
+/archives/
+/reports/
+/CAMPAIGN-*-METRICS.json
+/CAMPAIGN-*-REPORT.md
+/PHASE-*-METRICS.json
+/PHASE-*-REPORT.md
+/customersearch-analysis-archive.zip
+/customersearch-analysis-archive.zip.sha256
+
+# Regenerable tool/test output; fixtures and operational documents stay visible.
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+playwright-report/
+test-results/
+*.prof

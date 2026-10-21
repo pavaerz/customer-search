@@ -1,0 +1,154 @@
+{
+  "plans": [
+    {
+      "flow": "AGENCIES",
+      "stage": "plan",
+      "output": {
+        "decision": "search",
+        "reason": "Testare una sola pista distinta: richieste di subfornitura tecnica delle agenzie venete, invece di ripetere ricerche generiche su freelance e carriere. Gli errori di accesso precedenti non dimostrano assenza di opportunità.",
+        "queries": [
+          {
+            "query": "Veneto agenzia cerchiamo subfornitore sviluppo web",
+            "strategy": "external_technical_partner",
+            "objective": "Individuare agenzie venete che invitano esplicitamente fornitori tecnici esterni per lo sviluppo web.",
+            "hypothesis": "Un'agenzia veneta potrebbe pubblicare una richiesta di subfornitura web distinta dalle offerte di lavoro dipendente e dalle proprie pagine commerciali.",
+            "missing": "Identità e sede dell'agenzia, invito originale a soggetti esterni, ambito tecnico e attualità della richiesta.",
+            "expected_source": "Pagina ufficiale dell'agenzia dedicata a collaborazioni o ricerca di subfornitori tecnici.",
+            "success": "Una fonte originale attribuisce all'agenzia un invito esplicito e ancora valido a sviluppatori o fornitori tecnici esterni; eventuali incarichi e compensi restano sconosciuti se non documentati.",
+            "stop_condition": "Interrompere questa pista se i risultati riguardano soltanto servizi offerti, candidature dipendenti o intermediari senza invito originale verificabile; non reiterare semplici varianti lessicali."
+          }
+        ]
+      }
+    },
+    {
+      "flow": "AZIENDE",
+      "stage": "plan",
+      "output": {
+        "decision": "search",
+        "reason": "Passare dall'ultima ricerca di domanda esplicita a una scoperta proattiva nel noleggio di attrezzature, settore distinto da quelli già esplorati. L'attività commerciale non sarà trattata come richiesta di sviluppo.",
+        "queries": [
+          {
+            "query": "Veneto noleggio piattaforme aeree sito ufficiale",
+            "strategy": "official_company_sector_region",
+            "objective": "Individuare imprese operative e verificare se esiste un'opportunità documentabile per un progetto web completo a supporto del noleggio.",
+            "hypothesis": "Un'impresa veneta che noleggia piattaforme aeree potrebbe avere un percorso digitale di selezione del mezzo e richiesta di noleggio con ostacoli sostanziali verificabili, tali da giustificare un rifacimento completo anziché interventi marginali.",
+            "missing": "Identità ufficiale, operatività in Veneto, evidenze dirette sul percorso cliente, rilevanza commerciale degli ostacoli e perimetro di un eventuale progetto completo. Domanda dichiarata e budget restano sconosciuti.",
+            "expected_source": "Siti ufficiali delle imprese, pagine dei mezzi a noleggio e percorsi pubblici di richiesta, consultati senza inviare moduli.",
+            "success": "Identificare un'impresa operativa con evidenze originali di un ostacolo concreto al percorso di noleggio e una motivazione verificabile per un progetto web completo, classificandola esclusivamente come opportunità proattiva.",
+            "stop_condition": "Interrompere dopo cinque siti ufficiali esaminati senza opportunità sostanziali; scartare directory, fornitori di siti web e casi sostenuti soltanto da estetica datata, catalogo presente o difetti isolati."
+          }
+        ]
+      }
+    },
+    {
+      "flow": "NEWS",
+      "stage": "plan",
+      "output": {
+        "decision": "search",
+        "reason": "Tentare un cambio di settore verso la sanità privata, distinto dalle precedenti ricerche su cosmetica, cantine e prodotti industriali. L’apertura di una sede sarà soltanto un segnale da verificare, non una prova di domanda digitale.",
+        "queries": [
+          {
+            "query": "Veneto poliambulatorio inaugura nuova sede 2026",
+            "strategy": "market_expansion",
+            "objective": "Individuare un’azienda sanitaria privata protagonista di un’apertura datata e verificare successivamente un eventuale ostacolo digitale legato alla nuova sede.",
+            "hypothesis": "Un poliambulatorio che ha inaugurato una nuova sede potrebbe non aver ancora integrato nel sito ufficiale i percorsi per scegliere sede, prestazione e prenotazione; l’ipotesi è falsificata se tali percorsi risultano completi e funzionanti.",
+            "missing": "Ragione sociale completa, fonte originale dell’evento, date di pubblicazione e apertura, sito ufficiale e riscontro indipendente di una lacuna digitale pertinente. Non sono noti incarichi, budget o disponibilità a collaborare.",
+            "expected_source": "Notizia locale dedicata a una specifica inaugurazione, da confrontare con il comunicato dell’azienda e con il suo sito ufficiale.",
+            "success": "Identificare l’azienda distinta dall’editore, confermare apertura e date su fonti originali e verificare separatamente un problema concreto nel percorso digitale della nuova sede, senza presentarlo come richiesta di lavoro.",
+            "stop_condition": "Scartare risultati su istituzioni pubbliche, semplici annunci senza apertura verificabile o aziende non identificabili. Non qualificare il caso se il sito copre adeguatamente la nuova sede; interrompere questa famiglia dopo tre ricerche effettivamente vuote o prevalentemente irrilevanti."
+          }
+        ]
+      }
+    },
+    {
+      "flow": "SOCIAL",
+      "stage": "plan",
+      "output": {
+        "decision": "search",
+        "reason": "Le ricerche precedenti non hanno prodotto richieste verificate; gli errori di accesso non dimostrano assenza di domanda. Proporre due sole ricerche, cambiando attività richiesta e verificando sempre i post originali.",
+        "queries": [
+          {
+            "query": "site:linkedin.com/posts Veneto azienda cerchiamo freelance manutenzione sito",
+            "strategy": "linkedin_public_request",
+            "objective": "Individuare aziende venete che richiedono assistenza esterna su un sito esistente.",
+            "hypothesis": "Un'azienda identificabile in Veneto ha pubblicato una richiesta di manutenzione web affidabile a un freelance.",
+            "missing": "Identità del richiedente, originale leggibile, data della richiesta, perimetro tecnico, natura esterna e retribuita, ammissibilità di un professionista italiano.",
+            "expected_source": "Post pubblico originale LinkedIn dell'azienda richiedente o di un suo rappresentante identificabile.",
+            "success": "L'originale conferma una richiesta aziendale di manutenzione web aperta a professionisti esterni; compenso e attualità vengono verificati separatamente.",
+            "stop_condition": "Scartare autopromozione, offerte esclusivamente subordinate e ripubblicazioni anonime. Fermare questa ipotesi se non emergono originali leggibili con domanda attribuibile."
+          },
+          {
+            "query": "site:instagram.com Veneto agenzia cerchiamo freelance frontend",
+            "strategy": "instagram_public_request",
+            "objective": "Trovare inviti pubblici di agenzie venete a collaboratori frontend esterni.",
+            "hypothesis": "Un'agenzia veneta identificabile invita sviluppatori frontend freelance a collaborare attraverso un post pubblico Instagram.",
+            "missing": "Ragione sociale completa, originale leggibile, data, effettiva apertura a collaboratori esterni, attività richieste e condizioni della collaborazione.",
+            "expected_source": "Post pubblico originale sull'account Instagram ufficiale dell'agenzia.",
+            "success": "Il post originale contiene un invito esplicito a sviluppatori esterni e permette di attribuirlo all'agenzia; un invito permanente resta distinto da una commessa attiva e retribuita.",
+            "stop_condition": "Scartare servizi offerti, recruiting esclusivamente dipendente e collaborazioni soltanto commerciali. Se gli originali non sono leggibili pubblicamente, interrompere senza aggirare l'accesso né qualificare gli snippet."
+          }
+        ]
+      }
+    },
+    {
+      "flow": "STARTUPS",
+      "stage": "plan",
+      "output": {
+        "decision": "search",
+        "reason": "La memoria non documenta opportunità verificate. Testare due direzioni distinte in Veneto: collaborazione frontend esterna e affidamento di sviluppo web. Evitare ulteriori varianti generiche su lanci, finanziamenti e cofounder già esplorate.",
+        "queries": [
+          {
+            "query": "startup Veneto cerca sviluppatore freelance frontend",
+            "strategy": "freelance_product_development",
+            "objective": "Individuare startup che invitano esplicitamente sviluppatori frontend esterni a collaborare.",
+            "hypothesis": "Una startup veneta pubblica una richiesta di collaborazione frontend compatibile con un professionista freelance italiano.",
+            "missing": "Identità della startup, fonte originale, validità temporale, progetto incompleto, rapporto esterno, compenso o equity, integrazioni, sicurezza e manutenzione.",
+            "expected_source": "Pagina ufficiale della startup o annuncio originale attribuibile alla società o a un suo responsabile.",
+            "success": "La fonte identifica la startup e richiede esplicitamente collaborazione frontend esterna; distingue progetto concreto da invito permanente e compenso documentato da condizioni sconosciute.",
+            "stop_condition": "Scartare annunci esclusivamente subordinati, offerte di fornitori e portfolio conclusi. Se emergono solo questi risultati, interrompere questa variante senza sostituire semplicemente la regione."
+          },
+          {
+            "query": "startup Veneto manifestazione interesse sviluppo piattaforma web",
+            "strategy": "paid_mvp_supplier",
+            "objective": "Cercare selezioni di fornitori per una piattaforma web richiesta da una startup.",
+            "hypothesis": "Una startup veneta ha pubblicato una procedura di selezione per affidare a un soggetto esterno lo sviluppo di una piattaforma web ancora da realizzare.",
+            "missing": "Committente effettivo, identità startup, documento originale, scadenza, ammissibilità del freelance, perimetro tecnico, condizioni economiche, sicurezza, integrazioni e manutenzione.",
+            "expected_source": "Avviso originale sul sito della startup oppure documento ospitato da un incubatore con committente esplicitamente identificato.",
+            "success": "Un documento attribuisce alla startup una richiesta concreta di sviluppo esterno e permette di verificarne stato e destinatari; budget e condizioni restano sconosciuti se non dichiarati.",
+            "stop_condition": "Scartare bandi di finanziamento, selezioni di startup e procedure dove il committente è soltanto un ente o incubatore. Interrompere se non emerge un affidamento attribuibile a una startup."
+          }
+        ]
+      }
+    },
+    {
+      "flow": "AZIENDE",
+      "stage": "replan",
+      "output": {
+        "decision": "search",
+        "reason": "Testare un settore produttivo distinto dalle ricerche precedenti in Lombardia e affiancare una ricerca di domanda esplicita. Le opportunità proattive resteranno separate dalle richieste documentate.",
+        "queries": [
+          {
+            "query": "Lombardia produzione imballaggi su misura sito ufficiale",
+            "strategy": "official_company_sector_region",
+            "objective": "Individuare produttori operativi e verificare opportunità per un progetto web completo a supporto delle richieste commerciali personalizzate.",
+            "hypothesis": "Un produttore di imballaggi su misura potrebbe avere un processo di raccolta delle specifiche commerciali che il sito attuale non supporta adeguatamente; l'ipotesi richiede verifica sul sito ufficiale.",
+            "missing": "Identità societaria, operatività in Lombardia, modalità effettive di richiesta degli imballaggi e prove di un limite funzionale rilevante per un progetto completo.",
+            "expected_source": "Sito ufficiale del produttore: pagine aziendali, prodotti, personalizzazione e richiesta di preventivo.",
+            "success": "Identificare un'impresa operativa e documentare un percorso commerciale concreto con un ostacolo digitale osservabile, distinguendo l'opportunità proattiva dalla domanda dichiarata.",
+            "stop_condition": "Scartare il candidato se emerge soltanto un catalogo, un aspetto grafico datato o un difetto isolato; cambiare settore dopo tre ricerche effettive prevalentemente irrilevanti."
+          },
+          {
+            "query": "Lombardia azienda cerca sviluppatore esterno realizzazione ecommerce",
+            "strategy": "explicit_complete_project",
+            "objective": "Trovare una richiesta aziendale rivolta a uno sviluppatore esterno per realizzare un ecommerce completo.",
+            "hypothesis": "Una società con attività in Lombardia potrebbe aver pubblicato una richiesta originale di sviluppo ecommerce affidabile a un professionista esterno.",
+            "missing": "Identità del committente, fonte originale, apertura a collaborazioni esterne, attualità della richiesta e perimetro completo del progetto.",
+            "expected_source": "Richiesta pubblicata dall'impresa sul proprio sito o annuncio originale attribuibile direttamente al committente.",
+            "success": "Verificare una società identificabile che richieda esplicitamente sviluppo ecommerce esterno, con ambito compatibile con un progetto completo; budget non dichiarato mantenuto sconosciuto.",
+            "stop_condition": "Scartare offerte di servizi, portfolio, ricerca di partner commerciali e posizioni esclusivamente dipendenti; interrompere la famiglia dopo tre ricerche effettive senza richieste pertinenti."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import json
 from .db import now,encode,domain
 
 # Reverse dependency order; company identities and exclusions deliberately remain active.
-RESULT_TABLES=('commercial_outcomes','discovery_transitions','discovery_candidates','discovery_frontier','research_reviews','research_signals','research_assessments','research_events',
+RESULT_TABLES=('commercial_social_reviews','commercial_discovery','commercial_resources','commercial_revisions','commercial_opportunities','commercial_engine_runs','commercial_outcomes','discovery_transitions','discovery_candidates','discovery_frontier','research_reviews','research_signals','research_assessments','research_events',
  'research_tasks','campaigns','research_documents','prospect_evidence','interactions',
  'prospects','evidence','sources','audits','run_items','runs','legacy_records')
 
@@ -20,6 +20,7 @@ def reset_results(store,backup_path):
             rows=c.execute('SELECT * FROM '+table).fetchall();counts[table]=len(rows)
             for n,row in enumerate(rows):c.execute('INSERT INTO workspace_archive VALUES (?,?,?,?)',(rid,table,n,encode(dict(row))))
         # Keep previous contact outcomes effective after their cards leave the active workspace.
+        c.execute("INSERT OR IGNORE INTO dismissed_companies(domain,created_at) SELECT d.domain,? FROM commercial_opportunities o JOIN research_domains d ON d.entity_id=o.entity_id WHERE o.manual_state='discarded'",(now(),))
         c.execute("""UPDATE companies SET prior_contacted=1 WHERE id IN (
           SELECT company_id FROM prospects WHERE stage IN ('contacted','replied','proposal','won','lost')
           UNION SELECT p.company_id FROM prospects p JOIN interactions i ON i.prospect_id=p.id WHERE i.kind IN ('contacted','replied','proposal','won','lost'))""")

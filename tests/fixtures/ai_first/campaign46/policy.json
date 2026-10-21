@@ -1,0 +1,1380 @@
+{
+  "campaign_id": 46,
+  "records": [
+    {
+      "id": 1243,
+      "body": {
+        "decision": "NEEDS_RESEARCH",
+        "ai_decision": {
+          "decision": "NEEDS_RESEARCH",
+          "entity_name": "Veneto Innovazione S.p.A.",
+          "subject_role": "OWNER",
+          "relationship": "BUSINESS_SIGNAL",
+          "service": "website",
+          "reason": "L’albo comprende professionisti e una categoria relativa alle pagine web, ma la pagina non dimostra che siano aperte iscrizioni utili a Diego.",
+          "fit": "Attinenza parziale con il frontend: è documentato il design di pagine web, non lo sviluppo di siti o applicazioni.",
+          "facts": [
+            {
+              "field": "entity",
+              "segment_id": "sf15927be92273a8e7c17"
+            },
+            {
+              "field": "signal",
+              "segment_id": "s60d064e964f20042c96d"
+            },
+            {
+              "field": "scope",
+              "segment_id": "s9593eeeb79508d4832d7"
+            },
+            {
+              "field": "geography",
+              "segment_id": "sddb5a3d3e0699ada4646"
+            }
+          ],
+          "unknowns": [
+            "Iscrizioni attualmente aperte e requisiti per liberi professionisti.",
+            "Ammissibilità dello sviluppo web nella categoria indicata.",
+            "Incarichi disponibili, compensi e modalità di affidamento."
+          ],
+          "confidence": "MEDIUM",
+          "priority": "low",
+          "compensation": "UNKNOWN",
+          "feasibility": "UNKNOWN",
+          "currentness": "CURRENT_OBSERVATION",
+          "assessment": {
+            "intent": "UNKNOWN",
+            "intent_facts": [
+              1,
+              2
+            ],
+            "scope": "UNKNOWN",
+            "scope_facts": [
+              2
+            ],
+            "existing_solution": "NOT_CHECKED",
+            "solution_facts": [],
+            "interpretation": "Il soggetto pubblica categorie del proprio albo fornitori e professionisti. Questo è un possibile percorso di qualificazione, non ancora un invito verificato né una richiesta di lavoro.",
+            "objections": [
+              "La categoria documentata riguarda il design grafico di pagine web.",
+              "L’esistenza dell’albo non prova iscrizioni aperte o incarichi disponibili."
+            ]
+          },
+          "action": {
+            "type": "READ_LINK",
+            "link_id": "l170285cb364d9575",
+            "query": "",
+            "question": "Il sistema di qualificazione consente attualmente a un libero professionista dello sviluppo web di iscriversi, e con quali requisiti?"
+          }
+        },
+        "entity_name": "Veneto Innovazione S.p.A.",
+        "facts": [
+          {
+            "field": "entity",
+            "id": "e4",
+            "start": 185,
+            "end": 210,
+            "quote": "Veneto Innovazione S.p.A.",
+            "url": "https://venetoinnovazione.acquistitelematici.it/categorie",
+            "checked_at": "2026-10-20T20:05:53.270182+00:00",
+            "content_hash": "10cd26d1bc9a9eac21344cf26814c05b391ad96992c43be2f7ed41554478fcfc",
+            "document_id": "1364b91478d742fdf2ddb6c50155deb6d9e6565f1ed0fa3dbc1ae588f55245c3",
+            "original": true,
+            "result_id": "1364b91478d742fdf2ddb6c50155deb6d9e6565f1ed0fa3dbc1ae588f55245c3:page",
+            "document_start": 135456,
+            "document_end": 135481
+          },
+          {
+            "field": "signal",
+            "id": "metadata",
+            "start": 18,
+            "end": 78,
+            "quote": "Albo fornitori e Professionisti del Veneto Innovazione S.p.A",
+            "url": "https://venetoinnovazione.acquistitelematici.it/categorie",
+            "checked_at": "2026-10-20T20:05:53.270182+00:00",
+            "content_hash": "a3938283c43a78fe310cac216149bb6c03ddf43f26e5210d9f632d9e1ef3f4a1",
+            "document_id": "26d4b604295daf9d6f6c45c88f8615b95706125b561bea74fffc2076ad5a5244",
+            "original": true,
+            "result_id": "1364b91478d742fdf2ddb6c50155deb6d9e6565f1ed0fa3dbc1ae588f55245c3:page",
+            "document_start": 20,
+            "document_end": 80
+          },
+          {
+            "field": "scope",
+            "id": "e2",
+            "start": 679,
+            "end": 736,
+            "quote": "74.10.21 - Attività dei disegnatori grafici di pagine web",
+            "url": "https://venetoinnovazione.acquistitelematici.it/categorie",
+            "checked_at": "2026-10-20T20:05:53.270182+00:00",
+            "content_hash": "281a579fe53417a7e75b5b2f4089eb5b5d0f29cccf0772132324991a3bfc0095",
+            "document_id": "1364b91478d742fdf2ddb6c50155deb6d9e6565f1ed0fa3dbc1ae588f55245c3",
+            "original": true,
+            "result_id": "1364b91478d742fdf2ddb6c50155deb6d9e6565f1ed0fa3dbc1ae588f55245c3:page",
+            "document_start": 89714,
+            "document_end": 89771
+          },
+          {
+            "field": "geography",
+            "id": "e4",
+            "start": 310,
+            "end": 362,
+            "quote": "Via delle Industrie, 19/D - 30175 Venezia - Marghera",
+            "url": "https://venetoinnovazione.acquistitelematici.it/categorie",
+            "checked_at": "2026-10-20T20:05:53.270182+00:00",
+            "content_hash": "10cd26d1bc9a9eac21344cf26814c05b391ad96992c43be2f7ed41554478fcfc",
+            "document_id": "1364b91478d742fdf2ddb6c50155deb6d9e6565f1ed0fa3dbc1ae588f55245c3",
+            "original": true,
+            "result_id": "1364b91478d742fdf2ddb6c50155deb6d9e6565f1ed0fa3dbc1ae588f55245c3:page",
+            "document_start": 135581,
+            "document_end": 135633
+          }
+        ],
+        "identity": {
+          "name": "Veneto Innovazione S.p.A. Società con socio unico Veneto Sviluppo S.p.A.",
+          "verified": false,
+          "domain": "venetoinnovazione.acquistitelematici.it",
+          "verified_names": []
+        },
+        "identity_verified": false,
+        "commercial_exclusions": [],
+        "original": true,
+        "reason": "L’albo comprende professionisti e una categoria relativa alle pagine web, ma la pagina non dimostra che siano aperte iscrizioni utili a Diego.",
+        "research_action": {
+          "type": "READ_LINK",
+          "link_id": "l170285cb364d9575",
+          "query": "",
+          "question": "Il sistema di qualificazione consente attualmente a un libero professionista dello sviluppo web di iscriversi, e con quali requisiti?"
+        },
+        "next_verification": "Il sistema di qualificazione consente attualmente a un libero professionista dello sviluppo web di iscriversi, e con quali requisiti?",
+        "budget": {
+          "kind": "UNKNOWN",
+          "amount": null
+        },
+        "state": "NEEDS_REVIEW",
+        "validation_status": "ACCEPTED",
+        "decision_engine": "ai_first_1"
+      }
+    },
+    {
+      "id": 1220,
+      "body": {
+        "decision": "NEEDS_RESEARCH",
+        "ai_decision": {
+          "decision": "NEEDS_RESEARCH",
+          "entity_name": "Veneto Innovazione Spa",
+          "subject_role": "OWNER",
+          "relationship": "BUSINESS_SIGNAL",
+          "service": "unknown",
+          "reason": "La società dispone di procedure per acquisti esterni, ma la homepage non documenta una richiesta di sviluppo di un portale clienti. Occorre verificare i bandi in corso.",
+          "fit": "Compatibilità potenziale con lo sviluppo web di Diego, subordinata all’esistenza di un incarico pertinente e ai requisiti di partecipazione.",
+          "facts": [
+            {
+              "field": "entity",
+              "segment_id": "sda7a16603855e7943596"
+            },
+            {
+              "field": "geography",
+              "segment_id": "sd77aef04e1bd46b047d5"
+            },
+            {
+              "field": "existing_solution",
+              "segment_id": "s5fa7b29f204b4b08a1a0"
+            },
+            {
+              "field": "contract",
+              "segment_id": "sdd6e3d7e333ae4a53043"
+            },
+            {
+              "field": "signal",
+              "segment_id": "s4bc43cb2c43759408c77"
+            }
+          ],
+          "unknowns": [
+            "Presenza di un bando attuale per sviluppo web o portali clienti.",
+            "Requisiti di abilitazione e accessibilità a un freelance.",
+            "Ambito, scadenze e compenso dell’eventuale incarico."
+          ],
+          "confidence": "MEDIUM",
+          "priority": "low",
+          "compensation": "UNKNOWN",
+          "feasibility": "UNKNOWN",
+          "currentness": "CURRENT_OBSERVATION",
+          "assessment": {
+            "intent": "COMPANY_ACTIVITY",
+            "intent_facts": [
+              2,
+              3,
+              4
+            ],
+            "scope": "UNKNOWN",
+            "scope_facts": [],
+            "existing_solution": "NOT_CHECKED",
+            "solution_facts": [
+              2
+            ],
+            "interpretation": "La pagina presenta una piattaforma acquisti e un servizio di promozione di collaborazioni altrui: non dimostra una richiesta propria di sviluppo né un invito a collaboratori web. La piattaforma esistente è descritta, non verificata tecnicamente.",
+            "objections": [
+              "Nessun incarico web concreto è documentato.",
+              "Le procedure negoziate richiedono l’abilitazione agli elenchi.",
+              "Non emerge un divario digitale che giustifichi una proposta proattiva."
+            ]
+          },
+          "action": {
+            "type": "READ_LINK",
+            "link_id": "l99628de12d8647f4",
+            "query": "",
+            "question": "Tra i bandi in corso di Veneto Innovazione Spa esiste un affidamento attuale per sviluppo web o portali clienti accessibile a fornitori esterni come Diego?"
+          }
+        },
+        "entity_name": "Veneto Innovazione Spa",
+        "facts": [
+          {
+            "field": "entity",
+            "id": "e2",
+            "start": 181,
+            "end": 247,
+            "quote": "Veneto Innovazione Spa Società con socio unico Veneto Sviluppo SpA",
+            "url": "https://www.venetoinnovazione.it/",
+            "checked_at": "2026-10-20T08:17:43.200855+00:00",
+            "content_hash": "169ea5c5e74a4a228ff87b63b179e5887d26d5514b099942057558b67458004e",
+            "document_id": "6488e143c0c9f8f58bbbaea200d283a290640edbe3b4d8ce35eda578fcd72da1",
+            "original": true,
+            "result_id": "6488e143c0c9f8f58bbbaea200d283a290640edbe3b4d8ce35eda578fcd72da1:page",
+            "document_start": 2437,
+            "document_end": 2503
+          },
+          {
+            "field": "geography",
+            "id": "e2",
+            "start": 323,
+            "end": 347,
+            "quote": "30175 Venezia - Marghera",
+            "url": "https://www.venetoinnovazione.it/",
+            "checked_at": "2026-10-20T08:17:43.200855+00:00",
+            "content_hash": "169ea5c5e74a4a228ff87b63b179e5887d26d5514b099942057558b67458004e",
+            "document_id": "6488e143c0c9f8f58bbbaea200d283a290640edbe3b4d8ce35eda578fcd72da1",
+            "original": true,
+            "result_id": "6488e143c0c9f8f58bbbaea200d283a290640edbe3b4d8ce35eda578fcd72da1:page",
+            "document_start": 2579,
+            "document_end": 2603
+          },
+          {
+            "field": "existing_solution",
+            "id": "e1",
+            "start": 267,
+            "end": 389,
+            "quote": "La piattaforma digitale per la gestione degli Elenchi Informatizzati e delle Gare Telematiche di Veneto Innovazione S.p.A.",
+            "url": "https://www.venetoinnovazione.it/",
+            "checked_at": "2026-10-20T08:17:43.200855+00:00",
+            "content_hash": "969db1009fe1fb3cb553d690a0d77fb3710de11bd164b87e40ff5fbaf6d9c757",
+            "document_id": "6488e143c0c9f8f58bbbaea200d283a290640edbe3b4d8ce35eda578fcd72da1",
+            "original": true,
+            "result_id": "6488e143c0c9f8f58bbbaea200d283a290640edbe3b4d8ce35eda578fcd72da1:page",
+            "document_start": 483,
+            "document_end": 605
+          },
+          {
+            "field": "contract",
+            "id": "e1",
+            "start": 390,
+            "end": 516,
+            "quote": "La partecipazione alle “Procedure Negoziate” è consentita esclusivamente agli operatori abilitati agli Elenchi informatizzati.",
+            "url": "https://www.venetoinnovazione.it/",
+            "checked_at": "2026-10-20T08:17:43.200855+00:00",
+            "content_hash": "969db1009fe1fb3cb553d690a0d77fb3710de11bd164b87e40ff5fbaf6d9c757",
+            "document_id": "6488e143c0c9f8f58bbbaea200d283a290640edbe3b4d8ce35eda578fcd72da1",
+            "original": true,
+            "result_id": "6488e143c0c9f8f58bbbaea200d283a290640edbe3b4d8ce35eda578fcd72da1:page",
+            "document_start": 606,
+            "document_end": 732
+          },
+          {
+            "field": "signal",
+            "id": "e1",
+            "start": 583,
+            "end": 837,
+            "quote": "Veneto Innovazione, insieme agli altri 600 membri della rete Enrerprise Europe Network, raccoglie e promuove in modo anonimo, sicuro e confidenziale, proposte di collaborazione provenienti da aziende, centri di ricerca e università di 63 diverse nazioni.",
+            "url": "https://www.venetoinnovazione.it/",
+            "checked_at": "2026-10-20T08:17:43.200855+00:00",
+            "content_hash": "969db1009fe1fb3cb553d690a0d77fb3710de11bd164b87e40ff5fbaf6d9c757",
+            "document_id": "6488e143c0c9f8f58bbbaea200d283a290640edbe3b4d8ce35eda578fcd72da1",
+            "original": true,
+            "result_id": "6488e143c0c9f8f58bbbaea200d283a290640edbe3b4d8ce35eda578fcd72da1:page",
+            "document_start": 799,
+            "document_end": 1053
+          }
+        ],
+        "identity": {
+          "name": "Veneto Innovazione",
+          "verified": false,
+          "domain": "venetoinnovazione.it",
+          "verified_names": []
+        },
+        "identity_verified": false,
+        "commercial_exclusions": [],
+        "original": true,
+        "reason": "La società dispone di procedure per acquisti esterni, ma la homepage non documenta una richiesta di sviluppo di un portale clienti. Occorre verificare i bandi in corso.",
+        "research_action": {
+          "type": "READ_LINK",
+          "link_id": "l99628de12d8647f4",
+          "query": "",
+          "question": "Tra i bandi in corso di Veneto Innovazione Spa esiste un affidamento attuale per sviluppo web o portali clienti accessibile a fornitori esterni come Diego?"
+        },
+        "next_verification": "Tra i bandi in corso di Veneto Innovazione Spa esiste un affidamento attuale per sviluppo web o portali clienti accessibile a fornitori esterni come Diego?",
+        "budget": {
+          "kind": "UNKNOWN",
+          "amount": null
+        },
+        "state": "NEEDS_REVIEW",
+        "validation_status": "ACCEPTED",
+        "decision_engine": "ai_first_1"
+      }
+    },
+    {
+      "id": 1214,
+      "body": {
+        "decision": "NEEDS_RESEARCH",
+        "ai_decision": {
+          "decision": "NEEDS_RESEARCH",
+          "entity_name": "Veneto Innovazione S.p.A.",
+          "subject_role": "OWNER",
+          "relationship": "SPONTANEOUS_APPLICATION",
+          "service": "unknown",
+          "reason": "Il portale consente l’iscrizione di fornitori esterni, ma non documenta una richiesta di sviluppo di un portale clienti. Occorre verificare se l’albo comprende servizi web accessibili a un freelance.",
+          "fit": "Potenziale canale di qualificazione per Diego, solo se sono previste categorie pertinenti allo sviluppo web.",
+          "facts": [
+            {
+              "field": "entity",
+              "segment_id": "s87a9a310ef03420b0903"
+            },
+            {
+              "field": "request",
+              "segment_id": "s12cb74e50267d7c6b183"
+            },
+            {
+              "field": "scope",
+              "segment_id": "s3d75b5a4fcbbecdbbd48"
+            },
+            {
+              "field": "existing_solution",
+              "segment_id": "s8e1cf918c9e8035a2e15"
+            },
+            {
+              "field": "signal",
+              "segment_id": "s4243c42cb80841d32b7a"
+            }
+          ],
+          "unknowns": [
+            "Categorie web e requisiti di iscrizione per liberi professionisti.",
+            "Presenza di affidamenti pertinenti o di una richiesta per un portale clienti.",
+            "Compensi e condizioni degli eventuali incarichi."
+          ],
+          "confidence": "MEDIUM",
+          "priority": "low",
+          "compensation": "UNKNOWN",
+          "feasibility": "UNKNOWN",
+          "currentness": "STANDING_INVITATION",
+          "assessment": {
+            "intent": "ACCEPTING_EXTERNAL",
+            "intent_facts": [
+              1,
+              2
+            ],
+            "scope": "COLLABORATION",
+            "scope_facts": [
+              1,
+              2
+            ],
+            "existing_solution": "NOT_CHECKED",
+            "solution_facts": [
+              3
+            ],
+            "interpretation": "Veneto Innovazione gestisce un albo con registrazione e qualificazione di fornitori esterni. È un accesso potenziale a futuri incarichi, non una commessa web dimostrata; la piattaforma esistente non è un progetto da rifare.",
+            "objections": [
+              "L’iscrizione non garantisce inviti o incarichi.",
+              "Non sono documentati fabbisogni web né categorie compatibili con Diego.",
+              "La descrizione della piattaforma non ne verifica l’adeguatezza tecnica."
+            ]
+          },
+          "action": {
+            "type": "READ_LINK",
+            "link_id": "l7612141e6b0daa71",
+            "query": "",
+            "question": "Le categorie dell’albo includono sviluppo di siti o applicazioni web e consentono l’iscrizione di un libero professionista come Diego?"
+          }
+        },
+        "entity_name": "Veneto Innovazione S.p.A.",
+        "facts": [
+          {
+            "field": "entity",
+            "id": "e1",
+            "start": 12,
+            "end": 37,
+            "quote": "Veneto Innovazione S.p.A.",
+            "url": "https://venetoinnovazione.acquistitelematici.it/",
+            "checked_at": "2026-10-20T20:05:36.796020+00:00",
+            "content_hash": "b0ebe2c52764953c9671190ff10779f065656a29cc15096872ef8e0695293ce0",
+            "document_id": "7f47ad429b930e50601a3386321659ea881041e95cb97ecc9351639149e5632f",
+            "original": true,
+            "result_id": "7f47ad429b930e50601a3386321659ea881041e95cb97ecc9351639149e5632f:page",
+            "document_start": 12,
+            "document_end": 37
+          },
+          {
+            "field": "request",
+            "id": "e2",
+            "start": 335,
+            "end": 464,
+            "quote": "Per iscriversi negli elenchi o per partecipare alle procedure di gara, è necessario effettuare la registrazione alla piattaforma.",
+            "url": "https://venetoinnovazione.acquistitelematici.it/",
+            "checked_at": "2026-10-20T20:05:36.796020+00:00",
+            "content_hash": "4ecef6613c37e29f72001bda9c9238c60984cffeb9b4c11b6ca97a0e9535aa94",
+            "document_id": "7f47ad429b930e50601a3386321659ea881041e95cb97ecc9351639149e5632f",
+            "original": true,
+            "result_id": "7f47ad429b930e50601a3386321659ea881041e95cb97ecc9351639149e5632f:page",
+            "document_start": 863,
+            "document_end": 992
+          },
+          {
+            "field": "scope",
+            "id": "e2",
+            "start": 465,
+            "end": 760,
+            "quote": "Successivamente, attraverso una procedura guidata, saranno abilitate le credenziali per accedere all'area riservata, nella quale sarà possibile partecipare immediatamente ad una \"Procedura Telematica Aperta\" oppure proseguire con le successive fasi di qualificazione agli Elenchi informatizzati.",
+            "url": "https://venetoinnovazione.acquistitelematici.it/",
+            "checked_at": "2026-10-20T20:05:36.796020+00:00",
+            "content_hash": "4ecef6613c37e29f72001bda9c9238c60984cffeb9b4c11b6ca97a0e9535aa94",
+            "document_id": "7f47ad429b930e50601a3386321659ea881041e95cb97ecc9351639149e5632f",
+            "original": true,
+            "result_id": "7f47ad429b930e50601a3386321659ea881041e95cb97ecc9351639149e5632f:page",
+            "document_start": 993,
+            "document_end": 1288
+          },
+          {
+            "field": "existing_solution",
+            "id": "e2",
+            "start": 199,
+            "end": 334,
+            "quote": "Benvenuti nella piattaforma digitale per la gestione degli Elenchi Informatizzati e delle Gare Telematiche di Veneto Innovazione S.p.A.",
+            "url": "https://venetoinnovazione.acquistitelematici.it/",
+            "checked_at": "2026-10-20T20:05:36.796020+00:00",
+            "content_hash": "4ecef6613c37e29f72001bda9c9238c60984cffeb9b4c11b6ca97a0e9535aa94",
+            "document_id": "7f47ad429b930e50601a3386321659ea881041e95cb97ecc9351639149e5632f",
+            "original": true,
+            "result_id": "7f47ad429b930e50601a3386321659ea881041e95cb97ecc9351639149e5632f:page",
+            "document_start": 727,
+            "document_end": 862
+          },
+          {
+            "field": "signal",
+            "id": "e1",
+            "start": 133,
+            "end": 166,
+            "quote": "Categorie di Iscrizione agli albi",
+            "url": "https://venetoinnovazione.acquistitelematici.it/",
+            "checked_at": "2026-10-20T20:05:36.796020+00:00",
+            "content_hash": "b0ebe2c52764953c9671190ff10779f065656a29cc15096872ef8e0695293ce0",
+            "document_id": "7f47ad429b930e50601a3386321659ea881041e95cb97ecc9351639149e5632f",
+            "original": true,
+            "result_id": "7f47ad429b930e50601a3386321659ea881041e95cb97ecc9351639149e5632f:page",
+            "document_start": 133,
+            "document_end": 166
+          }
+        ],
+        "identity": {
+          "name": "Veneto Innovazione S.p.A. Società con socio unico Veneto Sviluppo S.p.A.",
+          "verified": false,
+          "domain": "venetoinnovazione.acquistitelematici.it",
+          "verified_names": []
+        },
+        "identity_verified": false,
+        "commercial_exclusions": [],
+        "original": true,
+        "reason": "Il portale consente l’iscrizione di fornitori esterni, ma non documenta una richiesta di sviluppo di un portale clienti. Occorre verificare se l’albo comprende servizi web accessibili a un freelance.",
+        "research_action": {
+          "type": "READ_LINK",
+          "link_id": "l7612141e6b0daa71",
+          "query": "",
+          "question": "Le categorie dell’albo includono sviluppo di siti o applicazioni web e consentono l’iscrizione di un libero professionista come Diego?"
+        },
+        "next_verification": "Le categorie dell’albo includono sviluppo di siti o applicazioni web e consentono l’iscrizione di un libero professionista come Diego?",
+        "budget": {
+          "kind": "UNKNOWN",
+          "amount": null
+        },
+        "state": "NEEDS_REVIEW",
+        "validation_status": "ACCEPTED",
+        "decision_engine": "ai_first_1"
+      }
+    },
+    {
+      "id": 1244,
+      "body": {
+        "decision": "NEEDS_RESEARCH",
+        "ai_decision": {
+          "decision": "NEEDS_RESEARCH",
+          "entity_name": "Veneto Innovazione S.p.A.",
+          "subject_role": "OWNER",
+          "relationship": "SPONTANEOUS_APPLICATION",
+          "service": "unknown",
+          "reason": "Il portale invita all’iscrizione all’albo fornitori, ma non dimostra ancora che siano ammesse prestazioni di sviluppo web da liberi professionisti. La sezione dei sistemi di qualificazione non contiene avvisi.",
+          "fit": "Canale potenzialmente utile per Diego solo se esistono categorie web pertinenti e requisiti accessibili a un freelance.",
+          "facts": [
+            {
+              "field": "entity",
+              "segment_id": "s8f8856ada45dfb88b499"
+            },
+            {
+              "field": "request",
+              "segment_id": "sfc7f58b646d73bc2ecda"
+            },
+            {
+              "field": "signal",
+              "segment_id": "sf63bbcccbc4ad2d9d7a8"
+            },
+            {
+              "field": "scope",
+              "segment_id": "s878876a10731f852d438"
+            },
+            {
+              "field": "geography",
+              "segment_id": "saede97a1ef0c47b4c30a"
+            }
+          ],
+          "unknowns": [
+            "Categorie pertinenti allo sviluppo di siti, ecommerce o applicazioni web.",
+            "Ammissibilità e requisiti per un libero professionista.",
+            "Incarichi disponibili e compensi."
+          ],
+          "confidence": "MEDIUM",
+          "priority": "low",
+          "compensation": "UNKNOWN",
+          "feasibility": "UNKNOWN",
+          "currentness": "STANDING_INVITATION",
+          "assessment": {
+            "intent": "ACCEPTING_EXTERNAL",
+            "intent_facts": [
+              1
+            ],
+            "scope": "COLLABORATION",
+            "scope_facts": [
+              1,
+              3
+            ],
+            "existing_solution": "NOT_CHECKED",
+            "solution_facts": [],
+            "interpretation": "È un invito generale all’iscrizione come fornitore esterno, non una richiesta di progetto web. Occorre verificare la pertinenza dell’albo prima di considerarlo un’opportunità utilizzabile.",
+            "objections": [
+              "Nessun avviso nella sezione esaminata.",
+              "L’iscrizione all’albo non garantisce affidamenti.",
+              "Non sono ancora documentate categorie digitali accessibili a Diego."
+            ]
+          },
+          "action": {
+            "type": "READ_LINK",
+            "link_id": "l7612141e6b0daa71",
+            "query": "",
+            "question": "Le categorie dell’albo di Veneto Innovazione S.p.A. includono sviluppo web e consentono l’iscrizione di liberi professionisti, con quali requisiti?"
+          }
+        },
+        "entity_name": "Veneto Innovazione S.p.A.",
+        "facts": [
+          {
+            "field": "entity",
+            "id": "e1",
+            "start": 35,
+            "end": 60,
+            "quote": "Veneto Innovazione S.p.A.",
+            "url": "https://venetoinnovazione.acquistitelematici.it/sistemi-qualificazione",
+            "checked_at": "2026-10-20T20:06:07.671199+00:00",
+            "content_hash": "5256cc9b9623ebde02958f4ff4e8179b7126422b3607dec01b597a30cbfec589",
+            "document_id": "fbed414105bc4b9f8a5c609fdd984d767a67045f5c595192b00e2b132affa348",
+            "original": true,
+            "result_id": "fbed414105bc4b9f8a5c609fdd984d767a67045f5c595192b00e2b132affa348:page",
+            "document_start": 35,
+            "document_end": 60
+          },
+          {
+            "field": "request",
+            "id": "e1",
+            "start": 821,
+            "end": 892,
+            "quote": "Registrati Gratis e iscriviti a questo Albo Fornitori tramite NetworkPA",
+            "url": "https://venetoinnovazione.acquistitelematici.it/sistemi-qualificazione",
+            "checked_at": "2026-10-20T20:06:07.671199+00:00",
+            "content_hash": "5256cc9b9623ebde02958f4ff4e8179b7126422b3607dec01b597a30cbfec589",
+            "document_id": "fbed414105bc4b9f8a5c609fdd984d767a67045f5c595192b00e2b132affa348",
+            "original": true,
+            "result_id": "fbed414105bc4b9f8a5c609fdd984d767a67045f5c595192b00e2b132affa348:page",
+            "document_start": 821,
+            "document_end": 892
+          },
+          {
+            "field": "signal",
+            "id": "e1",
+            "start": 739,
+            "end": 778,
+            "quote": "Attualmente non è presente alcun avviso",
+            "url": "https://venetoinnovazione.acquistitelematici.it/sistemi-qualificazione",
+            "checked_at": "2026-10-20T20:06:07.671199+00:00",
+            "content_hash": "5256cc9b9623ebde02958f4ff4e8179b7126422b3607dec01b597a30cbfec589",
+            "document_id": "fbed414105bc4b9f8a5c609fdd984d767a67045f5c595192b00e2b132affa348",
+            "original": true,
+            "result_id": "fbed414105bc4b9f8a5c609fdd984d767a67045f5c595192b00e2b132affa348:page",
+            "document_start": 739,
+            "document_end": 778
+          },
+          {
+            "field": "scope",
+            "id": "e1",
+            "start": 156,
+            "end": 189,
+            "quote": "Categorie di Iscrizione agli albi",
+            "url": "https://venetoinnovazione.acquistitelematici.it/sistemi-qualificazione",
+            "checked_at": "2026-10-20T20:06:07.671199+00:00",
+            "content_hash": "5256cc9b9623ebde02958f4ff4e8179b7126422b3607dec01b597a30cbfec589",
+            "document_id": "fbed414105bc4b9f8a5c609fdd984d767a67045f5c595192b00e2b132affa348",
+            "original": true,
+            "result_id": "fbed414105bc4b9f8a5c609fdd984d767a67045f5c595192b00e2b132affa348:page",
+            "document_start": 156,
+            "document_end": 189
+          },
+          {
+            "field": "geography",
+            "id": "e1",
+            "start": 2154,
+            "end": 2206,
+            "quote": "Via delle Industrie, 19/D - 30175 Venezia - Marghera",
+            "url": "https://venetoinnovazione.acquistitelematici.it/sistemi-qualificazione",
+            "checked_at": "2026-10-20T20:06:07.671199+00:00",
+            "content_hash": "5256cc9b9623ebde02958f4ff4e8179b7126422b3607dec01b597a30cbfec589",
+            "document_id": "fbed414105bc4b9f8a5c609fdd984d767a67045f5c595192b00e2b132affa348",
+            "original": true,
+            "result_id": "fbed414105bc4b9f8a5c609fdd984d767a67045f5c595192b00e2b132affa348:page",
+            "document_start": 2154,
+            "document_end": 2206
+          }
+        ],
+        "identity": {
+          "name": "Veneto Innovazione S.p.A. Società con socio unico Veneto Sviluppo S.p.A.",
+          "verified": false,
+          "domain": "venetoinnovazione.acquistitelematici.it",
+          "verified_names": []
+        },
+        "identity_verified": false,
+        "commercial_exclusions": [],
+        "original": true,
+        "reason": "Il portale invita all’iscrizione all’albo fornitori, ma non dimostra ancora che siano ammesse prestazioni di sviluppo web da liberi professionisti. La sezione dei sistemi di qualificazione non contiene avvisi.",
+        "research_action": {
+          "type": "READ_LINK",
+          "link_id": "l7612141e6b0daa71",
+          "query": "",
+          "question": "Le categorie dell’albo di Veneto Innovazione S.p.A. includono sviluppo web e consentono l’iscrizione di liberi professionisti, con quali requisiti?"
+        },
+        "next_verification": "Le categorie dell’albo di Veneto Innovazione S.p.A. includono sviluppo web e consentono l’iscrizione di liberi professionisti, con quali requisiti?",
+        "budget": {
+          "kind": "UNKNOWN",
+          "amount": null
+        },
+        "state": "NEEDS_REVIEW",
+        "validation_status": "ACCEPTED",
+        "decision_engine": "ai_first_1"
+      }
+    }
+  ],
+  "plans": [
+    {
+      "id": 4326,
+      "campaign_id": 46,
+      "flow": "AGENCIES",
+      "kind": "plan",
+      "key": "7449",
+      "body": {
+        "reason": "Testare un canale distinto dalle ricerche su careers e collaborazioni generiche: l'accreditamento di fornitori tecnici esterni. Gli errori di accesso precedenti non dimostrano assenza di opportunità.",
+        "queries": [],
+        "rejected_queries": [
+          {
+            "query": "Veneto agenzia iscrizione fornitori esterni sviluppo web",
+            "allowed": false,
+            "reason": "query_commercial_direction_missing",
+            "instruction": "The query itself must seek an invitation/request or a specific company event. For proactive discovery use official_company_sector_region with sector and territory. A generic web topic, provider partnership slogan or funding is not evidence of demand."
+          }
+        ],
+        "invalid_proposals": [],
+        "chosen": null,
+        "basis": "model_plan_with_memory_ranking"
+      },
+      "created_at": "2026-10-20T20:04:10.227208+00:00"
+    },
+    {
+      "id": 4369,
+      "campaign_id": 46,
+      "flow": "AGENCIES",
+      "kind": "plan",
+      "key": "7454",
+      "body": {
+        "reason": "Le ricerche precedenti non hanno verificato collaborazioni e presentano diversi errori tecnici, che non dimostrano assenza di domanda. Testare due ipotesi distinte in Lombardia: richieste pubblicate direttamente dalle agenzie sui social professionali e inviti a partner tecnici per sviluppo white label.",
+        "queries": [
+          {
+            "query": "site:linkedin.com/posts Lombardia agenzia cerchiamo sviluppatore freelance frontend",
+            "strategy": "freelance_role",
+            "objective": "Individuare post originali di agenzie che richiedono collaborazione frontend esterna.",
+            "hypothesis": "Un'agenzia lombarda potrebbe pubblicare una ricerca esplicita di sviluppatori frontend freelance nei propri post anziché nella pagina carriere.",
+            "missing": "Identità completa dell'agenzia, attribuzione del post, contenuto originale della richiesta, data e disponibilità attuale della collaborazione.",
+            "expected_source": "Post pubblico dell'account ufficiale dell'agenzia, eventualmente collegato a un annuncio sul sito aziendale.",
+            "success": "La fonte originale identifica un'agenzia in Lombardia e invita esplicitamente uno sviluppatore frontend freelance a collaborare, senza limitarsi a un'offerta di lavoro dipendente.",
+            "stop_condition": "Interrompere questa pista se i risultati sono annunci di candidati, ripubblicazioni non attribuibili o posizioni esclusivamente dipendenti. Se la fonte è inaccessibile, mantenere la richiesta non verificata.",
+            "query_validation": {
+              "query": "site:linkedin.com/posts Lombardia agenzia cerchiamo sviluppatore freelance frontend",
+              "original_query": "site:linkedin.com/posts Lombardia agenzia cerchiamo sviluppatore freelance frontend",
+              "allowed": true,
+              "repairs": []
+            },
+            "channel": "AGENCIES",
+            "commercial_policy": {
+              "allowed": true,
+              "intents": [
+                "request_or_invitation_to_verify"
+              ],
+              "branch_count": 1,
+              "basis": "search_direction_only_originals_still_required"
+            },
+            "query_family": "site:linkedin.com posts agenzia cerca sviluppatore freelance frontend",
+            "page": 1,
+            "strategy_id": "freelance_role",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          },
+          {
+            "query": "Lombardia agenzia cerchiamo partner tecnico sviluppo web app white label",
+            "strategy": "external_technical_partner",
+            "objective": "Trovare inviti a partner tecnici esterni per realizzare web app per conto di agenzie.",
+            "hypothesis": "Un'agenzia lombarda potrebbe cercare un partner esterno per lo sviluppo white label di web app, con un invito distinto dalla vendita di propri servizi.",
+            "missing": "Identità dell'agenzia richiedente, invito originale rivolto a partner di sviluppo esterni e conferma che la pagina sia ancora valida.",
+            "expected_source": "Pagina ufficiale dedicata a collaborazioni tecniche, partner o ricerca di fornitori di sviluppo.",
+            "success": "Una fonte ufficiale attribuisce all'agenzia un invito esplicito a partner tecnici esterni per sviluppare web app. Un invito permanente è classificato come apertura alla collaborazione, non come incarico attivo o retribuito accertato.",
+            "stop_condition": "Scartare pagine che vendono sviluppo white label o cercano partner commerciali senza richiedere sviluppo esterno. Abbandonare la formulazione se restituisce soltanto queste tipologie, senza ripeterla cambiando solo territorio.",
+            "query_validation": {
+              "query": "Lombardia agenzia cerchiamo partner tecnico sviluppo web app white label",
+              "original_query": "Lombardia agenzia cerchiamo partner tecnico sviluppo web app white label",
+              "allowed": true,
+              "repairs": []
+            },
+            "channel": "AGENCIES",
+            "commercial_policy": {
+              "allowed": true,
+              "intents": [
+                "request_or_invitation_to_verify"
+              ],
+              "branch_count": 1,
+              "basis": "search_direction_only_originals_still_required"
+            },
+            "query_family": "agenzia cerca partner tecnico sviluppo web app white label",
+            "page": 1,
+            "strategy_id": "external_technical_partner",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          }
+        ],
+        "rejected_queries": [],
+        "invalid_proposals": [],
+        "chosen": {
+          "query": "site:linkedin.com/posts Lombardia agenzia cerchiamo sviluppatore freelance frontend",
+          "strategy": "freelance_role",
+          "objective": "Individuare post originali di agenzie che richiedono collaborazione frontend esterna.",
+          "hypothesis": "Un'agenzia lombarda potrebbe pubblicare una ricerca esplicita di sviluppatori frontend freelance nei propri post anziché nella pagina carriere.",
+          "missing": "Identità completa dell'agenzia, attribuzione del post, contenuto originale della richiesta, data e disponibilità attuale della collaborazione.",
+          "expected_source": "Post pubblico dell'account ufficiale dell'agenzia, eventualmente collegato a un annuncio sul sito aziendale.",
+          "success": "La fonte originale identifica un'agenzia in Lombardia e invita esplicitamente uno sviluppatore frontend freelance a collaborare, senza limitarsi a un'offerta di lavoro dipendente.",
+          "stop_condition": "Interrompere questa pista se i risultati sono annunci di candidati, ripubblicazioni non attribuibili o posizioni esclusivamente dipendenti. Se la fonte è inaccessibile, mantenere la richiesta non verificata.",
+          "query_validation": {
+            "query": "site:linkedin.com/posts Lombardia agenzia cerchiamo sviluppatore freelance frontend",
+            "original_query": "site:linkedin.com/posts Lombardia agenzia cerchiamo sviluppatore freelance frontend",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "AGENCIES",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "site:linkedin.com posts agenzia cerca sviluppatore freelance frontend",
+          "page": 1,
+          "strategy_id": "AGENCIES:linkedin:external_invitation:website",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploitation",
+          "memory_adjustment": 0,
+          "memory_samples": 0,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 73
+        },
+        "basis": "model_plan_with_memory_ranking"
+      },
+      "created_at": "2026-10-20T20:05:34.761738+00:00"
+    },
+    {
+      "id": 4411,
+      "campaign_id": 46,
+      "flow": "AGENCIES",
+      "kind": "plan",
+      "key": "7473",
+      "body": {
+        "reason": "Proposta AI già salvata e rivalidata sugli esiti attuali.",
+        "queries": [
+          {
+            "query": "Lombardia agenzia cerchiamo partner tecnico sviluppo web app white label",
+            "strategy": "external_technical_partner",
+            "objective": "Trovare inviti a partner tecnici esterni per realizzare web app per conto di agenzie.",
+            "hypothesis": "Un'agenzia lombarda potrebbe cercare un partner esterno per lo sviluppo white label di web app, con un invito distinto dalla vendita di propri servizi.",
+            "missing": "Identità dell'agenzia richiedente, invito originale rivolto a partner di sviluppo esterni e conferma che la pagina sia ancora valida.",
+            "expected_source": "Pagina ufficiale dedicata a collaborazioni tecniche, partner o ricerca di fornitori di sviluppo.",
+            "success": "Una fonte ufficiale attribuisce all'agenzia un invito esplicito a partner tecnici esterni per sviluppare web app. Un invito permanente è classificato come apertura alla collaborazione, non come incarico attivo o retribuito accertato.",
+            "stop_condition": "Scartare pagine che vendono sviluppo white label o cercano partner commerciali senza richiedere sviluppo esterno. Abbandonare la formulazione se restituisce soltanto queste tipologie, senza ripeterla cambiando solo territorio.",
+            "query_validation": {
+              "query": "Lombardia agenzia cerchiamo partner tecnico sviluppo web app white label",
+              "original_query": "Lombardia agenzia cerchiamo partner tecnico sviluppo web app white label",
+              "allowed": true,
+              "repairs": []
+            },
+            "channel": "AGENCIES",
+            "commercial_policy": {
+              "allowed": true,
+              "intents": [
+                "request_or_invitation_to_verify"
+              ],
+              "branch_count": 1,
+              "basis": "search_direction_only_originals_still_required"
+            },
+            "query_family": "agenzia cerca partner tecnico sviluppo web app white label",
+            "page": 1,
+            "strategy_id": "external_technical_partner",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          }
+        ],
+        "chosen": {
+          "query": "Lombardia agenzia cerchiamo partner tecnico sviluppo web app white label",
+          "strategy": "external_technical_partner",
+          "objective": "Trovare inviti a partner tecnici esterni per realizzare web app per conto di agenzie.",
+          "hypothesis": "Un'agenzia lombarda potrebbe cercare un partner esterno per lo sviluppo white label di web app, con un invito distinto dalla vendita di propri servizi.",
+          "missing": "Identità dell'agenzia richiedente, invito originale rivolto a partner di sviluppo esterni e conferma che la pagina sia ancora valida.",
+          "expected_source": "Pagina ufficiale dedicata a collaborazioni tecniche, partner o ricerca di fornitori di sviluppo.",
+          "success": "Una fonte ufficiale attribuisce all'agenzia un invito esplicito a partner tecnici esterni per sviluppare web app. Un invito permanente è classificato come apertura alla collaborazione, non come incarico attivo o retribuito accertato.",
+          "stop_condition": "Scartare pagine che vendono sviluppo white label o cercano partner commerciali senza richiedere sviluppo esterno. Abbandonare la formulazione se restituisce soltanto queste tipologie, senza ripeterla cambiando solo territorio.",
+          "query_validation": {
+            "query": "Lombardia agenzia cerchiamo partner tecnico sviluppo web app white label",
+            "original_query": "Lombardia agenzia cerchiamo partner tecnico sviluppo web app white label",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "AGENCIES",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "agenzia cerca partner tecnico sviluppo web app white label",
+          "page": 1,
+          "strategy_id": "AGENCIES:open_web:external_invitation:webapp",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploitation",
+          "memory_adjustment": 0,
+          "memory_samples": 0,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 74
+        },
+        "basis": "revalidated_saved_proposal_no_model_call"
+      },
+      "created_at": "2026-10-20T20:08:51.002015+00:00"
+    },
+    {
+      "id": 4324,
+      "campaign_id": 46,
+      "flow": "AZIENDE",
+      "kind": "plan",
+      "key": "7448",
+      "body": {
+        "reason": "Provare due ipotesi distinte in Veneto, alternando scoperta proattiva e domanda esplicita. Evitare i filoni già esplorati di agriturismi, alimentare e portfolio; nessuna opportunità sarà qualificata senza lettura delle fonti originali.",
+        "queries": [
+          {
+            "query": "Veneto produttore arredi su misura per alberghi sito ufficiale",
+            "strategy": "official_company_sector_region",
+            "objective": "Individuare produttori operativi e verificare opportunità commercialmente motivate per un sito completo.",
+            "hypothesis": "Un produttore di arredi alberghieri su misura potrebbe avere un percorso digitale di richiesta progetto non adeguato alla propria offerta commerciale.",
+            "missing": "Identità ufficiale, produzione effettiva, territorio servito e prove osservabili di ostacoli nel percorso di presentazione e richiesta progetto; domanda e budget restano sconosciuti.",
+            "expected_source": "Sito ufficiale del produttore, pagine dedicate alle forniture alberghiere e alla richiesta di progetto.",
+            "success": "Identificare un produttore e documentare un limite funzionale rilevante che motivi un intervento complessivo, distinguendo l'opportunità proattiva da una richiesta dichiarata.",
+            "stop_condition": "Scartare rivenditori non pertinenti e portfolio di fornitori web. Fermare questa ipotesi se le pagine originali mostrano un percorso adeguato o nessuna criticità commerciale verificabile.",
+            "query_validation": {
+              "query": "Veneto produttore arredi su misura per alberghi sito ufficiale",
+              "original_query": "Veneto produttore arredi su misura per alberghi sito ufficiale",
+              "allowed": true,
+              "repairs": []
+            },
+            "channel": "AZIENDE",
+            "commercial_policy": {
+              "allowed": true,
+              "intents": [
+                "official_company_investigation_not_declared_demand"
+              ],
+              "branch_count": 1,
+              "basis": "search_direction_only_originals_still_required"
+            },
+            "query_family": "produttore arredi su misura per alberghi sito ufficiale",
+            "page": 1,
+            "strategy_id": "official_company_sector_region",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          },
+          {
+            "query": "Veneto azienda cerca fornitore sviluppo portale clienti",
+            "strategy": "explicit_complete_project",
+            "objective": "Trovare una richiesta aziendale rivolta a un fornitore esterno per sviluppare un portale clienti.",
+            "hypothesis": "Un'azienda veneta potrebbe aver pubblicato una richiesta di sviluppo esterno per un portale clienti con perimetro progettuale autonomo.",
+            "missing": "Azienda richiedente, fonte originale, attualità della richiesta, apertura a professionisti esterni, funzionalità previste e perimetro completo; budget sconosciuto.",
+            "expected_source": "Avviso o richiesta pubblicata dall'azienda committente sul proprio sito ufficiale.",
+            "success": "Verificare una richiesta attribuibile al committente per la realizzazione di un portale, aperta a fornitori esterni e non limitata a un'assunzione o a manutenzione occasionale.",
+            "stop_condition": "Scartare offerte di servizi, annunci esclusivamente dipendenti e progetti già conclusi. Se i risultati sono vuoti o non pertinenti, chiudere questa formulazione senza dedurre l'assenza di domanda.",
+            "query_validation": {
+              "query": "Veneto azienda cerca fornitore sviluppo portale clienti",
+              "original_query": "Veneto azienda cerca fornitore sviluppo portale clienti",
+              "allowed": true,
+              "repairs": []
+            },
+            "channel": "AZIENDE",
+            "commercial_policy": {
+              "allowed": true,
+              "intents": [
+                "request_or_invitation_to_verify"
+              ],
+              "branch_count": 1,
+              "basis": "search_direction_only_originals_still_required"
+            },
+            "query_family": "azienda cerca fornitore sviluppo portale clienti",
+            "page": 1,
+            "strategy_id": "explicit_complete_project",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          }
+        ],
+        "rejected_queries": [],
+        "invalid_proposals": [],
+        "chosen": {
+          "query": "Veneto azienda cerca fornitore sviluppo portale clienti",
+          "strategy": "explicit_complete_project",
+          "objective": "Trovare una richiesta aziendale rivolta a un fornitore esterno per sviluppare un portale clienti.",
+          "hypothesis": "Un'azienda veneta potrebbe aver pubblicato una richiesta di sviluppo esterno per un portale clienti con perimetro progettuale autonomo.",
+          "missing": "Azienda richiedente, fonte originale, attualità della richiesta, apertura a professionisti esterni, funzionalità previste e perimetro completo; budget sconosciuto.",
+          "expected_source": "Avviso o richiesta pubblicata dall'azienda committente sul proprio sito ufficiale.",
+          "success": "Verificare una richiesta attribuibile al committente per la realizzazione di un portale, aperta a fornitori esterni e non limitata a un'assunzione o a manutenzione occasionale.",
+          "stop_condition": "Scartare offerte di servizi, annunci esclusivamente dipendenti e progetti già conclusi. Se i risultati sono vuoti o non pertinenti, chiudere questa formulazione senza dedurre l'assenza di domanda.",
+          "query_validation": {
+            "query": "Veneto azienda cerca fornitore sviluppo portale clienti",
+            "original_query": "Veneto azienda cerca fornitore sviluppo portale clienti",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "AZIENDE",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "azienda cerca fornitore sviluppo portale clienti",
+          "page": 1,
+          "strategy_id": "AZIENDE:open_web:project_request:unspecified",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploitation",
+          "memory_adjustment": 0,
+          "memory_samples": 0,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 30
+        },
+        "basis": "model_plan_with_memory_ranking"
+      },
+      "created_at": "2026-10-20T20:03:55.642847+00:00"
+    },
+    {
+      "id": 4333,
+      "campaign_id": 46,
+      "flow": "NEWS",
+      "kind": "plan",
+      "key": "7452",
+      "body": {
+        "reason": "Testare un cambio concreto di canale commerciale nel settore calzaturiero, distinto dalle precedenti ricerche generiche su espansioni e prodotti. L’apertura sarà solo un segnale: occorre verificare separatamente un problema digitale pertinente.",
+        "queries": [],
+        "rejected_queries": [
+          {
+            "query": "Veneto calzaturificio apre primo spaccio aziendale 2026",
+            "allowed": false,
+            "reason": "query_commercial_direction_missing",
+            "instruction": "The query itself must seek an invitation/request or a specific company event. For proactive discovery use official_company_sector_region with sector and territory. A generic web topic, provider partnership slogan or funding is not evidence of demand."
+          }
+        ],
+        "invalid_proposals": [],
+        "chosen": null,
+        "basis": "model_plan_with_memory_ranking"
+      },
+      "created_at": "2026-10-20T20:05:05.413212+00:00"
+    },
+    {
+      "id": 4329,
+      "campaign_id": 46,
+      "flow": "SOCIAL",
+      "kind": "plan",
+      "key": "7450",
+      "body": {
+        "reason": "Le ricerche precedenti non hanno prodotto richieste verificate. Testare inviti tecnici esterni di agenzie, coprendo LinkedIn e Instagram con due ricerche distinte; errori tecnici e originali non letti non dimostrano assenza di domanda.",
+        "queries": [
+          {
+            "query": "site:linkedin.com/posts Veneto agenzia cerchiamo sviluppatore esterno applicazioni web",
+            "strategy": "linkedin_public_request",
+            "objective": "Trovare un'agenzia identificabile che inviti sviluppatori esterni a collaborare su applicazioni web.",
+            "hypothesis": "Un'agenzia veneta ha pubblicato un invito originale a collaboratori tecnici esterni per lo sviluppo di applicazioni web, distinto da un'assunzione.",
+            "missing": "Identità dell'agenzia richiedente, originale leggibile, data, natura esterna e retribuita della collaborazione, ammissibilità di un freelance italiano.",
+            "expected_source": "Post LinkedIn pubblico originale dell'agenzia o di un suo rappresentante identificabile.",
+            "success": "L'originale attribuisce all'agenzia una richiesta esplicita di sviluppo web esterno; eventuali incarichi attivi e compensi sono registrati solo se documentati.",
+            "stop_condition": "Scartare autopromozione, ripubblicazioni anonime e assunzioni esclusive. Se emergono solo inviti permanenti, classificarli come opportunità di contatto, non come incarichi attivi; se l'originale è inaccessibile, lasciare la richiesta non verificata.",
+            "query_validation": {
+              "query": "site:linkedin.com/posts Veneto agenzia cerchiamo sviluppatore esterno applicazioni web",
+              "original_query": "site:linkedin.com/posts Veneto agenzia cerchiamo sviluppatore esterno applicazioni web",
+              "allowed": true,
+              "repairs": []
+            },
+            "channel": "SOCIAL",
+            "commercial_policy": {
+              "allowed": true,
+              "intents": [
+                "request_or_invitation_to_verify"
+              ],
+              "branch_count": 1,
+              "basis": "search_direction_only_originals_still_required"
+            },
+            "query_family": "site:linkedin.com posts agenzia cerca sviluppatore esterno applicazioni web",
+            "page": 1,
+            "strategy_id": "linkedin_public_request",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          },
+          {
+            "query": "site:instagram.com Veneto agenzia cerchiamo sviluppatore freelance WordPress",
+            "strategy": "instagram_public_request",
+            "objective": "Individuare inviti pubblici di agenzie a sviluppatori WordPress freelance su Instagram.",
+            "hypothesis": "Un'agenzia veneta usa Instagram per cercare una collaborazione tecnica freelance WordPress, anziché promuovere i propri servizi.",
+            "missing": "Agenzia richiedente identificabile, post originale leggibile, data della richiesta, attività tecnica richiesta, natura retribuita e accessibilità per un freelance italiano.",
+            "expected_source": "Post Instagram pubblico originale dell'agenzia, leggibile senza login o aggiramenti.",
+            "success": "Il post originale contiene un invito esplicito a uno sviluppatore esterno e permette di attribuire la richiesta all'agenzia; distingue una collaborazione continuativa da un progetto attivo.",
+            "stop_condition": "Scartare offerte di servizi, ricerche di partner commerciali e annunci esclusivamente dipendenti. Non qualificare sulla sola anteprima indicizzata; se gli originali restano illeggibili, interrompere questa pista senza dedurre assenza di domanda.",
+            "query_validation": {
+              "query": "site:instagram.com Veneto agenzia cerchiamo sviluppatore freelance WordPress",
+              "original_query": "site:instagram.com Veneto agenzia cerchiamo sviluppatore freelance WordPress",
+              "allowed": true,
+              "repairs": []
+            },
+            "channel": "SOCIAL",
+            "commercial_policy": {
+              "allowed": true,
+              "intents": [
+                "request_or_invitation_to_verify"
+              ],
+              "branch_count": 1,
+              "basis": "search_direction_only_originals_still_required"
+            },
+            "query_family": "site:instagram.com agenzia cerca sviluppatore freelance wordpress",
+            "page": 1,
+            "strategy_id": "instagram_public_request",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          }
+        ],
+        "rejected_queries": [],
+        "invalid_proposals": [],
+        "chosen": {
+          "query": "site:linkedin.com/posts Veneto agenzia cerchiamo sviluppatore esterno applicazioni web",
+          "strategy": "linkedin_public_request",
+          "objective": "Trovare un'agenzia identificabile che inviti sviluppatori esterni a collaborare su applicazioni web.",
+          "hypothesis": "Un'agenzia veneta ha pubblicato un invito originale a collaboratori tecnici esterni per lo sviluppo di applicazioni web, distinto da un'assunzione.",
+          "missing": "Identità dell'agenzia richiedente, originale leggibile, data, natura esterna e retribuita della collaborazione, ammissibilità di un freelance italiano.",
+          "expected_source": "Post LinkedIn pubblico originale dell'agenzia o di un suo rappresentante identificabile.",
+          "success": "L'originale attribuisce all'agenzia una richiesta esplicita di sviluppo web esterno; eventuali incarichi attivi e compensi sono registrati solo se documentati.",
+          "stop_condition": "Scartare autopromozione, ripubblicazioni anonime e assunzioni esclusive. Se emergono solo inviti permanenti, classificarli come opportunità di contatto, non come incarichi attivi; se l'originale è inaccessibile, lasciare la richiesta non verificata.",
+          "query_validation": {
+            "query": "site:linkedin.com/posts Veneto agenzia cerchiamo sviluppatore esterno applicazioni web",
+            "original_query": "site:linkedin.com/posts Veneto agenzia cerchiamo sviluppatore esterno applicazioni web",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "SOCIAL",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "site:linkedin.com posts agenzia cerca sviluppatore esterno applicazioni web",
+          "page": 1,
+          "strategy_id": "SOCIAL:linkedin:external_invitation:unspecified",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploration",
+          "memory_adjustment": 0.0,
+          "memory_samples": 1,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 71
+        },
+        "basis": "model_plan_with_memory_ranking"
+      },
+      "created_at": "2026-10-20T20:04:28.098933+00:00"
+    },
+    {
+      "id": 4402,
+      "campaign_id": 46,
+      "flow": "SOCIAL",
+      "kind": "plan",
+      "key": "7465",
+      "body": {
+        "reason": "Proposta AI già salvata e rivalidata sugli esiti attuali.",
+        "queries": [
+          {
+            "query": "site:instagram.com Veneto agenzia cerchiamo sviluppatore freelance WordPress",
+            "strategy": "instagram_public_request",
+            "objective": "Individuare inviti pubblici di agenzie a sviluppatori WordPress freelance su Instagram.",
+            "hypothesis": "Un'agenzia veneta usa Instagram per cercare una collaborazione tecnica freelance WordPress, anziché promuovere i propri servizi.",
+            "missing": "Agenzia richiedente identificabile, post originale leggibile, data della richiesta, attività tecnica richiesta, natura retribuita e accessibilità per un freelance italiano.",
+            "expected_source": "Post Instagram pubblico originale dell'agenzia, leggibile senza login o aggiramenti.",
+            "success": "Il post originale contiene un invito esplicito a uno sviluppatore esterno e permette di attribuire la richiesta all'agenzia; distingue una collaborazione continuativa da un progetto attivo.",
+            "stop_condition": "Scartare offerte di servizi, ricerche di partner commerciali e annunci esclusivamente dipendenti. Non qualificare sulla sola anteprima indicizzata; se gli originali restano illeggibili, interrompere questa pista senza dedurre assenza di domanda.",
+            "query_validation": {
+              "query": "site:instagram.com Veneto agenzia cerchiamo sviluppatore freelance WordPress",
+              "original_query": "site:instagram.com Veneto agenzia cerchiamo sviluppatore freelance WordPress",
+              "allowed": true,
+              "repairs": []
+            },
+            "channel": "SOCIAL",
+            "commercial_policy": {
+              "allowed": true,
+              "intents": [
+                "request_or_invitation_to_verify"
+              ],
+              "branch_count": 1,
+              "basis": "search_direction_only_originals_still_required"
+            },
+            "query_family": "site:instagram.com agenzia cerca sviluppatore freelance wordpress",
+            "page": 1,
+            "strategy_id": "instagram_public_request",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          }
+        ],
+        "chosen": {
+          "query": "site:instagram.com Veneto agenzia cerchiamo sviluppatore freelance WordPress",
+          "strategy": "instagram_public_request",
+          "objective": "Individuare inviti pubblici di agenzie a sviluppatori WordPress freelance su Instagram.",
+          "hypothesis": "Un'agenzia veneta usa Instagram per cercare una collaborazione tecnica freelance WordPress, anziché promuovere i propri servizi.",
+          "missing": "Agenzia richiedente identificabile, post originale leggibile, data della richiesta, attività tecnica richiesta, natura retribuita e accessibilità per un freelance italiano.",
+          "expected_source": "Post Instagram pubblico originale dell'agenzia, leggibile senza login o aggiramenti.",
+          "success": "Il post originale contiene un invito esplicito a uno sviluppatore esterno e permette di attribuire la richiesta all'agenzia; distingue una collaborazione continuativa da un progetto attivo.",
+          "stop_condition": "Scartare offerte di servizi, ricerche di partner commerciali e annunci esclusivamente dipendenti. Non qualificare sulla sola anteprima indicizzata; se gli originali restano illeggibili, interrompere questa pista senza dedurre assenza di domanda.",
+          "query_validation": {
+            "query": "site:instagram.com Veneto agenzia cerchiamo sviluppatore freelance WordPress",
+            "original_query": "site:instagram.com Veneto agenzia cerchiamo sviluppatore freelance WordPress",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "SOCIAL",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "site:instagram.com agenzia cerca sviluppatore freelance wordpress",
+          "page": 1,
+          "strategy_id": "SOCIAL:social:external_invitation:website",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploitation",
+          "memory_adjustment": 0.0,
+          "memory_samples": 2,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 72
+        },
+        "basis": "revalidated_saved_proposal_no_model_call"
+      },
+      "created_at": "2026-10-20T20:08:48.054703+00:00"
+    },
+    {
+      "id": 4331,
+      "campaign_id": 46,
+      "flow": "STARTUPS",
+      "kind": "plan",
+      "key": "7451",
+      "body": {
+        "reason": "Le ricerche precedenti non hanno prodotto domanda verificata. Propongo due verifiche distinte in Veneto: incarichi esterni per MVP e ricerca di cofondatori tecnici. La seconda resta separata dalle opportunità retribuite; nessuna delle due presuppone budget o progetti attivi.",
+        "queries": [
+          {
+            "query": "startup Veneto cerchiamo cofounder tecnico web app",
+            "strategy": "technical_cofounder",
+            "objective": "Individuare una ricerca esplicita di cofondatore tecnico per una web app, distinta dagli incarichi professionali.",
+            "hypothesis": "Una startup veneta può pubblicare una ricerca di cofondatore tecnico legata allo sviluppo ancora incompleto di una web app.",
+            "missing": "Nome completo della startup, progetto concreto, stato di sviluppo, attualità dell'invito, impegno richiesto e condizioni economiche o societarie.",
+            "expected_source": "Pagina della startup o annuncio originale del fondatore con attribuzione verificabile.",
+            "success": "Una fonte originale collega una startup identificata a una richiesta di cofondatore tecnico per sviluppare una web app. Registrare separatamente equity, eventuale compenso documentato e condizioni sconosciute.",
+            "stop_condition": "Scartare networking generico, ricerca di investitori, partner commerciali e offerte di lavoro esclusivamente dipendente. Non classificare la partecipazione societaria come commissione retribuita.",
+            "query_validation": {
+              "query": "startup Veneto cerchiamo cofounder tecnico web app",
+              "original_query": "startup Veneto cerchiamo cofounder tecnico web app",
+              "allowed": true,
+              "repairs": []
+            },
+            "channel": "STARTUPS",
+            "commercial_policy": {
+              "allowed": true,
+              "intents": [
+                "request_or_invitation_to_verify"
+              ],
+              "branch_count": 1,
+              "basis": "search_direction_only_originals_still_required"
+            },
+            "query_family": "startup cerca cofounder tecnico web app",
+            "page": 1,
+            "strategy_id": "technical_cofounder",
+            "expected_cost": {
+              "serper_requests": 1,
+              "http_reads": "successive, entro quota"
+            }
+          }
+        ],
+        "rejected_queries": [
+          {
+            "query": "startup Veneto sviluppo MVP incarico freelance -site:linkedin.com",
+            "allowed": false,
+            "reason": "query_commercial_direction_missing",
+            "instruction": "The query itself must seek an invitation/request or a specific company event. For proactive discovery use official_company_sector_region with sector and territory. A generic web topic, provider partnership slogan or funding is not evidence of demand."
+          }
+        ],
+        "invalid_proposals": [],
+        "chosen": {
+          "query": "startup Veneto cerchiamo cofounder tecnico web app",
+          "strategy": "technical_cofounder",
+          "objective": "Individuare una ricerca esplicita di cofondatore tecnico per una web app, distinta dagli incarichi professionali.",
+          "hypothesis": "Una startup veneta può pubblicare una ricerca di cofondatore tecnico legata allo sviluppo ancora incompleto di una web app.",
+          "missing": "Nome completo della startup, progetto concreto, stato di sviluppo, attualità dell'invito, impegno richiesto e condizioni economiche o societarie.",
+          "expected_source": "Pagina della startup o annuncio originale del fondatore con attribuzione verificabile.",
+          "success": "Una fonte originale collega una startup identificata a una richiesta di cofondatore tecnico per sviluppare una web app. Registrare separatamente equity, eventuale compenso documentato e condizioni sconosciute.",
+          "stop_condition": "Scartare networking generico, ricerca di investitori, partner commerciali e offerte di lavoro esclusivamente dipendente. Non classificare la partecipazione societaria come commissione retribuita.",
+          "query_validation": {
+            "query": "startup Veneto cerchiamo cofounder tecnico web app",
+            "original_query": "startup Veneto cerchiamo cofounder tecnico web app",
+            "allowed": true,
+            "repairs": []
+          },
+          "channel": "STARTUPS",
+          "commercial_policy": {
+            "allowed": true,
+            "intents": [
+              "request_or_invitation_to_verify"
+            ],
+            "branch_count": 1,
+            "basis": "search_direction_only_originals_still_required"
+          },
+          "query_family": "startup cerca cofounder tecnico web app",
+          "page": 1,
+          "strategy_id": "STARTUPS:open_web:project_request:webapp",
+          "expected_cost": {
+            "serper_requests": 1,
+            "http_reads": "successive, entro quota"
+          },
+          "selection": "exploitation",
+          "memory_adjustment": 0.0,
+          "memory_samples": 3,
+          "ranking_basis": "stable_strategy_family_observed_outcomes",
+          "selection_index": 62
+        },
+        "basis": "model_plan_with_memory_ranking"
+      },
+      "created_at": "2026-10-20T20:04:46.908330+00:00"
+    }
+  ],
+  "runs": [
+    {
+      "campaign_id": 46,
+      "engine": "AGENCIES",
+      "cursor": 3,
+      "state": "running",
+      "error": null
+    },
+    {
+      "campaign_id": 46,
+      "engine": "AZIENDE",
+      "cursor": 1,
+      "state": "running",
+      "error": null
+    },
+    {
+      "campaign_id": 46,
+      "engine": "NEWS",
+      "cursor": 2,
+      "state": "blocked",
+      "error": "Pianificazione non recuperata: capacity_reserved_for_pending_work"
+    },
+    {
+      "campaign_id": 46,
+      "engine": "SOCIAL",
+      "cursor": 3,
+      "state": "blocked",
+      "error": "Pianificazione non recuperata: campaign_budget"
+    },
+    {
+      "campaign_id": 46,
+      "engine": "STARTUPS",
+      "cursor": 1,
+      "state": "running",
+      "error": null
+    }
+  ],
+  "campaign_message": "Verifiche differite: le fonti richiedono una pausa. Riprendi dopo 2026-10-20T20:12:11.078188+00:00; risultati conservati, nessun tentativo durante il blocco."
+}

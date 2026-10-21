@@ -41,10 +41,14 @@ class CompanyWeb(ResearchWeb):
     def get(self,url,refresh=False):
         from .direct_channels import DOCUMENT_PATH
         from urllib.parse import unquote
+        from .content_policy import require_non_pdf
+        require_non_pdf(url)
         if DOCUMENT_PATH.search(unquote(url)):raise ValueError('Documento allegato escluso dalla ricerca clienti')
         page=super().get(url,refresh)
-        if page.get('plain_text') or 'application/pdf' in page.get('content_type','').lower():
-            raise ValueError('Documento PDF escluso dalla ricerca clienti, anche nella cache')
+        require_non_pdf(page)
+        if page.get('plain_text'):
+            from .content_policy import ExcludedPDF
+            raise ExcludedPDF(url)
         return page
 
 def text_with_legal(html):
@@ -62,7 +66,11 @@ def identity_from(pages):
     home=pages[0];parsed=parse_page(home);host=domain(home['url']);text='\n'.join(text_with_legal(p['html']) for p in pages)
     def usable_name(value):
         return isinstance(value,str) and bool(value.strip()) and not re.match(r'https?://|www\.',value,re.I) and value.casefold()!=host.casefold()
-    legal=None;name=parsed.get('name') if usable_name(parsed.get('name')) else None;declared_legal_name=None;location=None;country=None;contacts=[];addresses=[];owned_addresses=[]
+    legal=None;name=parsed.get('name') if usable_name(parsed.get('name')) else None;declared_legal_name=None;location=None;country=None;contacts=[];addresses=[];owned_addresses=[];legal_proofs=[]
+    def legal_proof(value,page,method,quote):
+        legal_proofs.append({'legal_id':'IT'+re.sub(r'\D','',value),'url':page['url'],
+            'checked_at':page['checked_at'],'content_hash':digest(page['html']),
+            'method':method,'quote':quote,'original':True})
     for page in pages:
         original=parse_page(page)
         pp=parse_page({**page,'html':identity_text(page,original)});contacts.extend(pp['contacts'])
@@ -77,7 +85,9 @@ def identity_from(pages):
                     if isinstance(value_country,dict):value_country=value_country.get('name')
                     if isinstance(value_country,str):country=value_country.strip()
                 value=n.get('vatID') or n.get('taxID')
-                if isinstance(value,str) and re.fullmatch(r'(?:IT\s*)?\d{11}',value.strip(),re.I):legal=re.sub(r'\D','',value)
+                if isinstance(value,str) and re.fullmatch(r'(?:IT\s*)?\d{11}',value.strip(),re.I):
+                    legal=re.sub(r'\D','',value)
+                    legal_proof(value,page,'owned_organization_schema',value)
         # Include publicly printed addresses, but not arbitrary place names in news paragraphs.
         raw=Document(identity_text(page,original)).text
         holder=re.search(r'titolare del trattamento(?: dei dati personali)?\s+(?:è|e[’\'])\s+([A-ZÀ-Ý][\wÀ-ÿ &’\'.-]{1,90}?\s+(?:S\.?r\.?l\.?|S\.?p\.?A\.?))(?=\s|[,(]|$)',raw,re.I)
@@ -91,7 +101,9 @@ def identity_from(pages):
             if re.search(r'\b(?:via|viale|piazza|sede legale|sede operativa)\b',line,re.I) and not re.search(r'\b\d{5}\b|\([A-Z]{2}\)',line):line=' '.join(lines[index:index+3])
             if re.search(r'\b(?:via|viale|piazza|sede legale|sede operativa)\b',line,re.I) and (re.search(r'\b\d{5}\b',line) or re.search(r'\([A-Z]{2}\)',line)):addresses.append(line[:500])
         match=re.search(r'\b(?:partita\s*iva|p(?:art)?\s*\.?\s*i\s*\.?\s*v\s*\.?\s*a\s*\.?|vat(?:\s*(?:id|number))?)(?:\s*/\s*cod(?:ice)?\.?\s*fisc(?:ale)?\.?)?\s*[:.\-]?\s*(?:IT\s*)?(\d{11})\b',raw,re.I)
-        if match:legal=legal or match[1]
+        if match:
+            legal=legal or match[1]
+            legal_proof(match[1],page,'owned_legal_text',match[0])
         for email in re.findall(r"(?<![\w@])[\w.!#$%&'*+/=?^`{|}~-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+",raw):
             # Adjacent HTML label + mailto text can render as "Emailinfo@...".
             # Keep the explicit published address, not that extraction artefact.
@@ -113,6 +125,11 @@ def identity_from(pages):
         # A contact form is a usable channel; no submission is attempted.
         if pp['doc'].forms and re.search(r'contatt|preventiv|richied|contact',page['url'],re.I):contacts.append({'type':'form','value':page['url'],'url':page['url'],'checked_at':page['checked_at'],'basis':'Modulo aziendale pubblico, non inviato'})
     if declared_legal_name:name=declared_legal_name
+    # A literal owner declaration outranks a local SEO heading. Keep its
+    # provenance; company attribution to a publisher is checked separately.
+    from .agent6.completion import legal_identity
+    owner_name=legal_identity(text)
+    if owner_name:name=owner_name['name']
     if not name:
         candidate=re.split(r'\s[|–—-]\s',parsed['title'])[0].strip()
         if candidate and not re.fullmatch(r'home(?:page)?|contatti|benvenuti|index',candidate,re.I):name=candidate[:180]
@@ -139,7 +156,9 @@ def identity_from(pages):
     identity_contacts=[c for c in contacts if re.search(r'/privacy|/cookie|/legal',urlsplit(c.get('url','')).path,re.I)]
     contacts=[c for c in contacts if c not in identity_contacts]
     verified=bool(name and ((legal and (location or own_email)) or (location and own_email)))
-    return {'name':name or host,'website':urljoin(home['url'],'/'),'legal_id':'IT'+legal if legal else None,'location':location,'region':region_of(location or '') if not country or normalize(country) in ('it','ita','italia','italy') else None,'country':country,'regions':sorted(regions),'locations':list(dict.fromkeys(choices)),'contacts':contacts,'identity_contacts':identity_contacts,'sector':parsed.get('sector'),'description':(parsed['doc'].meta.get('description') or parsed['doc'].meta.get('og:description') or '')[:350],'description_basis':'Descrizione pubblicata dal sito, non verificata come promessa commerciale.','group':'agencies' if any(agency_identity(parse_page(p)) for p in pages) else 'direct','identity_status':'verified' if verified else 'unknown','basis':'Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.' if verified else 'Identità o collegamento al dominio non sufficientemente dimostrati.','source_url':home['url']}
+    return {'name':name or host,'website':urljoin(home['url'],'/'),'legal_id':'IT'+legal if legal else None,
+        'legal_id_evidence':legal_proofs,'legal_id_conflicts':sorted({p['legal_id'] for p in legal_proofs}) if len({p['legal_id'] for p in legal_proofs})>1 else [],
+        'location':location,'region':region_of(location or '') if not country or normalize(country) in ('it','ita','italia','italy') else None,'country':country,'regions':sorted(regions),'locations':list(dict.fromkeys(choices)),'contacts':contacts,'identity_contacts':identity_contacts,'sector':parsed.get('sector'),'description':(parsed['doc'].meta.get('description') or parsed['doc'].meta.get('og:description') or '')[:350],'description_basis':'Descrizione pubblicata dal sito, non verificata come promessa commerciale.','group':'agencies' if any(agency_identity(parse_page(p)) for p in pages) else 'direct','identity_status':'verified' if verified else 'unknown','basis':'Nome, dati societari/indirizzo e contatti coerenti nelle pagine ufficiali.' if verified else 'Identità o collegamento al dominio non sufficientemente dimostrati.','source_url':home['url']}
 
 CLAIMS_SCHEMA={'type':'object','properties':{'claims':{'type':'array','maxItems':4,'items':{'type':'object','properties':{'document_id':{'type':'string'},'kind':{'type':'string','enum':['event','business','gap','condition','process','request','scope','counterevidence','budget','risk']},'quote':{'type':'string','maxLength':500}},'required':['document_id','kind','quote'],'additionalProperties':False}}},'required':['claims'],'additionalProperties':False}
 PROPOSAL_SCHEMA={'type':'object','properties':{
